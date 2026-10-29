@@ -99,6 +99,14 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .lk-minibar { display: none; margin-top: 0.3rem; }
 .lk-minibar .lk-bar { height: 0.5rem; }
 @container (max-width: 560px) { .lk-minibar { display: block; } }
+#lk-league tr.lk-detail { display: none; }
+@container (max-width: 560px) {
+  #lk-league tr.lk-detail { display: table-row; }
+  #lk-league tr.lk-main td { border-bottom: 0; padding-bottom: 0.1rem; }
+  #lk-league tr.lk-detail td { padding-top: 0; font-size: 0.75rem; color: var(--color-fg-muted); font-weight: 400; white-space: normal; line-height: 1.5; }
+  #lk-league tr.lk-detail span { display: inline-block; white-space: nowrap; margin-right: 0.75em; }
+  #lk-league tr.lk-detail b { font-weight: var(--cds-font-weight-medium); color: var(--color-fg); }
+}
 .lk-groups { display: none; gap: var(--cds-gap-xs); flex-wrap: wrap; margin: 0 0 var(--cds-gap-sm); }
 .lk-groups button { font: inherit; font-size: var(--cds-font-size-caption); border-radius: 999px; padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; border: 1px solid var(--color-border-line); background: var(--color-panel); color: var(--color-fg-muted); }
 .lk-groups button[aria-pressed="true"] { color: var(--color-fg); border-color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); }
@@ -981,6 +989,15 @@ function mkBar(val, se, ext, selected) {
   return bar;
 }
 // Phone layouts: copy each column's header into its cells as a label (stacked tables) and its group (chip tables)
+function detailRow(teamCode, sel, text) {  // text: [[label, value], ...]
+  const tr = document.createElement('tr');
+  tr.className = 'lk-detail lk-click' + (sel ? ' lk-sel' : ''); tr.dataset.team = teamCode;
+  tr.appendChild(document.createElement('td'));
+  const td = document.createElement('td'); td.colSpan = 8; td.className = 'lk-left';
+  text.forEach(([k, val]) => { const s = document.createElement('span'); s.textContent = k + ' '; const b = document.createElement('b'); b.textContent = val; s.appendChild(b); td.appendChild(s); });
+  tr.appendChild(td);
+  return tr;
+}
 function phoneLayout(table) {
   const ths = [...table.querySelectorAll('thead th')];
   table.querySelectorAll('thead th').forEach((th) => { if (th.dataset.g) th.classList.add('lk-g' + th.dataset.g); });
@@ -1062,7 +1079,9 @@ dash.onData(() => {
       cell(tr, sgn(r.sos), 'lk-wide');
       cell(tr, r.record);
       cell(tr, String(r.b2b), 'lk-wide');
+      tr.classList.add('lk-main');
       lBody.appendChild(tr);
+      lBody.appendChild(detailRow(r.team, r.team === team, [[raw ? 'Adjusted' : 'Results', sgn(r[alt])], ['Schedule', sgn(r.sos)], ['Back-to-backs', String(r.b2b)]]));
     });
   } else if (m.status === 'error') { fail(lBody); }
 
