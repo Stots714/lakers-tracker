@@ -1,0 +1,44 @@
+[
+ {
+  "id": "results",
+  "title": "League results and schedule",
+  "description": "Every 2026-27 result from Oct 20 to Oct 28 (date, away, home, scores, overtime) plus the league schedule through Nov 20. Oct 20-26 and Oct 28 from Land of Basketball's October scores page (Oct 20-26 checked against StatMuse team points, games played and standings; Lakers-Clippers Oct 28 also matches the StatMuse box score). Oct 27 finals from ESPN (Celtics-Nets, Knicks-Pistons, Spurs-Kings) and VAVEL and Yardbarker (Trail Blazers 136, Lakers 129).",
+  "file": "data/results.csv",
+  "updated": "2026-10-29T14:40:00Z"
+ },
+ {
+  "id": "team_stats",
+  "title": "Team box score totals",
+  "description": "Each team's own season totals (FGM, FGA, 3PM, 3PA, FTM, FTA, OREB, DREB, TOV) from StatMuse's team tables, with a 'through' date per team. The Lakers and Clippers include Oct 28 and Portland includes Oct 27 (added from StatMuse final box scores); the others run through Oct 26 because StatMuse's tables had not refreshed. 28 teams; the Bulls and Heat are not in StatMuse's free tables.",
+  "file": "data/team_stats.csv",
+  "updated": "2026-10-29T14:40:00Z"
+ },
+ {
+  "id": "lakers_box",
+  "title": "Lakers box scores",
+  "description": "Team lines for both sides of each Lakers game: Oct 21 and Oct 23 from FantasyData box scores, Oct 27 and Oct 28 from StatMuse final box scores. Oct 28 Lakers turnovers are the team total of 21 (19 charged to players plus 2 team turnovers). The Oct 25 game at Utah is not on file yet.",
+  "file": "data/lakers_box.csv",
+  "updated": "2026-10-29T14:40:00Z"
+ },
+ {
+  "id": "absences",
+  "title": "Key absences",
+  "description": "Absences confirmed by a cited injury report or news story: team, player, role, dates and source. Not a full league injury list.",
+  "file": "data/absences.csv",
+  "updated": "2026-10-29T14:40:00Z"
+ },
+ {
+  "id": "lakers_schedule",
+  "title": "Lakers 2026-27 schedule",
+  "description": "All 80 scheduled Lakers games from the SportsBrackets schedule PDF; the 2 NBA Cup dates are not set yet. Matches the league schedule wherever they overlap.",
+  "file": "data/lakers_schedule.csv",
+  "updated": "2026-10-28T00:35:00Z"
+ },
+ {
+  "id": "teams",
+  "title": "NBA teams",
+  "description": "The 30 teams with their abbreviations and names.",
+  "file": "data/teams.csv",
+  "updated": "2026-10-28T00:35:00Z"
+ }
+]
