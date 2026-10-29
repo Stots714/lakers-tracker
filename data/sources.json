@@ -28,6 +28,13 @@
   "updated": "2026-10-29T17:30:00Z"
  },
  {
+  "id": "player_games",
+  "title": "Player game lines",
+  "description": "Every Lakers and Warriors player line, game by game, for Game Score form. Land of Basketball box scores (Oct 21-27) and StatMuse (Lakers Oct 28). Each game's player points add up to the final score, and the Lakers' five games add up to Basketball-Reference's season totals. The Warriors' Oct 28 game at Minnesota is not on file yet.",
+  "file": "data/player_games.csv",
+  "updated": "2026-10-29T18:40:00Z"
+ },
+ {
   "id": "lakers_players",
   "title": "Lakers player totals",
   "description": "Season totals per Lakers player through Oct 28, from Land of Basketball's per-game table times games played (they add up to the team totals; 2 team turnovers are not credited to players). BPM from Basketball-Reference: 2026-27 (revised Oct 29) where listed, and 2025-26.",
@@ -47,6 +54,13 @@
   "description": "Games, minutes and box plus-minus (this season and last) for every Lakers player and for players on the absences list, used to price absences into projections. Basketball-Reference advanced tables (2026-27 revised Oct 29; 2025-26); Lakers minutes from Land of Basketball.",
   "file": "data/player_impact.csv",
   "updated": "2026-10-29T17:30:00Z"
+ },
+ {
+  "id": "spotlight_notes",
+  "title": "Spotlight storyline notes",
+  "description": "Short, sourced storyline notes for the next Lakers game (each note names its source and links to it).",
+  "file": "data/spotlight_notes.csv",
+  "updated": "2026-10-29T18:40:00Z"
  },
  {
   "id": "absences",
