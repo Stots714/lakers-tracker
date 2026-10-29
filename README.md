@@ -32,3 +32,5 @@ Settings live in the address bar, so a link can open a specific view. For exampl
 | `data/*.csv` | Results and schedule, team box totals, Lakers box scores, absences, Lakers schedule, teams |
 | `data/sources.json` | Where each file comes from and when it was last updated |
 | `manifest.webmanifest`, `icons/` | Home-screen name and icon |
+| `tools/nba/` | Script that downloads NBA.com player data (on/off, lineups, shots, matchups, hustle) on your PC; see its README |
+| `data/nba/` | Files that script writes, when pushed |
