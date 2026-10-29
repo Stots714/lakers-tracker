@@ -1,0 +1,72 @@
+[
+ {
+  "id": "results",
+  "title": "League results and schedule",
+  "description": "Every 2026-27 result from Oct 20 to Oct 28 (date, away, home, scores, overtime) plus the league schedule through Nov 20. Oct 20-26 and Oct 28 from Land of Basketball's October scores page (Oct 20-26 checked against StatMuse team points, games played and standings; Lakers-Clippers Oct 28 also matches the StatMuse box score). Oct 27 finals from ESPN (Celtics-Nets, Knicks-Pistons, Spurs-Kings) and VAVEL and Yardbarker (Trail Blazers 136, Lakers 129).",
+  "file": "data/results.csv",
+  "updated": "2026-10-29T14:40:00Z"
+ },
+ {
+  "id": "team_stats",
+  "title": "Team box score totals",
+  "description": "Each team's own season totals (minutes, points, FGM, FGA, 3PM, 3PA, FTM, FTA, OREB, DREB, TOV, fouls) for all 30 teams through the Oct 28 games, from Basketball-Reference's 2026-27 season page (revised Oct 29). Every team's games and points match the results file, and league-wide team and opponent sums agree.",
+  "file": "data/team_stats.csv",
+  "updated": "2026-10-29T17:30:00Z"
+ },
+ {
+  "id": "opp_stats",
+  "title": "Opponent box score totals",
+  "description": "What each team's opponents put up, in season totals, for all 30 teams through the Oct 28 games, from Basketball-Reference's 2026-27 season page (revised Oct 29). Used for defense four factors, possessions and per-100 ratings.",
+  "file": "data/opp_stats.csv",
+  "updated": "2026-10-29T17:30:00Z"
+ },
+ {
+  "id": "lakers_box",
+  "title": "Lakers box scores",
+  "description": "Team lines for both sides of all five Lakers games: Oct 21 and 23 from FantasyData, Oct 25 from Land of Basketball (Jazz rebounds and turnovers as Basketball-Reference's season totals imply), Oct 27 and 28 from StatMuse. The five games add up exactly to Basketball-Reference's Lakers and Lakers-opponent season totals.",
+  "file": "data/lakers_box.csv",
+  "updated": "2026-10-29T17:30:00Z"
+ },
+ {
+  "id": "lakers_players",
+  "title": "Lakers player totals",
+  "description": "Season totals per Lakers player through Oct 28, from Land of Basketball's per-game table times games played (they add up to the team totals; 2 team turnovers are not credited to players). BPM from Basketball-Reference: 2026-27 (revised Oct 29) where listed, and 2025-26.",
+  "file": "data/lakers_players.csv",
+  "updated": "2026-10-29T17:30:00Z"
+ },
+ {
+  "id": "lakers_quarters",
+  "title": "Lakers quarter scores",
+  "description": "Points by quarter for both teams in each Lakers game: FantasyData (Oct 21, 23), Land of Basketball (Oct 25, 27), StatMuse (Oct 28). Each game's quarters add up to the final score.",
+  "file": "data/lakers_quarters.csv",
+  "updated": "2026-10-29T17:30:00Z"
+ },
+ {
+  "id": "player_impact",
+  "title": "Player impact for absences",
+  "description": "Games, minutes and box plus-minus (this season and last) for every Lakers player and for players on the absences list, used to price absences into projections. Basketball-Reference advanced tables (2026-27 revised Oct 29; 2025-26); Lakers minutes from Land of Basketball.",
+  "file": "data/player_impact.csv",
+  "updated": "2026-10-29T17:30:00Z"
+ },
+ {
+  "id": "absences",
+  "title": "Key absences",
+  "description": "Absences confirmed by a cited injury report or news story: team, player, role, dates and source. Not a full league injury list.",
+  "file": "data/absences.csv",
+  "updated": "2026-10-29T14:40:00Z"
+ },
+ {
+  "id": "lakers_schedule",
+  "title": "Lakers 2026-27 schedule",
+  "description": "All 80 scheduled Lakers games from the SportsBrackets schedule PDF; the 2 NBA Cup dates are not set yet. Matches the league schedule wherever they overlap.",
+  "file": "data/lakers_schedule.csv",
+  "updated": "2026-10-28T00:35:00Z"
+ },
+ {
+  "id": "teams",
+  "title": "NBA teams",
+  "description": "The 30 teams with their abbreviations and names.",
+  "file": "data/teams.csv",
+  "updated": "2026-10-28T00:35:00Z"
+ }
+]
