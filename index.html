@@ -97,6 +97,10 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .lk-method p, .lk-method li { font-size: var(--cds-font-size-body); line-height: 1.55; margin: 0 0 var(--cds-gap-sm); }
 .lk-method ul { padding-left: 1.2rem; margin: 0 0 var(--cds-gap-sm); }
 .lk-formula { font-family: var(--font-anthropic-serif); font-size: var(--cds-font-size-heading); margin: var(--cds-gap-sm) 0 var(--cds-gap-md); }
+.lk-scores { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 8.5rem), 1fr)); gap: var(--cds-gap-md); margin: var(--cds-gap-sm) 0 var(--cds-gap-md); }
+.lk-scores .lk-big { font-size: var(--cds-font-size-heading); }
+.lk-table tr.lk-total td { font-weight: var(--cds-font-weight-medium); color: var(--color-fg); border-top: 2px solid var(--color-fg-muted); }
+.lk-se { color: var(--color-fg-muted); font-weight: 400; }
 .lk-fail { display: flex; align-items: center; justify-content: center; gap: var(--cds-gap-xs); min-height: 6rem; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
 .lk-fail::before { content: ""; width: 0.375rem; height: 0.375rem; border-radius: 50%; background: var(--color-bad); }
 [data-dash-source-state=empty] { color: transparent; }
@@ -120,7 +124,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
   <header class="lk-head" id="top">
     <h1>Lakers schedule-adjusted tracker</h1>
     <p class="lk-mode" id="lk-updated">Loading…</p>
-    <p class="lk-take" id="takeaway"><span id="lk-take-team">—</span> rate <b data-source="model" data-field="rating" class="dash-skeleton">—</b>, ranked <span data-source="model" data-field="rank" class="dash-skeleton">—</span> of 30, after <b data-source="model" data-field="gp">—</b> games. Their results so far average <b data-source="model" data-field="raw">—</b> a game. <span id="lk-take-mode"></span></p>
+    <p class="lk-take" id="takeaway"><span id="lk-take-team">—</span> rate <b data-source="model" data-field="rating" class="dash-skeleton">—</b> <span class="lk-se">(± <span data-source="model" data-field="se">—</span>)</span>, ranked <span data-source="model" data-field="rank" class="dash-skeleton">—</span> of 30, after <b data-source="model" data-field="gp">—</b> games. Their results so far average <b data-source="model" data-field="raw">—</b> a game. <span id="lk-take-mode"></span></p>
   </header>
 
   <section class="lk-controls" id="controls" aria-label="Controls">
@@ -142,9 +146,10 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
   </section>
 
   <section class="lk-tiles" id="tiles" aria-label="Selected team">
-    <div class="lk-card lk-primary" id="tile-rating"><div class="lk-label">Rating</div><div class="lk-big dash-skeleton" data-source="model" data-field="rating">—</div><div class="lk-sub">Points per game vs an average team, neutral court, rested</div></div>
+    <div class="lk-card lk-primary" id="tile-rating"><div class="lk-label">Rating</div><div class="lk-big dash-skeleton" data-source="model" data-field="rating">—</div><div class="lk-sub">Points per game vs an average team, neutral court, rested. ± <span data-source="model" data-field="se">—</span> is one standard error.</div></div>
     <div class="lk-card" id="tile-raw"><div class="lk-label">Results so far</div><div class="lk-big dash-skeleton" data-source="model" data-field="raw">—</div><div class="lk-sub">Average margin, no adjustments</div></div>
     <div class="lk-card" id="tile-sos"><div class="lk-label">Schedule strength</div><div class="lk-big dash-skeleton" data-source="model" data-field="sos">—</div><div class="lk-sub">Average rating of opponents faced</div></div>
+    <div class="lk-card" id="tile-net"><div class="lk-label">Net per 100 possessions</div><div class="lk-big dash-skeleton" data-source="efficiency" data-field="net">—</div><div class="lk-sub">Offense <span data-source="efficiency" data-field="ortg">—</span> (<span data-source="efficiency" data-field="ortg_rank">—</span>) · Defense <span data-source="efficiency" data-field="drtg">—</span> (<span data-source="efficiency" data-field="drtg_rank">—</span>) · Pace <span data-source="efficiency" data-field="pace">—</span></div></div>
     <div class="lk-card" id="tile-record"><div class="lk-label">Record</div><div class="lk-big dash-skeleton" data-source="model" data-field="record">—</div><div class="lk-sub">Close games <span data-source="model" data-field="close">—</span> · Overtime <span data-source="model" data-field="ot">—</span></div></div>
   </section>
 
@@ -155,8 +160,9 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       <div><div class="lk-label">Date</div><div class="lk-big dash-skeleton" data-source="next_game" data-field="date_label">—</div></div>
       <div><div class="lk-label">Matchup</div><div class="lk-big dash-skeleton" data-source="next_game" data-field="matchup">—</div></div>
       <div><div class="lk-label">Projected Lakers margin</div><div class="lk-big dash-skeleton" data-source="next_game" data-field="proj">—</div></div>
+      <div><div class="lk-label">With known absences</div><div class="lk-big dash-skeleton" data-source="next_game" data-field="proj_adj">—</div></div>
     </div>
-    <div class="lk-eq" id="lk-eq">Lakers <b data-source="next_game" data-field="lal_rating">—</b> − <span data-source="next_game" data-field="opp_name">—</span> <b data-source="next_game" data-field="opp_rating">—</b> + home court <b data-source="next_game" data-field="hca_pts">—</b> + rest <b data-source="next_game" data-field="rest_pts">—</b> = <b data-source="next_game" data-field="proj">—</b><br><span data-source="next_game" data-field="rest_note">—</span><br><span data-source="next_game" data-field="absent_note">—</span></div>
+    <div class="lk-eq" id="lk-eq">Lakers <b data-source="next_game" data-field="lal_rating">—</b> − <span data-source="next_game" data-field="opp_name">—</span> <b data-source="next_game" data-field="opp_rating">—</b> + home court <b data-source="next_game" data-field="hca_pts">—</b> + rest <b data-source="next_game" data-field="rest_pts">—</b> = <b data-source="next_game" data-field="proj">—</b><br><span data-source="next_game" data-field="rest_note">—</span><br><span data-source="next_game" data-field="absent_note">—</span><br><span data-source="next_game" data-field="adj_note">—</span></div>
   </section>
 
   <section class="lk-card" id="league">
@@ -168,11 +174,35 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
           <th data-field="rank">#</th>
           <th data-field="name" class="lk-left">Team</th>
           <th data-field="rating" id="lk-th-main">Rating</th>
+          <th data-field="se">±</th>
           <th class="lk-barcell lk-wide" aria-hidden="true"></th>
           <th data-field="raw" class="lk-wide" id="lk-th-alt">Results</th>
           <th data-field="sos" class="lk-wide">Schedule</th>
           <th data-field="record">Record</th>
           <th data-field="b2b" class="lk-wide">Back-to-backs</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+
+  <section class="lk-card" id="efficiency">
+    <h2>Efficiency and defense</h2>
+    <p class="lk-note">Per 100 possessions, so fast and slow teams compare fairly, and the defense four factors: what opponents shoot (effective FG%), how often they turn it over, the share of defensive rebounds the team takes, and how often opponents get to the line. Ranks in brackets. Tap a team to select it.</p>
+    <div class="lk-tablewrap">
+      <table class="lk-table" id="lk-eff" data-source="efficiency" data-row-key="team">
+        <thead><tr>
+          <th data-field="name" class="lk-left">Team</th>
+          <th data-field="net">Net</th>
+          <th data-field="ortg">Off.</th>
+          <th data-field="drtg">Def.</th>
+          <th data-field="pace">Pace</th>
+          <th data-field="opp_efg">Opp. eFG%</th>
+          <th data-field="opp_tov_pct">Forced TOV%</th>
+          <th data-field="drb_pct">DRB%</th>
+          <th data-field="opp_ft_rate">Opp. FT/FGA</th>
+          <th data-field="pf_pg">Fouls/g</th>
         </tr></thead>
         <tbody></tbody>
       </table>
@@ -204,12 +234,84 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
           <th data-field="day_label" class="lk-left">Date</th>
           <th data-field="matchup" class="lk-left">Matchup</th>
           <th data-field="proj">Projected</th>
+          <th data-field="proj_adj">With absences</th>
           <th data-field="opp_rating">Opp. rating</th>
           <th data-field="flags" class="lk-left">Flags</th>
           <th data-field="absent" class="lk-left lk-wide">Known absences</th>
         </tr></thead>
         <tbody></tbody>
       </table>
+    </div>
+  </section>
+
+
+  <section class="lk-card" id="scorecard">
+    <h2>Projection scorecard</h2>
+    <p class="lk-note">Every game so far re-projected with ratings fit only on the games before it, under the adjustments chosen above, then compared with the result. The baseline is the simplest guess: the home team by 2.</p>
+    <div class="lk-scores">
+      <div><div class="lk-label">Games checked</div><div class="lk-big dash-skeleton" data-source="scorecard_summary" data-field="n">—</div></div>
+      <div><div class="lk-label">Average miss</div><div class="lk-big dash-skeleton" data-source="scorecard_summary" data-field="mae">—</div><div class="lk-sub">Baseline <span data-source="scorecard_summary" data-field="base_mae">—</span></div></div>
+      <div><div class="lk-label">Winner picked</div><div class="lk-big dash-skeleton" data-source="scorecard_summary" data-field="hit">—</div><div class="lk-sub">Baseline <span data-source="scorecard_summary" data-field="base_hit">—</span></div></div>
+    </div>
+    <div class="lk-tablewrap">
+      <table class="lk-table" id="lk-score" data-source="scorecard" data-row-key="variant,date,home">
+        <thead><tr>
+          <th data-field="date" class="lk-left">Date</th>
+          <th data-field="home" class="lk-left">Game</th>
+          <th data-field="proj">Projected</th>
+          <th data-field="actual">Actual</th>
+          <th data-field="miss">Miss</th>
+          <th data-field="hit" class="lk-left">Winner</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="lk-note" id="lk-score-note"></p>
+  </section>
+
+  <section class="lk-grid" id="lakers-detail">
+    <div class="lk-card" id="players">
+      <h2>Lakers players</h2>
+      <p class="lk-note">Season to date, sorted by minutes. TS% counts threes and free throws; USG% is the share of team plays a player finishes while on the floor; BPM is Basketball-Reference's box plus-minus (points per 100 possessions vs an average player). Blank where not yet published.</p>
+      <div class="lk-tablewrap">
+        <table class="lk-table" id="lk-players" data-source="players" data-row-key="player">
+          <thead><tr>
+            <th data-field="player" class="lk-left">Player</th>
+            <th data-field="g">G</th>
+            <th data-field="mpg">Min</th>
+            <th data-field="ppg">Pts</th>
+            <th data-field="ts">TS%</th>
+            <th data-field="usg">USG%</th>
+            <th data-field="rpg">Reb</th>
+            <th data-field="apg">Ast</th>
+            <th data-field="spg">Stl</th>
+            <th data-field="bpg">Blk</th>
+            <th data-field="topg">TOV</th>
+            <th data-field="pf36">PF/36</th>
+            <th data-field="bpm">BPM</th>
+            <th data-field="bpm_prior">BPM 25-26</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="lk-card" id="quarters">
+      <h2>Lakers by quarter</h2>
+      <p class="lk-note">Lakers points minus opponent points in each quarter. Big leads invite bench-heavy fourth quarters, so read the fourth-quarter column with the score in mind.</p>
+      <div class="lk-tablewrap">
+        <table class="lk-table" id="lk-quarters" data-source="quarters" data-row-key="date">
+          <thead><tr>
+            <th data-field="day_label" class="lk-left">Date</th>
+            <th data-field="opp" class="lk-left">Opp.</th>
+            <th data-field="q1">Q1</th>
+            <th data-field="q2">Q2</th>
+            <th data-field="q3">Q3</th>
+            <th data-field="q4">Q4</th>
+            <th data-field="total">Game</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </div>
   </section>
 
@@ -282,8 +384,12 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       <li><b>Rest</b>, B = 1.0 point against a team playing the second night of a back-to-back. Season-by-season estimates run from about 0.5 to 2 points (The Data Jocks).</li>
       <li><b>Small-sample shrinkage</b> adds the equivalent of 5 games of average play to every team, so a team's rating moves toward its results as it plays more. The 5 comes from game-to-game noise of about 12 points (Wayne Winston) and last season's spread of team strength, about 5.2–5.8 points (StatMuse 2025-26 net ratings). Turn it off to see results-only ratings, which swing wildly this early in the season.</li>
       <li>Ratings average zero across the league. Close games are decided by 5 points or fewer, or in overtime.</li>
+      <li><b>±</b> is one standard error, from game-to-game noise of 12 points and the shrinkage above. About two times in three, a team's true strength sits inside rating ± that number. With shrinkage off it is approximated as 12 ÷ √games.</li>
+      <li><b>Per 100 possessions.</b> Possessions ≈ FGA + 0.44 × FTA − offensive rebounds + turnovers, averaged over the team and its opponents. Pace is possessions per 48 minutes.</li>
+      <li><b>Scorecard.</b> For each game date, the ratings are refit using only earlier games, then each game that day is projected. Nothing from the game itself or later games leaks in.</li>
+      <li><b>With known absences (Proposed method).</b> A missing player's value is (his box plus-minus + 2) × his minutes per game ÷ 48, where +2 measures him against a replacement-level player. His BPM blends this season with last season, last season counting as 20 games. That value is scaled by the share of games he has played, because a team that has already played without him is already rated without him. Only absences on file are used.</li>
     </ul>
-    <p><b>Not built in, shown as context:</b> key absences, the four factors and three-point luck. Injuries are the biggest gap: a team missing a star is still rated on its full-strength games.</p>
+    <p><b>Not built in, shown as context:</b> the four factors, three-point luck, player stats and quarter splits. Absences adjust the projections only, shown next to the healthy projection, never the ratings themselves.</p>
     <p><b>Updating.</b> After each game night the scores, Lakers box scores, team totals and any new absences are added to the data files. Everything on this page is recalculated in your browser from those files.</p>
     <p><b>Raw margins</b> are each team's average point differential with no adjustment at all. Projections and the game log always use the adjusted rating.</p>
   </section>
@@ -323,9 +429,9 @@ dash.calc('schedule', {
 dash.calc('model', {
   inputs: ['schedule', 'teams'],
   title: 'Team ratings for every toggle setting',
-  description: 'Least squares on game margins with home court 2.0, back-to-back 1.0 and shrinkage of 5 games; one row per team for each of the 8 on/off settings.',
+  description: 'Least squares on game margins with home court 2.0, back-to-back 1.0 and shrinkage of 5 games; one row per team for each of the 8 on/off settings, with a standard error from game noise of 12 points.',
   fn: (schedule, teams) => {
-    const HCA = 2.0, B2B = 1.0, LAMBDA = 5;
+    const HCA = 2.0, B2B = 1.0, LAMBDA = 5, SIGMA = 12;
     const ids = teams.map((t) => t.team), names = new Map(teams.map((t) => [t.team, t.name])), ix = new Map(ids.map((t, i) => [t, i]));
     const played = schedule.filter((g) => g.played);
     const solve = (h, s, r) => {
@@ -336,6 +442,17 @@ dash.calc('model', {
         A[i][i]++; A[j][j]++; A[i][j]--; A[j][i]--; b[i] += y; b[j] -= y;
       }
       for (let i = 0; i < n; i++) A[i][i] += s ? LAMBDA : 1e-6;
+      // Diagonal of the inverse, for standard errors (shrinkage on)
+      const inv = A.map((row, i) => row.concat(ids.map((_, j) => (i === j ? 1 : 0))));
+      if (s) for (let c = 0; c < n; c++) {
+        let p = c;
+        for (let k = c + 1; k < n; k++) if (Math.abs(inv[k][c]) > Math.abs(inv[p][c])) p = k;
+        [inv[c], inv[p]] = [inv[p], inv[c]];
+        const d = inv[c][c];
+        for (let j = 0; j < 2 * n; j++) inv[c][j] /= d;
+        for (let k = 0; k < n; k++) if (k !== c && inv[k][c]) { const f = inv[k][c]; for (let j = 0; j < 2 * n; j++) inv[k][j] -= f * inv[c][j]; }
+      }
+      const varDiag = s ? inv.map((row, i) => row[n + i]) : null;
       for (let c = 0; c < n; c++) {
         let p = c;
         for (let k = c + 1; k < n; k++) if (Math.abs(A[k][c]) > Math.abs(A[p][c])) p = k;
@@ -345,11 +462,11 @@ dash.calc('model', {
       const x = new Array(n).fill(0);
       for (let i = n - 1; i >= 0; i--) { let v = b[i]; for (let j = i + 1; j < n; j++) v -= A[i][j] * x[j]; x[i] = v / A[i][i]; }
       const mean = x.reduce((a, v) => a + v, 0) / n;
-      return x.map((v) => v - mean);
+      return { x: x.map((v) => v - mean), varDiag };
     };
     const rows = [];
     for (const h of [1, 0]) for (const s of [1, 0]) for (const r of [1, 0]) {
-      const variant = 'h' + h + 's' + s + 'r' + r, x = solve(h, s, r);
+      const variant = 'h' + h + 's' + s + 'r' + r, fit = solve(h, s, r), x = fit.x;
       const order = ids.map((t, i) => [t, x[i]]).sort((a, b) => b[1] - a[1]).map((e) => e[0]);
       ids.forEach((t, i) => {
         const mine = played.filter((g) => g.home === t || g.away === t).map((g) => {
@@ -360,6 +477,7 @@ dash.calc('model', {
         const close = mine.filter((g) => Math.abs(g.m) <= 5 || g.ot);
         rows.push({
           variant, team: t, name: names.get(t), rating: x[i], rank: order.indexOf(t) + 1, gp: n, record: wl(mine),
+          se: fit.varDiag ? SIGMA * Math.sqrt(fit.varDiag[i]) : SIGMA / Math.sqrt(Math.max(n, 1)),
           raw: n ? mine.reduce((a, g) => a + g.m, 0) / n : null,
           sos: n ? mine.reduce((a, g) => a + x[ix.get(g.opp)], 0) / n : null,
           close: wl(close), ot: wl(mine.filter((g) => g.ot)), b2b: mine.filter((g) => g.b2b).length,
@@ -371,11 +489,36 @@ dash.calc('model', {
 });
 
 dash.calc('game_log', {
-  inputs: ['schedule', 'model', 'absences'],
+  inputs: ['schedule', 'model', 'absences', 'player_impact'],
   title: 'Game log and projections per team',
-  description: 'Played games: performance = margin minus home court and rest, plus opponent rating. Upcoming games (next 5): projected margin. Per toggle setting.',
-  fn: (schedule, model, absences) => {
+  description: 'Played games: performance = margin minus home court and rest, plus opponent rating. Upcoming games (next 5): projected margin, and the same with known absences priced in. Per toggle setting.',
+  fn: (schedule, model, absences, player_impact) => {
     const HCA = 2.0, B2B = 1.0;
+    const norm = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const imp = new Map(player_impact.map((p) => [p.team + '|' + norm(p.player), p]));
+    const teamGp = new Map(model.filter((m) => m.variant === 'h1s1r1').map((m) => [m.team, m.gp]));
+    const value = (team, player) => {
+      const p = imp.get(team + '|' + norm(player));
+      if (!p) return null;
+      const g = Number(p.g), min = Number(p.min);
+      if (!g) return 0;
+      const cur = p.bpm === '' ? null : Number(p.bpm), prior = p.bpm_prior === '' ? null : Number(p.bpm_prior);
+      const bpm = cur === null ? (prior === null ? 0 : prior) : prior === null ? cur * g / (g + 20) : (g * cur + 20 * prior) / (g + 20);
+      return (bpm + 2) * (min / g) / 48 * Math.min(1, g / (teamGp.get(team) || g));
+    };
+    const adjust = (team, opp, teamOut, oppOut) => {
+      const parts = [], miss = [];
+      let adj = 0;
+      for (const [t, list, sign] of [[team, teamOut, -1], [opp, oppOut, 1]]) for (const pl of list) {
+        const v = value(t, pl);
+        if (v === null) { miss.push(pl); continue; }
+        if (v === 0) continue; // has not played this season: the rating already reflects his absence
+        adj += sign * v;
+        parts.push(t + ' ' + pl.split(' ').slice(-1)[0] + ' ' + (sign * v >= 0 ? '+' : '-') + Math.abs(v).toFixed(1));
+      }
+      return { adj, note: parts.length ? 'Absence adjustment: ' + parts.join(', ') + '.' + (miss.length ? ' No impact data for ' + miss.join(', ') + '.' : '') : (miss.length ? 'No impact data for ' + miss.join(', ') + '.' : '') };
+    };
+
     const lbl = (s) => { const d = new Date(s + 'T00:00:00Z'); return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][d.getUTCDay()] + ' ' + ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getUTCMonth()] + ' ' + d.getUTCDate(); };
     const rating = new Map(model.map((m) => [m.variant + '|' + m.team, m.rating]));
     const out = (team, date) => absences.filter((a) => a.team === team && a.from <= date && (!a.until || a.until >= date)).map((a) => a.player);
@@ -394,13 +537,17 @@ dash.calc('game_log', {
           const margin = g.played ? (home ? g.home_pts - g.away_pts : g.away_pts - g.home_pts) : null;
           const flags = [b2b ? 'Back-to-back' : '', oppB2b ? 'Opp. back-to-back' : '', g.ot ? 'OT' : '', g.played && (Math.abs(margin) <= 5 || g.ot) ? 'Close' : ''].filter(Boolean).join(' · ');
           const mineOut = out(team, g.date), oppOut = out(opp, g.date);
+          const projBase = g.played ? null : rating.get(variant + '|' + team) - oppRating + ctx;
+          const ad = g.played ? { adj: 0, note: '' } : adjust(team, opp, mineOut, oppOut);
           rows.push({
             variant, team, date: g.date, day_label: lbl(g.date), status: g.played ? 'played' : 'upcoming',
             matchup: (home ? 'vs ' : '@ ') + opp, opp,
             score: g.played ? (margin > 0 ? 'W ' : 'L ') + (home ? g.home_pts + '-' + g.away_pts : g.away_pts + '-' + g.home_pts) : '',
             margin, opp_rating: oppRating,
             perf: g.played ? margin - ctx + oppRating : null,
-            proj: g.played ? null : rating.get(variant + '|' + team) - oppRating + ctx,
+            proj: projBase,
+            proj_adj: g.played || !ad.note || ad.note.startsWith('No impact') ? null : projBase + ad.adj,
+            adj_note: ad.note,
             flags,
             absent: [mineOut.length ? team + ' out: ' + mineOut.join(', ') : '', oppOut.length ? opp + ' out: ' + oppOut.join(', ') : ''].filter(Boolean).join('; '),
           });
@@ -412,11 +559,36 @@ dash.calc('game_log', {
 });
 
 dash.calc('next_game', {
-  inputs: ['lakers_schedule', 'schedule', 'model', 'absences'],
+  inputs: ['lakers_schedule', 'schedule', 'model', 'absences', 'player_impact'],
   title: 'Next Lakers game against each team',
   description: 'For the Lakers, their next game; for any other team, its next game against the Lakers. Projected Lakers margin with home court and rest, per toggle setting.',
-  fn: (lakers_schedule, schedule, model, absences) => {
+  fn: (lakers_schedule, schedule, model, absences, player_impact) => {
     const HCA = 2.0, B2B = 1.0;
+    const norm = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const imp = new Map(player_impact.map((p) => [p.team + '|' + norm(p.player), p]));
+    const teamGp = new Map(model.filter((m) => m.variant === 'h1s1r1').map((m) => [m.team, m.gp]));
+    const value = (team, player) => {
+      const p = imp.get(team + '|' + norm(player));
+      if (!p) return null;
+      const g = Number(p.g), min = Number(p.min);
+      if (!g) return 0;
+      const cur = p.bpm === '' ? null : Number(p.bpm), prior = p.bpm_prior === '' ? null : Number(p.bpm_prior);
+      const bpm = cur === null ? (prior === null ? 0 : prior) : prior === null ? cur * g / (g + 20) : (g * cur + 20 * prior) / (g + 20);
+      return (bpm + 2) * (min / g) / 48 * Math.min(1, g / (teamGp.get(team) || g));
+    };
+    const adjust = (team, opp, teamOut, oppOut) => {
+      const parts = [], miss = [];
+      let adj = 0;
+      for (const [t, list, sign] of [[team, teamOut, -1], [opp, oppOut, 1]]) for (const pl of list) {
+        const v = value(t, pl);
+        if (v === null) { miss.push(pl); continue; }
+        if (v === 0) continue; // has not played this season: the rating already reflects his absence
+        adj += sign * v;
+        parts.push(t + ' ' + pl.split(' ').slice(-1)[0] + ' ' + (sign * v >= 0 ? '+' : '-') + Math.abs(v).toFixed(1));
+      }
+      return { adj, note: parts.length ? 'Absence adjustment: ' + parts.join(', ') + '.' + (miss.length ? ' No impact data for ' + miss.join(', ') + '.' : '') : (miss.length ? 'No impact data for ' + miss.join(', ') + '.' : '') };
+    };
+
     const rating = new Map(model.map((m) => [m.variant + '|' + m.team, m.rating]));
     const names = new Map(model.map((m) => [m.team, m.name]));
     const lastPlayed = schedule.filter((g) => g.played && (g.home === 'LAL' || g.away === 'LAL')).map((g) => g.date).sort().pop() || '';
@@ -443,9 +615,12 @@ dash.calc('next_game', {
         const rest = r ? B2B * ((oppB2b ? 1 : 0) - (lalB2b ? 1 : 0)) : 0;
         const lal = rating.get(variant + '|LAL'), opp = rating.get(variant + '|' + g.opp);
         const lalOut = out('LAL', g.date), oppOut = out(g.opp, g.date);
+        const ad = adjust('LAL', g.opp, lalOut, oppOut);
         rows.push({
           variant, team, date: g.date, date_label: lbl(g.date), opp: g.opp, opp_name: names.get(g.opp),
           matchup: (home ? 'vs ' : '@ ') + g.opp, lal_rating: lal, opp_rating: opp, hca_pts: hca, rest_pts: rest, proj: lal - opp + hca + rest,
+          proj_adj: ad.note && !ad.note.startsWith('No impact') ? lal - opp + hca + rest + ad.adj : null,
+          adj_note: ad.note || 'No absence adjustment for this date.',
           games_away: ahead.indexOf(g),
           rest_note: (lalB2b ? 'Lakers on a back-to-back. ' : 'Lakers rested. ') + (known ? (oppB2b ? names.get(g.opp) + ' on a back-to-back.' : names.get(g.opp) + ' rested.') : names.get(g.opp) + ' rest not yet known; assumed rested.'),
           absent_note: [lalOut.length ? 'Lakers out: ' + lalOut.join(', ') : '', oppOut.length ? names.get(g.opp) + ' out: ' + oppOut.join(', ') : ''].filter(Boolean).join('; ') || 'No key absences on file for this date.',
@@ -500,6 +675,132 @@ dash.calc('ff_lakers', {
   },
 });
 
+
+dash.calc('efficiency', {
+  inputs: ['team_stats', 'opp_stats', 'teams'],
+  title: 'Per-100 ratings, pace and defense four factors',
+  description: 'Possessions = FGA + 0.44 × FTA − OREB + TOV, averaged over team and opponents. Net, offense and defense per 100; opponent eFG%, forced TOV%, DRB% and opponent FT/FGA; ranks; a league row.',
+  fn: (team_stats, opp_stats, teams) => {
+    const n = Number, names = new Map(teams.map((t) => [t.team, t.name])), opp = new Map(opp_stats.map((o) => [o.team, o]));
+    const calc = (t, o) => {
+      const pt = n(t.fga) + 0.44 * n(t.fta) - n(t.oreb) + n(t.tov), po = n(o.fga) + 0.44 * n(o.fta) - n(o.oreb) + n(o.tov), poss = (pt + po) / 2;
+      return {
+        gp: n(t.gp), poss, pace: 48 * poss / (n(t.mp) / 5), ortg: 100 * n(t.pts) / poss, drtg: 100 * n(o.pts) / poss, net: 100 * (n(t.pts) - n(o.pts)) / poss,
+        opp_efg: (n(o.fgm) + 0.5 * n(o.fg3m)) / n(o.fga), opp_tov_pct: n(o.tov) / (n(o.fga) + 0.44 * n(o.fta) + n(o.tov)),
+        drb_pct: n(t.dreb) / (n(t.dreb) + n(o.oreb)), opp_ft_rate: n(o.ftm) / n(o.fga), pf_pg: n(t.pf) / n(t.gp), opp_fta_pg: n(o.fta) / n(t.gp),
+      };
+    };
+    const rows = team_stats.filter((t) => opp.has(t.team)).map((t) => ({ team: t.team, name: names.get(t.team), ...calc(t, opp.get(t.team)) }));
+    const rank = (k, low) => { const s = rows.slice().sort((a, b) => (low ? a[k] - b[k] : b[k] - a[k])); rows.forEach((r) => { r[k + '_rank'] = s.indexOf(r) + 1; }); };
+    rank('net'); rank('ortg'); rank('drtg', true); rank('pace'); rank('opp_efg', true); rank('opp_tov_pct'); rank('drb_pct'); rank('opp_ft_rate', true); rank('pf_pg', true);
+    const keys = ['gp', 'mp', 'pts', 'fgm', 'fga', 'fg3m', 'fg3a', 'ftm', 'fta', 'oreb', 'dreb', 'tov', 'pf'];
+    const sum = (arr) => Object.fromEntries(keys.map((k) => [k, arr.reduce((a, r) => a + n(r[k]), 0)]));
+    rows.push({ team: 'LEAGUE', name: 'League', ...calc(sum(team_stats), sum(opp_stats)) });
+    return rows;
+  },
+});
+
+dash.calc('scorecard', {
+  inputs: ['schedule', 'teams'],
+  title: 'Projection scorecard, game by game',
+  description: 'Each played game projected with ratings refit on earlier games only (same model and toggles), against the result and a home-team-by-2 baseline.',
+  fn: (schedule, teams) => {
+    const HCA = 2.0, B2B = 1.0, LAMBDA = 5;
+    const ids = teams.map((t) => t.team), ix = new Map(ids.map((t, i) => [t, i])), n = ids.length;
+    const played = schedule.filter((g) => g.played);
+    const fit = (games, h, s, r) => {
+      const A = ids.map(() => new Array(n).fill(0)), b = new Array(n).fill(0);
+      for (const g of games) {
+        const i = ix.get(g.home), j = ix.get(g.away);
+        const y = g.home_pts - g.away_pts - (h ? HCA : 0) - (r ? B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0)) : 0);
+        A[i][i]++; A[j][j]++; A[i][j]--; A[j][i]--; b[i] += y; b[j] -= y;
+      }
+      for (let i = 0; i < n; i++) A[i][i] += s ? LAMBDA : 1e-6;
+      for (let c = 0; c < n; c++) {
+        let p = c;
+        for (let k = c + 1; k < n; k++) if (Math.abs(A[k][c]) > Math.abs(A[p][c])) p = k;
+        [A[c], A[p]] = [A[p], A[c]]; [b[c], b[p]] = [b[p], b[c]];
+        for (let k = c + 1; k < n; k++) { const f = A[k][c] / A[c][c]; for (let j = c; j < n; j++) A[k][j] -= f * A[c][j]; b[k] -= f * b[c]; }
+      }
+      const x = new Array(n).fill(0);
+      for (let i = n - 1; i >= 0; i--) { let v = b[i]; for (let j = i + 1; j < n; j++) v -= A[i][j] * x[j]; x[i] = v / A[i][i]; }
+      const mean = x.reduce((a, v) => a + v, 0) / n;
+      return x.map((v) => v - mean);
+    };
+    const dates = [...new Set(played.map((g) => g.date))].sort();
+    const rows = [];
+    for (const h of [1, 0]) for (const s of [1, 0]) for (const r of [1, 0]) {
+      const variant = 'h' + h + 's' + s + 'r' + r;
+      for (const d of dates) {
+        const before = played.filter((g) => g.date < d);
+        const x = before.length ? fit(before, h, s, r) : new Array(n).fill(0);
+        for (const g of played.filter((g) => g.date === d)) {
+          const ctx = (h ? HCA : 0) + (r ? B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0)) : 0);
+          const proj = x[ix.get(g.home)] - x[ix.get(g.away)] + ctx, actual = g.home_pts - g.away_pts;
+          rows.push({ variant, date: d, away: g.away, home: g.home, proj, actual, miss: Math.abs(proj - actual), hit: proj === 0 ? null : (proj > 0) === (actual > 0), base_miss: Math.abs(HCA - actual), base_hit: actual > 0 });
+        }
+      }
+    }
+    return rows;
+  },
+});
+
+dash.calc('scorecard_summary', {
+  inputs: ['scorecard'],
+  title: 'Projection scorecard, totals',
+  description: 'Per toggle setting: games, average miss in points, share of winners picked, and the same for the home-team-by-2 baseline.',
+  fn: (scorecard) => {
+    const out = [];
+    for (const variant of [...new Set(scorecard.map((r) => r.variant))]) {
+      const rs = scorecard.filter((r) => r.variant === variant), called = rs.filter((r) => r.hit !== null);
+      out.push({
+        variant, n: rs.length, since: rs.map((r) => r.date).sort()[0],
+        mae: rs.reduce((a, r) => a + r.miss, 0) / rs.length, hit: called.filter((r) => r.hit).length / called.length,
+        base_mae: rs.reduce((a, r) => a + r.base_miss, 0) / rs.length, base_hit: rs.filter((r) => r.base_hit).length / rs.length,
+      });
+    }
+    return out;
+  },
+});
+
+dash.calc('players', {
+  inputs: ['lakers_players', 'team_stats'],
+  title: 'Lakers player stats',
+  description: 'Per game from season totals. TS% = PTS / (2 × (FGA + 0.44 × FTA)); USG% = 100 × (FGA + 0.44 × FTA + TOV) × (team minutes / 5) / (minutes × team (FGA + 0.44 × FTA + TOV)); PF per 36 minutes.',
+  fn: (lakers_players, team_stats) => {
+    const n = Number, t = team_stats.find((r) => r.team === 'LAL');
+    const tPlays = n(t.fga) + 0.44 * n(t.fta) + n(t.tov), tMin = n(t.mp);
+    return lakers_players.map((p) => {
+      const g = n(p.g), min = n(p.min), tsa = n(p.fga) + 0.44 * n(p.fta);
+      return {
+        player: p.player, g, min, mpg: min / g, ppg: n(p.pts) / g, ts: tsa ? n(p.pts) / (2 * tsa) : null,
+        usg: min ? 100 * (tsa + n(p.tov)) * (tMin / 5) / (min * tPlays) : null,
+        rpg: (n(p.oreb) + n(p.dreb)) / g, apg: n(p.ast) / g, spg: n(p.stl) / g, bpg: n(p.blk) / g, topg: n(p.tov) / g,
+        pf36: min ? n(p.pf) * 36 / min : null, bpm: p.bpm === '' ? null : n(p.bpm), bpm_prior: p.bpm_prior === '' ? null : n(p.bpm_prior),
+      };
+    }).sort((a, b) => b.min - a.min);
+  },
+});
+
+dash.calc('quarters', {
+  inputs: ['lakers_quarters'],
+  title: 'Lakers net score by quarter',
+  description: 'Lakers points minus opponent points in each quarter of each Lakers game, with a season total row and quarters won-lost.',
+  fn: (lakers_quarters) => {
+    const lbl = (s) => { const d = new Date(s + 'T00:00:00Z'); return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][d.getUTCDay()] + ' ' + ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getUTCMonth()] + ' ' + d.getUTCDate(); };
+    const Q = ['q1', 'q2', 'q3', 'q4'];
+    const rows = lakers_quarters.filter((r) => r.team === 'LAL').map((r) => {
+      const o = lakers_quarters.find((x) => x.date === r.date && x.team !== 'LAL');
+      const q = Q.map((k) => Number(r[k]) - Number(o[k]));
+      return { date: r.date, day_label: lbl(r.date), opp: r.opp, q1: q[0], q2: q[1], q3: q[2], q4: q[3], total: q.reduce((a, v) => a + v, 0) };
+    });
+    const tot = { date: 'season', day_label: 'Season', opp: '' };
+    [...Q, 'total'].forEach((k) => { tot[k] = rows.reduce((a, r) => a + r[k], 0); tot[k + '_wl'] = rows.filter((r) => r[k] > 0).length + '-' + rows.filter((r) => r[k] < 0).length; });
+    rows.push(tot);
+    return rows;
+  },
+});
+
 const DEFAULTS = { team: 'LAL', hca: true, shrink: true, rest: true, view: 'adj' };
 const P = () => ({ ...DEFAULTS, ...Object.fromEntries(Object.entries(dash.params()).filter(([, v]) => v !== null && v !== undefined)) });
 const teamSel = document.getElementById('lk-team');
@@ -511,6 +812,10 @@ document.querySelectorAll('.lk-tog').forEach((b) => b.addEventListener('click', 
 document.getElementById('lk-reset').addEventListener('click', () => dash.resetParams());
 document.querySelectorAll('.lk-segbtn').forEach((b) => b.addEventListener('click', () => dash.setParams({ view: b.dataset.view })));
 const pick = (team) => { dash.setParams({ team }); document.getElementById('top').scrollIntoView({ behavior: 'smooth' }); };
+document.getElementById('lk-eff').addEventListener('click', (e) => {
+  const tr = e.target.closest('tr[data-team]');
+  if (tr) pick(tr.dataset.team);
+});
 document.getElementById('lk-league').addEventListener('click', (e) => {
   const tr = e.target.closest('tr[data-team]');
   if (tr) pick(tr.dataset.team);
@@ -546,7 +851,7 @@ dash.onData(() => {
     if (!row) { el.textContent = '—'; if (m.status !== 'loading') unskel(el); return; }
     unskel(el);
     const f = el.dataset.field, val = row[f];
-    el.textContent = ['rating', 'raw', 'sos'].includes(f) ? sgn(val) : String(val);
+    el.textContent = ['rating', 'raw', 'sos'].includes(f) ? sgn(val) : f === 'se' ? val.toFixed(1) : String(val);
   });
   document.getElementById('lk-take-team').textContent = row ? 'The ' + row.name : '—';
   const rawRank = m.status === 'ok' && row && row.raw !== null ? m.data.filter((r) => r.variant === v && r.raw !== null && r.raw > row.raw).length + 1 : null;
@@ -577,6 +882,7 @@ dash.onData(() => {
       cell(tr, String(raw ? i + 1 : r.rank));
       cell(tr, r.name, 'lk-left');
       cell(tr, sgn(r[key]), 'lk-strong');
+      cell(tr, raw ? '—' : r.se.toFixed(1), 'lk-se');
       const bc = cell(tr, '', 'lk-barcell lk-wide');
       const bar = document.createElement('div'); bar.className = 'lk-bar';
       const zero = document.createElement('b'); zero.style.left = '50%';
@@ -609,7 +915,7 @@ dash.onData(() => {
     mine.filter((r) => r.status === 'upcoming').forEach((r) => {
       const tr = document.createElement('tr'); tr.dataset.key = v + ',' + team + ',' + r.date;
       cell(tr, r.day_label, 'lk-left'); cell(tr, r.matchup, 'lk-left');
-      cell(tr, sgn(r.proj), 'lk-strong'); cell(tr, sgn(r.opp_rating)); cell(tr, r.flags || '—', 'lk-left'); cell(tr, r.absent || '—', 'lk-wrap lk-wide');
+      cell(tr, sgn(r.proj), 'lk-strong'); cell(tr, r.proj_adj === null ? '—' : sgn(r.proj_adj)); cell(tr, sgn(r.opp_rating)); cell(tr, r.flags || '—', 'lk-left'); cell(tr, r.absent || '—', 'lk-wrap lk-wide');
       uBody.appendChild(tr);
     });
   }
@@ -626,7 +932,7 @@ dash.onData(() => {
     if (!nrow) { el.textContent = '—'; if (ng.status !== 'loading') unskel(el); return; }
     unskel(el);
     const f = el.dataset.field, val = nrow[f];
-    el.textContent = ['lal_rating', 'opp_rating', 'hca_pts', 'rest_pts', 'proj'].includes(f) ? sgn(val) : String(val);
+    el.textContent = ['lal_rating', 'opp_rating', 'hca_pts', 'rest_pts', 'proj', 'proj_adj'].includes(f) ? sgn(val) : String(val);
   });
 
   // Four factors
@@ -660,12 +966,90 @@ dash.onData(() => {
     document.getElementById('lk-lbox-missing').textContent = missing.length ? 'Box score not yet on file: ' + missing.join(', ') + '.' : '';
   }
 
-  // Updated line
-  const sc = dash.data('schedule');
+  // Efficiency tile and table
+  const ef = dash.data('efficiency');
+  const erow = ef.status === 'ok' ? ef.data.find((r) => r.team === team) : null;
+  const ord = (k) => { const s = ['th', 'st', 'nd', 'rd'], v = k % 100; return k + (s[(v - 20) % 10] || s[v] || s[0]); };
+  document.querySelectorAll('[data-source="efficiency"][data-field]').forEach((el) => {
+    if (el.closest('table')) return;
+    el.setAttribute('data-where', 'team=' + team);
+    if (!erow) { el.textContent = '—'; if (ef.status !== 'loading') unskel(el); return; }
+    unskel(el);
+    const f = el.dataset.field, val = erow[f];
+    el.textContent = f === 'net' ? sgn(val) : f.endsWith('_rank') ? ord(val) : val.toFixed(1);
+  });
+  const eBody = document.querySelector('#lk-eff tbody'); eBody.replaceChildren();
+  if (ef.status === 'ok') {
+    const rows = ef.data.filter((r) => r.team !== 'LEAGUE').sort((a, b) => b.net - a.net).concat(ef.data.filter((r) => r.team === 'LEAGUE'));
+    rows.forEach((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = r.team;
+      if (r.team !== 'LEAGUE') { tr.dataset.team = r.team; tr.className = 'lk-click' + (r.team === team ? ' lk-sel' : ''); } else tr.className = 'lk-total';
+      const rk = (k) => (r[k + '_rank'] ? ' (' + r[k + '_rank'] + ')' : '');
+      cell(tr, r.name, 'lk-left'); cell(tr, sgn(r.net) + rk('net'), 'lk-strong'); cell(tr, r.ortg.toFixed(1) + rk('ortg')); cell(tr, r.drtg.toFixed(1) + rk('drtg'));
+      cell(tr, r.pace.toFixed(1)); cell(tr, pct(r.opp_efg) + rk('opp_efg')); cell(tr, pct(r.opp_tov_pct) + rk('opp_tov_pct')); cell(tr, pct(r.drb_pct) + rk('drb_pct'));
+      cell(tr, pct(r.opp_ft_rate) + rk('opp_ft_rate')); cell(tr, r.pf_pg.toFixed(1));
+      eBody.appendChild(tr);
+    });
+  } else if (ef.status === 'error') { fail(eBody); }
+
+  // Scorecard
+  const ss = dash.data('scorecard_summary');
+  const srow = ss.status === 'ok' ? ss.data.find((r) => r.variant === v) : null;
+  document.querySelectorAll('[data-source="scorecard_summary"][data-field]').forEach((el) => {
+    el.setAttribute('data-where', 'variant=' + v);
+    if (!srow) { el.textContent = '—'; if (ss.status !== 'loading') unskel(el); return; }
+    unskel(el);
+    const f = el.dataset.field, val = srow[f];
+    el.textContent = f === 'n' ? String(val) : f.endsWith('hit') ? Math.round(val * 100) + '%' : val.toFixed(1) + ' pts';
+  });
+  const sc = dash.data('scorecard');
+  const scBody = document.querySelector('#lk-score tbody'); scBody.replaceChildren();
   if (sc.status === 'ok') {
-    const lastPlayed = sc.data.filter((g) => g.played).map((g) => g.date).sort().pop();
+    sc.data.filter((r) => r.variant === v && (r.home === team || r.away === team)).forEach((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = v + ',' + r.date + ',' + r.home;
+      const home = r.home === team, mine = (x) => (home ? x : -x);
+      cell(tr, dayFmt(new Date(r.date + 'T00:00:00Z')), 'lk-left'); cell(tr, (home ? 'vs ' + r.away : '@ ' + r.home), 'lk-left');
+      cell(tr, sgn(mine(r.proj))); cell(tr, (mine(r.actual) > 0 ? '+' : '') + mine(r.actual)); cell(tr, r.miss.toFixed(1), 'lk-strong'); cell(tr, r.hit === null ? 'No call' : r.hit ? 'Right' : 'Wrong', 'lk-left');
+      scBody.appendChild(tr);
+    });
+    document.getElementById('lk-score-note').textContent = srow ? 'Projected and actual are from ' + (team === 'LAL' ? 'the Lakers' : 'the selected team') + '’ side. Scored since ' + dayFmt(new Date(srow.since + 'T00:00:00Z')) + '; the first night has no earlier games, so it equals the baseline.' : '';
+  }
+
+  // Lakers players
+  const pl = dash.data('players');
+  const pBody2 = document.querySelector('#lk-players tbody'); pBody2.replaceChildren();
+  if (pl.status === 'ok') {
+    const f1 = (x) => (x === null || x === undefined ? '—' : x.toFixed(1));
+    pl.data.forEach((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = r.player;
+      cell(tr, r.player, 'lk-left'); cell(tr, String(r.g)); cell(tr, f1(r.mpg)); cell(tr, f1(r.ppg), 'lk-strong'); cell(tr, pct(r.ts)); cell(tr, f1(r.usg));
+      cell(tr, f1(r.rpg)); cell(tr, f1(r.apg)); cell(tr, f1(r.spg)); cell(tr, f1(r.bpg)); cell(tr, f1(r.topg)); cell(tr, f1(r.pf36));
+      cell(tr, r.bpm === null ? '—' : sgn(r.bpm)); cell(tr, r.bpm_prior === null ? '—' : sgn(r.bpm_prior));
+      pBody2.appendChild(tr);
+    });
+  } else if (pl.status === 'error') { fail(pBody2); }
+
+  // Quarters
+  const qd = dash.data('quarters');
+  const qBody = document.querySelector('#lk-quarters tbody'); qBody.replaceChildren();
+  if (qd.status === 'ok') {
+    qd.data.forEach((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = r.date;
+      const tot = r.date === 'season';
+      if (tot) tr.className = 'lk-total';
+      cell(tr, r.day_label, 'lk-left'); cell(tr, tot ? 'Won-lost' : r.opp, 'lk-left');
+      const si = (x) => (x > 0 ? '+' : '') + x;
+      ['q1', 'q2', 'q3', 'q4', 'total'].forEach((k) => cell(tr, si(r[k]) + (tot ? ' (' + r[k + '_wl'] + ')' : ''), k === 'total' ? 'lk-strong' : ''));
+      qBody.appendChild(tr);
+    });
+  } else if (qd.status === 'error') { fail(qBody); }
+
+  // Updated line
+  const schd = dash.data('schedule');
+  if (schd.status === 'ok') {
+    const lastPlayed = schd.data.filter((g) => g.played).map((g) => g.date).sort().pop();
     document.getElementById('lk-updated').textContent = lastPlayed ? 'Results through ' + dayFmt(new Date(lastPlayed + 'T00:00:00Z')) + '. Recalculated in your browser from the files below.' : '';
-  } else if (sc.status === 'error') {
+  } else if (schd.status === 'error') {
     document.getElementById('lk-updated').textContent = 'The data files did not load. Pull down to refresh.';
   }
 
@@ -693,7 +1077,8 @@ fetch('data/sources.json', { cache: 'no-cache' }).then((r) => r.json()).then((li
 }).catch(() => {});
 dashLoad({
   results: 'data/results.csv', teams: 'data/teams.csv', lakers_schedule: 'data/lakers_schedule.csv',
-  team_stats: 'data/team_stats.csv', lakers_box: 'data/lakers_box.csv', absences: 'data/absences.csv',
+  team_stats: 'data/team_stats.csv', opp_stats: 'data/opp_stats.csv', lakers_box: 'data/lakers_box.csv', absences: 'data/absences.csv',
+  lakers_players: 'data/lakers_players.csv', lakers_quarters: 'data/lakers_quarters.csv', player_impact: 'data/player_impact.csv',
 });
 </script>
 </body>
