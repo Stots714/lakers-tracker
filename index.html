@@ -66,7 +66,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .lk-reset { background: transparent; }
 .lk-mode { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
 .lk-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr)); gap: var(--cds-gap-md); }
-.lk-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); }
+.lk-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 28rem), 1fr)); gap: var(--cds-gap-md); }
 .lk-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
 .lk-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
 .lk-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: var(--cds-gap-xs) 0 var(--cds-gap-md); line-height: 1.45; }
@@ -99,6 +99,28 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .lk-minibar { display: none; margin-top: 0.3rem; }
 .lk-minibar .lk-bar { height: 0.5rem; }
 @container (max-width: 560px) { .lk-minibar { display: block; } }
+.lk-groups { display: none; gap: var(--cds-gap-xs); flex-wrap: wrap; margin: 0 0 var(--cds-gap-sm); }
+.lk-groups button { font: inherit; font-size: var(--cds-font-size-caption); border-radius: 999px; padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; border: 1px solid var(--color-border-line); background: var(--color-panel); color: var(--color-fg-muted); }
+.lk-groups button[aria-pressed="true"] { color: var(--color-fg); border-color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); }
+.lk-card { container: lkcard / inline-size; }
+.lk-rank { color: var(--color-fg-muted); font-weight: 400; margin-left: 0.25em; }
+@container lkcard (max-width: 960px) {
+  .lk-groups { display: flex; }
+  .lk-table .lk-rank { display: block; margin-left: 0; font-size: 0.9em; }
+  table[data-active="1"] .lk-g2, table[data-active="1"] .lk-g3,
+  table[data-active="2"] .lk-g1, table[data-active="2"] .lk-g3,
+  table[data-active="3"] .lk-g1, table[data-active="3"] .lk-g2 { display: none; }
+  .lk-table.lk-stack thead { display: none; }
+  .lk-table.lk-stack, .lk-table.lk-stack tbody { display: block; }
+  .lk-table.lk-stack tr { display: grid; grid-template-columns: 1fr 1fr; column-gap: var(--cds-gap-md); padding: var(--cds-pad-xs) 0; border-bottom: 1px solid var(--color-border-line); }
+  .lk-table.lk-stack td { display: flex; justify-content: space-between; gap: var(--cds-gap-xs); border: 0; padding: 0.2rem 0; white-space: normal; min-width: 0; text-align: right; }
+  .lk-table.lk-stack td::before { content: attr(data-label); color: var(--color-fg-muted); font-weight: 400; text-align: left; }
+  .lk-table.lk-stack td.lk-wrap, .lk-table.lk-stack td.lk-wide { grid-column: 1 / -1; display: flex; min-width: 0; }
+  .lk-table.lk-stack td.lk-wrap::before, .lk-table.lk-stack td.lk-wide::before { flex: none; margin-right: var(--cds-gap-sm); }
+  .lk-table.lk-stack tr.lk-sel td:first-child { box-shadow: none; }
+  .lk-table.lk-stack tr.lk-sel { box-shadow: inset 3px 0 0 var(--color-fg); padding-left: var(--cds-pad-sm); }
+  #lk-players td:first-child, #lk-eff td:first-child { white-space: normal; max-width: 7.5rem; }
+}
 @container (max-width: 560px) { .lk-wide { display: none; } }
 .lk-method p, .lk-method li { font-size: var(--cds-font-size-body); line-height: 1.55; margin: 0 0 var(--cds-gap-sm); }
 .lk-method ul { padding-left: 1.2rem; margin: 0 0 var(--cds-gap-sm); }
@@ -197,18 +219,19 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
     <h2>Efficiency and defense</h2>
     <p class="lk-note">Per 100 possessions, so fast and slow teams compare fairly, and the defense four factors: what opponents shoot (effective FG%), how often they turn it over, the share of defensive rebounds the team takes, and how often opponents get to the line. Ranks in brackets. Tap a team to select it.</p>
     <div class="lk-tablewrap">
-      <table class="lk-table" id="lk-eff" data-source="efficiency" data-row-key="team">
+      <div class="lk-groups" role="group" aria-label="Columns to show" data-for="lk-eff"><button type="button" data-g="1" aria-pressed="true">Ratings</button><button type="button" data-g="2" aria-pressed="false">Defense</button><button type="button" data-g="3" aria-pressed="false">Discipline</button></div>
+      <table class="lk-table" id="lk-eff" data-active="1" data-source="efficiency" data-row-key="team">
         <thead><tr>
           <th data-field="name" class="lk-left">Team</th>
-          <th data-field="net">Net</th>
-          <th data-field="ortg">Off.</th>
-          <th data-field="drtg">Def.</th>
-          <th data-field="pace">Pace</th>
-          <th data-field="opp_efg">Opp. eFG%</th>
-          <th data-field="opp_tov_pct">Forced TOV%</th>
-          <th data-field="drb_pct">DRB%</th>
-          <th data-field="opp_ft_rate">Opp. FT/FGA</th>
-          <th data-field="pf_pg">Fouls/g</th>
+          <th data-g="1" data-field="net">Net</th>
+          <th data-g="1" data-field="ortg">Off.</th>
+          <th data-g="1" data-field="drtg">Def.</th>
+          <th data-g="1" data-field="pace">Pace</th>
+          <th data-g="2" data-field="opp_efg">Opp. eFG%</th>
+          <th data-g="2" data-field="opp_tov_pct">Forced TOV%</th>
+          <th data-g="2" data-field="drb_pct">DRB%</th>
+          <th data-g="3" data-field="opp_ft_rate">Opp. FT/FGA</th>
+          <th data-g="3" data-field="pf_pg">Fouls/g</th>
         </tr></thead>
         <tbody></tbody>
       </table>
@@ -219,7 +242,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
     <h2 id="lk-log-title">Game log</h2>
     <p class="lk-note">Performance = margin with home court and rest taken out, plus the opponent's rating: how the team played against an average opponent.</p>
     <div class="lk-tablewrap">
-      <table class="lk-table" id="lk-played" data-source="game_log" data-row-key="variant,team,date">
+      <table class="lk-table lk-stack" id="lk-played" data-source="game_log" data-row-key="variant,team,date">
         <thead><tr>
           <th data-field="day_label" class="lk-left">Date</th>
           <th data-field="matchup" class="lk-left">Matchup</th>
@@ -235,7 +258,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
     <h2 style="margin-top: var(--cds-gap-lg)">Next games</h2>
     <p class="lk-note">Projected margin for the selected team. Rest is known from the league schedule through Nov 20.</p>
     <div class="lk-tablewrap">
-      <table class="lk-table" id="lk-upcoming" data-source="game_log" data-row-key="variant,team,date">
+      <table class="lk-table lk-stack" id="lk-upcoming" data-source="game_log" data-row-key="variant,team,date">
         <thead><tr>
           <th data-field="day_label" class="lk-left">Date</th>
           <th data-field="matchup" class="lk-left">Matchup</th>
@@ -280,22 +303,23 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       <h2>Lakers players</h2>
       <p class="lk-note">Season to date, sorted by minutes. TS% counts threes and free throws; USG% is the share of team plays a player finishes while on the floor; BPM is Basketball-Reference's box plus-minus (points per 100 possessions vs an average player). Blank where not yet published.</p>
       <div class="lk-tablewrap">
-        <table class="lk-table" id="lk-players" data-source="players" data-row-key="player">
+        <div class="lk-groups" role="group" aria-label="Columns to show" data-for="lk-players"><button type="button" data-g="1" aria-pressed="true">Scoring</button><button type="button" data-g="2" aria-pressed="false">Floor game</button><button type="button" data-g="3" aria-pressed="false">Impact</button></div>
+      <table class="lk-table" id="lk-players" data-active="1" data-source="players" data-row-key="player">
           <thead><tr>
             <th data-field="player" class="lk-left">Player</th>
-            <th data-field="g">G</th>
-            <th data-field="mpg">Min</th>
-            <th data-field="ppg">Pts</th>
-            <th data-field="ts">TS%</th>
-            <th data-field="usg">USG%</th>
-            <th data-field="rpg">Reb</th>
-            <th data-field="apg">Ast</th>
-            <th data-field="spg">Stl</th>
-            <th data-field="bpg">Blk</th>
-            <th data-field="topg">TOV</th>
-            <th data-field="pf36">PF/36</th>
-            <th data-field="bpm">BPM</th>
-            <th data-field="bpm_prior">BPM 25-26</th>
+            <th data-g="1" data-field="g">G</th>
+            <th data-g="1" data-field="mpg">Min</th>
+            <th data-g="1" data-field="ppg">Pts</th>
+            <th data-g="1" data-field="ts">TS%</th>
+            <th data-g="1" data-field="usg">USG%</th>
+            <th data-g="2" data-field="rpg">Reb</th>
+            <th data-g="2" data-field="apg">Ast</th>
+            <th data-g="2" data-field="spg">Stl</th>
+            <th data-g="2" data-field="bpg">Blk</th>
+            <th data-g="3" data-field="topg">TOV</th>
+            <th data-g="3" data-field="pf36">PF/36</th>
+            <th data-g="3" data-field="bpm">BPM</th>
+            <th data-g="3" data-field="bpm_prior">BPM 25-26</th>
           </tr></thead>
           <tbody></tbody>
         </table>
@@ -307,7 +331,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       <div class="lk-tablewrap">
         <table class="lk-table" id="lk-quarters" data-source="quarters" data-row-key="date">
           <thead><tr>
-            <th data-field="day_label" class="lk-left">Date</th>
+            <th data-field="date" class="lk-left">Date</th>
             <th data-field="opp" class="lk-left">Opp.</th>
             <th data-field="q1">Q1</th>
             <th data-field="q2">Q2</th>
@@ -326,7 +350,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       <h2>Offense four factors</h2>
       <p class="lk-note">Season to date, from each team's own box score totals. Opponent (defense) totals aren't available for every team yet.</p>
       <div class="lk-tablewrap">
-        <table class="lk-table" id="lk-ff" data-source="ff_team" data-row-key="team">
+        <table class="lk-table lk-stack" id="lk-ff" data-source="ff_team" data-row-key="team">
           <thead><tr>
             <th data-field="name" class="lk-left">Team</th>
             <th data-field="efg">eFG%</th>
@@ -344,16 +368,17 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       <h2>Lakers games: four factors and shooting luck</h2>
       <p class="lk-note">Both teams, game by game. Luck = threes made above or below that team's rate in its other games, in points.</p>
       <div class="lk-tablewrap">
-        <table class="lk-table" id="lk-lbox" data-source="ff_lakers" data-row-key="date,team">
+        <div class="lk-groups" role="group" aria-label="Columns to show" data-for="lk-lbox"><button type="button" data-g="1" aria-pressed="true">Shooting</button><button type="button" data-g="2" aria-pressed="false">Possessions</button></div>
+      <table class="lk-table" id="lk-lbox" data-active="1" data-source="ff_lakers" data-row-key="date,team">
           <thead><tr>
             <th data-field="day_label" class="lk-left">Date</th>
             <th data-field="team" class="lk-left">Team</th>
-            <th data-field="efg">eFG%</th>
-            <th data-field="tov_pct">TOV%</th>
-            <th data-field="orb_pct">ORB%</th>
-            <th data-field="ft_rate">FT/FGA</th>
-            <th data-field="fg3">3PM-A</th>
-            <th data-field="luck_pts">3P luck</th>
+            <th data-g="1" data-field="efg">eFG%</th>
+            <th data-g="2" data-field="tov_pct">TOV%</th>
+            <th data-g="2" data-field="orb_pct">ORB%</th>
+            <th data-g="2" data-field="ft_rate">FT/FGA</th>
+            <th data-g="1" data-field="fg3">3PM-A</th>
+            <th data-g="1" data-field="luck_pts">3P luck</th>
           </tr></thead>
           <tbody></tbody>
         </table>
@@ -366,7 +391,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
     <h2>Known key absences</h2>
     <p class="lk-note">Only absences confirmed by a cited report are listed. A game with no flag is not proof of full strength.</p>
     <div class="lk-tablewrap">
-      <table class="lk-table" id="lk-abs" data-source="absences" data-row-key="team,player,from">
+      <table class="lk-table lk-stack" id="lk-abs" data-source="absences" data-row-key="team,player,from">
         <thead><tr>
           <th data-field="team" class="lk-left">Team</th>
           <th data-field="player" class="lk-left">Player</th>
@@ -841,6 +866,21 @@ function mkBar(val, se, ext, selected) {
   if (se) { const u = document.createElement('u'); u.style.left = (50 + (val - se) / ext * 50) + '%'; u.style.width = (se / ext * 100) + '%'; bar.appendChild(u); }
   return bar;
 }
+// Phone layouts: copy each column's header into its cells as a label (stacked tables) and its group (chip tables)
+function phoneLayout(table) {
+  const ths = [...table.querySelectorAll('thead th')];
+  table.querySelectorAll('thead th').forEach((th) => { if (th.dataset.g) th.classList.add('lk-g' + th.dataset.g); });
+  table.querySelectorAll('tbody tr').forEach((tr) => [...tr.children].forEach((td, i) => {
+    const th = ths[i]; if (!th) return;
+    td.dataset.label = th.textContent;
+    if (th.dataset.g) td.classList.add('lk-g' + th.dataset.g);
+  }));
+}
+document.querySelectorAll('.lk-groups').forEach((grp) => grp.addEventListener('click', (e) => {
+  const b = e.target.closest('button[data-g]'); if (!b) return;
+  document.getElementById(grp.dataset.for).dataset.active = b.dataset.g;
+  grp.querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+}));
 function fail(el) {
   el.replaceChildren();
   const f = document.createElement('div'); f.className = 'lk-fail'; f.textContent = 'Failed to load'; el.appendChild(f);
@@ -997,10 +1037,10 @@ dash.onData(() => {
     rows.forEach((r) => {
       const tr = document.createElement('tr'); tr.dataset.key = r.team;
       if (r.team !== 'LEAGUE') { tr.dataset.team = r.team; tr.className = 'lk-click' + (r.team === team ? ' lk-sel' : ''); } else tr.className = 'lk-total';
-      const rk = (k) => (r[k + '_rank'] ? ' (' + r[k + '_rank'] + ')' : '');
-      cell(tr, r.name, 'lk-left'); cell(tr, sgn(r.net) + rk('net'), 'lk-strong'); cell(tr, r.ortg.toFixed(1) + rk('ortg')); cell(tr, r.drtg.toFixed(1) + rk('drtg'));
-      cell(tr, r.pace.toFixed(1)); cell(tr, pct(r.opp_efg) + rk('opp_efg')); cell(tr, pct(r.opp_tov_pct) + rk('opp_tov_pct')); cell(tr, pct(r.drb_pct) + rk('drb_pct'));
-      cell(tr, pct(r.opp_ft_rate) + rk('opp_ft_rate')); cell(tr, r.pf_pg.toFixed(1));
+      const rc = (text, k, cls) => { const td = cell(tr, text, cls); if (r[k + '_rank']) { const s = document.createElement('span'); s.className = 'lk-rank'; s.textContent = '(' + r[k + '_rank'] + ')'; td.appendChild(s); } return td; };
+      cell(tr, r.name, 'lk-left'); rc(sgn(r.net), 'net', 'lk-strong'); rc(r.ortg.toFixed(1), 'ortg'); rc(r.drtg.toFixed(1), 'drtg');
+      rc(r.pace.toFixed(1), 'pace'); rc(pct(r.opp_efg), 'opp_efg'); rc(pct(r.opp_tov_pct), 'opp_tov_pct'); rc(pct(r.drb_pct), 'drb_pct');
+      rc(pct(r.opp_ft_rate), 'opp_ft_rate'); rc(r.pf_pg.toFixed(1), 'pf_pg');
       eBody.appendChild(tr);
     });
   } else if (ef.status === 'error') { fail(eBody); }
@@ -1021,7 +1061,7 @@ dash.onData(() => {
     sc.data.filter((r) => r.variant === v && (r.home === team || r.away === team)).forEach((r) => {
       const tr = document.createElement('tr'); tr.dataset.key = v + ',' + r.date + ',' + r.home;
       const home = r.home === team, mine = (x) => (home ? x : -x);
-      cell(tr, dayFmt(new Date(r.date + 'T00:00:00Z')), 'lk-left'); cell(tr, (home ? 'vs ' + r.away : '@ ' + r.home), 'lk-left');
+      cell(tr, Number(r.date.slice(5, 7)) + '/' + Number(r.date.slice(8, 10)), 'lk-left'); cell(tr, (home ? 'vs ' + r.away : '@ ' + r.home), 'lk-left');
       cell(tr, sgn(mine(r.proj))); cell(tr, (mine(r.actual) > 0 ? '+' : '') + mine(r.actual)); cell(tr, r.miss.toFixed(1), 'lk-strong'); cell(tr, r.hit === null ? 'No call' : r.hit ? 'Right' : 'Wrong', 'lk-left');
       scBody.appendChild(tr);
     });
@@ -1050,10 +1090,16 @@ dash.onData(() => {
       const tr = document.createElement('tr'); tr.dataset.key = r.date;
       const tot = r.date === 'season';
       if (tot) tr.className = 'lk-total';
-      cell(tr, r.day_label, 'lk-left'); cell(tr, tot ? 'Won-lost' : r.opp, 'lk-left');
+      cell(tr, tot ? 'Season' : Number(r.date.slice(5, 7)) + '/' + Number(r.date.slice(8, 10)), 'lk-left'); cell(tr, tot ? 'Net' : r.opp, 'lk-left');
       const si = (x) => (x > 0 ? '+' : '') + x;
-      ['q1', 'q2', 'q3', 'q4', 'total'].forEach((k) => cell(tr, si(r[k]) + (tot ? ' (' + r[k + '_wl'] + ')' : ''), k === 'total' ? 'lk-strong' : ''));
+      ['q1', 'q2', 'q3', 'q4', 'total'].forEach((k) => cell(tr, si(r[k]), k === 'total' ? 'lk-strong' : ''));
       qBody.appendChild(tr);
+      if (tot) {
+        const wl = document.createElement('tr'); wl.dataset.key = 'season-wl'; wl.className = 'lk-total';
+        cell(wl, 'Season', 'lk-left'); cell(wl, 'Won-lost', 'lk-left');
+        ['q1', 'q2', 'q3', 'q4', 'total'].forEach((k) => cell(wl, r[k + '_wl']));
+        qBody.appendChild(wl);
+      }
     });
   } else if (qd.status === 'error') { fail(qBody); }
 
@@ -1076,6 +1122,7 @@ dash.onData(() => {
       aBody.appendChild(tr);
     });
   }
+  ['lk-played', 'lk-upcoming', 'lk-ff', 'lk-abs', 'lk-eff', 'lk-players', 'lk-lbox'].forEach((id) => phoneLayout(document.getElementById(id)));
 });
 fetch('data/sources.json', { cache: 'no-cache' }).then((r) => r.json()).then((list) => {
   const ul = document.getElementById('lk-src');
