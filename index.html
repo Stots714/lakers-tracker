@@ -93,6 +93,12 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .lk-bar { position: relative; height: 0.75rem; }
 .lk-bar i { position: absolute; top: 0; height: 100%; border-radius: 3px; }
 .lk-bar b { position: absolute; top: -0.2rem; bottom: -0.2rem; border-left: 1px dashed var(--cds-chart-reference); }
+.lk-bar u { position: absolute; top: 50%; height: 0; border-top: 1.5px solid var(--color-fg-muted); text-decoration: none; }
+.lk-bar u::before, .lk-bar u::after { content: ""; position: absolute; top: -0.25rem; height: 0.5rem; border-left: 1.5px solid var(--color-fg-muted); }
+.lk-bar u::before { left: 0; } .lk-bar u::after { right: 0; }
+.lk-minibar { display: none; margin-top: 0.3rem; }
+.lk-minibar .lk-bar { height: 0.5rem; }
+@container (max-width: 560px) { .lk-minibar { display: block; } }
 @container (max-width: 560px) { .lk-wide { display: none; } }
 .lk-method p, .lk-method li { font-size: var(--cds-font-size-body); line-height: 1.55; margin: 0 0 var(--cds-gap-sm); }
 .lk-method ul { padding-left: 1.2rem; margin: 0 0 var(--cds-gap-sm); }
@@ -823,6 +829,18 @@ document.getElementById('lk-league').addEventListener('click', (e) => {
 
 function cell(tr, text, cls) { const td = document.createElement('td'); td.textContent = text; if (cls) td.className = cls; tr.appendChild(td); return td; }
 function unskel(el) { el.classList.remove('dash-skeleton'); }
+// Diverging bar from zero to the value, with an optional ± whisker
+function mkBar(val, se, ext, selected) {
+  const bar = document.createElement('div'); bar.className = 'lk-bar';
+  const zero = document.createElement('b'); zero.style.left = '50%';
+  const fill = document.createElement('i');
+  const w = Math.abs(val) / ext * 50;
+  fill.style.left = (val >= 0 ? 50 : 50 - w) + '%'; fill.style.width = w + '%';
+  fill.style.background = selected ? dash.colors[0] : 'var(--cds-chart-muted)';
+  bar.append(fill, zero);
+  if (se) { const u = document.createElement('u'); u.style.left = (50 + (val - se) / ext * 50) + '%'; u.style.width = (se / ext * 100) + '%'; bar.appendChild(u); }
+  return bar;
+}
 function fail(el) {
   el.replaceChildren();
   const f = document.createElement('div'); f.className = 'lk-fail'; f.textContent = 'Failed to load'; el.appendChild(f);
@@ -865,7 +883,7 @@ dash.onData(() => {
   document.getElementById('lk-league-title').textContent = raw ? 'League raw margins' : 'League ratings';
   document.getElementById('lk-league-note').textContent = raw
     ? 'Average point margin per game, no adjustments, all 30 teams. The Adjusted column uses the toggles above. Tap a team to select it.'
-    : 'All 30 teams under the adjustments chosen above. Tap a team to select it.';
+    : 'All 30 teams under the adjustments chosen above. The bar runs from zero to the rating; the thin line across it spans ± one standard error. Tap a team to select it.';
   document.getElementById('lk-th-main').textContent = raw ? 'Raw' : 'Rating';
   document.getElementById('lk-th-alt').textContent = raw ? 'Adjusted' : 'Results';
   const lBody = document.querySelector('#lk-league tbody');
@@ -874,23 +892,18 @@ dash.onData(() => {
     const key = raw ? 'raw' : 'rating', alt = raw ? 'rating' : 'raw';
     const rows = m.data.filter((r) => r.variant === v).slice()
       .sort(raw ? (a, b) => (b.raw ?? -1e9) - (a.raw ?? -1e9) || a.rank - b.rank : (a, b) => a.rank - b.rank);
-    const ext = Math.max(1, d3.max(rows, (r) => Math.abs(r[key] || 0)));
+    const ext = Math.max(1, d3.max(rows, (r) => Math.abs(r[key] || 0) + (raw ? 0 : r.se)));
     rows.forEach((r, i) => {
       const tr = document.createElement('tr');
       tr.dataset.key = v + ',' + r.team; tr.dataset.team = r.team;
       tr.className = 'lk-click' + (r.team === team ? ' lk-sel' : '');
       cell(tr, String(raw ? i + 1 : r.rank));
-      cell(tr, r.name, 'lk-left');
+      const nc = cell(tr, r.name, 'lk-left');
+      const mini = document.createElement('div'); mini.className = 'lk-minibar'; mini.appendChild(mkBar(r[key] || 0, raw ? null : r.se, ext, r.team === team)); nc.appendChild(mini);
       cell(tr, sgn(r[key]), 'lk-strong');
       cell(tr, raw ? '—' : r.se.toFixed(1), 'lk-se');
       const bc = cell(tr, '', 'lk-barcell lk-wide');
-      const bar = document.createElement('div'); bar.className = 'lk-bar';
-      const zero = document.createElement('b'); zero.style.left = '50%';
-      const fill = document.createElement('i');
-      const val = r[key] || 0, w = Math.abs(val) / ext * 50;
-      fill.style.left = (val >= 0 ? 50 : 50 - w) + '%'; fill.style.width = w + '%';
-      fill.style.background = r.team === team ? dash.colors[0] : 'var(--cds-chart-muted)';
-      bar.append(fill, zero); bc.appendChild(bar);
+      bc.appendChild(mkBar(r[key] || 0, raw ? null : r.se, ext, r.team === team));
       cell(tr, sgn(r[alt]), 'lk-wide');
       cell(tr, sgn(r.sos), 'lk-wide');
       cell(tr, r.record);
