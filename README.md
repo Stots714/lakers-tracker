@@ -17,7 +17,7 @@ Open the link in Safari, tap **Share**, then **Add to Home Screen**. It opens fu
 
 ## Updating after a game night
 
-Replace the changed files in `data/`: usually `results.csv`, `lakers_box.csv`, `team_stats.csv`, `absences.csv` and `sources.json`. The page recalculates on the next load; pull down to refresh.
+The data files in `data/` are replaced after each game night. The page recalculates on every load; in the home-screen app, tap Refresh (it also reloads by itself when reopened after 5 minutes away).
 
 ## Sharing a view
 

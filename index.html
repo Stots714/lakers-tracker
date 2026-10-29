@@ -151,7 +151,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 <div class="lk">
   <header class="lk-head" id="top">
     <h1>Lakers schedule-adjusted tracker</h1>
-    <p class="lk-mode" id="lk-updated">Loading…</p>
+    <p class="lk-mode"><span id="lk-updated">Loading…</span> <button type="button" class="lk-reset" id="lk-refresh">Refresh</button></p>
     <p class="lk-take" id="takeaway"><span id="lk-take-team">—</span> rate <b data-source="model" data-field="rating" class="dash-skeleton">—</b> <span class="lk-se">(± <span data-source="model" data-field="se">—</span>)</span>, ranked <span data-source="model" data-field="rank" class="dash-skeleton">—</span> of 30, after <b data-source="model" data-field="gp">—</b> games. Their results so far average <b data-source="model" data-field="raw">—</b> a game. <span id="lk-take-mode"></span></p>
   </header>
 
@@ -1109,7 +1109,7 @@ dash.onData(() => {
     const lastPlayed = schd.data.filter((g) => g.played).map((g) => g.date).sort().pop();
     document.getElementById('lk-updated').textContent = lastPlayed ? 'Results through ' + dayFmt(new Date(lastPlayed + 'T00:00:00Z')) + '. Recalculated in your browser from the files below.' : '';
   } else if (schd.status === 'error') {
-    document.getElementById('lk-updated').textContent = 'The data files did not load. Pull down to refresh.';
+    document.getElementById('lk-updated').textContent = 'The data files did not load. Tap Refresh to try again.';
   }
 
   // Absences
@@ -1135,11 +1135,17 @@ fetch('data/sources.json', { cache: 'no-cache' }).then((r) => r.json()).then((li
     li.append(a, d, u); return li;
   }));
 }).catch(() => {});
-dashLoad({
+// Reload the data on demand, and when the app comes back to the screen after 5 minutes away
+let lastLoad = 0;
+const loadAll = () => { lastLoad = Date.now(); document.getElementById('lk-updated').textContent = 'Loading…'; return dashLoad(FILES); };
+document.getElementById('lk-refresh').addEventListener('click', loadAll);
+document.addEventListener('visibilitychange', () => { if (!document.hidden && Date.now() - lastLoad > 5 * 60e3) loadAll(); });
+const FILES = {
   results: 'data/results.csv', teams: 'data/teams.csv', lakers_schedule: 'data/lakers_schedule.csv',
   team_stats: 'data/team_stats.csv', opp_stats: 'data/opp_stats.csv', lakers_box: 'data/lakers_box.csv', absences: 'data/absences.csv',
   lakers_players: 'data/lakers_players.csv', lakers_quarters: 'data/lakers_quarters.csv', player_impact: 'data/player_impact.csv',
-});
+};
+loadAll();
 </script>
 </body>
 </html>
