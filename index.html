@@ -129,6 +129,21 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .lk-scores .lk-big { font-size: var(--cds-font-size-heading); }
 .lk-table tr.lk-total td { font-weight: var(--cds-font-weight-medium); color: var(--color-fg); border-top: 2px solid var(--color-fg-muted); }
 .lk-se { color: var(--color-fg-muted); font-weight: 400; }
+.lk-wp { display: flex; height: 2rem; border-radius: var(--cds-radius); overflow: hidden; margin: var(--cds-gap-sm) 0 var(--cds-gap-xs); font-size: var(--cds-font-size-caption); font-weight: var(--cds-font-weight-medium); }
+.lk-wp div { display: flex; align-items: center; padding: 0 var(--cds-pad-sm); white-space: nowrap; min-width: 0; }
+.lk-wp .lk-wp-a { background: var(--lk-accent, #552583); color: var(--color-bg); }
+.lk-wp .lk-wp-b { background: var(--cds-chart-muted); color: var(--color-fg); justify-content: flex-end; }
+.lk-spark { width: 5.5rem; height: 1.4rem; vertical-align: middle; }
+.lk-spark polyline { fill: none; stroke: var(--color-fg-muted); stroke-width: 1.5; }
+.lk-spark circle { fill: var(--lk-accent, #552583); }
+.lk-notes { margin: 0; padding-left: 1.1rem; font-size: var(--cds-font-size-body); line-height: 1.5; }
+.lk-notes li { margin-bottom: var(--cds-gap-sm); }
+.lk-notes .lk-src-note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.lk-scatter { width: 100%; height: auto; display: block; margin-top: var(--cds-gap-sm); }
+.lk-scatter text { font-size: 11px; fill: var(--color-fg-muted); font-family: var(--font-anthropic-sans); }
+.lk-scatter .lk-pt { fill: var(--lk-accent, #552583); fill-opacity: 0.85; }
+.lk-scatter .lk-ax { stroke: var(--color-border-line); }
+.lk-scatter .lk-ref { stroke: var(--cds-chart-reference); stroke-dasharray: 3 3; }
 .lk-fail { display: flex; align-items: center; justify-content: center; gap: var(--cds-gap-xs); min-height: 6rem; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
 .lk-fail::before { content: ""; width: 0.375rem; height: 0.375rem; border-radius: 50%; background: var(--color-bad); }
 [data-dash-source-state=empty] { color: transparent; }
@@ -191,6 +206,35 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       <div><div class="lk-label">With known absences</div><div class="lk-big dash-skeleton" data-source="next_game" data-field="proj_adj">—</div></div>
     </div>
     <div class="lk-eq" id="lk-eq">Lakers <b data-source="next_game" data-field="lal_rating">—</b> − <span data-source="next_game" data-field="opp_name">—</span> <b data-source="next_game" data-field="opp_rating">—</b> + home court <b data-source="next_game" data-field="hca_pts">—</b> + rest <b data-source="next_game" data-field="rest_pts">—</b> = <b data-source="next_game" data-field="proj">—</b><br><span data-source="next_game" data-field="rest_note">—</span><br><span data-source="next_game" data-field="absent_note">—</span><br><span data-source="next_game" data-field="adj_note">—</span></div>
+  </section>
+
+
+  <section class="lk-card" id="spotlight">
+    <h2 id="lk-spot-title">Next game spotlight</h2>
+    <p class="lk-note">Win chance from the projection, its uncertainty and game-to-game noise (12 points). Form = average Game Score over a player's last 3 games against his season average; three games is a small sample, so read it as recent form, not a forecast.</p>
+    <div class="lk-wp" id="lk-wp" data-source="spotlight"><div class="lk-wp-a" style="width:50%">—</div><div class="lk-wp-b" style="width:50%">—</div></div>
+    <p class="lk-mode" id="lk-wp-note" data-source="spotlight" data-field="wp_note">—</p>
+    <div class="lk-scores" id="lk-form-tiles">
+      <div><div class="lk-label" data-source="spotlight" data-field="lal_label">Lakers</div><div class="lk-big dash-skeleton" data-source="spotlight" data-field="lal_last2">—</div><div class="lk-sub">Last 2 games · rating <span data-source="spotlight" data-field="lal_rating">—</span></div></div>
+      <div><div class="lk-label" data-source="spotlight" data-field="opp_label">Opponent</div><div class="lk-big dash-skeleton" data-source="spotlight" data-field="opp_last2">—</div><div class="lk-sub">Last 2 games · rating <span data-source="spotlight" data-field="opp_rating">—</span></div></div>
+    </div>
+    <h2 style="margin-top: var(--cds-gap-md)">Form: who's hot</h2>
+    <p class="lk-note" id="lk-form-note">Top three by last-3 Game Score on each side (15+ minutes a game). The line shows each game in order.</p>
+    <div class="lk-tablewrap">
+      <table class="lk-table lk-stack" id="lk-form" data-source="player_form" data-row-key="team,player">
+        <thead><tr>
+          <th data-field="team" class="lk-left">Team</th>
+          <th data-field="player" class="lk-left">Player</th>
+          <th data-field="last3">Last 3</th>
+          <th data-field="season">Season</th>
+          <th data-field="trend" class="lk-left">Game by game</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="lk-note" id="lk-ww" data-source="with_without" data-field="note">—</p>
+    <h2 style="margin-top: var(--cds-gap-md)">Storyline</h2>
+    <ul class="lk-notes" id="lk-story" data-source="spotlight_notes"></ul>
   </section>
 
   <section class="lk-card" id="league">
@@ -303,7 +347,9 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       <h2>Lakers players</h2>
       <p class="lk-note">Season to date, sorted by minutes. TS% counts threes and free throws; USG% is the share of team plays a player finishes while on the floor; BPM is Basketball-Reference's box plus-minus (points per 100 possessions vs an average player). Blank where not yet published.</p>
       <div class="lk-tablewrap">
-        <div class="lk-groups" role="group" aria-label="Columns to show" data-for="lk-players"><button type="button" data-g="1" aria-pressed="true">Scoring</button><button type="button" data-g="2" aria-pressed="false">Floor game</button><button type="button" data-g="3" aria-pressed="false">Impact</button></div>
+        <svg class="lk-scatter" id="lk-uvse" viewBox="0 0 340 220" role="img" aria-label="Usage versus true shooting for Lakers players" data-source="players"></svg>
+      <p class="lk-note">Usage (share of plays a player finishes) across, true shooting down the side; dashed lines are the league averages. Up and to the right is high volume at high efficiency. Players with 40+ minutes.</p>
+      <div class="lk-groups" role="group" aria-label="Columns to show" data-for="lk-players"><button type="button" data-g="1" aria-pressed="true">Scoring</button><button type="button" data-g="2" aria-pressed="false">Floor game</button><button type="button" data-g="3" aria-pressed="false">Impact</button></div>
       <table class="lk-table" id="lk-players" data-active="1" data-source="players" data-row-key="player">
           <thead><tr>
             <th data-field="player" class="lk-left">Player</th>
@@ -801,13 +847,14 @@ dash.calc('players', {
   fn: (lakers_players, team_stats) => {
     const n = Number, t = team_stats.find((r) => r.team === 'LAL');
     const tPlays = n(t.fga) + 0.44 * n(t.fta) + n(t.tov), tMin = n(t.mp);
+    const lgTs = team_stats.reduce((a, r) => a + n(r.pts), 0) / (2 * team_stats.reduce((a, r) => a + n(r.fga) + 0.44 * n(r.fta), 0));
     return lakers_players.map((p) => {
       const g = n(p.g), min = n(p.min), tsa = n(p.fga) + 0.44 * n(p.fta);
       return {
         player: p.player, g, min, mpg: min / g, ppg: n(p.pts) / g, ts: tsa ? n(p.pts) / (2 * tsa) : null,
         usg: min ? 100 * (tsa + n(p.tov)) * (tMin / 5) / (min * tPlays) : null,
         rpg: (n(p.oreb) + n(p.dreb)) / g, apg: n(p.ast) / g, spg: n(p.stl) / g, bpg: n(p.blk) / g, topg: n(p.tov) / g,
-        pf36: min ? n(p.pf) * 36 / min : null, bpm: p.bpm === '' ? null : n(p.bpm), bpm_prior: p.bpm_prior === '' ? null : n(p.bpm_prior),
+        pf36: min ? n(p.pf) * 36 / min : null, bpm: p.bpm === '' ? null : n(p.bpm), bpm_prior: p.bpm_prior === '' ? null : n(p.bpm_prior), lg_ts: lgTs,
       };
     }).sort((a, b) => b.min - a.min);
   },
@@ -829,6 +876,73 @@ dash.calc('quarters', {
     [...Q, 'total'].forEach((k) => { tot[k] = rows.reduce((a, r) => a + r[k], 0); tot[k + '_wl'] = rows.filter((r) => r[k] > 0).length + '-' + rows.filter((r) => r[k] < 0).length; });
     rows.push(tot);
     return rows;
+  },
+});
+
+dash.calc('player_form', {
+  inputs: ['player_games'],
+  title: 'Player form by Game Score',
+  description: 'Game Score = PTS + 0.4×FGM − 0.7×FGA − 0.4×(FTA − FTM) + 0.7×OREB + 0.3×DREB + STL + 0.7×AST + 0.7×BLK − 0.4×PF − TOV, per game; last-3 average against the season average.',
+  fn: (player_games) => {
+    const n = Number, gs = (g) => n(g.pts) + 0.4 * n(g.fgm) - 0.7 * n(g.fga) - 0.4 * (n(g.fta) - n(g.ftm)) + 0.7 * n(g.oreb) + 0.3 * n(g.dreb) + n(g.stl) + 0.7 * n(g.ast) + 0.7 * n(g.blk) - 0.4 * n(g.pf) - n(g.tov);
+    const by = new Map();
+    for (const g of player_games) { const k = g.team + '|' + g.player; if (!by.has(k)) by.set(k, []); by.get(k).push(g); }
+    const rows = [];
+    for (const [k, list] of by) {
+      list.sort((a, b) => (a.date < b.date ? -1 : 1));
+      const scores = list.map(gs), last = scores.slice(-3), mins = list.map((g) => n(g.min));
+      const teamGames = new Set(player_games.filter((g) => g.team === list[0].team).map((g) => g.date)).size;
+      rows.push({
+        team: list[0].team, player: list[0].player, games: list.length, team_games: teamGames, mpg: mins.reduce((a, v) => a + v, 0) / list.length,
+        season: scores.reduce((a, v) => a + v, 0) / scores.length, last3: last.reduce((a, v) => a + v, 0) / last.length,
+        trend: scores.map((v) => +v.toFixed(1)).join(' '), dates: list.map((g) => g.date).join(' '), last_date: list[list.length - 1].date,
+      });
+    }
+    return rows.sort((a, b) => b.last3 - a.last3);
+  },
+});
+
+dash.calc('spotlight', {
+  inputs: ['next_game', 'model', 'game_log'],
+  title: 'Next Lakers game: win chance and team form',
+  description: 'Win chance = Φ(projected margin ÷ √(12² + Lakers SE² + opponent SE²)); team form = average performance over each side’s last 2 games. Per toggle setting.',
+  fn: (next_game, model, game_log) => {
+    const phi = (z) => { const t = 1 / (1 + 0.2316419 * Math.abs(z)), d = 0.3989423 * Math.exp(-z * z / 2); const p = d * t * (0.3193815 + t * (-0.3565638 + t * (1.781478 + t * (-1.821256 + t * 1.330274)))); return z > 0 ? 1 - p : p; };
+    const rows = [];
+    for (const g of next_game.filter((r) => r.team === 'LAL')) {
+      const m = (t) => model.find((r) => r.variant === g.variant && r.team === t);
+      const L = m('LAL'), O = m(g.opp), sd = Math.sqrt(144 + L.se * L.se + O.se * O.se);
+      const form = (t) => { const p = game_log.filter((r) => r.variant === g.variant && r.team === t && r.status === 'played').slice(-2); return p.length ? p.reduce((a, r) => a + r.perf, 0) / p.length : null; };
+      rows.push({
+        variant: g.variant, date: g.date, date_label: g.date_label, opp: g.opp, opp_name: g.opp_name, matchup: g.matchup,
+        proj: g.proj, sd, wp: phi(g.proj / sd), wp_adj: g.proj_adj === null ? null : phi(g.proj_adj / sd),
+        lal_rating: L.rating, lal_rank: L.rank, opp_rating: O.rating, opp_rank: O.rank, lal_last2: form('LAL'), opp_last2: form(g.opp),
+      });
+    }
+    return rows;
+  },
+});
+
+dash.calc('with_without', {
+  inputs: ['game_log', 'absences'],
+  title: 'Lakers with and without a missing player',
+  description: 'Average performance in Lakers games a player missed (from the absences list) against games he played; players who missed the same games are grouped. Per toggle setting.',
+  fn: (game_log, absences) => {
+    const out = [];
+    for (const variant of [...new Set(game_log.map((r) => r.variant))]) {
+      const played = game_log.filter((r) => r.variant === variant && r.team === 'LAL' && r.status === 'played');
+      for (const player of [...new Set(absences.filter((a) => a.team === 'LAL').map((a) => a.player))]) {
+        const missed = (d) => absences.some((a) => a.team === 'LAL' && a.player === player && a.from <= d && (!a.until || a.until >= d));
+        const wo = played.filter((r) => missed(r.date)), w = played.filter((r) => !missed(r.date));
+        if (!wo.length || !w.length) continue;
+        const avg = (a) => a.reduce((s, r) => s + r.perf, 0) / a.length;
+        const key = wo.map((r) => r.date).join(',');
+        const same = out.find((o) => o.variant === variant && o.key === key);
+        if (same) { same.player += ' and ' + player; continue; }
+        out.push({ variant, key, player, games_without: wo.length, games_with: w.length, perf_without: avg(wo), perf_with: avg(w) });
+      }
+    }
+    return out;
   },
 });
 
@@ -1103,6 +1217,88 @@ dash.onData(() => {
     });
   } else if (qd.status === 'error') { fail(qBody); }
 
+  // Spotlight
+  const sp = dash.data('spotlight');
+  const srw = sp.status === 'ok' ? sp.data.find((r) => r.variant === v) : null;
+  const wpEl = document.getElementById('lk-wp');
+  if (srw) {
+    const a = Math.round(srw.wp * 100);
+    document.getElementById('lk-spot-title').textContent = 'Spotlight: ' + srw.date_label + ' ' + srw.matchup;
+    wpEl.children[0].style.width = a + '%'; wpEl.children[0].textContent = 'Lakers ' + a + '%';
+    wpEl.children[1].style.width = (100 - a) + '%'; wpEl.children[1].textContent = srw.opp_name + ' ' + (100 - a) + '%';
+    document.getElementById('lk-wp-note').textContent = 'Projected Lakers ' + sgn(srw.proj) + ', give or take ' + srw.sd.toFixed(0) + ' points.' + (srw.wp_adj === null ? '' : ' With known absences: Lakers ' + Math.round(srw.wp_adj * 100) + '%.');
+    const set = (f, txt) => document.querySelectorAll('[data-source="spotlight"][data-field="' + f + '"]').forEach((el) => { unskel(el); el.textContent = txt; });
+    set('lal_label', 'Lakers'); set('opp_label', srw.opp_name);
+    set('lal_last2', sgn(srw.lal_last2)); set('opp_last2', sgn(srw.opp_last2));
+    set('lal_rating', sgn(srw.lal_rating) + ' (' + srw.lal_rank + ')'); set('opp_rating', sgn(srw.opp_rating) + ' (' + srw.opp_rank + ')');
+  }
+  const pf = dash.data('player_form');
+  const fBody2 = document.querySelector('#lk-form tbody'); fBody2.replaceChildren();
+  if (pf.status === 'ok' && srw) {
+    const sideRows = [];
+    for (const t of ['LAL', srw.opp]) sideRows.push(...pf.data.filter((r) => r.team === t && r.mpg >= 15 && r.games >= 2).slice(0, 3));
+    sideRows.forEach((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = r.team + ',' + r.player;
+      if (r.team === 'LAL') tr.className = 'lk-sel';
+      cell(tr, r.team, 'lk-left'); cell(tr, r.player, 'lk-left'); cell(tr, r.last3.toFixed(1), 'lk-strong'); cell(tr, r.season.toFixed(1));
+      const td = cell(tr, '', 'lk-left');
+      const vals = r.trend.split(' ').map(Number), lo = Math.min(0, ...vals), hi = Math.max(...vals, 1), W = 88, H = 22;
+      const x = (i) => (vals.length === 1 ? W / 2 : 4 + i * (W - 8) / (vals.length - 1)), y = (val) => H - 3 - (val - lo) / (hi - lo) * (H - 6);
+      const NS = 'http://www.w3.org/2000/svg', svg = document.createElementNS(NS, 'svg');
+      svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H); svg.setAttribute('class', 'lk-spark'); svg.setAttribute('role', 'img'); svg.setAttribute('aria-label', 'Game Scores: ' + r.trend);
+      const pl = document.createElementNS(NS, 'polyline'); pl.setAttribute('points', vals.map((val, i) => x(i) + ',' + y(val)).join(' ')); svg.appendChild(pl);
+      const c = document.createElementNS(NS, 'circle'); c.setAttribute('cx', x(vals.length - 1)); c.setAttribute('cy', y(vals[vals.length - 1])); c.setAttribute('r', 2.5); svg.appendChild(c);
+      td.appendChild(svg);
+      fBody2.appendChild(tr);
+    });
+    const oppGames = pf.data.filter((r) => r.team === srw.opp);
+    const tg = oppGames.length ? oppGames[0].team_games : 0;
+    document.getElementById('lk-form-note').textContent = 'Top three by last-3 Game Score on each side (15+ minutes a game). The line shows each game in order.' + (tg ? ' ' + srw.opp_name + ' box scores on file: ' + tg + ' games.' : ' No ' + srw.opp_name + ' box scores on file yet.');
+  }
+  const ww = dash.data('with_without');
+  const wwEl = document.getElementById('lk-ww');
+  if (ww.status === 'ok') {
+    const rs = ww.data.filter((r) => r.variant === v);
+    wwEl.textContent = rs.length ? rs.map((r) => 'Lakers without ' + r.player + ': ' + sgn(r.perf_without) + ' performance in ' + r.games_without + ' game' + (r.games_without > 1 ? 's' : '') + ', against ' + sgn(r.perf_with) + ' with ' + (r.player.includes(' and ') ? 'them' : 'him') + ' (' + r.games_with + ').').join(' ') + ' Tiny samples: context, not proof.' : 'No Lakers games yet with a key player out.';
+  }
+  const sn = dash.data('spotlight_notes');
+  const ul = document.getElementById('lk-story'); ul.replaceChildren();
+  if (sn.status === 'ok' && srw) {
+    sn.data.filter((r) => r.game_date === srw.date).sort((a, b) => Number(a.order) - Number(b.order)).forEach((r) => {
+      const li = document.createElement('li'); li.textContent = r.text + ' ';
+      const s = document.createElement('a'); s.className = 'lk-src-note'; s.href = r.url; s.target = '_blank'; s.rel = 'noopener'; s.textContent = r.source; li.appendChild(s);
+      ul.appendChild(li);
+    });
+    if (!ul.children.length) { const li = document.createElement('li'); li.textContent = 'No storyline notes for this game yet.'; ul.appendChild(li); }
+  }
+
+  // Usage vs efficiency scatter
+  const svgU = document.getElementById('lk-uvse');
+  if (pl.status === 'ok') {
+    const NS = 'http://www.w3.org/2000/svg', W = 340, H = 220, P = { l: 34, r: 10, t: 22, b: 28 };
+    const pts = pl.data.filter((r) => r.min >= 40 && r.usg !== null && r.ts !== null);
+    const lgTs = pl.data[0] ? pl.data[0].lg_ts : 0.56;
+    const xs = pts.map((r) => r.usg), ys = pts.map((r) => r.ts * 100);
+    const x0 = Math.min(5, ...xs) - 1, x1 = Math.max(35, ...xs) + 2, y0 = Math.min(50, ...ys) - 2, y1 = Math.max(75, ...ys) + 2;
+    const X = (val) => P.l + (val - x0) / (x1 - x0) * (W - P.l - P.r), Y = (val) => H - P.b - (val - y0) / (y1 - y0) * (H - P.t - P.b);
+    const el = (tag, at, txt) => { const e = document.createElementNS(NS, tag); Object.entries(at).forEach(([k, val]) => e.setAttribute(k, val)); if (txt !== undefined) e.textContent = txt; return e; };
+    svgU.replaceChildren();
+    svgU.appendChild(el('line', { x1: P.l, y1: H - P.b, x2: W - P.r, y2: H - P.b, class: 'lk-ax' }));
+    svgU.appendChild(el('line', { x1: P.l, y1: P.t, x2: P.l, y2: H - P.b, class: 'lk-ax' }));
+    svgU.appendChild(el('line', { x1: X(20), y1: P.t, x2: X(20), y2: H - P.b, class: 'lk-ref' }));
+    svgU.appendChild(el('line', { x1: P.l, y1: Y(lgTs * 100), x2: W - P.r, y2: Y(lgTs * 100), class: 'lk-ref' }));
+    svgU.appendChild(el('text', { x: W - P.r, y: H - 6, 'text-anchor': 'end' }, 'Usage % →'));
+    svgU.appendChild(el('text', { x: 4, y: 11 }, 'True shooting %'));
+    [x0, 20, x1].forEach((t) => svgU.appendChild(el('text', { x: X(t), y: H - P.b + 12, 'text-anchor': 'middle' }, Math.round(t))));
+    [Math.ceil(y0), Math.round(lgTs * 100), Math.floor(y1)].forEach((t) => svgU.appendChild(el('text', { x: P.l - 4, y: Y(t) + 3, 'text-anchor': 'end' }, t)));
+    pts.forEach((r) => {
+      const c = el('circle', { cx: X(r.usg), cy: Y(r.ts * 100), r: 3 + Math.sqrt(r.min) / 4, class: 'lk-pt' });
+      c.appendChild(el('title', {}, r.player + ': usage ' + r.usg.toFixed(1) + '%, TS ' + (r.ts * 100).toFixed(1) + '%, ' + Math.round(r.min) + ' min'));
+      svgU.appendChild(c);
+      const right = X(r.usg) > W * 0.72; svgU.appendChild(el('text', { x: X(r.usg) + (right ? -7 : 7), y: Y(r.ts * 100) + 3, 'text-anchor': right ? 'end' : 'start' }, r.player.split(' ').slice(-1)[0]));
+    });
+  }
+
   // Updated line
   const schd = dash.data('schedule');
   if (schd.status === 'ok') {
@@ -1122,7 +1318,7 @@ dash.onData(() => {
       aBody.appendChild(tr);
     });
   }
-  ['lk-played', 'lk-upcoming', 'lk-ff', 'lk-abs', 'lk-eff', 'lk-players', 'lk-lbox'].forEach((id) => phoneLayout(document.getElementById(id)));
+  ['lk-played', 'lk-upcoming', 'lk-ff', 'lk-abs', 'lk-eff', 'lk-players', 'lk-lbox', 'lk-form'].forEach((id) => phoneLayout(document.getElementById(id)));
 });
 fetch('data/sources.json', { cache: 'no-cache' }).then((r) => r.json()).then((list) => {
   const ul = document.getElementById('lk-src');
@@ -1144,6 +1340,7 @@ const FILES = {
   results: 'data/results.csv', teams: 'data/teams.csv', lakers_schedule: 'data/lakers_schedule.csv',
   team_stats: 'data/team_stats.csv', opp_stats: 'data/opp_stats.csv', lakers_box: 'data/lakers_box.csv', absences: 'data/absences.csv',
   lakers_players: 'data/lakers_players.csv', lakers_quarters: 'data/lakers_quarters.csv', player_impact: 'data/player_impact.csv',
+  player_games: 'data/player_games.csv', spotlight_notes: 'data/spotlight_notes.csv',
 };
 loadAll();
 </script>
