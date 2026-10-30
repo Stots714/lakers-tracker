@@ -1,5 +1,127 @@
 {
- "updated": null,
- "league": {},
- "note": "Placeholder until tools/nba/update_nba.py runs on a PC and replaces this file."
+ "updated": "2026-10-30T00:14:32-07:00",
+ "season": "2026-27",
+ "teams": [
+  "LAL",
+  "GSW"
+ ],
+ "nba_api": "1.12.0",
+ "league": {
+  "nba_results": "league_results.csv",
+  "nba_box": "league_box.csv",
+  "nba_player_games": "league_player_games.csv",
+  "nba_quarters": "league_quarters.csv",
+  "nba_inactive": "league_inactive.csv"
+ },
+ "steps": {
+  "league schedule": {
+   "ok": true,
+   "games": 1206
+  },
+  "league team box scores": {
+   "ok": true,
+   "team-games": 142
+  },
+  "league results": {
+   "ok": true,
+   "games": 1206
+  },
+  "league player games": {
+   "ok": true,
+   "player lines": 1597
+  },
+  "league quarter scores and inactive lists": {
+   "ok": true,
+   "new games": 71
+  },
+  "LAL games": {
+   "ok": true,
+   "rows": 5
+  },
+  "LAL player games": {
+   "ok": true,
+   "rows": 50
+  },
+  "LAL player games advanced": {
+   "ok": true,
+   "rows": 50
+  },
+  "LAL on/off": {
+   "ok": true,
+   "rows": 33
+  },
+  "LAL 5-man lineups": {
+   "ok": true,
+   "rows": 60
+  },
+  "LAL 2-man lineups": {
+   "ok": true,
+   "rows": 72
+  },
+  "LAL shots": {
+   "ok": true,
+   "rows": 401
+  },
+  "LAL shots against": {
+   "ok": true,
+   "rows": 422
+  },
+  "LAL hustle": {
+   "ok": true,
+   "rows": 13
+  },
+  "GSW games": {
+   "ok": true,
+   "rows": 5
+  },
+  "GSW player games": {
+   "ok": true,
+   "rows": 62
+  },
+  "GSW player games advanced": {
+   "ok": true,
+   "rows": 62
+  },
+  "GSW on/off": {
+   "ok": true,
+   "rows": 33
+  },
+  "GSW 5-man lineups": {
+   "ok": true,
+   "rows": 99
+  },
+  "GSW 2-man lineups": {
+   "ok": true,
+   "rows": 93
+  },
+  "GSW shots": {
+   "ok": true,
+   "rows": 440
+  },
+  "GSW shots against": {
+   "ok": true,
+   "rows": 427
+  },
+  "GSW hustle": {
+   "ok": true,
+   "rows": 15
+  },
+  "matchups": {
+   "ok": true,
+   "new games": 9
+  },
+  "play-by-play": {
+   "ok": true,
+   "new games": 9
+  }
+ },
+ "checks": [
+  "Scores: 68 games in both files, 0 differ; 0 hand-checked games not found on NBA.com by date and teams.",
+  "Lakers box scores: 10 team-games compared, 3 numbers differ [('2026-10-25', 'UTA', 'dreb', '31', 32), ('2026-10-25', 'UTA', 'tov', '19', 17), ('2026-10-28', 'LAL', 'tov', '21', 19)].",
+  "Player points add up to team points in 140 of 142 team-games: [('2026-10-28', 'DAL', 118, 120), ('2026-10-29', 'ATL', 113, 114)].",
+  "Lakers quarter scores: 10 compared, 0 differ.",
+  "Lakers scores checked against results.csv: 5 games, 0 mismatches ",
+  "Oct 21 Doncic-Lendeborg rows (ABC7 reported Doncic 1 of 6 against Lendeborg):\n  familyNameOff | familyNameDef | matchupMinutes | partialPossessions | playerPoints | matchupFieldGoalsMade | matchupFieldGoalsAttempted\n  Dončić | Lendeborg | 3:03 | 18.5 | 9 | 1 | 5\n  Lendeborg | Dončić | 2:56 | 14.7 | 2 | 1 | 2"
+ ],
+ "source": "NBA.com stats via the nba_api Python package (github.com/swar/nba_api)"
 }
