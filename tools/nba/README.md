@@ -15,7 +15,7 @@ if (-not (Test-Path "$r\.git")) { gh repo clone Stots714/lakers-tracker $r }
 powershell -ExecutionPolicy Bypass -File "$r\tools\nba\run_update.ps1" -Push -Daily
 ```
 
-That one run does everything: gets a copy of the repository (in its own folder, so it never clashes with other copies), installs Python for your user if it is missing, sets up nba_api, downloads the data for all 30 teams, checks it, pushes it to GitHub (the site updates a minute or two later), and sets it to run by itself every morning at 9:40 (when the PC wakes, if it was asleep). Leave off `-Daily` if you only want this one run. It prints what worked and the check results at the end.
+That one run does everything: gets a copy of the repository (in its own folder, so it never clashes with other copies), installs Python for your user if it is missing, sets up nba_api, downloads the data for all 30 teams, checks it, pushes it to GitHub (the site updates a minute or two later), and sets it to run by itself every morning at 9:40. The PC needs to be on, signed in (a locked screen is fine) and online; if it is off or asleep at 9:40, the run happens as soon as it is back on, on battery or plugged in. A missed day loses nothing: the next run catches up every game since. Leave off `-Daily` if you only want this one run. It prints what worked and the check results at the end.
 
 To run it again by hand later, paste only the last line. Other switches: `-Check` tests the connection with one small request; `-Teams LAL,GSW` chooses teams for the detail steps.
 
