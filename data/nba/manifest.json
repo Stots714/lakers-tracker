@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T00:14:32-07:00",
+ "updated": "2026-10-30T00:23:52-07:00",
  "season": "2026-27",
  "teams": [
   "LAL",
@@ -11,7 +11,8 @@
   "nba_box": "league_box.csv",
   "nba_player_games": "league_player_games.csv",
   "nba_quarters": "league_quarters.csv",
-  "nba_inactive": "league_inactive.csv"
+  "nba_inactive": "league_inactive.csv",
+  "nba_extras": "league_extras.csv"
  },
  "steps": {
   "league schedule": {
@@ -30,9 +31,13 @@
    "ok": true,
    "player lines": 1597
   },
-  "league quarter scores and inactive lists": {
+  "league quarter scores, inactive lists and game extras": {
    "ok": true,
    "new games": 71
+  },
+  "league team turnovers": {
+   "ok": true,
+   "team-games": 142
   },
   "LAL games": {
    "ok": true,
@@ -108,17 +113,18 @@
   },
   "matchups": {
    "ok": true,
-   "new games": 9
+   "new games": 0
   },
   "play-by-play": {
    "ok": true,
-   "new games": 9
+   "new games": 0
   }
  },
  "checks": [
   "Scores: 68 games in both files, 0 differ; 0 hand-checked games not found on NBA.com by date and teams.",
-  "Lakers box scores: 10 team-games compared, 3 numbers differ [('2026-10-25', 'UTA', 'dreb', '31', 32), ('2026-10-25', 'UTA', 'tov', '19', 17), ('2026-10-28', 'LAL', 'tov', '21', 19)].",
+  "Lakers box scores: 10 team-games compared, 4 numbers differ [('2026-10-21', 'GSW', 'tov', '15', 16), ('2026-10-23', 'LAC', 'tov', '25', 26), ('2026-10-25', 'UTA', 'dreb', '31', 32), ('2026-10-25', 'UTA', 'tov', '19', 17)].",
   "Player points add up to team points in 140 of 142 team-games: [('2026-10-28', 'DAL', 118, 120), ('2026-10-29', 'ATL', 113, 114)].",
+  "Turnovers (players + team) match NBA.com's game totals in 142 of 142 team-games.",
   "Lakers quarter scores: 10 compared, 0 differ.",
   "Lakers scores checked against results.csv: 5 games, 0 mismatches ",
   "Oct 21 Doncic-Lendeborg rows (ABC7 reported Doncic 1 of 6 against Lendeborg):\n  familyNameOff | familyNameDef | matchupMinutes | partialPossessions | playerPoints | matchupFieldGoalsMade | matchupFieldGoalsAttempted\n  Dončić | Lendeborg | 3:03 | 18.5 | 9 | 1 | 5\n  Lendeborg | Dončić | 2:56 | 14.7 | 2 | 1 | 2"
