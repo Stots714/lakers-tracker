@@ -1,7 +1,8 @@
 """Pull NBA.com stats for the tracker.
 
 Run this on your own PC. NBA.com's stats site often refuses or times out requests from cloud
-servers, so the tracker cannot fetch these itself.
+servers, so the tracker cannot fetch these itself. Plain Python plus requests: no pandas or numpy,
+whose unsigned compiled files Windows Smart App Control can block.
 
 League-wide, for all 30 teams (see league.py): league_results.csv, league_box.csv,
 league_player_games.csv, league_quarters.csv, league_inactive.csv. The site reads these.
@@ -38,7 +39,6 @@ import unicodedata
 from importlib.metadata import version
 from pathlib import Path
 
-import pandas as pd
 from nba_api.stats.endpoints import (
     boxscorematchupsv3,
     leaguedashlineups,
@@ -53,6 +53,7 @@ from nba_api.stats.static import teams as static_teams
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import league  # noqa: E402  (league-wide files in the tracker's formats)
+import rows  # noqa: E402  (plain-Python tables; no pandas, see rows.py)
 
 SEASON = "2026-27"
 SEASON_TYPE = "Regular Season"
@@ -96,11 +97,21 @@ def fetch(cls, **kw):
     raise last
 
 
-def save(df, name):
-    path = OUT / name
-    path.parent.mkdir(parents=True, exist_ok=True)
-    df.to_csv(path, index=False, encoding="utf-8")
-    return len(df)
+def save(data, name, columns=None):
+    """Write rows (a list of dicts) to data/nba/<name>; returns the row count."""
+    return rows.write(OUT / name, data, columns)
+
+
+def save_table(t, name):
+    """Save a (rows, columns) pair from table() to data/nba/<name>, keeping NBA.com's column order."""
+    data, cols = t
+    return save(data, name, cols)
+
+
+def table(ds):
+    """An nba_api data set as a list of dicts, with its column order kept for writing."""
+    r, cols = rows.from_dataset(ds)
+    return r, cols
 
 
 def step(label, fn, unit="rows"):
@@ -142,32 +153,33 @@ def next_opponent():
 def games(abbr, tid):
     ep = fetch(leaguegamefinder.LeagueGameFinder, player_or_team_abbreviation="T", team_id_nullable=str(tid),
                season_nullable=SEASON, season_type_nullable=SEASON_TYPE, league_id_nullable="00")
-    df = ep.league_game_finder_results.get_data_frame()
-    df = df.sort_values("GAME_DATE")
-    save(df, f"games_{abbr}.csv")
-    return df
+    r, cols = table(ep.league_game_finder_results)
+    r.sort(key=lambda x: str(x["GAME_DATE"]))
+    save(r, f"games_{abbr}.csv", cols)
+    return r
 
 
 def player_games(abbr, tid, measure):
     ep = fetch(playergamelogs.PlayerGameLogs, season_nullable=SEASON, team_id_nullable=str(tid),
                season_type_nullable=SEASON_TYPE, measure_type_player_game_logs_nullable=measure)
     suffix = "" if measure == "Base" else "_adv"
-    return save(ep.player_game_logs.get_data_frame(), f"player_games{suffix}_{abbr}.csv")
+    return save_table(table(ep.player_game_logs), f"player_games{suffix}_{abbr}.csv")
 
 
 def onoff(abbr, tid):
     ep = fetch(teamplayeronoffdetails.TeamPlayerOnOffDetails, team_id=tid, season=SEASON,
                season_type_all_star=SEASON_TYPE, measure_type_detailed_defense="Advanced", per_mode_detailed="Totals")
-    on = ep.players_on_court_team_player_on_off_details.get_data_frame().assign(COURT="on")
-    off = ep.players_off_court_team_player_on_off_details.get_data_frame().assign(COURT="off")
-    return save(pd.concat([on, off], ignore_index=True), f"onoff_{abbr}.csv")
+    on, cols = table(ep.players_on_court_team_player_on_off_details)
+    off, cols_off = table(ep.players_off_court_team_player_on_off_details)
+    data = [dict(r, COURT="on") for r in on] + [dict(r, COURT="off") for r in off]
+    return save(data, f"onoff_{abbr}.csv", (cols or cols_off) + ["COURT"])
 
 
 def lineups(abbr, tid, size):
     ep = fetch(leaguedashlineups.LeagueDashLineups, team_id_nullable=str(tid), season=SEASON,
                season_type_all_star=SEASON_TYPE, group_quantity=str(size),
                measure_type_detailed_defense="Advanced", per_mode_detailed="Totals")
-    return save(ep.lineups.get_data_frame(), f"lineups{size}_{abbr}.csv")
+    return save_table(table(ep.lineups), f"lineups{size}_{abbr}.csv")
 
 
 def shots(abbr, tid, against=False):
@@ -175,13 +187,13 @@ def shots(abbr, tid, against=False):
     kw = dict(team_id=0, player_id=0, opponent_team_id=tid) if against else dict(team_id=tid, player_id=0)
     ep = fetch(shotchartdetail.ShotChartDetail, season_nullable=SEASON, season_type_all_star=SEASON_TYPE,
                context_measure_simple="FGA", **kw)
-    return save(ep.shot_chart_detail.get_data_frame(), f"shots{'_against' if against else ''}_{abbr}.csv")
+    return save_table(table(ep.shot_chart_detail), f"shots{'_against' if against else ''}_{abbr}.csv")
 
 
 def hustle(abbr, tid):
     ep = fetch(leaguehustlestatsplayer.LeagueHustleStatsPlayer, season=SEASON, season_type_all_star=SEASON_TYPE,
                team_id_nullable=str(tid), per_mode_time="Totals")
-    return save(ep.hustle_stats_player.get_data_frame(), f"hustle_{abbr}.csv")
+    return save_table(table(ep.hustle_stats_player), f"hustle_{abbr}.csv")
 
 
 def per_game(game_ids, folder, cls, attr, refresh):
@@ -191,7 +203,7 @@ def per_game(game_ids, folder, cls, attr, refresh):
         if path.exists() and not refresh:
             continue
         ep = fetch(cls, game_id=gid)
-        save(getattr(ep, attr).get_data_frame(), f"{folder}/{gid}.csv")
+        save_table(table(getattr(ep, attr)), f"{folder}/{gid}.csv")
         new += 1
     return new
 
@@ -207,22 +219,24 @@ def checks(lal_games):
             lal_pts = r["home_pts"] if r["home"] == "LAL" else r["away_pts"]
             if "LAL" in (r["away"], r["home"]) and lal_pts.strip():
                 ours[r["date"]] = int(lal_pts)
-        bad = [(d, ours[d], int(p)) for d, p in zip(lal_games["GAME_DATE"].str[:10], lal_games["PTS"]) if d in ours and ours[d] != int(p)]
-        notes.append(f"Lakers scores checked against results.csv: {sum(d in ours for d in lal_games['GAME_DATE'].str[:10])} games, {len(bad)} mismatches {bad if bad else ''}")
+        mine = [(str(g["GAME_DATE"])[:10], int(g["PTS"])) for g in lal_games]
+        bad = [(d, ours[d], p) for d, p in mine if d in ours and ours[d] != p]
+        notes.append(f"Lakers scores checked against results.csv: {sum(d in ours for d, _ in mine)} games, {len(bad)} mismatches {bad if bad else ''}")
     oct21 = None
     if lal_games is not None and len(lal_games):
-        hit = lal_games[lal_games["GAME_DATE"].str.startswith("2026-10-21")]
-        oct21 = hit["GAME_ID"].iloc[0] if len(hit) else None
+        hit = [g for g in lal_games if str(g["GAME_DATE"]).startswith("2026-10-21")]
+        oct21 = hit[0]["GAME_ID"] if hit else None
     path = OUT / "matchups" / f"{oct21}.csv" if oct21 else None
     if path and path.exists():
-        m = pd.read_csv(path)
-        name_cols = [c for c in m.columns if c.startswith("familyName")]
+        m = rows.read(path)
+        name_cols = [c for c in (m[0].keys() if m else []) if c.startswith("familyName")]
         if len(name_cols) == 2:
             a, b = name_cols
-            pa, pb = m[a].map(plain), m[b].map(plain)
-            sel = m[((pa == "doncic") & (pb == "lendeborg")) | ((pa == "lendeborg") & (pb == "doncic"))]
-            keep = [c for c in [a, b, "matchupMinutes", "partialPossessions", "playerPoints", "matchupFieldGoalsMade", "matchupFieldGoalsAttempted"] if c in m.columns]
-            notes.append("Oct 21 Doncic-Lendeborg rows (ABC7 reported Doncic 1 of 6 against Lendeborg):\n" + (sel[keep].to_string(index=False) if len(sel) else "  none found"))
+            pair = {("doncic", "lendeborg"), ("lendeborg", "doncic")}
+            sel = [r for r in m if (plain(r[a]), plain(r[b])) in pair]
+            keep = [c for c in [a, b, "matchupMinutes", "partialPossessions", "playerPoints", "matchupFieldGoalsMade", "matchupFieldGoalsAttempted"] if c in m[0]]
+            lines = ["  " + " | ".join(keep)] + ["  " + " | ".join(str(r[c]) for c in keep) for r in sel]
+            notes.append("Oct 21 Doncic-Lendeborg rows (ABC7 reported Doncic 1 of 6 against Lendeborg):\n" + ("\n".join(lines) if sel else "  none found"))
     for n in notes:
         log("CHECK " + n)
     return notes
@@ -241,7 +255,7 @@ def main():
 
     if a.check:
         df = games("LAL", team_id("LAL"))
-        log(f"Connection OK: {len(df)} Lakers games found on NBA.com (latest {df['GAME_DATE'].max() if len(df) else 'none'})")
+        log(f"Connection OK: {len(df)} Lakers games found on NBA.com (latest {max(str(g['GAME_DATE'])[:10] for g in df) if df else 'none'})")
         return 0
 
     league_notes = []
@@ -290,7 +304,7 @@ def main():
             return len(holder["df"])
         step(f"{abbr} games", g)
         if "df" in holder:
-            game_ids |= set(holder["df"]["GAME_ID"])
+            game_ids |= {str(g["GAME_ID"]) for g in holder["df"]}
             if abbr == "LAL":
                 lal_games = holder["df"]
         step(f"{abbr} player games", lambda: player_games(abbr, tid, "Base"))

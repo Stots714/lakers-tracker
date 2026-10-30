@@ -69,7 +69,11 @@ if (-not (Test-Path $Py)) {
   if (-not (Test-Path $Py)) { Stop-Run 'Could not create the Python environment (see the messages above).' }
 }
 Step 'Installing or updating nba_api'
+# nba_api without its pandas dependency: pandas and numpy ship unsigned compiled files that
+# Windows Smart App Control can block. The scripts here are plain Python and never import them.
 & $Py -m pip install --quiet --disable-pip-version-check -r (Join-Path $Here 'requirements.txt')
+if ($LASTEXITCODE -ne 0) { Stop-Run 'Installing requests failed (see the messages above).' }
+& $Py -m pip install --quiet --disable-pip-version-check --no-deps 'nba_api==1.12.0'
 if ($LASTEXITCODE -ne 0) { Stop-Run 'Installing nba_api failed (see the messages above).' }
 
 # ---- Download ----
