@@ -614,7 +614,9 @@ dash.calc('box_all', {
   description: 'One row per team per game: curated Lakers games plus every NBA.com team box score; NBA.com wins for the same team and date.',
   fn: (lakers_box, nba_box) => {
     const out = new Map(lakers_box.map((g) => [g.date + '|' + g.team, { ...g, pf: g.pf ?? '', mp: g.mp ?? '', src: 'curated' }]));
-    for (const g of nba_box) out.set(g.date + '|' + g.team, { ...g, src: 'nba' });
+    // NBA.com team minutes are sums of rounded player minutes (239, 241): count whole periods instead
+    const mins = (m) => (isNum(m) ? 240 + 25 * Math.max(0, Math.round((Number(m) - 240) / 25)) : m);
+    for (const g of nba_box) out.set(g.date + '|' + g.team, { ...g, mp: mins(g.mp), src: 'nba' });
     return [...out.values()].sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : a.team < b.team ? -1 : 1));
   },
 });

@@ -6,6 +6,10 @@ Writes to data/nba/:
   league_player_games.csv   every player's line in every game
   league_quarters.csv       points per quarter for each team in each game (fetched once per game)
   league_inactive.csv       players NBA.com listed inactive for each game (fetched once per game)
+  league_extras.csv         per team per game: team turnovers, paint, second-chance, fast-break, off-turnover and bench points, lead changes
+
+Team turnovers: NBA.com's team game logs count only player turnovers. Box-score analysis (Basketball-Reference,
+the four factors) counts team turnovers too, so league_box.csv adds them from the game summary: tov = players + team.
 
 The page merges these over the hand-checked Lakers files; NBA.com wins where both exist.
 Plain Python only (see rows.py for why there is no pandas).
@@ -19,6 +23,10 @@ TRICODE = {t["id"]: t["abbreviation"] for t in static_teams.get_teams()}
 REGULAR = "002"  # NBA game ids: 001 preseason, 002 regular season (NBA Cup group and knockout games included), 004 playoffs, 005 play-in
 BOX = ["pts", "fgm", "fga", "fg3m", "fg3a", "ftm", "fta", "oreb", "dreb", "tov", "pf"]
 LINE = ["pts", "fgm", "fga", "fg3m", "fg3a", "ftm", "fta", "oreb", "dreb", "ast", "stl", "blk", "tov", "pf"]
+EXTRAS = {"turnoversTeam": "tov_team", "turnoversTotal": "tov_total", "reboundsTeam": "reb_team", "pointsInThePaint": "pts_paint",
+          "pointsSecondChance": "pts_second_chance", "pointsFastBreak": "pts_fast_break", "pointsFromTurnovers": "pts_off_tov",
+          "benchPoints": "pts_bench", "biggestLead": "biggest_lead", "leadChanges": "lead_changes", "timesTied": "times_tied",
+          "biggestScoringRun": "biggest_run"}
 
 
 def _date(v):
@@ -75,6 +83,8 @@ def write_box(tg, save):
     out = []
     for r in tg:
         mp = _min(r.get("MIN"))
+        if mp is not None:
+            mp = 240 + 25 * max(0, int(round((mp - 240) / 25)))
         out.append({
             "date": _date(r["GAME_DATE"]), "team": r["TEAM_ABBREVIATION"], "opp": _opp(r["MATCHUP"]),
             "home_away": "A" if "@" in str(r["MATCHUP"]) else "H",
@@ -120,10 +130,16 @@ def summaries(fetch, save, out_dir, results, refresh=False):
     """Quarter scores and inactive players, one request per final game not already on file."""
     q_old = [] if refresh else read(out_dir / "league_quarters.csv")
     i_old = [] if refresh else read(out_dir / "league_inactive.csv")
-    done = {r["game_id"] for r in q_old}
+    x_old = [] if refresh else read(out_dir / "league_extras.csv")
+    done = {r["game_id"] for r in q_old} & {r["game_id"] for r in x_old}
     info = {r["game_id"]: r for r in results if r["home_pts"] != ""}
-    q_new, i_new = [], []
-    for gid in [g for g in info if g not in done]:
+    todo = [g for g in info if g not in done]
+    redo = set(todo)  # drop any partial rows for games fetched again
+    q_old = [r for r in q_old if r["game_id"] not in redo]
+    i_old = [r for r in i_old if r["game_id"] not in redo]
+    x_old = [r for r in x_old if r["game_id"] not in redo]
+    q_new, i_new, x_new = [], [], []
+    for gid in todo:
         g = info[gid]
         ep = fetch(boxscoresummaryv3.BoxScoreSummaryV3, game_id=gid)
         ls = from_dataset(ep.line_score)[0]
@@ -134,6 +150,10 @@ def summaries(fetch, save, out_dir, results, refresh=False):
             q = [_int(r["period%dScore" % k]) for k in range(1, 5)]
             q_new.append({"date": g["date"], "team": team, "opp": g["away"] if team == g["home"] else g["home"],
                           "q1": q[0], "q2": q[1], "q3": q[2], "q4": q[3], "ot": _int(r.get("score")) - sum(q), "game_id": gid})
+        for r in from_dataset(ep.other_stats)[0]:
+            team = TRICODE.get(_int(r.get("teamId")), r.get("teamTricode"))
+            x_new.append({"date": g["date"], "team": team, "opp": g["away"] if team == g["home"] else g["home"],
+                          **{v: r.get(k) for k, v in EXTRAS.items()}, "game_id": gid})
         for r in from_dataset(ep.inactive_players)[0]:
             i_new.append({"date": g["date"], "team": TRICODE.get(_int(r.get("teamId")), ""),
                           "player": f'{r.get("firstName") or ""} {r.get("familyName") or ""}'.strip(), "game_id": gid, "person_id": r.get("personId")})
@@ -141,7 +161,27 @@ def summaries(fetch, save, out_dir, results, refresh=False):
     i_all = sorted(i_old + i_new, key=lambda x: (x["date"], x["game_id"], x["team"]))
     save(q_all, "league_quarters.csv", ["date", "team", "opp", "q1", "q2", "q3", "q4", "ot", "game_id"])
     save(i_all, "league_inactive.csv", ["date", "team", "player", "game_id", "person_id"])
+    x_all = sorted(x_old + x_new, key=lambda x: (x["date"], x["game_id"], x["team"]))
+    save(x_all, "league_extras.csv", ["date", "team", "opp"] + list(EXTRAS.values()) + ["game_id"])
     return len(q_new) // 2
+
+
+def add_team_turnovers(box, save, out_dir):
+    """Add team turnovers from the game summaries: tov = player turnovers + team turnovers. Returns rows updated."""
+    extra = {(r["game_id"], r["team"]): r for r in read(out_dir / "league_extras.csv")}
+    n = 0
+    for r in box:
+        x = extra.get((r["game_id"], r["team"]))
+        r["tov_players"] = r.get("tov_players", r["tov"])
+        if x and x.get("tov_team") not in (None, ""):
+            r["tov_team"] = _int(x["tov_team"])
+            r["tov"] = r["tov_players"] + r["tov_team"]
+            n += 1
+        else:
+            r["tov_team"] = ""
+    cols = ["date", "team", "opp", "home_away"] + BOX + ["mp", "game_id", "tov_players", "tov_team"]
+    save(box, "league_box.csv", cols)
+    return n
 
 
 # ---------------- checks against the hand-checked files ----------------
@@ -166,6 +206,13 @@ def checks(root, results, box, pgames, out_dir):
         sums[(r["date"], r["team"])] = sums.get((r["date"], r["team"]), 0) + int(r["pts"])
     off = [(d, t, s, int(nb[(d, t)]["pts"])) for (d, t), s in sums.items() if (d, t) in nb and s != int(nb[(d, t)]["pts"])]
     notes.append(f"Player points add up to team points in {len(sums) - len(off)} of {len(sums)} team-games{(': ' + str(off[:5])) if off else ''}.")
+    xs = read(out_dir / "league_extras.csv")
+    tov = {(b["game_id"], b["team"]): b["tov"] for b in box}
+    tot_off = [(r["date"], r["team"]) for r in xs if r.get("tov_total") not in (None, "") and (r["game_id"], r["team"]) in tov
+               and _int(r["tov_total"]) != _int(tov[(r["game_id"], r["team"])])]
+    compared = [r for r in xs if r.get("tov_total") not in (None, "") and (r["game_id"], r["team"]) in tov]
+    if compared:
+        notes.append(f"Turnovers (players + team) match NBA.com's game totals in {len(compared) - len(tot_off)} of {len(compared)} team-games{(': ' + str(tot_off[:5])) if tot_off else ''}.")
     q = {(r["date"], r["team"]): r for r in read(out_dir / "league_quarters.csv")}
     if q:
         lq = read(data / "lakers_quarters.csv")
