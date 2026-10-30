@@ -7,31 +7,17 @@ This folder downloads the data the tracker cannot get on its own. It runs on you
 
 It uses [nba_api](https://github.com/swar/nba_api) 1.12.0 and writes CSV files to `data/nba/`.
 
-## One-time setup (PowerShell)
+## Run it: one paste in PowerShell
 
 ```powershell
-# 1. Python. Skip this if "py --version" already prints a version. Open a new PowerShell window afterwards.
-winget install -e --id Python.Python.3.12
-
-# 2. Let git push with your GitHub sign-in (needed for scheduled runs).
-gh auth setup-git
-
-# 3. Get the repository. If you already have it in this folder, run "git -C $HOME\lakers-tracker pull" instead.
-gh repo clone Stots714/lakers-tracker $HOME\lakers-tracker
+$r = "$HOME\nba-tracker"
+if (-not (Test-Path "$r\.git")) { gh repo clone Stots714/lakers-tracker $r }
+powershell -ExecutionPolicy Bypass -File "$r\tools\nba\run_update.ps1" -Push -Daily
 ```
 
-## Run it
+That one run does everything: gets a copy of the repository (in its own folder, so it never clashes with other copies), installs Python for your user if it is missing, sets up nba_api, downloads the data for all 30 teams, checks it, pushes it to GitHub (the site updates a minute or two later), and sets it to run by itself every morning at 9:40 (when the PC wakes, if it was asleep). Leave off `-Daily` if you only want this one run. It prints what worked and the check results at the end.
 
-```powershell
-# Test the connection to NBA.com (one small request)
-powershell -ExecutionPolicy Bypass -File $HOME\lakers-tracker\tools\nba\run_update.ps1 -Check
-
-# Download everything and push it to GitHub
-powershell -ExecutionPolicy Bypass -File $HOME\lakers-tracker\tools\nba\run_update.ps1 -Push
-
-# Every day at 9:40 AM (runs when the PC wakes if it was asleep)
-powershell -ExecutionPolicy Bypass -File $HOME\lakers-tracker\tools\nba\schedule_task.ps1
-```
+To run it again by hand later, paste only the last line. Other switches: `-Check` tests the connection with one small request; `-Teams LAL,GSW` chooses teams for the detail steps.
 
 The first run creates a private Python environment in `tools\nba\.venv` and installs nba_api into it, which takes a minute. The first download makes one request per game played so far (about 75 at the end of October) plus about 40 more, at 1.5 seconds apart: a few minutes. Later runs only fetch games not already on file, so a daily run takes a minute or two.
 

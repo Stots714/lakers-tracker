@@ -7,8 +7,8 @@ Creates a daily Windows scheduled task that runs run_update.ps1 -Push.
 
 If the PC is asleep at that time, the task runs when it wakes up.
 
-Example:
-  powershell -ExecutionPolicy Bypass -File $HOME\lakers-tracker\tools\nba\schedule_task.ps1
+Example (run_update.ps1 -Daily calls this for you):
+  powershell -ExecutionPolicy Bypass -File $HOME\nba-tracker\tools\nba\schedule_task.ps1
 #>
 param([string]$Time = '09:40', [switch]$NoPush, [switch]$Remove)
 
