@@ -1,6 +1,9 @@
-# NBA.com data for the Lakers tracker
+# NBA.com data for the tracker
 
-This folder downloads the player-level data the tracker cannot get on its own: on/off, lineups, shot locations, who guarded whom, hustle stats and play-by-play. It runs on your PC because NBA.com's stats site often refuses or times out requests from cloud servers.
+This folder downloads the data the tracker cannot get on its own. It runs on your PC because NBA.com's stats site often refuses or times out requests from cloud servers.
+
+- **All 30 teams** (powers the Focus team picker): schedule and scores, team box scores, every player's game lines, quarter scores and inactive lists. Once pushed, the site uses these automatically for every team, and they take precedence over the hand-checked Lakers files.
+- **Chosen teams** (Lakers and their next opponent by default): on/off, lineups, shot locations, who guarded whom, hustle stats and play-by-play.
 
 It uses [nba_api](https://github.com/swar/nba_api) 1.12.0 and writes CSV files to `data/nba/`.
 
@@ -30,14 +33,19 @@ powershell -ExecutionPolicy Bypass -File $HOME\lakers-tracker\tools\nba\run_upda
 powershell -ExecutionPolicy Bypass -File $HOME\lakers-tracker\tools\nba\schedule_task.ps1
 ```
 
-The first run creates a private Python environment in `tools\nba\.venv` and installs nba_api into it, which takes a minute. A full first run makes about 40 requests at 1.5 seconds apart. Later runs only fetch matchups and play-by-play for games not already downloaded.
+The first run creates a private Python environment in `tools\nba\.venv` and installs nba_api into it, which takes a minute. The first download makes one request per game played so far (about 75 at the end of October) plus about 40 more, at 1.5 seconds apart: a few minutes. Later runs only fetch games not already on file, so a daily run takes a minute or two.
 
-By default it pulls the Lakers and their next opponent, read from `data/lakers_schedule.csv`. Use `-Teams LAL,GSW` to choose teams.
+The detail steps cover the Lakers and their next opponent, read from the schedule files. Use `-Teams LAL,GSW` to choose teams for the detail steps; the league-wide files always cover all 30.
 
 ## What it writes (`data/nba/`)
 
 | File | What it holds |
 |---|---|
+| `league_results.csv` | Every regular-season game: date, teams, final score, overtime periods |
+| `league_box.csv` | One row per team per game: shooting, rebounds, turnovers, fouls, minutes |
+| `league_player_games.csv` | Every player's line in every game |
+| `league_quarters.csv` | Points per quarter for each team in each game |
+| `league_inactive.csv` | Players NBA.com listed inactive for each game |
 | `games_<TEAM>.csv` | Each game: NBA.com game id, date, matchup, result, team box totals |
 | `player_games_<TEAM>.csv`, `player_games_adv_<TEAM>.csv` | Player box score per game, basic and advanced (usage, ratings) |
 | `onoff_<TEAM>.csv` | Team results with each player on the court and off it, advanced (`COURT` = on or off) |
@@ -50,6 +58,9 @@ By default it pulls the Lakers and their next opponent, read from `data/lakers_s
 
 ## Checks it runs
 
+- Every score NBA.com and the tracker's `data/results.csv` both have, compared; hand-checked games NBA.com doesn't list on the same date are named.
+- The Lakers box scores and quarter scores against the hand-checked files, number by number.
+- Player points adding up to team points in every game.
 - Lakers scores from NBA.com against the tracker's own `data/results.csv`. Any mismatch is listed.
 - The Oct 21 Dončić and Lendeborg matchup rows, against ABC7's report that Dončić shot 1 of 6 with Lendeborg guarding him. This shows whether the `Off` and `Def` column names point the way we read them.
 

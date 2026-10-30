@@ -1,12 +1,12 @@
 {
- "name": "Lakers Tracker",
- "short_name": "Lakers",
+ "name": "NBA Tracker",
+ "short_name": "NBA Tracker",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
  "background_color": "#121016",
  "theme_color": "#121016",
- "description": "Schedule-adjusted NBA team ratings with a Lakers focus.",
+ "description": "Schedule-adjusted NBA team ratings for any team.",
  "icons": [
   {
    "src": "icons/icon-192.png",

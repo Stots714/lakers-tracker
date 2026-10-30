@@ -82,5 +82,45 @@
   "description": "The 30 teams with their abbreviations and names.",
   "file": "data/teams.csv",
   "updated": "2026-10-28T00:35:00Z"
+ },
+ {
+  "id": "nba_results",
+  "title": "NBA.com schedule and scores",
+  "description": "Every game of the season with final scores once played, from the NBA.com schedule and team game logs. Written by tools/nba on a PC.",
+  "file": "data/nba/league_results.csv",
+  "updated": null,
+  "nba": true
+ },
+ {
+  "id": "nba_box",
+  "title": "NBA.com team box scores",
+  "description": "One row per team per game: shooting, rebounds, turnovers, fouls and minutes. Written by tools/nba on a PC.",
+  "file": "data/nba/league_box.csv",
+  "updated": null,
+  "nba": true
+ },
+ {
+  "id": "nba_player_games",
+  "title": "NBA.com player game lines",
+  "description": "Every player's box score line in every game. Written by tools/nba on a PC.",
+  "file": "data/nba/league_player_games.csv",
+  "updated": null,
+  "nba": true
+ },
+ {
+  "id": "nba_quarters",
+  "title": "NBA.com quarter scores",
+  "description": "Points per quarter for each team in each game. Written by tools/nba on a PC.",
+  "file": "data/nba/league_quarters.csv",
+  "updated": null,
+  "nba": true
+ },
+ {
+  "id": "nba_inactive",
+  "title": "NBA.com inactive lists",
+  "description": "Players listed inactive for each game. Written by tools/nba on a PC.",
+  "file": "data/nba/league_inactive.csv",
+  "updated": null,
+  "nba": true
  }
 ]

@@ -72,11 +72,17 @@
   window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(emit, 150); });
 
   // Load every file, then run the calculations in the order the page declares them.
-  window.dashLoad = async function (files) {
+  // optional: ids whose file may not exist yet (NBA.com files before the first PC run); a missing one loads as an empty table.
+  window.dashLoad = async function (files, optional) {
+    const opt = new Set(optional || []);
+    opt.forEach((id) => { if (!(id in files)) store[id] = { status: 'ok', data: [], columns: [], meta: [], message: 'not on file yet', refreshing: false }; });
     await Promise.all(Object.entries(files).map(async ([id, url]) => {
       try {
         const res = await fetch(url, { cache: 'no-cache' });
-        if (!res.ok) throw new Error(url + ': HTTP ' + res.status);
+        if (!res.ok) {
+          if (opt.has(id) && res.status === 404) { store[id] = { status: 'ok', data: [], columns: [], meta: [], message: 'not on file yet', refreshing: false }; return; }
+          throw new Error(url + ': HTTP ' + res.status);
+        }
         const text = await res.text();
         const data = url.endsWith('.json') ? JSON.parse(text) : parseCSV(text);
         store[id] = { status: 'ok', data, columns: data.columns || [], meta: [], message: '', refreshing: false };

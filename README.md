@@ -1,6 +1,6 @@
-# Lakers Tracker
+# NBA Tracker
 
-A fan-made, schedule-adjusted NBA rating tracker with a Lakers focus. It shows the league table (adjusted rating or raw margins), each team's game log and next five projections, offense four factors, Lakers game-by-game four factors and three-point luck, known absences, and how the rating works.
+A fan-made, schedule-adjusted NBA rating tracker for any team, with the Lakers as the default. Pick a **Focus team** at the top and the whole page follows it: title, team color, next game and spotlight (win chance, hot hands, with and without), players, quarters and game-by-game four factors. **Compare with** picks a second team for the tiles, game log, scorecard and next meeting. It also shows the league table (adjusted rating or raw margins), efficiency and defense, offense four factors, absences and how the rating works.
 
 Everything is calculated in the browser from the CSV files in `data/`. There is no server, account or tracking. Not affiliated with the NBA or the Los Angeles Lakers.
 
@@ -17,11 +17,11 @@ Open the link in Safari, tap **Share**, then **Add to Home Screen**. It opens fu
 
 ## Updating after a game night
 
-The data files in `data/` are replaced after each game night. The page recalculates on every load; in the home-screen app, tap Refresh (it also reloads by itself when reopened after 5 minutes away).
+`data/nba/` is written by `tools/nba` on a PC (daily if scheduled) and covers all 30 teams; the other files in `data/` are hand-checked and cover the Lakers in detail. NBA.com data takes precedence wherever both exist. The page recalculates on every load; in the home-screen app, tap Refresh (it also reloads by itself when reopened after 5 minutes away).
 
 ## Sharing a view
 
-Settings live in the address bar, so a link can open a specific view. For example, `#view=raw` opens raw margins and `#team=HOU` selects the Rockets.
+Settings live in the address bar, so a link can open a specific view. For example, `#focus=CHI` opens the Bulls tracker, `#focus=CHI&team=LAL` compares them with the Lakers, and `#view=raw` opens raw margins. The page remembers the last focus team on each device.
 
 ## Files
 
@@ -29,8 +29,8 @@ Settings live in the address bar, so a link can open a specific view. For exampl
 |---|---|
 | `index.html` | The page and its calculations |
 | `dash-shim.js` | Loads the CSV files, runs the calculations, keeps view settings in the address bar |
-| `data/*.csv` | Results and schedule, team box totals, Lakers box scores, absences, Lakers schedule, teams |
+| `data/*.csv` | Hand-checked files: results and schedule, team totals, Lakers box scores, players and quarters, absences, storyline notes, teams |
 | `data/sources.json` | Where each file comes from and when it was last updated |
 | `manifest.webmanifest`, `icons/` | Home-screen name and icon |
 | `tools/nba/` | Script that downloads NBA.com player data (on/off, lineups, shots, matchups, hustle) on your PC; see its README |
-| `data/nba/` | Files that script writes, when pushed |
+| `data/nba/` | NBA.com files for all 30 teams (and detail for chosen teams), written by `tools/nba` |
