@@ -1,9 +1,12 @@
-"""Pull NBA.com stats for the Lakers tracker.
+"""Pull NBA.com stats for the tracker.
 
 Run this on your own PC. NBA.com's stats site often refuses or times out requests from cloud
 servers, so the tracker cannot fetch these itself.
 
-It writes CSV files to data/nba/ in this repository:
+League-wide, for all 30 teams (see league.py): league_results.csv, league_box.csv,
+league_player_games.csv, league_quarters.csv, league_inactive.csv. The site reads these.
+
+For the chosen teams it also writes these CSV files to data/nba/:
   games_<TEAM>.csv            one row per game: game id, date, matchup, result, team box totals
   player_games_<TEAM>.csv     player box score per game (basic)
   player_games_adv_<TEAM>.csv player advanced stats per game (usage, ratings)
@@ -22,6 +25,7 @@ Usage (from the repository folder):
   python tools/nba/update_nba.py --teams LAL   Lakers only
   python tools/nba/update_nba.py --check       one small request to test the connection
   python tools/nba/update_nba.py --refresh     re-download per-game files that already exist
+  python tools/nba/update_nba.py --no-league   skip the league-wide files
 """
 import argparse
 import csv
@@ -46,6 +50,9 @@ from nba_api.stats.endpoints import (
     teamplayeronoffdetails,
 )
 from nba_api.stats.static import teams as static_teams
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import league  # noqa: E402  (league-wide files in the tracker's formats)
 
 SEASON = "2026-27"
 SEASON_TYPE = "Regular Season"
@@ -227,6 +234,7 @@ def main():
     ap.add_argument("--check", action="store_true", help="one small request to test the connection, then stop")
     ap.add_argument("--refresh", action="store_true", help="re-download per-game files that already exist")
     ap.add_argument("--skip-games", action="store_true", help="skip per-game matchups and play-by-play")
+    ap.add_argument("--no-league", action="store_true", help="skip the league-wide files for all 30 teams")
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     log(f"--- run started; nba_api {version('nba_api')}; season {SEASON}")
@@ -235,6 +243,39 @@ def main():
         df = games("LAL", team_id("LAL"))
         log(f"Connection OK: {len(df)} Lakers games found on NBA.com (latest {df['GAME_DATE'].max() if len(df) else 'none'})")
         return 0
+
+    league_notes = []
+    if not a.no_league:
+        L = {}
+
+        def sched():
+            L["sched"] = league.schedule(fetch, SEASON)
+            return len(L["sched"])
+
+        def box():
+            L["tg"] = league.team_games(fetch, SEASON)
+            n, L["box"] = league.write_box(L["tg"], save)
+            return n
+
+        def results():
+            n, L["results"] = league.write_results(L["sched"], L["box"], save)
+            return n
+
+        def pgames():
+            n, L["pg"] = league.write_player_games(league.player_games(fetch, SEASON), save)
+            return n
+
+        step("league schedule", sched, "games")
+        step("league team box scores", box, "team-games")
+        if "sched" in L and "box" in L:
+            step("league results", results, "games")
+        step("league player games", pgames, "player lines")
+        if "results" in L:
+            step("league quarter scores and inactive lists", lambda: league.summaries(fetch, save, OUT, L["results"], a.refresh), "new games")
+        if all(k in L for k in ("results", "box", "pg")):
+            league_notes = league.checks(ROOT, L["results"], L["box"], L["pg"], OUT)
+            for n in league_notes:
+                log("CHECK " + n)
 
     teams = [t.upper() for t in a.teams] if a.teams else ["LAL"] + ([next_opponent()] if next_opponent() else [])
     teams = list(dict.fromkeys(teams))
@@ -266,11 +307,14 @@ def main():
         step("matchups", lambda: per_game(ids, "matchups", boxscorematchupsv3.BoxScoreMatchupsV3, "player_stats", a.refresh), "new games")
         step("play-by-play", lambda: per_game(ids, "pbp", playbyplayv3.PlayByPlayV3, "play_by_play", a.refresh), "new games")
 
-    notes = checks(lal_games)
+    notes = league_notes + checks(lal_games)
     ok = sum(s["ok"] for s in status.values())
+    files = {"nba_results": "league_results.csv", "nba_box": "league_box.csv", "nba_player_games": "league_player_games.csv",
+             "nba_quarters": "league_quarters.csv", "nba_inactive": "league_inactive.csv"}
     manifest = {
         "updated": dt.datetime.now().astimezone().isoformat(timespec="seconds"),
         "season": SEASON, "teams": teams, "nba_api": version("nba_api"),
+        "league": {k: f for k, f in files.items() if (OUT / f).exists()},
         "steps": status, "checks": notes,
         "source": "NBA.com stats via the nba_api Python package (github.com/swar/nba_api)",
     }

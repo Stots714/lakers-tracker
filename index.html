@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Lakers Tracker</title>
-<meta name="description" content="Schedule-adjusted NBA team ratings with a Lakers focus: league table, game log, projections, four factors and known absences.">
+<title>NBA Tracker</title>
+<meta name="description" content="Schedule-adjusted NBA team ratings for any team: league table, game log, projections, spotlight, players, four factors and absences.">
 <meta name="theme-color" content="#F7F5F2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#121016" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Lakers Tracker">
+<meta name="apple-mobile-web-app-title" content="NBA Tracker">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
@@ -42,9 +42,6 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .dash-skeleton { color: transparent !important; background: var(--cds-chart-grid); border-radius: 6px; }
 .lk-head h1 { line-height: 1.15; }
 #lk-updated { margin-top: var(--cds-gap-xs); }
-.lk-seg { display: flex; border: 1px solid var(--color-border-line); border-radius: 999px; overflow: hidden; background: var(--color-panel); }
-.lk-segbtn { flex: 1; white-space: nowrap; font: inherit; font-size: var(--cds-font-size-caption); border: 0; background: transparent; color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; }
-.lk-segbtn[aria-pressed="true"] { background: var(--lk-accent); color: var(--color-bg); font-weight: var(--cds-font-weight-medium); }
 .lk-src { margin: 0; padding-left: 1.1rem; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.5; }
 .lk-src li { margin-bottom: var(--cds-gap-sm); }
 .lk-src a { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
@@ -156,6 +153,14 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .lk-fail::before { content: ""; width: 0.375rem; height: 0.375rem; border-radius: 50%; background: var(--color-bad); }
 [data-dash-source-state=empty] { color: transparent; }
 [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+.lk-seg { display: inline-flex; border: 1px solid var(--color-border-line); border-radius: 999px; overflow: hidden; background: var(--color-panel); }
+.lk-segbtn { flex: 1; white-space: nowrap; font: inherit; font-size: var(--cds-font-size-caption); border: 0; background: transparent; color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; }
+.lk-segbtn[aria-pressed="true"] { background: var(--lk-accent); color: var(--color-bg); font-weight: var(--cds-font-weight-medium); }
+.lk-field-focus select { font-weight: var(--cds-font-weight-medium); border-color: var(--lk-accent); border-width: 2px; }
+.lk-table tr.lk-focusrow td:nth-child(2) { font-weight: var(--cds-font-weight-medium); color: var(--color-fg); }
+.lk-head .lk-mode { margin-top: var(--cds-gap-xs); }
+.lk-cover { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: var(--cds-gap-xs) 0 0; line-height: 1.45; }
+.lk-cover:empty { display: none; }
 
 
 @media (max-width: 480px) {
@@ -166,26 +171,27 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
   .lk-table td.lk-wrap { min-width: 9rem; }
   .lk-card { padding: 0.875rem; }
 }
-@media (min-width: 481px) { .lk-seg { display: inline-flex; } }
+@media (max-width: 480px) { .lk-seg { display: flex; } }
 </style>
 </head>
 <body>
 <div id="dash-root">
 <div class="lk">
   <header class="lk-head" id="top">
-    <h1>Lakers schedule-adjusted tracker</h1>
+    <h1 id="lk-title">Lakers schedule-adjusted tracker</h1>
     <p class="lk-mode"><span id="lk-updated">Loading…</span> <button type="button" class="lk-reset" id="lk-refresh">Refresh</button></p>
     <p class="lk-take" id="takeaway"><span id="lk-take-team">—</span> rate <b data-source="model" data-field="rating" class="dash-skeleton">—</b> <span class="lk-se">(± <span data-source="model" data-field="se">—</span>)</span>, ranked <span data-source="model" data-field="rank" class="dash-skeleton">—</span> of 30, after <b data-source="model" data-field="gp">—</b> games. Their results so far average <b data-source="model" data-field="raw">—</b> a game. <span id="lk-take-mode"></span></p>
   </header>
 
   <section class="lk-controls" id="controls" aria-label="Controls">
+    <label class="lk-field lk-field-focus"><span>Focus team</span><select id="lk-focus" data-source="teams"></select></label>
     <div class="lk-field"><span>Show</span>
       <div class="lk-seg" role="group" aria-label="Rating view">
         <button type="button" class="lk-segbtn" data-view="adj" aria-pressed="true">Adjusted rating</button>
         <button type="button" class="lk-segbtn" data-view="raw" aria-pressed="false">Raw margins</button>
       </div>
     </div>
-    <label class="lk-field"><span>Team</span><select id="lk-team" data-source="teams"></select></label>
+    <label class="lk-field"><span>Compare with</span><select id="lk-team" data-source="teams"></select></label>
     <div class="lk-field"><span>Adjustments in the rating</span>
       <div class="lk-toggles" role="group" aria-label="Adjustments">
         <button type="button" class="lk-tog" data-param="hca" aria-pressed="true">Home court</button>
@@ -196,7 +202,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
     </div>
   </section>
 
-  <section class="lk-tiles" id="tiles" aria-label="Selected team">
+  <section class="lk-tiles" id="tiles" aria-label="Compared team">
     <div class="lk-card lk-primary" id="tile-rating"><div class="lk-label">Rating</div><div class="lk-big dash-skeleton" data-source="model" data-field="rating">—</div><div class="lk-sub">Points per game vs an average team, neutral court, rested. ± <span data-source="model" data-field="se">—</span> is one standard error.</div></div>
     <div class="lk-card" id="tile-raw"><div class="lk-label">Results so far</div><div class="lk-big dash-skeleton" data-source="model" data-field="raw">—</div><div class="lk-sub">Average margin, no adjustments</div></div>
     <div class="lk-card" id="tile-sos"><div class="lk-label">Schedule strength</div><div class="lk-big dash-skeleton" data-source="model" data-field="sos">—</div><div class="lk-sub">Average rating of opponents faced</div></div>
@@ -206,14 +212,14 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 
   <section class="lk-card" id="next-game">
     <h2 id="lk-next-title">Next Lakers game</h2>
-    <p class="lk-note" id="lk-next-note">Projected Lakers margin from the ratings above, with each adjustment shown.</p>
+    <p class="lk-note" id="lk-next-note">Projected margin from the ratings above, with each adjustment shown.</p>
     <div class="lk-proj">
       <div><div class="lk-label">Date</div><div class="lk-big dash-skeleton" data-source="next_game" data-field="date_label">—</div></div>
       <div><div class="lk-label">Matchup</div><div class="lk-big dash-skeleton" data-source="next_game" data-field="matchup">—</div></div>
-      <div><div class="lk-label">Projected Lakers margin</div><div class="lk-big dash-skeleton" data-source="next_game" data-field="proj">—</div></div>
+      <div><div class="lk-label">Projected <span class="lk-fname">Lakers</span> margin</div><div class="lk-big dash-skeleton" data-source="next_game" data-field="proj">—</div></div>
       <div><div class="lk-label">With known absences</div><div class="lk-big dash-skeleton" data-source="next_game" data-field="proj_adj">—</div></div>
     </div>
-    <div class="lk-eq" id="lk-eq">Lakers <b data-source="next_game" data-field="lal_rating">—</b> − <span data-source="next_game" data-field="opp_name">—</span> <b data-source="next_game" data-field="opp_rating">—</b> + home court <b data-source="next_game" data-field="hca_pts">—</b> + rest <b data-source="next_game" data-field="rest_pts">—</b> = <b data-source="next_game" data-field="proj">—</b><br><span data-source="next_game" data-field="rest_note">—</span><br><span data-source="next_game" data-field="absent_note">—</span><br><span data-source="next_game" data-field="adj_note">—</span></div>
+    <div class="lk-eq" id="lk-eq"><span class="lk-fname">Lakers</span> <b data-source="next_game" data-field="focus_rating">—</b> − <span data-source="next_game" data-field="opp_name">—</span> <b data-source="next_game" data-field="opp_rating">—</b> + home court <b data-source="next_game" data-field="hca_pts">—</b> + rest <b data-source="next_game" data-field="rest_pts">—</b> = <b data-source="next_game" data-field="proj">—</b><br><span data-source="next_game" data-field="rest_note">—</span><br><span data-source="next_game" data-field="absent_note">—</span><br><span data-source="next_game" data-field="adj_note">—</span></div>
   </section>
 
 
@@ -223,7 +229,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
     <div class="lk-wp" id="lk-wp" data-source="spotlight"><div class="lk-wp-a" style="width:50%">—</div><div class="lk-wp-b" style="width:50%">—</div></div>
     <p class="lk-mode" id="lk-wp-note" data-source="spotlight" data-field="wp_note">—</p>
     <div class="lk-scores" id="lk-form-tiles">
-      <div><div class="lk-label" data-source="spotlight" data-field="lal_label">Lakers</div><div class="lk-big dash-skeleton" data-source="spotlight" data-field="lal_last2">—</div><div class="lk-sub">Last 2 games · rating <span data-source="spotlight" data-field="lal_rating">—</span></div></div>
+      <div><div class="lk-label" data-source="spotlight" data-field="focus_label">Lakers</div><div class="lk-big dash-skeleton" data-source="spotlight" data-field="focus_last2">—</div><div class="lk-sub">Last 2 games · rating <span data-source="spotlight" data-field="focus_rating">—</span></div></div>
       <div><div class="lk-label" data-source="spotlight" data-field="opp_label">Opponent</div><div class="lk-big dash-skeleton" data-source="spotlight" data-field="opp_last2">—</div><div class="lk-sub">Last 2 games · rating <span data-source="spotlight" data-field="opp_rating">—</span></div></div>
     </div>
     <h2 style="margin-top: var(--cds-gap-md)">Form: who's hot</h2>
@@ -247,7 +253,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 
   <section class="lk-card" id="league">
     <h2 id="lk-league-title">League ratings</h2>
-    <p class="lk-note" id="lk-league-note">All 30 teams under the adjustments chosen above. Tap a team to select it.</p>
+    <p class="lk-note" id="lk-league-note">All 30 teams under the adjustments chosen above. Tap a team to compare it.</p>
     <div class="lk-tablewrap">
       <table class="lk-table" id="lk-league" data-source="model" data-row-key="variant,team">
         <thead><tr>
@@ -269,7 +275,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 
   <section class="lk-card" id="efficiency">
     <h2>Efficiency and defense</h2>
-    <p class="lk-note">Per 100 possessions, so fast and slow teams compare fairly, and the defense four factors: what opponents shoot (effective FG%), how often they turn it over, the share of defensive rebounds the team takes, and how often opponents get to the line. Ranks in brackets. Tap a team to select it.</p>
+    <p class="lk-note">Per 100 possessions, so fast and slow teams compare fairly, and the defense four factors: what opponents shoot (effective FG%), how often they turn it over, the share of defensive rebounds the team takes, and how often opponents get to the line. Ranks in brackets. Tap a team to compare it.</p>
     <div class="lk-tablewrap">
       <div class="lk-groups" role="group" aria-label="Columns to show" data-for="lk-eff"><button type="button" data-g="1" aria-pressed="true">Ratings</button><button type="button" data-g="2" aria-pressed="false">Defense</button><button type="button" data-g="3" aria-pressed="false">Discipline</button></div>
       <table class="lk-table" id="lk-eff" data-active="1" data-source="efficiency" data-row-key="team">
@@ -308,7 +314,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       </table>
     </div>
     <h2 style="margin-top: var(--cds-gap-lg)">Next games</h2>
-    <p class="lk-note">Projected margin for the selected team. Rest is known from the league schedule through Nov 20.</p>
+    <p class="lk-note" id="lk-next-games-note">Projected margin for the compared team.</p>
     <div class="lk-tablewrap">
       <table class="lk-table lk-stack" id="lk-upcoming" data-source="game_log" data-row-key="variant,team,date">
         <thead><tr>
@@ -350,15 +356,16 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
     <p class="lk-note" id="lk-score-note"></p>
   </section>
 
-  <section class="lk-grid" id="lakers-detail">
+  <section class="lk-grid" id="focus-detail">
     <div class="lk-card" id="players">
-      <h2>Lakers players</h2>
-      <p class="lk-note">Season to date, sorted by minutes. TS% counts threes and free throws; USG% is the share of team plays a player finishes while on the floor; BPM is Basketball-Reference's box plus-minus (points per 100 possessions vs an average player). Blank where not yet published.</p>
+      <h2><span class="lk-fname">Lakers</span> players</h2>
+      <p class="lk-note">Season to date, sorted by minutes. TS% counts threes and free throws; USG% is the share of team plays a player finishes while on the floor; BPM is Basketball-Reference's box plus-minus (points per 100 possessions vs an average player). Blank where not on file.</p>
+      <p class="lk-cover" id="lk-players-cover"></p>
       <div class="lk-tablewrap">
-        <svg class="lk-scatter" id="lk-uvse" viewBox="0 0 340 220" role="img" aria-label="Usage versus true shooting for Lakers players" data-source="players"></svg>
+        <svg class="lk-scatter" id="lk-uvse" viewBox="0 0 340 220" role="img" aria-label="Usage versus true shooting" data-source="players"></svg>
       <p class="lk-note">Usage (share of plays a player finishes) across, true shooting down the side; dashed lines are the league averages. Up and to the right is high volume at high efficiency. Players with 40+ minutes.</p>
       <div class="lk-groups" role="group" aria-label="Columns to show" data-for="lk-players"><button type="button" data-g="1" aria-pressed="true">Scoring</button><button type="button" data-g="2" aria-pressed="false">Floor game</button><button type="button" data-g="3" aria-pressed="false">Impact</button></div>
-      <table class="lk-table" id="lk-players" data-active="1" data-source="players" data-row-key="player">
+      <table class="lk-table" id="lk-players" data-active="1" data-source="players" data-row-key="team,player">
           <thead><tr>
             <th data-field="player" class="lk-left">Player</th>
             <th data-g="1" data-field="g">G</th>
@@ -380,10 +387,11 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       </div>
     </div>
     <div class="lk-card" id="quarters">
-      <h2>Lakers by quarter</h2>
-      <p class="lk-note">Lakers points minus opponent points in each quarter. Big leads invite bench-heavy fourth quarters, so read the fourth-quarter column with the score in mind.</p>
+      <h2><span class="lk-fname">Lakers</span> by quarter</h2>
+      <p class="lk-note"><span class="lk-fname">Lakers</span> points minus opponent points in each quarter. Big leads invite bench-heavy fourth quarters, so read the fourth-quarter column with the score in mind.</p>
+      <p class="lk-cover" id="lk-quarters-cover"></p>
       <div class="lk-tablewrap">
-        <table class="lk-table" id="lk-quarters" data-source="quarters" data-row-key="date">
+        <table class="lk-table" id="lk-quarters" data-source="quarters" data-row-key="team,date">
           <thead><tr>
             <th data-field="date" class="lk-left">Date</th>
             <th data-field="opp" class="lk-left">Opp.</th>
@@ -402,7 +410,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
   <section class="lk-grid" id="context">
     <div class="lk-card" id="four-factors">
       <h2>Offense four factors</h2>
-      <p class="lk-note">Season to date, from each team's own box score totals. Opponent (defense) totals aren't available for every team yet.</p>
+      <p class="lk-note">Season to date, from each team's own box score totals: the league, the focus team and the compared team.</p>
       <div class="lk-tablewrap">
         <table class="lk-table lk-stack" id="lk-ff" data-source="ff_team" data-row-key="team">
           <thead><tr>
@@ -418,12 +426,12 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       </div>
       <p class="lk-note" id="lk-ff-missing"></p>
     </div>
-    <div class="lk-card" id="lakers-box">
-      <h2>Lakers games: four factors and shooting luck</h2>
+    <div class="lk-card" id="focus-box">
+      <h2><span class="lk-fname">Lakers</span> games: four factors and shooting luck</h2>
       <p class="lk-note">Both teams, game by game. Luck = threes made above or below that team's rate in its other games, in points.</p>
       <div class="lk-tablewrap">
         <div class="lk-groups" role="group" aria-label="Columns to show" data-for="lk-lbox"><button type="button" data-g="1" aria-pressed="true">Shooting</button><button type="button" data-g="2" aria-pressed="false">Possessions</button></div>
-      <table class="lk-table" id="lk-lbox" data-active="1" data-source="ff_lakers" data-row-key="date,team">
+      <table class="lk-table" id="lk-lbox" data-active="1" data-source="ff_games" data-row-key="date,team">
           <thead><tr>
             <th data-field="day_label" class="lk-left">Date</th>
             <th data-field="team" class="lk-left">Team</th>
@@ -443,9 +451,9 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 
   <section class="lk-card" id="absences">
     <h2>Known key absences</h2>
-    <p class="lk-note">Only absences confirmed by a cited report are listed. A game with no flag is not proof of full strength.</p>
+    <p class="lk-note">Absences confirmed by a cited report, plus rotation players (20+ minutes a game) on NBA.com's inactive list for a game. A game with no flag is not proof of full strength. <span id="lk-abs-note"></span></p>
     <div class="lk-tablewrap">
-      <table class="lk-table lk-stack" id="lk-abs" data-source="absences" data-row-key="team,player,from">
+      <table class="lk-table lk-stack" id="lk-abs" data-source="absences_all" data-row-key="team,player,from">
         <thead><tr>
           <th data-field="team" class="lk-left">Team</th>
           <th data-field="player" class="lk-left">Player</th>
@@ -472,10 +480,11 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       <li><b>±</b> is one standard error, from game-to-game noise of 12 points and the shrinkage above. About two times in three, a team's true strength sits inside rating ± that number. With shrinkage off it is approximated as 12 ÷ √games.</li>
       <li><b>Per 100 possessions.</b> Possessions ≈ FGA + 0.44 × FTA − offensive rebounds + turnovers, averaged over the team and its opponents. Pace is possessions per 48 minutes.</li>
       <li><b>Scorecard.</b> For each game date, the ratings are refit using only earlier games, then each game that day is projected. Nothing from the game itself or later games leaks in.</li>
-      <li><b>With known absences (Proposed method).</b> A missing player's value is (his box plus-minus + 2) × his minutes per game ÷ 48, where +2 measures him against a replacement-level player. His BPM blends this season with last season, last season counting as 20 games. That value is scaled by the share of games he has played, because a team that has already played without him is already rated without him. Only absences on file are used.</li>
+      <li><b>With known absences (Proposed method).</b> A missing player's value is (his box plus-minus + 2) × his minutes per game ÷ 48, where +2 measures him against a replacement-level player. His BPM blends this season with last season, last season counting as 20 games. That value is scaled by the share of games he has played, because a team that has already played without him is already rated without him. Only absences on file are used; NBA.com inactive lists describe games already played, so they never change a projection.</li>
     </ul>
     <p><b>Not built in, shown as context:</b> the four factors, three-point luck, player stats and quarter splits. Absences adjust the projections only, shown next to the healthy projection, never the ratings themselves.</p>
-    <p><b>Updating.</b> After each game night the scores, Lakers box scores, team totals and any new absences are added to the data files. Everything on this page is recalculated in your browser from those files.</p>
+    <p><b>Focus team.</b> Pick any team at the top and every section follows it: the title, the next game and spotlight, players, quarters and game-by-game four factors. Compare with picks a second team for the tiles, game log, scorecard and next meeting. The highlight color is the focus team's own color (teamcolorcodes.com; Clippers and Jazz from Design Your Way, the Jazz value approximate), lightened or darkened where needed so text on it stays readable.</p>
+    <p><b>Updating.</b> Scores, box scores, player lines, quarter scores and inactive lists for all 30 teams come from NBA.com through a script run on a PC (tools/nba in the repository); hand-checked files cover the Lakers until that data is on file, and NBA.com takes precedence wherever both exist. Season totals are summed from the game box scores once every game is on file. Everything on this page recalculates from those files.</p>
     <p><b>Raw margins</b> are each team's average point differential with no adjustment at all. Projections and the game log always use the adjusted rating.</p>
   </section>
 
@@ -493,8 +502,33 @@ const pct = (v) => (v === null || v === undefined || Number.isNaN(v) ? '—' : (
 const dayFmt = d3.utcFormat('%a %b %-d');
 const variantOf = (p) => 'h' + (p.hca ? 1 : 0) + 's' + (p.shrink ? 1 : 0) + 'r' + (p.rest ? 1 : 0);
 
+// ---- Data layers: curated files (kept by hand) merged with NBA.com files (written by tools/nba/update_nba.py on a PC).
+// NBA.com wins wherever both have the same game, so the site stays current from the daily PC run.
+const isNum = (v) => v !== '' && v !== null && v !== undefined && !Number.isNaN(Number(v));
+const normName = (s) => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z ]/g, '').trim();
+
+dash.calc('results_all', {
+  inputs: ['results', 'nba_results'],
+  title: 'Scores and schedule, merged',
+  description: 'Curated scores and schedule, with the NBA.com schedule and final scores taking precedence. Once the NBA.com schedule is on file it replaces the curated list of future games.',
+  fn: (results, nba_results) => {
+    const key = (g) => g.date + '|' + g.away + '|' + g.home;
+    const out = new Map();
+    for (const g of results) {
+      if (nba_results.length && !isNum(g.home_pts)) continue; // the NBA.com schedule is authoritative for future games
+      out.set(key(g), { date: g.date, away: g.away, home: g.home, away_pts: g.away_pts, home_pts: g.home_pts, ot: g.ot, src: 'curated' });
+    }
+    for (const g of nba_results) {
+      const k = key(g);
+      if (isNum(g.home_pts) && isNum(g.away_pts)) out.set(k, { date: g.date, away: g.away, home: g.home, away_pts: g.away_pts, home_pts: g.home_pts, ot: g.ot || 0, src: 'nba' });
+      else if (!out.has(k)) out.set(k, { date: g.date, away: g.away, home: g.home, away_pts: '', home_pts: '', ot: '', src: 'nba' });
+    }
+    return [...out.values()].sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+  },
+});
+
 dash.calc('schedule', {
-  inputs: ['results'],
+  inputs: ['results_all'],
   title: 'Games with rest days',
   description: 'Every game in the file with days since each team’s previous game; a back-to-back is 1 day.',
   fn: (results) => {
@@ -506,10 +540,11 @@ dash.calc('schedule', {
       const home_rest = last.has(g.home) ? d - last.get(g.home) : null;
       last.set(g.away, d); last.set(g.home, d);
       const played = g.home_pts !== '' && g.home_pts !== null && g.home_pts !== undefined;
-      return { date: g.date, away: g.away, home: g.home, away_pts: played ? Number(g.away_pts) : null, home_pts: played ? Number(g.home_pts) : null, ot: Number(g.ot || 0), away_rest, home_rest, played };
+      return { src: g.src, date: g.date, away: g.away, home: g.home, away_pts: played ? Number(g.away_pts) : null, home_pts: played ? Number(g.home_pts) : null, ot: Number(g.ot || 0), away_rest, home_rest, played };
     });
   },
 });
+
 
 dash.calc('model', {
   inputs: ['schedule', 'teams'],
@@ -573,8 +608,104 @@ dash.calc('model', {
   },
 });
 
+
+dash.calc('box_all', {
+  inputs: ['lakers_box', 'nba_box'],
+  title: 'Team box scores, game by game, merged',
+  description: 'One row per team per game: curated Lakers games plus every NBA.com team box score; NBA.com wins for the same team and date.',
+  fn: (lakers_box, nba_box) => {
+    const out = new Map(lakers_box.map((g) => [g.date + '|' + g.team, { ...g, pf: g.pf ?? '', mp: g.mp ?? '', src: 'curated' }]));
+    for (const g of nba_box) out.set(g.date + '|' + g.team, { ...g, src: 'nba' });
+    return [...out.values()].sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : a.team < b.team ? -1 : 1));
+  },
+});
+
+dash.calc('player_games_all', {
+  inputs: ['player_games', 'nba_player_games'],
+  title: 'Player game lines, merged',
+  description: 'Curated player lines plus NBA.com player game logs; where NBA.com has a team-game, its lines replace the curated ones for that team and date.',
+  fn: (player_games, nba_player_games) => {
+    const nbaKeys = new Set(nba_player_games.map((g) => g.date + '|' + g.team));
+    return player_games.filter((g) => !nbaKeys.has(g.date + '|' + g.team)).concat(nba_player_games);
+  },
+});
+
+dash.calc('quarters_all', {
+  inputs: ['lakers_quarters', 'nba_quarters'],
+  title: 'Quarter scores, merged',
+  description: 'Points per quarter for each team in each game: curated Lakers games plus NBA.com line scores; NBA.com wins for the same team and date.',
+  fn: (lakers_quarters, nba_quarters) => {
+    const out = new Map(lakers_quarters.map((r) => [r.date + '|' + r.team, r]));
+    for (const r of nba_quarters) out.set(r.date + '|' + r.team, r);
+    return [...out.values()];
+  },
+});
+
+dash.calc('team_totals', {
+  inputs: ['team_stats', 'opp_stats', 'box_all', 'schedule'],
+  title: 'Season box totals per team and its opponents',
+  description: 'Summed from game box scores when every played game for the team is on file with minutes and fouls (NBA.com data); otherwise the curated season totals. side = own or opp.',
+  fn: (team_stats, opp_stats, box_all, schedule) => {
+    const K = ['pts', 'fgm', 'fga', 'fg3m', 'fg3a', 'ftm', 'fta', 'oreb', 'dreb', 'tov', 'pf', 'mp'];
+    const num = (r) => ({ ...r, ...Object.fromEntries(['gp', ...K].map((k) => [k, Number(r[k])])) });
+    const own = new Map(team_stats.map((r) => [r.team, r])), opp = new Map(opp_stats.map((r) => [r.team, r]));
+    const box = new Map(box_all.map((g) => [g.date + '|' + g.team, g]));
+    const teams = new Set(team_stats.map((r) => r.team));
+    const rows = [];
+    for (const t of teams) {
+      const games = schedule.filter((g) => g.played && (g.home === t || g.away === t));
+      const pairs = games.map((g) => [box.get(g.date + '|' + t), box.get(g.date + '|' + (g.home === t ? g.away : g.home))]);
+      const full = games.length > 0 && pairs.every(([a, b]) => a && b && K.every((k) => isNum(a[k]) && isNum(b[k])));
+      if (full) {
+        const s = (i) => Object.fromEntries(K.map((k) => [k, pairs.reduce((acc, p) => acc + Number(p[i][k]), 0)]));
+        const through = games.map((g) => g.date).sort().pop();
+        rows.push({ side: 'own', team: t, gp: games.length, ...s(0), through, src: 'box' });
+        rows.push({ side: 'opp', team: t, gp: games.length, ...s(1), through, src: 'box' });
+      } else if (own.has(t) && opp.has(t)) {
+        rows.push({ side: 'own', ...num(own.get(t)), src: 'curated' });
+        rows.push({ side: 'opp', ...num(opp.get(t)), src: 'curated' });
+      }
+    }
+    return rows;
+  },
+});
+
+dash.calc('absences_all', {
+  inputs: ['absences', 'nba_inactive', 'player_games_all', 'schedule'],
+  title: 'Absences: reported, plus NBA.com inactive lists',
+  description: 'Every cited absence on file, plus rotation players (20+ minutes a game in 2+ games) on NBA.com’s inactive list for a game; consecutive missed games are joined into one row.',
+  fn: (absences, nba_inactive, player_games_all, schedule) => {
+    const rows = absences.map((a) => ({ ...a, kind: 'report' }));
+    const mins = new Map();
+    for (const g of player_games_all) {
+      const k = g.team + '|' + normName(g.player), m = mins.get(k) || { t: 0, n: 0, name: g.player };
+      if (Number(g.min) > 0) { m.t += Number(g.min); m.n += 1; }
+      mins.set(k, m);
+    }
+    const teamDates = new Map();
+    for (const g of schedule) if (g.played) for (const t of [g.home, g.away]) { if (!teamDates.has(t)) teamDates.set(t, []); teamDates.get(t).push(g.date); }
+    const covered = (team, player, d) => absences.some((a) => a.team === team && normName(a.player) === normName(player) && a.from <= d && (!a.until || a.until >= d));
+    const byPlayer = new Map();
+    for (const r of nba_inactive) {
+      const k = r.team + '|' + normName(r.player), m = mins.get(k);
+      if (!m || m.n < 2 || m.t / m.n < 20 || covered(r.team, r.player, r.date)) continue;
+      if (!byPlayer.has(k)) byPlayer.set(k, { team: r.team, player: m.name, dates: new Set() });
+      byPlayer.get(k).dates.add(r.date);
+    }
+    const mk = (p, run) => ({ team: p.team, player: p.player, role: 'Rotation', from: run.from, until: run.until, status: 'Inactive (NBA.com game report)', source: 'NBA.com box score summary', kind: 'inactive' });
+    for (const p of byPlayer.values()) {
+      let run = null;
+      for (const d of (teamDates.get(p.team) || []).slice().sort()) {
+        if (p.dates.has(d)) { if (run) run.until = d; else run = { from: d, until: d }; } else if (run) { rows.push(mk(p, run)); run = null; }
+      }
+      if (run) rows.push(mk(p, run));
+    }
+    return rows;
+  },
+});
+
 dash.calc('game_log', {
-  inputs: ['schedule', 'model', 'absences', 'player_impact'],
+  inputs: ['schedule', 'model', 'absences_all', 'player_impact'],
   title: 'Game log and projections per team',
   description: 'Played games: performance = margin minus home court and rest, plus opponent rating. Upcoming games (next 5): projected margin, and the same with known absences priced in. Per toggle setting.',
   fn: (schedule, model, absences, player_impact) => {
@@ -643,17 +774,17 @@ dash.calc('game_log', {
   },
 });
 
+
 dash.calc('next_game', {
-  inputs: ['lakers_schedule', 'schedule', 'model', 'absences', 'player_impact'],
-  title: 'Next Lakers game against each team',
-  description: 'For the Lakers, their next game; for any other team, its next game against the Lakers. Projected Lakers margin with home court and rest, per toggle setting.',
+  inputs: ['lakers_schedule', 'schedule', 'model', 'absences_all', 'player_impact'],
+  title: 'Next game for each focus team, and its next meeting with every other team',
+  description: 'focus = the team the page is about; team = the team picked to compare. When they are the same, the focus team’s next game; otherwise their next meeting. Projected focus-team margin with home court and rest, per toggle setting.',
   fn: (lakers_schedule, schedule, model, absences, player_impact) => {
     const HCA = 2.0, B2B = 1.0;
-    const norm = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-    const imp = new Map(player_impact.map((p) => [p.team + '|' + norm(p.player), p]));
+    const imp = new Map(player_impact.map((p) => [p.team + '|' + normName(p.player), p]));
     const teamGp = new Map(model.filter((m) => m.variant === 'h1s1r1').map((m) => [m.team, m.gp]));
     const value = (team, player) => {
-      const p = imp.get(team + '|' + norm(player));
+      const p = imp.get(team + '|' + normName(player));
       if (!p) return null;
       const g = Number(p.g), min = Number(p.min);
       if (!g) return 0;
@@ -673,43 +804,47 @@ dash.calc('next_game', {
       }
       return { adj, note: parts.length ? 'Absence adjustment: ' + parts.join(', ') + '.' + (miss.length ? ' No impact data for ' + miss.join(', ') + '.' : '') : (miss.length ? 'No impact data for ' + miss.join(', ') + '.' : '') };
     };
-
     const rating = new Map(model.map((m) => [m.variant + '|' + m.team, m.rating]));
     const names = new Map(model.map((m) => [m.team, m.name]));
-    const lastPlayed = schedule.filter((g) => g.played && (g.home === 'LAL' || g.away === 'LAL')).map((g) => g.date).sort().pop() || '';
     const coveredTo = schedule.map((g) => g.date).sort().pop();
-    const lakersDates = lakers_schedule.map((g) => g.date).sort();
     const day = (s) => Date.parse(s + 'T00:00:00Z') / 864e5;
     const lbl = (s) => { const d = new Date(s + 'T00:00:00Z'); return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][d.getUTCDay()] + ' ' + ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getUTCMonth()] + ' ' + d.getUTCDate(); };
     const out = (team, date) => absences.filter((a) => a.team === team && a.from <= date && (!a.until || a.until >= date)).map((a) => a.player);
-    const ahead = lakers_schedule.filter((g) => g.date > lastPlayed).sort((a, b) => (a.date < b.date ? -1 : 1));
+    const teams = [...new Set(model.map((m) => m.team))];
+    // Each team's games from the league schedule, plus the Lakers' own schedule file past the league file's last date
+    const games = new Map(teams.map((t) => [t, []]));
+    for (const g of schedule) for (const [t, o, h] of [[g.home, g.away, true], [g.away, g.home, false]]) if (games.has(t)) games.get(t).push({ date: g.date, opp: o, home: h, played: g.played, opp_rest: h ? g.away_rest : g.home_rest });
+    for (const g of lakers_schedule) if (g.date > coveredTo && games.has('LAL')) games.get('LAL').push({ date: g.date, opp: g.opp, home: g.home_away === 'H', played: false, opp_rest: null });
+    games.forEach((list) => list.sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0)));
     const rows = [];
     for (const variant of [...new Set(model.map((m) => m.variant))]) {
       const h = variant[1] === '1', r = variant[5] === '1';
-      for (const team of [...new Set(model.map((m) => m.team))]) {
-        const g = team === 'LAL' ? ahead[0] : ahead.find((x) => x.opp === team);
-        if (!g) continue;
-        const known = g.date <= coveredTo;
-        const sg = schedule.find((x) => x.date === g.date && (x.home === 'LAL' || x.away === 'LAL'));
-        const prev = lakersDates.filter((d) => d < g.date).pop();
-        const lalB2b = prev ? day(g.date) - day(prev) === 1 : false;
-        const oppRest = known && sg ? (sg.home === 'LAL' ? sg.away_rest : sg.home_rest) : null;
-        const oppB2b = oppRest === 1;
-        const home = g.home_away === 'H';
-        const hca = h ? (home ? HCA : -HCA) : 0;
-        const rest = r ? B2B * ((oppB2b ? 1 : 0) - (lalB2b ? 1 : 0)) : 0;
-        const lal = rating.get(variant + '|LAL'), opp = rating.get(variant + '|' + g.opp);
-        const lalOut = out('LAL', g.date), oppOut = out(g.opp, g.date);
-        const ad = adjust('LAL', g.opp, lalOut, oppOut);
-        rows.push({
-          variant, team, date: g.date, date_label: lbl(g.date), opp: g.opp, opp_name: names.get(g.opp),
-          matchup: (home ? 'vs ' : '@ ') + g.opp, lal_rating: lal, opp_rating: opp, hca_pts: hca, rest_pts: rest, proj: lal - opp + hca + rest,
-          proj_adj: ad.note && !ad.note.startsWith('No impact') ? lal - opp + hca + rest + ad.adj : null,
-          adj_note: ad.note || 'No absence adjustment for this date.',
-          games_away: ahead.indexOf(g),
-          rest_note: (lalB2b ? 'Lakers on a back-to-back. ' : 'Lakers rested. ') + (known ? (oppB2b ? names.get(g.opp) + ' on a back-to-back.' : names.get(g.opp) + ' rested.') : names.get(g.opp) + ' rest not yet known; assumed rested.'),
-          absent_note: [lalOut.length ? 'Lakers out: ' + lalOut.join(', ') : '', oppOut.length ? names.get(g.opp) + ' out: ' + oppOut.join(', ') : ''].filter(Boolean).join('; ') || 'No key absences on file for this date.',
-        });
+      for (const F of teams) {
+        const list = games.get(F), fname = names.get(F);
+        const lastPlayed = list.filter((g) => g.played).map((g) => g.date).pop() || '';
+        const ahead = list.filter((g) => !g.played && g.date > lastPlayed), dates = list.map((g) => g.date);
+        for (const T of teams) {
+          const g = T === F ? ahead[0] : ahead.find((x) => x.opp === T);
+          if (!g) continue;
+          const known = g.date <= coveredTo;
+          const prev = dates.filter((d) => d < g.date).pop();
+          const fB2b = prev ? day(g.date) - day(prev) === 1 : false;
+          const oppB2b = known && g.opp_rest === 1;
+          const hca = h ? (g.home ? HCA : -HCA) : 0;
+          const rest = r ? B2B * ((oppB2b ? 1 : 0) - (fB2b ? 1 : 0)) : 0;
+          const fr = rating.get(variant + '|' + F), orr = rating.get(variant + '|' + g.opp);
+          const fOut = out(F, g.date), oppOut = out(g.opp, g.date);
+          const ad = adjust(F, g.opp, fOut, oppOut);
+          rows.push({
+            variant, focus: F, team: T, date: g.date, date_label: lbl(g.date), opp: g.opp, opp_name: names.get(g.opp),
+            matchup: (g.home ? 'vs ' : '@ ') + g.opp, focus_rating: fr, opp_rating: orr, hca_pts: hca, rest_pts: rest, proj: fr - orr + hca + rest,
+            proj_adj: ad.note && !ad.note.startsWith('No impact') ? fr - orr + hca + rest + ad.adj : null,
+            adj_note: ad.note || 'No absence adjustment for this date.',
+            games_away: ahead.indexOf(g),
+            rest_note: (fB2b ? fname + ' on a back-to-back. ' : fname + ' rested. ') + (known ? (oppB2b ? names.get(g.opp) + ' on a back-to-back.' : names.get(g.opp) + ' rested.') : names.get(g.opp) + ' rest not yet known; assumed rested.'),
+            absent_note: [fOut.length ? fname + ' out: ' + fOut.join(', ') : '', oppOut.length ? names.get(g.opp) + ' out: ' + oppOut.join(', ') : ''].filter(Boolean).join('; ') || 'No key absences on file for this date.',
+          });
+        }
       }
     }
     return rows;
@@ -717,10 +852,11 @@ dash.calc('next_game', {
 });
 
 dash.calc('ff_team', {
-  inputs: ['team_stats', 'teams'],
+  inputs: ['team_totals', 'teams'],
   title: 'Offense four factors by team',
   description: 'eFG% = (FGM + 0.5 × 3PM) / FGA; TOV% = TOV / (FGA + 0.44 × FTA + TOV); FT/FGA = FTM / FGA; plus offensive rebounds per game and 3P%. League row sums all teams listed.',
-  fn: (team_stats, teams) => {
+  fn: (team_totals, teams) => {
+    const team_stats = team_totals.filter((r) => r.side === 'own');
     const names = new Map(teams.map((t) => [t.team, t.name]));
     const calc = (t) => {
       const v = (k) => Number(t[k]);
@@ -734,16 +870,17 @@ dash.calc('ff_team', {
   },
 });
 
-dash.calc('ff_lakers', {
-  inputs: ['lakers_box', 'team_stats'],
-  title: 'Lakers games: four factors and three-point luck',
-  description: 'Per team per Lakers game. ORB% = OREB / (OREB + opponent DREB). Luck = (3PM − 3PA × the team’s 3P% in its other games) × 3.',
-  fn: (lakers_box, team_stats) => {
+dash.calc('ff_games', {
+  inputs: ['box_all', 'team_totals'],
+  title: 'Four factors and three-point luck, game by game',
+  description: 'Per team per game. ORB% = OREB / (OREB + opponent DREB). Luck = (3PM − 3PA × the team’s 3P% in its other games) × 3.',
+  fn: (box_all, team_totals) => {
     const n = (v) => Number(v);
     const lbl = (s) => { const d = new Date(s + 'T00:00:00Z'); return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][d.getUTCDay()] + ' ' + ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getUTCMonth()] + ' ' + d.getUTCDate(); };
-    const season = new Map(team_stats.map((t) => [t.team, t]));
-    return lakers_box.map((g) => {
-      const o = lakers_box.find((x) => x.date === g.date && x.team === g.opp);
+    const season = new Map(team_totals.filter((t) => t.side === 'own').map((t) => [t.team, t]));
+    const box = new Map(box_all.map((g) => [g.date + '|' + g.team, g]));
+    return box_all.map((g) => {
+      const o = box.get(g.date + '|' + g.opp);
       const s = season.get(g.team);
       const normal = s ? (s.through >= g.date ? (n(s.fg3m) - n(g.fg3m)) / (n(s.fg3a) - n(g.fg3a)) : n(s.fg3m) / n(s.fg3a)) : null;
       return {
@@ -754,18 +891,18 @@ dash.calc('ff_lakers', {
         ft_rate: n(g.ftm) / n(g.fga),
         fg3: g.fg3m + '-' + g.fg3a,
         normal_fg3_pct: normal,
-        luck_pts: normal === null ? null : (n(g.fg3m) - n(g.fg3a) * normal) * 3,
+        luck_pts: normal === null || !Number.isFinite(normal) ? null : (n(g.fg3m) - n(g.fg3a) * normal) * 3,
       };
     });
   },
 });
 
-
 dash.calc('efficiency', {
-  inputs: ['team_stats', 'opp_stats', 'teams'],
+  inputs: ['team_totals', 'teams'],
   title: 'Per-100 ratings, pace and defense four factors',
   description: 'Possessions = FGA + 0.44 × FTA − OREB + TOV, averaged over team and opponents. Net, offense and defense per 100; opponent eFG%, forced TOV%, DRB% and opponent FT/FGA; ranks; a league row.',
-  fn: (team_stats, opp_stats, teams) => {
+  fn: (team_totals, teams) => {
+    const team_stats = team_totals.filter((r) => r.side === 'own'), opp_stats = team_totals.filter((r) => r.side === 'opp');
     const n = Number, names = new Map(teams.map((t) => [t.team, t.name])), opp = new Map(opp_stats.map((o) => [o.team, o]));
     const calc = (t, o) => {
       const pt = n(t.fga) + 0.44 * n(t.fta) - n(t.oreb) + n(t.tov), po = n(o.fga) + 0.44 * n(o.fta) - n(o.oreb) + n(o.tov), poss = (pt + po) / 2;
@@ -781,6 +918,87 @@ dash.calc('efficiency', {
     const keys = ['gp', 'mp', 'pts', 'fgm', 'fga', 'fg3m', 'fg3a', 'ftm', 'fta', 'oreb', 'dreb', 'tov', 'pf'];
     const sum = (arr) => Object.fromEntries(keys.map((k) => [k, arr.reduce((a, r) => a + n(r[k]), 0)]));
     rows.push({ team: 'LEAGUE', name: 'League', ...calc(sum(team_stats), sum(opp_stats)) });
+    return rows;
+  },
+});
+
+dash.calc('players', {
+  inputs: ['lakers_players', 'player_games_all', 'player_impact', 'team_totals', 'schedule'],
+  title: 'Player stats for every team',
+  description: 'Per game from season totals. Summed from player game lines when every played game is on file; for the Lakers, the curated season totals until then. TS% = PTS / (2 × (FGA + 0.44 × FTA)); USG% = 100 × (FGA + 0.44 × FTA + TOV) × (team minutes / 5) / (minutes × team (FGA + 0.44 × FTA + TOV)); PF per 36 minutes. BPM from Basketball-Reference where on file.',
+  fn: (lakers_players, player_games_all, player_impact, team_totals, schedule) => {
+    const n = Number, K = ['min', 'pts', 'fgm', 'fga', 'fg3m', 'fg3a', 'ftm', 'fta', 'oreb', 'dreb', 'ast', 'stl', 'blk', 'tov', 'pf'];
+    const own = team_totals.filter((r) => r.side === 'own');
+    const lgTs = own.reduce((a, r) => a + n(r.pts), 0) / (2 * own.reduce((a, r) => a + n(r.fga) + 0.44 * n(r.fta), 0));
+    const bpmOf = new Map(player_impact.map((p) => [p.team + '|' + normName(p.player), p]));
+    lakers_players.forEach((p) => bpmOf.set('LAL|' + normName(p.player), p));
+    const played = new Map();
+    for (const g of schedule) if (g.played) for (const t of [g.home, g.away]) played.set(t, (played.get(t) || 0) + 1);
+    const out = [];
+    const row = (team, p, tPlays, tMin, src) => {
+      const g = n(p.g), min = n(p.min), tsa = n(p.fga) + 0.44 * n(p.fta), b = bpmOf.get(team + '|' + normName(p.player));
+      const bv = (k) => (b && b[k] !== '' && b[k] !== undefined ? n(b[k]) : null);
+      return {
+        team, player: p.player, g, min, mpg: min / g, ppg: n(p.pts) / g, ts: tsa ? n(p.pts) / (2 * tsa) : null,
+        usg: min ? 100 * (tsa + n(p.tov)) * (tMin / 5) / (min * tPlays) : null,
+        rpg: (n(p.oreb) + n(p.dreb)) / g, apg: n(p.ast) / g, spg: n(p.stl) / g, bpg: n(p.blk) / g, topg: n(p.tov) / g,
+        pf36: min ? n(p.pf) * 36 / min : null, bpm: bv('bpm'), bpm_prior: bv('bpm_prior'), lg_ts: lgTs, src,
+      };
+    };
+    const byTeam = new Map();
+    for (const g of player_games_all) { if (!byTeam.has(g.team)) byTeam.set(g.team, []); byTeam.get(g.team).push(g); }
+    const teams = new Set([...byTeam.keys(), 'LAL']);
+    for (const team of teams) {
+      const lines = byTeam.get(team) || [];
+      const dates = new Set(lines.map((g) => g.date));
+      const complete = dates.size > 0 && dates.size >= (played.get(team) || 0);
+      if (team === 'LAL' && !complete && lakers_players.length) {
+        const t = own.find((r) => r.team === 'LAL');
+        const tPlays = n(t.fga) + 0.44 * n(t.fta) + n(t.tov), tMin = n(t.mp);
+        lakers_players.forEach((p) => out.push({ ...row('LAL', p, tPlays, tMin, 'curated'), team_games: played.get('LAL') || 0, games_on_file: played.get('LAL') || 0 }));
+        continue;
+      }
+      if (!lines.length) continue;
+      const tot = Object.fromEntries(K.map((k) => [k, lines.reduce((a, g) => a + n(g[k] || 0), 0)]));
+      const tPlays = tot.fga + 0.44 * tot.fta + tot.tov, tMin = tot.min;
+      const byP = new Map();
+      for (const g of lines) {
+        if (!(n(g.min) > 0)) continue;
+        const k = normName(g.player);
+        if (!byP.has(k)) byP.set(k, { player: g.player, g: 0, ...Object.fromEntries(K.map((x) => [x, 0])) });
+        const p = byP.get(k); p.g += 1; K.forEach((x) => { p[x] += n(g[x] || 0); });
+      }
+      for (const p of byP.values()) out.push({ ...row(team, p, tPlays, tMin, 'games'), team_games: played.get(team) || 0, games_on_file: dates.size });
+    }
+    return out.sort((a, b) => (a.team < b.team ? -1 : a.team > b.team ? 1 : b.min - a.min));
+  },
+});
+
+dash.calc('quarters', {
+  inputs: ['quarters_all'],
+  title: 'Net score by quarter for every team',
+  description: 'A team’s points minus its opponent’s in each quarter of each game on file, with a season total row and quarters won-lost per team.',
+  fn: (quarters_all) => {
+    const lbl = (s) => { const d = new Date(s + 'T00:00:00Z'); return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][d.getUTCDay()] + ' ' + ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getUTCMonth()] + ' ' + d.getUTCDate(); };
+    const Q = ['q1', 'q2', 'q3', 'q4'];
+    const at = new Map(quarters_all.map((r) => [r.date + '|' + r.team, r]));
+    const rows = [];
+    const byTeam = new Map();
+    for (const r of quarters_all) {
+      const o = at.get(r.date + '|' + r.opp);
+      if (!o || Q.some((k) => !isNum(r[k]) || !isNum(o[k]))) continue;
+      const q = Q.map((k) => Number(r[k]) - Number(o[k]));
+      const row = { team: r.team, date: r.date, day_label: lbl(r.date), opp: r.opp, q1: q[0], q2: q[1], q3: q[2], q4: q[3], total: q.reduce((a, v) => a + v, 0) };
+      if (!byTeam.has(r.team)) byTeam.set(r.team, []);
+      byTeam.get(r.team).push(row);
+    }
+    for (const [team, list] of byTeam) {
+      list.sort((a, b) => (a.date < b.date ? -1 : 1));
+      rows.push(...list);
+      const tot = { team, date: 'season', day_label: 'Season', opp: '' };
+      [...Q, 'total'].forEach((k) => { tot[k] = list.reduce((a, r) => a + r[k], 0); tot[k + '_wl'] = list.filter((r) => r[k] > 0).length + '-' + list.filter((r) => r[k] < 0).length; });
+      rows.push(tot);
+    }
     return rows;
   },
 });
@@ -830,6 +1048,7 @@ dash.calc('scorecard', {
   },
 });
 
+
 dash.calc('scorecard_summary', {
   inputs: ['scorecard'],
   title: 'Projection scorecard, totals',
@@ -848,50 +1067,12 @@ dash.calc('scorecard_summary', {
   },
 });
 
-dash.calc('players', {
-  inputs: ['lakers_players', 'team_stats'],
-  title: 'Lakers player stats',
-  description: 'Per game from season totals. TS% = PTS / (2 × (FGA + 0.44 × FTA)); USG% = 100 × (FGA + 0.44 × FTA + TOV) × (team minutes / 5) / (minutes × team (FGA + 0.44 × FTA + TOV)); PF per 36 minutes.',
-  fn: (lakers_players, team_stats) => {
-    const n = Number, t = team_stats.find((r) => r.team === 'LAL');
-    const tPlays = n(t.fga) + 0.44 * n(t.fta) + n(t.tov), tMin = n(t.mp);
-    const lgTs = team_stats.reduce((a, r) => a + n(r.pts), 0) / (2 * team_stats.reduce((a, r) => a + n(r.fga) + 0.44 * n(r.fta), 0));
-    return lakers_players.map((p) => {
-      const g = n(p.g), min = n(p.min), tsa = n(p.fga) + 0.44 * n(p.fta);
-      return {
-        player: p.player, g, min, mpg: min / g, ppg: n(p.pts) / g, ts: tsa ? n(p.pts) / (2 * tsa) : null,
-        usg: min ? 100 * (tsa + n(p.tov)) * (tMin / 5) / (min * tPlays) : null,
-        rpg: (n(p.oreb) + n(p.dreb)) / g, apg: n(p.ast) / g, spg: n(p.stl) / g, bpg: n(p.blk) / g, topg: n(p.tov) / g,
-        pf36: min ? n(p.pf) * 36 / min : null, bpm: p.bpm === '' ? null : n(p.bpm), bpm_prior: p.bpm_prior === '' ? null : n(p.bpm_prior), lg_ts: lgTs,
-      };
-    }).sort((a, b) => b.min - a.min);
-  },
-});
-
-dash.calc('quarters', {
-  inputs: ['lakers_quarters'],
-  title: 'Lakers net score by quarter',
-  description: 'Lakers points minus opponent points in each quarter of each Lakers game, with a season total row and quarters won-lost.',
-  fn: (lakers_quarters) => {
-    const lbl = (s) => { const d = new Date(s + 'T00:00:00Z'); return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][d.getUTCDay()] + ' ' + ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getUTCMonth()] + ' ' + d.getUTCDate(); };
-    const Q = ['q1', 'q2', 'q3', 'q4'];
-    const rows = lakers_quarters.filter((r) => r.team === 'LAL').map((r) => {
-      const o = lakers_quarters.find((x) => x.date === r.date && x.team !== 'LAL');
-      const q = Q.map((k) => Number(r[k]) - Number(o[k]));
-      return { date: r.date, day_label: lbl(r.date), opp: r.opp, q1: q[0], q2: q[1], q3: q[2], q4: q[3], total: q.reduce((a, v) => a + v, 0) };
-    });
-    const tot = { date: 'season', day_label: 'Season', opp: '' };
-    [...Q, 'total'].forEach((k) => { tot[k] = rows.reduce((a, r) => a + r[k], 0); tot[k + '_wl'] = rows.filter((r) => r[k] > 0).length + '-' + rows.filter((r) => r[k] < 0).length; });
-    rows.push(tot);
-    return rows;
-  },
-});
 
 dash.calc('player_form', {
-  inputs: ['player_games'],
+  inputs: ['player_games_all'],
   title: 'Player form by Game Score',
   description: 'Game Score = PTS + 0.4×FGM − 0.7×FGA − 0.4×(FTA − FTM) + 0.7×OREB + 0.3×DREB + STL + 0.7×AST + 0.7×BLK − 0.4×PF − TOV, per game; last-3 average against the season average.',
-  fn: (player_games) => {
+  fn: (player_games) => { // merged lines (player_games_all)
     const n = Number, gs = (g) => n(g.pts) + 0.4 * n(g.fgm) - 0.7 * n(g.fga) - 0.4 * (n(g.fta) - n(g.ftm)) + 0.7 * n(g.oreb) + 0.3 * n(g.dreb) + n(g.stl) + 0.7 * n(g.ast) + 0.7 * n(g.blk) - 0.4 * n(g.pf) - n(g.tov);
     const by = new Map();
     for (const g of player_games) { const k = g.team + '|' + g.player; if (!by.has(k)) by.set(k, []); by.get(k).push(g); }
@@ -910,21 +1091,24 @@ dash.calc('player_form', {
   },
 });
 
+
 dash.calc('spotlight', {
   inputs: ['next_game', 'model', 'game_log'],
-  title: 'Next Lakers game: win chance and team form',
-  description: 'Win chance = Φ(projected margin ÷ √(12² + Lakers SE² + opponent SE²)); team form = average performance over each side’s last 2 games. Per toggle setting.',
+  title: 'Next game for each focus team: win chance and team form',
+  description: 'Win chance = Φ(projected margin ÷ √(12² + focus SE² + opponent SE²)); team form = average performance over each side’s last 2 games. Per toggle setting.',
   fn: (next_game, model, game_log) => {
     const phi = (z) => { const t = 1 / (1 + 0.2316419 * Math.abs(z)), d = 0.3989423 * Math.exp(-z * z / 2); const p = d * t * (0.3193815 + t * (-0.3565638 + t * (1.781478 + t * (-1.821256 + t * 1.330274)))); return z > 0 ? 1 - p : p; };
+    const mm = new Map(model.map((r) => [r.variant + '|' + r.team, r]));
+    const recent = new Map();
+    for (const r of game_log) if (r.status === 'played') { const k = r.variant + '|' + r.team; if (!recent.has(k)) recent.set(k, []); recent.get(k).push(r.perf); }
+    const form = (variant, t) => { const p = (recent.get(variant + '|' + t) || []).slice(-2); return p.length ? p.reduce((a, v) => a + v, 0) / p.length : null; };
     const rows = [];
-    for (const g of next_game.filter((r) => r.team === 'LAL')) {
-      const m = (t) => model.find((r) => r.variant === g.variant && r.team === t);
-      const L = m('LAL'), O = m(g.opp), sd = Math.sqrt(144 + L.se * L.se + O.se * O.se);
-      const form = (t) => { const p = game_log.filter((r) => r.variant === g.variant && r.team === t && r.status === 'played').slice(-2); return p.length ? p.reduce((a, r) => a + r.perf, 0) / p.length : null; };
+    for (const g of next_game.filter((r) => r.team === r.focus)) {
+      const L = mm.get(g.variant + '|' + g.focus), O = mm.get(g.variant + '|' + g.opp), sd = Math.sqrt(144 + L.se * L.se + O.se * O.se);
       rows.push({
-        variant: g.variant, date: g.date, date_label: g.date_label, opp: g.opp, opp_name: g.opp_name, matchup: g.matchup,
+        variant: g.variant, focus: g.focus, date: g.date, date_label: g.date_label, opp: g.opp, opp_name: g.opp_name, matchup: g.matchup,
         proj: g.proj, sd, wp: phi(g.proj / sd), wp_adj: g.proj_adj === null ? null : phi(g.proj_adj / sd),
-        lal_rating: L.rating, lal_rank: L.rank, opp_rating: O.rating, opp_rank: O.rank, lal_last2: form('LAL'), opp_last2: form(g.opp),
+        focus_rating: L.rating, focus_rank: L.rank, opp_rating: O.rating, opp_rank: O.rank, focus_last2: form(g.variant, g.focus), opp_last2: form(g.variant, g.opp),
       });
     }
     return rows;
@@ -932,38 +1116,84 @@ dash.calc('spotlight', {
 });
 
 dash.calc('with_without', {
-  inputs: ['game_log', 'absences'],
-  title: 'Lakers with and without a missing player',
-  description: 'Average performance in Lakers games a player missed (from the absences list) against games he played; players who missed the same games are grouped. Per toggle setting.',
+  inputs: ['game_log', 'absences_all'],
+  title: 'Every team with and without a missing player',
+  description: 'Average performance in a team’s games a player missed (reported absences and NBA.com inactive lists) against games he played; players who missed the same games are grouped. Per toggle setting.',
   fn: (game_log, absences) => {
     const out = [];
+    const byTeam = new Map();
+    for (const r of game_log) if (r.status === 'played') { const k = r.variant + '|' + r.team; if (!byTeam.has(k)) byTeam.set(k, []); byTeam.get(k).push(r); }
+    const teams = [...new Set(absences.map((a) => a.team))];
     for (const variant of [...new Set(game_log.map((r) => r.variant))]) {
-      const played = game_log.filter((r) => r.variant === variant && r.team === 'LAL' && r.status === 'played');
-      for (const player of [...new Set(absences.filter((a) => a.team === 'LAL').map((a) => a.player))]) {
-        const missed = (d) => absences.some((a) => a.team === 'LAL' && a.player === player && a.from <= d && (!a.until || a.until >= d));
-        const wo = played.filter((r) => missed(r.date)), w = played.filter((r) => !missed(r.date));
-        if (!wo.length || !w.length) continue;
-        const avg = (a) => a.reduce((s, r) => s + r.perf, 0) / a.length;
-        const key = wo.map((r) => r.date).join(',');
-        const same = out.find((o) => o.variant === variant && o.key === key);
-        if (same) { same.player += ' and ' + player; continue; }
-        out.push({ variant, key, player, games_without: wo.length, games_with: w.length, perf_without: avg(wo), perf_with: avg(w) });
+      for (const team of teams) {
+        const played = byTeam.get(variant + '|' + team) || [];
+        for (const player of [...new Set(absences.filter((a) => a.team === team).map((a) => a.player))]) {
+          const missed = (d) => absences.some((a) => a.team === team && a.player === player && a.from <= d && (!a.until || a.until >= d));
+          const wo = played.filter((r) => missed(r.date)), w = played.filter((r) => !missed(r.date));
+          if (!wo.length || !w.length) continue;
+          const avg = (a) => a.reduce((s, r) => s + r.perf, 0) / a.length;
+          const key = wo.map((r) => r.date).join(',');
+          const same = out.find((o) => o.variant === variant && o.team === team && o.key === key);
+          if (same) { same.player += ' and ' + player; continue; }
+          out.push({ variant, team, key, player, games_without: wo.length, games_with: w.length, perf_without: avg(wo), perf_with: avg(w) });
+        }
       }
     }
     return out;
   },
 });
 
-const DEFAULTS = { team: 'LAL', hca: true, shrink: true, rest: true, view: 'adj' };
-const P = () => ({ ...DEFAULTS, ...Object.fromEntries(Object.entries(dash.params()).filter(([, v]) => v !== null && v !== undefined)) });
-const teamSel = document.getElementById('lk-team');
+// ---- Focus team: the team the whole page is about. Compare with: a second team for the tiles, game log and next meeting.
+// Team colors: teamcolorcodes.com (Oct 2026), with the Clippers' 2024 palette and the Jazz's purple from Design Your Way (Jazz value approximate).
+const TEAM_COLORS = {
+  ATL: ['#E03A3E', '#C1D32F', '#26282A'], BKN: ['#000000', '#FFFFFF'], BOS: ['#007A33', '#BA9653', '#963821'],
+  CHA: ['#1D1160', '#00788C', '#A1A1A4'], CHI: ['#CE1141', '#000000'], CLE: ['#860038', '#041E42', '#FDBB30'],
+  DAL: ['#00538C', '#002B5E', '#B8C4CA'], DEN: ['#0E2240', '#FEC524', '#8B2131', '#1D428A'], DET: ['#C8102E', '#1D42BA', '#BEC0C2', '#002D62'],
+  GSW: ['#1D428A', '#FFC72C'], HOU: ['#CE1141', '#000000', '#C4CED4'], IND: ['#002D62', '#FDBB30', '#BEC0C2'],
+  LAC: ['#0C2340', '#C8102E', '#418FDE'], LAL: ['#552583', '#FDB927', '#000000'], MEM: ['#5D76A9', '#12173F', '#F5B112', '#707271'],
+  MIA: ['#98002E', '#F9A01B', '#000000'], MIL: ['#00471B', '#EEE1C6', '#0077C0'], MIN: ['#0C2340', '#236192', '#9EA2A2', '#78BE20'],
+  NOP: ['#0C2340', '#C8102E', '#85714D'], NYK: ['#006BB6', '#F58426', '#BEC0C2'], OKC: ['#007AC1', '#EF3B24', '#002D62', '#FDBB30'],
+  ORL: ['#0077C0', '#C4CED4', '#000000'], PHI: ['#006BB6', '#ED174C', '#002B5C', '#C4CED4'], PHX: ['#1D1160', '#E56020', '#000000', '#63727A', '#F9AD1B'],
+  POR: ['#E03A3E', '#000000'], SAC: ['#5A2D81', '#63727A', '#000000'], SAS: ['#C4CED4', '#000000'],
+  TOR: ['#CE1141', '#000000', '#A1A1A4', '#B4975A'], UTA: ['#5B2B82', '#000000', '#6CAEDF'], WAS: ['#002B5C', '#E31837', '#C4CED4'],
+};
+// Proposed rule: the first team color (in the team's own order) with 4.5:1 contrast against the page background, so labels on it stay readable;
+// neutrals (black, white, greys) only when the team has no other color; if nothing passes, the main color is lightened or darkened until it does.
+const rgbOf = (hex) => [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16));
+const lum = ([r, g, b]) => { const f = (c) => { c /= 255; return c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4; }; return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b); };
+const contrast = (a, b) => { const x = lum(a), y = lum(b); return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); };
+const neutral = ([r, g, b]) => (Math.max(r, g, b) - Math.min(r, g, b)) / 255 < 0.12;
+function accentFor(team, bg) {
+  const pal = (TEAM_COLORS[team] || ['#552583']).map(rgbOf);
+  const ok = (c) => contrast(c, bg) >= 4.5;
+  const pick = pal.find((c) => !neutral(c) && ok(c)) || (pal.every(neutral) ? pal.find(ok) : null);
+  let c = pick || pal.find((x) => !neutral(x)) || pal[0];
+  const toward = lum(bg) > 0.4 ? [0, 0, 0] : [255, 255, 255];
+  for (let i = 0; i < 20 && !ok(c); i++) c = c.map((v, k) => Math.round(v + (toward[k] - v) * 0.08));
+  return 'rgb(' + c.join(',') + ')';
+}
+const lkRoot = document.querySelector('.lk');
+const probe = document.createElement('div'); probe.style.cssText = 'position:absolute;width:0;height:0;overflow:hidden;background:var(--color-bg)'; lkRoot.appendChild(probe);
+const bgRgb = () => { const m = getComputedStyle(probe).backgroundColor.match(/\d+(\.\d+)?/g); return m && m.length >= 3 ? m.slice(0, 3).map(Number) : [247, 245, 242]; };
+
+const store = { get: (k) => { try { return localStorage.getItem(k); } catch (e) { return null; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch (e) { /* private mode */ } } };
+const DEFAULTS = { focus: 'LAL', hca: true, shrink: true, rest: true, view: 'adj' };
+const P = () => {
+  const raw = Object.fromEntries(Object.entries(dash.params()).filter(([, v]) => v !== null && v !== undefined && v !== ''));
+  const p = { ...DEFAULTS, ...raw };
+  if (!raw.focus) p.focus = store.get('lk-focus') || DEFAULTS.focus;
+  p.team = raw.team || p.focus;
+  return p;
+};
+const focusSel = document.getElementById('lk-focus'), teamSel = document.getElementById('lk-team');
+focusSel.addEventListener('change', () => { store.set('lk-focus', focusSel.value); dash.setParams({ focus: focusSel.value, team: focusSel.value }); });
 teamSel.addEventListener('change', () => dash.setParams({ team: teamSel.value }));
 document.querySelectorAll('.lk-tog').forEach((b) => b.addEventListener('click', () => {
   const k = b.dataset.param;
   dash.setParams({ [k]: !P()[k] });
 }));
-document.getElementById('lk-reset').addEventListener('click', () => dash.resetParams());
 document.querySelectorAll('.lk-segbtn').forEach((b) => b.addEventListener('click', () => dash.setParams({ view: b.dataset.view })));
+document.getElementById('lk-reset').addEventListener('click', () => { const f = P().focus; dash.resetParams(); dash.setParams({ focus: f }); });
 const pick = (team) => { dash.setParams({ team }); document.getElementById('top').scrollIntoView({ behavior: 'smooth' }); };
 document.getElementById('lk-eff').addEventListener('click', (e) => {
   const tr = e.target.closest('tr[data-team]');
@@ -983,7 +1213,7 @@ function mkBar(val, se, ext, selected) {
   const fill = document.createElement('i');
   const w = Math.abs(val) / ext * 50;
   fill.style.left = (val >= 0 ? 50 : 50 - w) + '%'; fill.style.width = w + '%';
-  fill.style.background = selected ? dash.colors[0] : 'var(--cds-chart-muted)';
+  fill.style.background = selected ? 'var(--lk-accent)' : 'var(--cds-chart-muted)';
   bar.append(fill, zero);
   if (se) { const u = document.createElement('u'); u.style.left = (50 + (val - se) / ext * 50) + '%'; u.style.width = (se / ext * 100) + '%'; bar.appendChild(u); }
   return bar;
@@ -1016,17 +1246,26 @@ function fail(el) {
   el.replaceChildren();
   const f = document.createElement('div'); f.className = 'lk-fail'; f.textContent = 'Failed to load'; el.appendChild(f);
 }
+const shortDate = (d) => Number(d.slice(5, 7)) + '/' + Number(d.slice(8, 10));
+const ord = (k) => { const s = ['th', 'st', 'nd', 'rd'], v = k % 100; return k + (s[(v - 20) % 10] || s[v] || s[0]); };
 
-dash.onData(() => {
-  const p = P(), v = variantOf(p), team = p.team;
+function render() {
+  const p = P(), v = variantOf(p), team = p.team, focus = p.focus, raw = p.view === 'raw';
 
+  // Team pickers, names and color
   const t = dash.data('teams');
+  const names = new Map(t.status === 'ok' ? t.data.map((r) => [r.team, r.name]) : []);
+  const fn = names.get(focus) || focus, cn = names.get(team) || team;
   if (t.status === 'ok' && teamSel.options.length !== t.data.length) {
-    teamSel.replaceChildren(...t.data.slice().sort((a, b) => a.name.localeCompare(b.name)).map((r) => new Option(r.name + ' (' + r.team + ')', r.team)));
+    const opts = () => t.data.slice().sort((a, b) => a.name.localeCompare(b.name)).map((r) => new Option(r.name + ' (' + r.team + ')', r.team));
+    teamSel.replaceChildren(...opts()); focusSel.replaceChildren(...opts());
   }
-  teamSel.value = team;
+  focusSel.value = focus; teamSel.value = team;
+  lkRoot.style.setProperty('--lk-accent', accentFor(focus, bgRgb()));
+  document.title = fn + ' Tracker';
+  document.getElementById('lk-title').textContent = fn + ' schedule-adjusted tracker';
+  document.querySelectorAll('.lk-fname').forEach((el) => { el.textContent = fn; });
   document.querySelectorAll('.lk-tog').forEach((b) => b.setAttribute('aria-pressed', String(!!p[b.dataset.param])));
-  const raw = p.view === 'raw';
   document.querySelectorAll('.lk-segbtn').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === p.view)));
   document.getElementById('tile-rating').classList.toggle('lk-primary', !raw);
   document.getElementById('tile-raw').classList.toggle('lk-primary', raw);
@@ -1047,14 +1286,25 @@ dash.onData(() => {
   document.getElementById('lk-take-mode').textContent = raw
     ? 'Raw margins view: no adjustment for opponents, home court or rest. ' + (rawRank ? 'Ranked ' + rawRank + ' of 30 by raw margin.' : '')
     : !p.shrink
-    ? 'Shrinkage is off: ratings describe results only and swing hard this early.'
-    : 'Shrinkage is on: ratings are a best estimate of true strength, pulled toward average until more games are played.';
+      ? 'Shrinkage is off: ratings describe results only and swing hard this early.'
+      : 'Shrinkage is on: ratings are a best estimate of true strength, pulled toward average until more games are played.';
 
-  // League table
+  // Updated line
+  const schd = dash.data('schedule');
+  const coveredTo = schd.status === 'ok' ? schd.data.map((g) => g.date).sort().pop() : null;
+  if (schd.status === 'ok') {
+    const lastPlayed = schd.data.filter((g) => g.played).map((g) => g.date).sort().pop();
+    const nbaGames = schd.data.filter((g) => g.played && g.src === 'nba').length;
+    document.getElementById('lk-updated').textContent = lastPlayed ? 'Results through ' + dayFmt(new Date(lastPlayed + 'T00:00:00Z')) + (nbaGames ? ' (NBA.com data).' : '.') + ' Recalculated in your browser from the data files.' : '';
+  } else if (schd.status === 'error') {
+    document.getElementById('lk-updated').textContent = 'The data files did not load. Reload to try again.';
+  }
+
+  // League table: order and primary column follow the view
   document.getElementById('lk-league-title').textContent = raw ? 'League raw margins' : 'League ratings';
   document.getElementById('lk-league-note').textContent = raw
-    ? 'Average point margin per game, no adjustments, all 30 teams. The Adjusted column uses the toggles above. Tap a team to select it.'
-    : 'All 30 teams under the adjustments chosen above. The bar runs from zero to the rating; the thin line across it spans ± one standard error. Tap a team to select it.';
+    ? 'Average point margin per game, no adjustments, all 30 teams. The Adjusted column uses the toggles above. Tap a team to compare it.'
+    : 'All 30 teams under the adjustments chosen above. The bar runs from zero to the rating; the thin line across it spans ± one standard error. Tap a team to compare it.';
   document.getElementById('lk-th-main').textContent = raw ? 'Raw' : 'Rating';
   document.getElementById('lk-th-alt').textContent = raw ? 'Adjusted' : 'Results';
   const lBody = document.querySelector('#lk-league tbody');
@@ -1066,15 +1316,16 @@ dash.onData(() => {
     const ext = Math.max(1, d3.max(rows, (r) => Math.abs(r[key] || 0) + (raw ? 0 : r.se)));
     rows.forEach((r, i) => {
       const tr = document.createElement('tr');
+      const hi = r.team === focus || r.team === team;
       tr.dataset.key = v + ',' + r.team; tr.dataset.team = r.team;
-      tr.className = 'lk-click' + (r.team === team ? ' lk-sel' : '');
+      tr.className = 'lk-click' + (r.team === team ? ' lk-sel' : '') + (r.team === focus ? ' lk-focusrow' : '');
       cell(tr, String(raw ? i + 1 : r.rank));
       const nc = cell(tr, r.name, 'lk-left');
-      const mini = document.createElement('div'); mini.className = 'lk-minibar'; mini.appendChild(mkBar(r[key] || 0, raw ? null : r.se, ext, r.team === team)); nc.appendChild(mini);
+      const mini = document.createElement('div'); mini.className = 'lk-minibar'; mini.appendChild(mkBar(r[key] || 0, raw ? null : r.se, ext, hi)); nc.appendChild(mini);
       cell(tr, sgn(r[key]), 'lk-strong');
       cell(tr, raw ? '—' : r.se.toFixed(1), 'lk-se');
       const bc = cell(tr, '', 'lk-barcell lk-wide');
-      bc.appendChild(mkBar(r[key] || 0, raw ? null : r.se, ext, r.team === team));
+      bc.appendChild(mkBar(r[key] || 0, raw ? null : r.se, ext, hi));
       cell(tr, sgn(r[alt]), 'lk-wide');
       cell(tr, sgn(r.sos), 'lk-wide');
       cell(tr, r.record);
@@ -1085,11 +1336,12 @@ dash.onData(() => {
     });
   } else if (m.status === 'error') { fail(lBody); }
 
-  // Game log
+  // Game log (compare team; the focus team by default)
   const gl = dash.data('game_log');
   const pBody = document.querySelector('#lk-played tbody'), uBody = document.querySelector('#lk-upcoming tbody');
   pBody.replaceChildren(); uBody.replaceChildren();
   document.getElementById('lk-log-title').textContent = row ? row.name + ' game log' : 'Game log';
+  document.getElementById('lk-next-games-note').textContent = 'Projected margin for the ' + cn + '.' + (coveredTo ? ' Rest is known from the league schedule through ' + dayFmt(new Date(coveredTo + 'T00:00:00Z')) + '.' : '');
   if (gl.status === 'ok') {
     const mine = gl.data.filter((r) => r.variant === v && r.team === team);
     mine.filter((r) => r.status === 'played').forEach((r) => {
@@ -1106,28 +1358,27 @@ dash.onData(() => {
     });
   }
 
-  // Next Lakers game
+  // Next game: the focus team's next game, or its next meeting with the compare team
   const ng = dash.data('next_game');
-  const nrow = ng.status === 'ok' ? ng.data.find((r) => r.variant === v && r.team === team) : null;
-  document.getElementById('lk-next-title').textContent = team === 'LAL' ? 'Next Lakers game' : 'Next Lakers meeting';
+  const nrow = ng.status === 'ok' ? ng.data.find((r) => r.variant === v && r.focus === focus && r.team === team) : null;
+  document.getElementById('lk-next-title').textContent = team === focus ? 'Next ' + fn + ' game' : 'Next ' + fn + ' game vs the ' + cn;
   document.getElementById('lk-next-note').textContent = !nrow
-    ? (ng.status === 'ok' ? 'No remaining Lakers game against this team on the schedule.' : 'Projected Lakers margin from the ratings above, with each adjustment shown.')
-    : (nrow.games_away === 0 ? 'This is the Lakers’ next game. ' : 'In ' + nrow.games_away + ' Lakers games. ') + 'Projected Lakers margin from the ratings above, with each adjustment shown.';
+    ? (ng.status === 'ok' ? 'No remaining ' + fn + ' game against the ' + cn + ' on the schedule file.' : 'Projected ' + fn + ' margin from the ratings above, with each adjustment shown.')
+    : (nrow.games_away === 0 ? 'This is the ' + fn + '’ next game. ' : 'In ' + nrow.games_away + ' ' + fn + ' games. ') + 'Projected ' + fn + ' margin from the ratings above, with each adjustment shown.';
   document.querySelectorAll('[data-source="next_game"][data-field]').forEach((el) => {
-    el.setAttribute('data-where', 'variant=' + v + '&team=' + team);
+    el.setAttribute('data-where', 'variant=' + v + '&focus=' + focus + '&team=' + team);
     if (!nrow) { el.textContent = '—'; if (ng.status !== 'loading') unskel(el); return; }
     unskel(el);
     const f = el.dataset.field, val = nrow[f];
-    el.textContent = ['lal_rating', 'opp_rating', 'hca_pts', 'rest_pts', 'proj', 'proj_adj'].includes(f) ? sgn(val) : String(val);
+    el.textContent = ['focus_rating', 'opp_rating', 'hca_pts', 'rest_pts', 'proj', 'proj_adj'].includes(f) ? sgn(val) : String(val);
   });
 
-  // Four factors
+  // Offense four factors: league, focus, compare
   const ff = dash.data('ff_team');
   const fBody = document.querySelector('#lk-ff tbody'); fBody.replaceChildren();
   if (ff.status === 'ok') {
-    const want = ['LEAGUE', 'LAL', team].filter((x, i, a) => a.indexOf(x) === i);
-    const shown = want.map((k) => ff.data.find((r) => r.team === k)).filter(Boolean);
-    shown.forEach((r) => {
+    const want = ['LEAGUE', focus, team].filter((x, i, a) => a.indexOf(x) === i);
+    want.map((k) => ff.data.find((r) => r.team === k)).filter(Boolean).forEach((r) => {
       const tr = document.createElement('tr'); tr.dataset.key = r.team;
       if (r.team === team) tr.className = 'lk-sel';
       cell(tr, r.name, 'lk-left'); cell(tr, pct(r.efg)); cell(tr, pct(r.tov_pct)); cell(tr, r.oreb_pg.toFixed(1)); cell(tr, pct(r.ft_rate)); cell(tr, pct(r.fg3_pct));
@@ -1137,25 +1388,28 @@ dash.onData(() => {
     document.getElementById('lk-ff-missing').textContent = missing.length ? 'No box totals on file yet for ' + missing.join(', ') + '.' : '';
   }
 
-  const lb = dash.data('ff_lakers');
+  // Focus team games: four factors and shooting luck
+  const lb = dash.data('ff_games');
   const lbBody = document.querySelector('#lk-lbox tbody'); lbBody.replaceChildren();
   if (lb.status === 'ok') {
-    lb.data.forEach((r) => {
+    const rows = lb.data.filter((r) => r.team === focus || r.opp === focus)
+      .sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : (a.team === focus ? -1 : 1)));
+    rows.forEach((r) => {
       const tr = document.createElement('tr'); tr.dataset.key = r.date + ',' + r.team;
-      if (r.team === 'LAL') tr.className = 'lk-sel';
+      if (r.team === focus) tr.className = 'lk-sel';
       cell(tr, r.day_label, 'lk-left'); cell(tr, r.team, 'lk-left'); cell(tr, pct(r.efg)); cell(tr, pct(r.tov_pct)); cell(tr, pct(r.orb_pct)); cell(tr, pct(r.ft_rate)); cell(tr, r.fg3); cell(tr, sgn(r.luck_pts), 'lk-strong');
       lbBody.appendChild(tr);
     });
-    const have = new Set(lb.data.map((r) => r.date));
-    const sch = dash.data('schedule');
-    const missing = sch.status === 'ok' ? sch.data.filter((g) => g.played && (g.home === 'LAL' || g.away === 'LAL') && !have.has(g.date)).map((g) => dayFmt(new Date(g.date + 'T00:00:00Z')) + ' ' + (g.home === 'LAL' ? 'vs ' + g.away : '@ ' + g.home)) : [];
-    document.getElementById('lk-lbox-missing').textContent = missing.length ? 'Box score not yet on file: ' + missing.join(', ') + '.' : '';
+    const have = new Set(rows.filter((r) => r.team === focus).map((r) => r.date));
+    const missing = schd.status === 'ok' ? schd.data.filter((g) => g.played && (g.home === focus || g.away === focus) && !have.has(g.date)).map((g) => dayFmt(new Date(g.date + 'T00:00:00Z')) + ' ' + (g.home === focus ? 'vs ' + g.away : '@ ' + g.home)) : [];
+    document.getElementById('lk-lbox-missing').textContent = !rows.length
+      ? 'No ' + fn + ' box scores on file yet. They arrive with the NBA.com data run (tools/nba in the repository).'
+      : missing.length ? 'Box score not yet on file: ' + missing.join(', ') + '.' : '';
   }
 
   // Efficiency tile and table
   const ef = dash.data('efficiency');
   const erow = ef.status === 'ok' ? ef.data.find((r) => r.team === team) : null;
-  const ord = (k) => { const s = ['th', 'st', 'nd', 'rd'], v = k % 100; return k + (s[(v - 20) % 10] || s[v] || s[0]); };
   document.querySelectorAll('[data-source="efficiency"][data-field]').forEach((el) => {
     if (el.closest('table')) return;
     el.setAttribute('data-where', 'team=' + team);
@@ -1194,96 +1448,104 @@ dash.onData(() => {
     sc.data.filter((r) => r.variant === v && (r.home === team || r.away === team)).forEach((r) => {
       const tr = document.createElement('tr'); tr.dataset.key = v + ',' + r.date + ',' + r.home;
       const home = r.home === team, mine = (x) => (home ? x : -x);
-      cell(tr, Number(r.date.slice(5, 7)) + '/' + Number(r.date.slice(8, 10)), 'lk-left'); cell(tr, (home ? 'vs ' + r.away : '@ ' + r.home), 'lk-left');
+      cell(tr, shortDate(r.date), 'lk-left'); cell(tr, (home ? 'vs ' + r.away : '@ ' + r.home), 'lk-left');
       cell(tr, sgn(mine(r.proj))); cell(tr, (mine(r.actual) > 0 ? '+' : '') + mine(r.actual)); cell(tr, r.miss.toFixed(1), 'lk-strong'); cell(tr, r.hit === null ? 'No call' : r.hit ? 'Right' : 'Wrong', 'lk-left');
       scBody.appendChild(tr);
     });
-    document.getElementById('lk-score-note').textContent = srow ? 'Projected and actual are from ' + (team === 'LAL' ? 'the Lakers' : 'the selected team') + '’ side. Scored since ' + dayFmt(new Date(srow.since + 'T00:00:00Z')) + '; the first night has no earlier games, so it equals the baseline.' : '';
+    document.getElementById('lk-score-note').textContent = srow ? 'Projected and actual are from the ' + cn + '’ side. Scored since ' + dayFmt(new Date(srow.since + 'T00:00:00Z')) + '; the first night has no earlier games, so it equals the baseline.' : '';
   }
 
-  // Lakers players
+  // Focus team players
   const pl = dash.data('players');
   const pBody2 = document.querySelector('#lk-players tbody'); pBody2.replaceChildren();
+  const prow = pl.status === 'ok' ? pl.data.filter((r) => r.team === focus) : [];
   if (pl.status === 'ok') {
     const f1 = (x) => (x === null || x === undefined ? '—' : x.toFixed(1));
-    pl.data.forEach((r) => {
-      const tr = document.createElement('tr'); tr.dataset.key = r.player;
+    prow.forEach((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = r.team + ',' + r.player;
       cell(tr, r.player, 'lk-left'); cell(tr, String(r.g)); cell(tr, f1(r.mpg)); cell(tr, f1(r.ppg), 'lk-strong'); cell(tr, pct(r.ts)); cell(tr, f1(r.usg));
       cell(tr, f1(r.rpg)); cell(tr, f1(r.apg)); cell(tr, f1(r.spg)); cell(tr, f1(r.bpg)); cell(tr, f1(r.topg)); cell(tr, f1(r.pf36));
       cell(tr, r.bpm === null ? '—' : sgn(r.bpm)); cell(tr, r.bpm_prior === null ? '—' : sgn(r.bpm_prior));
       pBody2.appendChild(tr);
     });
+    const r0 = prow[0];
+    document.getElementById('lk-players-cover').textContent = !r0
+      ? 'No ' + fn + ' player box scores on file yet. They arrive with the NBA.com data run (tools/nba in the repository).'
+      : r0.games_on_file < r0.team_games ? 'Player box scores on file for ' + r0.games_on_file + ' of ' + r0.team_games + ' ' + fn + ' games.' : '';
   } else if (pl.status === 'error') { fail(pBody2); }
 
   // Quarters
   const qd = dash.data('quarters');
   const qBody = document.querySelector('#lk-quarters tbody'); qBody.replaceChildren();
   if (qd.status === 'ok') {
-    qd.data.forEach((r) => {
-      const tr = document.createElement('tr'); tr.dataset.key = r.date;
+    const qrows = qd.data.filter((r) => r.team === focus);
+    qrows.forEach((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = r.team + ',' + r.date;
       const tot = r.date === 'season';
       if (tot) tr.className = 'lk-total';
-      cell(tr, tot ? 'Season' : Number(r.date.slice(5, 7)) + '/' + Number(r.date.slice(8, 10)), 'lk-left'); cell(tr, tot ? 'Net' : r.opp, 'lk-left');
+      cell(tr, tot ? 'Season' : shortDate(r.date), 'lk-left'); cell(tr, tot ? 'Net' : r.opp, 'lk-left');
       const si = (x) => (x > 0 ? '+' : '') + x;
       ['q1', 'q2', 'q3', 'q4', 'total'].forEach((k) => cell(tr, si(r[k]), k === 'total' ? 'lk-strong' : ''));
       qBody.appendChild(tr);
       if (tot) {
-        const wl = document.createElement('tr'); wl.dataset.key = 'season-wl'; wl.className = 'lk-total';
+        const wl = document.createElement('tr'); wl.dataset.key = r.team + ',season-wl'; wl.className = 'lk-total';
         cell(wl, 'Season', 'lk-left'); cell(wl, 'Won-lost', 'lk-left');
         ['q1', 'q2', 'q3', 'q4', 'total'].forEach((k) => cell(wl, r[k + '_wl']));
         qBody.appendChild(wl);
       }
     });
+    document.getElementById('lk-quarters-cover').textContent = qrows.length ? '' : 'No ' + fn + ' quarter scores on file yet. They arrive with the NBA.com data run (tools/nba in the repository).';
   } else if (qd.status === 'error') { fail(qBody); }
 
-  // Spotlight
+  // Spotlight: the focus team's next game
   const sp = dash.data('spotlight');
-  const srw = sp.status === 'ok' ? sp.data.find((r) => r.variant === v) : null;
+  const srw = sp.status === 'ok' ? sp.data.find((r) => r.variant === v && r.focus === focus) : null;
   const wpEl = document.getElementById('lk-wp');
+  document.getElementById('spotlight').hidden = sp.status === 'ok' && !srw;
   if (srw) {
     const a = Math.round(srw.wp * 100);
     document.getElementById('lk-spot-title').textContent = 'Spotlight: ' + srw.date_label + ' ' + srw.matchup;
-    wpEl.children[0].style.width = a + '%'; wpEl.children[0].textContent = 'Lakers ' + a + '%';
+    wpEl.children[0].style.width = a + '%'; wpEl.children[0].textContent = fn + ' ' + a + '%';
     wpEl.children[1].style.width = (100 - a) + '%'; wpEl.children[1].textContent = srw.opp_name + ' ' + (100 - a) + '%';
-    document.getElementById('lk-wp-note').textContent = 'Projected Lakers ' + sgn(srw.proj) + ', give or take ' + srw.sd.toFixed(0) + ' points.' + (srw.wp_adj === null ? '' : ' With known absences: Lakers ' + Math.round(srw.wp_adj * 100) + '%.');
+    document.getElementById('lk-wp-note').textContent = 'Projected ' + fn + ' ' + sgn(srw.proj) + ', give or take ' + srw.sd.toFixed(0) + ' points.' + (srw.wp_adj === null ? '' : ' With known absences: ' + fn + ' ' + Math.round(srw.wp_adj * 100) + '%.');
     const set = (f, txt) => document.querySelectorAll('[data-source="spotlight"][data-field="' + f + '"]').forEach((el) => { unskel(el); el.textContent = txt; });
-    set('lal_label', 'Lakers'); set('opp_label', srw.opp_name);
-    set('lal_last2', sgn(srw.lal_last2)); set('opp_last2', sgn(srw.opp_last2));
-    set('lal_rating', sgn(srw.lal_rating) + ' (' + srw.lal_rank + ')'); set('opp_rating', sgn(srw.opp_rating) + ' (' + srw.opp_rank + ')');
+    set('focus_label', fn); set('opp_label', srw.opp_name);
+    set('focus_last2', sgn(srw.focus_last2)); set('opp_last2', sgn(srw.opp_last2));
+    set('focus_rating', sgn(srw.focus_rating) + ' (' + srw.focus_rank + ')'); set('opp_rating', sgn(srw.opp_rating) + ' (' + srw.opp_rank + ')');
   }
   const pf = dash.data('player_form');
   const fBody2 = document.querySelector('#lk-form tbody'); fBody2.replaceChildren();
   if (pf.status === 'ok' && srw) {
     const sideRows = [];
-    for (const t of ['LAL', srw.opp]) sideRows.push(...pf.data.filter((r) => r.team === t && r.mpg >= 15 && r.games >= 2).slice(0, 3));
+    for (const s of [focus, srw.opp]) sideRows.push(...pf.data.filter((r) => r.team === s && r.mpg >= 15 && r.games >= 2).slice(0, 3));
     sideRows.forEach((r) => {
       const tr = document.createElement('tr'); tr.dataset.key = r.team + ',' + r.player;
-      if (r.team === 'LAL') tr.className = 'lk-sel';
+      if (r.team === focus) tr.className = 'lk-sel';
       cell(tr, r.team, 'lk-left'); cell(tr, r.player, 'lk-left'); cell(tr, r.last3.toFixed(1), 'lk-strong'); cell(tr, r.season.toFixed(1));
       const td = cell(tr, '', 'lk-left');
       const vals = r.trend.split(' ').map(Number), lo = Math.min(0, ...vals), hi = Math.max(...vals, 1), W = 88, H = 22;
       const x = (i) => (vals.length === 1 ? W / 2 : 4 + i * (W - 8) / (vals.length - 1)), y = (val) => H - 3 - (val - lo) / (hi - lo) * (H - 6);
       const NS = 'http://www.w3.org/2000/svg', svg = document.createElementNS(NS, 'svg');
       svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H); svg.setAttribute('class', 'lk-spark'); svg.setAttribute('role', 'img'); svg.setAttribute('aria-label', 'Game Scores: ' + r.trend);
-      const pl = document.createElementNS(NS, 'polyline'); pl.setAttribute('points', vals.map((val, i) => x(i) + ',' + y(val)).join(' ')); svg.appendChild(pl);
+      const line = document.createElementNS(NS, 'polyline'); line.setAttribute('points', vals.map((val, i) => x(i) + ',' + y(val)).join(' ')); svg.appendChild(line);
       const c = document.createElementNS(NS, 'circle'); c.setAttribute('cx', x(vals.length - 1)); c.setAttribute('cy', y(vals[vals.length - 1])); c.setAttribute('r', 2.5); svg.appendChild(c);
       td.appendChild(svg);
       fBody2.appendChild(tr);
     });
-    const oppGames = pf.data.filter((r) => r.team === srw.opp);
-    const tg = oppGames.length ? oppGames[0].team_games : 0;
-    document.getElementById('lk-form-note').textContent = 'Top three by last-3 Game Score on each side (15+ minutes a game). The line shows each game in order.' + (tg ? ' ' + srw.opp_name + ' box scores on file: ' + tg + ' games.' : ' No ' + srw.opp_name + ' box scores on file yet.');
+    const on = (s) => { const g = pf.data.filter((r) => r.team === s); return g.length ? g[0].team_games : 0; };
+    const fg = on(focus), og = on(srw.opp);
+    document.getElementById('lk-form-note').textContent = 'Top three by last-3 Game Score on each side (15+ minutes a game). The line shows each game in order. Box scores on file: ' + fn + ' ' + fg + ' games, ' + srw.opp_name + ' ' + og + '.' + (!fg || !og ? ' The rest arrive with the NBA.com data run.' : '');
   }
   const ww = dash.data('with_without');
   const wwEl = document.getElementById('lk-ww');
   if (ww.status === 'ok') {
-    const rs = ww.data.filter((r) => r.variant === v);
-    wwEl.textContent = rs.length ? rs.map((r) => 'Lakers without ' + r.player + ': ' + sgn(r.perf_without) + ' performance in ' + r.games_without + ' game' + (r.games_without > 1 ? 's' : '') + ', against ' + sgn(r.perf_with) + ' with ' + (r.player.includes(' and ') ? 'them' : 'him') + ' (' + r.games_with + ').').join(' ') + ' Tiny samples: context, not proof.' : 'No Lakers games yet with a key player out.';
+    const rs = ww.data.filter((r) => r.variant === v && r.team === focus);
+    wwEl.textContent = rs.length ? rs.map((r) => fn + ' without ' + r.player + ': ' + sgn(r.perf_without) + ' performance in ' + r.games_without + ' game' + (r.games_without > 1 ? 's' : '') + ', against ' + sgn(r.perf_with) + ' with ' + (r.player.includes(' and ') ? 'them' : 'him') + ' (' + r.games_with + ').').join(' ') + ' Tiny samples: context, not proof.' : 'No ' + fn + ' games on file yet with a key player out.';
   }
   const sn = dash.data('spotlight_notes');
   const ul = document.getElementById('lk-story'); ul.replaceChildren();
   if (sn.status === 'ok' && srw) {
-    sn.data.filter((r) => r.game_date === srw.date).sort((a, b) => Number(a.order) - Number(b.order)).forEach((r) => {
+    sn.data.filter((r) => (r.team || 'LAL') === focus && r.game_date === srw.date).sort((a, b) => Number(a.order) - Number(b.order)).forEach((r) => {
       const li = document.createElement('li'); li.textContent = r.text + ' ';
       const s = document.createElement('a'); s.className = 'lk-src-note'; s.href = r.url; s.target = '_blank'; s.rel = 'noopener'; s.textContent = r.source; li.appendChild(s);
       ul.appendChild(li);
@@ -1291,54 +1553,52 @@ dash.onData(() => {
     if (!ul.children.length) { const li = document.createElement('li'); li.textContent = 'No storyline notes for this game yet.'; ul.appendChild(li); }
   }
 
-  // Usage vs efficiency scatter
+  // Usage vs efficiency scatter (focus team)
   const svgU = document.getElementById('lk-uvse');
+  svgU.setAttribute('aria-label', 'Usage versus true shooting for ' + fn + ' players');
   if (pl.status === 'ok') {
-    const NS = 'http://www.w3.org/2000/svg', W = 340, H = 220, P = { l: 34, r: 10, t: 22, b: 28 };
-    const pts = pl.data.filter((r) => r.min >= 40 && r.usg !== null && r.ts !== null);
-    const lgTs = pl.data[0] ? pl.data[0].lg_ts : 0.56;
+    const NS = 'http://www.w3.org/2000/svg', W = 340, H = 220, PD = { l: 34, r: 10, t: 22, b: 28 };
+    const pts = prow.filter((r) => r.min >= 40 && r.usg !== null && r.ts !== null);
+    const lgTs = prow[0] ? prow[0].lg_ts : (pl.data[0] ? pl.data[0].lg_ts : 0.56);
     const xs = pts.map((r) => r.usg), ys = pts.map((r) => r.ts * 100);
     const x0 = Math.min(5, ...xs) - 1, x1 = Math.max(35, ...xs) + 2, y0 = Math.min(50, ...ys) - 2, y1 = Math.max(75, ...ys) + 2;
-    const X = (val) => P.l + (val - x0) / (x1 - x0) * (W - P.l - P.r), Y = (val) => H - P.b - (val - y0) / (y1 - y0) * (H - P.t - P.b);
+    const X = (val) => PD.l + (val - x0) / (x1 - x0) * (W - PD.l - PD.r), Y = (val) => H - PD.b - (val - y0) / (y1 - y0) * (H - PD.t - PD.b);
     const el = (tag, at, txt) => { const e = document.createElementNS(NS, tag); Object.entries(at).forEach(([k, val]) => e.setAttribute(k, val)); if (txt !== undefined) e.textContent = txt; return e; };
     svgU.replaceChildren();
-    svgU.appendChild(el('line', { x1: P.l, y1: H - P.b, x2: W - P.r, y2: H - P.b, class: 'lk-ax' }));
-    svgU.appendChild(el('line', { x1: P.l, y1: P.t, x2: P.l, y2: H - P.b, class: 'lk-ax' }));
-    svgU.appendChild(el('line', { x1: X(20), y1: P.t, x2: X(20), y2: H - P.b, class: 'lk-ref' }));
-    svgU.appendChild(el('line', { x1: P.l, y1: Y(lgTs * 100), x2: W - P.r, y2: Y(lgTs * 100), class: 'lk-ref' }));
-    svgU.appendChild(el('text', { x: W - P.r, y: H - 6, 'text-anchor': 'end' }, 'Usage % →'));
+    svgU.appendChild(el('line', { x1: PD.l, y1: H - PD.b, x2: W - PD.r, y2: H - PD.b, class: 'lk-ax' }));
+    svgU.appendChild(el('line', { x1: PD.l, y1: PD.t, x2: PD.l, y2: H - PD.b, class: 'lk-ax' }));
+    svgU.appendChild(el('line', { x1: X(20), y1: PD.t, x2: X(20), y2: H - PD.b, class: 'lk-ref' }));
+    svgU.appendChild(el('line', { x1: PD.l, y1: Y(lgTs * 100), x2: W - PD.r, y2: Y(lgTs * 100), class: 'lk-ref' }));
+    svgU.appendChild(el('text', { x: W - PD.r, y: H - 6, 'text-anchor': 'end' }, 'Usage % →'));
     svgU.appendChild(el('text', { x: 4, y: 11 }, 'True shooting %'));
-    [x0, 20, x1].forEach((t) => svgU.appendChild(el('text', { x: X(t), y: H - P.b + 12, 'text-anchor': 'middle' }, Math.round(t))));
-    [Math.ceil(y0), Math.round(lgTs * 100), Math.floor(y1)].forEach((t) => svgU.appendChild(el('text', { x: P.l - 4, y: Y(t) + 3, 'text-anchor': 'end' }, t)));
+    [x0, 20, x1].forEach((tk) => svgU.appendChild(el('text', { x: X(tk), y: H - PD.b + 12, 'text-anchor': 'middle' }, Math.round(tk))));
+    [Math.ceil(y0), Math.round(lgTs * 100), Math.floor(y1)].forEach((tk) => svgU.appendChild(el('text', { x: PD.l - 4, y: Y(tk) + 3, 'text-anchor': 'end' }, tk)));
     pts.forEach((r) => {
       const c = el('circle', { cx: X(r.usg), cy: Y(r.ts * 100), r: 3 + Math.sqrt(r.min) / 4, class: 'lk-pt' });
       c.appendChild(el('title', {}, r.player + ': usage ' + r.usg.toFixed(1) + '%, TS ' + (r.ts * 100).toFixed(1) + '%, ' + Math.round(r.min) + ' min'));
       svgU.appendChild(c);
       const right = X(r.usg) > W * 0.72; svgU.appendChild(el('text', { x: X(r.usg) + (right ? -7 : 7), y: Y(r.ts * 100) + 3, 'text-anchor': right ? 'end' : 'start' }, r.player.split(' ').slice(-1)[0]));
     });
+    if (!pts.length) svgU.appendChild(el('text', { x: W / 2, y: H / 2, 'text-anchor': 'middle' }, 'No player box scores on file yet'));
   }
 
-  // Updated line
-  const schd = dash.data('schedule');
-  if (schd.status === 'ok') {
-    const lastPlayed = schd.data.filter((g) => g.played).map((g) => g.date).sort().pop();
-    document.getElementById('lk-updated').textContent = lastPlayed ? 'Results through ' + dayFmt(new Date(lastPlayed + 'T00:00:00Z')) + '. Recalculated in your browser from the files below.' : '';
-  } else if (schd.status === 'error') {
-    document.getElementById('lk-updated').textContent = 'The data files did not load. Tap Refresh to try again.';
-  }
-
-  // Absences
-  const ab = dash.data('absences');
+  // Absences: focus team, its next opponent and the compare team
+  const ab = dash.data('absences_all');
   const aBody = document.querySelector('#lk-abs tbody'); aBody.replaceChildren();
   if (ab.status === 'ok') {
-    ab.data.forEach((r) => {
+    const show = new Set([focus, team, srw ? srw.opp : focus]);
+    const rows = ab.data.filter((r) => show.has(r.team)).sort((a, b) => (a.team === focus ? 0 : 1) - (b.team === focus ? 0 : 1) || (a.from < b.from ? 1 : -1));
+    rows.forEach((r) => {
       const tr = document.createElement('tr'); tr.dataset.key = r.team + ',' + r.player + ',' + r.from;
       cell(tr, r.team, 'lk-left'); cell(tr, r.player, 'lk-left'); cell(tr, r.status, 'lk-wrap'); cell(tr, r.role, 'lk-left'); cell(tr, r.from, 'lk-left'); cell(tr, r.until || '—', 'lk-left'); cell(tr, r.source, 'lk-wrap lk-wide');
       aBody.appendChild(tr);
     });
+    document.getElementById('lk-abs-note').textContent = 'Showing the ' + [...show].map((x) => names.get(x) || x).join(', the ') + '. ' + (rows.length ? '' : 'None on file.');
   }
   ['lk-played', 'lk-upcoming', 'lk-ff', 'lk-abs', 'lk-eff', 'lk-players', 'lk-lbox', 'lk-form'].forEach((id) => phoneLayout(document.getElementById(id)));
-});
+}
+dash.onData(render);
+try { matchMedia('(prefers-color-scheme: dark)').addEventListener('change', render); } catch (e) { /* older browsers */ }
 fetch('data/sources.json', { cache: 'no-cache' }).then((r) => r.json()).then((list) => {
   const ul = document.getElementById('lk-src');
   ul.replaceChildren(...list.map((s) => {
@@ -1346,13 +1606,24 @@ fetch('data/sources.json', { cache: 'no-cache' }).then((r) => r.json()).then((li
     const a = document.createElement('a'); a.href = s.file; a.textContent = s.title;
     const d = document.createElement('span'); d.textContent = ' — ' + s.description;
     const u = document.createElement('span'); u.className = 'lk-src-date';
-    u.textContent = s.updated ? ' Updated ' + new Date(s.updated).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) + ' PT.' : '';
+    u.dataset.src = s.id;
+    const when = s.nba ? (window.NBA_MANIFEST ? window.NBA_MANIFEST.updated : null) : s.updated;
+    u.textContent = when ? ' Updated ' + new Date(when).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) + ' PT.' : (s.nba ? ' Not on file yet: arrives with the first NBA.com data run.' : '');
     li.append(a, d, u); return li;
   }));
 }).catch(() => {});
 // Reload the data on demand, and when the app comes back to the screen after 5 minutes away
 let lastLoad = 0;
-const loadAll = () => { lastLoad = Date.now(); document.getElementById('lk-updated').textContent = 'Loading…'; return dashLoad(FILES); };
+// NBA.com files are read only once the PC script has written them (its manifest lists them), so nothing 404s before the first run
+const loadAll = async () => {
+  lastLoad = Date.now(); document.getElementById('lk-updated').textContent = 'Loading…';
+  let m = null;
+  try { const r = await fetch('data/nba/manifest.json', { cache: 'no-cache' }); m = r.ok ? await r.json() : null; } catch (e) { m = null; }
+  window.NBA_MANIFEST = m && m.updated ? m : null;
+  const have = new Set(Object.keys((m && m.league) || {}));
+  const files = Object.fromEntries(Object.entries(FILES).filter(([id]) => !OPTIONAL.includes(id) || have.has(id)));
+  return dashLoad(files, OPTIONAL);
+};
 document.getElementById('lk-refresh').addEventListener('click', loadAll);
 document.addEventListener('visibilitychange', () => { if (!document.hidden && Date.now() - lastLoad > 5 * 60e3) loadAll(); });
 const FILES = {
@@ -1360,7 +1631,10 @@ const FILES = {
   team_stats: 'data/team_stats.csv', opp_stats: 'data/opp_stats.csv', lakers_box: 'data/lakers_box.csv', absences: 'data/absences.csv',
   lakers_players: 'data/lakers_players.csv', lakers_quarters: 'data/lakers_quarters.csv', player_impact: 'data/player_impact.csv',
   player_games: 'data/player_games.csv', spotlight_notes: 'data/spotlight_notes.csv',
+  nba_results: 'data/nba/league_results.csv', nba_box: 'data/nba/league_box.csv', nba_player_games: 'data/nba/league_player_games.csv',
+  nba_quarters: 'data/nba/league_quarters.csv', nba_inactive: 'data/nba/league_inactive.csv',
 };
+const OPTIONAL = ['nba_results', 'nba_box', 'nba_player_games', 'nba_quarters', 'nba_inactive'];
 loadAll();
 </script>
 </body>
