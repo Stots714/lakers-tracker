@@ -5,36 +5,35 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>NBA Tracker</title>
 <meta name="description" content="Schedule-adjusted NBA team ratings for any team: league table, game log, projections, spotlight, players, four factors and absences.">
-<meta name="theme-color" content="#F7F5F2" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#121016" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#121016">
+<script>try { if (localStorage.getItem('lk-theme') === 'light') document.documentElement.dataset.theme = 'light'; } catch (e) {}</script>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="NBA Tracker">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 <style>
 :root {
-  color-scheme: light dark;
+  color-scheme: dark;
   --font-anthropic-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Inter, Roboto, sans-serif;
   --font-anthropic-serif: "New York", ui-serif, Georgia, "Times New Roman", serif;
   --cds-gap-xs: 0.375rem; --cds-gap-sm: 0.625rem; --cds-gap-md: 0.875rem; --cds-gap-lg: 1.375rem;
   --cds-pad-xs: 0.375rem; --cds-pad-sm: 0.625rem; --cds-pad-lg: 1rem;
   --cds-font-size-caption: 0.8125rem; --cds-font-size-body: 0.9375rem; --cds-font-size-heading: 1.125rem; --cds-font-size-title: 1.875rem;
   --cds-font-weight-medium: 600; --cds-radius: 12px; --cds-dur-slow: 300ms;
+  --color-bg: #121016; --color-panel: #1C1922; --color-fg: #F3F1F6; --color-fg-muted: #A7A1B0; --color-border-line: #332E3B;
+  --color-ok: #5CC28E; --color-warn: #F2B33D; --color-bad: #EF6B65;
+  --cds-chart-grid: #26222D; --cds-chart-reference: #8C8794; --cds-chart-muted: #4A4453;
+  --lk-accent: #F2B33D; --lk-gold: #F2B33D;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
   --color-bg: #F7F5F2; --color-panel: #FFFFFF; --color-fg: #1D1B20; --color-fg-muted: #6A6670; --color-border-line: #E4E0E8;
   --color-ok: #2F8A5B; --color-warn: #B9850F; --color-bad: #C8453F;
   --cds-chart-grid: #EFEBF2; --cds-chart-reference: #8C8794; --cds-chart-muted: #C9C3D0;
   --lk-accent: #552583; --lk-gold: #B9850F;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg: #121016; --color-panel: #1C1922; --color-fg: #F3F1F6; --color-fg-muted: #A7A1B0; --color-border-line: #332E3B;
-    --color-ok: #5CC28E; --color-warn: #F2B33D; --color-bad: #EF6B65;
-    --cds-chart-grid: #26222D; --cds-chart-reference: #8C8794; --cds-chart-muted: #4A4453;
-    --lk-accent: #F2B33D; --lk-gold: #F2B33D;
-  }
 }
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--font-anthropic-sans); }
@@ -179,7 +178,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 <div class="lk">
   <header class="lk-head" id="top">
     <h1 id="lk-title">Lakers schedule-adjusted tracker</h1>
-    <p class="lk-mode"><span id="lk-updated">Loading…</span> <button type="button" class="lk-reset" id="lk-refresh">Refresh</button></p>
+    <p class="lk-mode"><span id="lk-updated">Loading…</span> <button type="button" class="lk-reset" id="lk-refresh">Refresh</button> <button type="button" class="lk-reset" id="lk-theme">Light mode</button></p>
     <p class="lk-take" id="takeaway"><span id="lk-take-team">—</span> rate <b data-source="model" data-field="rating" class="dash-skeleton">—</b> <span class="lk-se">(± <span data-source="model" data-field="se">—</span>)</span>, ranked <span data-source="model" data-field="rank" class="dash-skeleton">—</span> of 30, after <b data-source="model" data-field="gp">—</b> games. Their results so far average <b data-source="model" data-field="raw">—</b> a game. <span id="lk-take-mode"></span></p>
   </header>
 
@@ -1625,6 +1624,15 @@ const loadAll = async () => {
   return dashLoad(files, OPTIONAL);
 };
 document.getElementById('lk-refresh').addEventListener('click', loadAll);
+const themeBtn = document.getElementById('lk-theme');
+const showTheme = () => { const light = document.documentElement.dataset.theme === 'light'; themeBtn.textContent = light ? 'Dark mode' : 'Light mode'; document.querySelector('meta[name="theme-color"]').content = light ? '#F7F5F2' : '#121016'; };
+themeBtn.addEventListener('click', () => {
+  const light = document.documentElement.dataset.theme !== 'light';
+  if (light) document.documentElement.dataset.theme = 'light'; else delete document.documentElement.dataset.theme;
+  try { localStorage.setItem('lk-theme', light ? 'light' : 'dark'); } catch (e) {}
+  showTheme(); render();  // team colors are re-picked for the new background
+});
+showTheme();
 document.addEventListener('visibilitychange', () => { if (!document.hidden && Date.now() - lastLoad > 5 * 60e3) loadAll(); });
 const FILES = {
   results: 'data/results.csv', teams: 'data/teams.csv', lakers_schedule: 'data/lakers_schedule.csv',
