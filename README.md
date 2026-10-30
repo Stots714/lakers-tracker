@@ -11,9 +11,12 @@ Everything is calculated in the browser from the CSV files in `data/`. There is 
 3. In the repository go to **Settings → Pages**. Under **Build and deployment**, set **Source** to **Deploy from a branch**, choose **main** and **/ (root)**, and save.
 4. After a minute or two the site is live at `https://<your-username>.github.io/lakers-tracker/`.
 
-## Add it to an iPhone home screen
+## Add it to a phone's home screen
 
-Open the link in Safari, tap **Share**, then **Add to Home Screen**. It opens full screen like an app.
+- **iPhone:** open the link in Safari, tap **Share**, then **Add to Home Screen**.
+- **Android:** open the link in Chrome, tap the **⋮** menu, then **Install app** (some versions say **Add to Home screen**, then **Install**). Samsung Internet: tap the menu, then **Add page to**, then **Home screen**.
+
+Either way it opens full screen like an app, in dark mode, with a Refresh button at the top.
 
 ## Updating after a game night
 
@@ -31,6 +34,6 @@ Settings live in the address bar, so a link can open a specific view. For exampl
 | `dash-shim.js` | Loads the CSV files, runs the calculations, keeps view settings in the address bar |
 | `data/*.csv` | Hand-checked files: results and schedule, team totals, Lakers box scores, players and quarters, absences, storyline notes, teams |
 | `data/sources.json` | Where each file comes from and when it was last updated |
-| `manifest.webmanifest`, `icons/` | Home-screen name and icon |
+| `manifest.webmanifest`, `icons/` | Home-screen name and icons (iPhone, Android, and a cropped-safe Android version) |
 | `tools/nba/` | Script that downloads NBA.com player data (on/off, lineups, shots, matchups, hustle) on your PC; see its README |
 | `data/nba/` | NBA.com files for all 30 teams (and detail for chosen teams), written by `tools/nba` |
