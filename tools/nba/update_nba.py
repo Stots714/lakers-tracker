@@ -285,7 +285,9 @@ def main():
             step("league results", results, "games")
         step("league player games", pgames, "player lines")
         if "results" in L:
-            step("league quarter scores and inactive lists", lambda: league.summaries(fetch, save, OUT, L["results"], a.refresh), "new games")
+            step("league quarter scores, inactive lists and game extras", lambda: league.summaries(fetch, save, OUT, L["results"], a.refresh), "new games")
+        if "box" in L:
+            step("league team turnovers", lambda: league.add_team_turnovers(L["box"], save, OUT), "team-games")
         if all(k in L for k in ("results", "box", "pg")):
             league_notes = league.checks(ROOT, L["results"], L["box"], L["pg"], OUT)
             for n in league_notes:
@@ -324,7 +326,7 @@ def main():
     notes = league_notes + checks(lal_games)
     ok = sum(s["ok"] for s in status.values())
     files = {"nba_results": "league_results.csv", "nba_box": "league_box.csv", "nba_player_games": "league_player_games.csv",
-             "nba_quarters": "league_quarters.csv", "nba_inactive": "league_inactive.csv"}
+             "nba_quarters": "league_quarters.csv", "nba_inactive": "league_inactive.csv", "nba_extras": "league_extras.csv"}
     manifest = {
         "updated": dt.datetime.now().astimezone().isoformat(timespec="seconds"),
         "season": SEASON, "teams": teams, "nba_api": version("nba_api"),
