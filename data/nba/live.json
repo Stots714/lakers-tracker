@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-31T14:25:47-07:00",
+ "updated": "2026-10-31T15:12:02-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
    "game_id": "0022600147",
    "tip_utc": "2026-10-31T19:00:00Z",
-   "status": 2,
-   "status_text": "Q4 1:05",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "1:05",
+   "clock": "0:00",
    "home": {
     "team": "UTA",
     "score": 90,
@@ -20,9 +20,9 @@
     ],
     "stats": {
      "fgm": 29,
-     "fga": 77,
+     "fga": 78,
      "fg3m": 11,
-     "fg3a": 39,
+     "fg3a": 40,
      "ftm": 21,
      "fta": 26,
      "oreb": 7,
@@ -46,7 +46,7 @@
       "pts": 16,
       "reb": 4,
       "ast": 4,
-      "min": "34:50"
+      "min": "35:57"
      },
      {
       "name": "Lauri Markkanen",
@@ -60,7 +60,7 @@
       "pts": 12,
       "reb": 3,
       "ast": 2,
-      "min": "17:56"
+      "min": "19:03"
      }
     ]
    },
@@ -75,16 +75,16 @@
     ],
     "stats": {
      "fgm": 31,
-     "fga": 75,
+     "fga": 76,
      "fg3m": 16,
-     "fg3a": 43,
+     "fg3a": 44,
      "ftm": 34,
      "fta": 41,
      "oreb": 9,
-     "dreb": 38,
-     "tov": 18,
+     "dreb": 39,
+     "tov": 19,
      "pf": 26,
-     "ast": 15,
+     "ast": 16,
      "stl": 13,
      "blk": 3,
      "pts_paint": 26,
@@ -191,16 +191,20 @@
     {
      "t": 46.9,
      "m": -22
+    },
+    {
+     "t": 48.0,
+     "m": -22
     }
    ]
   },
   {
    "game_id": "0022600148",
    "tip_utc": "2026-10-31T22:00:00Z",
-   "status": 1,
-   "status_text": "6:00 pm ET",
-   "period": 0,
-   "clock": "",
+   "status": 2,
+   "status_text": "Q1 10:59",
+   "period": 1,
+   "clock": "10:59",
    "home": {
     "team": "CHA",
     "score": 0,
@@ -209,19 +213,114 @@
      0,
      0,
      0
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 1,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": [
+     {
+      "name": "Sion James",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "1:01"
+     },
+     {
+      "name": "Naz Reid",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "1:01"
+     },
+     {
+      "name": "Moussa Diabaté",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "1:01"
+     }
     ]
    },
    "away": {
     "team": "PHI",
-    "score": 0,
+    "score": 3,
     "periods": [
-     0,
+     3,
      0,
      0,
      0
+    ],
+    "stats": {
+     "fgm": 1,
+     "fga": 2,
+     "fg3m": 1,
+     "fg3a": 2,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 1,
+     "stl": 1,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 3,
+     "lead_changes": 0
+    },
+    "leaders": [
+     {
+      "name": "VJ Edgecombe",
+      "pts": 3,
+      "reb": 0,
+      "ast": 0,
+      "min": "1:01"
+     },
+     {
+      "name": "Jaylen Brown",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "1:01"
+     },
+     {
+      "name": "Dean Wade",
+      "pts": 0,
+      "reb": 0,
+      "ast": 1,
+      "min": "1:01"
+     }
     ]
    },
-   "history": []
+   "history": [
+    {
+     "t": 1.0,
+     "m": -3
+    }
+   ]
   },
   {
    "game_id": "0022600149",
