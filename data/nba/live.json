@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T16:01:16-07:00",
+ "updated": "2026-10-31T16:08:18-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
@@ -202,41 +202,48 @@
    "game_id": "0022600148",
    "tip_utc": "2026-10-31T22:00:00Z",
    "status": 2,
-   "status_text": "Q2 1:45",
+   "status_text": "Half",
    "period": 2,
-   "clock": "1:45",
+   "clock": "0:00",
    "home": {
     "team": "CHA",
-    "score": 46,
+    "score": 54,
     "periods": [
      37,
-     9,
+     17,
      0,
      0
     ],
     "stats": {
-     "fgm": 16,
-     "fga": 31,
-     "fg3m": 7,
-     "fg3a": 20,
+     "fgm": 19,
+     "fga": 35,
+     "fg3m": 9,
+     "fg3a": 23,
      "ftm": 7,
      "fta": 7,
      "oreb": 1,
      "dreb": 17,
      "tov": 10,
-     "pf": 7,
-     "ast": 11,
+     "pf": 8,
+     "ast": 14,
      "stl": 3,
      "blk": 5,
-     "pts_paint": 18,
+     "pts_paint": 20,
      "pts_second_chance": 2,
      "pts_fast_break": 6,
      "pts_off_tov": 7,
-     "pts_bench": 25,
+     "pts_bench": 33,
      "biggest_lead": 13,
      "lead_changes": 2
     },
     "leaders": [
+     {
+      "name": "Grayson Allen",
+      "pts": 19,
+      "reb": 2,
+      "ast": 2,
+      "min": "14:20"
+     },
      {
       "name": "Brandon Miller",
       "pts": 13,
@@ -245,73 +252,66 @@
       "min": "15:14"
      },
      {
-      "name": "Grayson Allen",
-      "pts": 11,
-      "reb": 2,
-      "ast": 2,
-      "min": "12:28"
-     },
-     {
       "name": "Naz Reid",
       "pts": 6,
       "reb": 3,
       "ast": 1,
-      "min": "14:58"
+      "min": "16:50"
      }
     ]
    },
    "away": {
     "team": "PHI",
-    "score": 49,
+    "score": 57,
     "periods": [
      27,
-     22,
+     30,
      0,
      0
     ],
     "stats": {
-     "fgm": 20,
-     "fga": 44,
-     "fg3m": 7,
-     "fg3a": 18,
-     "ftm": 2,
-     "fta": 7,
-     "oreb": 6,
-     "dreb": 12,
+     "fgm": 22,
+     "fga": 47,
+     "fg3m": 9,
+     "fg3a": 21,
+     "ftm": 4,
+     "fta": 9,
+     "oreb": 7,
+     "dreb": 13,
      "tov": 4,
      "pf": 7,
-     "ast": 11,
+     "ast": 13,
      "stl": 7,
      "blk": 0,
      "pts_paint": 24,
-     "pts_second_chance": 4,
+     "pts_second_chance": 7,
      "pts_fast_break": 5,
      "pts_off_tov": 11,
-     "pts_bench": 19,
+     "pts_bench": 24,
      "biggest_lead": 5,
      "lead_changes": 2
     },
     "leaders": [
      {
       "name": "Tyrese Maxey",
-      "pts": 16,
+      "pts": 19,
       "reb": 2,
       "ast": 2,
-      "min": "14:51"
+      "min": "16:43"
      },
      {
       "name": "Anfernee Simons",
-      "pts": 6,
+      "pts": 11,
       "reb": 0,
       "ast": 2,
-      "min": "8:11"
+      "min": "10:03"
      },
      {
       "name": "Jaylen Brown",
       "pts": 5,
       "reb": 3,
-      "ast": 2,
-      "min": "17:51"
+      "ast": 3,
+      "min": "19:43"
      }
     ]
    },
@@ -346,6 +346,10 @@
     },
     {
      "t": 22.2,
+     "m": -3
+    },
+    {
+     "t": 24.0,
      "m": -3
     }
    ]
