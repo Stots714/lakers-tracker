@@ -182,6 +182,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .lk-live-line .lk-ref { stroke: var(--cds-chart-reference); stroke-dasharray: 3 3; }
 .lk-live-path { fill: none; stroke: var(--lk-accent); stroke-width: 2.2; stroke-linejoin: round; }
 .lk-live-end { fill: var(--lk-accent); }
+.lk-live-line text.lk-live-now { fill: var(--color-fg); font-weight: 600; font-size: 11px; }
 #lk-live-keys td.lk-wrap { min-width: 0; }
 #live .lk-tablewrap { max-height: none; overflow: visible; }
 @container lkcard (max-width: 960px) {
@@ -1758,10 +1759,16 @@ function renderLive() {
     wpEl.children[1].style.width = (100 - a) + '%'; wpEl.children[1].textContent = on + ' ' + (100 - a) + '%';
     set('lk-live-wpnote', 'Live win chance (Proposed): the pre-game projection (' + fn + ' ' + sgn(mu) + ') for the ' + Math.round(ml.left) + ' minutes left, plus the current margin, with game-to-game noise scaled to the time remaining.');
   } else set('lk-live-wpnote', final ? (m > 0 ? fn + ' won by ' + m + '.' : m < 0 ? on + ' won by ' + (-m) + '.' : '') + ' The tracker’s ratings take this game in after the next data run.' : '');
-  // Margin line (focus team's view)
+  // Margin line (focus team's view): quarter-end scores, plus every check the watcher made during the game
   const svg = document.getElementById('lk-live-line'); svg.replaceChildren();
-  const hist = (g.history || []).map((h) => ({ t: h.t, m: home ? h.m : -h.m }));
-  svg.hidden = hist.length < 2;
+  const fa = F.periods || [], oa = O.periods || [];
+  const doneQ = final ? Math.min(fa.length, oa.length) : Math.max(0, (g.period || 0) - 1);
+  const byT = new Map([[0, 0]]);
+  let cf = 0, co = 0;
+  for (let i = 0; i < Math.min(doneQ, fa.length, oa.length); i++) { cf += fa[i]; co += oa[i]; byT.set(i < 4 ? (i + 1) * 12 : 48 + (i - 3) * 5, cf - co); }
+  (g.history || []).forEach((h) => byT.set(h.t, home ? h.m : -h.m));
+  const hist = [...byT.entries()].map(([t, mm]) => ({ t, m: mm })).sort((a, b) => a.t - b.t);
+  svg.style.display = hist.length < 2 ? 'none' : '';
   if (hist.length >= 2) {
     const NS = 'http://www.w3.org/2000/svg', W = 340, H = 120, L = 26, R = 8, T = 10, B = 18;
     const tMax = Math.max(48, ...hist.map((h) => h.t)), mMax = Math.max(10, ...hist.map((h) => Math.abs(h.m))) + 2;
@@ -1772,10 +1779,10 @@ function renderLive() {
     ['Q1', 'Q2', 'Q3', 'Q4'].forEach((q, i) => svg.appendChild(el('text', { x: X(i * 12 + 6), y: H - 4, 'text-anchor': 'middle' }, q)));
     svg.appendChild(el('text', { x: L - 4, y: Y(mMax - 2) + 4, 'text-anchor': 'end' }, '+' + (mMax - 2)));
     svg.appendChild(el('text', { x: L - 4, y: Y(-(mMax - 2)) + 4, 'text-anchor': 'end' }, '-' + (mMax - 2)));
-    const pts = [{ t: 0, m: 0 }].concat(hist);
-    svg.appendChild(el('polyline', { points: pts.map((h) => X(h.t) + ',' + Y(h.m)).join(' '), class: 'lk-live-path' }));
-    const last = pts[pts.length - 1];
+    svg.appendChild(el('polyline', { points: hist.map((h) => X(h.t) + ',' + Y(h.m)).join(' '), class: 'lk-live-path' }));
+    const last = hist[hist.length - 1];
     svg.appendChild(el('circle', { cx: X(last.t), cy: Y(last.m), r: 3.5, class: 'lk-live-end' }));
+    svg.appendChild(el('text', { x: Math.min(X(last.t) + 6, W - R - 2), y: Y(last.m) - 6, 'text-anchor': X(last.t) > W - 40 ? 'end' : 'start', class: 'lk-live-now' }, (last.m > 0 ? '+' : '') + last.m));
     svg.setAttribute('aria-label', fn + ' margin through the game, now ' + (last.m > 0 ? '+' : '') + last.m);
   }
   // Keys so far, against the season
