@@ -127,7 +127,10 @@ def write_player_games(pg, save):
 
 
 def summaries(fetch, save, out_dir, results, refresh=False):
-    """Quarter scores and inactive players, one request per final game not already on file."""
+    """Quarter scores, inactive players and game extras, one request per final game not already on file.
+
+    Returns (new games, missed): missed lists (game_id, date, error) for games that could not be read; they are
+    left out of the files, so the next run asks for them again."""
     q_old = [] if refresh else read(out_dir / "league_quarters.csv")
     i_old = [] if refresh else read(out_dir / "league_inactive.csv")
     x_old = [] if refresh else read(out_dir / "league_extras.csv")
@@ -138,11 +141,16 @@ def summaries(fetch, save, out_dir, results, refresh=False):
     q_old = [r for r in q_old if r["game_id"] not in redo]
     i_old = [r for r in i_old if r["game_id"] not in redo]
     x_old = [r for r in x_old if r["game_id"] not in redo]
-    q_new, i_new, x_new = [], [], []
+    q_new, i_new, x_new, missed = [], [], [], []
     for gid in todo:
         g = info[gid]
-        ep = fetch(boxscoresummaryv3.BoxScoreSummaryV3, game_id=gid)
-        ls = from_dataset(ep.line_score)[0]
+        try:
+            ep = fetch(boxscoresummaryv3.BoxScoreSummaryV3, game_id=gid)
+            ls = from_dataset(ep.line_score)[0]
+            others, inactive = from_dataset(ep.other_stats)[0], from_dataset(ep.inactive_players)[0]
+        except Exception as e:  # one unreadable game should not cost the rest; it is retried next run
+            missed.append((gid, g["date"], f"{type(e).__name__}: {str(e)[:120]}"))
+            continue
         if len(ls) != 2 or any(r.get("period%dScore" % k) is None for r in ls for k in range(1, 5)):
             continue  # not final in the summary yet; try again next run
         for r in ls:
@@ -150,11 +158,11 @@ def summaries(fetch, save, out_dir, results, refresh=False):
             q = [_int(r["period%dScore" % k]) for k in range(1, 5)]
             q_new.append({"date": g["date"], "team": team, "opp": g["away"] if team == g["home"] else g["home"],
                           "q1": q[0], "q2": q[1], "q3": q[2], "q4": q[3], "ot": _int(r.get("score")) - sum(q), "game_id": gid})
-        for r in from_dataset(ep.other_stats)[0]:
+        for r in others:
             team = TRICODE.get(_int(r.get("teamId")), r.get("teamTricode"))
             x_new.append({"date": g["date"], "team": team, "opp": g["away"] if team == g["home"] else g["home"],
                           **{v: r.get(k) for k, v in EXTRAS.items()}, "game_id": gid})
-        for r in from_dataset(ep.inactive_players)[0]:
+        for r in inactive:
             i_new.append({"date": g["date"], "team": TRICODE.get(_int(r.get("teamId")), ""),
                           "player": f'{r.get("firstName") or ""} {r.get("familyName") or ""}'.strip(), "game_id": gid, "person_id": r.get("personId")})
     q_all = sorted(q_old + q_new, key=lambda x: (x["date"], x["game_id"], x["team"]))
@@ -163,7 +171,7 @@ def summaries(fetch, save, out_dir, results, refresh=False):
     save(i_all, "league_inactive.csv", ["date", "team", "player", "game_id", "person_id"])
     x_all = sorted(x_old + x_new, key=lambda x: (x["date"], x["game_id"], x["team"]))
     save(x_all, "league_extras.csv", ["date", "team", "opp"] + list(EXTRAS.values()) + ["game_id"])
-    return len(q_new) // 2
+    return len(q_new) // 2, missed
 
 
 def add_team_turnovers(box, save, out_dir):
