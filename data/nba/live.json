@@ -1,42 +1,42 @@
 {
- "updated": "2026-10-31T13:43:33-07:00",
+ "updated": "2026-10-31T13:50:36-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
    "game_id": "0022600147",
    "tip_utc": "2026-10-31T19:00:00Z",
    "status": 2,
-   "status_text": "Q3 5:09",
+   "status_text": "Q3 3:05",
    "period": 3,
-   "clock": "5:09",
+   "clock": "3:05",
    "home": {
     "team": "UTA",
-    "score": 50,
+    "score": 52,
     "periods": [
      18,
      24,
-     8,
+     10,
      0
     ],
     "stats": {
-     "fgm": 16,
-     "fga": 53,
+     "fgm": 17,
+     "fga": 55,
      "fg3m": 5,
-     "fg3a": 24,
+     "fg3a": 25,
      "ftm": 13,
      "fta": 18,
      "oreb": 8,
-     "dreb": 23,
-     "tov": 14,
+     "dreb": 24,
+     "tov": 16,
      "pf": 19,
-     "ast": 12,
-     "stl": 8,
+     "ast": 13,
+     "stl": 9,
      "blk": 5,
-     "pts_paint": 14,
+     "pts_paint": 16,
      "pts_second_chance": 6,
      "pts_fast_break": 8,
      "pts_off_tov": 6,
-     "pts_bench": 14,
+     "pts_bench": 16,
      "biggest_lead": 1,
      "lead_changes": 4
     },
@@ -66,42 +66,42 @@
    },
    "away": {
     "team": "POR",
-    "score": 70,
+    "score": 77,
     "periods": [
      27,
      32,
-     11,
+     18,
      0
     ],
     "stats": {
-     "fgm": 19,
-     "fga": 47,
-     "fg3m": 9,
-     "fg3a": 26,
-     "ftm": 23,
-     "fta": 28,
+     "fgm": 21,
+     "fga": 49,
+     "fg3m": 11,
+     "fg3a": 28,
+     "ftm": 24,
+     "fta": 30,
      "oreb": 4,
-     "dreb": 28,
-     "tov": 12,
-     "pf": 17,
+     "dreb": 29,
+     "tov": 14,
+     "pf": 20,
      "ast": 10,
-     "stl": 9,
+     "stl": 11,
      "blk": 2,
      "pts_paint": 16,
      "pts_second_chance": 8,
-     "pts_fast_break": 5,
-     "pts_off_tov": 17,
-     "pts_bench": 14,
-     "biggest_lead": 24,
+     "pts_fast_break": 6,
+     "pts_off_tov": 18,
+     "pts_bench": 18,
+     "biggest_lead": 25,
      "lead_changes": 4
     },
     "leaders": [
      {
       "name": "Deni Avdija",
-      "pts": 21,
+      "pts": 24,
       "reb": 6,
       "ast": 2,
-      "min": "24:54"
+      "min": "26:56"
      },
      {
       "name": "Damian Lillard",
@@ -115,7 +115,7 @@
       "pts": 11,
       "reb": 3,
       "ast": 0,
-      "min": "24:57"
+      "min": "24:59"
      }
     ]
    },
@@ -167,6 +167,10 @@
     {
      "t": 30.9,
      "m": -20
+    },
+    {
+     "t": 32.9,
+     "m": -25
     }
    ]
   },
