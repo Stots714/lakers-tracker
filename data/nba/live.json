@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T16:29:26-07:00",
+ "updated": "2026-10-31T16:36:28-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
@@ -202,39 +202,39 @@
    "game_id": "0022600148",
    "tip_utc": "2026-10-31T22:00:00Z",
    "status": 2,
-   "status_text": "Q3 10:11",
+   "status_text": "Q3 6:50",
    "period": 3,
-   "clock": "10:11",
+   "clock": "6:50",
    "home": {
     "team": "CHA",
-    "score": 59,
+    "score": 67,
     "periods": [
      37,
      17,
-     5,
+     13,
      0
     ],
     "stats": {
-     "fgm": 21,
-     "fga": 41,
+     "fgm": 25,
+     "fga": 47,
      "fg3m": 10,
-     "fg3a": 25,
+     "fg3a": 26,
      "ftm": 7,
      "fta": 7,
      "oreb": 2,
-     "dreb": 17,
-     "tov": 10,
-     "pf": 8,
-     "ast": 15,
-     "stl": 3,
+     "dreb": 22,
+     "tov": 11,
+     "pf": 9,
+     "ast": 19,
+     "stl": 4,
      "blk": 5,
-     "pts_paint": 22,
+     "pts_paint": 30,
      "pts_second_chance": 7,
-     "pts_fast_break": 6,
-     "pts_off_tov": 7,
-     "pts_bench": 33,
+     "pts_fast_break": 8,
+     "pts_off_tov": 9,
+     "pts_bench": 35,
      "biggest_lead": 13,
-     "lead_changes": 2
+     "lead_changes": 3
     },
     "leaders": [
      {
@@ -247,49 +247,49 @@
      {
       "name": "Brandon Miller",
       "pts": 16,
-      "reb": 1,
-      "ast": 1,
-      "min": "16:52"
+      "reb": 2,
+      "ast": 3,
+      "min": "20:24"
      },
      {
       "name": "Naz Reid",
-      "pts": 6,
+      "pts": 10,
       "reb": 3,
       "ast": 1,
-      "min": "18:28"
+      "min": "22:00"
      }
     ]
    },
    "away": {
     "team": "PHI",
-    "score": 62,
+    "score": 65,
     "periods": [
      27,
      30,
-     5,
+     8,
      0
     ],
     "stats": {
-     "fgm": 24,
-     "fga": 49,
+     "fgm": 25,
+     "fga": 55,
      "fg3m": 9,
-     "fg3a": 21,
-     "ftm": 5,
-     "fta": 10,
-     "oreb": 7,
-     "dreb": 14,
-     "tov": 4,
-     "pf": 10,
-     "ast": 15,
+     "fg3a": 23,
+     "ftm": 6,
+     "fta": 12,
+     "oreb": 8,
+     "dreb": 15,
+     "tov": 5,
+     "pf": 11,
+     "ast": 16,
      "stl": 7,
      "blk": 0,
-     "pts_paint": 28,
+     "pts_paint": 30,
      "pts_second_chance": 7,
      "pts_fast_break": 7,
-     "pts_off_tov": 11,
-     "pts_bench": 24,
+     "pts_off_tov": 12,
+     "pts_bench": 26,
      "biggest_lead": 5,
-     "lead_changes": 2
+     "lead_changes": 3
     },
     "leaders": [
      {
@@ -297,7 +297,7 @@
       "pts": 20,
       "reb": 2,
       "ast": 3,
-      "min": "18:21"
+      "min": "21:53"
      },
      {
       "name": "Anfernee Simons",
@@ -309,9 +309,9 @@
      {
       "name": "VJ Edgecombe",
       "pts": 7,
-      "reb": 3,
+      "reb": 4,
       "ast": 2,
-      "min": "21:21"
+      "min": "24:53"
      }
     ]
    },
@@ -359,6 +359,10 @@
     {
      "t": 25.8,
      "m": -3
+    },
+    {
+     "t": 29.2,
+     "m": 2
     }
    ]
   },
@@ -366,47 +370,54 @@
    "game_id": "0022600149",
    "tip_utc": "2026-10-31T23:00:00Z",
    "status": 2,
-   "status_text": "Q1 3:56",
+   "status_text": "Q1 :37.0",
    "period": 1,
-   "clock": "3:56",
+   "clock": "0:37",
    "home": {
     "team": "NOP",
-    "score": 25,
+    "score": 31,
     "periods": [
-     25,
+     31,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 10,
-     "fga": 15,
-     "fg3m": 2,
-     "fg3a": 6,
-     "ftm": 3,
-     "fta": 4,
-     "oreb": 0,
-     "dreb": 7,
-     "tov": 3,
+     "fgm": 12,
+     "fga": 21,
+     "fg3m": 3,
+     "fg3a": 8,
+     "ftm": 4,
+     "fta": 6,
+     "oreb": 1,
+     "dreb": 11,
+     "tov": 4,
      "pf": 2,
-     "ast": 7,
-     "stl": 4,
+     "ast": 8,
+     "stl": 5,
      "blk": 1,
-     "pts_paint": 16,
-     "pts_second_chance": 2,
-     "pts_fast_break": 4,
-     "pts_off_tov": 7,
-     "pts_bench": 5,
-     "biggest_lead": 10,
+     "pts_paint": 18,
+     "pts_second_chance": 4,
+     "pts_fast_break": 6,
+     "pts_off_tov": 14,
+     "pts_bench": 11,
+     "biggest_lead": 13,
      "lead_changes": 1
     },
     "leaders": [
      {
+      "name": "Saddiq Bey",
+      "pts": 8,
+      "reb": 3,
+      "ast": 0,
+      "min": "6:09"
+     },
+     {
       "name": "Zion Williamson",
       "pts": 7,
-      "reb": 0,
+      "reb": 1,
       "ast": 0,
-      "min": "8:04"
+      "min": "8:59"
      },
      {
       "name": "Jeremiah Fears",
@@ -414,44 +425,37 @@
       "reb": 0,
       "ast": 3,
       "min": "8:04"
-     },
-     {
-      "name": "Herbert Jones",
-      "pts": 5,
-      "reb": 0,
-      "ast": 0,
-      "min": "5:05"
      }
     ]
    },
    "away": {
     "team": "ATL",
-    "score": 15,
+    "score": 18,
     "periods": [
-     15,
+     18,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 5,
-     "fga": 13,
-     "fg3m": 1,
-     "fg3a": 4,
+     "fgm": 6,
+     "fga": 19,
+     "fg3m": 2,
+     "fg3a": 10,
      "ftm": 4,
      "fta": 4,
      "oreb": 1,
-     "dreb": 5,
-     "tov": 4,
-     "pf": 4,
-     "ast": 2,
+     "dreb": 8,
+     "tov": 7,
+     "pf": 5,
+     "ast": 3,
      "stl": 2,
-     "blk": 1,
+     "blk": 2,
      "pts_paint": 8,
-     "pts_second_chance": 0,
+     "pts_second_chance": 3,
      "pts_fast_break": 4,
      "pts_off_tov": 2,
-     "pts_bench": 3,
+     "pts_bench": 6,
      "biggest_lead": 2,
      "lead_changes": 1
     },
@@ -459,23 +463,23 @@
      {
       "name": "Jalen Johnson",
       "pts": 6,
-      "reb": 3,
+      "reb": 4,
       "ast": 1,
-      "min": "8:04"
+      "min": "8:59"
+     },
+     {
+      "name": "Luguentz Dort",
+      "pts": 3,
+      "reb": 1,
+      "ast": 0,
+      "min": "6:09"
      },
      {
       "name": "Aaron Wiggins",
       "pts": 3,
-      "reb": 0,
+      "reb": 1,
       "ast": 0,
-      "min": "1:10"
-     },
-     {
-      "name": "Dyson Daniels",
-      "pts": 2,
-      "reb": 0,
-      "ast": 0,
-      "min": "6:54"
+      "min": "4:20"
      }
     ]
    },
@@ -491,6 +495,10 @@
     {
      "t": 8.1,
      "m": 10
+    },
+    {
+     "t": 11.4,
+     "m": 13
     }
    ]
   },
