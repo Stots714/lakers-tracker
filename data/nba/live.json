@@ -1,41 +1,41 @@
 {
- "updated": "2026-10-31T12:54:17-07:00",
+ "updated": "2026-10-31T13:01:19-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
    "game_id": "0022600147",
    "tip_utc": "2026-10-31T19:00:00Z",
    "status": 2,
-   "status_text": "Q2 7:03",
+   "status_text": "Q2 5:30",
    "period": 2,
-   "clock": "7:03",
+   "clock": "5:30",
    "home": {
     "team": "UTA",
-    "score": 26,
+    "score": 28,
     "periods": [
      18,
-     8,
+     10,
      0,
      0
     ],
     "stats": {
      "fgm": 9,
-     "fga": 28,
+     "fga": 30,
      "fg3m": 3,
-     "fg3a": 10,
-     "ftm": 5,
-     "fta": 8,
+     "fg3a": 12,
+     "ftm": 7,
+     "fta": 10,
      "oreb": 3,
      "dreb": 10,
      "tov": 7,
      "pf": 10,
      "ast": 7,
-     "stl": 3,
+     "stl": 4,
      "blk": 2,
      "pts_paint": 10,
      "pts_second_chance": 2,
      "pts_fast_break": 4,
-     "pts_off_tov": 2,
+     "pts_off_tov": 4,
      "pts_bench": 13,
      "biggest_lead": 1,
      "lead_changes": 4
@@ -53,40 +53,40 @@
       "pts": 4,
       "reb": 0,
       "ast": 1,
-      "min": "8:42"
+      "min": "10:15"
      },
      {
       "name": "Mo Bamba",
       "pts": 4,
       "reb": 2,
       "ast": 0,
-      "min": "6:39"
+      "min": "8:12"
      }
     ]
    },
    "away": {
     "team": "POR",
-    "score": 41,
+    "score": 44,
     "periods": [
      27,
-     14,
+     17,
      0,
      0
     ],
     "stats": {
-     "fgm": 10,
-     "fga": 23,
-     "fg3m": 5,
-     "fg3a": 13,
+     "fgm": 11,
+     "fga": 24,
+     "fg3m": 6,
+     "fg3a": 14,
      "ftm": 16,
      "fta": 19,
      "oreb": 2,
-     "dreb": 14,
-     "tov": 6,
+     "dreb": 16,
+     "tov": 8,
      "pf": 11,
-     "ast": 5,
+     "ast": 6,
      "stl": 5,
-     "blk": 0,
+     "blk": 1,
      "pts_paint": 6,
      "pts_second_chance": 5,
      "pts_fast_break": 2,
@@ -101,7 +101,7 @@
       "pts": 12,
       "reb": 4,
       "ast": 2,
-      "min": "13:42"
+      "min": "15:15"
      },
      {
       "name": "Damian Lillard",
@@ -112,10 +112,10 @@
      },
      {
       "name": "Scoot Henderson",
-      "pts": 6,
+      "pts": 9,
       "reb": 0,
       "ast": 0,
-      "min": "10:54"
+      "min": "12:27"
      }
     ]
    },
@@ -147,6 +147,10 @@
     {
      "t": 16.9,
      "m": -15
+    },
+    {
+     "t": 18.5,
+     "m": -16
     }
    ]
   },
