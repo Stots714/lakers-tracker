@@ -1,42 +1,42 @@
 {
- "updated": "2026-10-31T14:04:40-07:00",
+ "updated": "2026-10-31T14:11:42-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
    "game_id": "0022600147",
    "tip_utc": "2026-10-31T19:00:00Z",
    "status": 2,
-   "status_text": "Q4 9:50",
+   "status_text": "Q4 6:54",
    "period": 4,
-   "clock": "9:50",
+   "clock": "6:54",
    "home": {
     "team": "UTA",
-    "score": 68,
+    "score": 72,
     "periods": [
      18,
      24,
      22,
-     4
+     8
     ],
     "stats": {
-     "fgm": 21,
-     "fga": 63,
+     "fgm": 23,
+     "fga": 68,
      "fg3m": 7,
-     "fg3a": 30,
+     "fg3a": 32,
      "ftm": 19,
      "fta": 24,
      "oreb": 7,
-     "dreb": 27,
-     "tov": 18,
-     "pf": 22,
-     "ast": 16,
-     "stl": 10,
-     "blk": 6,
-     "pts_paint": 20,
+     "dreb": 30,
+     "tov": 19,
+     "pf": 23,
+     "ast": 17,
+     "stl": 11,
+     "blk": 7,
+     "pts_paint": 24,
      "pts_second_chance": 6,
-     "pts_fast_break": 10,
-     "pts_off_tov": 9,
-     "pts_bench": 23,
+     "pts_fast_break": 12,
+     "pts_off_tov": 11,
+     "pts_bench": 25,
      "biggest_lead": 1,
      "lead_changes": 4
     },
@@ -46,52 +46,52 @@
       "pts": 13,
       "reb": 7,
       "ast": 1,
-      "min": "27:47"
+      "min": "28:24"
      },
      {
       "name": "Darryn Peterson",
       "pts": 13,
       "reb": 4,
-      "ast": 2,
-      "min": "26:04"
+      "ast": 3,
+      "min": "29:03"
      },
      {
       "name": "Keyonte George",
       "pts": 8,
-      "reb": 2,
+      "reb": 3,
       "ast": 2,
-      "min": "23:55"
+      "min": "26:54"
      }
     ]
    },
    "away": {
     "team": "POR",
-    "score": 92,
+    "score": 96,
     "periods": [
      27,
      32,
      29,
-     4
+     8
     ],
     "stats": {
-     "fgm": 26,
-     "fga": 61,
+     "fgm": 27,
+     "fga": 65,
      "fg3m": 13,
-     "fg3a": 34,
-     "ftm": 27,
-     "fta": 33,
+     "fg3a": 36,
+     "ftm": 29,
+     "fta": 35,
      "oreb": 6,
-     "dreb": 32,
-     "tov": 16,
-     "pf": 24,
+     "dreb": 35,
+     "tov": 17,
+     "pf": 25,
      "ast": 12,
      "stl": 12,
      "blk": 3,
-     "pts_paint": 22,
+     "pts_paint": 24,
      "pts_second_chance": 13,
      "pts_fast_break": 6,
      "pts_off_tov": 18,
-     "pts_bench": 21,
+     "pts_bench": 23,
      "biggest_lead": 26,
      "lead_changes": 4
     },
@@ -101,21 +101,21 @@
       "pts": 24,
       "reb": 5,
       "ast": 2,
-      "min": "29:34"
+      "min": "30:11"
      },
      {
       "name": "Damian Lillard",
-      "pts": 20,
-      "reb": 4,
+      "pts": 22,
+      "reb": 5,
       "ast": 4,
-      "min": "25:10"
+      "min": "26:36"
      },
      {
       "name": "Toumani Camara",
       "pts": 14,
       "reb": 4,
       "ast": 0,
-      "min": "30:11"
+      "min": "30:48"
      }
     ]
    },
@@ -178,6 +178,10 @@
     },
     {
      "t": 38.2,
+     "m": -24
+    },
+    {
+     "t": 41.1,
      "m": -24
     }
    ]
