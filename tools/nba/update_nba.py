@@ -266,8 +266,15 @@ def main():
             L["sched"] = league.schedule(fetch, SEASON)
             return len(L["sched"])
 
+        def finals(rows, key):
+            """Keep finished games only, so a run during a game never stores partial box scores."""
+            if "sched" not in L:
+                return rows
+            done = {str(g["gameId"]) for g in L["sched"] if league._int(g.get("gameStatus")) == 3}
+            return [r for r in rows if str(r[key]) in done]
+
         def box():
-            L["tg"] = league.team_games(fetch, SEASON)
+            L["tg"] = finals(league.team_games(fetch, SEASON), "GAME_ID")
             n, L["box"] = league.write_box(L["tg"], save)
             return n
 
@@ -276,7 +283,7 @@ def main():
             return n
 
         def pgames():
-            n, L["pg"] = league.write_player_games(league.player_games(fetch, SEASON), save)
+            n, L["pg"] = league.write_player_games(finals(league.player_games(fetch, SEASON), "GAME_ID"), save)
             return n
 
         step("league schedule", sched, "games")
