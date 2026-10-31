@@ -23,6 +23,20 @@ The first run creates a private Python environment in `tools\nba\.venv` and inst
 
 The detail steps cover the Lakers and their next opponent, read from the schedule files. Use `-Teams LAL,GSW` to choose teams for the detail steps; the league-wide files always cover all 30.
 
+## Live games
+
+The same daily setup also starts a live watcher every morning at 9:00, hidden. It sleeps until the first tip-off, then reads NBA.com's live feed and pushes `data/nba/live.json` about every 7 minutes while games are on (GitHub Pages allows about 10 site updates an hour). The site shows it as a Live card at the top for the focus team's game: score by quarter, a live win chance, the margin through the game, the keys so far against each team's season (offensive rebounds, free throws, turnovers, threes) and the top scorers. When every game is final it waits 15 minutes and runs the full update, so the ratings include the night's games. On days with no games it stops at once.
+
+Start it by hand on a game night:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File "$HOME\nba-tracker\tools\nba\run_live.ps1"
+```
+
+Its log is `tools\nba\last_live.log`. The laptop needs to be on and online during the game; if it sleeps, the card says how long ago the last update was.
+
+The live win chance (Proposed) starts from the pre-game projection for the minutes left plus the current margin, with game-to-game noise scaled to the time remaining, a simple model of the score as a random walk (Stern, 1994).
+
 ## What it writes (`data/nba/`)
 
 | File | What it holds |
@@ -40,6 +54,7 @@ The detail steps cover the Lakers and their next opponent, read from the schedul
 | `hustle_<TEAM>.csv` | Contests, deflections, loose balls, box-outs, charges, screen assists |
 | `matchups/<GAME_ID>.csv` | Who guarded whom in each game |
 | `pbp/<GAME_ID>.csv` | Play-by-play for each game |
+| `live.json` | During games: score, clock, team stats so far, top scorers and margin history for each game (live.py) |
 | `manifest.json` | When it ran, which steps worked, row counts, check results |
 
 ## Checks it runs

@@ -22,6 +22,10 @@ Either way it opens full screen like an app, in dark mode, with a Refresh button
 
 `data/nba/` is written by `tools/nba` on a PC (daily if scheduled) and covers all 30 teams; the other files in `data/` are hand-checked and cover the Lakers in detail. NBA.com data takes precedence wherever both exist. The page recalculates on every load; in the home-screen app, tap Refresh (it also reloads by itself when reopened after 5 minutes away).
 
+## Live games
+
+During a game, a Live card at the top shows the focus team's score, a live win chance, the margin through the game and the keys so far. It updates about every 7 minutes from the PC's live watcher (`tools/nba/run_live.ps1`); the page checks for a new update every minute while it is open.
+
 ## Sharing a view
 
 Settings live in the address bar, so a link can open a specific view. For example, `#focus=CHI` opens the Bulls tracker, `#focus=CHI&team=LAL` compares them with the Lakers, and `#view=raw` opens raw margins. The page remembers the last focus team on each device.

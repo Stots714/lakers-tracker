@@ -162,6 +162,34 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .lk-cover:empty { display: none; }
 
 
+.lk-live-head { display: flex; align-items: center; gap: var(--cds-gap-sm); }
+.lk-live-dot { width: 0.6rem; height: 0.6rem; border-radius: 50%; background: var(--color-bad); animation: lkpulse 1.6s ease-in-out infinite; }
+.lk-live-dot[hidden] { display: none; }
+@keyframes lkpulse { 50% { opacity: 0.3; } }
+@media (prefers-reduced-motion: reduce) { .lk-live-dot { animation: none; } }
+.lk-live-upd { margin-left: auto; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.lk-live-score { margin: var(--cds-gap-sm) 0 var(--cds-gap-xs); font-variant-numeric: tabular-nums; }
+.lk-live-row { display: grid; grid-template-columns: 1fr auto 3.2rem; align-items: baseline; gap: var(--cds-gap-md); font-size: var(--cds-font-size-heading); padding: 0.1rem 0; color: var(--color-fg-muted); }
+.lk-live-row b { font-family: var(--font-anthropic-serif); font-size: var(--cds-font-size-title); font-weight: 400; text-align: right; color: var(--color-fg); }
+.lk-live-focus { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+.lk-live-focus b { color: var(--lk-accent); }
+.lk-live-q { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-weight: 400; word-spacing: 0.3em; }
+.lk-live-status { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: 0.2rem; }
+.lk-live-line { width: 100%; height: auto; display: block; margin: var(--cds-gap-sm) 0; }
+.lk-live-line[hidden], #lk-live-wp[hidden], #lk-live-keys[hidden] { display: none; }
+.lk-live-line text { font-size: 10px; fill: var(--color-fg-muted); font-family: var(--font-anthropic-sans); }
+.lk-live-line .lk-ax { stroke: var(--color-border-line); }
+.lk-live-line .lk-ref { stroke: var(--cds-chart-reference); stroke-dasharray: 3 3; }
+.lk-live-path { fill: none; stroke: var(--lk-accent); stroke-width: 2.2; stroke-linejoin: round; }
+.lk-live-end { fill: var(--lk-accent); }
+#lk-live-keys td.lk-wrap { min-width: 0; }
+#live .lk-tablewrap { max-height: none; overflow: visible; }
+@container lkcard (max-width: 960px) {
+  #lk-live-keys.lk-stack td:first-child { grid-column: 1 / -1; justify-content: flex-start; text-align: left; color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+}
+#lk-live-keys td.lk-live-f { color: var(--color-fg); }
+
+
 @media (max-width: 480px) {
   .lk-field select { min-width: 0; width: 100%; }
   .lk-controls > * { width: 100%; }
@@ -207,6 +235,17 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
     <div class="lk-card" id="tile-sos"><div class="lk-label">Schedule strength</div><div class="lk-big dash-skeleton" data-source="model" data-field="sos">—</div><div class="lk-sub">Average rating of opponents faced</div></div>
     <div class="lk-card" id="tile-net"><div class="lk-label">Net per 100 possessions</div><div class="lk-big dash-skeleton" data-source="efficiency" data-field="net">—</div><div class="lk-sub">Offense <span data-source="efficiency" data-field="ortg">—</span> (<span data-source="efficiency" data-field="ortg_rank">—</span>) · Defense <span data-source="efficiency" data-field="drtg">—</span> (<span data-source="efficiency" data-field="drtg_rank">—</span>) · Pace <span data-source="efficiency" data-field="pace">—</span></div></div>
     <div class="lk-card" id="tile-record"><div class="lk-label">Record</div><div class="lk-big dash-skeleton" data-source="model" data-field="record">—</div><div class="lk-sub">Close games <span data-source="model" data-field="close">—</span> · Overtime <span data-source="model" data-field="ot">—</span></div></div>
+  </section>
+
+  <section class="lk-card lk-live" id="live" hidden>
+    <div class="lk-live-head"><span class="lk-live-dot" id="lk-live-dot"></span><h2 id="lk-live-title">Live</h2><span class="lk-live-upd" id="lk-live-upd"></span></div>
+    <div class="lk-live-score" id="lk-live-score"></div>
+    <div class="lk-wp" id="lk-live-wp"><div class="lk-wp-a" style="width:50%"></div><div class="lk-wp-b" style="width:50%"></div></div>
+    <p class="lk-mode" id="lk-live-wpnote"></p>
+    <svg class="lk-live-line" id="lk-live-line" viewBox="0 0 340 120" role="img" aria-label="Score margin through the game"></svg>
+    <div class="lk-tablewrap"><table class="lk-table lk-stack" id="lk-live-keys"><thead><tr><th class="lk-left"></th><th class="lk-left" id="lk-live-th-f">—</th><th class="lk-left" id="lk-live-th-o">—</th></tr></thead><tbody></tbody></table></div>
+    <p class="lk-note" id="lk-live-leaders"></p>
+    <p class="lk-cover" id="lk-live-note"></p>
   </section>
 
   <section class="lk-card" id="next-game">
@@ -1623,6 +1662,7 @@ const loadAll = async () => {
   window.NBA_MANIFEST = m && m.updated ? m : null;
   const have = new Set(Object.keys((m && m.league) || {}));
   const files = Object.fromEntries(Object.entries(FILES).filter(([id]) => !OPTIONAL.includes(id) || have.has(id)));
+  loadLive();
   return dashLoad(files, OPTIONAL);
 };
 document.getElementById('lk-refresh').addEventListener('click', loadAll);
@@ -1646,6 +1686,135 @@ const FILES = {
 };
 const OPTIONAL = ['nba_results', 'nba_box', 'nba_player_games', 'nba_quarters', 'nba_inactive'];
 loadAll();
+// ---- Live card: data/nba/live.json, written during games by tools/nba/live.py on the PC ----
+// Live win chance (Proposed): the pre-game projection for the minutes left plus the current margin,
+// with game-to-game noise scaled to the time remaining (a Brownian-motion model of the score, after Stern 1994).
+let LIVE = null, liveFetched = 0;
+const livePhi = (z) => { const t = 1 / (1 + 0.2316419 * Math.abs(z)), d = 0.3989423 * Math.exp(-z * z / 2); const p = d * t * (0.3193815 + t * (-0.3565638 + t * (1.781478 + t * (-1.821256 + t * 1.330274)))); return z > 0 ? 1 - p : p; };
+async function loadLive() {
+  try {
+    const r = await fetch('data/nba/live.json', { cache: 'no-cache' });
+    LIVE = r.ok ? await r.json() : null;
+  } catch (e) { LIVE = null; }
+  liveFetched = Date.now();
+  renderLive();
+}
+function liveGameFor(team) {
+  if (!LIVE || !LIVE.games) return null;
+  const now = Date.now();
+  return LIVE.games.find((g) => {
+    if (g.home.team !== team && g.away.team !== team) return false;
+    const tip = Date.parse(g.tip_utc), hrs = (now - tip) / 36e5;
+    return g.status === 2 || (g.status === 3 && hrs < 14) || (g.status === 1 && hrs > -12 && hrs < 4);
+  }) || null;
+}
+function minutesLeft(g) {
+  const m = /^(\d+):(\d+)$/.exec(g.clock || ''), left = m ? Number(m[1]) + Number(m[2]) / 60 : (g.period >= 1 ? 0 : 12);
+  if (!g.period) return { elapsed: 0, left: 48 };
+  if (g.period <= 4) { const e = (g.period - 1) * 12 + (12 - left); return { elapsed: e, left: 48 - e }; }
+  return { elapsed: 48 + (g.period - 5) * 5 + (5 - left), left };
+}
+function renderLive() {
+  const card = document.getElementById('live');
+  const p = P(), focus = p.focus, v = variantOf(p);
+  const g = liveGameFor(focus);
+  card.hidden = !g;
+  if (!g) return;
+  const t = dash.data('teams'), names = new Map(t.status === 'ok' ? t.data.map((r) => [r.team, r.name]) : []);
+  const home = g.home.team === focus, F = home ? g.home : g.away, O = home ? g.away : g.home;
+  const fn = names.get(F.team) || F.team, on = names.get(O.team) || O.team;
+  const set = (id, txt) => { document.getElementById(id).textContent = txt; };
+  const live = g.status === 2, final = g.status === 3;
+  document.getElementById('lk-live-dot').hidden = !live;
+  set('lk-live-title', live ? 'Live' : final ? 'Final' : 'Tonight');
+  const mins = LIVE.updated ? Math.round((Date.now() - Date.parse(LIVE.updated)) / 60000) : null;
+  set('lk-live-upd', mins === null ? '' : mins < 1 ? 'updated just now' : 'updated ' + mins + ' min ago');
+  // Score
+  const sc = document.getElementById('lk-live-score'); sc.replaceChildren();
+  const row = (side, label) => {
+    const d = document.createElement('div'); d.className = 'lk-live-row' + (side.team === focus ? ' lk-live-focus' : '');
+    const n = document.createElement('span'); n.textContent = label;
+    const q = document.createElement('span'); q.className = 'lk-live-q'; q.textContent = (side.periods || []).join('  ');
+    const s = document.createElement('b'); s.textContent = side.score;
+    d.append(n, q, s); return d;
+  };
+  sc.append(row(g.away, (names.get(g.away.team) || g.away.team)), row(g.home, (names.get(g.home.team) || g.home.team)));
+  const st = document.createElement('div'); st.className = 'lk-live-status';
+  st.textContent = g.status === 1 ? 'Tip-off ' + new Date(g.tip_utc).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }) + '. Live updates start at tip-off.' : (g.status_text || '');
+  sc.appendChild(st);
+  // Win chance
+  const wpEl = document.getElementById('lk-live-wp');
+  const m = F.score - O.score, ml = minutesLeft(g);
+  const ng = dash.data('next_game'), md = dash.data('model');
+  const pre = ng.status === 'ok' ? ng.data.find((r) => r.variant === v && r.focus === focus && r.team === O.team) : null;
+  const se = (tm) => { const r = md.status === 'ok' ? md.data.find((x) => x.variant === v && x.team === tm) : null; return r ? r.se : 4; };
+  const mu = pre ? pre.proj : 0, sd = Math.sqrt(144 + se(focus) ** 2 + se(O.team) ** 2);
+  wpEl.hidden = !live;
+  if (live) {
+    const frac = Math.max(0, ml.left) / 48;
+    const wp = frac <= 0 ? (m > 0 ? 1 : m < 0 ? 0 : 0.5) : livePhi((m + mu * frac) / (sd * Math.sqrt(frac)));
+    const a = Math.round(wp * 100);
+    wpEl.children[0].style.width = a + '%'; wpEl.children[0].textContent = fn + ' ' + a + '%';
+    wpEl.children[1].style.width = (100 - a) + '%'; wpEl.children[1].textContent = on + ' ' + (100 - a) + '%';
+    set('lk-live-wpnote', 'Live win chance (Proposed): the pre-game projection (' + fn + ' ' + sgn(mu) + ') for the ' + Math.round(ml.left) + ' minutes left, plus the current margin, with game-to-game noise scaled to the time remaining.');
+  } else set('lk-live-wpnote', final ? (m > 0 ? fn + ' won by ' + m + '.' : m < 0 ? on + ' won by ' + (-m) + '.' : '') + ' The tracker’s ratings take this game in after the next data run.' : '');
+  // Margin line (focus team's view)
+  const svg = document.getElementById('lk-live-line'); svg.replaceChildren();
+  const hist = (g.history || []).map((h) => ({ t: h.t, m: home ? h.m : -h.m }));
+  svg.hidden = hist.length < 2;
+  if (hist.length >= 2) {
+    const NS = 'http://www.w3.org/2000/svg', W = 340, H = 120, L = 26, R = 8, T = 10, B = 18;
+    const tMax = Math.max(48, ...hist.map((h) => h.t)), mMax = Math.max(10, ...hist.map((h) => Math.abs(h.m))) + 2;
+    const X = (x) => L + x / tMax * (W - L - R), Y = (y) => T + (mMax - y) / (2 * mMax) * (H - T - B);
+    const el = (tag, at, txt) => { const e = document.createElementNS(NS, tag); Object.entries(at).forEach(([k, val]) => e.setAttribute(k, val)); if (txt !== undefined) e.textContent = txt; return e; };
+    [12, 24, 36].forEach((q) => svg.appendChild(el('line', { x1: X(q), x2: X(q), y1: T, y2: H - B, class: 'lk-ax' })));
+    svg.appendChild(el('line', { x1: L, x2: W - R, y1: Y(0), y2: Y(0), class: 'lk-ref' }));
+    ['Q1', 'Q2', 'Q3', 'Q4'].forEach((q, i) => svg.appendChild(el('text', { x: X(i * 12 + 6), y: H - 4, 'text-anchor': 'middle' }, q)));
+    svg.appendChild(el('text', { x: L - 4, y: Y(mMax - 2) + 4, 'text-anchor': 'end' }, '+' + (mMax - 2)));
+    svg.appendChild(el('text', { x: L - 4, y: Y(-(mMax - 2)) + 4, 'text-anchor': 'end' }, '-' + (mMax - 2)));
+    const pts = [{ t: 0, m: 0 }].concat(hist);
+    svg.appendChild(el('polyline', { points: pts.map((h) => X(h.t) + ',' + Y(h.m)).join(' '), class: 'lk-live-path' }));
+    const last = pts[pts.length - 1];
+    svg.appendChild(el('circle', { cx: X(last.t), cy: Y(last.m), r: 3.5, class: 'lk-live-end' }));
+    svg.setAttribute('aria-label', fn + ' margin through the game, now ' + (last.m > 0 ? '+' : '') + last.m);
+  }
+  // Keys so far, against the season
+  const kb = document.querySelector('#lk-live-keys tbody'); kb.replaceChildren();
+  set('lk-live-th-f', F.team); set('lk-live-th-o', O.team);
+  document.getElementById('lk-live-keys').hidden = !(F.stats && O.stats);
+  if (F.stats && O.stats) {
+    const tt = dash.data('team_totals');
+    const tot = (tm, side) => (tt.status === 'ok' ? tt.data.find((r) => r.team === tm && r.side === side) : null);
+    const per48 = ml.elapsed >= 6 ? 48 / ml.elapsed : null;
+    const fmt = {
+      'Offensive rebounds': (a, b, tm) => { const own = tot(tm, 'own'), opp = tot(tm, 'opp'); const s = own && opp ? own.oreb / (own.oreb + opp.dreb) : null; return a.oreb + ' (' + Math.round(a.oreb / Math.max(1, a.oreb + b.dreb) * 100) + '% of misses' + (s ? '; season ' + Math.round(s * 100) + '%' : '') + ')'; },
+      'Free throws': (a, b, tm) => { const own = tot(tm, 'own'); return a.ftm + ' of ' + a.fta + ' (' + (per48 ? 'on pace for ' + Math.round(a.fta * per48) + ' tries' : 'so far') + (own ? '; season ' + (own.fta / own.gp).toFixed(0) + ' a game' : '') + ')'; },
+      'Turnovers': (a, b, tm) => { const own = tot(tm, 'own'); return a.tov + ' (' + (per48 ? 'on pace for ' + Math.round(a.tov * per48) : 'so far') + (own ? '; season ' + (own.tov / own.gp).toFixed(0) + ' a game' : '') + ')'; },
+      'Threes': (a, b, tm) => { const own = tot(tm, 'own'); return a.fg3m + ' of ' + a.fg3a + (a.fg3a ? ' (' + Math.round(a.fg3m / a.fg3a * 100) + '%' + (own ? '; season ' + Math.round(own.fg3m / own.fg3a * 100) + '%' : '') + ')' : ''); },
+      'Effective FG%': (a, b, tm) => { const own = tot(tm, 'own'); return a.fga ? ((a.fgm + 0.5 * a.fg3m) / a.fga * 100).toFixed(1) + '%' + (own ? ' (season ' + ((own.fgm + 0.5 * own.fg3m) / own.fga * 100).toFixed(1) + '%)' : '') : '—'; },
+      'Second-chance points': (a) => String(a.pts_second_chance ?? '—'),
+      'Points in the paint': (a) => String(a.pts_paint ?? '—'),
+      'Fast-break points': (a) => String(a.pts_fast_break ?? '—'),
+    };
+    Object.entries(fmt).forEach(([label, f]) => {
+      const tr = document.createElement('tr');
+      cell(tr, label, 'lk-left'); cell(tr, f(F.stats, O.stats, F.team), 'lk-wrap lk-live-f'); cell(tr, f(O.stats, F.stats, O.team), 'lk-wrap');
+      kb.appendChild(tr);
+    });
+    phoneLayout(document.getElementById('lk-live-keys'));
+  }
+  // Leaders
+  const lead = (s) => (s.leaders || []).map((x) => x.name.split(' ').slice(-1)[0] + ' ' + x.pts + ' pts, ' + x.reb + ' reb, ' + x.ast + ' ast').join(' · ');
+  set('lk-live-leaders', F.leaders && F.leaders.length ? fn + ': ' + lead(F) + '. ' + on + ': ' + lead(O) + '.' : '');
+  set('lk-live-note', live && mins !== null && mins > 15 ? 'No update for ' + mins + ' minutes. The laptop that runs the live feed may be asleep or offline.' : '');
+}
+dash.onData(renderLive);
+// While a game is on (or about to start), check for a new update every minute when the page is open
+setInterval(() => {
+  if (document.hidden) return;
+  const g = liveGameFor(P().focus), soon = g && g.status === 1 && Date.parse(g.tip_utc) - Date.now() < 30 * 60e3;
+  if ((g && g.status === 2) || soon || Date.now() - liveFetched > 10 * 60e3) loadLive();
+}, 60e3);
 </script>
 </body>
 </html>
