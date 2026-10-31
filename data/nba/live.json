@@ -1,121 +1,121 @@
 {
- "updated": "2026-10-31T12:12:02-07:00",
+ "updated": "2026-10-31T12:19:05-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
    "game_id": "0022600147",
    "tip_utc": "2026-10-31T19:00:00Z",
    "status": 2,
-   "status_text": "Q1 11:40",
+   "status_text": "Q1 6:52",
    "period": 1,
-   "clock": "11:40",
+   "clock": "6:52",
    "home": {
     "team": "UTA",
-    "score": 0,
+    "score": 7,
     "periods": [
-     0,
+     7,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 0,
-     "fga": 0,
-     "fg3m": 0,
-     "fg3a": 0,
+     "fgm": 3,
+     "fga": 14,
+     "fg3m": 1,
+     "fg3a": 5,
      "ftm": 0,
      "fta": 0,
-     "oreb": 0,
-     "dreb": 0,
-     "tov": 0,
-     "pf": 0,
-     "ast": 0,
-     "stl": 1,
-     "blk": 0,
-     "pts_paint": 0,
+     "oreb": 2,
+     "dreb": 6,
+     "tov": 1,
+     "pf": 2,
+     "ast": 3,
+     "stl": 2,
+     "blk": 2,
+     "pts_paint": 2,
      "pts_second_chance": 0,
-     "pts_fast_break": 0,
+     "pts_fast_break": 2,
      "pts_off_tov": 0,
      "pts_bench": 0,
-     "biggest_lead": 0,
-     "lead_changes": 0
+     "biggest_lead": 1,
+     "lead_changes": 4
     },
     "leaders": [
      {
       "name": "Ace Bailey",
-      "pts": 0,
+      "pts": 4,
       "reb": 0,
+      "ast": 1,
+      "min": "5:05"
+     },
+     {
+      "name": "Darryn Peterson",
+      "pts": 3,
+      "reb": 2,
       "ast": 0,
-      "min": "0:19"
+      "min": "5:05"
      },
      {
       "name": "Lauri Markkanen",
       "pts": 0,
-      "reb": 0,
+      "reb": 2,
       "ast": 0,
-      "min": "0:19"
-     },
-     {
-      "name": "Jaxson Hayes",
-      "pts": 0,
-      "reb": 0,
-      "ast": 0,
-      "min": "0:19"
+      "min": "5:05"
      }
     ]
    },
    "away": {
     "team": "POR",
-    "score": 0,
+    "score": 8,
     "periods": [
-     0,
+     8,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 0,
-     "fga": 0,
-     "fg3m": 0,
-     "fg3a": 0,
-     "ftm": 0,
-     "fta": 0,
-     "oreb": 0,
-     "dreb": 0,
-     "tov": 1,
+     "fgm": 2,
+     "fga": 9,
+     "fg3m": 1,
+     "fg3a": 6,
+     "ftm": 3,
+     "fta": 4,
+     "oreb": 1,
+     "dreb": 6,
+     "tov": 2,
      "pf": 0,
-     "ast": 0,
-     "stl": 0,
+     "ast": 1,
+     "stl": 1,
      "blk": 0,
      "pts_paint": 0,
-     "pts_second_chance": 0,
+     "pts_second_chance": 2,
      "pts_fast_break": 0,
      "pts_off_tov": 0,
      "pts_bench": 0,
-     "biggest_lead": 0,
-     "lead_changes": 0
+     "biggest_lead": 3,
+     "lead_changes": 4
     },
     "leaders": [
      {
-      "name": "Deni Avdija",
-      "pts": 0,
-      "reb": 0,
+      "name": "Damian Lillard",
+      "pts": 5,
+      "reb": 1,
       "ast": 0,
-      "min": "0:19"
+      "min": "5:05"
+     },
+     {
+      "name": "Deni Avdija",
+      "pts": 3,
+      "reb": 2,
+      "ast": 1,
+      "min": "5:05"
      },
      {
       "name": "Toumani Camara",
       "pts": 0,
-      "reb": 0,
+      "reb": 1,
       "ast": 0,
-      "min": "0:19"
-     },
-     {
-      "name": "Donovan Clingan",
-      "pts": 0,
-      "reb": 0,
-      "ast": 0,
-      "min": "0:19"
+      "min": "5:05"
      }
     ]
    },
@@ -123,6 +123,10 @@
     {
      "t": 0.3,
      "m": 0
+    },
+    {
+     "t": 5.1,
+     "m": -1
     }
    ]
   },
