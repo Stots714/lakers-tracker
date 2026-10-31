@@ -4,6 +4,8 @@ Watches tonight's games on NBA.com's live feed and keeps the site's Live card cu
 Waits for the first tip-off, pushes data\nba\live.json about every 7 minutes while games are on,
 and once every game is final waits 15 minutes and runs the full data update (run_update.ps1 -Push),
 so the tracker's ratings include tonight's games. With no games today it exits right away.
+During games it keeps the PC from going to sleep on its own (the screen still turns off and locks);
+before tip-off it sets a wake-up timer for 10 minutes before the first game.
 
   -Once    one check right now (push included), then stop
 
@@ -32,10 +34,9 @@ if ($Once) { $PyArgs += '--once' }
 & $Py @PyArgs
 $Code = $LASTEXITCODE
 
-if ($Code -eq 0 -and -not $Once) {
-  Write-Host 'Every game is final. Waiting 15 minutes for NBA.com to settle the box scores, then running the full update.'
-  Start-Sleep -Seconds 900
-  powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $Here 'run_update.ps1') -Push
+# After the last final, live.py itself waits 15 minutes and runs run_update.ps1 -Push, keeping the PC awake meanwhile.
+if ($Code -eq 0) {
+  Write-Host 'Every game is final and the full update has run.'
 } elseif ($Code -eq 4) {
   Write-Host 'No games today.'
 } elseif ($Code -ne 0 -and $Code -ne 3) {
