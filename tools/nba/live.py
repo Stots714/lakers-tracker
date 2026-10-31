@@ -20,6 +20,7 @@ Exit codes: 0 every game today is final; 3 games still to finish (--once); 4 no 
 Plain Python plus requests (see rows.py for why there is no pandas).
 """
 import argparse
+import ctypes
 import datetime as dt
 import json
 import re
@@ -46,6 +47,63 @@ STATS = {  # live box score team statistics -> live.json names
     "pointsInThePaint": "pts_paint", "pointsSecondChance": "pts_second_chance", "pointsFastBreak": "pts_fast_break",
     "pointsFromTurnovers": "pts_off_tov", "benchPoints": "pts_bench", "biggestLead": "biggest_lead", "leadChanges": "lead_changes",
 }
+
+
+# ---- Staying awake on Windows (no effect elsewhere) ----
+# During games the watcher asks Windows not to sleep on its own (SetThreadExecutionState with ES_SYSTEM_REQUIRED):
+# the screen still turns off and locks as usual, and closing the lid or choosing Sleep still works. It lets go as
+# soon as the night's games and the final update are done, as Microsoft advises. Before tip-off it sets one wake-up
+# timer for 10 minutes before the first game, so a laptop that dozed off wakes for it (if the power plan allows wake timers).
+WIN = sys.platform == "win32"
+ES_CONTINUOUS, ES_SYSTEM_REQUIRED = 0x80000000, 0x00000001
+_awake = None
+
+
+def keep_awake(on):
+    global _awake
+    if not WIN or _awake == on:
+        return
+    try:
+        k32 = ctypes.windll.kernel32
+        k32.SetThreadExecutionState.restype = ctypes.c_uint32
+        k32.SetThreadExecutionState.argtypes = [ctypes.c_uint32]
+        k32.SetThreadExecutionState(ES_CONTINUOUS | (ES_SYSTEM_REQUIRED if on else 0))
+        _awake = on
+        log("  keeping the PC awake during games" if on else "  no longer keeping the PC awake")
+    except Exception as e:
+        log(f"  could not change the awake setting: {e}")
+
+
+class WakeTimer:
+    """One wake-capable Windows timer (CreateWaitableTimer with resume); plain sleep elsewhere or if it fails."""
+    def __init__(self):
+        self.h, self.due = None, None
+        if WIN:
+            try:
+                k32 = ctypes.windll.kernel32
+                k32.CreateWaitableTimerW.restype = ctypes.c_void_p
+                k32.CreateWaitableTimerW.argtypes = [ctypes.c_void_p, ctypes.c_bool, ctypes.c_wchar_p]
+                k32.SetWaitableTimer.restype = ctypes.c_bool
+                k32.SetWaitableTimer.argtypes = [ctypes.c_void_p, ctypes.POINTER(ctypes.c_longlong), ctypes.c_long, ctypes.c_void_p, ctypes.c_void_p, ctypes.c_bool]
+                k32.WaitForSingleObject.restype = ctypes.c_uint32
+                k32.WaitForSingleObject.argtypes = [ctypes.c_void_p, ctypes.c_uint32]
+                self.h = k32.CreateWaitableTimerW(None, False, None)  # auto-reset: fires once per arming
+            except Exception as e:
+                log(f"  wake timer not available: {e}")
+
+    def arm(self, when):
+        if not self.h or when == self.due:
+            return
+        filetime = int((when - dt.datetime(1601, 1, 1, tzinfo=dt.timezone.utc)).total_seconds() * 10_000_000)  # absolute UTC
+        ok = ctypes.windll.kernel32.SetWaitableTimer(self.h, ctypes.byref(ctypes.c_longlong(filetime)), 0, None, None, True)
+        self.due = when if ok else None
+        log(f"  wake-up timer set for {when.astimezone():%H:%M}" if ok else "  wake-up timer could not be set")
+
+    def wait(self, seconds):
+        if self.h:
+            ctypes.windll.kernel32.WaitForSingleObject(self.h, int(seconds * 1000))
+        else:
+            time.sleep(seconds)
 
 
 def log(msg):
@@ -167,6 +225,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--once", action="store_true", help="one check now, then exit")
     ap.add_argument("--no-push", action="store_true", help="write live.json only")
+    ap.add_argument("--no-final-update", action="store_true", help="when every game is final, exit without the full update")
     a = ap.parse_args()
     log("--- live watcher started")
     board_date, board = fetch_board()
@@ -176,6 +235,7 @@ def main():
     ids = [g["gameId"] for g in board]
     log(f"{len(board)} games on {board_date}: " + ", ".join(f'{g["awayTeam"]["teamTricode"]}@{g["homeTeam"]["teamTricode"]}' for g in board))
     last_push = 0.0
+    timer = WakeTimer()
     while True:
         try:
             date_now, now_board = fetch_board()
@@ -199,15 +259,28 @@ def main():
                 log("  pushed")
         if done:
             log("--- every game is final")
+            if not (a.once or a.no_push or a.no_final_update) and WIN:
+                keep_awake(True)
+                log("Waiting 15 minutes for NBA.com to settle the box scores, then running the full update.")
+                time.sleep(900)
+                r = subprocess.run(["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File",
+                                    str(Path(__file__).with_name("run_update.ps1")), "-Push"])
+                log(f"full update finished (code {r.returncode})")
+            keep_awake(False)
             return 0
         if a.once:
             return 3
+        nxt = min((dt.datetime.fromisoformat(g["tip_utc"].replace("Z", "+00:00")) for g in waiting), default=None)
+        soon = nxt is not None and nxt - dt.datetime.now(dt.timezone.utc) <= dt.timedelta(minutes=15)
+        keep_awake(bool(live) or soon)
         if live:
             time.sleep(CHECK_EVERY)
-        else:  # nothing on right now: sleep until the next tip-off, in steps
-            nxt = min(dt.datetime.fromisoformat(g["tip_utc"].replace("Z", "+00:00")) for g in waiting)
-            wait = (nxt - dt.datetime.now(dt.timezone.utc)).total_seconds() - 120
-            time.sleep(max(60, min(WAIT_STEP, wait)))
+        elif soon:
+            time.sleep(max(60, (nxt - dt.datetime.now(dt.timezone.utc)).total_seconds() - 120))
+        else:  # hours before tip-off: wait in steps, with one wake-up timer for 10 minutes before the first game
+            timer.arm(nxt - dt.timedelta(minutes=10))
+            wait = (nxt - dt.timedelta(minutes=10) - dt.datetime.now(dt.timezone.utc)).total_seconds()
+            timer.wait(max(60, min(WAIT_STEP, wait)))
 
 
 if __name__ == "__main__":
