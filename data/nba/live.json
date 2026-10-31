@@ -1,38 +1,38 @@
 {
- "updated": "2026-10-31T13:36:31-07:00",
+ "updated": "2026-10-31T13:43:33-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
    "game_id": "0022600147",
    "tip_utc": "2026-10-31T19:00:00Z",
    "status": 2,
-   "status_text": "Q3 7:37",
+   "status_text": "Q3 5:09",
    "period": 3,
-   "clock": "7:37",
+   "clock": "5:09",
    "home": {
     "team": "UTA",
-    "score": 46,
+    "score": 50,
     "periods": [
      18,
      24,
-     4,
+     8,
      0
     ],
     "stats": {
-     "fgm": 14,
-     "fga": 49,
+     "fgm": 16,
+     "fga": 53,
      "fg3m": 5,
      "fg3a": 24,
      "ftm": 13,
      "fta": 18,
-     "oreb": 7,
-     "dreb": 18,
-     "tov": 11,
-     "pf": 17,
-     "ast": 10,
-     "stl": 9,
-     "blk": 4,
-     "pts_paint": 12,
+     "oreb": 8,
+     "dreb": 23,
+     "tov": 14,
+     "pf": 19,
+     "ast": 12,
+     "stl": 8,
+     "blk": 5,
+     "pts_paint": 14,
      "pts_second_chance": 6,
      "pts_fast_break": 8,
      "pts_off_tov": 6,
@@ -44,52 +44,52 @@
      {
       "name": "Darryn Peterson",
       "pts": 13,
-      "reb": 2,
+      "reb": 4,
       "ast": 2,
-      "min": "21:29"
+      "min": "23:57"
      },
      {
       "name": "Keyonte George",
-      "pts": 6,
+      "pts": 8,
       "reb": 2,
       "ast": 2,
-      "min": "19:36"
+      "min": "21:48"
      },
      {
       "name": "Jaxson Hayes",
-      "pts": 5,
-      "reb": 5,
-      "ast": 1,
-      "min": "15:30"
+      "pts": 7,
+      "reb": 6,
+      "ast": 2,
+      "min": "17:42"
      }
     ]
    },
    "away": {
     "team": "POR",
-    "score": 68,
+    "score": 70,
     "periods": [
      27,
      32,
-     9,
+     11,
      0
     ],
     "stats": {
-     "fgm": 18,
-     "fga": 42,
+     "fgm": 19,
+     "fga": 47,
      "fg3m": 9,
-     "fg3a": 23,
+     "fg3a": 26,
      "ftm": 23,
-     "fta": 26,
+     "fta": 28,
      "oreb": 4,
-     "dreb": 27,
-     "tov": 13,
+     "dreb": 28,
+     "tov": 12,
      "pf": 17,
      "ast": 10,
-     "stl": 6,
+     "stl": 9,
      "blk": 2,
-     "pts_paint": 14,
+     "pts_paint": 16,
      "pts_second_chance": 8,
-     "pts_fast_break": 2,
+     "pts_fast_break": 5,
      "pts_off_tov": 17,
      "pts_bench": 14,
      "biggest_lead": 24,
@@ -98,24 +98,24 @@
     "leaders": [
      {
       "name": "Deni Avdija",
-      "pts": 19,
+      "pts": 21,
       "reb": 6,
       "ast": 2,
-      "min": "22:26"
+      "min": "24:54"
      },
      {
       "name": "Damian Lillard",
       "pts": 15,
       "reb": 3,
       "ast": 3,
-      "min": "19:19"
+      "min": "21:31"
      },
      {
       "name": "Toumani Camara",
       "pts": 11,
       "reb": 3,
       "ast": 0,
-      "min": "22:45"
+      "min": "24:57"
      }
     ]
    },
@@ -163,6 +163,10 @@
     {
      "t": 28.4,
      "m": -22
+    },
+    {
+     "t": 30.9,
+     "m": -20
     }
    ]
   },
