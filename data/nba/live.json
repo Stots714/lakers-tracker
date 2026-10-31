@@ -1,97 +1,97 @@
 {
- "updated": "2026-10-31T14:11:42-07:00",
+ "updated": "2026-10-31T14:18:45-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
    "game_id": "0022600147",
    "tip_utc": "2026-10-31T19:00:00Z",
    "status": 2,
-   "status_text": "Q4 6:54",
+   "status_text": "Q4 3:49",
    "period": 4,
-   "clock": "6:54",
+   "clock": "3:49",
    "home": {
     "team": "UTA",
-    "score": 72,
+    "score": 82,
     "periods": [
      18,
      24,
      22,
-     8
+     18
     ],
     "stats": {
-     "fgm": 23,
-     "fga": 68,
-     "fg3m": 7,
-     "fg3a": 32,
-     "ftm": 19,
-     "fta": 24,
+     "fgm": 26,
+     "fga": 73,
+     "fg3m": 9,
+     "fg3a": 36,
+     "ftm": 21,
+     "fta": 26,
      "oreb": 7,
      "dreb": 30,
-     "tov": 19,
-     "pf": 23,
-     "ast": 17,
-     "stl": 11,
+     "tov": 20,
+     "pf": 25,
+     "ast": 20,
+     "stl": 12,
      "blk": 7,
-     "pts_paint": 24,
+     "pts_paint": 26,
      "pts_second_chance": 6,
-     "pts_fast_break": 12,
+     "pts_fast_break": 14,
      "pts_off_tov": 11,
-     "pts_bench": 25,
+     "pts_bench": 29,
      "biggest_lead": 1,
      "lead_changes": 4
     },
     "leaders": [
      {
+      "name": "Darryn Peterson",
+      "pts": 16,
+      "reb": 4,
+      "ast": 4,
+      "min": "32:08"
+     },
+     {
       "name": "Lauri Markkanen",
       "pts": 13,
+      "reb": 6,
+      "ast": 1,
+      "min": "28:49"
+     },
+     {
+      "name": "Ace Bailey",
+      "pts": 9,
       "reb": 7,
       "ast": 1,
-      "min": "28:24"
-     },
-     {
-      "name": "Darryn Peterson",
-      "pts": 13,
-      "reb": 4,
-      "ast": 3,
-      "min": "29:03"
-     },
-     {
-      "name": "Keyonte George",
-      "pts": 8,
-      "reb": 3,
-      "ast": 2,
-      "min": "26:54"
+      "min": "32:49"
      }
     ]
    },
    "away": {
     "team": "POR",
-    "score": 96,
+    "score": 104,
     "periods": [
      27,
      32,
      29,
-     8
+     16
     ],
     "stats": {
-     "fgm": 27,
-     "fga": 65,
-     "fg3m": 13,
-     "fg3a": 36,
-     "ftm": 29,
-     "fta": 35,
-     "oreb": 6,
-     "dreb": 35,
-     "tov": 17,
+     "fgm": 29,
+     "fga": 69,
+     "fg3m": 14,
+     "fg3a": 38,
+     "ftm": 32,
+     "fta": 39,
+     "oreb": 7,
+     "dreb": 37,
+     "tov": 18,
      "pf": 25,
-     "ast": 12,
-     "stl": 12,
+     "ast": 13,
+     "stl": 13,
      "blk": 3,
-     "pts_paint": 24,
+     "pts_paint": 26,
      "pts_second_chance": 13,
      "pts_fast_break": 6,
-     "pts_off_tov": 18,
-     "pts_bench": 23,
+     "pts_off_tov": 20,
+     "pts_bench": 26,
      "biggest_lead": 26,
      "lead_changes": 4
     },
@@ -183,6 +183,10 @@
     {
      "t": 41.1,
      "m": -24
+    },
+    {
+     "t": 44.2,
+     "m": -22
     }
    ]
   },
