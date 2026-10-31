@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T16:15:20-07:00",
+ "updated": "2026-10-31T16:22:23-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
@@ -202,9 +202,9 @@
    "game_id": "0022600148",
    "tip_utc": "2026-10-31T22:00:00Z",
    "status": 2,
-   "status_text": "Half",
-   "period": 2,
-   "clock": "0:00",
+   "status_text": "Q3 11:47",
+   "period": 3,
+   "clock": "11:47",
    "home": {
     "team": "CHA",
     "score": 54,
@@ -216,7 +216,7 @@
     ],
     "stats": {
      "fgm": 19,
-     "fga": 35,
+     "fga": 36,
      "fg3m": 9,
      "fg3a": 23,
      "ftm": 7,
@@ -249,14 +249,14 @@
       "pts": 13,
       "reb": 1,
       "ast": 1,
-      "min": "15:14"
+      "min": "15:27"
      },
      {
       "name": "Naz Reid",
       "pts": 6,
       "reb": 3,
       "ast": 1,
-      "min": "16:50"
+      "min": "17:03"
      }
     ]
    },
@@ -297,7 +297,7 @@
       "pts": 19,
       "reb": 2,
       "ast": 2,
-      "min": "16:43"
+      "min": "16:56"
      },
      {
       "name": "Anfernee Simons",
@@ -311,7 +311,7 @@
       "pts": 5,
       "reb": 3,
       "ast": 3,
-      "min": "19:43"
+      "min": "19:56"
      }
     ]
    },
@@ -351,6 +351,10 @@
     {
      "t": 24.0,
      "m": -3
+    },
+    {
+     "t": 24.2,
+     "m": -3
     }
    ]
   },
@@ -358,90 +362,90 @@
    "game_id": "0022600149",
    "tip_utc": "2026-10-31T23:00:00Z",
    "status": 2,
-   "status_text": "Q1 8:55",
+   "status_text": "Q1 6:43",
    "period": 1,
-   "clock": "8:55",
+   "clock": "6:43",
    "home": {
     "team": "NOP",
-    "score": 7,
+    "score": 12,
     "periods": [
-     7,
+     12,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 3,
-     "fga": 5,
-     "fg3m": 0,
-     "fg3a": 1,
+     "fgm": 5,
+     "fga": 9,
+     "fg3m": 1,
+     "fg3a": 4,
      "ftm": 1,
      "fta": 2,
      "oreb": 0,
-     "dreb": 4,
-     "tov": 2,
-     "pf": 0,
-     "ast": 2,
-     "stl": 2,
-     "blk": 0,
-     "pts_paint": 6,
+     "dreb": 6,
+     "tov": 3,
+     "pf": 1,
+     "ast": 3,
+     "stl": 3,
+     "blk": 1,
+     "pts_paint": 8,
      "pts_second_chance": 2,
      "pts_fast_break": 2,
-     "pts_off_tov": 2,
+     "pts_off_tov": 5,
      "pts_bench": 0,
-     "biggest_lead": 3,
+     "biggest_lead": 6,
      "lead_changes": 1
     },
     "leaders": [
      {
       "name": "Jeremiah Fears",
-      "pts": 4,
+      "pts": 6,
       "reb": 0,
       "ast": 1,
-      "min": "3:05"
+      "min": "5:17"
      },
      {
       "name": "Herbert Jones",
-      "pts": 2,
+      "pts": 5,
       "reb": 0,
       "ast": 0,
-      "min": "3:05"
+      "min": "5:05"
      },
      {
       "name": "Zion Williamson",
       "pts": 1,
       "reb": 0,
       "ast": 0,
-      "min": "3:05"
+      "min": "5:17"
      }
     ]
    },
    "away": {
     "team": "ATL",
-    "score": 4,
+    "score": 8,
     "periods": [
-     4,
+     8,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 2,
-     "fga": 6,
+     "fgm": 3,
+     "fga": 10,
      "fg3m": 0,
-     "fg3a": 1,
-     "ftm": 0,
-     "fta": 0,
-     "oreb": 0,
-     "dreb": 2,
-     "tov": 2,
-     "pf": 1,
+     "fg3a": 2,
+     "ftm": 2,
+     "fta": 2,
+     "oreb": 1,
+     "dreb": 4,
+     "tov": 3,
+     "pf": 3,
      "ast": 1,
-     "stl": 1,
+     "stl": 2,
      "blk": 1,
-     "pts_paint": 4,
+     "pts_paint": 6,
      "pts_second_chance": 0,
-     "pts_fast_break": 2,
+     "pts_fast_break": 4,
      "pts_off_tov": 2,
      "pts_bench": 0,
      "biggest_lead": 2,
@@ -450,24 +454,24 @@
     "leaders": [
      {
       "name": "Jalen Johnson",
-      "pts": 2,
-      "reb": 2,
+      "pts": 4,
+      "reb": 3,
       "ast": 0,
-      "min": "3:05"
+      "min": "5:17"
      },
      {
       "name": "Nickeil Alexander-Walker",
       "pts": 2,
       "reb": 0,
       "ast": 0,
-      "min": "3:05"
+      "min": "5:05"
      },
      {
-      "name": "Dyson Daniels",
-      "pts": 0,
+      "name": "CJ McCollum",
+      "pts": 2,
       "reb": 0,
-      "ast": 0,
-      "min": "3:05"
+      "ast": 1,
+      "min": "5:17"
      }
     ]
    },
@@ -475,6 +479,10 @@
     {
      "t": 3.1,
      "m": 3
+    },
+    {
+     "t": 5.3,
+     "m": 4
     }
    ]
   },
