@@ -1,0 +1,537 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600136,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:42 PM EST),period,start,1,0,1
+0022600136,4,PT12M00.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Jump Ball Poeltl vs. Carter Jr.: Tip to Black,Jump Ball,,1,0,2
+0022600136,7,PT11M43.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,3,-17,2,Made,1,0,2,2,v,Carter Jr. 2' Layup (2 PTS) (Wagner 1 AST),Made Shot,Layup Shot,1,2,3
+0022600136,9,PT11M19.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,41,69,8,Missed,1,,,0,h,MISS Barnes 8' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,4
+0022600136,10,PT11M19.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,5
+0022600136,11,PT11M10.00S,1,1610612753,ORL,1641710,Black,A. Black,153,197,25,Missed,1,,,0,v,MISS Black 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,6
+0022600136,12,PT11M10.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,7
+0022600136,13,PT11M00.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,184,192,27,Made,1,3,2,5,h,Quickley 27' 3PT Jump Shot (3 PTS) (Barnes 1 AST),Made Shot,Jump Shot,1,3,8
+0022600136,15,PT10M37.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,224,-21,0,Missed,1,,,0,v,MISS Carter Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,9
+0022600136,16,PT10M37.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,10
+0022600136,17,PT10M20.00S,1,1610612753,ORL,1642859,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson P.FOUL (P1.T1) (E.Malloy),Foul,Personal,1,0,11
+0022600136,19,PT10M11.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,-5,1,Made,1,5,2,7,h,Barnes 1' Reverse Dunk (2 PTS) (Quickley 1 AST),Made Shot,Reverse Dunk Shot,1,2,12
+0022600136,21,PT09M59.00S,1,1610612753,ORL,1641710,Black,A. Black,6,-16,2,Made,1,5,4,9,v,Black 2' Driving Layup (2 PTS) (Carter Jr. 1 AST),Made Shot,Driving Layup Shot,1,2,13
+0022600136,23,PT09M45.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. S.FOUL (P1.T2) (S.Twardoski),Foul,Shooting,1,0,14
+0022600136,25,PT09M45.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,MISS Poeltl Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,15
+0022600136,26,PT09M45.00S,1,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Normal Rebound,0,0,16
+0022600136,27,PT09M45.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,MISS Poeltl Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,17
+0022600136,28,PT09M45.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,18
+0022600136,29,PT09M44.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,Made,1,7,4,11,h,Barnes Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,19
+0022600136,30,PT09M32.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,-10,-12,2,Missed,1,,,0,v,MISS Wagner 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,20
+0022600136,31,PT09M32.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,21
+0022600136,32,PT09M24.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,22
+0022600136,32,PT09M24.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. STEAL (1 STL),,,1,0,23
+0022600136,34,PT09M15.00S,1,1610612753,ORL,1642859,Richardson,J. Richardson,10,96,10,Missed,1,,,0,v,MISS Richardson 10' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,24
+0022600136,35,PT09M15.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,25
+0022600136,36,PT09M13.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl S.FOUL (P1.T1) (S.Twardoski),Foul,Shooting,1,0,26
+0022600136,38,PT09M13.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,MISS Carter Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,27
+0022600136,39,PT09M13.00S,1,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Normal Rebound,1,0,28
+0022600136,40,PT09M13.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,7,5,12,v,Carter Jr. Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,29
+0022600136,41,PT09M03.00S,1,1610612753,ORL,1642859,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson P.FOUL (P2.T3) (E.Dalen),Foul,Personal,1,0,30
+0022600136,43,PT08M56.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl OFF.Foul (P2) (S.Twardoski),Foul,Offensive,1,0,31
+0022600136,45,PT08M56.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl Offensive Foul Turnover (P1.T2),Turnover,Offensive Foul Turnover,1,0,32
+0022600136,46,PT08M43.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,-7,72,7,Made,1,7,7,14,v,Wagner 7' Driving Floating Bank Jump Shot (3 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,33
+0022600136,47,PT08M43.00S,1,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter S.FOUL (P1.T2) (E.Dalen),Foul,Shooting,1,0,34
+0022600136,50,PT08M43.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,SUB: Murray-Boyles FOR Poeltl,Substitution,,0,0,35
+0022600136,51,PT08M43.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,7,8,15,v,Wagner Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,36
+0022600136,52,PT08M29.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,37
+0022600136,52,PT08M29.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner STEAL (1 STL),,,1,0,38
+0022600136,54,PT08M25.00S,1,1610612753,ORL,1641710,Black,A. Black,-1,-18,2,Made,1,7,10,17,v,Black 2' Running Layup (4 PTS) (Wagner 2 AST),Made Shot,Running Layup Shot,1,2,39
+0022600136,56,PT08M25.00S,1,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,40
+0022600136,57,PT08M16.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles OFF.Foul (P1) (E.Malloy),Foul,Offensive,1,0,41
+0022600136,59,PT08M16.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles Offensive Foul Turnover (P2.T4),Turnover,Offensive Foul Turnover,1,0,42
+0022600136,60,PT07M58.00S,1,1610612753,ORL,1641710,Black,A. Black,11,-5,1,Made,1,7,12,19,v,Black 1' Driving Layup (6 PTS) (Wagner 3 AST),Made Shot,Driving Layup Shot,1,2,43
+0022600136,62,PT07M47.00S,1,1610612753,ORL,1642859,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson S.FOUL (P3.T4) (E.Dalen),Foul,Shooting,1,0,44
+0022600136,64,PT07M47.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,MISS Barrett Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,45
+0022600136,65,PT07M47.00S,1,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Normal Rebound,1,0,46
+0022600136,68,PT07M47.00S,1,1610612753,ORL,1642859,Richardson,J. Richardson,0,0,0,,0,,,0,v,SUB: Carter FOR Richardson,Substitution,,0,0,47
+0022600136,66,PT07M47.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,8,12,20,h,Barrett Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,48
+0022600136,69,PT07M39.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,49
+0022600136,69,PT07M39.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett STEAL (1 STL),,,1,0,50
+0022600136,71,PT07M34.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,110,101,15,Missed,1,,,0,h,MISS Quickley 15' Running Jump Shot,Missed Shot,Running Jump Shot,1,2,51
+0022600136,72,PT07M34.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,52
+0022600136,73,PT07M23.00S,1,1610612753,ORL,1628975,Carter,J. Carter,-240,-34,24,Missed,1,,,0,v,MISS Carter 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,53
+0022600136,74,PT07M23.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,54
+0022600136,75,PT07M15.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,-8,208,21,Missed,1,,,0,h,MISS Barnes 21' Jump Shot,Missed Shot,Jump Shot,1,2,55
+0022600136,76,PT07M15.00S,1,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,Black REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,56
+0022600136,77,PT07M01.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,57
+0022600136,77,PT07M01.00S,1,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter STEAL (1 STL),,,1,0,58
+0022600136,79,PT06M57.00S,1,1610612761,TOR,1642266,Walter,J. Walter,0,5,1,Made,1,10,12,22,h,Walter 1' Running Dunk (2 PTS),Made Shot,Running Dunk Shot,1,2,59
+0022600136,83,PT06M49.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,SUB: Shead FOR Quickley,Substitution,,0,0,60
+0022600136,84,PT06M49.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,SUB: Battle FOR Barnes,Substitution,,0,0,61
+0022600136,86,PT06M49.00S,1,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,SUB: da Silva FOR Black,Substitution,,0,0,62
+0022600136,87,PT06M39.00S,1,1610612753,ORL,1628975,Carter,J. Carter,227,56,0,Made,1,10,15,25,v,Carter 3PT Step Back Jump Shot (3 PTS) (Carter Jr. 2 AST),Made Shot,Step Back Jump shot,1,3,63
+0022600136,142,PT06M25.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles Lost Ball Turnover (P3.T5),Turnover,Lost Ball,1,0,64
+0022600136,142,PT06M25.00S,1,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,Bane STEAL (1 STL),,,1,0,65
+0022600136,91,PT06M19.00S,1,1610612753,ORL,1630217,Bane,D. Bane,-154,183,24,Made,1,10,18,28,v,Bane 24' 3PT Running Jump Shot (3 PTS) (Carter 1 AST),Made Shot,Running Jump Shot,1,3,66
+0022600136,93,PT06M19.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles S.FOUL (P2.T3) (S.Twardoski),Foul,Shooting,1,0,67
+0022600136,96,PT06M19.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,SUB: Vucevic FOR Wagner,Substitution,,0,0,68
+0022600136,97,PT06M19.00S,1,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,10,19,29,v,Bane Free Throw 1 of 1 (4 PTS),Free Throw,Free Throw 1 of 1,1,0,69
+0022600136,98,PT06M08.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,19,39,4,Missed,1,,,0,h,MISS Murray-Boyles 4' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,70
+0022600136,99,PT06M08.00S,1,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,71
+0022600136,100,PT06M02.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,-36,112,12,Missed,1,,,0,h,MISS Barrett 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,72
+0022600136,101,PT06M02.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,73
+0022600136,102,PT05M52.00S,1,1610612753,ORL,1630217,Bane,D. Bane,57,95,11,Missed,1,,,0,v,MISS Bane 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,74
+0022600136,103,PT05M52.00S,1,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,1,0,75
+0022600136,108,PT05M50.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,SUB: Jackson-Davis FOR Murray-Boyles,Substitution,,0,0,76
+0022600136,109,PT05M38.00S,1,1610612761,TOR,1642347,Shead,J. Shead,-20,116,12,Missed,1,,,0,h,MISS Shead 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,77
+0022600136,110,PT05M38.00S,1,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,78
+0022600136,111,PT05M33.00S,1,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,-12,5,1,Missed,1,,,0,h,MISS Jackson-Davis 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,79
+0022600136,111,PT05M33.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic BLOCK (1 BLK),,,1,2,80
+0022600136,112,PT05M33.00S,1,1610612753,ORL,1641783,da Silva,T. da Silva,0,0,0,,0,,,0,v,da Silva REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,81
+0022600136,114,PT05M22.00S,1,1610612753,ORL,1630217,Bane,D. Bane,-105,234,26,Missed,1,,,0,v,MISS Bane 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,82
+0022600136,115,PT05M22.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,83
+0022600136,116,PT05M19.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett P.FOUL (P1.T4) (E.Malloy),Foul,Personal,1,0,84
+0022600136,118,PT05M17.00S,1,1610612753,ORL,1628975,Carter,J. Carter,-234,-31,24,Missed,1,,,0,v,MISS Carter 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,85
+0022600136,119,PT05M17.00S,1,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,86
+0022600136,120,PT05M05.00S,1,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,5,43,4,Missed,1,,,0,h,MISS Jackson-Davis 4' Layup,Missed Shot,Layup Shot,1,2,87
+0022600136,120,PT05M05.00S,1,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,Bane BLOCK (1 BLK),,,1,2,88
+0022600136,121,PT05M05.00S,1,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,Bane REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,89
+0022600136,123,PT04M56.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,56,234,24,Missed,1,,,0,v,MISS Vucevic 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,90
+0022600136,124,PT04M56.00S,1,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,91
+0022600136,125,PT04M44.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,-11,268,27,Made,1,13,19,32,h,Barrett 27' 3PT Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,3,92
+0022600136,126,PT04M30.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,-38,12,4,Made,1,13,21,34,v,Vucevic 4' Turnaround Hook Shot (2 PTS) (Bane 1 AST),Made Shot,Turnaround Hook Shot,1,2,93
+0022600136,128,PT04M19.00S,1,1610612761,TOR,1642266,Walter,J. Walter,-234,-8,0,Missed,1,,,0,h,MISS Walter 3PT Jump Shot,Missed Shot,Jump Shot,1,3,94
+0022600136,129,PT04M19.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,95
+0022600136,130,PT04M17.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,Made,1,15,21,36,h,Barrett Tip Layup Shot (6 PTS),Made Shot,Tip Layup Shot,1,2,96
+0022600136,131,PT04M17.00S,1,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,97
+0022600136,134,PT04M17.00S,1,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,SUB: Barnes FOR Walter,Substitution,,0,0,98
+0022600136,135,PT04M17.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,SUB: Quickley FOR Barrett,Substitution,,0,0,99
+0022600136,138,PT04M17.00S,1,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,SUB: Wagner FOR Bane,Substitution,,0,0,100
+0022600136,139,PT04M17.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,SUB: Cain FOR Carter Jr.,Substitution,,0,0,101
+0022600136,140,PT03M56.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,-55,42,7,Missed,1,,,0,v,MISS Wagner 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,102
+0022600136,141,PT03M56.00S,1,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,103
+0022600136,144,PT03M50.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,5,16,2,Missed,1,,,0,h,MISS Quickley 2' Running Layup,Missed Shot,Running Layup Shot,1,2,104
+0022600136,145,PT03M50.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,105
+0022600136,146,PT03M34.00S,1,1610612753,ORL,1631288,Cain,J. Cain,215,136,25,Missed,1,,,0,v,MISS Cain 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,106
+0022600136,147,PT03M34.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,107
+0022600136,148,PT03M25.00S,1,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,-42,93,10,Made,1,17,21,38,h,Jackson-Davis 10' Floating Jump Shot (2 PTS) (Shead 1 AST),Made Shot,Floating Jump shot,1,2,108
+0022600136,150,PT03M11.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner Lost Ball Turnover (P2.T3),Turnover,Lost Ball,1,0,109
+0022600136,150,PT03M11.00S,1,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,Battle STEAL (1 STL),,,1,0,110
+0022600136,152,PT03M06.00S,1,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,Battle Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,111
+0022600136,152,PT03M06.00S,1,1610612753,ORL,1631288,Cain,J. Cain,0,0,0,,0,,,0,v,Cain STEAL (1 STL),,,1,0,112
+0022600136,154,PT03M06.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner Lost Ball Turnover (P3.T4),Turnover,Lost Ball,1,0,113
+0022600136,154,PT03M06.00S,1,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead STEAL (1 STL),,,1,0,114
+0022600136,156,PT03M06.00S,1,1610612753,ORL,1628975,Carter,J. Carter,0,0,0,,0,,,0,v,Carter P.FOUL (P1.PN) (E.Malloy),Foul,Personal,1,0,115
+0022600136,158,PT03M06.00S,1,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,18,21,39,h,Shead Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,116
+0022600136,159,PT03M06.00S,1,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,19,21,40,h,Shead Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,117
+0022600136,160,PT02M52.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner Lost Ball Turnover (P4.T5),Turnover,Lost Ball,1,0,118
+0022600136,161,PT02M52.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner L.B.FOUL (P1.PN) (E.Dalen),Foul,Loose Ball,1,0,119
+0022600136,163,PT02M52.00S,1,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,20,21,41,h,Battle Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,120
+0022600136,164,PT02M52.00S,1,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,21,21,42,h,Battle Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,121
+0022600136,165,PT02M33.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,69,4,7,Missed,1,,,0,v,MISS Vucevic 7' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,122
+0022600136,166,PT02M33.00S,1,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,123
+0022600136,167,PT02M23.00S,1,1610612753,ORL,1628975,Carter,J. Carter,0,0,0,,0,,,0,v,Carter S.FOUL (P2.PN) (S.Twardoski),Foul,Shooting,1,0,124
+0022600136,169,PT02M23.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,22,21,43,h,Quickley Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,125
+0022600136,172,PT02M23.00S,1,1610612753,ORL,1628975,Carter,J. Carter,0,0,0,,0,,,0,v,SUB: Black FOR Carter,Substitution,,0,0,126
+0022600136,170,PT02M23.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,23,21,44,h,Quickley Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,127
+0022600136,173,PT02M15.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,2,-21,2,Made,1,23,23,46,v,Vucevic 2' Cutting Layup Shot (4 PTS) (Black 1 AST),Made Shot,Cutting Layup Shot,1,2,128
+0022600136,175,PT02M03.00S,1,1610612761,TOR,1642419,Battle,J. Battle,-229,110,25,Made,1,26,23,49,h,Battle 25' 3PT Jump Shot (5 PTS) (Shead 2 AST),Made Shot,Jump Shot,1,3,129
+0022600136,177,PT01M51.00S,1,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,Black Out of Bounds Lost Ball Turnover (P1.T6),Turnover,Out of Bounds Lost Ball Turnover,1,0,130
+0022600136,178,PT01M36.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,-235,3,24,Missed,1,,,0,h,MISS Barnes 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,131
+0022600136,179,PT01M36.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,132
+0022600136,180,PT01M26.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes S.FOUL (P1.PN) (E.Dalen),Foul,Shooting,1,0,133
+0022600136,182,PT01M26.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,26,24,50,v,Wagner Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,134
+0022600136,186,PT01M26.00S,1,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,SUB: Barrett FOR Shead,Substitution,,0,0,135
+0022600136,187,PT01M26.00S,1,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,SUB: Poeltl FOR Jackson-Davis,Substitution,,0,0,136
+0022600136,183,PT01M26.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,26,25,51,v,Wagner Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,137
+0022600136,188,PT01M11.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,-121,241,27,Made,1,29,25,54,h,Barrett 27' 3PT Jump Shot (9 PTS) (Quickley 2 AST),Made Shot,Jump Shot,1,3,138
+0022600136,190,PT00M57.80S,1,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,Black Bad Pass Turnover (P2.T7),Turnover,Bad Pass,1,0,139
+0022600136,190,PT00M57.80S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes STEAL (1 STL),,,1,0,140
+0022600136,192,PT00M52.10S,1,1610612761,TOR,1642419,Battle,J. Battle,-5,16,2,Missed,1,,,0,h,MISS Battle 2' Running Layup,Missed Shot,Running Layup Shot,1,2,141
+0022600136,193,PT00M52.10S,1,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,142
+0022600136,194,PT00M51.40S,1,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,Battle L.B.FOUL (P1.PN) (E.Dalen),Foul,Loose Ball,1,0,143
+0022600136,196,PT00M51.40S,1,1610612753,ORL,1641783,da Silva,T. da Silva,0,0,0,,0,,,0,v,MISS da Silva Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,144
+0022600136,197,PT00M51.40S,1,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Normal Rebound,1,0,145
+0022600136,198,PT00M51.40S,1,1610612753,ORL,1641783,da Silva,T. da Silva,0,0,0,,0,,,0,v,MISS da Silva Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,146
+0022600136,199,PT00M51.40S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,147
+0022600136,200,PT00M34.20S,1,1610612761,TOR,1629628,Barrett,R. Barrett,-146,234,28,Made,1,32,25,57,h,Barrett 28' 3PT Jump Shot (12 PTS) (Quickley 3 AST),Made Shot,Jump Shot,1,3,148
+0022600136,202,PT00M12.80S,1,1610612753,ORL,1631288,Cain,J. Cain,-236,-45,24,Missed,1,,,0,v,MISS Cain 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,149
+0022600136,202,PT00M12.80S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes BLOCK (1 BLK),,,1,3,150
+0022600136,203,PT00M12.80S,1,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,151
+0022600136,207,PT00M12.40S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,SUB: Shead FOR Poeltl,Substitution,,0,0,152
+0022600136,209,PT00M12.40S,1,1610612753,ORL,1631288,Cain,J. Cain,0,0,0,,0,,,0,v,SUB: Bane FOR Cain,Substitution,,0,0,153
+0022600136,210,PT00M12.40S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic OFF.Foul (P1) (S.Twardoski),Foul,Offensive,1,0,154
+0022600136,212,PT00M12.40S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic Offensive Foul Turnover (P1.T8),Turnover,Offensive Foul Turnover,1,0,155
+0022600136,215,PT00M12.40S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,SUB: Cain FOR Vucevic,Substitution,,0,0,156
+0022600136,216,PT00M12.40S,1,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,SUB: Carter Jr. FOR Bane,Substitution,,0,0,157
+0022600136,217,PT00M12.40S,1,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Violation: Delay of game Violation,Violation,Delay Of Game,0,0,158
+0022600136,218,PT00M00.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,-225,54,0,Missed,1,,,0,h,MISS Quickley 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,159
+0022600136,219,PT00M00.00S,1,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,0,0,160
+0022600136,220,PT00M00.00S,1,0,,0,,,0,0,0,,0,32,25,57,,End of 1st Period (8:13 PM EST),period,end,1,0,161
+0022600136,227,PT12M00.00S,2,0,,0,,,0,0,0,,0,32,25,57,,Start of 2nd Period (8:16 PM EST),period,start,0,0,162
+0022600136,230,PT11M40.00S,2,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,163
+0022600136,230,PT11M40.00S,2,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,Black STEAL (1 STL),,,1,0,164
+0022600136,232,PT11M32.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,-9,-6,1,Missed,1,,,0,v,MISS Wagner 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,165
+0022600136,233,PT11M32.00S,2,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,166
+0022600136,234,PT11M23.00S,2,1610612761,TOR,1630193,Quickley,I. Quickley,-120,285,31,Missed,1,,,0,h,MISS Quickley 31' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,167
+0022600136,235,PT11M23.00S,2,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,Bane REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,168
+0022600136,236,PT11M14.00S,2,1610612753,ORL,1641783,da Silva,T. da Silva,-2,-29,3,Made,1,32,27,59,v,da Silva 3' Running Layup (2 PTS) (Bane 2 AST),Made Shot,Running Layup Shot,1,2,169
+0022600136,238,PT10M57.00S,2,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves Step Out of Bounds Turnover (P1.T8),Turnover,Step Out of Bounds Turnover,1,0,170
+0022600136,239,PT10M46.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,3,-6,1,Made,1,32,29,61,v,Wagner 1' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,171
+0022600136,240,PT10M46.00S,2,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,172
+0022600136,241,PT10M31.00S,2,1610612761,TOR,1630193,Quickley,I. Quickley,-4,126,13,Missed,1,,,0,h,MISS Quickley 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,173
+0022600136,242,PT10M31.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,174
+0022600136,243,PT10M22.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner Lost Ball Turnover (P5.T9),Turnover,Lost Ball,1,0,175
+0022600136,243,PT10M22.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes STEAL (2 STL),,,1,0,176
+0022600136,245,PT10M17.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes Out of Bounds - Bad Pass Turnover Turnover (P2.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,177
+0022600136,246,PT10M10.00S,2,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl P.FOUL (P3.T1) (E.Dalen),Foul,Personal,1,0,178
+0022600136,251,PT10M10.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,SUB: Shead FOR Barnes,Substitution,,0,0,179
+0022600136,252,PT10M10.00S,2,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,SUB: Barrett FOR Poeltl,Substitution,,0,0,180
+0022600136,253,PT10M10.00S,2,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,SUB: Murray-Boyles FOR Quickley,Substitution,,0,0,181
+0022600136,255,PT10M10.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,SUB: Vucevic FOR Wagner,Substitution,,0,0,182
+0022600136,256,PT10M04.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. OFF.Foul (P2) (E.Malloy),Foul,Offensive,1,0,183
+0022600136,258,PT10M04.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. Offensive Foul Turnover (P2.T10),Turnover,Offensive Foul Turnover,1,0,184
+0022600136,259,PT09M52.00S,2,1610612761,TOR,1642266,Walter,J. Walter,-234,67,24,Missed,1,,,0,h,MISS Walter 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,185
+0022600136,260,PT09M52.00S,2,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,1,0,186
+0022600136,262,PT09M44.00S,2,1610612761,TOR,1642347,Shead,J. Shead,-191,199,28,Missed,1,,,0,h,MISS Shead 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,187
+0022600136,263,PT09M44.00S,2,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,188
+0022600136,264,PT09M42.00S,2,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,Bane S.FOUL (P1.T1) (E.Dalen),Foul,Shooting,1,0,189
+0022600136,266,PT09M42.00S,2,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,MISS Graves Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,190
+0022600136,267,PT09M42.00S,2,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Normal Rebound,0,0,191
+0022600136,268,PT09M42.00S,2,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,33,29,62,h,Graves Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,192
+0022600136,269,PT09M28.00S,2,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,Black Bad Pass Turnover (P3.T11),Turnover,Bad Pass,1,0,193
+0022600136,269,PT09M28.00S,2,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves STEAL (1 STL),,,1,0,194
+0022600136,271,PT09M24.00S,2,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,Missed,1,,,0,h,MISS Graves Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,195
+0022600136,272,PT09M24.00S,2,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,0,0,196
+0022600136,274,PT09M22.00S,2,1610612761,TOR,1642266,Walter,J. Walter,3,2,0,Made,1,35,29,64,h,Walter Layup (4 PTS) (Shead 3 AST),Made Shot,Layup Shot,1,2,197
+0022600136,276,PT09M19.00S,2,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead P.FOUL (P1.T2) (E.Malloy),Foul,Personal,1,0,198
+0022600136,278,PT08M59.00S,2,1610612753,ORL,1630217,Bane,D. Bane,177,183,25,Missed,1,,,0,v,MISS Bane 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,199
+0022600136,279,PT08M59.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,200
+0022600136,280,PT08M57.00S,2,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves S.FOUL (P1.T3) (E.Dalen),Foul,Shooting,1,0,201
+0022600136,282,PT08M57.00S,2,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,MISS Vucevic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,202
+0022600136,283,PT08M57.00S,2,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Normal Rebound,0,0,203
+0022600136,284,PT08M57.00S,2,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,35,30,65,v,Vucevic Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,204
+0022600136,285,PT08M46.00S,2,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Magic T.Foul (Def. 3 Sec Vucevic ) (E.Dalen),Foul,Defense 3 Second,1,0,205
+0022600136,286,PT08M46.00S,2,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,36,30,66,h,Walter Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,206
+0022600136,287,PT08M44.00S,2,1610612761,TOR,1642266,Walter,J. Walter,144,234,27,Made,1,39,30,69,h,Walter 27' 3PT Jump Bank Shot (8 PTS) (Barrett 1 AST),Made Shot,Jump Bank Shot,1,3,207
+0022600136,289,PT08M27.00S,2,1610612753,ORL,1630217,Bane,D. Bane,-228,63,24,Missed,1,,,0,v,MISS Bane 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,208
+0022600136,290,PT08M27.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,209
+0022600136,291,PT08M20.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,-18,272,27,Missed,1,,,0,h,MISS Barrett 27' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,210
+0022600136,292,PT08M20.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,211
+0022600136,293,PT08M16.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,-19,255,26,Missed,1,,,0,h,MISS Barrett 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,212
+0022600136,294,PT08M16.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,213
+0022600136,297,PT08M04.00S,2,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,SUB: Carter FOR Black,Substitution,,0,0,214
+0022600136,298,PT08M02.00S,2,1610612753,ORL,1630217,Bane,D. Bane,225,-15,0,Missed,1,,,0,v,MISS Bane 3PT Jump Shot,Missed Shot,Jump Shot,1,3,215
+0022600136,299,PT08M02.00S,2,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,216
+0022600136,300,PT07M55.00S,2,1610612753,ORL,1641783,da Silva,T. da Silva,-96,230,25,Made,1,39,33,72,v,da Silva 25' 3PT Jump Shot (5 PTS) (Vucevic 1 AST),Made Shot,Jump Shot,1,3,217
+0022600136,301,PT07M43.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,8,1,Made,1,41,33,74,h,Murray-Boyles 1' Cutting Dunk Shot (2 PTS) (Barrett 2 AST),Made Shot,Cutting Dunk Shot,1,2,218
+0022600136,303,PT07M29.00S,2,1610612753,ORL,1641783,da Silva,T. da Silva,232,-9,0,Made,1,41,36,77,v,da Silva 3PT Jump Shot (8 PTS) (Carter 2 AST),Made Shot,Jump Shot,1,3,219
+0022600136,305,PT07M29.00S,2,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves S.FOUL (P2.T4) (E.Dalen),Foul,Shooting,1,0,220
+0022600136,307,PT07M29.00S,2,1610612753,ORL,1641783,da Silva,T. da Silva,0,0,0,,0,,,0,v,MISS da Silva Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,221
+0022600136,308,PT07M29.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,222
+0022600136,310,PT07M18.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,-27,5,3,Made,1,43,36,79,h,Barrett 3' Driving Layup (14 PTS),Made Shot,Driving Layup Shot,1,2,223
+0022600136,311,PT06M59.00S,2,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter S.FOUL (P2.PN) (S.Twardoski),Foul,Shooting,1,0,224
+0022600136,313,PT06M59.00S,2,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,43,37,80,v,Bane Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,225
+0022600136,316,PT06M59.00S,2,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,SUB: Battle FOR Walter,Substitution,,0,0,226
+0022600136,314,PT06M59.00S,2,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,43,38,81,v,Bane Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,227
+0022600136,317,PT06M47.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,-5,11,1,Made,1,45,38,83,h,Barrett 1' Driving Layup (16 PTS),Made Shot,Driving Layup Shot,1,2,228
+0022600136,318,PT06M46.00S,2,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,229
+0022600136,321,PT06M46.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,SUB: Wagner FOR Carter Jr.,Substitution,,0,0,230
+0022600136,322,PT06M46.00S,2,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,SUB: Bitadze FOR Vucevic,Substitution,,0,0,231
+0022600136,323,PT06M29.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,-1,-25,3,Made,1,45,40,85,v,Wagner 3' Driving Finger Roll Layup (9 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,232
+0022600136,324,PT06M17.00S,2,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,233
+0022600136,324,PT06M17.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner STEAL (2 STL),,,1,0,234
+0022600136,326,PT06M07.00S,2,1610612753,ORL,1629048,Bitadze,G. Bitadze,-3,-18,2,Made,1,45,42,87,v,Bitadze 2' Dunk (2 PTS) (da Silva 1 AST),Made Shot,Dunk Shot,1,2,235
+0022600136,328,PT05M55.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,24,272,27,Made,1,48,42,90,h,Murray-Boyles 27' 3PT Jump Shot (5 PTS) (Shead 4 AST),Made Shot,Jump Shot,1,3,236
+0022600136,330,PT05M54.00S,2,1610612753,ORL,1641783,da Silva,T. da Silva,0,0,0,,0,,,0,v,da Silva L.B.FOUL (P1.T2) (E.Dalen),Foul,Loose Ball,1,0,237
+0022600136,334,PT05M54.00S,2,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,SUB: Barnes FOR Graves,Substitution,,0,0,238
+0022600136,335,PT05M54.00S,2,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,49,42,91,h,Battle Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,239
+0022600136,336,PT05M39.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner Lost Ball Turnover (P6.T12),Turnover,Lost Ball,1,0,240
+0022600136,336,PT05M39.00S,2,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,Battle STEAL (2 STL),,,1,0,241
+0022600136,338,PT05M35.00S,2,1610612761,TOR,1642347,Shead,J. Shead,-5,9,1,Made,1,51,42,93,h,Shead 1' Running Layup (4 PTS) (Murray-Boyles 1 AST),Made Shot,Running Layup Shot,1,2,242
+0022600136,340,PT05M23.00S,2,1610612753,ORL,1630217,Bane,D. Bane,-17,1,2,Missed,1,,,0,v,MISS Bane 2' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,243
+0022600136,341,PT05M23.00S,2,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,Bane REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,244
+0022600136,342,PT05M21.00S,2,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,Made,1,51,44,95,v,Bane Tip Layup Shot (8 PTS),Made Shot,Tip Layup Shot,1,2,245
+0022600136,343,PT05M00.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,-1,6,1,Made,1,53,44,97,h,Barrett 1' Cutting Layup Shot (18 PTS) (Shead 5 AST),Made Shot,Cutting Layup Shot,1,2,246
+0022600136,345,PT04M35.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,-142,193,24,Missed,1,,,0,v,MISS Wagner 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,247
+0022600136,346,PT04M35.00S,2,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,1,0,248
+0022600136,347,PT04M34.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett L.B.FOUL (P2.PN) (E.Dalen),Foul,Loose Ball,1,0,249
+0022600136,349,PT04M34.00S,2,1610612753,ORL,1629048,Bitadze,G. Bitadze,0,0,0,,0,53,45,98,v,Bitadze Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,250
+0022600136,353,PT04M34.00S,2,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,SUB: Quickley FOR Shead,Substitution,,0,0,251
+0022600136,354,PT04M34.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,SUB: Walter FOR Barrett,Substitution,,0,0,252
+0022600136,356,PT04M34.00S,2,1610612753,ORL,1641783,da Silva,T. da Silva,0,0,0,,0,,,0,v,SUB: Black FOR da Silva,Substitution,,0,0,253
+0022600136,350,PT04M34.00S,2,1610612753,ORL,1629048,Bitadze,G. Bitadze,0,0,0,,0,53,46,99,v,Bitadze Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,254
+0022600136,357,PT04M18.00S,2,1610612753,ORL,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,Bitadze S.FOUL (P1.T3) (E.Malloy),Foul,Shooting,1,0,255
+0022600136,359,PT04M18.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,54,46,100,h,Murray-Boyles Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,256
+0022600136,360,PT04M18.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,55,46,101,h,Murray-Boyles Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,257
+0022600136,361,PT03M55.00S,2,1610612753,ORL,1628975,Carter,J. Carter,0,0,0,,0,,,0,v,Carter Bad Pass Turnover (P1.T13),Turnover,Bad Pass,1,0,258
+0022600136,361,PT03M55.00S,2,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley STEAL (1 STL),,,1,0,259
+0022600136,363,PT03M46.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,-108,250,27,Missed,1,,,0,h,MISS Murray-Boyles 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,260
+0022600136,364,PT03M46.00S,2,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,261
+0022600136,367,PT03M44.00S,2,1610612753,ORL,1628975,Carter,J. Carter,0,0,0,,0,,,0,v,SUB: da Silva FOR Carter,Substitution,,0,0,262
+0022600136,368,PT03M32.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles S.FOUL (P3.PN) (E.Dalen),Foul,Shooting,1,0,263
+0022600136,370,PT03M32.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,55,47,102,v,Wagner Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,264
+0022600136,373,PT03M32.00S,2,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,SUB: Barrett FOR Battle,Substitution,,0,0,265
+0022600136,371,PT03M32.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,55,48,103,v,Wagner Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,266
+0022600136,374,PT03M17.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,-232,-5,0,Missed,1,,,0,h,MISS Barnes 3PT Jump Shot,Missed Shot,Jump Shot,1,3,267
+0022600136,375,PT03M17.00S,2,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,Black REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,268
+0022600136,376,PT03M07.00S,2,1610612753,ORL,1641710,Black,A. Black,-27,98,10,Missed,1,,,0,v,MISS Black 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,269
+0022600136,377,PT03M07.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,270
+0022600136,378,PT03M03.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,1,10,1,Made,1,57,48,105,h,Barrett 1' Running Finger Roll Layup (21 PTS) (Barnes 2 AST),Made Shot,Running Finger Roll Layup Shot,1,2,271
+0022600136,380,PT03M03.00S,2,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,Bane S.FOUL (P2.T4) (E.Dalen),Foul,Shooting,1,0,272
+0022600136,419,PT03M03.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,SUB: Shead FOR Murray-Boyles,Substitution,,0,0,273
+0022600136,382,PT03M03.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,58,48,106,h,Barrett Free Throw 1 of 1 (21 PTS),Free Throw,Free Throw 1 of 1,1,0,274
+0022600136,383,PT02M46.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner Bad Pass Turnover (P7.T14),Turnover,Bad Pass,1,0,275
+0022600136,383,PT02M46.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes STEAL (3 STL),,,1,0,276
+0022600136,385,PT02M43.00S,2,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,Black S.FOUL (P1.PN) (S.Twardoski),Foul,Shooting,1,0,277
+0022600136,387,PT02M43.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,59,48,107,h,Barnes Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,278
+0022600136,390,PT02M43.00S,2,1610612753,ORL,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,SUB: Carter Jr. FOR Bitadze,Substitution,,0,0,279
+0022600136,388,PT02M43.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,60,48,108,h,Barnes Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,280
+0022600136,393,PT02M21.00S,2,1610612753,ORL,1630217,Bane,D. Bane,-236,-30,24,Made,1,60,51,111,v,Bane 24' 3PT Jump Shot (11 PTS),Made Shot,Jump Shot,1,3,281
+0022600136,394,PT01M55.00S,2,1610612761,TOR,1642347,Shead,J. Shead,-111,90,14,Made,1,62,51,113,h,Shead 14' Pullup Jump Shot (6 PTS) (Quickley 4 AST),Made Shot,Pullup Jump shot,1,2,282
+0022600136,396,PT01M45.00S,2,1610612753,ORL,1630217,Bane,D. Bane,-189,150,24,Missed,1,,,0,v,MISS Bane 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,283
+0022600136,397,PT01M45.00S,2,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,284
+0022600136,398,PT01M37.00S,2,1610612761,TOR,1630193,Quickley,I. Quickley,151,217,26,Made,1,65,51,116,h,Quickley 26' 3PT Jump Shot (8 PTS) (Walter 1 AST),Made Shot,Jump Shot,1,3,285
+0022600136,400,PT01M19.00S,2,1610612753,ORL,1641710,Black,A. Black,13,95,10,Missed,1,,,0,v,MISS Black 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,286
+0022600136,401,PT01M19.00S,2,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,287
+0022600136,402,PT01M11.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,0,17,2,Made,1,67,51,118,h,Barnes 2' Running Dunk (8 PTS) (Barrett 3 AST),Made Shot,Running Dunk Shot,1,2,288
+0022600136,403,PT01M10.00S,2,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,289
+0022600136,407,PT01M10.00S,2,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,SUB: Carter FOR Black,Substitution,,0,0,290
+0022600136,408,PT00M55.80S,2,1610612753,ORL,1641783,da Silva,T. da Silva,55,51,8,Made,1,67,53,120,v,da Silva 8' Driving Floating Jump Shot (10 PTS),Made Shot,Driving Floating Jump Shot,1,2,291
+0022600136,409,PT00M36.40S,2,1610612761,TOR,1630567,Barnes,S. Barnes,-20,184,19,Made,1,69,53,122,h,Barnes 19' Jump Shot (10 PTS) (Quickley 5 AST),Made Shot,Jump Shot,1,2,292
+0022600136,411,PT00M21.70S,2,1610612753,ORL,1630217,Bane,D. Bane,-5,-23,2,Missed,1,,,0,v,MISS Bane 2' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,293
+0022600136,412,PT00M21.70S,2,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,0,0,294
+0022600136,415,PT00M01.60S,2,1610612761,TOR,1630193,Quickley,I. Quickley,-65,139,15,Missed,1,,,0,h,MISS Quickley 15' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,295
+0022600136,416,PT00M01.60S,2,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,1,0,296
+0022600136,417,PT00M00.00S,2,0,,0,,,0,0,0,,0,69,53,122,,End of 2nd Period (8:47 PM EST),period,end,1,0,297
+0022600136,426,PT12M00.00S,3,0,,0,,,0,0,0,,0,69,53,122,,Start of 3rd Period (9:03 PM EST),period,start,1,0,298
+0022600136,427,PT11M41.00S,3,1610612761,TOR,1642266,Walter,J. Walter,-93,224,24,Made,1,72,53,125,h,Walter 24' 3PT Jump Shot (11 PTS) (Barrett 4 AST),Made Shot,Jump Shot,1,3,299
+0022600136,429,PT11M17.00S,3,1610612753,ORL,1641710,Black,A. Black,-174,199,26,Missed,1,,,0,v,MISS Black 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,300
+0022600136,430,PT11M17.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,301
+0022600136,431,PT10M58.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,-4,-18,2,Missed,1,,,0,h,MISS Barrett 2' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,302
+0022600136,432,PT10M58.00S,3,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,Bane REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,303
+0022600136,433,PT10M44.00S,3,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl P.FOUL (P4.T1) (E.Dalen),Foul,Personal,1,0,304
+0022600136,435,PT10M32.00S,3,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,81,25,8,Missed,1,,,0,v,MISS Carter Jr. 8' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,305
+0022600136,436,PT10M32.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,306
+0022600136,437,PT10M24.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,16,79,8,Made,1,74,53,127,h,Barnes 8' Turnaround Jump Shot (13 PTS),Made Shot,Turnaround Jump Shot,1,2,307
+0022600136,438,PT10M24.00S,3,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,Black S.FOUL (P2.T1) (E.Dalen),Foul,Shooting,1,0,308
+0022600136,440,PT10M24.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,75,53,128,h,Barnes Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,1,0,309
+0022600136,441,PT10M07.00S,3,1610612753,ORL,1641710,Black,A. Black,236,3,24,Missed,1,,,0,v,MISS Black 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,310
+0022600136,442,PT10M07.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,311
+0022600136,443,PT09M57.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,38,-13,4,Made,1,77,53,130,h,Barnes 4' Driving Hook Shot (15 PTS) (Quickley 6 AST),Made Shot,Driving Hook Shot,1,2,312
+0022600136,445,PT09M57.00S,3,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,313
+0022600136,446,PT09M41.00S,3,1610612753,ORL,1642859,Richardson,J. Richardson,233,16,0,Made,1,77,56,133,v,Richardson 3PT Jump Shot (3 PTS) (Wagner 4 AST),Made Shot,Jump Shot,1,3,314
+0022600136,448,PT09M21.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,192,143,24,Made,1,80,56,136,h,Quickley 24' 3PT Jump Shot (11 PTS) (Barrett 5 AST),Made Shot,Jump Shot,1,3,315
+0022600136,450,PT08M56.00S,3,1610612753,ORL,1642859,Richardson,J. Richardson,-184,190,26,Missed,1,,,0,v,MISS Richardson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,316
+0022600136,451,PT08M56.00S,3,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,317
+0022600136,452,PT08M44.00S,3,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,Black P.FOUL (P3.T2) (S.Twardoski),Foul,Personal,1,0,318
+0022600136,454,PT08M33.00S,3,1610612761,TOR,1627751,Poeltl,J. Poeltl,-36,49,6,Made,1,82,56,138,h,Poeltl 6' Floating Jump Shot (2 PTS) (Barnes 3 AST),Made Shot,Floating Jump shot,1,2,319
+0022600136,456,PT08M08.00S,3,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl P.FOUL (P5.T2) (E.Malloy),Foul,Personal,1,0,320
+0022600136,459,PT08M08.00S,3,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,SUB: Murray-Boyles FOR Poeltl,Substitution,,0,0,321
+0022600136,461,PT08M08.00S,3,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,SUB: da Silva FOR Black,Substitution,,0,0,322
+0022600136,462,PT08M02.00S,3,1610612753,ORL,1630217,Bane,D. Bane,-83,159,18,Missed,1,,,0,v,MISS Bane 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,323
+0022600136,463,PT08M02.00S,3,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,324
+0022600136,464,PT07M56.00S,3,1610612753,ORL,1630532,Wagner,F. Wagner,101,232,25,Missed,1,,,0,v,MISS Wagner 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,325
+0022600136,465,PT07M56.00S,3,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,326
+0022600136,466,PT07M47.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,-28,95,10,Missed,1,,,0,h,MISS Barrett 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,327
+0022600136,467,PT07M47.00S,3,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,328
+0022600136,468,PT07M28.00S,3,1610612753,ORL,1641783,da Silva,T. da Silva,-6,279,28,Missed,1,,,0,v,MISS da Silva 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,329
+0022600136,469,PT07M28.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,330
+0022600136,470,PT07M19.00S,3,1610612761,TOR,1642266,Walter,J. Walter,232,11,0,Missed,1,,,0,h,MISS Walter 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,331
+0022600136,471,PT07M19.00S,3,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,Bane REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,332
+0022600136,472,PT07M09.00S,3,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles P.FOUL (P4.T3) (E.Dalen),Foul,Personal,1,0,333
+0022600136,477,PT07M09.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,SUB: Battle FOR Barnes,Substitution,,0,0,334
+0022600136,478,PT07M09.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,SUB: Shead FOR Quickley,Substitution,,0,0,335
+0022600136,479,PT07M09.00S,3,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,SUB: Jackson-Davis FOR Murray-Boyles,Substitution,,0,0,336
+0022600136,481,PT07M09.00S,3,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,SUB: Vucevic FOR Carter Jr.,Substitution,,0,0,337
+0022600136,482,PT07M04.00S,3,1610612753,ORL,1642859,Richardson,J. Richardson,-232,-16,0,Made,1,82,59,141,v,Richardson 3PT Jump Shot (6 PTS) (Vucevic 2 AST),Made Shot,Jump Shot,1,3,338
+0022600136,484,PT06M41.00S,3,1610612761,TOR,1642347,Shead,J. Shead,152,45,16,Made,1,84,59,143,h,Shead 16' Step Back Jump Shot (8 PTS),Made Shot,Step Back Jump shot,1,2,339
+0022600136,485,PT06M26.00S,3,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter P.FOUL (P3.T4) (E.Malloy),Foul,Personal,1,0,340
+0022600136,487,PT06M19.00S,3,1610612753,ORL,1630532,Wagner,F. Wagner,-7,42,4,Made,1,84,61,145,v,Wagner 4' Driving Finger Roll Layup (13 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,341
+0022600136,488,PT06M19.00S,3,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter S.FOUL (P4.PN) (S.Twardoski),Foul,Shooting,1,0,342
+0022600136,491,PT06M19.00S,3,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,343
+0022600136,493,PT06M19.00S,3,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,SUB: Graves FOR Walter,Substitution,,0,0,344
+0022600136,490,PT06M19.00S,3,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,MISS Wagner Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,345
+0022600136,494,PT06M19.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,346
+0022600136,495,PT05M56.00S,3,1610612761,TOR,1643512,Graves,A. Graves,-236,50,24,Missed,1,,,0,h,MISS Graves 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,347
+0022600136,496,PT05M56.00S,3,1610612753,ORL,1642859,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,348
+0022600136,497,PT05M49.00S,3,1610612753,ORL,1642859,Richardson,J. Richardson,-9,96,10,Made,1,84,63,147,v,Richardson 10' Running Pull-Up Jump Shot (8 PTS),Made Shot,Running Pull-Up Jump Shot,1,2,349
+0022600136,498,PT05M37.00S,3,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead Out of Bounds - Bad Pass Turnover Turnover (P2.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,350
+0022600136,500,PT05M13.00S,3,1610612753,ORL,1642859,Richardson,J. Richardson,23,121,12,Made,1,84,65,149,v,Richardson 12' Pullup Jump Shot (10 PTS) (Bane 3 AST),Made Shot,Pullup Jump shot,1,2,351
+0022600136,502,PT04M52.00S,3,1610612761,TOR,1642347,Shead,J. Shead,-140,198,24,Made,1,87,65,152,h,Shead 24' 3PT Jump Shot (11 PTS) (Battle 1 AST),Made Shot,Jump Shot,1,3,352
+0022600136,504,PT04M41.00S,3,1610612753,ORL,1642859,Richardson,J. Richardson,-21,95,10,Missed,1,,,0,v,MISS Richardson 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,353
+0022600136,505,PT04M41.00S,3,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,354
+0022600136,506,PT04M34.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,7,-2,1,Made,1,89,65,154,h,Barrett 1' Running Reverse Layup (23 PTS) (Shead 6 AST),Made Shot,Running Reverse Layup Shot,1,2,355
+0022600136,508,PT04M22.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett S.FOUL (P3.PN) (S.Twardoski),Foul,Shooting,1,0,356
+0022600136,510,PT04M22.00S,3,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,89,66,155,v,Bane Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,357
+0022600136,513,PT04M22.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,SUB: Barnes FOR Barrett,Substitution,,0,0,358
+0022600136,515,PT04M22.00S,3,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,SUB: Cain FOR Wagner,Substitution,,0,0,359
+0022600136,511,PT04M22.00S,3,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,89,67,156,v,Bane Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,360
+0022600136,516,PT04M05.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,-19,2,Made,1,91,67,158,h,Barnes 2' Layup (17 PTS) (Jackson-Davis 1 AST),Made Shot,Layup Shot,1,2,361
+0022600136,518,PT03M55.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,125,243,27,Missed,1,,,0,v,MISS Vucevic 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,362
+0022600136,519,PT03M55.00S,3,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,363
+0022600136,520,PT03M46.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,45,20,5,Made,1,93,67,160,h,Barnes 5' Running Layup (19 PTS) (Shead 7 AST),Made Shot,Running Layup Shot,1,2,364
+0022600136,522,PT03M25.00S,3,1610612753,ORL,1642859,Richardson,J. Richardson,-23,14,3,Missed,1,,,0,v,MISS Richardson 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,365
+0022600136,523,PT03M25.00S,3,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,366
+0022600136,524,PT03M20.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,21,7,2,Made,1,95,67,162,h,Barnes 2' Running Jump Shot (21 PTS) (Jackson-Davis 2 AST),Made Shot,Running Jump Shot,1,2,367
+0022600136,526,PT03M09.00S,3,1610612753,ORL,1631288,Cain,J. Cain,-8,112,11,Made,1,95,69,164,v,Cain 11' Turnaround Jump Shot (2 PTS) (Bane 4 AST),Made Shot,Turnaround Jump Shot,1,2,368
+0022600136,527,PT03M02.00S,3,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead Out of Bounds - Bad Pass Turnover Turnover (P3.T12),Turnover,Out of Bounds - Bad Pass Turnover,1,0,369
+0022600136,529,PT03M02.00S,3,1610612753,ORL,1642859,Richardson,J. Richardson,0,0,0,,0,,,0,v,SUB: Black FOR Richardson,Substitution,,0,0,370
+0022600136,530,PT03M02.00S,3,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,371
+0022600136,531,PT03M02.00S,3,0,,0,,,0,0,0,,0,95,69,164,,Instant Replay3rd Period (9:23 PM EST),Instant Replay,Coach Challenge Support Ruling,0,0,372
+0022600136,533,PT03M02.00S,3,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,SUB: Quickley FOR Shead,Substitution,,0,0,373
+0022600136,535,PT03M02.00S,3,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,SUB: Wagner FOR Bane,Substitution,,0,0,374
+0022600136,536,PT02M50.00S,3,1610612753,ORL,1641783,da Silva,T. da Silva,-115,237,26,Made,1,95,72,167,v,da Silva 26' 3PT Turnaround Jump Shot (13 PTS) (Wagner 5 AST),Made Shot,Turnaround Jump Shot,1,3,375
+0022600136,538,PT02M26.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,-12,-13,2,Made,1,97,72,169,h,Barnes 2' Layup (24 PTS),Made Shot,Layup Shot,1,2,376
+0022600136,539,PT02M26.00S,3,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,Black S.FOUL (P4.T3) (E.Dalen),Foul,Shooting,1,0,377
+0022600136,541,PT02M26.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,98,72,170,h,Barnes Free Throw 1 of 1 (24 PTS),Free Throw,Free Throw 1 of 1,0,0,378
+0022600136,542,PT02M14.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes P.FOUL (P2.PN) (S.Twardoski),Foul,Personal,1,0,379
+0022600136,544,PT02M14.00S,3,1610612753,ORL,1631288,Cain,J. Cain,0,0,0,,0,98,73,171,v,Cain Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,380
+0022600136,545,PT02M14.00S,3,1610612753,ORL,1631288,Cain,J. Cain,0,0,0,,0,98,74,172,v,Cain Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,381
+0022600136,546,PT01M58.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,8,119,12,Missed,1,,,0,h,MISS Quickley 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,382
+0022600136,547,PT01M58.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,383
+0022600136,548,PT01M39.00S,3,1610612753,ORL,1641710,Black,A. Black,-4,12,1,Made,1,98,76,174,v,Black 1' Jump Bank Shot (8 PTS),Made Shot,Jump Bank Shot,1,2,384
+0022600136,549,PT01M26.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,234,-26,24,Made,1,101,76,177,h,Quickley 24' 3PT Jump Shot (14 PTS) (Barnes 4 AST),Made Shot,Jump Shot,1,3,385
+0022600136,551,PT01M12.00S,3,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,Black Lost Ball Turnover (P4.T15),Turnover,Lost Ball,1,0,386
+0022600136,551,PT01M12.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley STEAL (2 STL),,,1,0,387
+0022600136,553,PT01M06.00S,3,1610612761,TOR,1642419,Battle,J. Battle,220,102,24,Missed,1,,,0,h,MISS Battle 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,388
+0022600136,554,PT01M06.00S,3,1610612753,ORL,1641783,da Silva,T. da Silva,0,0,0,,0,,,0,v,da Silva REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,389
+0022600136,555,PT00M52.60S,3,1610612753,ORL,1631288,Cain,J. Cain,5,54,5,Missed,1,,,0,v,MISS Cain 5' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,390
+0022600136,556,PT00M52.60S,3,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,391
+0022600136,557,PT00M37.40S,3,1610612753,ORL,1631288,Cain,J. Cain,0,0,0,,0,,,0,v,Cain P.FOUL (P1.T4) (E.Dalen),Foul,Personal,1,0,392
+0022600136,560,PT00M37.40S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,SUB: Carter Jr. FOR Vucevic,Substitution,,0,0,393
+0022600136,561,PT00M32.70S,3,1610612761,TOR,1630567,Barnes,S. Barnes,-142,53,15,Made,1,103,76,179,h,Barnes 15' Pullup Jump Shot (26 PTS) (Quickley 7 AST),Made Shot,Pullup Jump shot,1,2,394
+0022600136,563,PT00M20.70S,3,1610612753,ORL,1641783,da Silva,T. da Silva,14,14,2,Missed,1,,,0,v,MISS da Silva 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,395
+0022600136,563,PT00M20.70S,3,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis BLOCK (1 BLK),,,1,2,396
+0022600136,564,PT00M20.70S,3,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,397
+0022600136,566,PT00M00.40S,3,1610612761,TOR,1630193,Quickley,I. Quickley,156,249,29,Missed,1,,,0,h,MISS Quickley 29' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,398
+0022600136,566,PT00M00.40S,3,1610612753,ORL,1641710,Black,A. Black,0,0,0,,0,,,0,v,Black BLOCK (1 BLK),,,1,3,399
+0022600136,567,PT00M00.40S,3,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,0,0,400
+0022600136,569,PT00M00.00S,3,0,,0,,,0,0,0,,0,103,76,179,,End of 3rd Period (9:30 PM EST),period,end,1,0,401
+0022600136,580,PT12M00.00S,4,0,,0,,,0,0,0,,0,103,76,179,,Start of 4th Period (9:33 PM EST),period,start,0,0,402
+0022600136,581,PT11M49.00S,4,1610612753,ORL,1641783,da Silva,T. da Silva,-4,5,1,Made,1,103,78,181,v,da Silva 1' Alley Oop Dunk (15 PTS) (Carter Jr. 3 AST),Made Shot,Alley Oop Dunk Shot,1,2,403
+0022600136,583,PT11M27.00S,4,1610612761,TOR,1630567,Barnes,S. Barnes,78,171,19,Missed,1,,,0,h,MISS Barnes 19' Jump Shot,Missed Shot,Jump Shot,1,2,404
+0022600136,584,PT11M27.00S,4,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,0,0,405
+0022600136,585,PT11M26.00S,4,1610612753,ORL,1641783,da Silva,T. da Silva,0,0,0,,0,,,0,v,da Silva L.B.FOUL (P2.T1) (E.Dalen),Foul,Loose Ball,1,0,406
+0022600136,587,PT11M16.00S,4,1610612753,ORL,1642859,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson S.FOUL (P4.T2) (S.Twardoski),Foul,Shooting,1,0,407
+0022600136,589,PT11M16.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,104,78,182,h,Barrett Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,1,0,408
+0022600136,590,PT11M16.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,105,78,183,h,Barrett Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,1,0,409
+0022600136,591,PT11M01.00S,4,1610612753,ORL,1641783,da Silva,T. da Silva,-32,295,30,Made,1,105,81,186,v,da Silva 30' 3PT Jump Shot (18 PTS) (Richardson 1 AST),Made Shot,Jump Shot,1,3,410
+0022600136,593,PT10M49.00S,4,1610612753,ORL,1642859,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson S.FOUL (P5.T3) (E.Malloy),Foul,Shooting,1,0,411
+0022600136,595,PT10M49.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,106,81,187,h,Shead Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,412
+0022600136,598,PT10M49.00S,4,1610612753,ORL,1642859,Richardson,J. Richardson,0,0,0,,0,,,0,v,SUB: Carter FOR Richardson,Substitution,,0,0,413
+0022600136,596,PT10M49.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,107,81,188,h,Shead Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,414
+0022600136,599,PT10M27.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,63,206,22,Missed,1,,,0,v,MISS Wagner 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,415
+0022600136,600,PT10M27.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,416
+0022600136,601,PT10M11.00S,4,1610612761,TOR,1630193,Quickley,I. Quickley,106,228,25,Missed,1,,,0,h,MISS Quickley 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,417
+0022600136,602,PT10M11.00S,4,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,418
+0022600136,603,PT10M02.00S,4,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles P.FOUL (P5.T1) (S.Twardoski),Foul,Personal,1,0,419
+0022600136,606,PT10M02.00S,4,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,SUB: Jackson-Davis FOR Murray-Boyles,Substitution,,0,0,420
+0022600136,607,PT09M59.00S,4,1610612753,ORL,1641783,da Silva,T. da Silva,55,27,6,Made,1,107,83,190,v,da Silva 6' Driving Hook Shot (20 PTS) (Carter 3 AST),Made Shot,Driving Hook Shot,1,2,421
+0022600136,609,PT09M44.00S,4,1610612761,TOR,1642347,Shead,J. Shead,-94,148,18,Missed,1,,,0,h,MISS Shead 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,422
+0022600136,610,PT09M44.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,423
+0022600136,611,PT09M38.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,210,134,25,Missed,1,,,0,h,MISS Barrett 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,424
+0022600136,612,PT09M38.00S,4,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,0,0,425
+0022600136,613,PT09M38.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner L.B.FOUL (P2.T4) (S.Twardoski),Foul,Loose Ball,1,0,426
+0022600136,616,PT09M25.00S,4,1610612761,TOR,1630567,Barnes,S. Barnes,-120,-18,12,Missed,1,,,0,h,MISS Barnes 12' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,427
+0022600136,617,PT09M25.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,428
+0022600136,618,PT09M16.00S,4,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes S.FOUL (P3.T2) (S.Twardoski),Foul,Shooting,1,0,429
+0022600136,620,PT09M16.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,107,84,191,v,Wagner Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,430
+0022600136,623,PT09M16.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,SUB: Walter FOR Shead,Substitution,,0,0,431
+0022600136,621,PT09M16.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,107,85,192,v,Wagner Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,432
+0022600136,624,PT08M58.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,53,38,7,Missed,1,,,0,h,MISS Barrett 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,433
+0022600136,625,PT08M58.00S,4,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,Carter Jr. REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,434
+0022600136,626,PT08M52.00S,4,1610612753,ORL,1630217,Bane,D. Bane,3,19,2,Missed,1,,,0,v,MISS Bane 2' Running Reverse Layup,Missed Shot,Running Reverse Layup Shot,1,2,435
+0022600136,626,PT08M52.00S,4,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes BLOCK (2 BLK),,,1,2,436
+0022600136,627,PT08M52.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,437
+0022600136,629,PT08M49.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner P.FOUL (P3.PN) (E.Malloy),Foul,Personal,1,0,438
+0022600136,631,PT08M49.00S,4,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,108,85,193,h,Barnes Free Throw 1 of 2 (27 PTS),Free Throw,Free Throw 1 of 2,1,0,439
+0022600136,632,PT08M49.00S,4,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,109,85,194,h,Barnes Free Throw 2 of 2 (28 PTS),Free Throw,Free Throw 2 of 2,1,0,440
+0022600136,633,PT08M36.00S,4,1610612753,ORL,1630217,Bane,D. Bane,-231,-6,0,Missed,1,,,0,v,MISS Bane 3PT Jump Shot,Missed Shot,Jump Shot,1,3,441
+0022600136,634,PT08M36.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,442
+0022600136,635,PT08M13.00S,4,1610612761,TOR,1630193,Quickley,I. Quickley,-101,62,12,Made,1,111,85,196,h,Quickley 12' Turnaround Fadeaway (16 PTS),Made Shot,Turnaround Fadeaway shot,1,2,443
+0022600136,636,PT07M59.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,102,245,27,Missed,1,,,0,v,MISS Wagner 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,444
+0022600136,637,PT07M59.00S,4,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,445
+0022600136,638,PT07M33.00S,4,1610612761,TOR,1630193,Quickley,I. Quickley,-22,-9,2,Missed,1,,,0,h,MISS Quickley 2' Cutting Finger Roll Layup Shot,Missed Shot,Cutting Finger Roll Layup Shot,1,2,446
+0022600136,638,PT07M33.00S,4,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,Bane BLOCK (2 BLK),,,1,2,447
+0022600136,639,PT07M33.00S,4,1610612753,ORL,1641783,da Silva,T. da Silva,0,0,0,,0,,,0,v,da Silva REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,448
+0022600136,641,PT07M27.00S,4,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,-184,200,27,Missed,1,,,0,v,MISS Carter Jr. 27' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,449
+0022600136,642,PT07M27.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,450
+0022600136,643,PT07M15.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,-30,-12,3,Missed,1,,,0,h,MISS Barrett 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,451
+0022600136,644,PT07M15.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,Wagner REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,452
+0022600136,646,PT07M09.00S,4,1610612753,ORL,1628975,Carter,J. Carter,-233,101,25,Missed,1,,,0,v,MISS Carter 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,453
+0022600136,647,PT07M09.00S,4,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,454
+0022600136,648,PT07M08.00S,4,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,455
+0022600136,652,PT07M08.00S,4,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,SUB: Battle FOR Barnes,Substitution,,0,0,456
+0022600136,653,PT07M08.00S,4,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,SUB: Shead FOR Quickley,Substitution,,0,0,457
+0022600136,658,PT07M08.00S,4,1610612753,ORL,1630217,Bane,D. Bane,0,0,0,,0,,,0,v,SUB: Castleton FOR Bane,Substitution,,0,0,458
+0022600136,659,PT07M08.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,v,SUB: Bitadze FOR Wagner,Substitution,,0,0,459
+0022600136,660,PT07M08.00S,4,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,v,SUB: Morales FOR Carter Jr.,Substitution,,0,0,460
+0022600136,661,PT07M08.00S,4,1610612753,ORL,1641783,da Silva,T. da Silva,0,0,0,,0,,,0,v,SUB: Cain FOR da Silva,Substitution,,0,0,461
+0022600136,662,PT06M52.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead Bad Pass Turnover (P4.T13),Turnover,Bad Pass,1,0,462
+0022600136,662,PT06M52.00S,4,1610612753,ORL,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,Bitadze STEAL (1 STL),,,1,0,463
+0022600136,664,PT06M46.00S,4,1610612753,ORL,1631457,Morales,A. Morales,0,4,0,Made,1,111,87,198,v,Morales Running Layup (2 PTS),Made Shot,Running Layup Shot,1,2,464
+0022600136,666,PT06M32.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,-127,212,25,Missed,1,,,0,h,MISS Barrett 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,465
+0022600136,667,PT06M32.00S,4,1610612753,ORL,1631457,Morales,A. Morales,0,0,0,,0,,,0,v,Morales REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,466
+0022600136,668,PT06M12.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead S.FOUL (P2.T3) (E.Malloy),Foul,Shooting,1,0,467
+0022600136,670,PT06M12.00S,4,1610612753,ORL,1629048,Bitadze,G. Bitadze,0,0,0,,0,111,88,199,v,Bitadze Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,468
+0022600136,673,PT06M12.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,SUB: Murray-Boyles FOR Jackson-Davis,Substitution,,0,0,469
+0022600136,671,PT06M12.00S,4,1610612753,ORL,1629048,Bitadze,G. Bitadze,0,0,0,,0,111,89,200,v,Bitadze Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,470
+0022600136,674,PT06M01.00S,4,1610612761,TOR,1642266,Walter,J. Walter,-137,209,25,Made,1,114,89,203,h,Walter 25' 3PT Jump Shot (14 PTS) (Barrett 6 AST),Made Shot,Jump Shot,1,3,471
+0022600136,676,PT05M45.00S,4,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,Battle S.FOUL (P2.T4) (S.Twardoski),Foul,Shooting,1,0,472
+0022600136,678,PT05M45.00S,4,1610612753,ORL,1631288,Cain,J. Cain,0,0,0,,0,114,90,204,v,Cain Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,473
+0022600136,681,PT05M45.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,SUB: Graves FOR Barrett,Substitution,,0,0,474
+0022600136,679,PT05M45.00S,4,1610612753,ORL,1631288,Cain,J. Cain,0,0,0,,0,114,91,205,v,Cain Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,475
+0022600136,682,PT05M32.00S,4,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,-164,182,24,Made,1,117,91,208,h,Murray-Boyles 24' 3PT Jump Shot (10 PTS) (Walter 2 AST),Made Shot,Jump Shot,1,3,476
+0022600136,684,PT05M14.00S,4,1610612753,ORL,1631457,Morales,A. Morales,0,0,0,,0,,,0,v,Morales Bad Pass Turnover (P1.T16),Turnover,Bad Pass,1,0,477
+0022600136,684,PT05M14.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead STEAL (2 STL),,,1,0,478
+0022600136,686,PT05M09.00S,4,1610612761,TOR,1642266,Walter,J. Walter,229,3,0,Missed,1,,,0,h,MISS Walter 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,479
+0022600136,687,PT05M09.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,480
+0022600136,688,PT05M01.00S,4,1610612761,TOR,1642419,Battle,J. Battle,-152,199,25,Missed,1,,,0,h,MISS Battle 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,481
+0022600136,689,PT05M01.00S,4,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,0,0,482
+0022600136,692,PT05M01.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,SUB: Bradley FOR Shead,Substitution,,0,0,483
+0022600136,693,PT04M55.00S,4,1610612753,ORL,1631457,Morales,A. Morales,0,0,0,,0,,,0,v,Morales P.FOUL (P1.PN) (E.Malloy),Foul,Personal,1,0,484
+0022600136,695,PT04M55.00S,4,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,MISS Battle Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,485
+0022600136,696,PT04M55.00S,4,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Normal Rebound,0,0,486
+0022600136,697,PT04M55.00S,4,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,118,91,209,h,Battle Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,487
+0022600136,701,PT04M37.00S,4,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,SUB: Martin FOR Walter,Substitution,,0,0,488
+0022600136,702,PT04M37.00S,4,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,SUB: Jackson-Davis FOR Murray-Boyles,Substitution,,0,0,489
+0022600136,703,PT04M36.00S,4,1610612753,ORL,1631288,Cain,J. Cain,0,0,0,,0,,,0,v,Cain Bad Pass Turnover (P1.T17),Turnover,Bad Pass,1,0,490
+0022600136,703,PT04M36.00S,4,1610612761,TOR,1643558,Bradley,J. Bradley,0,0,0,,0,,,0,h,Bradley STEAL (1 STL),,,1,0,491
+0022600136,705,PT04M33.00S,4,1610612753,ORL,1631457,Morales,A. Morales,0,0,0,,0,,,0,v,Morales S.FOUL (P2.PN) (S.Twardoski),Foul,Shooting,1,0,492
+0022600136,707,PT04M33.00S,4,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,119,91,210,h,Graves Free Throw 1 of 2 (2 PTS),Free Throw,Free Throw 1 of 2,1,0,493
+0022600136,710,PT04M33.00S,4,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,SUB: Anderson FOR Battle,Substitution,,0,0,494
+0022600136,711,PT04M33.00S,4,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Violation: Delay of game Violation,Violation,Delay Of Game,0,0,495
+0022600136,708,PT04M33.00S,4,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,120,91,211,h,Graves Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,496
+0022600136,712,PT04M09.00S,4,1610612753,ORL,1628975,Carter,J. Carter,128,242,27,Missed,1,,,0,v,MISS Carter 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,497
+0022600136,713,PT04M09.00S,4,1610612753,ORL,1630658,Castleton,C. Castleton,0,0,0,,0,,,0,v,Castleton REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,498
+0022600136,714,PT04M04.00S,4,1610612753,ORL,1630658,Castleton,C. Castleton,0,0,0,,0,,,0,v,Castleton Lost Ball Turnover (P1.T18),Turnover,Lost Ball,1,0,499
+0022600136,714,PT04M04.00S,4,1610612761,TOR,1643558,Bradley,J. Bradley,0,0,0,,0,,,0,h,Bradley STEAL (2 STL),,,1,0,500
+0022600136,716,PT04M00.00S,4,1610612761,TOR,1643558,Bradley,J. Bradley,0,0,0,,0,,,0,h,Bradley Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,501
+0022600136,716,PT04M00.00S,4,1610612753,ORL,1631288,Cain,J. Cain,0,0,0,,0,,,0,v,Cain STEAL (2 STL),,,1,0,502
+0022600136,718,PT03M55.00S,4,1610612753,ORL,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,Bitadze OFF.Foul (P2) (S.Twardoski),Foul,Offensive,1,0,503
+0022600136,720,PT03M55.00S,4,1610612753,ORL,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,Bitadze Offensive Foul Turnover (P1.T19),Turnover,Offensive Foul Turnover,1,0,504
+0022600136,721,PT03M42.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,-45,20,5,Made,1,122,91,213,h,Jackson-Davis 5' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,505
+0022600136,722,PT03M26.00S,4,1610612753,ORL,1630658,Castleton,C. Castleton,39,20,4,Missed,1,,,0,v,MISS Castleton 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,506
+0022600136,722,PT03M26.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis BLOCK (2 BLK),,,1,2,507
+0022600136,723,PT03M26.00S,4,1610612753,ORL,1630658,Castleton,C. Castleton,0,0,0,,0,,,0,v,Castleton REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,508
+0022600136,725,PT03M21.00S,4,1610612753,ORL,1630658,Castleton,C. Castleton,0,9,1,Made,1,122,93,215,v,Castleton 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,509
+0022600136,726,PT03M08.00S,4,1610612761,TOR,1643512,Graves,A. Graves,-13,-5,1,Missed,1,,,0,h,MISS Graves 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,510
+0022600136,726,PT03M08.00S,4,1610612753,ORL,1630658,Castleton,C. Castleton,0,0,0,,0,,,0,v,Castleton BLOCK (1 BLK),,,1,2,511
+0022600136,727,PT03M08.00S,4,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,0,0,512
+0022600136,730,PT02M59.00S,4,1610612761,TOR,1643558,Bradley,J. Bradley,17,97,10,Missed,1,,,0,h,MISS Bradley 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,513
+0022600136,731,PT02M59.00S,4,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,514
+0022600136,733,PT02M58.00S,4,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,515
+0022600136,734,PT02M43.00S,4,1610612753,ORL,1631288,Cain,J. Cain,-108,61,12,Made,1,122,95,217,v,Cain 12' Driving Floating Bank Jump Shot (9 PTS) (Morales 1 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,516
+0022600136,736,PT02M43.00S,4,1610612761,TOR,1642918,Martin,A. Martin,0,0,0,,0,,,0,h,Martin S.FOUL (P1.PN) (E.Malloy),Foul,Shooting,1,0,517
+0022600136,738,PT02M43.00S,4,1610612753,ORL,1631288,Cain,J. Cain,0,0,0,,0,122,96,218,v,Cain Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,1,0,518
+0022600136,739,PT02M25.00S,4,1610612761,TOR,1642918,Martin,A. Martin,-226,93,24,Made,1,125,96,221,h,Martin 24' 3PT Jump Shot (3 PTS) (Bradley 1 AST),Made Shot,Jump Shot,1,3,519
+0022600136,741,PT01M56.00S,4,1610612753,ORL,1631457,Morales,A. Morales,-234,7,0,Missed,1,,,0,v,MISS Morales 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,520
+0022600136,742,PT01M56.00S,4,1610612761,TOR,1643558,Bradley,J. Bradley,0,0,0,,0,,,0,h,Bradley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,521
+0022600136,743,PT01M46.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,-4,-22,2,Made,1,127,96,223,h,Jackson-Davis 2' Running Alley Oop Dunk Shot (6 PTS) (Martin 1 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,522
+0022600136,745,PT01M35.00S,4,1610612753,ORL,1631457,Morales,A. Morales,0,0,0,,0,,,0,v,Morales Lost Ball Turnover (P2.T20),Turnover,Lost Ball,1,0,523
+0022600136,745,PT01M35.00S,4,1610612761,TOR,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson STEAL (1 STL),,,1,0,524
+0022600136,747,PT01M33.00S,4,1610612761,TOR,1642918,Martin,A. Martin,0,-12,1,Made,1,129,96,225,h,Martin 1' Running Dunk (5 PTS) (Anderson 1 AST),Made Shot,Running Dunk Shot,1,2,525
+0022600136,749,PT01M19.00S,4,1610612753,ORL,1631288,Cain,J. Cain,-9,60,6,Missed,1,,,0,v,MISS Cain 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,526
+0022600136,750,PT01M19.00S,4,1610612753,ORL,1631288,Cain,J. Cain,0,0,0,,0,,,0,v,Cain REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,527
+0022600136,759,PT01M18.00S,4,1610612753,ORL,1631288,Cain,J. Cain,15,45,5,Missed,1,,,0,v,MISS Cain 5' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,528
+0022600136,761,PT01M18.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,529
+0022600136,751,PT00M57.70S,4,1610612761,TOR,1642918,Martin,A. Martin,-160,185,24,Missed,1,,,0,h,MISS Martin 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,530
+0022600136,752,PT00M57.70S,4,1610612753,ORL,1631457,Morales,A. Morales,0,0,0,,0,,,0,v,Morales REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,531
+0022600136,753,PT00M46.40S,4,1610612753,ORL,1628975,Carter,J. Carter,231,-5,0,Made,1,129,99,228,v,Carter 3PT Jump Shot (6 PTS) (Bitadze 1 AST),Made Shot,Jump Shot,1,3,532
+0022600136,755,PT00M22.00S,4,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Turnover: Shot Clock (T#15),Turnover,Shot Clock Turnover,1,0,533
+0022600136,756,PT00M06.50S,4,1610612753,ORL,1630658,Castleton,C. Castleton,-117,4,12,Missed,1,,,0,v,MISS Castleton 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,534
+0022600136,757,PT00M06.50S,4,1610612761,TOR,1642918,Martin,A. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,535
+0022600136,758,PT00M00.00S,4,0,,0,,,0,0,0,,0,129,99,228,,End of 4th Period (10:00 PM EST),period,end,1,0,536

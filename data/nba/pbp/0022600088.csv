@@ -1,0 +1,641 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600088,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:45 PM EST),period,start,1,0,1
+0022600088,4,PT12M00.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Jump Ball Poeltl vs. Smith: Tip to Barnes,Jump Ball,,1,0,2
+0022600088,7,PT11M47.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,-7,-18,2,Made,1,2,0,2,h,Barrett 2' Driving Layup (2 PTS) (Leonard 1 AST),Made Shot,Driving Layup Shot,1,2,3
+0022600088,9,PT11M29.00S,1,1610612741,CHI,1626181,Powell,N. Powell,102,74,13,Missed,1,,,0,v,MISS Powell 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,4
+0022600088,10,PT11M29.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,5
+0022600088,11,PT11M21.00S,1,1610612761,TOR,202695,Leonard,K. Leonard,151,206,26,Made,1,5,0,5,h,Leonard 26' 3PT Running Jump Shot (3 PTS) (Quickley 1 AST),Made Shot,Running Jump Shot,1,3,6
+0022600088,13,PT11M10.00S,1,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,7
+0022600088,14,PT10M57.00S,1,1610612761,TOR,202695,Leonard,K. Leonard,-128,201,24,Missed,1,,,0,h,MISS Leonard 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,8
+0022600088,15,PT10M57.00S,1,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,9
+0022600088,16,PT10M49.00S,1,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,10
+0022600088,16,PT10M49.00S,1,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard STEAL (1 STL),,,1,0,11
+0022600088,18,PT10M45.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,-19,2,Made,1,7,0,7,h,Barrett 2' Running Reverse Layup (4 PTS) (Leonard 2 AST),Made Shot,Running Reverse Layup Shot,1,2,12
+0022600088,20,PT10M41.00S,1,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,13
+0022600088,21,PT10M17.00S,1,1610612741,CHI,1630581,Giddey,J. Giddey,34,262,26,Missed,1,,,0,v,MISS Giddey 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,14
+0022600088,22,PT10M17.00S,1,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0022600088,23,PT10M04.00S,1,1610612761,TOR,202695,Leonard,K. Leonard,6,83,8,Missed,1,,,0,h,MISS Leonard 8' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,16
+0022600088,24,PT10M04.00S,1,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,17
+0022600088,25,PT09M51.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl S.FOUL (P1.T1) (C.Kirkland),Foul,Shooting,1,0,18
+0022600088,27,PT09M51.00S,1,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,7,1,8,v,Smith Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,19
+0022600088,28,PT09M51.00S,1,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,7,2,9,v,Smith Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,20
+0022600088,29,PT09M43.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,11,89,9,Missed,1,,,0,h,MISS Barnes 9' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,21
+0022600088,30,PT09M43.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,22
+0022600088,31,PT09M38.00S,1,1610612761,TOR,202695,Leonard,K. Leonard,-206,125,24,Missed,1,,,0,h,MISS Leonard 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,23
+0022600088,32,PT09M38.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,24
+0022600088,33,PT09M32.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,227,30,0,Missed,1,,,0,h,MISS Barrett 3PT Jump Shot,Missed Shot,Jump Shot,1,3,25
+0022600088,34,PT09M32.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,26
+0022600088,35,PT09M28.00S,1,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey P.FOUL (P1.T1) (B.Schwab),Foul,Personal,1,0,27
+0022600088,37,PT09M21.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,28
+0022600088,37,PT09M21.00S,1,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,Powell STEAL (1 STL),,,1,0,29
+0022600088,39,PT09M15.00S,1,1610612741,CHI,1626181,Powell,N. Powell,-162,200,26,Missed,1,,,0,v,MISS Powell 26' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,30
+0022600088,40,PT09M15.00S,1,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,31
+0022600088,41,PT09M10.00S,1,1610612741,CHI,1630188,Smith,J. Smith,-5,9,1,Made,1,7,4,11,v,Smith 1' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,32
+0022600088,42,PT09M06.00S,1,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,Powell S.FOUL (P1.T2) (S.Mitchell),Foul,Shooting,1,0,33
+0022600088,44,PT09M06.00S,1,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,8,4,12,h,Leonard Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,34
+0022600088,45,PT09M06.00S,1,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,9,4,13,h,Leonard Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,35
+0022600088,46,PT08M54.00S,1,1610612741,CHI,1630188,Smith,J. Smith,-3,5,1,Made,1,9,6,15,v,Smith 1' Cutting Dunk Shot (6 PTS) (Giddey 1 AST),Made Shot,Cutting Dunk Shot,1,2,36
+0022600088,48,PT08M41.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,233,-6,0,Missed,1,,,0,h,MISS Barnes 3PT Jump Shot,Missed Shot,Jump Shot,1,3,37
+0022600088,49,PT08M41.00S,1,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,38
+0022600088,50,PT08M36.00S,1,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson Lost Ball Turnover (P2.T3),Turnover,Lost Ball,1,0,39
+0022600088,50,PT08M36.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley STEAL (1 STL),,,1,0,40
+0022600088,52,PT08M28.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,21,13,2,Missed,1,,,0,h,MISS Barnes 2' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,41
+0022600088,52,PT08M28.00S,1,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis BLOCK (1 BLK),,,1,2,42
+0022600088,53,PT08M28.00S,1,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,43
+0022600088,55,PT08M20.00S,1,1610612741,CHI,1626181,Powell,N. Powell,-102,91,14,Missed,1,,,0,v,MISS Powell 14' Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,2,44
+0022600088,56,PT08M20.00S,1,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,45
+0022600088,57,PT08M17.00S,1,1610612741,CHI,1643410,Wilson,C. Wilson,-15,110,11,Missed,1,,,0,v,MISS Wilson 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,46
+0022600088,58,PT08M17.00S,1,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,47
+0022600088,59,PT08M10.00S,1,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,Smith S.FOUL (P1.T3) (C.Kirkland),Foul,Shooting,1,0,48
+0022600088,61,PT08M10.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,MISS Poeltl Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,49
+0022600088,62,PT08M10.00S,1,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Normal Rebound,1,0,50
+0022600088,65,PT08M10.00S,1,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,SUB: Okoro FOR Buzelis,Substitution,,0,0,51
+0022600088,63,PT08M10.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,MISS Poeltl Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,52
+0022600088,66,PT08M10.00S,1,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,53
+0022600088,67,PT07M45.00S,1,1610612741,CHI,1626181,Powell,N. Powell,-32,341,34,Missed,1,,,0,v,MISS Powell 34' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,54
+0022600088,68,PT07M45.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,55
+0022600088,69,PT07M38.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,-1,-18,2,Made,1,11,6,17,h,Quickley 2' Running Layup (3 PTS) (Barnes 1 AST),Made Shot,Running Layup Shot,1,2,56
+0022600088,71,PT07M38.00S,1,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,Powell S.FOUL (P2.T4) (B.Schwab),Foul,Shooting,1,0,57
+0022600088,74,PT07M38.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,SUB: Murray-Boyles FOR Barnes,Substitution,,0,0,58
+0022600088,76,PT07M38.00S,1,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,SUB: Hield FOR Powell,Substitution,,0,0,59
+0022600088,77,PT07M38.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,12,6,18,h,Quickley Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,60
+0022600088,78,PT07M25.00S,1,1610612741,CHI,1630188,Smith,J. Smith,-2,1,0,Made,1,12,8,20,v,Smith Cutting Dunk Shot (8 PTS) (Giddey 2 AST),Made Shot,Cutting Dunk Shot,1,2,61
+0022600088,80,PT07M09.00S,1,1610612741,CHI,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield P.FOUL (P1.PN) (S.Mitchell),Foul,Personal,1,0,62
+0022600088,82,PT07M09.00S,1,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,13,8,21,h,Leonard Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,63
+0022600088,85,PT07M09.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,SUB: Shead FOR Quickley,Substitution,,0,0,64
+0022600088,87,PT07M09.00S,1,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,SUB: Jones FOR Giddey,Substitution,,0,0,65
+0022600088,83,PT07M09.00S,1,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,14,8,22,h,Leonard Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,66
+0022600088,88,PT06M52.00S,1,1610612741,CHI,1627741,Hield,B. Hield,-138,251,29,Missed,1,,,0,v,MISS Hield 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,67
+0022600088,89,PT06M52.00S,1,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,68
+0022600088,90,PT06M47.00S,1,1610612741,CHI,1643410,Wilson,C. Wilson,-184,164,25,Missed,1,,,0,v,MISS Wilson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,69
+0022600088,91,PT06M47.00S,1,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Unknown,1,0,70
+0022600088,92,PT06M45.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett L.B.FOUL (P1.T2) (S.Mitchell),Foul,Loose Ball,1,0,71
+0022600088,95,PT06M45.00S,1,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,SUB: Walter FOR Leonard,Substitution,,0,0,72
+0022600088,96,PT06M34.00S,1,1610612741,CHI,1627741,Hield,B. Hield,227,114,25,Missed,1,,,0,v,MISS Hield 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,73
+0022600088,97,PT06M34.00S,1,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,0,0,74
+0022600088,99,PT06M20.00S,1,1610612761,TOR,1642347,Shead,J. Shead,10,-18,2,Missed,1,,,0,h,MISS Shead 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,75
+0022600088,100,PT06M20.00S,1,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,0,0,76
+0022600088,103,PT06M19.00S,1,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,SUB: Miller FOR Wilson,Substitution,,0,0,77
+0022600088,104,PT06M10.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,-6,19,2,Missed,1,,,0,h,MISS Barrett 2' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,78
+0022600088,105,PT06M10.00S,1,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,79
+0022600088,107,PT06M07.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Jump Ball Barrett vs. Miller: Tip to Okoro,Jump Ball,,1,0,80
+0022600088,109,PT06M07.00S,1,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,SUB: Collins FOR Smith,Substitution,,0,0,81
+0022600088,112,PT05M52.00S,1,1610612741,CHI,1627741,Hield,B. Hield,-6,13,1,Missed,1,,,0,v,MISS Hield 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,82
+0022600088,112,PT05M52.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl BLOCK (1 BLK),,,1,2,83
+0022600088,113,PT05M52.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,84
+0022600088,115,PT05M47.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,1,-15,2,Made,1,16,8,24,h,Murray-Boyles 2' Running Dunk (2 PTS) (Barrett 1 AST),Made Shot,Running Dunk Shot,1,2,85
+0022600088,117,PT05M34.00S,1,1610612741,CHI,1630171,Okoro,I. Okoro,236,58,24,Missed,1,,,0,v,MISS Okoro 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,86
+0022600088,118,PT05M34.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,87
+0022600088,119,PT05M22.00S,1,1610612761,TOR,1642266,Walter,J. Walter,107,99,15,Made,1,18,8,26,h,Walter 15' Step Back Jump Shot (2 PTS) (Shead 1 AST),Made Shot,Step Back Jump shot,1,2,88
+0022600088,120,PT05M01.00S,1,1610612741,CHI,1630200,Jones,T. Jones,59,119,13,Missed,1,,,0,v,MISS Jones 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,89
+0022600088,121,PT05M01.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,90
+0022600088,122,PT04M45.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,-123,7,12,Missed,1,,,0,h,MISS Murray-Boyles 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,91
+0022600088,123,PT04M45.00S,1,1610612741,CHI,1630200,Jones,T. Jones,0,0,0,,0,,,0,v,Jones REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,92
+0022600088,124,PT04M38.00S,1,1610612741,CHI,1631159,Miller,L. Miller,-5,0,1,Made,1,18,10,28,v,Miller 1' Running Alley Oop Layup Shot (2 PTS) (Hield 1 AST),Made Shot,Running Alley Oop Layup Shot,1,2,93
+0022600088,126,PT04M38.00S,1,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,94
+0022600088,129,PT04M38.00S,1,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,SUB: Barnes FOR Poeltl,Substitution,,0,0,95
+0022600088,130,PT04M38.00S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,SUB: Quickley FOR Barrett,Substitution,,1,0,96
+0022600088,131,PT04M19.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,136,210,25,Made,1,21,10,31,h,Quickley 25' 3PT Pullup Jump Shot (6 PTS) (Shead 2 AST),Made Shot,Pullup Jump shot,1,3,97
+0022600088,133,PT03M55.00S,1,1610612741,CHI,1630200,Jones,T. Jones,-5,14,1,Missed,1,,,0,v,MISS Jones 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,98
+0022600088,134,PT03M55.00S,1,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,99
+0022600088,137,PT03M48.00S,1,1610612761,TOR,1642266,Walter,J. Walter,130,242,27,Missed,1,,,0,h,MISS Walter 27' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,100
+0022600088,138,PT03M48.00S,1,1610612741,CHI,1630200,Jones,T. Jones,0,0,0,,0,,,0,v,Jones REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,101
+0022600088,143,PT03M36.00S,1,1610612741,CHI,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield Out of Bounds Lost Ball Turnover (P1.T4),Turnover,Out of Bounds Lost Ball Turnover,1,0,102
+0022600088,141,PT03M36.00S,1,1610612741,CHI,1628380,Collins,Z. Collins,0,0,0,,0,,,0,v,SUB: Wilson FOR Collins,Substitution,,0,0,103
+0022600088,142,PT03M36.00S,1,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Timeout: Coach Challenge (Full 1 Short 0),Timeout,Coach Challenge,0,0,104
+0022600088,144,PT03M36.00S,1,0,,0,,,0,0,0,,0,21,10,31,,Instant Replay1st Period (8:07 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,105
+0022600088,146,PT03M36.00S,1,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,SUB: Battle FOR Shead,Substitution,,0,0,106
+0022600088,147,PT03M25.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,-24,92,10,Made,1,23,10,33,h,Barnes 10' Turnaround Jump Shot (2 PTS),Made Shot,Turnaround Jump Shot,1,2,107
+0022600088,149,PT03M17.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes S.FOUL (P1.T3) (S.Mitchell),Foul,Shooting,1,0,108
+0022600088,151,PT03M17.00S,1,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,23,11,34,v,Wilson Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,109
+0022600088,152,PT03M17.00S,1,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,MISS Wilson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,110
+0022600088,153,PT03M17.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,111
+0022600088,154,PT03M07.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,126,250,28,Made,1,26,11,37,h,Quickley 28' 3PT Jump Shot (9 PTS) (Barnes 2 AST),Made Shot,Jump Shot,1,3,112
+0022600088,156,PT02M52.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles S.FOUL (P1.T4) (C.Kirkland),Foul,Shooting,1,0,113
+0022600088,158,PT02M52.00S,1,1610612741,CHI,1630171,Okoro,I. Okoro,0,0,0,,0,26,12,38,v,Okoro Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,114
+0022600088,162,PT02M52.00S,1,1610612741,CHI,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,SUB: Buzelis FOR Hield,Substitution,,0,0,115
+0022600088,163,PT02M52.00S,1,1610612741,CHI,1630200,Jones,T. Jones,0,0,0,,0,,,0,v,SUB: Giddey FOR Jones,Substitution,,0,0,116
+0022600088,159,PT02M52.00S,1,1610612741,CHI,1630171,Okoro,I. Okoro,0,0,0,,0,26,13,39,v,Okoro Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,117
+0022600088,164,PT02M45.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,-7,-6,1,Missed,1,,,0,h,MISS Murray-Boyles 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,118
+0022600088,164,PT02M45.00S,1,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis BLOCK (2 BLK),,,1,2,119
+0022600088,165,PT02M45.00S,1,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,120
+0022600088,167,PT02M39.00S,1,1610612741,CHI,1643410,Wilson,C. Wilson,2,11,1,Made,1,26,15,41,v,Wilson 1' Running Layup (3 PTS) (Giddey 3 AST),Made Shot,Running Layup Shot,1,2,121
+0022600088,169,PT02M29.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,-16,261,26,Made,1,29,15,44,h,Barnes 26' 3PT Jump Shot (5 PTS) (Quickley 2 AST),Made Shot,Jump Shot,1,3,122
+0022600088,171,PT02M11.00S,1,1610612741,CHI,1630581,Giddey,J. Giddey,34,63,7,Missed,1,,,0,v,MISS Giddey 7' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,123
+0022600088,172,PT02M11.00S,1,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,Battle REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,124
+0022600088,173,PT02M04.00S,1,1610612761,TOR,1642266,Walter,J. Walter,215,108,24,Made,1,32,15,47,h,Walter 24' 3PT Jump Shot (5 PTS) (Quickley 3 AST),Made Shot,Jump Shot,1,3,125
+0022600088,175,PT01M47.00S,1,1610612741,CHI,1643410,Wilson,C. Wilson,-235,14,24,Made,1,32,18,50,v,Wilson 24' 3PT Jump Shot (6 PTS) (Giddey 4 AST),Made Shot,Jump Shot,1,3,126
+0022600088,177,PT01M38.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,109,290,31,Made,1,35,18,53,h,Quickley 31' 3PT Jump Shot (12 PTS) (Barnes 3 AST),Made Shot,Jump Shot,1,3,127
+0022600088,179,PT01M29.00S,1,1610612741,CHI,1631159,Miller,L. Miller,-31,263,26,Missed,1,,,0,v,MISS Miller 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,128
+0022600088,180,PT01M29.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,129
+0022600088,181,PT01M23.00S,1,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis S.FOUL (P1.PN) (C.Kirkland),Foul,Shooting,1,0,130
+0022600088,183,PT01M23.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,36,18,54,h,Murray-Boyles Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,131
+0022600088,184,PT01M23.00S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,37,18,55,h,Murray-Boyles Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,132
+0022600088,185,PT01M09.00S,1,1610612741,CHI,1641824,Buzelis,M. Buzelis,-44,70,8,Made,1,37,20,57,v,Buzelis 8' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,133
+0022600088,186,PT00M56.70S,1,1610612761,TOR,1630567,Barnes,S. Barnes,-4,-12,1,Made,1,39,20,59,h,Barnes 1' Cutting Finger Roll Layup Shot (7 PTS) (Murray-Boyles 1 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,134
+0022600088,188,PT00M49.80S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes P.FOUL (P2.PN) (B.Schwab),Foul,Personal,1,0,135
+0022600088,190,PT00M49.80S,1,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,39,21,60,v,Buzelis Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,136
+0022600088,193,PT00M49.80S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,SUB: Barrett FOR Barnes,Substitution,,0,0,137
+0022600088,191,PT00M49.80S,1,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,MISS Buzelis Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,138
+0022600088,194,PT00M49.80S,1,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,Battle REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,139
+0022600088,195,PT00M36.40S,1,1610612761,TOR,1630193,Quickley,I. Quickley,55,302,31,Missed,1,,,0,h,MISS Quickley 31' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,140
+0022600088,196,PT00M36.40S,1,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,141
+0022600088,197,PT00M31.20S,1,1610612761,TOR,1629628,Barrett,R. Barrett,0,-18,2,Made,1,41,21,62,h,Barrett 2' Reverse Layup (6 PTS) (Murray-Boyles 2 AST),Made Shot,Reverse Layup Shot,1,2,142
+0022600088,199,PT00M17.90S,1,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,Battle S.FOUL (P1.PN) (C.Kirkland),Foul,Shooting,1,0,143
+0022600088,201,PT00M17.90S,1,1610612741,CHI,1630171,Okoro,I. Okoro,0,0,0,,0,41,22,63,v,Okoro Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,144
+0022600088,202,PT00M17.90S,1,1610612741,CHI,1630171,Okoro,I. Okoro,0,0,0,,0,41,23,64,v,Okoro Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,145
+0022600088,203,PT00M07.10S,1,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis Violation:Kicked Ball (B.Schwab),Violation,Kicked Ball,0,0,146
+0022600088,204,PT00M07.00S,1,1610612741,CHI,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro P.FOUL (P1.PN) (S.Mitchell),Foul,Personal,1,0,147
+0022600088,206,PT00M07.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,42,23,65,h,Quickley Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,148
+0022600088,207,PT00M07.00S,1,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,43,23,66,h,Quickley Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,149
+0022600088,208,PT00M00.40S,1,1610612741,CHI,1631159,Miller,L. Miller,-40,156,16,Missed,1,,,0,v,MISS Miller 16' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,150
+0022600088,209,PT00M00.40S,1,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,151
+0022600088,210,PT00M00.00S,1,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,Missed,1,,,0,v,MISS Miller Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,152
+0022600088,211,PT00M00.00S,1,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Unknown,1,0,153
+0022600088,212,PT00M00.00S,1,0,,0,,,0,0,0,,0,43,23,66,,End of 1st Period (8:18 PM EST),period,end,1,0,154
+0022600088,221,PT12M00.00S,2,0,,0,,,0,0,0,,0,43,23,66,,Start of 2nd Period (8:21 PM EST),period,start,0,0,155
+0022600088,222,PT11M45.00S,2,1610612741,CHI,1643410,Wilson,C. Wilson,-234,12,0,Missed,1,,,0,v,MISS Wilson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,156
+0022600088,223,PT11M45.00S,2,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,1,0,157
+0022600088,225,PT11M22.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,-11,174,17,Missed,1,,,0,h,MISS Barnes 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,158
+0022600088,226,PT11M22.00S,2,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,Battle REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,159
+0022600088,227,PT11M19.00S,2,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,Missed,1,,,0,h,MISS Battle Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,160
+0022600088,228,PT11M19.00S,2,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,Battle REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,161
+0022600088,229,PT11M16.00S,2,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,Made,1,45,23,68,h,Battle Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,162
+0022600088,230,PT11M04.00S,2,1610612741,CHI,1641824,Buzelis,M. Buzelis,-234,53,24,Missed,1,,,0,v,MISS Buzelis 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,163
+0022600088,231,PT11M04.00S,2,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,164
+0022600088,232,PT10M58.00S,2,1610612741,CHI,1630188,Smith,J. Smith,13,8,2,Missed,1,,,0,v,MISS Smith 2' Layup,Missed Shot,Layup Shot,1,2,165
+0022600088,233,PT10M58.00S,2,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Unknown,1,0,166
+0022600088,235,PT10M56.00S,2,1610612741,CHI,1626181,Powell,N. Powell,-238,-14,24,Missed,1,,,0,v,MISS Powell 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,167
+0022600088,236,PT10M56.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,168
+0022600088,237,PT10M49.00S,2,1610612761,TOR,1630193,Quickley,I. Quickley,-175,173,25,Missed,1,,,0,h,MISS Quickley 25' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,169
+0022600088,238,PT10M49.00S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,170
+0022600088,239,PT10M43.00S,2,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson Out of Bounds Lost Ball Turnover (P3.T5),Turnover,Out of Bounds Lost Ball Turnover,1,0,171
+0022600088,240,PT10M35.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,38,274,28,Missed,1,,,0,h,MISS Barnes 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,172
+0022600088,241,PT10M35.00S,2,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,173
+0022600088,242,PT10M18.00S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,Powell Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,174
+0022600088,242,PT10M18.00S,2,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,Battle STEAL (1 STL),,,1,0,175
+0022600088,244,PT10M10.00S,2,1610612761,TOR,1642419,Battle,J. Battle,192,203,28,Made,1,48,23,71,h,Battle 28' 3PT Jump Shot (5 PTS) (Quickley 4 AST),Made Shot,Jump Shot,1,3,176
+0022600088,246,PT09M50.00S,2,1610612741,CHI,1643410,Wilson,C. Wilson,58,71,9,Missed,1,,,0,v,MISS Wilson 9' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,177
+0022600088,247,PT09M50.00S,2,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,178
+0022600088,248,PT09M41.00S,2,1610612761,TOR,1630193,Quickley,I. Quickley,183,161,24,Made,1,51,23,74,h,Quickley 24' 3PT Jump Shot (17 PTS) (Barnes 4 AST),Made Shot,Jump Shot,1,3,179
+0022600088,405,PT09M41.00S,2,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson L.B.FOUL (P1.T1) (C.Kirkland),Foul,Loose Ball,0,0,180
+0022600088,253,PT09M41.00S,2,0,,0,,,0,0,0,,0,52,23,75,,Instant Replay2nd Period (8:24 PM EST),Instant Replay,Ruling Stands,0,0,181
+0022600088,255,PT09M41.00S,2,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,SUB: Leonard FOR Battle,Substitution,,0,0,182
+0022600088,258,PT09M41.00S,2,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,SUB: Jones FOR Giddey,Substitution,,0,0,183
+0022600088,259,PT09M41.00S,2,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,SUB: Collins FOR Wilson,Substitution,,0,0,184
+0022600088,407,PT09M41.00S,2,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,52,23,75,h,Poeltl Free Throw 1 of 1 (1 PTS),Free Throw,Free Throw 1 of 1,1,0,185
+0022600088,260,PT09M26.00S,2,1610612741,CHI,1626181,Powell,N. Powell,-46,163,17,Made,1,52,25,77,v,Powell 17' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,186
+0022600088,261,PT09M26.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett S.FOUL (P2.T1) (B.Schwab),Foul,Shooting,1,0,187
+0022600088,263,PT09M26.00S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,MISS Powell Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,188
+0022600088,264,PT09M26.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,189
+0022600088,265,PT09M15.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,11,129,13,Missed,1,,,0,h,MISS Leonard 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,190
+0022600088,266,PT09M15.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,191
+0022600088,267,PT09M11.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,Missed,1,,,0,h,MISS Leonard Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,192
+0022600088,268,PT09M11.00S,2,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,193
+0022600088,269,PT09M06.00S,2,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,194
+0022600088,269,PT09M06.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard STEAL (2 STL),,,1,0,195
+0022600088,271,PT09M02.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,5,-3,1,Missed,1,,,0,h,MISS Leonard 1' Running Finger Roll Layup,Missed Shot,Running Finger Roll Layup Shot,1,2,196
+0022600088,272,PT09M02.00S,2,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,197
+0022600088,273,PT08M54.00S,2,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,66,7,Missed,1,,,0,v,MISS Buzelis 7' Running Layup,Missed Shot,Running Layup Shot,1,2,198
+0022600088,274,PT08M54.00S,2,1610612741,CHI,1628380,Collins,Z. Collins,0,0,0,,0,,,0,v,Collins REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,199
+0022600088,275,PT08M47.00S,2,1610612741,CHI,1626181,Powell,N. Powell,-167,225,28,Made,1,52,28,80,v,Powell 28' 3PT Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,3,200
+0022600088,277,PT08M37.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,36,-12,4,Missed,1,,,0,h,MISS Barnes 4' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,201
+0022600088,278,PT08M37.00S,2,1610612741,CHI,1628380,Collins,Z. Collins,0,0,0,,0,,,0,v,Collins REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,202
+0022600088,279,PT08M30.00S,2,1610612741,CHI,1641824,Buzelis,M. Buzelis,-237,50,24,Missed,1,,,0,v,MISS Buzelis 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,203
+0022600088,280,PT08M30.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,204
+0022600088,281,PT08M20.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,-38,52,6,Missed,1,,,0,h,MISS Barrett 6' Running Jump Shot,Missed Shot,Running Jump Shot,1,2,205
+0022600088,282,PT08M20.00S,2,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,206
+0022600088,283,PT08M13.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard S.FOUL (P1.T2) (C.Kirkland),Foul,Shooting,1,0,207
+0022600088,285,PT08M13.00S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,52,29,81,v,Powell Free Throw 1 of 3 (6 PTS),Free Throw,Free Throw 1 of 3,1,0,208
+0022600088,286,PT08M13.00S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,52,30,82,v,Powell Free Throw 2 of 3 (7 PTS),Free Throw,Free Throw 2 of 3,1,0,209
+0022600088,291,PT08M13.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,SUB: Murray-Boyles FOR Barnes,Substitution,,0,0,210
+0022600088,292,PT08M13.00S,2,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,SUB: Shead FOR Quickley,Substitution,,0,0,211
+0022600088,293,PT08M13.00S,2,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,SUB: Graves FOR Poeltl,Substitution,,0,0,212
+0022600088,296,PT08M13.00S,2,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,SUB: Hield FOR Smith,Substitution,,0,0,213
+0022600088,297,PT08M13.00S,2,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,SUB: Miller FOR Buzelis,Substitution,,0,0,214
+0022600088,287,PT08M13.00S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,MISS Powell Free Throw 3 of 3,Free Throw,Free Throw 3 of 3,1,0,215
+0022600088,298,PT08M13.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,216
+0022600088,299,PT07M58.00S,2,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller S.FOUL (P1.T2) (B.Schwab),Foul,Shooting,1,0,217
+0022600088,301,PT07M58.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,53,30,83,h,Leonard Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,218
+0022600088,302,PT07M58.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,54,30,84,h,Leonard Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,219
+0022600088,303,PT07M45.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard P.FOUL (P2.T3) (C.Kirkland),Foul,Personal,1,0,220
+0022600088,306,PT07M45.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,SUB: Walter FOR Barrett,Substitution,,0,0,221
+0022600088,307,PT07M44.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles P.FOUL (P2.T4) (S.Mitchell),Foul,Personal,1,0,222
+0022600088,309,PT07M37.00S,2,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter S.FOUL (P1.PN) (S.Mitchell),Foul,Shooting,1,0,223
+0022600088,311,PT07M37.00S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,54,31,85,v,Powell Free Throw 1 of 3 (8 PTS),Free Throw,Free Throw 1 of 3,1,0,224
+0022600088,312,PT07M37.00S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,MISS Powell Free Throw 2 of 3,Free Throw,Free Throw 2 of 3,1,0,225
+0022600088,313,PT07M37.00S,2,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Normal Rebound,0,0,226
+0022600088,314,PT07M37.00S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,54,32,86,v,Powell Free Throw 3 of 3 (9 PTS),Free Throw,Free Throw 3 of 3,1,0,227
+0022600088,315,PT07M20.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,-50,76,9,Missed,1,,,0,h,MISS Murray-Boyles 9' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,228
+0022600088,316,PT07M20.00S,2,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,229
+0022600088,317,PT07M09.00S,2,1610612741,CHI,1630200,Jones,T. Jones,1,9,1,Made,1,54,34,88,v,Jones 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,230
+0022600088,318,PT06M59.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,95,224,24,Missed,1,,,0,h,MISS Murray-Boyles 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,231
+0022600088,319,PT06M59.00S,2,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,232
+0022600088,320,PT06M49.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,59,33,7,Missed,1,,,0,h,MISS Leonard 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,233
+0022600088,321,PT06M49.00S,2,1610612741,CHI,1628380,Collins,Z. Collins,0,0,0,,0,,,0,v,Collins REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,234
+0022600088,323,PT06M36.00S,2,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,235
+0022600088,324,PT06M34.00S,2,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead P.FOUL (P1.PN) (C.Kirkland),Foul,Personal,1,0,236
+0022600088,326,PT06M34.00S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,54,35,89,v,Powell Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,237
+0022600088,327,PT06M34.00S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,54,36,90,v,Powell Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,238
+0022600088,328,PT06M21.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,-52,2,5,Missed,1,,,0,h,MISS Murray-Boyles 5' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,239
+0022600088,329,PT06M21.00S,2,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,240
+0022600088,330,PT06M17.00S,2,1610612761,TOR,1643512,Graves,A. Graves,-1,-18,2,Made,1,56,36,92,h,Graves 2' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,241
+0022600088,331,PT06M04.00S,2,1610612741,CHI,1626181,Powell,N. Powell,-137,239,28,Missed,1,,,0,v,MISS Powell 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,242
+0022600088,332,PT06M04.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,243
+0022600088,333,PT05M50.00S,2,1610612761,TOR,1643512,Graves,A. Graves,-231,-38,0,Missed,1,,,0,h,MISS Graves 3PT Jump Shot,Missed Shot,Jump Shot,1,3,244
+0022600088,334,PT05M50.00S,2,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,245
+0022600088,335,PT05M45.00S,2,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead S.FOUL (P2.PN) (S.Mitchell),Foul,Shooting,1,0,246
+0022600088,337,PT05M45.00S,2,1610612741,CHI,1630200,Jones,T. Jones,0,0,0,,0,,,0,v,MISS Jones Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,247
+0022600088,338,PT05M45.00S,2,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Normal Rebound,0,0,248
+0022600088,342,PT05M45.00S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,SUB: Smith FOR Powell,Substitution,,0,0,249
+0022600088,343,PT05M45.00S,2,1610612741,CHI,1628380,Collins,Z. Collins,0,0,0,,0,,,0,v,SUB: Okoro FOR Collins,Substitution,,0,0,250
+0022600088,339,PT05M45.00S,2,1610612741,CHI,1630200,Jones,T. Jones,0,0,0,,0,56,37,93,v,Jones Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,251
+0022600088,344,PT05M29.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,53,84,10,Missed,1,,,0,h,MISS Leonard 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,252
+0022600088,345,PT05M29.00S,2,1610612741,CHI,1630200,Jones,T. Jones,0,0,0,,0,,,0,v,Jones REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,253
+0022600088,346,PT05M21.00S,2,1610612741,CHI,1630188,Smith,J. Smith,75,255,27,Missed,1,,,0,v,MISS Smith 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,254
+0022600088,347,PT05M21.00S,2,1610612741,CHI,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,255
+0022600088,348,PT05M14.00S,2,1610612741,CHI,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,256
+0022600088,348,PT05M14.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles STEAL (1 STL),,,1,0,257
+0022600088,350,PT05M07.00S,2,1610612761,TOR,1642266,Walter,J. Walter,-223,100,24,Missed,1,,,0,h,MISS Walter 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,258
+0022600088,351,PT05M07.00S,2,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,1,0,259
+0022600088,352,PT05M06.00S,2,1610612741,CHI,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro L.B.FOUL (P2.T3) (S.Mitchell),Foul,Loose Ball,1,0,260
+0022600088,355,PT05M06.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,SUB: Barnes FOR Leonard,Substitution,,0,0,261
+0022600088,357,PT05M06.00S,2,1610612741,CHI,1630200,Jones,T. Jones,0,0,0,,0,,,0,v,SUB: Giddey FOR Jones,Substitution,,0,0,262
+0022600088,358,PT04M58.00S,2,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead Out of Bounds - Bad Pass Turnover Turnover (P1.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,263
+0022600088,360,PT04M43.00S,2,1610612741,CHI,1631159,Miller,L. Miller,5,20,2,Missed,1,,,0,v,MISS Miller 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,264
+0022600088,361,PT04M43.00S,2,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,265
+0022600088,362,PT04M37.00S,2,1610612741,CHI,1630188,Smith,J. Smith,94,246,26,Missed,1,,,0,v,MISS Smith 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,266
+0022600088,363,PT04M37.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,267
+0022600088,364,PT04M27.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,28,-3,3,Missed,1,,,0,h,MISS Barnes 3' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,268
+0022600088,364,PT04M27.00S,2,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,Smith BLOCK (1 BLK),,,1,2,269
+0022600088,365,PT04M27.00S,2,1610612741,CHI,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,270
+0022600088,367,PT04M21.00S,2,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey Bad Pass Turnover (P2.T9),Turnover,Bad Pass,1,0,271
+0022600088,367,PT04M21.00S,2,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter STEAL (1 STL),,,1,0,272
+0022600088,369,PT04M16.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,-3,-16,2,Made,1,58,37,95,h,Barnes 2' Running Layup (9 PTS) (Walter 1 AST),Made Shot,Running Layup Shot,1,2,273
+0022600088,371,PT04M01.00S,2,1610612741,CHI,1631159,Miller,L. Miller,-181,195,27,Missed,1,,,0,v,MISS Miller 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,274
+0022600088,372,PT04M01.00S,2,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,1,0,275
+0022600088,373,PT03M59.00S,2,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey L.B.FOUL (P2.T4) (C.Kirkland),Foul,Loose Ball,1,0,276
+0022600088,379,PT03M59.00S,2,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,SUB: Barrett FOR Murray-Boyles,Substitution,,0,0,277
+0022600088,380,PT03M59.00S,2,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,SUB: Poeltl FOR Shead,Substitution,,0,0,278
+0022600088,381,PT03M59.00S,2,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,SUB: Quickley FOR Graves,Substitution,,0,0,279
+0022600088,382,PT03M39.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,101,99,14,Missed,1,,,0,h,MISS Barnes 14' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,280
+0022600088,383,PT03M39.00S,2,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,281
+0022600088,384,PT03M32.00S,2,1610612741,CHI,1627741,Hield,B. Hield,-166,190,25,Missed,1,,,0,v,MISS Hield 25' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,282
+0022600088,385,PT03M32.00S,2,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,283
+0022600088,389,PT03M22.00S,2,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,SUB: Leonard FOR Walter,Substitution,,0,0,284
+0022600088,392,PT03M22.00S,2,1610612741,CHI,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,SUB: Wilson FOR Hield,Substitution,,0,0,285
+0022600088,393,PT03M22.00S,2,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,SUB: Buzelis FOR Miller,Substitution,,0,0,286
+0022600088,387,PT03M22.00S,2,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Jump Ball Poeltl vs. Giddey: Tip to Leonard,Jump Ball,,1,0,287
+0022600088,396,PT03M19.00S,2,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey Lost Ball Turnover (P3.T10),Turnover,Lost Ball,1,0,288
+0022600088,396,PT03M19.00S,2,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl STEAL (1 STL),,,1,0,289
+0022600088,398,PT03M07.00S,2,1610612761,TOR,202695,Leonard,K. Leonard,-61,138,15,Made,1,60,37,97,h,Leonard 15' Pullup Jump Shot (11 PTS),Made Shot,Pullup Jump shot,1,2,290
+0022600088,399,PT02M44.00S,2,1610612741,CHI,1630188,Smith,J. Smith,44,117,13,Made,1,60,39,99,v,Smith 13' Fadeaway Jumper (10 PTS),Made Shot,Fadeaway Jump Shot,1,2,291
+0022600088,400,PT02M34.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,-25,247,25,Missed,1,,,0,h,MISS Barrett 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,292
+0022600088,401,PT02M34.00S,2,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,293
+0022600088,402,PT02M22.00S,2,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis S.FOUL (P2.PN) (S.Mitchell),Foul,Shooting,1,0,294
+0022600088,404,PT02M22.00S,2,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,295
+0022600088,409,PT02M22.00S,2,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,SUB: Powell FOR Buzelis,Substitution,,0,0,296
+0022600088,410,PT02M22.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,61,39,100,h,Barnes Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,297
+0022600088,411,PT02M22.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,62,39,101,h,Barnes Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,298
+0022600088,412,PT02M09.00S,2,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson Step Out of Bounds Turnover (P4.T11),Turnover,Step Out of Bounds Turnover,1,0,299
+0022600088,413,PT01M55.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,-12,8,1,Missed,1,,,0,h,MISS Barrett 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,300
+0022600088,413,PT01M55.00S,2,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson BLOCK (1 BLK),,,1,2,301
+0022600088,414,PT01M55.00S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,302
+0022600088,416,PT01M45.00S,2,1610612741,CHI,1643410,Wilson,C. Wilson,-1,9,1,Made,1,62,41,103,v,Wilson 1' Cutting Dunk Shot (8 PTS) (Powell 1 AST),Made Shot,Cutting Dunk Shot,1,2,303
+0022600088,419,PT01M32.00S,2,1610612761,TOR,1627751,Poeltl,J. Poeltl,2,-19,2,Made,1,64,41,105,h,Poeltl 2' Cutting Layup Shot (3 PTS) (Barrett 2 AST),Made Shot,Cutting Layup Shot,1,2,304
+0022600088,421,PT01M23.00S,2,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl P.FOUL (P2.PN) (B.Schwab),Foul,Personal,1,0,305
+0022600088,423,PT01M23.00S,2,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,64,42,106,v,Smith Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,306
+0022600088,424,PT01M23.00S,2,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,MISS Smith Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,307
+0022600088,425,PT01M23.00S,2,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,308
+0022600088,426,PT01M05.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,143,35,15,Made,1,66,42,108,h,Barnes 15' Turnaround Fadeaway (13 PTS),Made Shot,Turnaround Fadeaway shot,1,2,309
+0022600088,427,PT00M57.00S,2,1610612741,CHI,1643410,Wilson,C. Wilson,-192,1,19,Missed,1,,,0,v,MISS Wilson 19' Jump Shot,Missed Shot,Jump Shot,1,2,310
+0022600088,428,PT00M57.00S,2,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,311
+0022600088,429,PT00M47.70S,2,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,Powell S.FOUL (P3.PN) (B.Schwab),Foul,Shooting,1,0,312
+0022600088,431,PT00M47.70S,2,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,MISS Quickley Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,313
+0022600088,432,PT00M47.70S,2,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Normal Rebound,0,0,314
+0022600088,435,PT00M47.70S,2,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,SUB: Miller FOR Smith,Substitution,,0,0,315
+0022600088,433,PT00M47.70S,2,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,67,42,109,h,Quickley Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,316
+0022600088,436,PT00M27.40S,2,1610612741,CHI,1643410,Wilson,C. Wilson,-9,31,3,Made,1,67,44,111,v,Wilson 3' Cutting Finger Roll Layup Shot (10 PTS) (Giddey 5 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,317
+0022600088,438,PT00M04.20S,2,1610612761,TOR,1630567,Barnes,S. Barnes,47,94,11,Made,1,69,44,113,h,Barnes 11' Fadeaway Jumper (15 PTS),Made Shot,Fadeaway Jump Shot,1,2,318
+0022600088,439,PT00M00.00S,2,1610612741,CHI,1630581,Giddey,J. Giddey,181,300,35,Missed,1,,,0,v,MISS Giddey 35' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,319
+0022600088,440,PT00M00.00S,2,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Unknown,0,0,320
+0022600088,441,PT00M00.00S,2,0,,0,,,0,0,0,,0,69,44,113,,End of 2nd Period (8:54 PM EST),period,end,1,0,321
+0022600088,446,PT12M00.00S,3,0,,0,,,0,0,0,,0,69,44,113,,Start of 3rd Period (9:10 PM EST),period,start,0,0,322
+0022600088,447,PT11M45.00S,3,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl S.FOUL (P3.T1) (C.Kirkland),Foul,Shooting,1,0,323
+0022600088,449,PT11M45.00S,3,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,MISS Giddey Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,324
+0022600088,450,PT11M45.00S,3,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Normal Rebound,0,0,325
+0022600088,451,PT11M45.00S,3,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,MISS Giddey Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,326
+0022600088,452,PT11M45.00S,3,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,327
+0022600088,453,PT11M37.00S,3,1610612761,TOR,202695,Leonard,K. Leonard,-68,156,17,Made,1,71,44,115,h,Leonard 17' Pullup Jump Shot (13 PTS) (Quickley 5 AST),Made Shot,Pullup Jump shot,1,2,328
+0022600088,455,PT11M32.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley P.FOUL (P1.T2) (C.Kirkland),Foul,Personal,1,0,329
+0022600088,458,PT11M32.00S,3,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,330
+0022600088,461,PT11M32.00S,3,0,,0,,,0,0,0,,0,71,44,115,,Instant Replay3rd Period (9:11 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,331
+0022600088,462,PT11M21.00S,3,1610612741,CHI,1626181,Powell,N. Powell,195,170,26,Made,1,71,47,118,v,Powell 26' 3PT Jump Shot (14 PTS) (Smith 1 AST),Made Shot,Jump Shot,1,3,332
+0022600088,464,PT11M00.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,Barnes Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,333
+0022600088,464,PT11M00.00S,3,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson STEAL (1 STL),,,1,0,334
+0022600088,466,PT10M54.00S,3,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson Lost Ball Turnover (P5.T12),Turnover,Lost Ball,1,0,335
+0022600088,466,PT10M54.00S,3,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard STEAL (3 STL),,,1,0,336
+0022600088,468,PT10M49.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,-6,5,1,Made,1,73,47,120,h,Barrett 1' Running Layup (8 PTS) (Barnes 5 AST),Made Shot,Running Layup Shot,1,2,337
+0022600088,470,PT10M41.00S,3,1610612741,CHI,1641824,Buzelis,M. Buzelis,213,124,25,Missed,1,,,0,v,MISS Buzelis 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,338
+0022600088,471,PT10M41.00S,3,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,0,0,339
+0022600088,473,PT10M33.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,102,5,10,Made,1,75,47,122,h,Barnes 10' Step Back Jump Shot (17 PTS) (Quickley 6 AST),Made Shot,Step Back Jump shot,1,2,340
+0022600088,475,PT10M19.00S,3,1610612741,CHI,1630188,Smith,J. Smith,-11,-15,2,Missed,1,,,0,v,MISS Smith 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,341
+0022600088,476,PT10M19.00S,3,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,342
+0022600088,477,PT10M11.00S,3,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,Smith S.FOUL (P2.T1) (S.Mitchell),Foul,Shooting,1,0,343
+0022600088,479,PT10M11.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,MISS Barrett Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,344
+0022600088,480,PT10M11.00S,3,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Normal Rebound,0,0,345
+0022600088,481,PT10M11.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,MISS Barrett Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,346
+0022600088,482,PT10M11.00S,3,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,347
+0022600088,483,PT09M56.00S,3,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl S.FOUL (P4.T3) (S.Mitchell),Foul,Shooting,1,0,348
+0022600088,485,PT09M56.00S,3,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,75,48,123,v,Smith Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,349
+0022600088,488,PT09M56.00S,3,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,SUB: Murray-Boyles FOR Poeltl,Substitution,,0,0,350
+0022600088,486,PT09M56.00S,3,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,75,49,124,v,Smith Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,351
+0022600088,489,PT09M35.00S,3,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson S.FOUL (P2.T2) (S.Mitchell),Foul,Shooting,1,0,352
+0022600088,491,PT09M35.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,76,49,125,h,Barnes Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,353
+0022600088,492,PT09M35.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,77,49,126,h,Barnes Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,354
+0022600088,493,PT09M19.00S,3,1610612741,CHI,1641824,Buzelis,M. Buzelis,-10,-21,2,Missed,1,,,0,v,MISS Buzelis 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,355
+0022600088,493,PT09M19.00S,3,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard BLOCK (1 BLK),,,1,2,356
+0022600088,494,PT09M19.00S,3,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,357
+0022600088,496,PT09M14.00S,3,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,Smith S.FOUL (P3.T3) (B.Schwab),Foul,Shooting,1,0,358
+0022600088,498,PT09M14.00S,3,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,78,49,127,h,Leonard Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,359
+0022600088,502,PT09M14.00S,3,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,SUB: Collins FOR Wilson,Substitution,,0,0,360
+0022600088,503,PT09M14.00S,3,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,SUB: Okoro FOR Buzelis,Substitution,,0,0,361
+0022600088,499,PT09M14.00S,3,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,79,49,128,h,Leonard Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,362
+0022600088,504,PT09M08.00S,3,1610612741,CHI,1630581,Giddey,J. Giddey,-19,-11,2,Missed,1,,,0,v,MISS Giddey 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,363
+0022600088,504,PT09M08.00S,3,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles BLOCK (1 BLK),,,1,2,364
+0022600088,505,PT09M08.00S,3,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,365
+0022600088,507,PT09M03.00S,3,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,Made,1,79,51,130,v,Smith Putback Dunk (15 PTS),Made Shot,Putback Dunk Shot,1,2,366
+0022600088,508,PT08M59.00S,3,1610612761,TOR,202695,Leonard,K. Leonard,152,211,26,Missed,1,,,0,h,MISS Leonard 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,367
+0022600088,509,PT08M59.00S,3,1610612741,CHI,1628380,Collins,Z. Collins,0,0,0,,0,,,0,v,Collins REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,368
+0022600088,512,PT08M46.00S,3,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard P.FOUL (P3.T4) (S.Mitchell),Foul,Personal,1,0,369
+0022600088,514,PT08M44.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley P.FOUL (P2.PN) (B.Schwab),Foul,Personal,1,0,370
+0022600088,516,PT08M44.00S,3,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,MISS Powell Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,371
+0022600088,517,PT08M44.00S,3,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Normal Rebound,0,0,372
+0022600088,518,PT08M44.00S,3,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,79,52,131,v,Powell Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,373
+0022600088,519,PT08M25.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,-24,137,14,Missed,1,,,0,h,MISS Barnes 14' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,374
+0022600088,520,PT08M25.00S,3,1610612741,CHI,1628380,Collins,Z. Collins,0,0,0,,0,,,0,v,Collins REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,375
+0022600088,521,PT08M16.00S,3,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey Bad Pass Turnover (P4.T13),Turnover,Bad Pass,1,0,376
+0022600088,521,PT08M16.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley STEAL (2 STL),,,1,0,377
+0022600088,523,PT08M08.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,-26,79,8,Made,1,81,52,133,h,Barrett 8' Turnaround Fadeaway (11 PTS),Made Shot,Turnaround Fadeaway shot,1,2,378
+0022600088,524,PT08M08.00S,3,1610612741,CHI,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro S.FOUL (P3.T4) (B.Schwab),Foul,Shooting,1,0,379
+0022600088,527,PT08M08.00S,3,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,SUB: Jones FOR Giddey,Substitution,,0,0,380
+0022600088,528,PT08M08.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,82,52,134,h,Barrett Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,1,0,381
+0022600088,529,PT07M56.00S,3,1610612741,CHI,1630188,Smith,J. Smith,-234,-6,0,Missed,1,,,0,v,MISS Smith 3PT Jump Shot,Missed Shot,Jump Shot,1,3,382
+0022600088,530,PT07M56.00S,3,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,383
+0022600088,531,PT07M45.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,-15,116,12,Missed,1,,,0,h,MISS Quickley 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,384
+0022600088,532,PT07M45.00S,3,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,385
+0022600088,533,PT07M41.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,235,-8,24,Missed,1,,,0,h,MISS Barrett 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,386
+0022600088,534,PT07M41.00S,3,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,1,0,387
+0022600088,537,PT07M39.00S,3,1610612741,CHI,1630188,Smith,J. Smith,0,0,0,,0,,,0,v,SUB: Miller FOR Smith,Substitution,,0,0,388
+0022600088,538,PT07M36.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,227,10,0,Missed,1,,,0,h,MISS Quickley 3PT Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,3,389
+0022600088,539,PT07M36.00S,3,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,390
+0022600088,540,PT07M22.00S,3,1610612741,CHI,1630200,Jones,T. Jones,109,111,16,Made,1,82,54,136,v,Jones 16' Driving Floating Jump Shot (5 PTS) (Okoro 1 AST),Made Shot,Driving Floating Jump Shot,1,2,391
+0022600088,542,PT07M10.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,236,-5,24,Missed,1,,,0,h,MISS Quickley 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,392
+0022600088,543,PT07M10.00S,3,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,393
+0022600088,544,PT07M03.00S,3,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller Out of Bounds - Bad Pass Turnover Turnover (P1.T14),Turnover,Out of Bounds - Bad Pass Turnover,1,0,394
+0022600088,545,PT07M03.00S,3,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,395
+0022600088,549,PT07M03.00S,3,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,SUB: Shead FOR Leonard,Substitution,,0,0,396
+0022600088,550,PT07M03.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,SUB: Walter FOR Quickley,Substitution,,0,0,397
+0022600088,551,PT07M03.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,SUB: Graves FOR Barnes,Substitution,,0,0,398
+0022600088,553,PT07M03.00S,3,1610612741,CHI,1628380,Collins,Z. Collins,0,0,0,,0,,,0,v,SUB: Wilson FOR Collins,Substitution,,0,0,399
+0022600088,554,PT06M50.00S,3,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,Powell P.FOUL (P4.PN) (C.Kirkland),Foul,Personal,1,0,400
+0022600088,556,PT06M50.00S,3,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,83,54,137,h,Walter Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,401
+0022600088,557,PT06M50.00S,3,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,MISS Walter Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,402
+0022600088,558,PT06M50.00S,3,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,Murray-Boyles REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,403
+0022600088,559,PT06M43.00S,3,1610612741,CHI,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro S.FOUL (P4.PN) (B.Schwab),Foul,Shooting,1,0,404
+0022600088,561,PT06M43.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,84,54,138,h,Barrett Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,405
+0022600088,562,PT06M43.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,85,54,139,h,Barrett Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,406
+0022600088,563,PT06M28.00S,3,1610612741,CHI,1643410,Wilson,C. Wilson,-5,98,10,Missed,1,,,0,v,MISS Wilson 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,407
+0022600088,564,PT06M28.00S,3,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,408
+0022600088,565,PT06M18.00S,3,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller Violation:Kicked Ball (S.Mitchell),Violation,Kicked Ball,0,0,409
+0022600088,567,PT06M18.00S,3,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,SUB: Hield FOR Powell,Substitution,,0,0,410
+0022600088,568,PT06M11.00S,3,1610612741,CHI,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield S.FOUL (P2.PN) (C.Kirkland),Foul,Shooting,1,0,411
+0022600088,570,PT06M11.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,86,54,140,h,Barrett Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,412
+0022600088,571,PT06M11.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,MISS Barrett Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,413
+0022600088,572,PT06M11.00S,3,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,414
+0022600088,573,PT05M58.00S,3,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,51,18,5,Made,1,88,54,142,h,Murray-Boyles 5' Turnaround Bank Shot (6 PTS) (Walter 2 AST),Made Shot,Turnaround Bank shot,1,2,415
+0022600088,575,PT05M34.00S,3,1610612741,CHI,1630200,Jones,T. Jones,16,-16,2,Made,1,88,56,144,v,Jones 2' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,416
+0022600088,576,PT05M27.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,3,12,1,Made,1,90,56,146,h,Barrett 1' Running Dunk (16 PTS) (Murray-Boyles 3 AST),Made Shot,Running Dunk Shot,1,2,417
+0022600088,578,PT05M27.00S,3,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,418
+0022600088,580,PT05M27.00S,3,1610612741,CHI,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,SUB: Essengue FOR Okoro,Substitution,,0,0,419
+0022600088,581,PT05M19.00S,3,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller OFF.Foul (P2) (B.Schwab),Foul,Offensive,1,0,420
+0022600088,583,PT05M19.00S,3,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller Offensive Foul Turnover (P2.T15),Turnover,Offensive Foul Turnover,1,0,421
+0022600088,584,PT05M06.00S,3,1610612761,TOR,1642266,Walter,J. Walter,98,253,27,Missed,1,,,0,h,MISS Walter 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,422
+0022600088,585,PT05M06.00S,3,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Unknown,1,0,423
+0022600088,587,PT04M50.00S,3,1610612741,CHI,1630200,Jones,T. Jones,124,9,12,Made,1,90,58,148,v,Jones 12' Driving Floating Bank Jump Shot (9 PTS) (Hield 2 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,424
+0022600088,589,PT04M46.00S,3,1610612741,CHI,1642855,Essengue,N. Essengue,0,0,0,,0,,,0,v,Essengue P.FOUL (P1.PN) (S.Mitchell),Foul,Personal,1,0,425
+0022600088,591,PT04M46.00S,3,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,91,58,149,h,Shead Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,426
+0022600088,592,PT04M46.00S,3,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,92,58,150,h,Shead Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,427
+0022600088,593,PT04M36.00S,3,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter P.FOUL (P2.PN) (B.Schwab),Foul,Personal,1,0,428
+0022600088,595,PT04M36.00S,3,1610612741,CHI,1630200,Jones,T. Jones,0,0,0,,0,92,59,151,v,Jones Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,429
+0022600088,599,PT04M36.00S,3,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,SUB: Barnes FOR Murray-Boyles,Substitution,,0,0,430
+0022600088,600,PT04M36.00S,3,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,SUB: Poeltl FOR Barrett,Substitution,,0,0,431
+0022600088,596,PT04M36.00S,3,1610612741,CHI,1630200,Jones,T. Jones,0,0,0,,0,92,60,152,v,Jones Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,432
+0022600088,601,PT04M13.00S,3,1610612761,TOR,1642266,Walter,J. Walter,-7,91,9,Made,1,94,60,154,h,Walter 9' Floating Jump Shot (8 PTS),Made Shot,Floating Jump shot,1,2,433
+0022600088,602,PT04M06.00S,3,1610612741,CHI,1630200,Jones,T. Jones,-8,-20,2,Made,1,94,62,156,v,Jones 2' Driving Reverse Layup (13 PTS),Made Shot,Driving Reverse Layup Shot,1,2,434
+0022600088,603,PT04M00.00S,3,1610612761,TOR,1642347,Shead,J. Shead,0,4,0,Missed,1,,,0,h,MISS Shead Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,435
+0022600088,604,PT04M00.00S,3,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Unknown,0,0,436
+0022600088,607,PT03M49.00S,3,1610612741,CHI,1630200,Jones,T. Jones,135,214,25,Missed,1,,,0,v,MISS Jones 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,437
+0022600088,608,PT03M49.00S,3,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,438
+0022600088,609,PT03M41.00S,3,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter Out of Bounds - Bad Pass Turnover Turnover (P1.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,439
+0022600088,610,PT03M36.00S,3,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson OFF.Foul (P3) (S.Mitchell),Foul,Offensive,1,0,440
+0022600088,612,PT03M36.00S,3,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson Offensive Foul Turnover (P6.T16),Turnover,Offensive Foul Turnover,1,0,441
+0022600088,614,PT03M36.00S,3,1610612741,CHI,1630200,Jones,T. Jones,0,0,0,,0,,,0,v,SUB: Giddey FOR Jones,Substitution,,0,0,442
+0022600088,615,PT03M24.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,3,46,5,Missed,1,,,0,h,MISS Barnes 5' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,443
+0022600088,616,PT03M24.00S,3,1610612741,CHI,1642855,Essengue,N. Essengue,0,0,0,,0,,,0,v,Essengue REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,444
+0022600088,617,PT03M15.00S,3,1610612741,CHI,1631159,Miller,L. Miller,170,172,24,Missed,1,,,0,v,MISS Miller 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,445
+0022600088,618,PT03M15.00S,3,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,446
+0022600088,619,PT03M12.00S,3,1610612741,CHI,1630581,Giddey,J. Giddey,-4,-13,1,Missed,1,,,0,v,MISS Giddey 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,447
+0022600088,619,PT03M12.00S,3,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves BLOCK (1 BLK),,,1,2,448
+0022600088,620,PT03M12.00S,3,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Unknown,0,0,449
+0022600088,624,PT03M12.00S,3,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,SUB: Quickley FOR Shead,Substitution,,0,0,450
+0022600088,625,PT03M06.00S,3,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller Backcourt Turnover (P3.T17),Turnover,Backcourt Turnover,1,0,451
+0022600088,626,PT02M51.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,146,10,15,Missed,1,,,0,h,MISS Barnes 15' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,452
+0022600088,627,PT02M51.00S,3,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,453
+0022600088,628,PT02M38.00S,3,1610612741,CHI,1643410,Wilson,C. Wilson,184,186,26,Missed,1,,,0,v,MISS Wilson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,454
+0022600088,629,PT02M38.00S,3,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,455
+0022600088,630,PT02M30.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,16,48,5,Made,1,96,62,158,h,Quickley 5' Running Layup (21 PTS) (Walter 3 AST),Made Shot,Running Layup Shot,1,2,456
+0022600088,632,PT02M30.00S,3,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson S.FOUL (P4.PN) (S.Mitchell),Foul,Shooting,1,0,457
+0022600088,635,PT02M30.00S,3,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,SUB: Leonard FOR Graves,Substitution,,0,0,458
+0022600088,636,PT02M30.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,97,62,159,h,Quickley Free Throw 1 of 1 (21 PTS),Free Throw,Free Throw 1 of 1,1,0,459
+0022600088,637,PT02M18.00S,3,1610612741,CHI,1630581,Giddey,J. Giddey,221,114,25,Missed,1,,,0,v,MISS Giddey 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,460
+0022600088,638,PT02M18.00S,3,1610612761,TOR,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,461
+0022600088,639,PT02M13.00S,3,1610612741,CHI,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield S.FOUL (P3.PN) (C.Kirkland),Foul,Shooting,1,0,462
+0022600088,641,PT02M13.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,98,62,160,h,Barnes Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,463
+0022600088,645,PT02M13.00S,3,1610612741,CHI,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,SUB: Awaka FOR Hield,Substitution,,0,0,464
+0022600088,646,PT02M13.00S,3,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,SUB: Sellers FOR Wilson,Substitution,,0,0,465
+0022600088,642,PT02M13.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,99,62,161,h,Barnes Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,1,0,466
+0022600088,647,PT02M04.00S,3,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey Lost Ball Turnover (P5.T18),Turnover,Lost Ball,1,0,467
+0022600088,647,PT02M04.00S,3,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter STEAL (2 STL),,,1,0,468
+0022600088,649,PT02M00.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,8,8,1,Made,1,101,62,163,h,Barnes 1' Driving Dunk (23 PTS) (Walter 4 AST),Made Shot,Driving Dunk Shot,1,2,469
+0022600088,651,PT01M39.00S,3,1610612741,CHI,1643637,Sellers,J. Sellers,160,195,25,Made,1,101,65,166,v,Sellers 25' 3PT Jump Shot (3 PTS) (Miller 1 AST),Made Shot,Jump Shot,1,3,470
+0022600088,652,PT01M19.00S,3,1610612761,TOR,1630193,Quickley,I. Quickley,-11,121,12,Missed,1,,,0,h,MISS Quickley 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,471
+0022600088,653,PT01M19.00S,3,1610612741,CHI,1642855,Essengue,N. Essengue,0,0,0,,0,,,0,v,Essengue REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,472
+0022600088,654,PT01M09.00S,3,1610612741,CHI,1643591,Awaka,T. Awaka,-5,-14,1,Made,1,101,67,168,v,Awaka 1' Layup (2 PTS) (Giddey 6 AST),Made Shot,Layup Shot,1,2,473
+0022600088,656,PT00M57.10S,3,1610612761,TOR,202695,Leonard,K. Leonard,-126,225,26,Missed,1,,,0,h,MISS Leonard 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,474
+0022600088,657,PT00M57.10S,3,1610612741,CHI,1643637,Sellers,J. Sellers,0,0,0,,0,,,0,v,Sellers REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,475
+0022600088,658,PT00M51.10S,3,1610612741,CHI,1643637,Sellers,J. Sellers,7,-11,1,Missed,1,,,0,v,MISS Sellers 1' Running Layup,Missed Shot,Running Layup Shot,1,2,476
+0022600088,659,PT00M51.10S,3,1610612741,CHI,1643591,Awaka,T. Awaka,0,0,0,,0,,,0,v,Awaka REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,477
+0022600088,660,PT00M49.30S,3,1610612741,CHI,1631159,Miller,L. Miller,2,-25,3,Made,1,101,69,170,v,Miller 3' Layup (4 PTS) (Awaka 1 AST),Made Shot,Layup Shot,1,2,478
+0022600088,662,PT00M34.50S,3,1610612741,CHI,1643637,Sellers,J. Sellers,0,0,0,,0,,,0,v,Sellers S.FOUL (P1.PN) (B.Schwab),Foul,Shooting,1,0,479
+0022600088,664,PT00M34.50S,3,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,102,69,171,h,Quickley Free Throw 1 of 2 (22 PTS),Free Throw,Free Throw 1 of 2,1,0,480
+0022600088,668,PT00M34.50S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,h,SUB: Graves FOR Barnes,Substitution,,0,0,481
+0022600088,666,PT00M34.50S,3,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,103,69,172,h,Quickley Free Throw 2 of 2 (23 PTS),Free Throw,Free Throw 2 of 2,1,0,482
+0022600088,669,PT00M26.90S,3,1610612741,CHI,1643637,Sellers,J. Sellers,-236,-8,24,Missed,1,,,0,v,MISS Sellers 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,483
+0022600088,670,PT00M26.90S,3,1610612741,CHI,1643591,Awaka,T. Awaka,0,0,0,,0,,,0,v,Awaka REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,484
+0022600088,671,PT00M21.50S,3,1610612741,CHI,1630581,Giddey,J. Giddey,-21,29,4,Missed,1,,,0,v,MISS Giddey 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,485
+0022600088,672,PT00M21.50S,3,1610612741,CHI,1642855,Essengue,N. Essengue,0,0,0,,0,,,0,v,Essengue REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,486
+0022600088,673,PT00M12.20S,3,1610612741,CHI,1630581,Giddey,J. Giddey,-228,45,0,Missed,1,,,0,v,MISS Giddey 3PT Jump Shot,Missed Shot,Jump Shot,1,3,487
+0022600088,674,PT00M12.20S,3,1610612741,CHI,1643591,Awaka,T. Awaka,0,0,0,,0,,,0,v,Awaka REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,488
+0022600088,675,PT00M07.70S,3,1610612741,CHI,1630581,Giddey,J. Giddey,0,-2,0,Made,1,103,71,174,v,Giddey Cutting Dunk Shot (2 PTS) (Awaka 2 AST),Made Shot,Cutting Dunk Shot,1,2,489
+0022600088,677,PT00M00.50S,3,1610612761,TOR,1630193,Quickley,I. Quickley,89,269,28,Missed,1,,,0,h,MISS Quickley 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,490
+0022600088,678,PT00M00.50S,3,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Unknown,1,0,491
+0022600088,679,PT00M00.00S,3,0,,0,,,0,0,0,,0,103,71,174,,End of 3rd Period (9:47 PM EST),period,end,1,0,492
+0022600088,684,PT12M00.00S,4,0,,0,,,0,0,0,,0,103,71,174,,Start of 4th Period (9:49 PM EST),period,start,0,0,493
+0022600088,685,PT11M35.00S,4,1610612761,TOR,202695,Leonard,K. Leonard,21,219,22,Missed,1,,,0,h,MISS Leonard 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,494
+0022600088,686,PT11M35.00S,4,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves REBOUND (Off:4 Def:0),Rebound,Unknown,1,0,495
+0022600088,687,PT11M32.00S,4,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller S.FOUL (P3.T1) (B.Schwab),Foul,Shooting,1,0,496
+0022600088,689,PT11M32.00S,4,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,MISS Graves Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,497
+0022600088,690,PT11M32.00S,4,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Rebound,Rebound,Normal Rebound,0,0,498
+0022600088,691,PT11M32.00S,4,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,104,71,175,h,Graves Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,499
+0022600088,692,PT11M16.00S,4,1610612741,CHI,1642855,Essengue,N. Essengue,0,0,0,,0,,,0,v,Essengue Lost Ball Turnover (P1.T19),Turnover,Lost Ball,1,0,500
+0022600088,692,PT11M16.00S,4,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard STEAL (4 STL),,,1,0,501
+0022600088,694,PT11M12.00S,4,1610612761,TOR,202695,Leonard,K. Leonard,-2,4,0,Made,1,106,71,177,h,Leonard Running Dunk (17 PTS) (Barrett 3 AST),Made Shot,Running Dunk Shot,1,2,502
+0022600088,696,PT11M04.00S,4,1610612741,CHI,1643637,Sellers,J. Sellers,-21,-5,2,Missed,1,,,0,v,MISS Sellers 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,503
+0022600088,697,PT11M04.00S,4,1610612741,CHI,1643591,Awaka,T. Awaka,0,0,0,,0,,,0,v,Awaka REBOUND (Off:4 Def:0),Rebound,Unknown,1,0,504
+0022600088,698,PT10M58.00S,4,1610612741,CHI,1631159,Miller,L. Miller,153,184,24,Missed,1,,,0,v,MISS Miller 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,505
+0022600088,699,PT10M58.00S,4,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,Quickley REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,506
+0022600088,700,PT10M52.00S,4,1610612761,TOR,202695,Leonard,K. Leonard,11,10,1,Missed,1,,,0,h,MISS Leonard 1' Running Layup,Missed Shot,Running Layup Shot,1,2,507
+0022600088,701,PT10M52.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,508
+0022600088,702,PT10M49.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,Made,1,108,71,179,h,Barrett Tip Layup Shot (18 PTS),Made Shot,Tip Layup Shot,1,2,509
+0022600088,703,PT10M36.00S,4,1610612741,CHI,1630581,Giddey,J. Giddey,53,96,11,Missed,1,,,0,v,MISS Giddey 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,510
+0022600088,704,PT10M36.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,511
+0022600088,705,PT10M35.00S,4,1610612741,CHI,1643591,Awaka,T. Awaka,0,0,0,,0,,,0,v,Awaka P.FOUL (P1.T2) (S.Mitchell),Foul,Personal,1,0,512
+0022600088,707,PT10M35.00S,4,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,Giddey T.FOUL (P2.T2) (S.Mitchell),Foul,Technical,1,0,513
+0022600088,708,PT10M35.00S,4,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,109,71,180,h,Leonard Free Throw Technical (18 PTS),Free Throw,Free Throw Technical,1,0,514
+0022600088,711,PT10M35.00S,4,1610612741,CHI,1630581,Giddey,J. Giddey,0,0,0,,0,,,0,v,SUB: Wilson FOR Giddey,Substitution,,0,0,515
+0022600088,712,PT10M35.00S,4,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,SUB: Buzelis FOR Miller,Substitution,,0,0,516
+0022600088,713,PT10M20.00S,4,1610612741,CHI,1642855,Essengue,N. Essengue,0,0,0,,0,,,0,v,Essengue S.FOUL (P2.T3) (S.Mitchell),Foul,Shooting,1,0,517
+0022600088,715,PT10M20.00S,4,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,110,71,181,h,Leonard Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,1,0,518
+0022600088,716,PT10M20.00S,4,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,111,71,182,h,Leonard Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,1,0,519
+0022600088,717,PT10M06.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,Barrett S.FOUL (P3.T1) (B.Schwab),Foul,Shooting,1,0,520
+0022600088,719,PT10M06.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,111,72,183,v,Buzelis Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,521
+0022600088,723,PT10M06.00S,4,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,SUB: Walter FOR Leonard,Substitution,,0,0,522
+0022600088,724,PT10M06.00S,4,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,SUB: Battle FOR Graves,Substitution,,0,0,523
+0022600088,720,PT10M06.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,MISS Buzelis Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,524
+0022600088,725,PT10M06.00S,4,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,Battle REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,525
+0022600088,726,PT09M44.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,-25,6,3,Made,1,113,72,185,h,Barrett 3' Driving Finger Roll Layup (20 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,526
+0022600088,731,PT09M35.00S,4,1610612761,TOR,1642867,Murray-Boyles,C. Murray-Boyles,0,0,0,,0,,,0,h,SUB: Jackson-Davis FOR Murray-Boyles,Substitution,,0,0,527
+0022600088,732,PT09M35.00S,4,1610612761,TOR,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,h,SUB: Leonard FOR Barrett,Substitution,,0,0,528
+0022600088,733,PT09M34.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis Bad Pass Turnover (P2.T20),Turnover,Bad Pass,1,0,529
+0022600088,733,PT09M34.00S,4,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter STEAL (3 STL),,,1,0,530
+0022600088,735,PT09M23.00S,4,1610612761,TOR,1642419,Battle,J. Battle,-229,81,24,Made,1,116,72,188,h,Battle 24' 3PT Jump Shot (8 PTS) (Quickley 7 AST),Made Shot,Jump Shot,1,3,531
+0022600088,737,PT09M10.00S,4,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,Battle S.FOUL (P2.T2) (C.Kirkland),Foul,Shooting,1,0,532
+0022600088,739,PT09M10.00S,4,1610612741,CHI,1642855,Essengue,N. Essengue,0,0,0,,0,,,0,v,MISS Essengue Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,533
+0022600088,740,PT09M10.00S,4,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Normal Rebound,1,0,534
+0022600088,743,PT09M10.00S,4,1610612761,TOR,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,h,SUB: Shead FOR Quickley,Substitution,,0,0,535
+0022600088,741,PT09M10.00S,4,1610612741,CHI,1642855,Essengue,N. Essengue,0,0,0,,0,116,73,189,v,Essengue Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,536
+0022600088,744,PT08M47.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,4,-3,1,Made,1,118,73,191,h,Jackson-Davis 1' Dunk (2 PTS) (Shead 3 AST),Made Shot,Dunk Shot,1,2,537
+0022600088,746,PT08M34.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,-4,-16,2,Made,1,118,75,193,v,Wilson 2' Driving Dunk (12 PTS),Made Shot,Driving Dunk Shot,1,2,538
+0022600088,747,PT08M24.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead Bad Pass Turnover (P2.T5),Turnover,Bad Pass,1,0,539
+0022600088,747,PT08M24.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson STEAL (2 STL),,,1,0,540
+0022600088,749,PT08M19.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson Lost Ball Turnover (P7.T21),Turnover,Lost Ball,1,0,541
+0022600088,749,PT08M19.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead STEAL (1 STL),,,1,0,542
+0022600088,751,PT08M14.00S,4,1610612761,TOR,202695,Leonard,K. Leonard,107,246,27,Made,1,121,75,196,h,Leonard 27' 3PT Running Jump Shot (23 PTS) (Shead 4 AST),Made Shot,Running Jump Shot,1,3,543
+0022600088,753,PT08M12.00S,4,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,544
+0022600088,755,PT08M12.00S,4,1610612761,TOR,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,SUB: Graves FOR Leonard,Substitution,,0,0,545
+0022600088,756,PT08M01.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,165,177,24,Missed,1,,,0,v,MISS Wilson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,546
+0022600088,757,PT08M01.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,547
+0022600088,758,PT07M55.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead Bad Pass Turnover (P3.T6),Turnover,Bad Pass,1,0,548
+0022600088,758,PT07M55.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson STEAL (3 STL),,,1,0,549
+0022600088,760,PT07M52.00S,4,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter S.FOUL (P3.T3) (C.Kirkland),Foul,Shooting,1,0,550
+0022600088,762,PT07M52.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,121,76,197,v,Buzelis Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,551
+0022600088,765,PT07M52.00S,4,1610612741,CHI,1642855,Essengue,N. Essengue,0,0,0,,0,,,0,v,SUB: Powell FOR Essengue,Substitution,,0,0,552
+0022600088,763,PT07M52.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,121,77,198,v,Buzelis Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,553
+0022600088,766,PT07M32.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,-2,19,2,Missed,1,,,0,h,MISS Jackson-Davis 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,554
+0022600088,766,PT07M32.00S,4,1610612741,CHI,1643591,Awaka,T. Awaka,0,0,0,,0,,,0,v,Awaka BLOCK (1 BLK),,,1,2,555
+0022600088,767,PT07M32.00S,4,1610612741,CHI,1643591,Awaka,T. Awaka,0,0,0,,0,,,0,v,Awaka REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,556
+0022600088,769,PT07M23.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,-23,-8,2,Missed,1,,,0,v,MISS Wilson 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,557
+0022600088,769,PT07M23.00S,4,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves BLOCK (2 BLK),,,1,2,558
+0022600088,770,PT07M23.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,559
+0022600088,772,PT07M18.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,Made,1,121,79,200,v,Wilson Putback Dunk (14 PTS),Made Shot,Putback Dunk Shot,1,2,560
+0022600088,773,PT07M04.00S,4,1610612761,TOR,1642266,Walter,J. Walter,-234,9,0,Missed,1,,,0,h,MISS Walter 3PT Jump Shot,Missed Shot,Jump Shot,1,3,561
+0022600088,774,PT07M04.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,,,0,h,Jackson-Davis REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,562
+0022600088,775,PT06M59.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,Made,1,123,79,202,h,Jackson-Davis Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,563
+0022600088,776,PT06M49.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,-14,-13,2,Made,1,123,81,204,v,Buzelis 2' Cutting Dunk Shot (8 PTS) (Sellers 1 AST),Made Shot,Cutting Dunk Shot,1,2,564
+0022600088,778,PT06M28.00S,4,1610612761,TOR,1643512,Graves,A. Graves,-129,150,20,Missed,1,,,0,h,MISS Graves 20' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,565
+0022600088,779,PT06M28.00S,4,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,566
+0022600088,780,PT06M17.00S,4,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves S.FOUL (P1.T4) (S.Mitchell),Foul,Shooting,1,0,567
+0022600088,782,PT06M17.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,123,82,205,v,Buzelis Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,568
+0022600088,783,PT06M17.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,123,83,206,v,Buzelis Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,569
+0022600088,784,PT06M01.00S,4,1610612761,TOR,1642266,Walter,J. Walter,-2,27,3,Made,1,125,83,208,h,Walter 3' Driving Finger Roll Layup (10 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,570
+0022600088,785,PT05M41.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson Out of Bounds Lost Ball Turnover (P8.T22),Turnover,Out of Bounds Lost Ball Turnover,1,0,571
+0022600088,786,PT05M38.00S,4,1610612761,TOR,1643512,Graves,A. Graves,-4,13,1,Made,1,127,83,210,h,Graves 1' Driving Dunk (5 PTS) (Shead 5 AST),Made Shot,Driving Dunk Shot,1,2,572
+0022600088,788,PT05M25.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,-229,-30,0,Missed,1,,,0,v,MISS Wilson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,573
+0022600088,789,PT05M25.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,574
+0022600088,791,PT05M17.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,-45,-5,5,Missed,1,,,0,v,MISS Wilson 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,575
+0022600088,791,PT05M17.00S,4,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves BLOCK (3 BLK),,,1,2,576
+0022600088,792,PT05M17.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,577
+0022600088,794,PT05M11.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,4,28,3,Missed,1,,,0,v,MISS Wilson 3' Hook Shot,Missed Shot,Hook Shot,1,2,578
+0022600088,795,PT05M11.00S,4,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,579
+0022600088,796,PT05M01.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,Shead Bad Pass Turnover (P4.T7),Turnover,Bad Pass,1,0,580
+0022600088,796,PT05M01.00S,4,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,Powell STEAL (2 STL),,,1,0,581
+0022600088,798,PT04M59.00S,4,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,Walter S.FOUL (P4.PN) (B.Schwab),Foul,Shooting,1,0,582
+0022600088,800,PT04M59.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,127,84,211,v,Buzelis Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,583
+0022600088,801,PT04M59.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,127,85,212,v,Buzelis Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,584
+0022600088,802,PT04M59.00S,4,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,585
+0022600088,806,PT04M59.00S,4,1610612761,TOR,1642419,Battle,J. Battle,0,0,0,,0,,,0,h,SUB: Anderson FOR Battle,Substitution,,0,0,586
+0022600088,807,PT04M59.00S,4,1610612761,TOR,1642266,Walter,J. Walter,0,0,0,,0,,,0,h,SUB: Bradley FOR Walter,Substitution,,0,0,587
+0022600088,808,PT04M59.00S,4,1610612761,TOR,1642347,Shead,J. Shead,0,0,0,,0,,,0,h,SUB: Martin FOR Shead,Substitution,,0,0,588
+0022600088,810,PT04M59.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,SUB: Miller FOR Wilson,Substitution,,0,0,589
+0022600088,811,PT04M44.00S,4,1610612761,TOR,203937,Anderson,K. Anderson,-11,90,9,Missed,1,,,0,h,MISS Anderson 9' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,590
+0022600088,812,PT04M44.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,591
+0022600088,813,PT04M33.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis Bad Pass Turnover (P3.T23),Turnover,Bad Pass,1,0,592
+0022600088,813,PT04M33.00S,4,1610612761,TOR,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson STEAL (1 STL),,,1,0,593
+0022600088,815,PT04M28.00S,4,1610612761,TOR,1642918,Martin,A. Martin,0,15,2,Made,1,129,85,214,h,Martin 2' Running Dunk (2 PTS) (Anderson 1 AST),Made Shot,Running Dunk Shot,1,2,594
+0022600088,817,PT04M18.00S,4,1610612741,CHI,1643637,Sellers,J. Sellers,0,0,0,,0,,,0,v,Sellers OFF.Foul (P2) (B.Schwab),Foul,Offensive,1,0,595
+0022600088,819,PT04M18.00S,4,1610612741,CHI,1643637,Sellers,J. Sellers,0,0,0,,0,,,0,v,Sellers Offensive Foul Turnover (P1.T24),Turnover,Offensive Foul Turnover,1,0,596
+0022600088,821,PT04M18.00S,4,1610612741,CHI,1626181,Powell,N. Powell,0,0,0,,0,,,0,v,SUB: Wilson FOR Powell,Substitution,,0,0,597
+0022600088,822,PT03M53.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,-58,57,8,Made,1,131,85,216,h,Jackson-Davis 8' Driving Hook Shot (6 PTS),Made Shot,Driving Hook Shot,1,2,598
+0022600088,823,PT03M41.00S,4,1610612761,TOR,1643558,Bradley,J. Bradley,0,0,0,,0,,,0,h,Bradley P.FOUL (P1.PN) (C.Kirkland),Foul,Personal,1,0,599
+0022600088,825,PT03M41.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,MISS Buzelis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,600
+0022600088,826,PT03M41.00S,4,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Normal Rebound,0,0,601
+0022600088,827,PT03M41.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,131,86,217,v,Buzelis Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,602
+0022600088,828,PT03M24.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,11,1,Made,1,133,86,219,h,Jackson-Davis 1' Cutting Dunk Shot (9 PTS) (Anderson 2 AST),Made Shot,Cutting Dunk Shot,1,2,603
+0022600088,830,PT03M24.00S,4,1610612741,CHI,1643591,Awaka,T. Awaka,0,0,0,,0,,,0,v,Awaka S.FOUL (P2.T4) (C.Kirkland),Foul,Shooting,1,0,604
+0022600088,832,PT03M24.00S,4,1610612761,TOR,1631218,Jackson-Davis,T. Jackson-Davis,0,0,0,,0,134,86,220,h,Jackson-Davis Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,1,0,605
+0022600088,833,PT03M06.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,140,209,25,Missed,1,,,0,v,MISS Wilson 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,606
+0022600088,834,PT03M06.00S,4,1610612741,CHI,1643591,Awaka,T. Awaka,0,0,0,,0,,,0,v,Awaka REBOUND (Off:5 Def:1),Rebound,Unknown,1,0,607
+0022600088,835,PT03M00.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,1,-16,2,Made,1,134,88,222,v,Wilson 2' Cutting Dunk Shot (16 PTS) (Sellers 2 AST),Made Shot,Cutting Dunk Shot,1,2,608
+0022600088,837,PT02M49.00S,4,1610612761,TOR,1643512,Graves,A. Graves,-234,20,0,Missed,1,,,0,h,MISS Graves 3PT Jump Shot,Missed Shot,Jump Shot,1,3,609
+0022600088,838,PT02M49.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,,,0,v,Buzelis REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,610
+0022600088,839,PT02M41.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,222,-13,0,Missed,1,,,0,v,MISS Wilson 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,611
+0022600088,840,PT02M41.00S,4,1610612741,CHI,1643591,Awaka,T. Awaka,0,0,0,,0,,,0,v,Awaka REBOUND (Off:6 Def:1),Rebound,Unknown,1,0,612
+0022600088,841,PT02M36.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,-202,134,24,Missed,1,,,0,v,MISS Buzelis 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,613
+0022600088,842,PT02M36.00S,4,1610612761,TOR,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,614
+0022600088,843,PT02M26.00S,4,1610612761,TOR,1643558,Bradley,J. Bradley,0,0,0,,0,,,0,h,Bradley Bad Pass Turnover (P1.T8),Turnover,Bad Pass,1,0,615
+0022600088,843,PT02M26.00S,4,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller STEAL (1 STL),,,1,0,616
+0022600088,845,PT02M21.00S,4,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller Offensive Charge Foul (P4) (S.Mitchell),Foul,Offensive Charge,1,0,617
+0022600088,847,PT02M21.00S,4,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller Offensive Foul Turnover (P4.T25),Turnover,Offensive Foul Turnover,1,0,618
+0022600088,848,PT02M15.00S,4,1610612761,TOR,1642918,Martin,A. Martin,0,0,0,,0,,,0,h,Martin OFF.Foul (P1) (S.Mitchell),Foul,Offensive,1,0,619
+0022600088,850,PT02M15.00S,4,1610612761,TOR,1642918,Martin,A. Martin,0,0,0,,0,,,0,h,Martin Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,620
+0022600088,851,PT02M15.00S,4,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,621
+0022600088,852,PT01M57.00S,4,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller OFF.Foul (P5) (S.Mitchell),Foul,Offensive,1,0,622
+0022600088,854,PT01M57.00S,4,1610612741,CHI,1631159,Miller,L. Miller,0,0,0,,0,,,0,v,Miller Offensive Foul Turnover (P5.T26),Turnover,Offensive Foul Turnover,1,0,623
+0022600088,855,PT01M45.00S,4,1610612761,TOR,1643558,Bradley,J. Bradley,60,118,13,Missed,1,,,0,h,MISS Bradley 13' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,624
+0022600088,856,PT01M45.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,625
+0022600088,857,PT01M34.00S,4,1610612761,TOR,1642918,Martin,A. Martin,0,0,0,,0,,,0,h,Martin P.FOUL (P2.PN) (C.Kirkland),Foul,Personal,1,0,626
+0022600088,859,PT01M34.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,134,89,223,v,Buzelis Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,627
+0022600088,860,PT01M34.00S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,134,90,224,v,Buzelis Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,628
+0022600088,861,PT01M20.00S,4,1610612741,CHI,1643637,Sellers,J. Sellers,0,0,0,,0,,,0,v,Sellers S.FOUL (P3.PN) (C.Kirkland),Foul,Shooting,1,0,629
+0022600088,863,PT01M20.00S,4,1610612761,TOR,1642918,Martin,A. Martin,0,0,0,,0,135,90,225,h,Martin Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,630
+0022600088,864,PT01M20.00S,4,1610612761,TOR,1642918,Martin,A. Martin,0,0,0,,0,,,0,h,MISS Martin Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,631
+0022600088,865,PT01M20.00S,4,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Unknown,0,0,632
+0022600088,867,PT01M01.00S,4,1610612741,CHI,1643410,Wilson,C. Wilson,0,0,0,,0,,,0,v,Wilson Lost Ball Turnover (P9.T27),Turnover,Lost Ball,1,0,633
+0022600088,867,PT01M01.00S,4,1610612761,TOR,1643512,Graves,A. Graves,0,0,0,,0,,,0,h,Graves STEAL (1 STL),,,1,0,634
+0022600088,869,PT00M59.70S,4,1610612761,TOR,1642918,Martin,A. Martin,0,0,0,,0,,,0,h,Martin Out of Bounds - Bad Pass Turnover Turnover (P2.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,635
+0022600088,871,PT00M44.30S,4,1610612761,TOR,1643558,Bradley,J. Bradley,0,0,0,,0,,,0,h,Bradley L.B.FOUL (P2.PN) (C.Kirkland),Foul,Loose Ball,1,0,636
+0022600088,873,PT00M44.30S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,135,91,226,v,Buzelis Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,637
+0022600088,874,PT00M44.30S,4,1610612741,CHI,1641824,Buzelis,M. Buzelis,0,0,0,,0,135,92,227,v,Buzelis Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,638
+0022600088,875,PT00M20.20S,4,0,,1610612761,,,0,0,0,,0,,,0,h,RAPTORS Turnover: Shot Clock (T#11),Turnover,Shot Clock Turnover,1,0,639
+0022600088,876,PT00M00.00S,4,0,,0,,,0,0,0,,0,135,92,227,,End of 4th Period (10:23 PM EST),period,end,1,0,640
