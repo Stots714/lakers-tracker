@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-31T13:22:27-07:00",
+ "updated": "2026-10-31T13:29:29-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
    "game_id": "0022600147",
    "tip_utc": "2026-10-31T19:00:00Z",
    "status": 2,
-   "status_text": "Half",
-   "period": 2,
-   "clock": "0:00",
+   "status_text": "Q3 12:00",
+   "period": 3,
+   "clock": "12:00",
    "home": {
     "team": "UTA",
     "score": 42,
@@ -26,7 +26,7 @@
      "ftm": 11,
      "fta": 16,
      "oreb": 4,
-     "dreb": 13,
+     "dreb": 14,
      "tov": 9,
      "pf": 15,
      "ast": 10,
@@ -58,7 +58,7 @@
      {
       "name": "Ace Bailey",
       "pts": 4,
-      "reb": 3,
+      "reb": 4,
       "ast": 1,
       "min": "15:45"
      }
