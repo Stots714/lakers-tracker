@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-31T12:19:05-07:00",
+ "updated": "2026-10-31T12:26:07-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
    "game_id": "0022600147",
    "tip_utc": "2026-10-31T19:00:00Z",
    "status": 2,
-   "status_text": "Q1 6:52",
+   "status_text": "Q1 4:48",
    "period": 1,
-   "clock": "6:52",
+   "clock": "4:48",
    "home": {
     "team": "UTA",
     "score": 7,
@@ -20,15 +20,15 @@
     ],
     "stats": {
      "fgm": 3,
-     "fga": 14,
+     "fga": 15,
      "fg3m": 1,
      "fg3a": 5,
      "ftm": 0,
      "fta": 0,
      "oreb": 2,
      "dreb": 6,
-     "tov": 1,
-     "pf": 2,
+     "tov": 3,
+     "pf": 3,
      "ast": 3,
      "stl": 2,
      "blk": 2,
@@ -46,76 +46,76 @@
       "pts": 4,
       "reb": 0,
       "ast": 1,
-      "min": "5:05"
+      "min": "6:56"
      },
      {
       "name": "Darryn Peterson",
       "pts": 3,
       "reb": 2,
       "ast": 0,
-      "min": "5:05"
+      "min": "5:18"
      },
      {
       "name": "Lauri Markkanen",
       "pts": 0,
       "reb": 2,
       "ast": 0,
-      "min": "5:05"
+      "min": "6:16"
      }
     ]
    },
    "away": {
     "team": "POR",
-    "score": 8,
+    "score": 18,
     "periods": [
-     8,
+     18,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 2,
-     "fga": 9,
-     "fg3m": 1,
-     "fg3a": 6,
-     "ftm": 3,
-     "fta": 4,
-     "oreb": 1,
-     "dreb": 6,
+     "fgm": 5,
+     "fga": 13,
+     "fg3m": 2,
+     "fg3a": 8,
+     "ftm": 6,
+     "fta": 7,
+     "oreb": 2,
+     "dreb": 7,
      "tov": 2,
-     "pf": 0,
-     "ast": 1,
-     "stl": 1,
+     "pf": 2,
+     "ast": 2,
+     "stl": 2,
      "blk": 0,
-     "pts_paint": 0,
-     "pts_second_chance": 2,
+     "pts_paint": 2,
+     "pts_second_chance": 5,
      "pts_fast_break": 0,
-     "pts_off_tov": 0,
-     "pts_bench": 0,
-     "biggest_lead": 3,
+     "pts_off_tov": 5,
+     "pts_bench": 2,
+     "biggest_lead": 11,
      "lead_changes": 4
     },
     "leaders": [
      {
       "name": "Damian Lillard",
-      "pts": 5,
+      "pts": 11,
       "reb": 1,
       "ast": 0,
-      "min": "5:05"
+      "min": "6:16"
      },
      {
       "name": "Deni Avdija",
-      "pts": 3,
+      "pts": 5,
       "reb": 2,
       "ast": 1,
-      "min": "5:05"
+      "min": "7:09"
      },
      {
-      "name": "Toumani Camara",
-      "pts": 0,
-      "reb": 1,
-      "ast": 0,
-      "min": "5:05"
+      "name": "Jrue Holiday",
+      "pts": 2,
+      "reb": 0,
+      "ast": 1,
+      "min": "1:51"
      }
     ]
    },
@@ -127,6 +127,10 @@
     {
      "t": 5.1,
      "m": -1
+    },
+    {
+     "t": 7.2,
+     "m": -11
     }
    ]
   },
