@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T15:47:10-07:00",
+ "updated": "2026-10-31T15:54:13-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
@@ -202,92 +202,92 @@
    "game_id": "0022600148",
    "tip_utc": "2026-10-31T22:00:00Z",
    "status": 2,
-   "status_text": "Q2 8:10",
+   "status_text": "Q2 4:22",
    "period": 2,
-   "clock": "8:10",
+   "clock": "4:22",
    "home": {
     "team": "CHA",
-    "score": 37,
+    "score": 44,
     "periods": [
      37,
-     0,
+     7,
      0,
      0
     ],
     "stats": {
-     "fgm": 14,
-     "fga": 25,
-     "fg3m": 6,
-     "fg3a": 16,
-     "ftm": 3,
-     "fta": 3,
+     "fgm": 15,
+     "fga": 29,
+     "fg3m": 7,
+     "fg3a": 19,
+     "ftm": 7,
+     "fta": 7,
      "oreb": 0,
-     "dreb": 11,
-     "tov": 5,
-     "pf": 4,
-     "ast": 10,
+     "dreb": 16,
+     "tov": 7,
+     "pf": 5,
+     "ast": 11,
      "stl": 3,
      "blk": 4,
      "pts_paint": 16,
      "pts_second_chance": 0,
      "pts_fast_break": 6,
-     "pts_off_tov": 5,
+     "pts_off_tov": 7,
      "pts_bench": 23,
      "biggest_lead": 13,
      "lead_changes": 1
     },
     "leaders": [
      {
+      "name": "Brandon Miller",
+      "pts": 13,
+      "reb": 1,
+      "ast": 1,
+      "min": "13:17"
+     },
+     {
       "name": "Grayson Allen",
       "pts": 11,
-      "reb": 1,
+      "reb": 2,
       "ast": 2,
-      "min": "8:22"
+      "min": "11:50"
      },
      {
-      "name": "Brandon Miller",
-      "pts": 8,
-      "reb": 0,
-      "ast": 1,
-      "min": "9:34"
-     },
-     {
-      "name": "Royce O'Neale",
+      "name": "Naz Reid",
       "pts": 6,
       "reb": 3,
       "ast": 1,
-      "min": "8:26"
+      "min": "14:20"
      }
     ]
    },
    "away": {
     "team": "PHI",
-    "score": 35,
+    "score": 42,
     "periods": [
      27,
-     8,
+     15,
      0,
      0
     ],
     "stats": {
-     "fgm": 14,
-     "fga": 33,
-     "fg3m": 5,
-     "fg3a": 13,
+     "fgm": 17,
+     "fga": 40,
+     "fg3m": 6,
+     "fg3a": 17,
      "ftm": 2,
-     "fta": 3,
+     "fta": 5,
      "oreb": 5,
-     "dreb": 9,
+     "dreb": 12,
      "tov": 4,
-     "pf": 6,
-     "ast": 7,
-     "stl": 4,
+     "pf": 7,
+     "ast": 9,
+     "stl": 5,
      "blk": 0,
-     "pts_paint": 18,
+     "pts_paint": 20,
      "pts_second_chance": 4,
      "pts_fast_break": 5,
-     "pts_off_tov": 5,
-     "pts_bench": 11,
+     "pts_off_tov": 7,
+     "pts_bench": 16,
      "biggest_lead": 5,
      "lead_changes": 1
     },
@@ -300,18 +300,18 @@
       "min": "12:41"
      },
      {
-      "name": "VJ Edgecombe",
+      "name": "Jaylen Brown",
       "pts": 5,
-      "reb": 2,
-      "ast": 0,
-      "min": "11:33"
+      "reb": 3,
+      "ast": 1,
+      "min": "15:16"
      },
      {
-      "name": "Jabari Walker",
+      "name": "VJ Edgecombe",
       "pts": 5,
-      "reb": 1,
-      "ast": 0,
-      "min": "7:19"
+      "reb": 3,
+      "ast": 1,
+      "min": "15:16"
      }
     ]
    },
@@ -338,6 +338,10 @@
     },
     {
      "t": 15.8,
+     "m": 2
+    },
+    {
+     "t": 19.6,
      "m": 2
     }
    ]
