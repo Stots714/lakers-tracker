@@ -1,41 +1,41 @@
 {
- "updated": "2026-10-31T13:08:21-07:00",
+ "updated": "2026-10-31T13:15:24-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
    "game_id": "0022600147",
    "tip_utc": "2026-10-31T19:00:00Z",
    "status": 2,
-   "status_text": "Q2 2:48",
+   "status_text": "Half",
    "period": 2,
-   "clock": "2:48",
+   "clock": "0:00",
    "home": {
     "team": "UTA",
-    "score": 36,
+    "score": 42,
     "periods": [
      18,
-     18,
+     24,
      0,
      0
     ],
     "stats": {
-     "fgm": 12,
-     "fga": 35,
-     "fg3m": 4,
-     "fg3a": 15,
-     "ftm": 8,
-     "fta": 12,
+     "fgm": 13,
+     "fga": 40,
+     "fg3m": 5,
+     "fg3a": 20,
+     "ftm": 11,
+     "fta": 16,
      "oreb": 4,
-     "dreb": 11,
+     "dreb": 13,
      "tov": 9,
-     "pf": 13,
-     "ast": 9,
-     "stl": 5,
-     "blk": 3,
+     "pf": 15,
+     "ast": 10,
+     "stl": 7,
+     "blk": 4,
      "pts_paint": 12,
      "pts_second_chance": 4,
-     "pts_fast_break": 4,
-     "pts_off_tov": 5,
+     "pts_fast_break": 8,
+     "pts_off_tov": 6,
      "pts_bench": 14,
      "biggest_lead": 1,
      "lead_changes": 4
@@ -46,76 +46,76 @@
       "pts": 11,
       "reb": 2,
       "ast": 2,
-      "min": "14:23"
+      "min": "17:06"
+     },
+     {
+      "name": "Keyonte George",
+      "pts": 6,
+      "reb": 2,
+      "ast": 2,
+      "min": "15:13"
      },
      {
       "name": "Ace Bailey",
       "pts": 4,
-      "reb": 1,
+      "reb": 3,
       "ast": 1,
-      "min": "12:57"
-     },
-     {
-      "name": "Keyonte George",
-      "pts": 4,
-      "reb": 2,
-      "ast": 2,
-      "min": "14:32"
+      "min": "15:45"
      }
     ]
    },
    "away": {
     "team": "POR",
-    "score": 50,
+    "score": 59,
     "periods": [
      27,
-     23,
+     32,
      0,
      0
     ],
     "stats": {
-     "fgm": 12,
-     "fga": 28,
+     "fgm": 15,
+     "fga": 33,
      "fg3m": 6,
      "fg3a": 16,
-     "ftm": 20,
-     "fta": 23,
+     "ftm": 23,
+     "fta": 26,
      "oreb": 2,
-     "dreb": 18,
-     "tov": 9,
-     "pf": 12,
-     "ast": 6,
+     "dreb": 22,
+     "tov": 11,
+     "pf": 14,
+     "ast": 8,
      "stl": 5,
      "blk": 1,
-     "pts_paint": 8,
+     "pts_paint": 14,
      "pts_second_chance": 5,
      "pts_fast_break": 2,
      "pts_off_tov": 14,
-     "pts_bench": 12,
+     "pts_bench": 14,
      "biggest_lead": 19,
      "lead_changes": 4
     },
     "leaders": [
      {
       "name": "Deni Avdija",
-      "pts": 12,
+      "pts": 19,
       "reb": 4,
       "ast": 2,
-      "min": "15:15"
+      "min": "18:03"
      },
      {
       "name": "Damian Lillard",
       "pts": 12,
-      "reb": 1,
-      "ast": 1,
-      "min": "12:44"
+      "reb": 2,
+      "ast": 2,
+      "min": "14:56"
      },
      {
       "name": "Scoot Henderson",
       "pts": 9,
       "reb": 0,
       "ast": 0,
-      "min": "15:09"
+      "min": "15:50"
      }
     ]
    },
@@ -155,6 +155,10 @@
     {
      "t": 21.2,
      "m": -14
+    },
+    {
+     "t": 24.0,
+     "m": -17
     }
    ]
   },
