@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T21:20:25-07:00",
+ "updated": "2026-10-30T21:29:10-07:00",
  "board_date": "2026-10-30",
  "games": [
   {
@@ -998,54 +998,54 @@
    "game_id": "0022600023",
    "tip_utc": "2026-10-31T02:00:00Z",
    "status": 2,
-   "status_text": "Q4 9:38",
+   "status_text": "Q4 6:51",
    "period": 4,
-   "clock": "9:38",
+   "clock": "6:51",
    "home": {
     "team": "GSW",
-    "score": 90,
+    "score": 101,
     "periods": [
      15,
      38,
      32,
-     5
+     16
     ],
     "stats": {
-     "fgm": 30,
-     "fga": 72,
-     "fg3m": 18,
-     "fg3a": 37,
-     "ftm": 12,
-     "fta": 14,
-     "oreb": 12,
-     "dreb": 21,
+     "fgm": 34,
+     "fga": 77,
+     "fg3m": 20,
+     "fg3a": 40,
+     "ftm": 13,
+     "fta": 15,
+     "oreb": 13,
+     "dreb": 23,
      "tov": 16,
-     "pf": 17,
-     "ast": 24,
+     "pf": 18,
+     "ast": 27,
      "stl": 10,
      "blk": 5,
      "pts_paint": 24,
-     "pts_second_chance": 19,
+     "pts_second_chance": 21,
      "pts_fast_break": 18,
-     "pts_off_tov": 22,
-     "pts_bench": 43,
-     "biggest_lead": 10,
+     "pts_off_tov": 24,
+     "pts_bench": 45,
+     "biggest_lead": 17,
      "lead_changes": 2
     },
     "leaders": [
      {
       "name": "Stephen Curry",
-      "pts": 22,
+      "pts": 31,
       "reb": 4,
       "ast": 6,
-      "min": "25:46"
+      "min": "28:27"
      },
      {
       "name": "Brandin Podziemski",
       "pts": 17,
-      "reb": 2,
-      "ast": 5,
-      "min": "25:04"
+      "reb": 5,
+      "ast": 6,
+      "min": "27:45"
      },
      {
       "name": "De'Anthony Melton",
@@ -1058,23 +1058,23 @@
    },
    "away": {
     "team": "LAL",
-    "score": 80,
+    "score": 84,
     "periods": [
      38,
      15,
      27,
-     0
+     4
     ],
     "stats": {
-     "fgm": 28,
-     "fga": 70,
-     "fg3m": 10,
-     "fg3a": 34,
-     "ftm": 14,
-     "fta": 17,
+     "fgm": 29,
+     "fga": 73,
+     "fg3m": 11,
+     "fg3a": 37,
+     "ftm": 15,
+     "fta": 19,
      "oreb": 16,
      "dreb": 23,
-     "tov": 20,
+     "tov": 21,
      "pf": 19,
      "ast": 15,
      "stl": 8,
@@ -1093,21 +1093,21 @@
       "pts": 35,
       "reb": 7,
       "ast": 5,
-      "min": "30:40"
+      "min": "31:45"
      },
      {
       "name": "Austin Reaves",
-      "pts": 16,
+      "pts": 19,
       "reb": 3,
       "ast": 4,
-      "min": "29:03"
+      "min": "31:44"
      },
      {
       "name": "Jake LaRavia",
       "pts": 10,
       "reb": 2,
       "ast": 0,
-      "min": "24:47"
+      "min": "26:23"
      }
     ]
    },
@@ -1119,6 +1119,10 @@
     {
      "t": 38.4,
      "m": 10
+    },
+    {
+     "t": 41.1,
+     "m": 17
     }
    ]
   },
@@ -1126,37 +1130,37 @@
    "game_id": "0022600024",
    "tip_utc": "2026-10-31T02:00:00Z",
    "status": 2,
-   "status_text": "Q4 1:17",
+   "status_text": "Q4 :13.4",
    "period": 4,
-   "clock": "1:17",
+   "clock": "0:13",
    "home": {
     "team": "PHX",
-    "score": 110,
+    "score": 117,
     "periods": [
      37,
      30,
      26,
-     17
+     24
     ],
     "stats": {
-     "fgm": 42,
-     "fga": 86,
-     "fg3m": 16,
-     "fg3a": 38,
+     "fgm": 45,
+     "fga": 91,
+     "fg3m": 17,
+     "fg3a": 40,
      "ftm": 10,
      "fta": 11,
-     "oreb": 14,
-     "dreb": 27,
+     "oreb": 15,
+     "dreb": 28,
      "tov": 15,
-     "pf": 19,
-     "ast": 32,
-     "stl": 6,
-     "blk": 4,
-     "pts_paint": 46,
+     "pf": 21,
+     "ast": 34,
+     "stl": 8,
+     "blk": 5,
+     "pts_paint": 50,
      "pts_second_chance": 12,
-     "pts_fast_break": 9,
-     "pts_off_tov": 24,
-     "pts_bench": 35,
+     "pts_fast_break": 11,
+     "pts_off_tov": 28,
+     "pts_bench": 40,
      "biggest_lead": 7,
      "lead_changes": 11
     },
@@ -1164,9 +1168,9 @@
      {
       "name": "Miles Bridges",
       "pts": 24,
-      "reb": 9,
+      "reb": 10,
       "ast": 2,
-      "min": "35:20"
+      "min": "36:23"
      },
      {
       "name": "Dillon Brooks",
@@ -1177,10 +1181,10 @@
      },
      {
       "name": "Devin Booker",
-      "pts": 18,
+      "pts": 20,
       "reb": 2,
       "ast": 5,
-      "min": "37:46"
+      "min": "38:50"
      }
     ]
    },
@@ -1195,14 +1199,14 @@
     ],
     "stats": {
      "fgm": 42,
-     "fga": 80,
+     "fga": 82,
      "fg3m": 20,
      "fg3a": 38,
      "ftm": 19,
      "fta": 26,
-     "oreb": 12,
-     "dreb": 26,
-     "tov": 15,
+     "oreb": 13,
+     "dreb": 27,
+     "tov": 17,
      "pf": 13,
      "ast": 30,
      "stl": 11,
@@ -1219,23 +1223,23 @@
      {
       "name": "Jamal Murray",
       "pts": 37,
-      "reb": 6,
+      "reb": 8,
       "ast": 5,
-      "min": "35:45"
+      "min": "36:49"
      },
      {
       "name": "Christian Braun",
       "pts": 29,
       "reb": 2,
       "ast": 1,
-      "min": "36:12"
+      "min": "37:16"
      },
      {
       "name": "Nikola Jokić",
       "pts": 18,
       "reb": 7,
       "ast": 10,
-      "min": "36:02"
+      "min": "37:06"
      }
     ]
    },
@@ -1247,6 +1251,10 @@
     {
      "t": 46.7,
      "m": -13
+    },
+    {
+     "t": 47.8,
+     "m": -6
     }
    ]
   }
