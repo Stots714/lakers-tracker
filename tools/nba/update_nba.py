@@ -117,9 +117,11 @@ def table(ds):
 def step(label, fn, unit="rows"):
     """Run one download step; record rows or the error and keep going."""
     try:
-        rows = fn()
-        status[label] = {"ok": True, unit: rows}
-        log(f"OK   {label}: {rows} {unit}")
+        out = fn()
+        n, extra = out if isinstance(out, tuple) else (out, {})
+        status[label] = {"ok": True, unit: n, **extra}
+        wait = f", {extra['pending']} recent game(s) not on NBA.com yet (tried again next run)" if extra.get("pending") else ""
+        log(f"OK   {label}: {n} {unit}{wait}")
     except Exception as e:
         status[label] = {"ok": False, "error": f"{type(e).__name__}: {str(e)[:300]}"}
         log(f"FAIL {label}: {type(e).__name__}: {str(e)[:200]}")
@@ -196,16 +198,44 @@ def hustle(abbr, tid):
     return save_table(table(ep.hustle_stats_player), f"hustle_{abbr}.csv")
 
 
-def per_game(game_ids, folder, cls, attr, refresh):
-    new = 0
+RECENT_DAYS = 2  # NBA.com usually fills in per-game detail within hours; a gap older than this is a real failure
+
+
+def settle(label, n, missed):
+    """Finish a per-game step. missed: [(game_id, date, error)] for games that could not be read.
+
+    Games from the last RECENT_DAYS days count as pending: nothing is written for them, so the next run
+    asks again. An older miss fails the step, so a real problem still shows as a failure."""
+    today = dt.date.today()
+
+    def age(d):
+        try:
+            return (today - dt.date.fromisoformat(str(d)[:10])).days
+        except ValueError:
+            return None
+    old = [m for m in missed if age(m[1]) is None or age(m[1]) > RECENT_DAYS]
+    for gid, d, err in missed:
+        log(f"  {label} {gid} ({d or 'date unknown'}): not readable yet ({err})")
+    if old:
+        gid, d, err = old[0]
+        raise RuntimeError(f"{len(old)} game(s) older than {RECENT_DAYS} days could not be read, e.g. {gid} ({d}): {err}")
+    return (n, {"pending": len(missed)}) if missed else n
+
+
+def per_game(game_ids, folder, cls, attr, refresh, dates=None):
+    """One file per game. A game that fails is skipped (no file), so the next run tries it again."""
+    new, missed = 0, []
     for gid in game_ids:
         path = OUT / folder / f"{gid}.csv"
         if path.exists() and not refresh:
             continue
-        ep = fetch(cls, game_id=gid)
-        save_table(table(getattr(ep, attr)), f"{folder}/{gid}.csv")
-        new += 1
-    return new
+        try:
+            ep = fetch(cls, game_id=gid)
+            save_table(table(getattr(ep, attr)), f"{folder}/{gid}.csv")
+            new += 1
+        except Exception as e:  # e.g. matchups not published yet: nba_api's parser then fails on an empty list
+            missed.append((gid, (dates or {}).get(gid, ""), f"{type(e).__name__}: {str(e)[:120]}"))
+    return settle(folder, new, missed)
 
 
 # ---------------- checks against the tracker's own data ----------------
@@ -292,7 +322,8 @@ def main():
             step("league results", results, "games")
         step("league player games", pgames, "player lines")
         if "results" in L:
-            step("league quarter scores, inactive lists and game extras", lambda: league.summaries(fetch, save, OUT, L["results"], a.refresh), "new games")
+            step("league quarter scores, inactive lists and game extras",
+                 lambda: settle("summary", *league.summaries(fetch, save, OUT, L["results"], a.refresh)), "new games")
         if "box" in L:
             step("league team turnovers", lambda: league.add_team_turnovers(L["box"], save, OUT), "team-games")
         if all(k in L for k in ("results", "box", "pg")):
@@ -303,7 +334,7 @@ def main():
     teams = [t.upper() for t in a.teams] if a.teams else ["LAL"] + ([next_opponent()] if next_opponent() else [])
     teams = list(dict.fromkeys(teams))
     log("Teams: " + ", ".join(teams))
-    game_ids, lal_games = set(), None
+    game_ids, game_dates, lal_games = set(), {}, None
     for abbr in teams:
         tid = team_id(abbr)
         holder = {}
@@ -314,6 +345,7 @@ def main():
         step(f"{abbr} games", g)
         if "df" in holder:
             game_ids |= {str(g["GAME_ID"]) for g in holder["df"]}
+            game_dates.update({str(g["GAME_ID"]): str(g.get("GAME_DATE") or "")[:10] for g in holder["df"]})
             if abbr == "LAL":
                 lal_games = holder["df"]
         step(f"{abbr} player games", lambda: player_games(abbr, tid, "Base"))
@@ -327,8 +359,8 @@ def main():
 
     if not a.skip_games and game_ids:
         ids = sorted(game_ids)
-        step("matchups", lambda: per_game(ids, "matchups", boxscorematchupsv3.BoxScoreMatchupsV3, "player_stats", a.refresh), "new games")
-        step("play-by-play", lambda: per_game(ids, "pbp", playbyplayv3.PlayByPlayV3, "play_by_play", a.refresh), "new games")
+        step("matchups", lambda: per_game(ids, "matchups", boxscorematchupsv3.BoxScoreMatchupsV3, "player_stats", a.refresh, game_dates), "new games")
+        step("play-by-play", lambda: per_game(ids, "pbp", playbyplayv3.PlayByPlayV3, "play_by_play", a.refresh, game_dates), "new games")
 
     notes = league_notes + checks(lal_games)
     ok = sum(s["ok"] for s in status.values())

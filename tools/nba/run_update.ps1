@@ -100,6 +100,9 @@ if (Test-Path $ManifestPath) {
   $LeagueOk = [bool]($M.league.PSObject.Properties | Where-Object { $_.Name -eq 'nba_box' })
   Step "Result: $Good of $($Steps.Count) steps worked"
   $Steps | Where-Object { -not $_.Value.ok } | ForEach-Object { Write-Host ("  failed: " + $_.Name) -ForegroundColor Yellow }
+  $Steps | Where-Object { $_.Value.ok -and $_.Value.pending } | ForEach-Object {
+    Write-Host ("  waiting: " + $_.Name + ' - ' + $_.Value.pending + ' recent game(s) not on NBA.com yet; the next run tries again')
+  }
   if ($M.checks) { $M.checks | ForEach-Object { Write-Host ("  check: " + $_) } }
 }
 if (-not $LeagueOk) { Write-Host 'The all-30-teams files did not download, so the site will not change yet. Details: tools\nba\last_run.log' -ForegroundColor Yellow }

@@ -69,6 +69,7 @@ The live win chance (Proposed) starts from the pre-game projection for the minut
 
 - Details are in `tools\nba\last_run.log` (Python) and `tools\nba\last_run_ps.log` (PowerShell). Neither is pushed.
 - A step that fails is retried 3 times, then skipped; the other steps still run.
+- "waiting: matchups - 1 recent game(s) not on NBA.com yet": normal right after a game. NBA.com fills in some per-game detail (who guarded whom, game summaries) later than the score. Nothing is saved for that game, so the next run asks again. If a game is still missing after 2 days, the step shows as failed instead, because that is a real gap.
 - "git pull failed": you have unsaved changes in the folder. Commit or discard them, then run again.
 - "Access is denied" when scheduling: open PowerShell as administrator and run the schedule command again.
 - Remove the daily task: add `-Remove` to the schedule command.
