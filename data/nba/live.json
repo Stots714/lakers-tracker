@@ -1,42 +1,42 @@
 {
- "updated": "2026-10-31T12:33:10-07:00",
+ "updated": "2026-10-31T12:40:12-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
    "game_id": "0022600147",
    "tip_utc": "2026-10-31T19:00:00Z",
    "status": 2,
-   "status_text": "Q1 2:48",
-   "period": 1,
-   "clock": "2:48",
+   "status_text": "Q2 12:00",
+   "period": 2,
+   "clock": "12:00",
    "home": {
     "team": "UTA",
-    "score": 9,
+    "score": 18,
     "periods": [
-     9,
+     18,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 3,
-     "fga": 17,
-     "fg3m": 1,
-     "fg3a": 5,
-     "ftm": 2,
-     "fta": 2,
+     "fgm": 6,
+     "fga": 20,
+     "fg3m": 3,
+     "fg3a": 7,
+     "ftm": 3,
+     "fta": 4,
      "oreb": 3,
-     "dreb": 7,
-     "tov": 5,
-     "pf": 5,
-     "ast": 3,
+     "dreb": 10,
+     "tov": 6,
+     "pf": 6,
+     "ast": 6,
      "stl": 2,
      "blk": 2,
-     "pts_paint": 2,
+     "pts_paint": 4,
      "pts_second_chance": 2,
      "pts_fast_break": 2,
      "pts_off_tov": 0,
-     "pts_bench": 2,
+     "pts_bench": 10,
      "biggest_lead": 1,
      "lead_changes": 4
     },
@@ -50,47 +50,47 @@
      },
      {
       "name": "Darryn Peterson",
-      "pts": 3,
+      "pts": 4,
       "reb": 2,
-      "ast": 0,
-      "min": "5:59"
+      "ast": 2,
+      "min": "8:47"
      },
      {
       "name": "Mo Bamba",
-      "pts": 2,
-      "reb": 1,
+      "pts": 4,
+      "reb": 2,
       "ast": 0,
-      "min": "2:56"
+      "min": "5:44"
      }
     ]
    },
    "away": {
     "team": "POR",
-    "score": 23,
+    "score": 27,
     "periods": [
-     23,
+     27,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 6,
-     "fga": 15,
+     "fgm": 7,
+     "fga": 20,
      "fg3m": 3,
-     "fg3a": 10,
-     "ftm": 8,
-     "fta": 9,
+     "fg3a": 11,
+     "ftm": 10,
+     "fta": 11,
      "oreb": 2,
-     "dreb": 8,
-     "tov": 2,
-     "pf": 4,
+     "dreb": 9,
+     "tov": 3,
+     "pf": 5,
      "ast": 3,
-     "stl": 3,
+     "stl": 4,
      "blk": 0,
-     "pts_paint": 2,
+     "pts_paint": 4,
      "pts_second_chance": 5,
      "pts_fast_break": 2,
-     "pts_off_tov": 8,
+     "pts_off_tov": 10,
      "pts_bench": 4,
      "biggest_lead": 16,
      "lead_changes": 4
@@ -101,21 +101,21 @@
       "pts": 11,
       "reb": 1,
       "ast": 0,
-      "min": "6:16"
+      "min": "6:51"
      },
      {
       "name": "Deni Avdija",
       "pts": 8,
-      "reb": 2,
+      "reb": 3,
       "ast": 1,
-      "min": "8:10"
+      "min": "8:45"
      },
      {
-      "name": "Jrue Holiday",
+      "name": "Scoot Henderson",
       "pts": 4,
       "reb": 0,
-      "ast": 1,
-      "min": "3:54"
+      "ast": 0,
+      "min": "9:08"
      }
     ]
    },
@@ -135,6 +135,10 @@
     {
      "t": 9.2,
      "m": -14
+    },
+    {
+     "t": 12.0,
+     "m": -9
     }
    ]
   },
