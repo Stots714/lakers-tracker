@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-30T22:47:53-07:00",
+ "updated": "2026-10-31T09:41:11-07:00",
  "season": "2026-27",
  "teams": [
   "LAL",
-  "GSW"
+  "TOR"
  ],
  "nba_api": "1.12.0",
  "league": {
@@ -33,7 +33,7 @@
   },
   "league quarter scores, inactive lists and game extras": {
    "ok": true,
-   "new games": 10
+   "new games": 0
   },
   "league team turnovers": {
    "ok": true,
@@ -75,49 +75,49 @@
    "ok": true,
    "rows": 13
   },
-  "GSW games": {
+  "TOR games": {
    "ok": true,
-   "rows": 6
+   "rows": 5
   },
-  "GSW player games": {
+  "TOR player games": {
+   "ok": true,
+   "rows": 63
+  },
+  "TOR player games advanced": {
+   "ok": true,
+   "rows": 63
+  },
+  "TOR on/off": {
+   "ok": true,
+   "rows": 30
+  },
+  "TOR 5-man lineups": {
    "ok": true,
    "rows": 76
   },
-  "GSW player games advanced": {
+  "TOR 2-man lineups": {
    "ok": true,
-   "rows": 76
+   "rows": 77
   },
-  "GSW on/off": {
+  "TOR shots": {
    "ok": true,
-   "rows": 33
+   "rows": 469
   },
-  "GSW 5-man lineups": {
+  "TOR shots against": {
    "ok": true,
-   "rows": 111
+   "rows": 395
   },
-  "GSW 2-man lineups": {
+  "TOR hustle": {
    "ok": true,
-   "rows": 94
-  },
-  "GSW shots": {
-   "ok": true,
-   "rows": 529
-  },
-  "GSW shots against": {
-   "ok": true,
-   "rows": 509
-  },
-  "GSW hustle": {
-   "ok": true,
-   "rows": 15
+   "rows": 14
   },
   "matchups": {
-   "ok": false,
-   "error": "IndexError: list index out of range"
+   "ok": true,
+   "new games": 6
   },
   "play-by-play": {
    "ok": true,
-   "new games": 1
+   "new games": 5
   }
  },
  "checks": [
