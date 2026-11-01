@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T18:15:07-07:00",
+ "updated": "2026-10-31T18:22:10-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
@@ -406,38 +406,38 @@
    "game_id": "0022600149",
    "tip_utc": "2026-10-31T23:00:00Z",
    "status": 2,
-   "status_text": "Q4 6:08",
+   "status_text": "Q4 3:04",
    "period": 4,
-   "clock": "6:08",
+   "clock": "3:04",
    "home": {
     "team": "NOP",
-    "score": 108,
+    "score": 119,
     "periods": [
      35,
      28,
      29,
-     16
+     27
     ],
     "stats": {
-     "fgm": 38,
-     "fga": 67,
-     "fg3m": 4,
-     "fg3a": 13,
+     "fgm": 42,
+     "fga": 72,
+     "fg3m": 7,
+     "fg3a": 16,
      "ftm": 28,
      "fta": 35,
-     "oreb": 8,
-     "dreb": 37,
-     "tov": 20,
+     "oreb": 9,
+     "dreb": 39,
+     "tov": 22,
      "pf": 19,
-     "ast": 25,
-     "stl": 13,
-     "blk": 2,
-     "pts_paint": 62,
+     "ast": 27,
+     "stl": 14,
+     "blk": 3,
+     "pts_paint": 64,
      "pts_second_chance": 21,
      "pts_fast_break": 17,
      "pts_off_tov": 34,
      "pts_bench": 50,
-     "biggest_lead": 22,
+     "biggest_lead": 26,
      "lead_changes": 1
     },
     "leaders": [
@@ -450,48 +450,48 @@
      },
      {
       "name": "Jeremiah Fears",
-      "pts": 17,
+      "pts": 20,
       "reb": 5,
-      "ast": 6,
-      "min": "27:37"
+      "ast": 7,
+      "min": "30:41"
      },
      {
-      "name": "Zion Williamson",
+      "name": "Trey Murphy III",
       "pts": 15,
-      "reb": 5,
-      "ast": 2,
-      "min": "27:02"
+      "reb": 4,
+      "ast": 5,
+      "min": "28:58"
      }
     ]
    },
    "away": {
     "team": "ATL",
-    "score": 87,
+    "score": 93,
     "periods": [
      18,
      30,
      26,
-     13
+     19
     ],
     "stats": {
-     "fgm": 31,
-     "fga": 82,
+     "fgm": 33,
+     "fga": 86,
      "fg3m": 8,
-     "fg3a": 42,
-     "ftm": 17,
-     "fta": 19,
+     "fg3a": 43,
+     "ftm": 19,
+     "fta": 21,
      "oreb": 13,
      "dreb": 21,
-     "tov": 17,
-     "pf": 20,
+     "tov": 18,
+     "pf": 21,
      "ast": 18,
      "stl": 10,
      "blk": 4,
-     "pts_paint": 46,
+     "pts_paint": 48,
      "pts_second_chance": 15,
      "pts_fast_break": 14,
-     "pts_off_tov": 28,
-     "pts_bench": 38,
+     "pts_off_tov": 30,
+     "pts_bench": 40,
      "biggest_lead": 2,
      "lead_changes": 1
     },
@@ -501,7 +501,7 @@
       "pts": 14,
       "reb": 2,
       "ast": 2,
-      "min": "21:19"
+      "min": "24:23"
      },
      {
       "name": "Jalen Johnson",
@@ -511,11 +511,11 @@
       "min": "27:56"
      },
      {
-      "name": "Luguentz Dort",
-      "pts": 11,
-      "reb": 3,
-      "ast": 0,
-      "min": "25:30"
+      "name": "Nickeil Alexander-Walker",
+      "pts": 12,
+      "reb": 2,
+      "ast": 1,
+      "min": "28:46"
      }
     ]
    },
@@ -587,6 +587,10 @@
     {
      "t": 41.9,
      "m": 21
+    },
+    {
+     "t": 44.9,
+     "m": 26
     }
    ]
   },
@@ -622,7 +626,7 @@
      "blk": 3,
      "pts_paint": 20,
      "pts_second_chance": 9,
-     "pts_fast_break": 11,
+     "pts_fast_break": 9,
      "pts_off_tov": 9,
      "pts_bench": 40,
      "biggest_lead": 21,
@@ -830,7 +834,7 @@
      "fta": 14,
      "oreb": 4,
      "dreb": 24,
-     "tov": 9,
+     "tov": 8,
      "pf": 8,
      "ast": 20,
      "stl": 4,
@@ -928,14 +932,14 @@
     ],
     "stats": {
      "fgm": 21,
-     "fga": 44,
+     "fga": 43,
      "fg3m": 7,
      "fg3a": 16,
      "ftm": 11,
      "fta": 15,
      "oreb": 10,
      "dreb": 18,
-     "tov": 9,
+     "tov": 10,
      "pf": 10,
      "ast": 10,
      "stl": 2,
@@ -989,16 +993,16 @@
      "ftm": 9,
      "fta": 11,
      "oreb": 7,
-     "dreb": 12,
+     "dreb": 11,
      "tov": 3,
      "pf": 10,
      "ast": 11,
-     "stl": 6,
-     "blk": 1,
+     "stl": 7,
+     "blk": 0,
      "pts_paint": 26,
      "pts_second_chance": 15,
      "pts_fast_break": 8,
-     "pts_off_tov": 16,
+     "pts_off_tov": 19,
      "pts_bench": 14,
      "biggest_lead": 7,
      "lead_changes": 5
@@ -1007,7 +1011,7 @@
      {
       "name": "Ayo Dosunmu",
       "pts": 14,
-      "reb": 3,
+      "reb": 4,
       "ast": 1,
       "min": "17:20"
      },
@@ -1074,47 +1078,54 @@
    "game_id": "0022600153",
    "tip_utc": "2026-11-01T00:30:00Z",
    "status": 2,
-   "status_text": "Q2 10:39",
+   "status_text": "Q2 7:19",
    "period": 2,
-   "clock": "10:39",
+   "clock": "7:19",
    "home": {
     "team": "HOU",
-    "score": 40,
+    "score": 51,
     "periods": [
      35,
-     5,
+     16,
      0,
      0
     ],
     "stats": {
-     "fgm": 10,
-     "fga": 25,
-     "fg3m": 5,
-     "fg3a": 11,
+     "fgm": 16,
+     "fga": 32,
+     "fg3m": 7,
+     "fg3a": 14,
      "ftm": 12,
      "fta": 14,
      "oreb": 5,
-     "dreb": 8,
+     "dreb": 10,
      "tov": 2,
      "pf": 3,
-     "ast": 5,
+     "ast": 10,
      "stl": 2,
      "blk": 0,
-     "pts_paint": 4,
+     "pts_paint": 12,
      "pts_second_chance": 10,
      "pts_fast_break": 4,
-     "pts_off_tov": 4,
-     "pts_bench": 3,
-     "biggest_lead": 13,
+     "pts_off_tov": 6,
+     "pts_bench": 8,
+     "biggest_lead": 17,
      "lead_changes": 1
     },
     "leaders": [
      {
       "name": "Marcus Smart",
-      "pts": 12,
-      "reb": 1,
-      "ast": 0,
-      "min": "9:46"
+      "pts": 15,
+      "reb": 2,
+      "ast": 1,
+      "min": "13:08"
+     },
+     {
+      "name": "Jabari Smith Jr.",
+      "pts": 11,
+      "reb": 5,
+      "ast": 2,
+      "min": "13:08"
      },
      {
       "name": "Kevin Durant",
@@ -1122,40 +1133,33 @@
       "reb": 1,
       "ast": 1,
       "min": "12:00"
-     },
-     {
-      "name": "Jabari Smith Jr.",
-      "pts": 7,
-      "reb": 4,
-      "ast": 1,
-      "min": "9:46"
      }
     ]
    },
    "away": {
     "team": "OKC",
-    "score": 30,
+    "score": 34,
     "periods": [
      26,
-     4,
+     8,
      0,
      0
     ],
     "stats": {
-     "fgm": 12,
-     "fga": 26,
+     "fgm": 14,
+     "fga": 31,
      "fg3m": 2,
-     "fg3a": 9,
+     "fg3a": 11,
      "ftm": 4,
      "fta": 4,
      "oreb": 4,
-     "dreb": 9,
-     "tov": 4,
-     "pf": 8,
+     "dreb": 10,
+     "tov": 5,
+     "pf": 10,
      "ast": 6,
      "stl": 2,
      "blk": 1,
-     "pts_paint": 18,
+     "pts_paint": 22,
      "pts_second_chance": 4,
      "pts_fast_break": 4,
      "pts_off_tov": 4,
@@ -1164,6 +1168,13 @@
      "lead_changes": 1
     },
     "leaders": [
+     {
+      "name": "Jared McCain",
+      "pts": 8,
+      "reb": 1,
+      "ast": 1,
+      "min": "12:40"
+     },
      {
       "name": "Shai Gilgeous-Alexander",
       "pts": 8,
@@ -1176,14 +1187,7 @@
       "pts": 6,
       "reb": 4,
       "ast": 0,
-      "min": "7:01"
-     },
-     {
-      "name": "Jared McCain",
-      "pts": 4,
-      "reb": 1,
-      "ast": 1,
-      "min": "9:18"
+      "min": "8:00"
      }
     ]
    },
@@ -1207,6 +1211,10 @@
     {
      "t": 13.3,
      "m": 10
+    },
+    {
+     "t": 16.7,
+     "m": 17
     }
    ]
   }
