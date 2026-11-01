@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T19:32:38-07:00",
+ "updated": "2026-10-31T19:39:40-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
@@ -601,38 +601,38 @@
   {
    "game_id": "0022600150",
    "tip_utc": "2026-11-01T00:00:00Z",
-   "status": 2,
-   "status_text": "Q4 1:26",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "1:26",
+   "clock": "0:00",
    "home": {
     "team": "MEM",
-    "score": 132,
+    "score": 136,
     "periods": [
      27,
      39,
      42,
-     24
+     28
     ],
     "stats": {
-     "fgm": 45,
-     "fga": 83,
+     "fgm": 47,
+     "fga": 85,
      "fg3m": 19,
      "fg3a": 38,
      "ftm": 23,
      "fta": 27,
      "oreb": 6,
-     "dreb": 36,
-     "tov": 16,
-     "pf": 25,
+     "dreb": 39,
+     "tov": 17,
+     "pf": 26,
      "ast": 30,
      "stl": 5,
-     "blk": 5,
-     "pts_paint": 50,
+     "blk": 6,
+     "pts_paint": 54,
      "pts_second_chance": 15,
-     "pts_fast_break": 23,
+     "pts_fast_break": 25,
      "pts_off_tov": 20,
-     "pts_bench": 77,
+     "pts_bench": 81,
      "biggest_lead": 34,
      "lead_changes": 3
     },
@@ -662,32 +662,32 @@
    },
    "away": {
     "team": "SAC",
-    "score": 103,
+    "score": 105,
     "periods": [
      21,
      34,
      25,
-     23
+     25
     ],
     "stats": {
-     "fgm": 34,
-     "fga": 82,
+     "fgm": 35,
+     "fga": 86,
      "fg3m": 11,
-     "fg3a": 36,
+     "fg3a": 38,
      "ftm": 24,
      "fta": 29,
      "oreb": 7,
      "dreb": 26,
      "tov": 16,
      "pf": 24,
-     "ast": 24,
+     "ast": 25,
      "stl": 9,
      "blk": 3,
-     "pts_paint": 34,
-     "pts_second_chance": 9,
+     "pts_paint": 36,
+     "pts_second_chance": 11,
      "pts_fast_break": 13,
      "pts_off_tov": 21,
-     "pts_bench": 18,
+     "pts_bench": 20,
      "biggest_lead": 7,
      "lead_changes": 3
     },
@@ -791,6 +791,10 @@
     {
      "t": 46.6,
      "m": 29
+    },
+    {
+     "t": 48.0,
+     "m": 31
     }
    ]
   },
@@ -1190,37 +1194,37 @@
    "game_id": "0022600153",
    "tip_utc": "2026-11-01T00:30:00Z",
    "status": 2,
-   "status_text": "Q4 6:10",
+   "status_text": "Q4 2:48",
    "period": 4,
-   "clock": "6:10",
+   "clock": "2:48",
    "home": {
     "team": "HOU",
-    "score": 108,
+    "score": 112,
     "periods": [
      35,
      27,
      30,
-     16
+     20
     ],
     "stats": {
-     "fgm": 37,
-     "fga": 74,
+     "fgm": 38,
+     "fga": 84,
      "fg3m": 17,
-     "fg3a": 35,
-     "ftm": 17,
-     "fta": 20,
-     "oreb": 9,
-     "dreb": 28,
-     "tov": 9,
+     "fg3a": 38,
+     "ftm": 19,
+     "fta": 22,
+     "oreb": 12,
+     "dreb": 30,
+     "tov": 10,
      "pf": 11,
      "ast": 27,
-     "stl": 4,
+     "stl": 5,
      "blk": 7,
      "pts_paint": 26,
-     "pts_second_chance": 15,
-     "pts_fast_break": 9,
+     "pts_second_chance": 17,
+     "pts_fast_break": 11,
      "pts_off_tov": 14,
-     "pts_bench": 18,
+     "pts_bench": 20,
      "biggest_lead": 27,
      "lead_changes": 1
     },
@@ -1228,54 +1232,54 @@
      {
       "name": "Jabari Smith Jr.",
       "pts": 30,
-      "reb": 8,
+      "reb": 9,
       "ast": 5,
-      "min": "32:39"
+      "min": "33:14"
      },
      {
       "name": "Marcus Smart",
       "pts": 24,
       "reb": 5,
       "ast": 2,
-      "min": "33:57"
+      "min": "35:42"
      },
      {
       "name": "Alperen Sengun",
       "pts": 16,
       "reb": 9,
       "ast": 10,
-      "min": "30:49"
+      "min": "32:34"
      }
     ]
    },
    "away": {
     "team": "OKC",
-    "score": 86,
+    "score": 90,
     "periods": [
      26,
      25,
      24,
-     11
+     15
     ],
     "stats": {
-     "fgm": 33,
-     "fga": 77,
+     "fgm": 35,
+     "fga": 82,
      "fg3m": 9,
-     "fg3a": 30,
+     "fg3a": 31,
      "ftm": 11,
      "fta": 12,
      "oreb": 10,
-     "dreb": 25,
-     "tov": 11,
+     "dreb": 30,
+     "tov": 13,
      "pf": 19,
-     "ast": 14,
-     "stl": 7,
-     "blk": 2,
-     "pts_paint": 38,
+     "ast": 16,
+     "stl": 8,
+     "blk": 3,
+     "pts_paint": 42,
      "pts_second_chance": 9,
      "pts_fast_break": 11,
      "pts_off_tov": 10,
-     "pts_bench": 23,
+     "pts_bench": 27,
      "biggest_lead": 4,
      "lead_changes": 1
     },
@@ -1295,11 +1299,11 @@
       "min": "21:29"
      },
      {
-      "name": "Isaiah Hartenstein",
-      "pts": 10,
-      "reb": 7,
-      "ast": 0,
-      "min": "24:46"
+      "name": "Bennett Stirtz",
+      "pts": 11,
+      "reb": 0,
+      "ast": 1,
+      "min": "23:38"
      }
     ]
    },
@@ -1362,6 +1366,10 @@
     },
     {
      "t": 41.8,
+     "m": 22
+    },
+    {
+     "t": 45.2,
      "m": 22
     }
    ]
