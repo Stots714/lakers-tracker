@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T19:39:40-07:00",
+ "updated": "2026-10-31T19:46:43-07:00",
  "board_date": "2026-10-31",
  "games": [
   {
@@ -1193,38 +1193,38 @@
   {
    "game_id": "0022600153",
    "tip_utc": "2026-11-01T00:30:00Z",
-   "status": 2,
-   "status_text": "Q4 2:48",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "2:48",
+   "clock": "0:00",
    "home": {
     "team": "HOU",
-    "score": 112,
+    "score": 119,
     "periods": [
      35,
      27,
      30,
-     20
+     27
     ],
     "stats": {
-     "fgm": 38,
-     "fga": 84,
-     "fg3m": 17,
-     "fg3a": 38,
+     "fgm": 41,
+     "fga": 90,
+     "fg3m": 18,
+     "fg3a": 41,
      "ftm": 19,
-     "fta": 22,
-     "oreb": 12,
-     "dreb": 30,
+     "fta": 23,
+     "oreb": 13,
+     "dreb": 31,
      "tov": 10,
-     "pf": 11,
-     "ast": 27,
+     "pf": 13,
+     "ast": 28,
      "stl": 5,
      "blk": 7,
-     "pts_paint": 26,
+     "pts_paint": 30,
      "pts_second_chance": 17,
-     "pts_fast_break": 11,
-     "pts_off_tov": 14,
-     "pts_bench": 20,
+     "pts_fast_break": 13,
+     "pts_off_tov": 16,
+     "pts_bench": 27,
      "biggest_lead": 27,
      "lead_changes": 1
     },
@@ -1240,46 +1240,46 @@
       "name": "Marcus Smart",
       "pts": 24,
       "reb": 5,
-      "ast": 2,
+      "ast": 3,
       "min": "35:42"
      },
      {
       "name": "Alperen Sengun",
       "pts": 16,
       "reb": 9,
-      "ast": 10,
+      "ast": 9,
       "min": "32:34"
      }
     ]
    },
    "away": {
     "team": "OKC",
-    "score": 90,
+    "score": 98,
     "periods": [
      26,
      25,
      24,
-     15
+     23
     ],
     "stats": {
-     "fgm": 35,
-     "fga": 82,
-     "fg3m": 9,
-     "fg3a": 31,
-     "ftm": 11,
-     "fta": 12,
+     "fgm": 37,
+     "fga": 85,
+     "fg3m": 10,
+     "fg3a": 32,
+     "ftm": 14,
+     "fta": 15,
      "oreb": 10,
-     "dreb": 30,
-     "tov": 13,
-     "pf": 19,
-     "ast": 16,
+     "dreb": 32,
+     "tov": 14,
+     "pf": 20,
+     "ast": 20,
      "stl": 8,
-     "blk": 3,
-     "pts_paint": 42,
+     "blk": 5,
+     "pts_paint": 44,
      "pts_second_chance": 9,
-     "pts_fast_break": 11,
+     "pts_fast_break": 13,
      "pts_off_tov": 10,
-     "pts_bench": 27,
+     "pts_bench": 35,
      "biggest_lead": 4,
      "lead_changes": 1
     },
@@ -1301,9 +1301,9 @@
      {
       "name": "Bennett Stirtz",
       "pts": 11,
-      "reb": 0,
-      "ast": 1,
-      "min": "23:38"
+      "reb": 1,
+      "ast": 3,
+      "min": "26:26"
      }
     ]
    },
@@ -1371,6 +1371,10 @@
     {
      "t": 45.2,
      "m": 22
+    },
+    {
+     "t": 48.0,
+     "m": 21
     }
    ]
   }
