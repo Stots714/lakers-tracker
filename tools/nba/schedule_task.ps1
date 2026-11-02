@@ -33,11 +33,20 @@ if ($Remove) { Remove-Task $Name; Remove-Task $LiveName; return }
 
 $Repo = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
 
+# New-ScheduledTaskTrigger stores the start time with the UTC offset of the day it was made, and Task Scheduler then
+# keeps that UTC time all year, so after a daylight-saving change the task runs an hour early or late. A start time
+# without an offset is read as local time, so the task follows daylight saving.
+function New-LocalDailyTrigger([string]$At) {
+  $t = New-ScheduledTaskTrigger -Daily -At $At
+  $t.StartBoundary = (Get-Date $At).ToString('s')  # e.g. 2026-11-01T09:40:00, no offset
+  return $t
+}
+
 # Morning update
 $TaskArgs = '-NoProfile -ExecutionPolicy Bypass -File "' + (Join-Path $PSScriptRoot 'run_update.ps1') + '"'
 if (-not $NoPush) { $TaskArgs += ' -Push' }
 $Action = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument $TaskArgs -WorkingDirectory $Repo
-$Trigger = New-ScheduledTaskTrigger -Daily -At $Time
+$Trigger = New-LocalDailyTrigger $Time
 # Laptop-friendly: Windows' defaults skip a task on battery power and stop it if the charger is unplugged.
 # StartWhenAvailable runs a missed run as soon as the PC is on and signed in again.
 $Settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -ExecutionTimeLimit (New-TimeSpan -Minutes 30)
@@ -51,11 +60,15 @@ if ($NoLive) {
 } else {
   $LiveArgs = '-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File "' + (Join-Path $PSScriptRoot 'run_live.ps1') + '"'
   $LiveAction = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument $LiveArgs -WorkingDirectory $Repo
-  $LiveTrigger = New-ScheduledTaskTrigger -Daily -At $LiveTime
+  $LiveTrigger = New-LocalDailyTrigger $LiveTime
   $LiveSettings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -ExecutionTimeLimit (New-TimeSpan -Hours 20)
   Register-ScheduledTask -TaskName $LiveName -Action $LiveAction -Trigger $LiveTrigger -Settings $LiveSettings `
     -Description 'Keeps the tracker site current during NBA games (NBA.com live feed), then runs the full update.' -Force | Out-Null
   Write-Host "Scheduled '$LiveName' every day at $LiveTime (hidden; it waits for tip-off)."
+}
+foreach ($n in @($Name, $LiveName)) {
+  $T = Get-ScheduledTask -TaskName $n -ErrorAction SilentlyContinue
+  if ($T) { Write-Host ("  {0}: starts {1} (local time; follows daylight saving)" -f $n, $T.Triggers[0].StartBoundary) }
 }
 Write-Host "Start one now:  Start-ScheduledTask -TaskName '$LiveName'"
 Write-Host "Last results:   Get-ScheduledTaskInfo -TaskName '$Name'; Get-ScheduledTaskInfo -TaskName '$LiveName'"
