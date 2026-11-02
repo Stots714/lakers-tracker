@@ -1,12 +1,13 @@
 """Live game watcher: NBA.com's live feed (cdn.nba.com) to data/nba/live.json, pushed to the site during games.
 
 What it does on a game day:
-  1. Reads today's NBA.com scoreboard. No games: exits.
+  1. Reads today's NBA.com scoreboard. If it still shows yesterday (NBA.com switches to the new day in the
+     late morning, Eastern time), checks again every 30 minutes until it shows today. No games: exits.
   2. Waits until the first tip-off (re-checking every 30 minutes).
   3. While any game is on, reads each started game's live box score, writes data/nba/live.json and
      pushes it every 7 minutes (GitHub Pages allows about 10 site updates an hour).
-  4. When every game is final, pushes the finals and exits with code 0 (run_live.ps1 then runs the
-     full data update so the tracker's ratings include tonight's games).
+  4. When every game is final, pushes the finals, waits 15 minutes, runs the full data update
+     (run_update.ps1 -Push) so the tracker's ratings include tonight's games, and exits with code 0.
 
 live.json, per game: status (1 scheduled, 2 live, 3 final), period and clock, score by period, team stats
 so far (shooting, rebounds, turnovers, fouls, paint, second-chance, fast-break points), top scorers, and a
@@ -37,6 +38,8 @@ LOG = Path(__file__).resolve().parent / "last_live.log"
 PUSH_EVERY = 7 * 60       # seconds between pushes while games are on
 CHECK_EVERY = 7 * 60      # seconds between live checks
 WAIT_STEP = 30 * 60       # longest single wait before tip-off, so a schedule change is noticed
+NEW_DAY_STEP = 30 * 60    # NBA.com switches its scoreboard to the new day in the late morning, Eastern time
+NEW_DAY_LIMIT = 12 * 3600 # stop waiting for the new day's scoreboard after this long
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -221,6 +224,25 @@ def fetch_board():
     return sb.get("gameDate", ""), [g for g in sb.get("games", []) if str(g.get("gameId", "")).startswith("002")]
 
 
+def todays_board():
+    """Today's scoreboard. Until NBA.com switches over to the new day it still shows yesterday's games,
+    all final, which would look like a finished night; so wait for today's date instead.
+    Returns (date, games), or (None, []) if today's scoreboard never appears."""
+    start = time.time()
+    while True:
+        today = dt.date.today().isoformat()
+        try:
+            board_date, board = fetch_board()
+            if board_date >= today:
+                return board_date, board
+            log(f"NBA.com's scoreboard still shows {board_date or 'no date'}, not today ({today}); checking again in 30 minutes.")
+        except Exception as e:  # e.g. no network yet right after the PC wakes
+            log(f"  scoreboard not available: {type(e).__name__}: {str(e)[:120]}; trying again in 30 minutes.")
+        if time.time() - start >= NEW_DAY_LIMIT:
+            return None, []
+        time.sleep(NEW_DAY_STEP)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--once", action="store_true", help="one check now, then exit")
@@ -228,9 +250,12 @@ def main():
     ap.add_argument("--no-final-update", action="store_true", help="when every game is final, exit without the full update")
     a = ap.parse_args()
     log("--- live watcher started")
-    board_date, board = fetch_board()
+    board_date, board = fetch_board() if a.once else todays_board()
+    if board_date is None:
+        log(f"Gave up: NBA.com's scoreboard did not switch to today within {NEW_DAY_LIMIT // 3600} hours.")
+        return 4
     if not board:
-        log(f"No regular-season games on NBA.com's scoreboard for {board_date or 'today'}.")
+        log(f"No regular-season games on NBA.com's scoreboard for {board_date}.")
         return 4
     ids = [g["gameId"] for g in board]
     log(f"{len(board)} games on {board_date}: " + ", ".join(f'{g["awayTeam"]["teamTricode"]}@{g["homeTeam"]["teamTricode"]}' for g in board))
