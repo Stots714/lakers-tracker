@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T20:34:26-08:00",
+ "updated": "2026-11-02T20:41:29-08:00",
  "board_date": "2026-11-02",
  "games": [
   {
@@ -1540,37 +1540,37 @@
    "game_id": "0022600170",
    "tip_utc": "2026-11-03T03:00:00Z",
    "status": 2,
-   "status_text": "Q3 10:00",
+   "status_text": "Q3 9:33",
    "period": 3,
-   "clock": "10:00",
+   "clock": "9:33",
    "home": {
     "team": "GSW",
-    "score": 57,
+    "score": 59,
     "periods": [
      19,
      32,
-     6,
+     8,
      0
     ],
     "stats": {
-     "fgm": 20,
-     "fga": 48,
+     "fgm": 21,
+     "fga": 51,
      "fg3m": 8,
-     "fg3a": 25,
+     "fg3a": 26,
      "ftm": 9,
-     "fta": 12,
-     "oreb": 7,
-     "dreb": 15,
+     "fta": 13,
+     "oreb": 9,
+     "dreb": 16,
      "tov": 7,
      "pf": 11,
      "ast": 13,
      "stl": 3,
      "blk": 0,
-     "pts_paint": 24,
-     "pts_second_chance": 6,
+     "pts_paint": 26,
+     "pts_second_chance": 8,
      "pts_fast_break": 3,
      "pts_off_tov": 7,
-     "pts_bench": 18,
+     "pts_bench": 20,
      "biggest_lead": 0,
      "lead_changes": 0
     },
@@ -1578,33 +1578,33 @@
      {
       "name": "Stephen Curry",
       "pts": 12,
-      "reb": 3,
+      "reb": 4,
       "ast": 4,
-      "min": "18:03"
+      "min": "18:29"
+     },
+     {
+      "name": "Charles Bassey",
+      "pts": 11,
+      "reb": 3,
+      "ast": 0,
+      "min": "8:38"
      },
      {
       "name": "Brandin Podziemski",
       "pts": 9,
-      "reb": 0,
+      "reb": 1,
       "ast": 2,
-      "min": "18:28"
-     },
-     {
-      "name": "Charles Bassey",
-      "pts": 9,
-      "reb": 2,
-      "ast": 0,
-      "min": "8:12"
+      "min": "18:54"
      }
     ]
    },
    "away": {
     "team": "PHX",
-    "score": 67,
+    "score": 68,
     "periods": [
      31,
      26,
-     10,
+     11,
      0
     ],
     "stats": {
@@ -1612,12 +1612,12 @@
      "fga": 42,
      "fg3m": 7,
      "fg3a": 15,
-     "ftm": 14,
-     "fta": 15,
+     "ftm": 15,
+     "fta": 17,
      "oreb": 3,
-     "dreb": 16,
+     "dreb": 17,
      "tov": 7,
-     "pf": 13,
+     "pf": 14,
      "ast": 15,
      "stl": 6,
      "blk": 4,
@@ -1631,18 +1631,18 @@
     },
     "leaders": [
      {
+      "name": "Devin Booker",
+      "pts": 17,
+      "reb": 0,
+      "ast": 2,
+      "min": "19:55"
+     },
+     {
       "name": "Miles Bridges",
       "pts": 16,
       "reb": 5,
       "ast": 1,
-      "min": "18:17"
-     },
-     {
-      "name": "Devin Booker",
-      "pts": 16,
-      "reb": 0,
-      "ast": 2,
-      "min": "19:29"
+      "min": "18:43"
      },
      {
       "name": "Oso Ighodaro",
@@ -1677,6 +1677,10 @@
     {
      "t": 26.0,
      "m": -10
+    },
+    {
+     "t": 26.4,
+     "m": -9
     }
    ]
   },
@@ -1684,35 +1688,35 @@
    "game_id": "0022600171",
    "tip_utc": "2026-11-03T03:00:00Z",
    "status": 2,
-   "status_text": "Q3 9:56",
+   "status_text": "Q3 7:55",
    "period": 3,
-   "clock": "9:56",
+   "clock": "7:55",
    "home": {
     "team": "LAC",
-    "score": 65,
+    "score": 74,
     "periods": [
      33,
      30,
-     2,
+     11,
      0
     ],
     "stats": {
-     "fgm": 24,
-     "fga": 50,
-     "fg3m": 5,
-     "fg3a": 14,
+     "fgm": 28,
+     "fga": 54,
+     "fg3m": 6,
+     "fg3a": 15,
      "ftm": 12,
      "fta": 14,
      "oreb": 5,
-     "dreb": 18,
+     "dreb": 21,
      "tov": 6,
-     "pf": 12,
-     "ast": 13,
+     "pf": 13,
+     "ast": 16,
      "stl": 4,
      "blk": 3,
-     "pts_paint": 36,
+     "pts_paint": 42,
      "pts_second_chance": 17,
-     "pts_fast_break": 12,
+     "pts_fast_break": 15,
      "pts_off_tov": 11,
      "pts_bench": 17,
      "biggest_lead": 15,
@@ -1721,10 +1725,10 @@
     "leaders": [
      {
       "name": "Kobe Sanders",
-      "pts": 13,
+      "pts": 18,
       "reb": 2,
       "ast": 0,
-      "min": "19:21"
+      "min": "21:22"
      },
      {
       "name": "Isaiah Jackson",
@@ -1735,33 +1739,33 @@
      },
      {
       "name": "Brook Lopez",
-      "pts": 10,
-      "reb": 4,
+      "pts": 12,
+      "reb": 5,
       "ast": 1,
-      "min": "13:58"
+      "min": "15:59"
      }
     ]
    },
    "away": {
     "team": "TOR",
-    "score": 58,
+    "score": 61,
     "periods": [
      22,
      30,
-     6,
+     9,
      0
     ],
     "stats": {
-     "fgm": 24,
-     "fga": 47,
+     "fgm": 25,
+     "fga": 49,
      "fg3m": 4,
-     "fg3a": 18,
-     "ftm": 6,
-     "fta": 10,
+     "fg3a": 19,
+     "ftm": 7,
+     "fta": 14,
      "oreb": 6,
      "dreb": 16,
-     "tov": 9,
-     "pf": 13,
+     "tov": 10,
+     "pf": 14,
      "ast": 15,
      "stl": 2,
      "blk": 4,
@@ -1776,24 +1780,24 @@
     "leaders": [
      {
       "name": "RJ Barrett",
-      "pts": 16,
+      "pts": 17,
       "reb": 5,
       "ast": 2,
-      "min": "19:18"
+      "min": "21:19"
      },
      {
       "name": "Immanuel Quickley",
-      "pts": 9,
+      "pts": 11,
       "reb": 3,
       "ast": 2,
-      "min": "20:22"
+      "min": "22:23"
      },
      {
       "name": "Collin Murray-Boyles",
       "pts": 8,
       "reb": 3,
       "ast": 0,
-      "min": "12:28"
+      "min": "14:29"
      }
     ]
    },
@@ -1821,6 +1825,10 @@
     {
      "t": 26.1,
      "m": 7
+    },
+    {
+     "t": 28.1,
+     "m": 13
     }
    ]
   },
@@ -1828,85 +1836,85 @@
    "game_id": "0022600172",
    "tip_utc": "2026-11-03T03:00:00Z",
    "status": 2,
-   "status_text": "Q3 10:40",
+   "status_text": "Q3 7:51",
    "period": 3,
-   "clock": "10:40",
+   "clock": "7:51",
    "home": {
     "team": "LAL",
-    "score": 88,
+    "score": 93,
     "periods": [
      37,
      42,
-     9,
+     14,
      0
     ],
     "stats": {
-     "fgm": 32,
-     "fga": 46,
-     "fg3m": 11,
-     "fg3a": 21,
+     "fgm": 34,
+     "fga": 52,
+     "fg3m": 12,
+     "fg3a": 24,
      "ftm": 13,
      "fta": 18,
-     "oreb": 3,
-     "dreb": 15,
-     "tov": 9,
-     "pf": 13,
-     "ast": 23,
-     "stl": 5,
+     "oreb": 4,
+     "dreb": 16,
+     "tov": 10,
+     "pf": 15,
+     "ast": 25,
+     "stl": 7,
      "blk": 3,
-     "pts_paint": 40,
-     "pts_second_chance": 4,
+     "pts_paint": 42,
+     "pts_second_chance": 7,
      "pts_fast_break": 6,
-     "pts_off_tov": 6,
+     "pts_off_tov": 11,
      "pts_bench": 27,
-     "biggest_lead": 16,
+     "biggest_lead": 19,
      "lead_changes": 1
     },
     "leaders": [
      {
       "name": "Luka Dončić",
-      "pts": 30,
+      "pts": 33,
       "reb": 5,
-      "ast": 8,
-      "min": "19:54"
+      "ast": 9,
+      "min": "22:43"
      },
      {
       "name": "Austin Reaves",
       "pts": 13,
       "reb": 2,
       "ast": 5,
-      "min": "19:45"
+      "min": "22:34"
      },
      {
-      "name": "Sandro Mamukelashvili",
-      "pts": 9,
-      "reb": 2,
+      "name": "Walker Kessler",
+      "pts": 10,
+      "reb": 7,
       "ast": 2,
-      "min": "14:00"
+      "min": "17:04"
      }
     ]
    },
    "away": {
     "team": "MIA",
-    "score": 72,
+    "score": 74,
     "periods": [
      30,
      42,
-     0,
+     2,
      0
     ],
     "stats": {
-     "fgm": 25,
-     "fga": 44,
+     "fgm": 26,
+     "fga": 46,
      "fg3m": 11,
-     "fg3a": 22,
+     "fg3a": 23,
      "ftm": 11,
      "fta": 14,
      "oreb": 3,
-     "dreb": 14,
-     "tov": 10,
-     "pf": 14,
-     "ast": 19,
+     "dreb": 17,
+     "tov": 14,
+     "pf": 16,
+     "ast": 20,
      "stl": 4,
      "blk": 1,
      "pts_paint": 24,
@@ -1921,23 +1929,23 @@
      {
       "name": "Giannis Antetokounmpo",
       "pts": 20,
-      "reb": 4,
+      "reb": 6,
       "ast": 5,
-      "min": "18:59"
+      "min": "21:48"
      },
      {
       "name": "Klay Thompson",
-      "pts": 14,
+      "pts": 16,
       "reb": 1,
       "ast": 1,
-      "min": "16:38"
+      "min": "19:27"
      },
      {
       "name": "Davion Mitchell",
       "pts": 12,
       "reb": 0,
       "ast": 6,
-      "min": "17:14"
+      "min": "20:03"
      }
     ]
    },
@@ -1965,6 +1973,10 @@
     {
      "t": 25.3,
      "m": 16
+    },
+    {
+     "t": 28.1,
+     "m": 19
     }
    ]
   }
