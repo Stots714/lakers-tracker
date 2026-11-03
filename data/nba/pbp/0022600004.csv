@@ -1,0 +1,551 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600004,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:43 PM EST),period,start,1,0,1
+0022600004,4,PT12M00.00S,1,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Jump Ball Adebayo vs. Gobert: Tip to Antetokounmpo,Jump Ball,,1,0,2
+0022600004,7,PT11M47.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,42,160,17,Made,1,2,0,2,h,Antetokounmpo 17' Pullup Jump Shot (2 PTS) (Mitchell 1 AST),Made Shot,Pullup Jump shot,1,2,3
+0022600004,8,PT11M32.00S,1,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,4
+0022600004,8,PT11M32.00S,1,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo STEAL (1 STL),,,1,0,5
+0022600004,10,PT11M28.00S,1,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball S.FOUL (P1.T1) (N.Green),Foul,Shooting,1,0,6
+0022600004,12,PT11M28.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,3,0,3,h,Antetokounmpo Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,7
+0022600004,13,PT11M28.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,4,0,4,h,Antetokounmpo Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,8
+0022600004,14,PT11M21.00S,1,1610612750,MIN,1630163,Ball,L. Ball,-75,268,28,Made,1,4,3,7,v,Ball 28' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,9
+0022600004,15,PT11M03.00S,1,1610612748,MIA,1630558,Mitchell,D. Mitchell,4,70,7,Missed,1,,,0,h,MISS Mitchell 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,10
+0022600004,16,PT11M03.00S,1,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,11
+0022600004,17,PT10M55.00S,1,1610612750,MIN,1630163,Ball,L. Ball,-229,13,0,Missed,1,,,0,v,MISS Ball 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,12
+0022600004,18,PT10M55.00S,1,1610612748,MIA,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,13
+0022600004,80,PT10M47.00S,1,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,14
+0022600004,80,PT10M47.00S,1,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,Kuminga STEAL (1 STL),,,1,0,15
+0022600004,23,PT10M31.00S,1,1610612748,MIA,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson P.FOUL (P1.T1) (N.Green),Foul,Personal,1,0,16
+0022600004,25,PT10M24.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,227,134,26,Made,1,4,6,10,v,Edwards 26' 3PT Jump Shot (3 PTS) (Ball 1 AST),Made Shot,Jump Shot,1,3,17
+0022600004,27,PT10M10.00S,1,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert S.FOUL (P1.T2) (J.Sterling),Foul,Shooting,1,0,18
+0022600004,29,PT10M10.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,5,6,11,h,Antetokounmpo Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,19
+0022600004,30,PT10M10.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,6,6,12,h,Antetokounmpo Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,20
+0022600004,31,PT09M58.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,41,128,13,Made,1,6,8,14,v,McDaniels 13' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,21
+0022600004,32,PT09M46.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,-40,14,4,Made,1,8,8,16,h,Antetokounmpo 4' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,22
+0022600004,33,PT09M38.00S,1,1610612750,MIN,1630163,Ball,L. Ball,209,155,26,Made,1,8,11,19,v,Ball 26' 3PT Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,3,23
+0022600004,34,PT09M26.00S,1,1610612748,MIA,202691,Thompson,K. Thompson,-250,10,25,Made,1,11,11,22,h,Thompson 25' 3PT Jump Shot (3 PTS) (Mitchell 2 AST),Made Shot,Jump Shot,1,3,24
+0022600004,36,PT09M13.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,154,217,27,Missed,1,,,0,v,MISS Edwards 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,25
+0022600004,37,PT09M13.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,26
+0022600004,38,PT09M05.00S,1,1610612748,MIA,1628389,Adebayo,B. Adebayo,184,152,24,Missed,1,,,0,h,MISS Adebayo 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,27
+0022600004,39,PT09M05.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,1,0,28
+0022600004,40,PT09M02.00S,1,1610612748,MIA,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson L.B.FOUL (P2.T2) (N.Buchert),Foul,Loose Ball,1,0,29
+0022600004,43,PT08M55.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,14,94,10,Made,1,11,13,24,v,McDaniels 10' Floating Jump Shot (4 PTS) (Ball 2 AST),Made Shot,Floating Jump shot,1,2,30
+0022600004,45,PT08M43.00S,1,1610612748,MIA,203952,Wiggins,A. Wiggins,-129,221,26,Made,1,14,13,27,h,Wiggins 26' 3PT Jump Shot (3 PTS) (Mitchell 3 AST),Made Shot,Jump Shot,1,3,31
+0022600004,47,PT08M32.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,12,71,7,Made,1,14,15,29,v,McDaniels 7' Driving Floating Jump Shot (6 PTS),Made Shot,Driving Floating Jump Shot,1,2,32
+0022600004,48,PT08M23.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,74,242,25,Missed,1,,,0,h,MISS Antetokounmpo 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,33
+0022600004,49,PT08M23.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,34
+0022600004,50,PT08M14.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,56,166,18,Made,1,14,17,31,v,Edwards 18' Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,2,35
+0022600004,51,PT07M55.00S,1,1610612748,MIA,202691,Thompson,K. Thompson,32,256,26,Made,1,17,17,34,h,Thompson 26' 3PT Jump Shot (6 PTS) (Mitchell 4 AST),Made Shot,Jump Shot,1,3,36
+0022600004,55,PT07M41.00S,1,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Jump Ball Adebayo vs. McDaniels: Tip to Mitchell,Jump Ball,,1,0,37
+0022600004,847,PT07M39.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards Bad Pass Turnover (P1.T2),Turnover,Bad Pass,0,0,38
+0022600004,847,PT07M39.00S,1,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo STEAL (2 STL),,,0,0,39
+0022600004,60,PT07M33.00S,1,1610612748,MIA,203952,Wiggins,A. Wiggins,26,31,4,Missed,1,,,0,h,MISS Wiggins 4' Running Layup,Missed Shot,Running Layup Shot,1,2,40
+0022600004,61,PT07M33.00S,1,1610612748,MIA,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,41
+0022600004,180,PT07M33.00S,1,1610612748,MIA,203952,Wiggins,A. Wiggins,-8,2,1,Missed,1,,,0,h,MISS Wiggins 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,42
+0022600004,181,PT07M33.00S,1,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,43
+0022600004,64,PT07M25.00S,1,1610612748,MIA,1628389,Adebayo,B. Adebayo,-66,57,9,Missed,1,,,0,h,MISS Adebayo 9' Putback Layup,Missed Shot,Putback Layup Shot,1,2,44
+0022600004,65,PT07M25.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,45
+0022600004,66,PT07M21.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels Traveling Turnover (P1.T3),Turnover,Traveling,1,0,46
+0022600004,68,PT07M05.00S,1,1610612748,MIA,202691,Thompson,K. Thompson,242,37,24,Missed,1,,,0,h,MISS Thompson 24' 3PT Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,3,47
+0022600004,69,PT07M05.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,48
+0022600004,70,PT06M56.00S,1,1610612750,MIN,1630228,Kuminga,J. Kuminga,-36,21,4,Made,1,17,19,36,v,Kuminga 4' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,49
+0022600004,71,PT06M40.00S,1,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,50
+0022600004,71,PT06M40.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels STEAL (1 STL),,,1,0,51
+0022600004,73,PT06M35.00S,1,1610612750,MIN,1630228,Kuminga,J. Kuminga,-226,49,0,Missed,1,,,0,v,MISS Kuminga 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,52
+0022600004,74,PT06M35.00S,1,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,53
+0022600004,75,PT06M29.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,244,17,24,Made,1,17,22,39,v,Edwards 24' 3PT Jump Shot (8 PTS) (Ball 3 AST),Made Shot,Jump Shot,1,3,54
+0022600004,77,PT06M28.00S,1,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,55
+0022600004,79,PT06M28.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Portis Jr. FOR Antetokounmpo,Substitution,,0,0,56
+0022600004,82,PT06M15.00S,1,1610612748,MIA,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,57
+0022600004,82,PT06M15.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels STEAL (2 STL),,,1,0,58
+0022600004,84,PT05M59.00S,1,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell P.FOUL (P1.T3) (N.Green),Foul,Personal,1,0,59
+0022600004,87,PT05M51.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,-224,50,0,Made,1,17,25,42,v,McDaniels 3PT Jump Shot (9 PTS) (Ball 4 AST),Made Shot,Jump Shot,1,3,60
+0022600004,89,PT05M44.00S,1,1610612748,MIA,1630558,Mitchell,D. Mitchell,21,37,4,Made,1,19,25,44,h,Mitchell 4' Driving Reverse Layup (2 PTS),Made Shot,Driving Reverse Layup Shot,1,2,61
+0022600004,90,PT05M44.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels Violation:Defensive Goaltending (N.Buchert),Violation,Defensive Goaltending,0,0,62
+0022600004,91,PT05M27.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,-92,110,14,Made,1,19,27,46,v,Edwards 14' Fadeaway Jumper (10 PTS) (Kuminga 1 AST),Made Shot,Fadeaway Jump Shot,1,2,63
+0022600004,92,PT05M12.00S,1,1610612748,MIA,203952,Wiggins,A. Wiggins,221,38,0,Missed,1,,,0,h,MISS Wiggins 3PT Jump Shot,Missed Shot,Jump Shot,1,3,64
+0022600004,93,PT05M12.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,65
+0022600004,96,PT05M05.00S,1,1610612748,MIA,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,SUB: Hardaway Jr. FOR Thompson,Substitution,,0,0,66
+0022600004,100,PT05M05.00S,1,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,SUB: Lyles FOR Kuminga,Substitution,,0,0,67
+0022600004,101,PT05M05.00S,1,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Dosunmu FOR Gobert,Substitution,,0,0,68
+0022600004,102,PT05M05.00S,1,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,SUB: Beringer FOR Ball,Substitution,,0,0,69
+0022600004,103,PT04M49.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,-224,72,24,Missed,1,,,0,v,MISS Edwards 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,70
+0022600004,104,PT04M49.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,1,0,71
+0022600004,106,PT04M41.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,171,193,26,Missed,1,,,0,v,MISS Edwards 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,72
+0022600004,107,PT04M41.00S,1,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,73
+0022600004,108,PT04M34.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels P.FOUL (P1.T3) (N.Buchert),Foul,Personal,1,0,74
+0022600004,110,PT04M29.00S,1,1610612748,MIA,1628389,Adebayo,B. Adebayo,-195,174,26,Missed,1,,,0,h,MISS Adebayo 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,75
+0022600004,111,PT04M29.00S,1,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,v,Dosunmu REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,76
+0022600004,112,PT04M21.00S,1,1610612750,MIN,1642866,Beringer,J. Beringer,0,0,0,,0,,,0,v,Beringer OFF.Foul (P1) (J.Sterling),Foul,Offensive,1,0,77
+0022600004,114,PT04M21.00S,1,1610612750,MIN,1642866,Beringer,J. Beringer,0,0,0,,0,,,0,v,Beringer Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,78
+0022600004,115,PT04M08.00S,1,1610612748,MIA,1628389,Adebayo,B. Adebayo,18,25,3,Made,1,21,27,48,h,Adebayo 3' Driving Layup (2 PTS) (Wiggins 1 AST),Made Shot,Driving Layup Shot,0,2,79
+0022600004,116,PT03M47.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,140,115,18,Made,1,21,29,50,v,Edwards 18' Pullup Jump Shot (12 PTS),Made Shot,Pullup Jump shot,0,2,80
+0022600004,117,PT03M41.00S,1,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,v,Dosunmu P.FOUL (P1.T4) (N.Buchert),Foul,Personal,0,0,81
+0022600004,120,PT03M41.00S,1,1610612748,MIA,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,SUB: Jovic FOR Wiggins,Substitution,,0,0,82
+0022600004,122,PT03M41.00S,1,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,SUB: Larsson FOR Mitchell,Substitution,,0,0,83
+0022600004,123,PT03M35.00S,1,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,-130,215,25,Made,1,24,29,53,h,Hardaway Jr. 25' 3PT Jump Shot (3 PTS) (Adebayo 1 AST),Made Shot,Jump Shot,0,3,84
+0022600004,125,PT03M15.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,-160,193,25,Missed,1,,,0,v,MISS Edwards 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,85
+0022600004,126,PT03M15.00S,1,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,v,Dosunmu REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,86
+0022600004,127,PT03M08.00S,1,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,185,182,26,Made,1,24,32,56,v,Dosunmu 26' 3PT Jump Shot (3 PTS),Made Shot,Jump Shot,0,3,87
+0022600004,128,PT03M02.00S,1,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,Portis Jr. Traveling Turnover (P1.T4),Turnover,Traveling,1,0,88
+0022600004,129,PT03M02.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,89
+0022600004,133,PT03M02.00S,1,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,SUB: Antetokounmpo FOR Adebayo,Substitution,,0,0,90
+0022600004,135,PT03M02.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,SUB: Shannon Jr FOR McDaniels,Substitution,,0,0,91
+0022600004,136,PT02M50.00S,1,1610612750,MIN,1626168,Lyles,T. Lyles,-147,102,18,Missed,1,,,0,v,MISS Lyles 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,92
+0022600004,137,PT02M50.00S,1,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,Portis Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,93
+0022600004,138,PT02M33.00S,1,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,-128,30,13,Missed,1,,,0,h,MISS Portis Jr. 13' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,94
+0022600004,139,PT02M33.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,95
+0022600004,140,PT02M28.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,-18,14,2,Made,1,26,32,58,h,Antetokounmpo 2' Putback Dunk (10 PTS),Made Shot,Putback Dunk Shot,1,2,96
+0022600004,141,PT02M17.00S,1,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,-228,35,0,Missed,1,,,0,v,MISS Shannon Jr 3PT Jump Shot,Missed Shot,Jump Shot,1,3,97
+0022600004,142,PT02M17.00S,1,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,,,0,h,Larsson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,98
+0022600004,143,PT02M07.00S,1,1610612748,MIA,1631107,Jović,N. Jović,229,21,0,Missed,1,,,0,h,MISS Jovic 3PT Jump Shot,Missed Shot,Jump Shot,1,3,99
+0022600004,144,PT02M07.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,100
+0022600004,262,PT01M54.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards Lost Ball Turnover (P2.T5),Turnover,Lost Ball,1,0,101
+0022600004,262,PT01M54.00S,1,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,,,0,h,Larsson STEAL (1 STL),,,1,0,102
+0022600004,148,PT01M49.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo Offensive Charge Foul (P1) (J.Sterling),Foul,Offensive Charge,1,0,103
+0022600004,150,PT01M49.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo Offensive Foul Turnover (P1.T5),Turnover,Offensive Foul Turnover,1,0,104
+0022600004,151,PT01M49.00S,1,0,,0,,,0,0,0,,0,26,32,58,,Instant Replay1st Period (8:08 PM EST),Instant Replay,Coach Challenge Support Ruling,0,0,105
+0022600004,152,PT01M49.00S,1,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,106
+0022600004,154,PT01M49.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,SUB: Ball FOR Edwards,Substitution,,0,0,107
+0022600004,155,PT01M43.00S,1,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,0,0,0,,0,,,0,v,Shannon Jr Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,108
+0022600004,156,PT01M33.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,19,32,4,Made,1,28,32,60,h,Antetokounmpo 4' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,109
+0022600004,158,PT01M17.00S,1,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,-26,24,4,Made,1,28,34,62,v,Dosunmu 4' Driving Finger Roll Layup (5 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,110
+0022600004,159,PT01M05.00S,1,1610612748,MIA,1631107,Jović,N. Jović,14,34,4,Made,1,30,34,64,h,Jovic 4' Driving Layup (2 PTS) (Larsson 1 AST),Made Shot,Driving Layup Shot,1,2,111
+0022600004,161,PT00M55.50S,1,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,v,Dosunmu Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,112
+0022600004,161,PT00M55.50S,1,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. STEAL (1 STL),,,1,0,113
+0022600004,163,PT00M51.00S,1,1610612750,MIN,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles S.FOUL (P1.PN) (J.Sterling),Foul,Shooting,1,0,114
+0022600004,165,PT00M51.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,MISS Antetokounmpo Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,115
+0022600004,166,PT00M51.00S,1,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Normal Rebound,0,0,116
+0022600004,167,PT00M51.00S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,MISS Antetokounmpo Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,117
+0022600004,168,PT00M51.00S,1,1610612750,MIN,1642866,Beringer,J. Beringer,0,0,0,,0,,,0,v,Beringer REBOUND (Off:0 Def:1),Rebound,Unknown,0,0,118
+0022600004,169,PT00M34.80S,1,1610612750,MIN,1630163,Ball,L. Ball,43,30,5,Missed,1,,,0,v,MISS Ball 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,119
+0022600004,170,PT00M34.80S,1,1610612750,MIN,1642866,Beringer,J. Beringer,0,0,0,,0,,,0,v,Beringer REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,120
+0022600004,171,PT00M30.80S,1,1610612750,MIN,1642866,Beringer,J. Beringer,0,0,0,Missed,1,,,0,v,MISS Beringer Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,121
+0022600004,172,PT00M30.80S,1,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,,,0,h,Larsson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,122
+0022600004,173,PT00M25.40S,1,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,16,21,3,Made,1,32,34,66,h,Antetokounmpo 3' Running Finger Roll Layup (14 PTS) (Larsson 2 AST),Made Shot,Running Finger Roll Layup Shot,1,2,123
+0022600004,175,PT00M04.30S,1,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,21,45,5,Missed,1,,,0,v,MISS Dosunmu 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,124
+0022600004,176,PT00M04.30S,1,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,Portis Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,125
+0022600004,179,PT00M00.00S,1,0,,0,,,0,0,0,,0,32,34,66,,End of 1st Period (8:13 PM EST),period,end,1,0,126
+0022600004,189,PT12M00.00S,2,0,,0,,,0,0,0,,0,32,34,66,,Start of 2nd Period (8:17 PM EST),period,start,0,0,127
+0022600004,190,PT11M35.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Turnover: Shot Clock (T#8),Turnover,Shot Clock Turnover,1,0,128
+0022600004,193,PT11M17.00S,2,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,64,252,26,Missed,1,,,0,h,MISS Hardaway Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,129
+0022600004,194,PT11M17.00S,2,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,130
+0022600004,195,PT11M04.00S,2,1610612750,MIN,1630228,Kuminga,J. Kuminga,40,45,6,Missed,1,,,0,v,MISS Kuminga 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,131
+0022600004,196,PT11M04.00S,2,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,132
+0022600004,197,PT10M58.00S,2,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,-16,32,4,Made,1,34,34,68,h,Antetokounmpo 4' Running Dunk (16 PTS) (Hardaway Jr. 1 AST),Made Shot,Running Dunk Shot,1,2,133
+0022600004,198,PT10M41.00S,2,1610612748,MIA,1631107,Jović,N. Jović,0,0,0,,0,,,0,h,Jovic P.FOUL (P1.T1) (J.Sterling),Foul,Personal,1,0,134
+0022600004,200,PT10M28.00S,2,1610612750,MIN,1630163,Ball,L. Ball,-227,25,0,Missed,1,,,0,v,MISS Ball 3PT Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,3,135
+0022600004,201,PT10M28.00S,2,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,136
+0022600004,202,PT10M22.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels P.FOUL (P2.T1) (J.Sterling),Foul,Personal,1,0,137
+0022600004,204,PT10M19.00S,2,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,Kuminga S.FOUL (P1.T2) (N.Buchert),Foul,Shooting,1,0,138
+0022600004,206,PT10M19.00S,2,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,35,34,69,h,Antetokounmpo Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,1,0,139
+0022600004,207,PT10M19.00S,2,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,MISS Antetokounmpo Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,140
+0022600004,208,PT10M19.00S,2,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:3),Rebound,Unknown,0,0,141
+0022600004,209,PT10M06.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,232,29,0,Missed,1,,,0,v,MISS McDaniels 3PT Jump Shot,Missed Shot,Jump Shot,1,3,142
+0022600004,210,PT10M06.00S,2,1610612748,MIA,1631107,Jović,N. Jović,0,0,0,,0,,,0,h,Jovic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,143
+0022600004,211,PT09M54.00S,2,1610612748,MIA,1631107,Jović,N. Jović,200,17,20,Missed,1,,,0,h,MISS Jovic 20' Jump Shot,Missed Shot,Jump Shot,1,2,144
+0022600004,212,PT09M54.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,145
+0022600004,213,PT09M45.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,-99,93,14,Made,1,35,36,71,v,McDaniels 14' Pullup Jump Shot (11 PTS),Made Shot,Pullup Jump shot,1,2,146
+0022600004,214,PT09M44.00S,2,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,,,0,h,Larsson Non-Unsportsmanlike Tech Foul - Flopping (P0.T1) (N.Green),Foul,Flopping,1,0,147
+0022600004,215,PT09M44.00S,2,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,MISS Ball Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,148
+0022600004,216,PT09M44.00S,2,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Normal Rebound,1,0,149
+0022600004,218,PT09M44.00S,2,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,v,SUB: Lyles FOR Dosunmu,Substitution,,0,0,150
+0022600004,219,PT09M33.00S,2,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,95,233,25,Missed,1,,,0,h,MISS Hardaway Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,151
+0022600004,220,PT09M33.00S,2,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,152
+0022600004,221,PT09M23.00S,2,1610612750,MIN,1630163,Ball,L. Ball,-143,208,25,Made,1,35,39,74,v,Ball 25' 3PT Jump Shot (9 PTS) (Kuminga 2 AST),Made Shot,Jump Shot,1,3,153
+0022600004,223,PT09M15.00S,2,1610612748,MIA,1631107,Jović,N. Jović,-43,21,5,Made,1,37,39,76,h,Jovic 5' Cutting Dunk Shot (4 PTS) (Larsson 3 AST),Made Shot,Cutting Dunk Shot,1,2,154
+0022600004,225,PT09M01.00S,2,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,Portis Jr. Violation:Kicked Ball (N.Green),Violation,Kicked Ball,0,0,155
+0022600004,226,PT08M54.00S,2,1610612750,MIN,1630163,Ball,L. Ball,-127,217,25,Missed,1,,,0,v,MISS Ball 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,156
+0022600004,227,PT08M54.00S,2,1610612748,MIA,1631107,Jović,N. Jović,0,0,0,,0,,,0,h,Jovic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,157
+0022600004,228,PT08M41.00S,2,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,-45,12,5,Made,1,39,39,78,h,Antetokounmpo 5' Driving Finger Roll Layup (19 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,158
+0022600004,229,PT08M31.00S,2,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. P.FOUL (P1.T2) (N.Buchert),Foul,Personal,1,0,159
+0022600004,232,PT08M31.00S,2,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,SUB: Edwards FOR Kuminga,Substitution,,0,0,160
+0022600004,233,PT08M20.00S,2,1610612750,MIN,1630163,Ball,L. Ball,145,204,25,Made,1,39,42,81,v,Ball 25' 3PT Step Back Jump Shot (12 PTS),Made Shot,Step Back Jump shot,1,3,161
+0022600004,234,PT08M11.00S,2,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball P.FOUL (P2.T3) (J.Sterling),Foul,Personal,1,0,162
+0022600004,237,PT08M11.00S,2,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,SUB: Kuminga FOR Ball,Substitution,,0,0,163
+0022600004,238,PT08M06.00S,2,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,10,47,5,Made,1,41,42,83,h,Portis Jr. 5' Driving Floating Jump Shot (2 PTS) (Jovic 1 AST),Made Shot,Driving Floating Jump Shot,1,2,164
+0022600004,239,PT07M46.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,-50,55,7,Made,1,41,44,85,v,McDaniels 7' Driving Floating Bank Jump Shot (13 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,165
+0022600004,240,PT07M30.00S,2,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,226,-14,0,Missed,1,,,0,h,MISS Hardaway Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,166
+0022600004,241,PT07M30.00S,2,1610612750,MIN,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,167
+0022600004,242,PT07M16.00S,2,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert Out of Bounds Lost Ball Turnover (P1.T9),Turnover,Out of Bounds Lost Ball Turnover,1,0,168
+0022600004,245,PT07M16.00S,2,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,,,0,h,SUB: Mitchell FOR Larsson,Substitution,,0,0,169
+0022600004,246,PT07M16.00S,2,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,SUB: Adebayo FOR Hardaway Jr.,Substitution,,0,0,170
+0022600004,247,PT07M06.00S,2,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,198,1,20,Made,1,43,44,87,h,Portis Jr. 20' Pullup Jump Shot (4 PTS) (Antetokounmpo 1 AST),Made Shot,Pullup Jump shot,1,2,171
+0022600004,249,PT06M41.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,-227,76,24,Made,1,43,47,90,v,Edwards 24' 3PT Step Back Jump Shot (15 PTS),Made Shot,Step Back Jump shot,1,3,172
+0022600004,250,PT06M33.00S,2,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,-48,13,5,Made,1,45,47,92,h,Antetokounmpo 5' Dunk (21 PTS) (Adebayo 2 AST),Made Shot,Dunk Shot,1,2,173
+0022600004,252,PT06M19.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,103,128,16,Missed,1,,,0,v,MISS Edwards 16' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,174
+0022600004,252,PT06M19.00S,2,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,Portis Jr. BLOCK (1 BLK),,,1,2,175
+0022600004,253,PT06M19.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,176
+0022600004,255,PT06M18.00S,2,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo P.FOUL (P2.T3) (J.Sterling),Foul,Personal,1,0,177
+0022600004,257,PT06M18.00S,2,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,178
+0022600004,265,PT06M18.00S,2,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Wiggins FOR Antetokounmpo,Substitution,,0,0,179
+0022600004,268,PT06M18.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,SUB: Shannon Jr FOR McDaniels,Substitution,,0,0,180
+0022600004,269,PT06M18.00S,2,1610612750,MIN,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,SUB: Dosunmu FOR Lyles,Substitution,,0,0,181
+0022600004,270,PT06M07.00S,2,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,240,9,24,Missed,1,,,0,v,MISS Dosunmu 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,182
+0022600004,271,PT06M07.00S,2,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,Kuminga REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,183
+0022600004,272,PT06M03.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,3,272,27,Missed,1,,,0,v,MISS Edwards 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,184
+0022600004,273,PT06M03.00S,2,1610612748,MIA,1631107,Jović,N. Jović,0,0,0,,0,,,0,h,Jovic REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,185
+0022600004,274,PT05M54.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,-62,55,8,Made,1,47,47,94,h,Adebayo 8' Fadeaway Jumper (4 PTS) (Mitchell 5 AST),Made Shot,Fadeaway Jump Shot,1,2,186
+0022600004,278,PT05M43.00S,2,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Beringer FOR Gobert,Substitution,,0,0,187
+0022600004,279,PT05M34.00S,2,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,83,249,26,Missed,1,,,0,v,MISS Shannon Jr 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,188
+0022600004,280,PT05M34.00S,2,1610612748,MIA,1631107,Jović,N. Jović,0,0,0,,0,,,0,h,Jovic REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,189
+0022600004,281,PT05M25.00S,2,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,-201,161,26,Made,1,50,47,97,h,Portis Jr. 26' 3PT Jump Shot (7 PTS) (Mitchell 6 AST),Made Shot,Jump Shot,1,3,190
+0022600004,283,PT05M06.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,61,41,7,Made,1,50,49,99,v,Edwards 7' Driving Floating Bank Jump Shot (17 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,191
+0022600004,284,PT05M00.00S,2,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell Out of Bounds Lost Ball Turnover (P2.T6),Turnover,Out of Bounds Lost Ball Turnover,1,0,192
+0022600004,285,PT04M46.00S,2,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,237,19,24,Made,1,50,52,102,v,Shannon Jr 24' 3PT Jump Shot (3 PTS) (Dosunmu 1 AST),Made Shot,Jump Shot,1,3,193
+0022600004,287,PT04M32.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,16,145,15,Missed,1,,,0,h,MISS Adebayo 15' Jump Shot,Missed Shot,Jump Shot,1,2,194
+0022600004,288,PT04M32.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,195
+0022600004,289,PT04M24.00S,2,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,146,76,16,Missed,1,,,0,v,MISS Dosunmu 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,196
+0022600004,290,PT04M24.00S,2,1610612750,MIN,1642866,Beringer,J. Beringer,0,0,0,,0,,,0,v,Beringer REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,197
+0022600004,291,PT04M12.00S,2,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,241,50,25,Made,1,50,55,105,v,Shannon Jr 25' 3PT Jump Shot (6 PTS) (Beringer 1 AST),Made Shot,Jump Shot,1,3,198
+0022600004,293,PT03M55.00S,2,1610612748,MIA,203952,Wiggins,A. Wiggins,169,28,17,Made,1,52,55,107,h,Wiggins 17' Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,2,199
+0022600004,294,PT03M42.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards Lost Ball Turnover (P3.T10),Turnover,Lost Ball,1,0,200
+0022600004,294,PT03M42.00S,2,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,Portis Jr. STEAL (1 STL),,,1,0,201
+0022600004,296,PT03M38.00S,2,1610612748,MIA,203952,Wiggins,A. Wiggins,24,32,4,Made,1,54,55,109,h,Wiggins 4' Running Layup (7 PTS) (Portis Jr. 1 AST),Made Shot,Running Layup Shot,1,2,202
+0022600004,298,PT03M38.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,203
+0022600004,300,PT03M38.00S,2,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,SUB: Thompson FOR Portis Jr.,Substitution,,0,0,204
+0022600004,301,PT03M26.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,165,42,17,Made,1,54,57,111,v,Edwards 17' Pullup Jump Shot (19 PTS) (Kuminga 3 AST),Made Shot,Pullup Jump shot,1,2,205
+0022600004,303,PT03M15.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards P.FOUL (P1.T4) (N.Green),Foul,Personal,1,0,206
+0022600004,305,PT03M07.00S,2,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell Bad Pass Turnover (P3.T7),Turnover,Bad Pass,1,0,207
+0022600004,305,PT03M07.00S,2,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,Kuminga STEAL (2 STL),,,1,0,208
+0022600004,307,PT03M03.00S,2,1610612750,MIN,1630228,Kuminga,J. Kuminga,44,15,5,Missed,1,,,0,v,MISS Kuminga 5' Running Finger Roll Layup,Missed Shot,Running Finger Roll Layup Shot,1,2,209
+0022600004,308,PT03M03.00S,2,1610612750,MIN,1642866,Beringer,J. Beringer,0,0,0,,0,,,0,v,Beringer REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,210
+0022600004,309,PT02M53.00S,2,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,4,43,4,Missed,1,,,0,v,MISS Shannon Jr 4' Driving Bank Hook Shot,Missed Shot,Driving Bank Hook Shot,1,2,211
+0022600004,310,PT02M53.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,212
+0022600004,311,PT02M42.00S,2,1610612748,MIA,1631107,Jović,N. Jović,-32,35,5,Missed,1,,,0,h,MISS Jovic 5' Layup,Missed Shot,Layup Shot,1,2,213
+0022600004,311,PT02M42.00S,2,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,Kuminga BLOCK (1 BLK),,,1,2,214
+0022600004,312,PT02M42.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,215
+0022600004,314,PT02M18.00S,2,1610612750,MIN,1630228,Kuminga,J. Kuminga,-222,33,0,Made,1,54,60,114,v,Kuminga 3PT Jump Shot (5 PTS) (Edwards 1 AST),Made Shot,Jump Shot,1,3,216
+0022600004,316,PT02M07.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,-26,25,4,Made,1,56,60,116,h,Adebayo 4' Driving Dunk (6 PTS) (Mitchell 7 AST),Made Shot,Driving Dunk Shot,1,2,217
+0022600004,318,PT01M56.00S,2,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,67,59,9,Made,1,56,62,118,v,Dosunmu 9' Driving Floating Jump Shot (8 PTS),Made Shot,Driving Floating Jump Shot,1,2,218
+0022600004,319,PT01M56.00S,2,1610612748,MIA,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson S.FOUL (P3.T4) (N.Buchert),Foul,Shooting,1,0,219
+0022600004,325,PT01M56.00S,2,1610612748,MIA,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,SUB: Larsson FOR Thompson,Substitution,,0,0,220
+0022600004,326,PT01M56.00S,2,1610612748,MIA,1631107,Jović,N. Jović,0,0,0,,0,,,0,h,SUB: Antetokounmpo FOR Jovic,Substitution,,0,0,221
+0022600004,330,PT01M56.00S,2,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,0,0,0,,0,,,0,v,SUB: McDaniels FOR Shannon Jr,Substitution,,0,0,222
+0022600004,331,PT01M56.00S,2,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,SUB: Gobert FOR Kuminga,Substitution,,0,0,223
+0022600004,332,PT01M56.00S,2,1610612750,MIN,1642866,Beringer,J. Beringer,0,0,0,,0,,,0,v,SUB: Ball FOR Beringer,Substitution,,0,0,224
+0022600004,321,PT01M56.00S,2,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,56,63,119,v,Dosunmu Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,1,0,225
+0022600004,333,PT01M49.00S,2,1610612748,MIA,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins Lost Ball Turnover (P1.T8),Turnover,Lost Ball,1,0,226
+0022600004,333,PT01M49.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels STEAL (3 STL),,,1,0,227
+0022600004,335,PT01M38.00S,2,1610612750,MIN,1630163,Ball,L. Ball,-115,225,25,Missed,1,,,0,v,MISS Ball 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,228
+0022600004,336,PT01M38.00S,2,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,229
+0022600004,337,PT01M31.00S,2,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo Out of Bounds Lost Ball Turnover (P2.T9),Turnover,Out of Bounds Lost Ball Turnover,1,0,230
+0022600004,338,PT01M18.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,-31,86,9,Missed,1,,,0,v,MISS McDaniels 9' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,231
+0022600004,339,PT01M18.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,232
+0022600004,340,PT01M13.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,233
+0022600004,340,PT01M13.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards STEAL (1 STL),,,1,0,234
+0022600004,342,PT01M10.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,40,38,6,Made,1,56,65,121,v,Edwards 6' Driving Dunk (21 PTS),Made Shot,Driving Dunk Shot,1,2,235
+0022600004,343,PT00M56.10S,2,1610612748,MIA,1630558,Mitchell,D. Mitchell,197,172,26,Made,1,59,65,124,h,Mitchell 26' 3PT Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,3,236
+0022600004,344,PT00M50.10S,2,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,20,33,4,Missed,1,,,0,v,MISS Dosunmu 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,237
+0022600004,345,PT00M50.10S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,238
+0022600004,346,PT00M35.00S,2,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,16,36,4,Missed,1,,,0,h,MISS Antetokounmpo 4' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,239
+0022600004,347,PT00M35.00S,2,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,240
+0022600004,348,PT00M21.70S,2,1610612750,MIN,1630163,Ball,L. Ball,4,48,5,Made,1,59,67,126,v,Ball 5' Driving Finger Roll Layup (14 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,241
+0022600004,349,PT00M14.00S,2,1610612748,MIA,1630558,Mitchell,D. Mitchell,-229,146,27,Missed,1,,,0,h,MISS Mitchell 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,242
+0022600004,350,PT00M14.00S,2,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,v,Dosunmu REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,243
+0022600004,351,PT00M02.00S,2,1610612748,MIA,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins S.FOUL (P1.PN) (N.Buchert),Foul,Shooting,1,0,244
+0022600004,353,PT00M02.00S,2,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,59,68,127,v,Ball Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,1,0,245
+0022600004,354,PT00M02.00S,2,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,59,69,128,v,Ball Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,1,0,246
+0022600004,357,PT00M00.00S,2,0,,0,,,0,0,0,,0,59,69,128,,End of 2nd Period (8:44 PM EST),period,end,1,0,247
+0022600004,367,PT12M00.00S,3,0,,0,,,0,0,0,,0,59,69,128,,Start of 3rd Period (9:02 PM EST),period,start,0,0,248
+0022600004,368,PT11M38.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,161,144,22,Missed,1,,,0,v,MISS Edwards 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,249
+0022600004,369,PT11M38.00S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,250
+0022600004,370,PT11M34.00S,3,1610612750,MIN,203497,Gobert,R. Gobert,-20,59,6,Missed,1,,,0,v,MISS Gobert 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,251
+0022600004,371,PT11M34.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,252
+0022600004,372,PT11M25.00S,3,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,1,124,12,Missed,1,,,0,h,MISS Antetokounmpo 12' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,253
+0022600004,373,PT11M25.00S,3,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,254
+0022600004,374,PT11M14.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-32,33,5,Missed,1,,,0,v,MISS Edwards 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,255
+0022600004,375,PT11M14.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,0,0,256
+0022600004,377,PT11M00.00S,3,1610612750,MIN,1630163,Ball,L. Ball,-207,204,29,Missed,1,,,0,v,MISS Ball 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,257
+0022600004,378,PT11M00.00S,3,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,258
+0022600004,379,PT10M49.00S,3,1610612748,MIA,202691,Thompson,K. Thompson,207,159,26,Missed,1,,,0,h,MISS Thompson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,259
+0022600004,380,PT10M49.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,260
+0022600004,381,PT10M34.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-226,142,27,Made,1,59,72,131,v,Edwards 27' 3PT Step Back Jump Shot (24 PTS),Made Shot,Step Back Jump shot,1,3,261
+0022600004,382,PT10M20.00S,3,1610612748,MIA,1630558,Mitchell,D. Mitchell,-31,18,4,Made,1,61,72,133,h,Mitchell 4' Driving Finger Roll Layup (7 PTS) (Adebayo 3 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,262
+0022600004,383,PT10M15.00S,3,1610612750,MIN,1630163,Ball,L. Ball,-195,185,27,Made,1,61,75,136,v,Ball 27' 3PT Step Back Jump Shot (19 PTS) (Edwards 2 AST),Made Shot,Step Back Jump shot,1,3,263
+0022600004,384,PT09M59.00S,3,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,16,32,4,Missed,1,,,0,h,MISS Antetokounmpo 4' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,264
+0022600004,385,PT09M59.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,265
+0022600004,386,PT09M47.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-102,245,27,Made,1,61,78,139,v,Edwards 27' 3PT Pullup Jump Shot (27 PTS),Made Shot,Pullup Jump shot,1,3,266
+0022600004,387,PT09M46.00S,3,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,267
+0022600004,402,PT09M27.00S,3,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,-15,46,5,Made,1,63,78,141,h,Antetokounmpo 5' Cutting Finger Roll Layup Shot (23 PTS) (Adebayo 4 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,268
+0022600004,404,PT09M08.00S,3,1610612748,MIA,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson P.FOUL (P4.T1) (J.Sterling),Foul,Personal,1,0,269
+0022600004,408,PT08M58.00S,3,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,Kuminga OFF.Foul (P2) (J.Sterling),Foul,Offensive,1,0,270
+0022600004,410,PT08M58.00S,3,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,Kuminga Offensive Foul Turnover (P1.T11),Turnover,Offensive Foul Turnover,1,0,271
+0022600004,411,PT08M40.00S,3,1610612748,MIA,202691,Thompson,K. Thompson,119,228,26,Missed,1,,,0,h,MISS Thompson 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,272
+0022600004,412,PT08M40.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,273
+0022600004,413,PT08M29.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-44,18,5,Missed,1,,,0,v,MISS Edwards 5' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,274
+0022600004,414,PT08M29.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,275
+0022600004,415,PT08M25.00S,3,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,38,17,4,Made,1,65,78,143,h,Antetokounmpo 4' Running Finger Roll Layup (26 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,276
+0022600004,416,PT08M25.00S,3,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball S.FOUL (P3.T1) (J.Sterling),Foul,Shooting,1,0,277
+0022600004,418,PT08M25.00S,3,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,66,78,144,h,Antetokounmpo Free Throw 1 of 1 (26 PTS),Free Throw,Free Throw 1 of 1,1,0,278
+0022600004,419,PT08M17.00S,3,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell P.FOUL (P2.T2) (N.Buchert),Foul,Personal,1,0,279
+0022600004,422,PT08M17.00S,3,1610612748,MIA,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,SUB: Larsson FOR Thompson,Substitution,,0,0,280
+0022600004,423,PT08M15.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels Bad Pass Turnover (P2.T12),Turnover,Bad Pass,1,0,281
+0022600004,423,PT08M15.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo STEAL (3 STL),,,1,0,282
+0022600004,425,PT08M13.00S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert S.FOUL (P2.T2) (N.Buchert),Foul,Shooting,1,0,283
+0022600004,427,PT08M13.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,67,78,145,h,Adebayo Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,284
+0022600004,428,PT08M13.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,68,78,146,h,Adebayo Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,285
+0022600004,429,PT08M01.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,78,235,25,Missed,1,,,0,v,MISS McDaniels 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,286
+0022600004,430,PT08M01.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,287
+0022600004,431,PT07M47.00S,3,1610612748,MIA,203952,Wiggins,A. Wiggins,22,146,15,Made,1,70,78,148,h,Wiggins 15' Pullup Jump Shot (9 PTS),Made Shot,Pullup Jump shot,1,2,288
+0022600004,432,PT07M46.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,289
+0022600004,435,PT07M23.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo S.FOUL (P1.T3) (J.Sterling),Foul,Shooting,0,0,290
+0022600004,437,PT07M23.00S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,MISS Gobert Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,291
+0022600004,438,PT07M23.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,292
+0022600004,439,PT07M23.00S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,70,79,149,v,Gobert Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,293
+0022600004,440,PT07M06.00S,3,1610612748,MIA,203952,Wiggins,A. Wiggins,-28,95,10,Missed,1,,,0,h,MISS Wiggins 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,294
+0022600004,441,PT07M06.00S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,295
+0022600004,444,PT06M55.00S,3,1610612750,MIN,1630163,Ball,L. Ball,102,229,25,Missed,1,,,0,v,MISS Ball 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,296
+0022600004,445,PT06M55.00S,3,1610612748,MIA,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,297
+0022600004,446,PT06M46.00S,3,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell Bad Pass Turnover (P4.T11),Turnover,Bad Pass,1,0,298
+0022600004,446,PT06M46.00S,3,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball STEAL (1 STL),,,1,0,299
+0022600004,448,PT06M34.00S,3,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell P.FOUL (P3.T4) (J.Sterling),Foul,Personal,1,0,300
+0022600004,453,PT06M34.00S,3,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,SUB: Dosunmu FOR Ball,Substitution,,0,0,301
+0022600004,454,PT06M24.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-159,237,29,Made,1,70,82,152,v,Edwards 29' 3PT Pullup Jump Shot (30 PTS) (Gobert 1 AST),Made Shot,Pullup Jump shot,1,3,302
+0022600004,456,PT06M12.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels P.FOUL (P3.T3) (N.Buchert),Foul,Personal,1,0,303
+0022600004,459,PT06M12.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,SUB: Lyles FOR McDaniels,Substitution,,0,0,304
+0022600004,460,PT06M02.00S,3,1610612750,MIN,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles P.FOUL (P2.T4) (J.Sterling),Foul,Personal,1,0,305
+0022600004,462,PT05M54.00S,3,1610612748,MIA,203952,Wiggins,A. Wiggins,234,10,0,Missed,1,,,0,h,MISS Wiggins 3PT Jump Shot,Missed Shot,Jump Shot,1,3,306
+0022600004,463,PT05M54.00S,3,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Unknown,1,0,307
+0022600004,464,PT05M53.00S,3,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,v,Dosunmu L.B.FOUL (P2.PN) (N.Buchert),Foul,Loose Ball,1,0,308
+0022600004,466,PT05M53.00S,3,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,71,82,153,h,Larsson Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,309
+0022600004,469,PT05M53.00S,3,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Portis Jr. FOR Antetokounmpo,Substitution,,0,0,310
+0022600004,467,PT05M53.00S,3,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,72,82,154,h,Larsson Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,311
+0022600004,470,PT05M38.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-184,176,25,Made,1,72,85,157,v,Edwards 25' 3PT Step Back Jump Shot (33 PTS),Made Shot,Step Back Jump shot,1,3,312
+0022600004,471,PT05M18.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,-231,30,0,Missed,1,,,0,h,MISS Adebayo 3PT Jump Shot,Missed Shot,Jump Shot,1,3,313
+0022600004,472,PT05M18.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,314
+0022600004,473,PT05M12.00S,3,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,,,0,h,Larsson S.FOUL (P1.PN) (J.Sterling),Foul,Shooting,1,0,315
+0022600004,475,PT05M12.00S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,MISS Gobert Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,316
+0022600004,484,PT05M12.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,317
+0022600004,818,PT05M12.00S,3,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,SUB: Shannon Jr FOR Kuminga,Substitution,,0,0,318
+0022600004,512,PT05M12.00S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,72,86,158,v,Gobert Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,319
+0022600004,476,PT05M03.00S,3,1610612748,MIA,1630558,Mitchell,D. Mitchell,-23,35,4,Missed,1,,,0,h,MISS Mitchell 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,320
+0022600004,477,PT05M03.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,321
+0022600004,478,PT04M53.00S,3,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,,,0,h,Larsson S.FOUL (P2.PN) (N.Buchert),Foul,Shooting,1,0,322
+0022600004,480,PT04M53.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,MISS Edwards Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,323
+0022600004,483,PT04M53.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,324
+0022600004,822,PT04M53.00S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Beringer FOR Gobert,Substitution,,0,0,325
+0022600004,482,PT04M53.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,72,87,159,v,Edwards Free Throw 2 of 2 (34 PTS),Free Throw,Free Throw 2 of 2,1,0,326
+0022600004,486,PT04M38.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,-9,-2,1,Made,1,74,87,161,h,Adebayo 1' Driving Dunk (10 PTS) (Mitchell 8 AST),Made Shot,Driving Dunk Shot,1,2,327
+0022600004,487,PT04M28.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-176,25,18,Made,1,74,89,163,v,Edwards 18' Pullup Jump Shot (36 PTS) (Dosunmu 2 AST),Made Shot,Pullup Jump shot,1,2,328
+0022600004,488,PT04M11.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,99,235,26,Made,1,77,89,166,h,Adebayo 26' 3PT Step Back Jump Shot (13 PTS),Made Shot,Step Back Jump shot,1,3,329
+0022600004,489,PT04M01.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-216,163,27,Missed,1,,,0,v,MISS Edwards 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,330
+0022600004,490,PT04M01.00S,3,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,Portis Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,331
+0022600004,491,PT03M41.00S,3,1610612748,MIA,1641796,Larsson,P. Larsson,237,18,24,Missed,1,,,0,h,MISS Larsson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,332
+0022600004,492,PT03M41.00S,3,1610612750,MIN,1642866,Beringer,J. Beringer,0,0,0,,0,,,0,v,Beringer REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,333
+0022600004,493,PT03M38.00S,3,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,Portis Jr. P.FOUL (P1.PN) (N.Buchert),Foul,Personal,1,0,334
+0022600004,497,PT03M38.00S,3,1610612748,MIA,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,SUB: Hardaway Jr. FOR Wiggins,Substitution,,0,0,335
+0022600004,495,PT03M38.00S,3,1610612750,MIN,1626168,Lyles,T. Lyles,0,0,0,,0,77,90,167,v,Lyles Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,336
+0022600004,498,PT03M38.00S,3,1610612750,MIN,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,MISS Lyles Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,337
+0022600004,499,PT03M38.00S,3,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Unknown,0,0,338
+0022600004,501,PT03M27.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,32,29,4,Made,1,79,90,169,h,Adebayo 4' Turnaround Fadeaway (15 PTS) (Larsson 4 AST),Made Shot,Turnaround Fadeaway shot,1,2,339
+0022600004,503,PT03M27.00S,3,1610612750,MIN,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles S.FOUL (P3.PN) (N.Buchert),Foul,Shooting,1,0,340
+0022600004,509,PT03M27.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,SUB: Gobert FOR Edwards,Substitution,,0,0,341
+0022600004,510,PT03M27.00S,3,1610612750,MIN,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,SUB: McDaniels FOR Lyles,Substitution,,0,0,342
+0022600004,824,PT03M27.00S,3,1610612750,MIN,1642866,Beringer,J. Beringer,0,0,0,,0,,,0,v,SUB: Ball FOR Beringer,Substitution,,0,0,343
+0022600004,505,PT03M27.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,MISS Adebayo Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,344
+0022600004,513,PT03M27.00S,3,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Unknown,0,0,345
+0022600004,515,PT03M16.00S,3,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,64,243,25,Missed,1,,,0,h,MISS Portis Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,346
+0022600004,516,PT03M16.00S,3,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,347
+0022600004,517,PT02M56.00S,3,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,119,219,25,Missed,1,,,0,v,MISS Dosunmu 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,348
+0022600004,518,PT02M56.00S,3,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,349
+0022600004,519,PT02M44.00S,3,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,211,140,25,Missed,1,,,0,h,MISS Hardaway Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,350
+0022600004,520,PT02M44.00S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,351
+0022600004,521,PT02M37.00S,3,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,,,0,h,Larsson S.FOUL (P3.PN) (N.Buchert),Foul,Shooting,1,0,352
+0022600004,523,PT02M37.00S,3,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,79,91,170,v,Dosunmu Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,353
+0022600004,527,PT02M37.00S,3,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,SUB: Antetokounmpo FOR Mitchell,Substitution,,0,0,354
+0022600004,528,PT02M37.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,SUB: Jovic FOR Adebayo,Substitution,,0,0,355
+0022600004,530,PT02M37.00S,3,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,0,0,0,,0,,,0,v,SUB: Kuminga FOR Shannon Jr,Substitution,,0,0,356
+0022600004,524,PT02M37.00S,3,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,79,92,171,v,Dosunmu Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,357
+0022600004,531,PT02M28.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels S.FOUL (P4.PN) (N.Buchert),Foul,Shooting,1,0,358
+0022600004,534,PT02M28.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,359
+0022600004,547,PT02M28.00S,3,0,,0,,,0,0,0,,0,79,92,171,,Instant Replay3rd Period (9:30 PM EST),Instant Replay,Coach Challenge Support Ruling,0,0,360
+0022600004,571,PT02M28.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,SUB: Shannon Jr FOR McDaniels,Substitution,,0,0,361
+0022600004,533,PT02M28.00S,3,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,MISS Antetokounmpo Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,362
+0022600004,548,PT02M28.00S,3,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Normal Rebound,0,0,363
+0022600004,549,PT02M28.00S,3,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,MISS Antetokounmpo Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,364
+0022600004,551,PT02M28.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,0,0,365
+0022600004,553,PT02M13.00S,3,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,10,22,2,Made,1,79,94,173,v,Dosunmu 2' Driving Layup (12 PTS) (Ball 5 AST),Made Shot,Driving Layup Shot,1,2,366
+0022600004,555,PT01M59.00S,3,1610612748,MIA,1631107,Jović,N. Jović,0,0,0,,0,,,0,h,Jovic Bad Pass Turnover (P1.T12),Turnover,Bad Pass,1,0,367
+0022600004,555,PT01M59.00S,3,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,Kuminga STEAL (3 STL),,,1,0,368
+0022600004,557,PT01M55.00S,3,1610612750,MIN,1630228,Kuminga,J. Kuminga,-50,32,6,Made,1,79,96,175,v,Kuminga 6' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,369
+0022600004,558,PT01M43.00S,3,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,-16,38,4,Made,1,81,96,177,h,Antetokounmpo 4' Alley Oop Dunk (28 PTS) (Jovic 2 AST),Made Shot,Alley Oop Dunk Shot,1,2,370
+0022600004,560,PT01M26.00S,3,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,-243,14,24,Missed,1,,,0,v,MISS Shannon Jr 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,371
+0022600004,561,PT01M26.00S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,372
+0022600004,562,PT01M23.00S,3,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo P.FOUL (P3.PN) (N.Buchert),Foul,Personal,1,0,373
+0022600004,564,PT01M23.00S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,MISS Gobert Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,374
+0022600004,565,PT01M23.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,375
+0022600004,566,PT01M23.00S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,81,97,178,v,Gobert Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,376
+0022600004,567,PT01M09.00S,3,1610612748,MIA,1631107,Jović,N. Jović,105,66,12,Missed,1,,,0,h,MISS Jovic 12' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,377
+0022600004,568,PT01M09.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,1,0,378
+0022600004,572,PT00M52.10S,3,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,Portis Jr. S.FOUL (P2.PN) (N.Green),Foul,Shooting,1,0,379
+0022600004,574,PT00M52.10S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,81,98,179,v,Gobert Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,380
+0022600004,575,PT00M52.10S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,81,99,180,v,Gobert Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,381
+0022600004,576,PT00M37.90S,3,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,37,25,4,Missed,1,,,0,h,MISS Antetokounmpo 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,382
+0022600004,577,PT00M37.90S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,383
+0022600004,578,PT00M32.50S,3,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,-47,19,5,Missed,1,,,0,v,MISS Dosunmu 5' Running Layup,Missed Shot,Running Layup Shot,1,2,384
+0022600004,579,PT00M32.50S,3,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,,,0,h,Larsson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,385
+0022600004,580,PT00M22.20S,3,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,-153,186,24,Missed,1,,,0,h,MISS Hardaway Jr. 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,386
+0022600004,581,PT00M22.20S,3,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,387
+0022600004,582,PT00M00.50S,3,1610612750,MIN,1630163,Ball,L. Ball,-226,193,30,Missed,1,,,0,v,MISS Ball 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,388
+0022600004,583,PT00M00.50S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,1,0,389
+0022600004,584,PT00M00.00S,3,0,,0,,,0,0,0,,0,81,99,180,,End of 3rd Period (9:38 PM EST),period,end,1,0,390
+0022600004,585,PT12M00.00S,4,0,,0,,,0,0,0,,0,81,99,180,,Start of 4th Period (9:41 PM EST),period,start,0,0,391
+0022600004,586,PT11M45.00S,4,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,-117,218,25,Missed,1,,,0,h,MISS Hardaway Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,392
+0022600004,587,PT11M45.00S,4,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,393
+0022600004,588,PT11M42.00S,4,1610612748,MIA,1631107,Jović,N. Jović,0,0,0,,0,,,0,h,Jovic P.FOUL (P2.T1) (N.Green),Foul,Personal,1,0,394
+0022600004,590,PT11M27.00S,4,1610612750,MIN,1630228,Kuminga,J. Kuminga,-11,93,9,Made,1,81,101,182,v,Kuminga 9' Turnaround Jump Shot (9 PTS) (Shannon Jr 1 AST),Made Shot,Turnaround Jump Shot,1,2,395
+0022600004,592,PT11M13.00S,4,1610612748,MIA,1631107,Jović,N. Jović,0,0,0,,0,,,0,h,Jovic Bad Pass Turnover (P2.T13),Turnover,Bad Pass,1,0,396
+0022600004,592,PT11M13.00S,4,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,Kuminga STEAL (4 STL),,,1,0,397
+0022600004,594,PT11M08.00S,4,1610612750,MIN,1630228,Kuminga,J. Kuminga,-48,11,5,Missed,1,,,0,v,MISS Kuminga 5' Running Layup,Missed Shot,Running Layup Shot,1,2,398
+0022600004,595,PT11M08.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,1,0,399
+0022600004,597,PT11M06.00S,4,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,Jump Ball Portis Jr. vs. Gobert: Tip to Ball,Jump Ball,,1,0,400
+0022600004,599,PT11M06.00S,4,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,,,0,h,SUB: Mitchell FOR Larsson,Substitution,,0,0,401
+0022600004,602,PT10M50.00S,4,1610612750,MIN,1630228,Kuminga,J. Kuminga,-214,146,26,Made,1,81,104,185,v,Kuminga 26' 3PT Jump Shot (12 PTS) (Ball 6 AST),Made Shot,Jump Shot,1,3,402
+0022600004,604,PT10M43.00S,4,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,Kuminga P.FOUL (P3.T1) (N.Green),Foul,Personal,1,0,403
+0022600004,606,PT10M32.00S,4,1610612748,MIA,1630558,Mitchell,D. Mitchell,11,114,11,Missed,1,,,0,h,MISS Mitchell 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,404
+0022600004,607,PT10M32.00S,4,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Unknown,0,0,405
+0022600004,609,PT10M29.00S,4,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,21,27,3,Made,1,83,104,187,h,Antetokounmpo 3' Dunk (30 PTS) (Mitchell 9 AST),Made Shot,Dunk Shot,1,2,406
+0022600004,611,PT10M12.00S,4,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo P.FOUL (P4.T2) (N.Green),Foul,Personal,1,0,407
+0022600004,613,PT09M58.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Turnover: Shot Clock (T#13),Turnover,Shot Clock Turnover,1,0,408
+0022600004,614,PT09M47.00S,4,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,82,253,27,Missed,1,,,0,h,MISS Antetokounmpo 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,409
+0022600004,615,PT09M47.00S,4,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,Portis Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,410
+0022600004,616,PT09M41.00S,4,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,Portis Jr. Bad Pass Turnover (P2.T14),Turnover,Bad Pass,1,0,411
+0022600004,616,PT09M41.00S,4,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball STEAL (2 STL),,,1,0,412
+0022600004,618,PT09M26.00S,4,1610612750,MIN,1630163,Ball,L. Ball,-195,185,27,Missed,1,,,0,v,MISS Ball 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,413
+0022600004,619,PT09M26.00S,4,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:4 Def:10),Rebound,Unknown,1,0,414
+0022600004,620,PT09M21.00S,4,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,Missed,1,,,0,v,MISS Gobert Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,415
+0022600004,620,PT09M21.00S,4,1610612748,MIA,1631107,Jović,N. Jović,0,0,0,,0,,,0,h,Jovic BLOCK (1 BLK),,,1,2,416
+0022600004,621,PT09M21.00S,4,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:5 Def:10),Rebound,Unknown,1,0,417
+0022600004,622,PT09M18.00S,4,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,220,103,24,Missed,1,,,0,v,MISS Shannon Jr 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,418
+0022600004,623,PT09M18.00S,4,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,419
+0022600004,624,PT09M12.00S,4,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,Kuminga S.FOUL (P4.T2) (N.Green),Foul,Shooting,1,0,420
+0022600004,626,PT09M12.00S,4,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,84,104,188,h,Antetokounmpo Free Throw 1 of 2 (31 PTS),Free Throw,Free Throw 1 of 2,1,0,421
+0022600004,629,PT09M12.00S,4,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,SUB: Edwards FOR Ball,Substitution,,0,0,422
+0022600004,627,PT09M12.00S,4,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,85,104,189,h,Antetokounmpo Free Throw 2 of 2 (32 PTS),Free Throw,Free Throw 2 of 2,1,0,423
+0022600004,630,PT08M58.00S,4,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert Offensive Charge Foul (P3) (N.Green),Foul,Offensive Charge,1,0,424
+0022600004,632,PT08M58.00S,4,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert Offensive Foul Turnover (P2.T14),Turnover,Offensive Foul Turnover,1,0,425
+0022600004,633,PT08M51.00S,4,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell Offensive Charge Foul (P4) (J.Sterling),Foul,Offensive Charge,1,0,426
+0022600004,635,PT08M51.00S,4,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell Offensive Foul Turnover (P5.T15),Turnover,Offensive Foul Turnover,1,0,427
+0022600004,636,PT08M36.00S,4,1610612750,MIN,1630228,Kuminga,J. Kuminga,-248,20,25,Missed,1,,,0,v,MISS Kuminga 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,428
+0022600004,637,PT08M36.00S,4,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Unknown,1,0,429
+0022600004,638,PT08M34.00S,4,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert L.B.FOUL (P4.T3) (N.Green),Foul,Loose Ball,1,0,430
+0022600004,641,PT08M34.00S,4,1610612750,MIN,1630228,Kuminga,J. Kuminga,0,0,0,,0,,,0,v,SUB: McDaniels FOR Kuminga,Substitution,,0,0,431
+0022600004,642,PT08M10.00S,4,1610612748,MIA,1631107,Jović,N. Jović,234,19,0,Missed,1,,,0,h,MISS Jovic 3PT Jump Shot,Missed Shot,Jump Shot,1,3,432
+0022600004,643,PT08M10.00S,4,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Unknown,0,0,433
+0022600004,644,PT08M10.00S,4,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Turnover: Shot Clock (T#16),Turnover,Shot Clock Turnover,1,0,434
+0022600004,646,PT08M08.00S,4,1610612748,MIA,1626171,Portis Jr.,B. Portis Jr.,0,0,0,,0,,,0,h,SUB: Adebayo FOR Portis Jr.,Substitution,,0,0,435
+0022600004,648,PT08M08.00S,4,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Lyles FOR Gobert,Substitution,,0,0,436
+0022600004,649,PT07M50.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,-218,163,27,Made,1,85,107,192,v,Edwards 27' 3PT Step Back Jump Shot (39 PTS),Made Shot,Step Back Jump shot,1,3,437
+0022600004,650,PT07M41.00S,4,1610612748,MIA,1631107,Jović,N. Jović,-90,229,25,Missed,1,,,0,h,MISS Jovic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,438
+0022600004,651,PT07M41.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,439
+0022600004,652,PT07M34.00S,4,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. P.FOUL (P2.T3) (N.Buchert),Foul,Personal,1,0,440
+0022600004,654,PT07M34.00S,4,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. T.FOUL (P2.T3) (N.Buchert),Foul,Technical,1,0,441
+0022600004,655,PT07M34.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,85,108,193,v,Edwards Free Throw Technical (40 PTS),Free Throw,Free Throw Technical,1,0,442
+0022600004,658,PT07M34.00S,4,1610612748,MIA,1631107,Jović,N. Jović,0,0,0,,0,,,0,h,SUB: Larsson FOR Jovic,Substitution,,0,0,443
+0022600004,659,PT07M34.00S,4,1610612748,MIA,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,SUB: Wiggins FOR Hardaway Jr.,Substitution,,0,0,444
+0022600004,660,PT07M27.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards Bad Pass Turnover (P4.T15),Turnover,Bad Pass,1,0,445
+0022600004,660,PT07M27.00S,4,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo STEAL (1 STL),,,1,0,446
+0022600004,662,PT07M27.00S,4,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,-8,34,3,Made,1,87,108,195,h,Antetokounmpo 3' Running Layup (35 PTS),Made Shot,Running Layup Shot,1,2,447
+0022600004,663,PT07M27.00S,4,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,v,Dosunmu S.FOUL (P3.T4) (N.Buchert),Foul,Shooting,1,0,448
+0022600004,665,PT07M27.00S,4,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,88,108,196,h,Antetokounmpo Free Throw 1 of 1 (35 PTS),Free Throw,Free Throw 1 of 1,1,0,449
+0022600004,666,PT07M16.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,54,246,25,Missed,1,,,0,v,MISS Edwards 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,450
+0022600004,667,PT07M16.00S,4,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,451
+0022600004,673,PT07M09.00S,4,0,,0,,,0,0,0,,0,88,108,196,,Instant Replay4th Period (9:52 PM EST),Instant Replay,Overturn Ruling,0,0,452
+0022600004,674,PT07M09.00S,4,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo FLAGRANT.FOUL.TYPE1 (P5.T4) (N.Buchert),Foul,Flagrant Type 1,1,0,453
+0022600004,698,PT07M09.00S,4,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo Offensive Foul Turnover (P3.T17),Turnover,Offensive Foul Turnover,0,0,454
+0022600004,677,PT07M09.00S,4,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,0,0,0,,0,88,109,197,v,Shannon Jr Free Throw Flagrant 1 of 2 (7 PTS),Free Throw,Free Throw Flagrant 1 of 2,1,0,455
+0022600004,678,PT07M09.00S,4,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,0,0,0,,0,88,110,198,v,Shannon Jr Free Throw Flagrant 2 of 2 (8 PTS),Free Throw,Free Throw Flagrant 2 of 2,1,0,456
+0022600004,680,PT07M09.00S,4,1610612748,MIA,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Thompson FOR Antetokounmpo,Substitution,,0,0,457
+0022600004,682,PT07M09.00S,4,1610612750,MIN,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,SUB: Gobert FOR Lyles,Substitution,,0,0,458
+0022600004,683,PT07M04.00S,4,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert Out of Bounds - Bad Pass Turnover Turnover (P3.T16),Turnover,Out of Bounds - Bad Pass Turnover,1,0,459
+0022600004,684,PT06M56.00S,4,1610612748,MIA,203952,Wiggins,A. Wiggins,-38,75,8,Made,1,90,110,200,h,Wiggins 8' Driving Floating Jump Shot (11 PTS) (Mitchell 10 AST),Made Shot,Driving Floating Jump Shot,1,2,460
+0022600004,775,PT06M43.00S,4,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,-42,7,4,Missed,1,,,0,v,MISS Dosunmu 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,461
+0022600004,775,PT06M43.00S,4,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,,,0,h,Larsson BLOCK (1 BLK),,,1,2,462
+0022600004,777,PT06M43.00S,4,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,v,Dosunmu REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,463
+0022600004,686,PT06M38.00S,4,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,37,33,5,Made,1,90,112,202,v,Dosunmu 5' Putback Layup (14 PTS),Made Shot,Putback Layup Shot,1,2,464
+0022600004,687,PT06M29.00S,4,1610612748,MIA,1641796,Larsson,P. Larsson,61,82,10,Missed,1,,,0,h,MISS Larsson 10' Driving Layup,Missed Shot,Driving Layup Shot,1,2,465
+0022600004,687,PT06M29.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards BLOCK (1 BLK),,,1,2,466
+0022600004,688,PT06M29.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,467
+0022600004,690,PT06M24.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,2,15,2,Made,1,90,114,204,v,McDaniels 2' Running Dunk (15 PTS) (Edwards 3 AST),Made Shot,Running Dunk Shot,1,2,468
+0022600004,692,PT06M16.00S,4,1610612748,MIA,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson Backcourt Turnover (P2.T18),Turnover,Backcourt Turnover,1,0,469
+0022600004,693,PT06M16.00S,4,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,470
+0022600004,700,PT06M16.00S,4,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,0,0,0,,0,,,0,v,SUB: Ball FOR Shannon Jr,Substitution,,0,0,471
+0022600004,701,PT05M58.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,89,250,27,Missed,1,,,0,v,MISS Edwards 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,472
+0022600004,702,PT05M58.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,473
+0022600004,703,PT05M45.00S,4,1610612750,MIN,1630163,Ball,L. Ball,106,10,11,Missed,1,,,0,v,MISS Ball 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,474
+0022600004,704,PT05M45.00S,4,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,v,Dosunmu REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,475
+0022600004,705,PT05M38.00S,4,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,Made,1,90,116,206,v,Dosunmu Putback Layup (16 PTS),Made Shot,Putback Layup Shot,1,2,476
+0022600004,706,PT05M31.00S,4,1610612748,MIA,1630558,Mitchell,D. Mitchell,11,53,5,Made,1,92,116,208,h,Mitchell 5' Driving Finger Roll Layup (9 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,477
+0022600004,707,PT05M20.00S,4,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo P.FOUL (P2.PN) (N.Buchert),Foul,Personal,1,0,478
+0022600004,709,PT05M20.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,92,117,209,v,Edwards Free Throw 1 of 2 (41 PTS),Free Throw,Free Throw 1 of 2,1,0,479
+0022600004,710,PT05M20.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,92,118,210,v,Edwards Free Throw 2 of 2 (42 PTS),Free Throw,Free Throw 2 of 2,1,0,480
+0022600004,711,PT05M12.00S,4,1610612748,MIA,203952,Wiggins,A. Wiggins,208,151,26,Missed,1,,,0,h,MISS Wiggins 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,481
+0022600004,712,PT05M12.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:10),Rebound,Unknown,1,0,482
+0022600004,713,PT04M53.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,-60,34,7,Missed,1,,,0,v,MISS Edwards 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,483
+0022600004,713,PT04M53.00S,4,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell BLOCK (1 BLK),,,1,2,484
+0022600004,714,PT04M53.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,0,0,485
+0022600004,717,PT04M53.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards T.FOUL (P1.T4) (J.Sterling),Foul,Technical,1,0,486
+0022600004,718,PT04M53.00S,4,1610612748,MIA,202691,Thompson,K. Thompson,0,0,0,,0,93,118,211,h,Thompson Free Throw Technical (7 PTS),Free Throw,Free Throw Technical,1,0,487
+0022600004,719,PT04M46.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,227,39,0,Made,1,93,121,214,v,Edwards 3PT Step Back Jump Shot (45 PTS) (McDaniels 1 AST),Made Shot,Step Back Jump shot,1,3,488
+0022600004,720,PT04M33.00S,4,1610612748,MIA,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins Lost Ball Turnover (P2.T19),Turnover,Lost Ball,1,0,489
+0022600004,720,PT04M33.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards STEAL (2 STL),,,1,0,490
+0022600004,722,PT04M29.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,28,32,4,Made,1,93,123,216,v,McDaniels 4' Running Layup (17 PTS) (Dosunmu 3 AST),Made Shot,Running Layup Shot,1,2,491
+0022600004,724,PT04M28.00S,4,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,492
+0022600004,726,PT04M13.00S,4,1610612748,MIA,202691,Thompson,K. Thompson,-115,224,25,Made,1,96,123,219,h,Thompson 25' 3PT Pullup Jump Shot (10 PTS) (Mitchell 11 AST),Made Shot,Pullup Jump shot,1,3,493
+0022600004,727,PT03M59.00S,4,1610612750,MIN,1630163,Ball,L. Ball,20,58,6,Made,1,96,125,221,v,Ball 6' Driving Floating Jump Shot (21 PTS),Made Shot,Driving Floating Jump Shot,1,2,494
+0022600004,728,PT03M51.00S,4,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball S.FOUL (P4.PN) (N.Buchert),Foul,Shooting,1,0,495
+0022600004,730,PT03M51.00S,4,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,97,125,222,h,Mitchell Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,496
+0022600004,735,PT03M51.00S,4,1610612750,MIN,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,SUB: Shannon Jr FOR Ball,Substitution,,0,0,497
+0022600004,736,PT03M51.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,SUB: Hyland FOR Edwards,Substitution,,0,0,498
+0022600004,731,PT03M51.00S,4,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,98,125,223,h,Mitchell Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,499
+0022600004,737,PT03M35.00S,4,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,25,28,4,Made,1,98,127,225,v,Shannon Jr 4' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,500
+0022600004,738,PT03M19.00S,4,1610612748,MIA,1628389,Adebayo,B. Adebayo,-229,26,0,Missed,1,,,0,h,MISS Adebayo 3PT Jump Shot,Missed Shot,Jump Shot,1,3,501
+0022600004,739,PT03M19.00S,4,1610612750,MIN,1630538,Hyland,B. Hyland,0,0,0,,0,,,0,v,Hyland REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,502
+0022600004,740,PT03M14.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,503
+0022600004,746,PT03M14.00S,4,1610612748,MIA,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,SUB: Richards FOR Thompson,Substitution,,0,0,504
+0022600004,747,PT03M14.00S,4,1610612748,MIA,1641796,Larsson,P. Larsson,0,0,0,,0,,,0,h,SUB: Conwell FOR Larsson,Substitution,,0,0,505
+0022600004,748,PT03M14.00S,4,1610612748,MIA,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,SUB: Gardner FOR Wiggins,Substitution,,0,0,506
+0022600004,749,PT03M14.00S,4,1610612748,MIA,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,SUB: Fontecchio FOR Mitchell,Substitution,,0,0,507
+0022600004,750,PT03M14.00S,4,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,SUB: Jovic FOR Adebayo,Substitution,,0,0,508
+0022600004,754,PT03M14.00S,4,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Beringer FOR Gobert,Substitution,,0,0,509
+0022600004,755,PT03M14.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,SUB: Clark FOR McDaniels,Substitution,,0,0,510
+0022600004,756,PT03M14.00S,4,1610612750,MIN,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,v,SUB: Lyles FOR Dosunmu,Substitution,,0,0,511
+0022600004,757,PT03M03.00S,4,1610612748,MIA,1631107,Jović,N. Jović,0,0,0,,0,,,0,h,Jovic S.FOUL (P3.PN) (N.Buchert),Foul,Shooting,1,0,512
+0022600004,759,PT03M03.00S,4,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,0,0,0,,0,,,0,v,MISS Shannon Jr Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,513
+0022600004,760,PT03M03.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,514
+0022600004,763,PT03M03.00S,4,1610612750,MIN,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,SUB: Williams FOR Lyles,Substitution,,0,0,515
+0022600004,761,PT03M03.00S,4,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,0,0,0,,0,,,0,v,MISS Shannon Jr Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,516
+0022600004,764,PT03M03.00S,4,1610612750,MIN,1642866,Beringer,J. Beringer,0,0,0,,0,,,0,v,Beringer REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,517
+0022600004,765,PT02M55.00S,4,1610612750,MIN,1642866,Beringer,J. Beringer,8,34,3,Missed,1,,,0,v,MISS Beringer 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,518
+0022600004,765,PT02M55.00S,4,1610612748,MIA,1631323,Fontecchio,S. Fontecchio,0,0,0,,0,,,0,h,Fontecchio BLOCK (1 BLK),,,1,2,519
+0022600004,766,PT02M55.00S,4,1610612748,MIA,1642066,Gardner,M. Gardner,0,0,0,,0,,,0,h,Gardner REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,520
+0022600004,768,PT02M39.00S,4,1610612748,MIA,1630208,Richards,N. Richards,22,27,3,Made,1,100,127,227,h,Richards 3' Hook Bank Shot (2 PTS) (Conwell 1 AST),Made Shot,Hook Bank Shot,1,2,521
+0022600004,770,PT02M24.00S,4,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,-5,258,26,Missed,1,,,0,v,MISS Shannon Jr 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,522
+0022600004,771,PT02M24.00S,4,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,0,0,0,,0,,,0,v,Shannon Jr REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,523
+0022600004,772,PT02M19.00S,4,1610612750,MIN,1630538,Hyland,B. Hyland,151,211,26,Missed,1,,,0,v,MISS Hyland 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,524
+0022600004,773,PT02M19.00S,4,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Unknown,0,0,525
+0022600004,779,PT02M19.00S,4,1610612750,MIN,1630545,Shannon Jr,T. Shannon Jr,0,0,0,,0,,,0,v,SUB: Evans FOR Shannon Jr,Substitution,,0,0,526
+0022600004,780,PT01M59.00S,4,1610612748,MIA,1630208,Richards,N. Richards,-45,58,7,Made,1,102,127,229,h,Richards 7' Turnaround Hook Shot (4 PTS) (Conwell 2 AST),Made Shot,Turnaround Hook Shot,1,2,527
+0022600004,781,PT01M50.00S,4,1610612748,MIA,1643553,Conwell,R. Conwell,0,0,0,,0,,,0,h,Conwell S.FOUL (P1.PN) (J.Sterling),Foul,Shooting,1,0,528
+0022600004,783,PT01M50.00S,4,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,MISS Clark Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,529
+0022600004,784,PT01M50.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,530
+0022600004,785,PT01M50.00S,4,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,102,128,230,v,Clark Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,531
+0022600004,786,PT01M37.00S,4,1610612748,MIA,1643553,Conwell,R. Conwell,-226,78,24,Missed,1,,,0,h,MISS Conwell 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,532
+0022600004,787,PT01M37.00S,4,1610612750,MIN,1642912,Evans,I. Evans,0,0,0,,0,,,0,v,Evans REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,533
+0022600004,788,PT01M17.00S,4,1610612750,MIN,1642262,Williams,C. Williams,-199,171,26,Missed,1,,,0,v,MISS Williams 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,534
+0022600004,789,PT01M17.00S,4,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,Clark REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,535
+0022600004,791,PT01M13.00S,4,1610612748,MIA,1642066,Gardner,M. Gardner,0,0,0,,0,,,0,h,Gardner P.FOUL (P1.PN) (N.Buchert),Foul,Personal,1,0,536
+0022600004,793,PT01M13.00S,4,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,MISS Clark Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,537
+0022600004,794,PT01M13.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,538
+0022600004,795,PT01M13.00S,4,1610612750,MIN,1641740,Clark,J. Clark,0,0,0,,0,,,0,v,MISS Clark Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,539
+0022600004,796,PT01M13.00S,4,1610612748,MIA,1630208,Richards,N. Richards,0,0,0,,0,,,0,h,Richards REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,540
+0022600004,797,PT00M53.30S,4,1610612750,MIN,1642912,Evans,I. Evans,0,0,0,,0,,,0,v,Evans S.FOUL (P1.PN) (N.Buchert),Foul,Shooting,1,0,541
+0022600004,799,PT00M53.30S,4,1610612748,MIA,1642066,Gardner,M. Gardner,0,0,0,,0,103,128,231,h,Gardner Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,542
+0022600004,800,PT00M53.30S,4,1610612748,MIA,1642066,Gardner,M. Gardner,0,0,0,,0,104,128,232,h,Gardner Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,543
+0022600004,801,PT00M30.10S,4,1610612750,MIN,1630538,Hyland,B. Hyland,161,195,25,Made,1,104,131,235,v,Hyland 25' 3PT Jump Shot (3 PTS) (Clark 1 AST),Made Shot,Jump Shot,1,3,544
+0022600004,803,PT00M22.20S,4,1610612750,MIN,1630538,Hyland,B. Hyland,0,0,0,,0,,,0,v,Hyland P.FOUL (P1.PN) (J.Sterling),Foul,Personal,1,0,545
+0022600004,805,PT00M22.20S,4,1610612748,MIA,1642066,Gardner,M. Gardner,0,0,0,,0,105,131,236,h,Gardner Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,546
+0022600004,806,PT00M22.20S,4,1610612748,MIA,1642066,Gardner,M. Gardner,0,0,0,,0,106,131,237,h,Gardner Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,547
+0022600004,807,PT00M01.20S,4,1610612750,MIN,1641740,Clark,J. Clark,35,40,5,Missed,1,,,0,v,MISS Clark 5' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,548
+0022600004,808,PT00M01.20S,4,1610612748,MIA,1642066,Gardner,M. Gardner,0,0,0,,0,,,0,h,Gardner REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,549
+0022600004,810,PT00M00.00S,4,0,,0,,,0,0,0,,0,106,131,237,,End of 4th Period (10:19 PM EST),period,end,1,0,550

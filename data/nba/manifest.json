@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-01T11:24:57-08:00",
+ "updated": "2026-11-02T19:43:57-08:00",
  "season": "2026-27",
  "teams": [
   "LAL",
-  "TOR"
+  "MIA"
  ],
  "nba_api": "1.12.0",
  "league": {
@@ -21,7 +21,7 @@
   },
   "league team box scores": {
    "ok": true,
-   "team-games": 176
+   "team-games": 200
   },
   "league results": {
    "ok": true,
@@ -33,98 +33,99 @@
   },
   "league quarter scores, inactive lists and game extras": {
    "ok": true,
-   "new games": 2
+   "new games": 12
   },
   "league team turnovers": {
    "ok": true,
-   "team-games": 176
+   "team-games": 200
   },
   "LAL games": {
    "ok": true,
-   "rows": 6
+   "rows": 8
   },
   "LAL player games": {
    "ok": true,
-   "rows": 62
+   "rows": 74
   },
   "LAL player games advanced": {
    "ok": true,
-   "rows": 62
+   "rows": 74
   },
   "LAL on/off": {
    "ok": true,
-   "rows": 33
+   "rows": 34
   },
   "LAL 5-man lineups": {
    "ok": true,
-   "rows": 69
+   "rows": 75
   },
   "LAL 2-man lineups": {
    "ok": true,
-   "rows": 75
+   "rows": 81
   },
   "LAL shots": {
    "ok": true,
-   "rows": 483
+   "rows": 563
   },
   "LAL shots against": {
    "ok": true,
-   "rows": 511
+   "rows": 616
   },
   "LAL hustle": {
    "ok": true,
-   "rows": 13
-  },
-  "TOR games": {
-   "ok": true,
-   "rows": 5
-  },
-  "TOR player games": {
-   "ok": true,
-   "rows": 63
-  },
-  "TOR player games advanced": {
-   "ok": true,
-   "rows": 63
-  },
-  "TOR on/off": {
-   "ok": true,
-   "rows": 30
-  },
-  "TOR 5-man lineups": {
-   "ok": true,
-   "rows": 76
-  },
-  "TOR 2-man lineups": {
-   "ok": true,
-   "rows": 77
-  },
-  "TOR shots": {
-   "ok": true,
-   "rows": 469
-  },
-  "TOR shots against": {
-   "ok": true,
-   "rows": 395
-  },
-  "TOR hustle": {
-   "ok": true,
    "rows": 14
+  },
+  "MIA games": {
+   "ok": true,
+   "rows": 7
+  },
+  "MIA player games": {
+   "ok": true,
+   "rows": 70
+  },
+  "MIA player games advanced": {
+   "ok": true,
+   "rows": 70
+  },
+  "MIA on/off": {
+   "ok": true,
+   "rows": 31
+  },
+  "MIA 5-man lineups": {
+   "ok": true,
+   "rows": 50
+  },
+  "MIA 2-man lineups": {
+   "ok": true,
+   "rows": 60
+  },
+  "MIA shots": {
+   "ok": true,
+   "rows": 550
+  },
+  "MIA shots against": {
+   "ok": true,
+   "rows": 556
+  },
+  "MIA hustle": {
+   "ok": true,
+   "rows": 13
   },
   "matchups": {
    "ok": true,
-   "new games": 0
+   "new games": 7,
+   "pending": 1
   },
   "play-by-play": {
    "ok": true,
-   "new games": 0
+   "new games": 8
   }
  },
  "checks": [
   "Scores: 68 games in both files, 0 differ; 0 hand-checked games not found on NBA.com by date and teams.",
   "Lakers box scores: 10 team-games compared, 4 numbers differ [('2026-10-21', 'GSW', 'tov', '15', 16), ('2026-10-23', 'LAC', 'tov', '25', 26), ('2026-10-25', 'UTA', 'dreb', '31', 32), ('2026-10-25', 'UTA', 'tov', '19', 17)].",
   "Player points add up to team points in 174 of 176 team-games: [('2026-10-28', 'DAL', 118, 120), ('2026-10-29', 'ATL', 113, 114)].",
-  "Turnovers (players + team) match NBA.com's game totals in 176 of 176 team-games.",
+  "Turnovers (players + team) match NBA.com's game totals in 197 of 200 team-games: [('2026-11-02', 'DAL'), ('2026-11-02', 'SAC'), ('2026-11-02', 'MIL')].",
   "Lakers quarter scores: 10 compared, 0 differ.",
   "Lakers scores checked against results.csv: 5 games, 0 mismatches ",
   "Oct 21 Doncic-Lendeborg rows (ABC7 reported Doncic 1 of 6 against Lendeborg):\n  familyNameOff | familyNameDef | matchupMinutes | partialPossessions | playerPoints | matchupFieldGoalsMade | matchupFieldGoalsAttempted\n  Dončić | Lendeborg | 3:03 | 18.5 | 9 | 1 | 5\n  Lendeborg | Dončić | 2:56 | 14.7 | 2 | 1 | 2"
