@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T21:53:07-08:00",
+ "updated": "2026-11-04T22:00:11-08:00",
  "board_date": "2026-11-04",
  "games": [
   {
@@ -1760,9 +1760,9 @@
    "game_id": "0022600186",
    "tip_utc": "2026-11-05T03:30:00Z",
    "status": 2,
-   "status_text": "Q4 :31.6",
+   "status_text": "Q4 :01.7",
    "period": 4,
-   "clock": "0:32",
+   "clock": "0:02",
    "home": {
     "team": "LAC",
     "score": 106,
@@ -1780,9 +1780,9 @@
      "ftm": 11,
      "fta": 16,
      "oreb": 6,
-     "dreb": 36,
-     "tov": 18,
-     "pf": 23,
+     "dreb": 37,
+     "tov": 19,
+     "pf": 24,
      "ast": 27,
      "stl": 7,
      "blk": 7,
@@ -1792,7 +1792,7 @@
      "pts_off_tov": 13,
      "pts_bench": 32,
      "biggest_lead": 20,
-     "lead_changes": 5
+     "lead_changes": 6
     },
     "leaders": [
      {
@@ -1800,54 +1800,54 @@
       "pts": 20,
       "reb": 9,
       "ast": 7,
-      "min": "31:38"
+      "min": "32:20"
      },
      {
       "name": "Brook Lopez",
       "pts": 20,
       "reb": 7,
       "ast": 0,
-      "min": "28:54"
+      "min": "29:36"
      },
      {
       "name": "Darius Garland",
       "pts": 17,
       "reb": 1,
       "ast": 7,
-      "min": "33:35"
+      "min": "34:18"
      }
     ]
    },
    "away": {
     "team": "MIA",
-    "score": 105,
+    "score": 107,
     "periods": [
      33,
      19,
      26,
-     27
+     29
     ],
     "stats": {
      "fgm": 40,
-     "fga": 86,
+     "fga": 92,
      "fg3m": 8,
-     "fg3a": 33,
-     "ftm": 17,
-     "fta": 22,
-     "oreb": 8,
+     "fg3a": 34,
+     "ftm": 19,
+     "fta": 24,
+     "oreb": 12,
      "dreb": 34,
      "tov": 11,
-     "pf": 16,
+     "pf": 17,
      "ast": 32,
-     "stl": 9,
+     "stl": 10,
      "blk": 5,
      "pts_paint": 52,
-     "pts_second_chance": 12,
+     "pts_second_chance": 14,
      "pts_fast_break": 14,
-     "pts_off_tov": 19,
+     "pts_off_tov": 21,
      "pts_bench": 11,
      "biggest_lead": 9,
-     "lead_changes": 5
+     "lead_changes": 6
     },
     "leaders": [
      {
@@ -1855,21 +1855,21 @@
       "pts": 33,
       "reb": 8,
       "ast": 4,
-      "min": "34:48"
+      "min": "35:30"
+     },
+     {
+      "name": "Giannis Antetokounmpo",
+      "pts": 25,
+      "reb": 13,
+      "ast": 4,
+      "min": "35:29"
      },
      {
       "name": "Klay Thompson",
       "pts": 24,
       "reb": 5,
       "ast": 2,
-      "min": "29:35"
-     },
-     {
-      "name": "Giannis Antetokounmpo",
-      "pts": 23,
-      "reb": 9,
-      "ast": 4,
-      "min": "34:47"
+      "min": "30:17"
      }
     ]
    },
@@ -1897,6 +1897,10 @@
     {
      "t": 47.5,
      "m": 1
+    },
+    {
+     "t": 48.0,
+     "m": -1
     }
    ]
   }
