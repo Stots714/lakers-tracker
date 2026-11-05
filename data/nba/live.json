@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T22:00:11-08:00",
+ "updated": "2026-11-04T22:07:18-08:00",
  "board_date": "2026-11-04",
  "games": [
   {
@@ -1760,25 +1760,26 @@
    "game_id": "0022600186",
    "tip_utc": "2026-11-05T03:30:00Z",
    "status": 2,
-   "status_text": "Q4 :01.7",
-   "period": 4,
-   "clock": "0:02",
+   "status_text": "OT 5:00",
+   "period": 5,
+   "clock": "5:00",
    "home": {
     "team": "LAC",
-    "score": 106,
+    "score": 107,
     "periods": [
      24,
      43,
      20,
-     19
+     20,
+     0
     ],
     "stats": {
      "fgm": 40,
      "fga": 83,
      "fg3m": 15,
      "fg3a": 40,
-     "ftm": 11,
-     "fta": 16,
+     "ftm": 12,
+     "fta": 18,
      "oreb": 6,
      "dreb": 37,
      "tov": 19,
@@ -1797,24 +1798,24 @@
     "leaders": [
      {
       "name": "Rui Hachimura",
-      "pts": 20,
+      "pts": 21,
       "reb": 9,
       "ast": 7,
-      "min": "32:20"
+      "min": "32:19"
      },
      {
       "name": "Brook Lopez",
       "pts": 20,
       "reb": 7,
       "ast": 0,
-      "min": "29:36"
+      "min": "29:38"
      },
      {
       "name": "Darius Garland",
       "pts": 17,
       "reb": 1,
       "ast": 7,
-      "min": "34:18"
+      "min": "34:17"
      }
     ]
    },
@@ -1825,11 +1826,12 @@
      33,
      19,
      26,
-     29
+     29,
+     0
     ],
     "stats": {
      "fgm": 40,
-     "fga": 92,
+     "fga": 93,
      "fg3m": 8,
      "fg3a": 34,
      "ftm": 19,
@@ -1855,21 +1857,21 @@
       "pts": 33,
       "reb": 8,
       "ast": 4,
-      "min": "35:30"
+      "min": "35:32"
      },
      {
       "name": "Giannis Antetokounmpo",
       "pts": 25,
       "reb": 13,
       "ast": 4,
-      "min": "35:29"
+      "min": "35:31"
      },
      {
       "name": "Klay Thompson",
       "pts": 24,
       "reb": 5,
       "ast": 2,
-      "min": "30:17"
+      "min": "30:19"
      }
     ]
    },
@@ -1901,6 +1903,10 @@
     {
      "t": 48.0,
      "m": -1
+    },
+    {
+     "t": 48.0,
+     "m": 0
     }
    ]
   }
