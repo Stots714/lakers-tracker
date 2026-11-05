@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T22:07:18-08:00",
+ "updated": "2026-11-04T22:14:22-08:00",
  "board_date": "2026-11-04",
  "games": [
   {
@@ -1760,31 +1760,31 @@
    "game_id": "0022600186",
    "tip_utc": "2026-11-05T03:30:00Z",
    "status": 2,
-   "status_text": "OT 5:00",
+   "status_text": "OT 2:12",
    "period": 5,
-   "clock": "5:00",
+   "clock": "2:12",
    "home": {
     "team": "LAC",
-    "score": 107,
+    "score": 112,
     "periods": [
      24,
      43,
      20,
      20,
-     0
+     5
     ],
     "stats": {
-     "fgm": 40,
-     "fga": 83,
-     "fg3m": 15,
-     "fg3a": 40,
-     "ftm": 12,
-     "fta": 18,
+     "fgm": 41,
+     "fga": 86,
+     "fg3m": 16,
+     "fg3a": 42,
+     "ftm": 14,
+     "fta": 20,
      "oreb": 6,
-     "dreb": 37,
-     "tov": 19,
-     "pf": 24,
-     "ast": 27,
+     "dreb": 39,
+     "tov": 20,
+     "pf": 25,
+     "ast": 28,
      "stl": 7,
      "blk": 7,
      "pts_paint": 40,
@@ -1793,85 +1793,85 @@
      "pts_off_tov": 13,
      "pts_bench": 32,
      "biggest_lead": 20,
-     "lead_changes": 6
+     "lead_changes": 7
     },
     "leaders": [
+     {
+      "name": "Darius Garland",
+      "pts": 22,
+      "reb": 1,
+      "ast": 7,
+      "min": "37:05"
+     },
      {
       "name": "Rui Hachimura",
       "pts": 21,
       "reb": 9,
       "ast": 7,
-      "min": "32:19"
+      "min": "35:07"
      },
      {
       "name": "Brook Lopez",
       "pts": 20,
       "reb": 7,
-      "ast": 0,
-      "min": "29:38"
-     },
-     {
-      "name": "Darius Garland",
-      "pts": 17,
-      "reb": 1,
-      "ast": 7,
-      "min": "34:17"
+      "ast": 1,
+      "min": "32:26"
      }
     ]
    },
    "away": {
     "team": "MIA",
-    "score": 107,
+    "score": 112,
     "periods": [
      33,
      19,
      26,
      29,
-     0
+     5
     ],
     "stats": {
-     "fgm": 40,
-     "fga": 93,
-     "fg3m": 8,
-     "fg3a": 34,
-     "ftm": 19,
-     "fta": 24,
+     "fgm": 41,
+     "fga": 96,
+     "fg3m": 9,
+     "fg3a": 37,
+     "ftm": 21,
+     "fta": 26,
      "oreb": 12,
-     "dreb": 34,
-     "tov": 11,
-     "pf": 17,
-     "ast": 32,
+     "dreb": 36,
+     "tov": 12,
+     "pf": 18,
+     "ast": 33,
      "stl": 10,
-     "blk": 5,
+     "blk": 6,
      "pts_paint": 52,
      "pts_second_chance": 14,
-     "pts_fast_break": 14,
-     "pts_off_tov": 21,
+     "pts_fast_break": 17,
+     "pts_off_tov": 23,
      "pts_bench": 11,
      "biggest_lead": 9,
-     "lead_changes": 6
+     "lead_changes": 7
     },
     "leaders": [
      {
       "name": "Bam Adebayo",
       "pts": 33,
-      "reb": 8,
+      "reb": 9,
       "ast": 4,
-      "min": "35:32"
+      "min": "38:20"
      },
      {
       "name": "Giannis Antetokounmpo",
-      "pts": 25,
+      "pts": 27,
       "reb": 13,
-      "ast": 4,
-      "min": "35:31"
+      "ast": 5,
+      "min": "38:19"
      },
      {
       "name": "Klay Thompson",
-      "pts": 24,
+      "pts": 27,
       "reb": 5,
       "ast": 2,
-      "min": "30:19"
+      "min": "33:07"
      }
     ]
    },
@@ -1906,6 +1906,10 @@
     },
     {
      "t": 48.0,
+     "m": 0
+    },
+    {
+     "t": 50.8,
      "m": 0
     }
    ]
