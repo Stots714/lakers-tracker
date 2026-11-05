@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T21:38:54-08:00",
+ "updated": "2026-11-04T21:46:01-08:00",
  "board_date": "2026-11-04",
  "games": [
   {
@@ -1619,35 +1619,35 @@
   {
    "game_id": "0022600185",
    "tip_utc": "2026-11-05T03:00:00Z",
-   "status": 2,
-   "status_text": "Q4 :36.9",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "0:37",
+   "clock": "0:00",
    "home": {
     "team": "SAC",
-    "score": 101,
+    "score": 103,
     "periods": [
      28,
      26,
      20,
-     27
+     29
     ],
     "stats": {
-     "fgm": 34,
-     "fga": 88,
+     "fgm": 35,
+     "fga": 90,
      "fg3m": 12,
      "fg3a": 38,
      "ftm": 21,
      "fta": 28,
-     "oreb": 14,
-     "dreb": 30,
+     "oreb": 15,
+     "dreb": 31,
      "tov": 18,
      "pf": 24,
      "ast": 23,
      "stl": 6,
      "blk": 4,
-     "pts_paint": 38,
-     "pts_second_chance": 19,
+     "pts_paint": 40,
+     "pts_second_chance": 21,
      "pts_fast_break": 11,
      "pts_off_tov": 8,
      "pts_bench": 23,
@@ -1660,21 +1660,21 @@
       "pts": 22,
       "reb": 3,
       "ast": 12,
-      "min": "41:48"
+      "min": "42:28"
      },
      {
       "name": "Zach LaVine",
       "pts": 21,
-      "reb": 3,
+      "reb": 4,
       "ast": 1,
-      "min": "34:06"
+      "min": "34:46"
      },
      {
-      "name": "De'Andre Hunter",
-      "pts": 14,
-      "reb": 2,
-      "ast": 2,
-      "min": "37:11"
+      "name": "Domantas Sabonis",
+      "pts": 16,
+      "reb": 17,
+      "ast": 1,
+      "min": "35:15"
      }
     ]
    },
@@ -1689,9 +1689,9 @@
     ],
     "stats": {
      "fgm": 35,
-     "fga": 77,
+     "fga": 78,
      "fg3m": 12,
-     "fg3a": 37,
+     "fg3a": 38,
      "ftm": 34,
      "fta": 38,
      "oreb": 10,
@@ -1700,7 +1700,7 @@
      "pf": 23,
      "ast": 20,
      "stl": 11,
-     "blk": 12,
+     "blk": 13,
      "pts_paint": 34,
      "pts_second_chance": 17,
      "pts_fast_break": 21,
@@ -1749,6 +1749,10 @@
     {
      "t": 47.4,
      "m": -15
+    },
+    {
+     "t": 48.0,
+     "m": -13
     }
    ]
   },
@@ -1756,33 +1760,33 @@
    "game_id": "0022600186",
    "tip_utc": "2026-11-05T03:30:00Z",
    "status": 2,
-   "status_text": "Q4 6:15",
+   "status_text": "Q4 3:14",
    "period": 4,
-   "clock": "6:15",
+   "clock": "3:14",
    "home": {
     "team": "LAC",
-    "score": 96,
+    "score": 101,
     "periods": [
      24,
      43,
      20,
-     9
+     14
     ],
     "stats": {
-     "fgm": 36,
-     "fga": 74,
+     "fgm": 38,
+     "fga": 79,
      "fg3m": 14,
-     "fg3a": 37,
-     "ftm": 10,
-     "fta": 15,
+     "fg3a": 38,
+     "ftm": 11,
+     "fta": 16,
      "oreb": 6,
-     "dreb": 32,
-     "tov": 13,
-     "pf": 20,
+     "dreb": 34,
+     "tov": 16,
+     "pf": 22,
      "ast": 25,
-     "stl": 6,
+     "stl": 7,
      "blk": 6,
-     "pts_paint": 36,
+     "pts_paint": 38,
      "pts_second_chance": 4,
      "pts_fast_break": 17,
      "pts_off_tov": 13,
@@ -1792,80 +1796,80 @@
     },
     "leaders": [
      {
+      "name": "Rui Hachimura",
+      "pts": 20,
+      "reb": 7,
+      "ast": 7,
+      "min": "29:08"
+     },
+     {
       "name": "Brook Lopez",
       "pts": 20,
       "reb": 7,
       "ast": 0,
-      "min": "23:21"
-     },
-     {
-      "name": "Rui Hachimura",
-      "pts": 17,
-      "reb": 5,
-      "ast": 7,
-      "min": "26:05"
+      "min": "26:24"
      },
      {
       "name": "Derrick Jones Jr.",
       "pts": 12,
       "reb": 6,
       "ast": 1,
-      "min": "27:45"
+      "min": "30:48"
      }
     ]
    },
    "away": {
     "team": "MIA",
-    "score": 89,
+    "score": 99,
     "periods": [
      33,
      19,
      26,
-     11
+     21
     ],
     "stats": {
-     "fgm": 34,
-     "fga": 76,
+     "fgm": 38,
+     "fga": 82,
      "fg3m": 8,
-     "fg3a": 30,
-     "ftm": 13,
-     "fta": 17,
+     "fg3a": 31,
+     "ftm": 15,
+     "fta": 19,
      "oreb": 8,
-     "dreb": 30,
-     "tov": 10,
-     "pf": 13,
-     "ast": 26,
-     "stl": 6,
-     "blk": 4,
-     "pts_paint": 42,
+     "dreb": 33,
+     "tov": 11,
+     "pf": 14,
+     "ast": 30,
+     "stl": 9,
+     "blk": 5,
+     "pts_paint": 48,
      "pts_second_chance": 12,
-     "pts_fast_break": 5,
-     "pts_off_tov": 14,
-     "pts_bench": 9,
+     "pts_fast_break": 13,
+     "pts_off_tov": 18,
+     "pts_bench": 11,
      "biggest_lead": 9,
      "lead_changes": 3
     },
     "leaders": [
      {
       "name": "Bam Adebayo",
-      "pts": 27,
-      "reb": 6,
+      "pts": 31,
+      "reb": 7,
       "ast": 4,
-      "min": "29:15"
+      "min": "32:18"
+     },
+     {
+      "name": "Klay Thompson",
+      "pts": 24,
+      "reb": 5,
+      "ast": 1,
+      "min": "27:05"
      },
      {
       "name": "Giannis Antetokounmpo",
       "pts": 22,
-      "reb": 7,
-      "ast": 1,
-      "min": "30:27"
-     },
-     {
-      "name": "Klay Thompson",
-      "pts": 22,
-      "reb": 5,
-      "ast": 1,
-      "min": "24:02"
+      "reb": 9,
+      "ast": 4,
+      "min": "32:17"
      }
     ]
    },
@@ -1885,6 +1889,10 @@
     {
      "t": 41.8,
      "m": 7
+    },
+    {
+     "t": 44.8,
+     "m": 2
     }
    ]
   }
