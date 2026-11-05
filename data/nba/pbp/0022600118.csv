@@ -1,0 +1,539 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600118,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (9:11 PM EST),period,start,1,0,1
+0022600118,4,PT12M00.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Jump Ball Sabonis vs. Stewart: Tip to Achiuwa,Jump Ball,,1,0,2
+0022600118,8,PT11M43.00S,1,1610612758,SAC,203897,LaVine,Z. LaVine,138,-50,15,Made,1,2,0,2,h,LaVine 15' Layup (2 PTS) (Acuff Jr. 1 AST),Made Shot,Layup Shot,1,2,3
+0022600118,10,PT11M30.00S,1,1610612763,MEM,1630191,Stewart,I. Stewart,169,203,26,Missed,1,,,0,v,MISS Stewart 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,4
+0022600118,11,PT11M30.00S,1,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,5
+0022600118,12,PT11M28.00S,1,1610612763,MEM,1629660,Jerome,T. Jerome,-105,239,26,Missed,1,,,0,v,MISS Jerome 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,6
+0022600118,13,PT11M28.00S,1,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,7
+0022600118,812,PT11M23.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,100,225,25,Missed,1,,,0,v,MISS Boozer 25' 3PT Jump Shot,Missed Shot,Jump Shot,0,3,8
+0022600118,813,PT11M23.00S,1,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells REBOUND (Off:1 Def:0),Rebound,Unknown,0,0,9
+0022600118,14,PT11M15.00S,1,1610612763,MEM,1642377,Wells,J. Wells,-30,38,5,Made,1,2,2,4,v,Wells 5' Layup (2 PTS),Made Shot,Layup Shot,1,2,10
+0022600118,16,PT10M56.00S,1,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome P.FOUL (P1.T2) (M.Ervin),Foul,Personal,1,0,11
+0022600118,18,PT10M56.00S,1,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart S.FOUL (P1.T2) (M.Ervin),Foul,Shooting,1,0,12
+0022600118,20,PT10M56.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,3,2,5,h,Sabonis Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,13
+0022600118,21,PT10M56.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,MISS Sabonis Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,14
+0022600118,22,PT10M56.00S,1,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0022600118,23,PT10M40.00S,1,1610612763,MEM,1642907,Coward,C. Coward,-137,235,27,Made,1,3,5,8,v,Coward 27' 3PT Jump Shot (3 PTS) (Boozer 1 AST),Made Shot,Jump Shot,1,3,16
+0022600118,25,PT10M33.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,-50,33,6,Missed,1,,,0,h,MISS Achiuwa 6' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,17
+0022600118,26,PT10M33.00S,1,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,18
+0022600118,27,PT10M23.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,h,Hunter P.FOUL (P1.T1) (E.Scott),Foul,Personal,1,0,19
+0022600118,29,PT10M14.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,189,184,26,Made,1,3,8,11,v,Boozer 26' 3PT Jump Shot (3 PTS) (Jerome 1 AST),Made Shot,Jump Shot,1,3,20
+0022600118,31,PT10M02.00S,1,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells S.FOUL (P1.T3) (J.Butler),Foul,Shooting,1,0,21
+0022600118,33,PT10M02.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,4,8,12,h,Acuff Jr. Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,22
+0022600118,34,PT10M02.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,5,8,13,h,Acuff Jr. Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,23
+0022600118,35,PT09M47.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,-57,48,7,Missed,1,,,0,v,MISS Boozer 7' Layup,Missed Shot,Layup Shot,1,2,24
+0022600118,35,PT09M47.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa BLOCK (1 BLK),,,1,2,25
+0022600118,36,PT09M47.00S,1,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,0,0,26
+0022600118,39,PT09M47.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Jump Ball Achiuwa vs. Boozer: Tip to Coward,Jump Ball,,1,0,27
+0022600118,42,PT09M36.00S,1,1610612763,MEM,1642377,Wells,J. Wells,240,20,24,Made,1,5,11,16,v,Wells 24' 3PT Jump Shot (5 PTS) (Stewart 1 AST),Made Shot,Jump Shot,1,3,28
+0022600118,44,PT09M24.00S,1,1610612758,SAC,203897,LaVine,Z. LaVine,11,266,27,Missed,1,,,0,h,MISS LaVine 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,29
+0022600118,45,PT09M24.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,30
+0022600118,46,PT09M13.00S,1,1610612763,MEM,1629660,Jerome,T. Jerome,-231,-5,0,Missed,1,,,0,v,MISS Jerome 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,31
+0022600118,47,PT09M13.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,h,Hunter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,32
+0022600118,48,PT09M06.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,52,35,6,Missed,1,,,0,h,MISS Hunter 6' Running Layup,Missed Shot,Running Layup Shot,1,2,33
+0022600118,49,PT09M06.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,34
+0022600118,50,PT09M02.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,12,40,4,Made,1,7,11,18,h,Sabonis 4' Putback Layup (3 PTS),Made Shot,Putback Layup Shot,1,2,35
+0022600118,51,PT08M43.00S,1,1610612763,MEM,1642907,Coward,C. Coward,6,56,6,Made,1,7,13,20,v,Coward 6' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,36
+0022600118,52,PT08M28.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,-35,34,5,Missed,1,,,0,h,MISS Achiuwa 5' Layup,Missed Shot,Layup Shot,1,2,37
+0022600118,52,PT08M28.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer BLOCK (1 BLK),,,1,2,38
+0022600118,53,PT08M28.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,39
+0022600118,55,PT08M20.00S,1,1610612758,SAC,203897,LaVine,Z. LaVine,-22,29,4,Made,1,9,13,22,h,LaVine 4' Driving Reverse Layup (4 PTS),Made Shot,Driving Reverse Layup Shot,1,2,40
+0022600118,56,PT08M04.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,5,274,27,Missed,1,,,0,v,MISS Boozer 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,41
+0022600118,57,PT08M04.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,h,Acuff Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,42
+0022600118,58,PT07M54.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,136,119,18,Made,1,11,13,24,h,Acuff Jr. 18' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,43
+0022600118,59,PT07M34.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,-24,61,7,Missed,1,,,0,v,MISS Boozer 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,44
+0022600118,60,PT07M34.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,45
+0022600118,75,PT07M25.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,h,Hunter Step Out of Bounds Turnover (P1.T1),Turnover,Step Out of Bounds Turnover,1,0,46
+0022600118,65,PT07M25.00S,1,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,SUB: Sharp FOR LaVine,Substitution,,0,0,47
+0022600118,69,PT07M25.00S,1,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,SUB: Hendricks FOR Coward,Substitution,,0,0,48
+0022600118,70,PT07M25.00S,1,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,SUB: Spencer FOR Jerome,Substitution,,0,0,49
+0022600118,71,PT07M25.00S,1,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,SUB: Jackson FOR Stewart,Substitution,,0,0,50
+0022600118,72,PT07M25.00S,1,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Violation: Delay of game Violation,Violation,Delay Of Game,0,0,51
+0022600118,73,PT07M25.00S,1,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,52
+0022600118,748,PT07M25.00S,1,0,,0,,,0,0,0,,0,11,13,24,,Instant Replay1st Period (9:19 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,53
+0022600118,77,PT06M56.00S,1,1610612763,MEM,1642285,Spencer,C. Spencer,125,160,20,Made,1,11,15,26,v,Spencer 20' Pullup Jump Shot (2 PTS) (Wells 1 AST),Made Shot,Pullup Jump shot,1,2,54
+0022600118,79,PT06M46.00S,1,1610612758,SAC,1643567,Sharp,E. Sharp,5,77,8,Missed,1,,,0,h,MISS Sharp 8' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,55
+0022600118,80,PT06M46.00S,1,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,56
+0022600118,81,PT06M32.00S,1,1610612763,MEM,1641707,Hendricks,T. Hendricks,-174,188,26,Missed,1,,,0,v,MISS Hendricks 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,57
+0022600118,82,PT06M32.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,58
+0022600118,83,PT06M17.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,58,47,7,Missed,1,,,0,h,MISS Acuff Jr. 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,59
+0022600118,84,PT06M17.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,60
+0022600118,85,PT06M15.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,21,45,5,Missed,1,,,0,h,MISS Sabonis 5' Putback Layup,Missed Shot,Putback Layup Shot,1,2,61
+0022600118,86,PT06M15.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,62
+0022600118,87,PT06M11.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,Made,1,13,15,28,h,Sabonis Layup (5 PTS),Made Shot,Layup Shot,1,2,63
+0022600118,88,PT06M01.00S,1,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,h,Sharp P.FOUL (P1.T2) (J.Butler),Foul,Personal,1,0,64
+0022600118,90,PT05M57.00S,1,1610612763,MEM,1642285,Spencer,C. Spencer,57,150,16,Made,1,13,17,30,v,Spencer 16' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,65
+0022600118,91,PT05M42.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis Out of Bounds Lost Ball Turnover (P1.T2),Turnover,Out of Bounds Lost Ball Turnover,1,0,66
+0022600118,93,PT05M42.00S,1,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,SUB: Coward FOR Wells,Substitution,,0,0,67
+0022600118,94,PT05M29.00S,1,1610612763,MEM,1642907,Coward,C. Coward,33,70,8,Missed,1,,,0,v,MISS Coward 8' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,68
+0022600118,94,PT05M29.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,h,Acuff Jr. BLOCK (1 BLK),,,1,2,69
+0022600118,95,PT05M29.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,70
+0022600118,99,PT05M24.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,h,SUB: Plowden FOR Hunter,Substitution,,0,0,71
+0022600118,100,PT05M11.00S,1,1610612758,SAC,1643567,Sharp,E. Sharp,152,224,27,Made,1,16,17,33,h,Sharp 27' 3PT Jump Shot (3 PTS) (Acuff Jr. 2 AST),Made Shot,Jump Shot,1,3,72
+0022600118,102,PT05M02.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,h,Acuff Jr. P.FOUL (P1.T3) (E.Scott),Foul,Personal,1,0,73
+0022600118,104,PT04M58.00S,1,1610612763,MEM,1641707,Hendricks,T. Hendricks,42,260,26,Missed,1,,,0,v,MISS Hendricks 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,74
+0022600118,105,PT04M58.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,75
+0022600118,106,PT04M40.00S,1,1610612758,SAC,1631342,Plowden,D. Plowden,-177,193,26,Missed,1,,,0,h,MISS Plowden 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,76
+0022600118,107,PT04M40.00S,1,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,77
+0022600118,108,PT04M28.00S,1,1610612763,MEM,1642285,Spencer,C. Spencer,2,110,11,Missed,1,,,0,v,MISS Spencer 11' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,78
+0022600118,109,PT04M28.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,79
+0022600118,110,PT04M20.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,116,234,26,Made,1,19,17,36,h,Acuff Jr. 26' 3PT Running Pull-Up Jump Shot (7 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,80
+0022600118,111,PT04M07.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,153,222,27,Missed,1,,,0,v,MISS Boozer 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,81
+0022600118,112,PT04M07.00S,1,1610612758,SAC,1631342,Plowden,D. Plowden,0,0,0,,0,,,0,h,Plowden REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,82
+0022600118,113,PT03M51.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,21,30,4,Made,1,21,17,38,h,Achiuwa 4' Driving Reverse Layup (2 PTS) (Acuff Jr. 3 AST),Made Shot,Driving Reverse Layup Shot,1,2,83
+0022600118,115,PT03M51.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer S.FOUL (P1.T4) (E.Scott),Foul,Shooting,1,0,84
+0022600118,120,PT03M51.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,h,SUB: Monk FOR Acuff Jr.,Substitution,,0,0,85
+0022600118,121,PT03M51.00S,1,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,h,SUB: LaVine FOR Sharp,Substitution,,0,0,86
+0022600118,125,PT03M51.00S,1,1610612763,MEM,1641707,Hendricks,T. Hendricks,0,0,0,,0,,,0,v,SUB: Grant FOR Hendricks,Substitution,,0,0,87
+0022600118,126,PT03M51.00S,1,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,SUB: Post FOR Jackson,Substitution,,0,0,88
+0022600118,127,PT03M51.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,SUB: Pippen Jr. FOR Boozer,Substitution,,0,0,89
+0022600118,117,PT03M51.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,MISS Achiuwa Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,90
+0022600118,128,PT03M51.00S,1,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,91
+0022600118,129,PT03M37.00S,1,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,Spencer Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,92
+0022600118,129,PT03M37.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis STEAL (1 STL),,,1,0,93
+0022600118,133,PT03M34.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,SUB: Mogbo FOR Achiuwa,Substitution,,0,0,94
+0022600118,134,PT03M21.00S,1,1610612758,SAC,1628370,Monk,M. Monk,-17,267,27,Missed,1,,,0,h,MISS Monk 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,95
+0022600118,135,PT03M21.00S,1,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,,,0,v,Post REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,96
+0022600118,136,PT03M14.00S,1,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,-3,257,26,Missed,1,,,0,v,MISS Pippen Jr. 26' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,97
+0022600118,137,PT03M14.00S,1,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,Spencer REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,98
+0022600118,138,PT03M02.00S,1,1610612763,MEM,1642366,Post,Q. Post,-5,262,26,Missed,1,,,0,v,MISS Post 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,99
+0022600118,139,PT03M02.00S,1,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,Spencer REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,100
+0022600118,140,PT02M52.00S,1,1610612763,MEM,1642366,Post,Q. Post,-33,42,5,Made,1,21,19,40,v,Post 5' Cutting Layup Shot (2 PTS) (Grant 1 AST),Made Shot,Cutting Layup Shot,1,2,101
+0022600118,142,PT02M52.00S,1,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,102
+0022600118,814,PT02M35.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-28,17,3,Missed,1,,,0,h,MISS Sabonis 3' Layup,Missed Shot,Layup Shot,0,2,103
+0022600118,814,PT02M35.00S,1,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant BLOCK (1 BLK),,,0,2,104
+0022600118,816,PT02M35.00S,1,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant REBOUND (Off:0 Def:2),Rebound,Unknown,0,0,105
+0022600118,145,PT02M28.00S,1,1610612763,MEM,1642907,Coward,C. Coward,-4,38,4,Missed,1,,,0,v,MISS Coward 4' Running Layup,Missed Shot,Running Layup Shot,1,2,106
+0022600118,146,PT02M28.00S,1,1610612758,SAC,1642367,Mogbo,J. Mogbo,0,0,0,,0,,,0,h,Mogbo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,107
+0022600118,147,PT02M22.00S,1,1610612758,SAC,203897,LaVine,Z. LaVine,-35,20,4,Missed,1,,,0,h,MISS LaVine 4' Running Layup,Missed Shot,Running Layup Shot,1,2,108
+0022600118,148,PT02M22.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,109
+0022600118,149,PT02M18.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-39,23,5,Made,1,23,19,42,h,Sabonis 5' Putback Layup (7 PTS),Made Shot,Putback Layup Shot,1,2,110
+0022600118,150,PT02M03.00S,1,1610612763,MEM,1642907,Coward,C. Coward,-79,248,26,Made,1,23,22,45,v,Coward 26' 3PT Jump Shot (8 PTS) (Grant 2 AST),Made Shot,Jump Shot,1,3,111
+0022600118,152,PT01M51.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-41,29,5,Made,1,25,22,47,h,Sabonis 5' Cutting Layup Shot (10 PTS) (Monk 1 AST),Made Shot,Cutting Layup Shot,1,2,112
+0022600118,154,PT01M51.00S,1,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,,,0,v,Post S.FOUL (P1.PN) (M.Ervin),Foul,Shooting,1,0,113
+0022600118,158,PT01M51.00S,1,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,SUB: Wells FOR Coward,Substitution,,0,0,114
+0022600118,159,PT01M51.00S,1,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,SUB: Jerome FOR Spencer,Substitution,,0,0,115
+0022600118,160,PT01M51.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,26,22,48,h,Sabonis Free Throw 1 of 1 (10 PTS),Free Throw,Free Throw 1 of 1,1,0,116
+0022600118,161,PT01M35.00S,1,1610612763,MEM,1642366,Post,Q. Post,7,265,27,Missed,1,,,0,v,MISS Post 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,117
+0022600118,162,PT01M35.00S,1,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,118
+0022600118,163,PT01M28.00S,1,1610612763,MEM,203924,Grant,J. Grant,-137,230,27,Missed,1,,,0,v,MISS Grant 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,119
+0022600118,164,PT01M28.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,120
+0022600118,165,PT01M11.00S,1,1610612758,SAC,1631342,Plowden,D. Plowden,-237,-3,24,Missed,1,,,0,h,MISS Plowden 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,121
+0022600118,166,PT01M11.00S,1,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,122
+0022600118,167,PT00M59.70S,1,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome Out of Bounds - Bad Pass Turnover Turnover (P1.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,123
+0022600118,168,PT00M45.60S,1,1610612758,SAC,1628370,Monk,M. Monk,6,42,4,Made,1,28,22,50,h,Monk 4' Driving Layup (2 PTS) (LaVine 1 AST),Made Shot,Driving Layup Shot,1,2,124
+0022600118,170,PT00M28.40S,1,1610612763,MEM,1642377,Wells,J. Wells,-162,176,24,Made,1,28,25,53,v,Wells 24' 3PT Jump Shot (8 PTS) (Pippen Jr. 1 AST),Made Shot,Jump Shot,1,3,125
+0022600118,172,PT00M03.60S,1,1610612758,SAC,203897,LaVine,Z. LaVine,-239,24,24,Missed,1,,,0,h,MISS LaVine 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,126
+0022600118,172,PT00M03.60S,1,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant BLOCK (2 BLK),,,1,3,127
+0022600118,173,PT00M03.60S,1,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,128
+0022600118,176,PT00M00.00S,1,0,,0,,,0,0,0,,0,,,0,v,GRIZZLIES Heave,Heave,Team Field Goal Attempt,0,0,129
+0022600118,177,PT00M00.00S,1,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,1,0,130
+0022600118,178,PT00M00.00S,1,0,,0,,,0,0,0,,0,28,25,53,,End of 1st Period (9:36 PM EST),period,end,1,0,131
+0022600118,181,PT12M00.00S,2,0,,0,,,0,0,0,,0,28,25,53,,Start of 2nd Period (9:39 PM EST),period,start,1,0,132
+0022600118,182,PT11M45.00S,2,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,133
+0022600118,182,PT11M45.00S,2,1610612758,SAC,1642367,Mogbo,J. Mogbo,0,0,0,,0,,,0,h,Mogbo STEAL (1 STL),,,1,0,134
+0022600118,184,PT11M39.00S,2,1610612758,SAC,1642367,Mogbo,J. Mogbo,0,0,0,,0,,,0,h,Mogbo Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,135
+0022600118,184,PT11M39.00S,2,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells STEAL (1 STL),,,1,0,136
+0022600118,186,PT11M35.00S,2,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,Monk S.FOUL (P1.T1) (J.Butler),Foul,Shooting,1,0,137
+0022600118,188,PT11M35.00S,2,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,28,26,54,v,Wells Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,138
+0022600118,189,PT11M35.00S,2,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,28,27,55,v,Wells Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,139
+0022600118,190,PT11M24.00S,2,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells P.FOUL (P2.T1) (M.Ervin),Foul,Personal,1,0,140
+0022600118,192,PT11M18.00S,2,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,37,40,5,Missed,1,,,0,h,MISS Achiuwa 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,141
+0022600118,193,PT11M18.00S,2,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,142
+0022600118,194,PT11M15.00S,2,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,Missed,1,,,0,h,MISS Achiuwa Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,143
+0022600118,195,PT11M15.00S,2,1610612758,SAC,1642367,Mogbo,J. Mogbo,0,0,0,,0,,,0,h,Mogbo REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,144
+0022600118,196,PT11M10.00S,2,1610612758,SAC,1631342,Plowden,D. Plowden,236,13,24,Made,1,31,27,58,h,Plowden 24' 3PT Jump Shot (3 PTS) (Mogbo 1 AST),Made Shot,Jump Shot,1,3,145
+0022600118,198,PT10M54.00S,2,1610612763,MEM,203924,Grant,J. Grant,-219,126,25,Made,1,31,30,61,v,Grant 25' 3PT Jump Shot (3 PTS) (Post 1 AST),Made Shot,Jump Shot,1,3,146
+0022600118,200,PT10M38.00S,2,1610612758,SAC,1628370,Monk,M. Monk,29,41,5,Made,1,33,30,63,h,Monk 5' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,147
+0022600118,201,PT10M24.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,-17,57,6,Made,1,33,32,65,v,Jerome 6' Driving Layup (2 PTS) (Wells 2 AST),Made Shot,Driving Layup Shot,1,2,148
+0022600118,203,PT10M11.00S,2,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,Monk Out of Bounds - Bad Pass Turnover Turnover (P1.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,149
+0022600118,204,PT09M59.00S,2,1610612758,SAC,1631342,Plowden,D. Plowden,0,0,0,,0,,,0,h,Plowden S.FOUL (P1.T2) (E.Scott),Foul,Shooting,1,0,150
+0022600118,206,PT09M59.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,33,33,66,v,Jerome Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,151
+0022600118,209,PT09M59.00S,2,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,SUB: Acuff Jr. FOR Monk,Substitution,,0,0,152
+0022600118,211,PT09M59.00S,2,1610612758,SAC,1642367,Mogbo,J. Mogbo,0,0,0,,0,,,0,h,SUB: Hunter FOR Mogbo,Substitution,,0,0,153
+0022600118,207,PT09M59.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,33,34,67,v,Jerome Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,154
+0022600118,212,PT09M43.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,-9,268,27,Missed,1,,,0,h,MISS LaVine 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,155
+0022600118,213,PT09M43.00S,2,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,156
+0022600118,214,PT09M35.00S,2,1610612763,MEM,203924,Grant,J. Grant,14,46,5,Made,1,33,36,69,v,Grant 5' Running Layup (5 PTS),Made Shot,Running Layup Shot,1,2,157
+0022600118,215,PT09M35.00S,2,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,158
+0022600118,216,PT09M21.00S,2,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,h,Hunter Traveling Turnover (P2.T5),Turnover,Traveling,1,0,159
+0022600118,217,PT09M02.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,-32,64,7,Missed,1,,,0,v,MISS Jerome 7' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,160
+0022600118,218,PT09M02.00S,2,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,,,0,v,Post REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,161
+0022600118,219,PT08M58.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,-32,38,5,Missed,1,,,0,v,MISS Jerome 5' Jump Shot,Missed Shot,Jump Shot,1,2,162
+0022600118,220,PT08M58.00S,2,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,h,Hunter REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,163
+0022600118,221,PT08M47.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,h,Acuff Jr. Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,164
+0022600118,221,PT08M47.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome STEAL (1 STL),,,1,0,165
+0022600118,223,PT08M42.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,-28,39,5,Made,1,33,38,71,v,Jerome 5' Running Layup (6 PTS),Made Shot,Running Layup Shot,1,2,166
+0022600118,224,PT08M22.00S,2,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,-50,48,7,Missed,1,,,0,h,MISS Achiuwa 7' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,167
+0022600118,225,PT08M22.00S,2,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,,,0,v,Post REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,168
+0022600118,226,PT08M14.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,76,243,25,Missed,1,,,0,v,MISS Jerome 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,169
+0022600118,227,PT08M14.00S,2,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,170
+0022600118,228,PT08M08.00S,2,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,225,1,0,Made,1,33,41,74,v,Pippen Jr. 3PT Jump Shot (3 PTS) (Jerome 2 AST),Made Shot,Jump Shot,1,3,171
+0022600118,230,PT08M04.00S,2,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,172
+0022600118,232,PT08M04.00S,2,1610612758,SAC,1631342,Plowden,D. Plowden,0,0,0,,0,,,0,h,SUB: Sabonis FOR Plowden,Substitution,,0,0,173
+0022600118,234,PT08M04.00S,2,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,SUB: Boozer FOR Wells,Substitution,,0,0,174
+0022600118,235,PT07M45.00S,2,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant P.FOUL (P1.T2) (M.Ervin),Foul,Personal,1,0,175
+0022600118,237,PT07M35.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,116,119,17,Made,1,35,41,76,h,LaVine 17' Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,2,176
+0022600118,238,PT07M28.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis S.FOUL (P1.T3) (M.Ervin),Foul,Shooting,1,0,177
+0022600118,240,PT07M28.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,35,42,77,v,Jerome Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,178
+0022600118,243,PT07M28.00S,2,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,,,0,v,SUB: Stewart FOR Post,Substitution,,0,0,179
+0022600118,241,PT07M28.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,35,43,78,v,Jerome Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,180
+0022600118,244,PT07M16.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,74,64,10,Made,1,37,43,80,h,Acuff Jr. 10' Driving Finger Roll Layup (9 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,181
+0022600118,245,PT07M06.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,-76,245,26,Missed,1,,,0,v,MISS Jerome 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,182
+0022600118,246,PT07M06.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,183
+0022600118,247,PT06M55.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,-52,41,7,Missed,1,,,0,h,MISS LaVine 7' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,184
+0022600118,248,PT06M55.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,185
+0022600118,249,PT06M51.00S,2,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,35,36,5,Made,1,37,45,82,v,Pippen Jr. 5' Running Layup (5 PTS) (Jerome 3 AST),Made Shot,Running Layup Shot,1,2,186
+0022600118,251,PT06M31.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,-223,116,25,Made,1,40,45,85,h,LaVine 25' 3PT Step Back Jump Shot (9 PTS),Made Shot,Step Back Jump shot,1,3,187
+0022600118,252,PT06M21.00S,2,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,Pippen Jr. Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,188
+0022600118,252,PT06M21.00S,2,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa STEAL (1 STL),,,1,0,189
+0022600118,254,PT06M16.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,-1,40,4,Missed,1,,,0,h,MISS LaVine 4' Running Layup,Missed Shot,Running Layup Shot,1,2,190
+0022600118,254,PT06M16.00S,2,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart BLOCK (1 BLK),,,1,2,191
+0022600118,255,PT06M16.00S,2,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,h,Hunter REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,192
+0022600118,257,PT06M07.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,118,258,28,Missed,1,,,0,h,MISS Acuff Jr. 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,193
+0022600118,258,PT06M07.00S,2,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,194
+0022600118,259,PT05M50.00S,2,1610612763,MEM,1643409,Boozer,C. Boozer,89,243,26,Made,1,40,48,88,v,Boozer 26' 3PT Jump Shot (6 PTS) (Pippen Jr. 2 AST),Made Shot,Jump Shot,1,3,195
+0022600118,261,PT05M45.00S,2,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant S.FOUL (P2.T3) (E.Scott),Foul,Shooting,1,0,196
+0022600118,263,PT05M45.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,41,48,89,h,LaVine Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,197
+0022600118,268,PT05M45.00S,2,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,SUB: Spencer FOR Grant,Substitution,,0,0,198
+0022600118,269,PT05M45.00S,2,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,SUB: Coward FOR Pippen Jr.,Substitution,,0,0,199
+0022600118,270,PT05M45.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,SUB: Jackson FOR Jerome,Substitution,,0,0,200
+0022600118,264,PT05M45.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,42,48,90,h,LaVine Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,201
+0022600118,271,PT05M35.00S,2,1610612763,MEM,1641713,Jackson,G. Jackson,77,259,27,Missed,1,,,0,v,MISS Jackson 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,202
+0022600118,272,PT05M35.00S,2,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,1,0,203
+0022600118,274,PT05M31.00S,2,1610612763,MEM,1642285,Spencer,C. Spencer,235,17,24,Made,1,42,51,93,v,Spencer 24' 3PT Jump Shot (7 PTS) (Coward 1 AST),Made Shot,Jump Shot,1,3,204
+0022600118,276,PT05M12.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,-90,34,10,Made,1,44,51,95,h,LaVine 10' Turnaround Bank Shot (13 PTS),Made Shot,Turnaround Bank shot,1,2,205
+0022600118,277,PT05M00.00S,2,1610612763,MEM,1642285,Spencer,C. Spencer,42,265,27,Made,1,44,54,98,v,Spencer 27' 3PT Jump Shot (10 PTS) (Boozer 2 AST),Made Shot,Jump Shot,1,3,206
+0022600118,279,PT04M53.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,207
+0022600118,279,PT04M53.00S,2,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,Spencer STEAL (1 STL),,,1,0,208
+0022600118,281,PT04M48.00S,2,1610612763,MEM,1642285,Spencer,C. Spencer,-3,266,27,Missed,1,,,0,v,MISS Spencer 27' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,209
+0022600118,282,PT04M48.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,210
+0022600118,283,PT04M41.00S,2,1610612758,SAC,1629631,Hunter,D. Hunter,232,15,0,Made,1,47,54,101,h,Hunter 3PT Running Jump Shot (3 PTS) (Acuff Jr. 4 AST),Made Shot,Running Jump Shot,1,3,211
+0022600118,285,PT04M29.00S,2,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,Jackson Double Dribble Turnover (P1.T5),Turnover,Double Dribble,1,0,212
+0022600118,286,PT04M15.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,148,10,15,Missed,1,,,0,h,MISS Acuff Jr. 15' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,213
+0022600118,287,PT04M15.00S,2,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,214
+0022600118,289,PT03M59.00S,2,1610612763,MEM,1642285,Spencer,C. Spencer,-179,195,26,Missed,1,,,0,v,MISS Spencer 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,215
+0022600118,290,PT03M59.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,h,Acuff Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,216
+0022600118,291,PT03M50.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,-134,158,21,Made,1,49,54,103,h,LaVine 21' Step Back Jump Shot (15 PTS),Made Shot,Step Back Jump shot,1,2,217
+0022600118,292,PT03M36.00S,2,1610612763,MEM,1630191,Stewart,I. Stewart,-37,265,27,Made,1,49,57,106,v,Stewart 27' 3PT Jump Shot (3 PTS) (Spencer 1 AST),Made Shot,Jump Shot,1,3,218
+0022600118,294,PT03M18.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,-55,303,31,Missed,1,,,0,h,MISS LaVine 31' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,219
+0022600118,295,PT03M18.00S,2,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,220
+0022600118,296,PT03M12.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis S.FOUL (P2.T4) (E.Scott),Foul,Shooting,1,0,221
+0022600118,298,PT03M12.00S,2,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,MISS Jackson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,222
+0022600118,299,PT03M12.00S,2,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Normal Rebound,0,0,223
+0022600118,300,PT03M12.00S,2,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,49,58,107,v,Jackson Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,224
+0022600118,301,PT02M54.00S,2,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart P.FOUL (P2.T4) (E.Scott),Foul,Personal,1,0,225
+0022600118,303,PT02M47.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-18,258,26,Made,1,52,58,110,h,Acuff Jr. 26' 3PT Pullup Jump Shot (12 PTS) (Sabonis 1 AST),Made Shot,Pullup Jump shot,1,3,226
+0022600118,305,PT02M24.00S,2,1610612763,MEM,1642285,Spencer,C. Spencer,197,180,27,Missed,1,,,0,v,MISS Spencer 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,227
+0022600118,306,PT02M24.00S,2,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,228
+0022600118,307,PT02M21.00S,2,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,Missed,1,,,0,v,MISS Stewart Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,229
+0022600118,308,PT02M21.00S,2,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,0,0,230
+0022600118,311,PT02M21.00S,2,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,SUB: Plowden FOR Achiuwa,Substitution,,0,0,231
+0022600118,313,PT02M21.00S,2,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,SUB: Wells FOR Jackson,Substitution,,0,0,232
+0022600118,315,PT02M21.00S,2,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,SUB: Jerome FOR Spencer,Substitution,,0,0,233
+0022600118,316,PT02M18.00S,2,1610612763,MEM,1642907,Coward,C. Coward,-188,165,25,Made,1,52,61,113,v,Coward 25' 3PT Jump Shot (11 PTS) (Jerome 4 AST),Made Shot,Jump Shot,1,3,234
+0022600118,318,PT02M04.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,43,44,6,Missed,1,,,0,h,MISS Acuff Jr. 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,235
+0022600118,319,PT02M04.00S,2,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,236
+0022600118,320,PT02M00.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis S.FOUL (P3.PN) (E.Scott),Foul,Shooting,1,0,237
+0022600118,322,PT02M00.00S,2,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,52,62,114,v,Stewart Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,238
+0022600118,325,PT02M00.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,SUB: Achiuwa FOR Sabonis,Substitution,,0,0,239
+0022600118,323,PT02M00.00S,2,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,52,63,115,v,Stewart Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,240
+0022600118,326,PT01M42.00S,2,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward S.FOUL (P1.PN) (J.Butler),Foul,Shooting,1,0,241
+0022600118,328,PT01M42.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,53,63,116,h,LaVine Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,242
+0022600118,331,PT01M42.00S,2,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,SUB: Grant FOR Stewart,Substitution,,0,0,243
+0022600118,329,PT01M42.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,54,63,117,h,LaVine Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,244
+0022600118,333,PT01M19.00S,2,1610612763,MEM,1643409,Boozer,C. Boozer,14,64,7,Made,1,54,65,119,v,Boozer 7' Cutting Dunk Shot (8 PTS) (Jerome 5 AST),Made Shot,Cutting Dunk Shot,1,2,245
+0022600118,335,PT00M55.30S,2,1610612758,SAC,203897,LaVine,Z. LaVine,122,121,17,Missed,1,,,0,h,MISS LaVine 17' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,246
+0022600118,336,PT00M55.30S,2,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,247
+0022600118,337,PT00M55.20S,2,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,16,35,4,Made,1,56,65,121,h,Achiuwa 4' Putback Dunk (4 PTS),Made Shot,Putback Dunk Shot,1,2,248
+0022600118,338,PT00M44.90S,2,1610612758,SAC,1631342,Plowden,D. Plowden,0,0,0,,0,,,0,h,Plowden P.FOUL (P2.PN) (M.Ervin),Foul,Personal,1,0,249
+0022600118,340,PT00M44.90S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,56,66,122,v,Jerome Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,250
+0022600118,341,PT00M44.90S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,56,67,123,v,Jerome Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,251
+0022600118,342,PT00M42.20S,2,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer P.FOUL (P2.PN) (M.Ervin),Foul,Personal,1,0,252
+0022600118,344,PT00M42.20S,2,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,MISS Achiuwa Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,253
+0022600118,345,PT00M42.20S,2,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Rebound,Rebound,Normal Rebound,0,0,254
+0022600118,346,PT00M42.20S,2,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,MISS Achiuwa Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,255
+0022600118,347,PT00M42.20S,2,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,256
+0022600118,348,PT00M30.30S,2,1610612763,MEM,1629660,Jerome,T. Jerome,30,34,5,Missed,1,,,0,v,MISS Jerome 5' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,257
+0022600118,349,PT00M30.30S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,h,Acuff Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,258
+0022600118,350,PT00M24.30S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,37,63,7,Missed,1,,,0,h,MISS Acuff Jr. 7' Running Layup,Missed Shot,Running Layup Shot,1,2,259
+0022600118,350,PT00M24.30S,2,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant BLOCK (3 BLK),,,1,2,260
+0022600118,351,PT00M24.30S,2,1610612758,SAC,1631342,Plowden,D. Plowden,0,0,0,,0,,,0,h,Plowden REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,261
+0022600118,353,PT00M18.80S,2,1610612758,SAC,203897,LaVine,Z. LaVine,164,206,26,Made,1,59,67,126,h,LaVine 26' 3PT Jump Shot (20 PTS) (Plowden 1 AST),Made Shot,Jump Shot,1,3,262
+0022600118,355,PT00M00.00S,2,1610612763,MEM,1643409,Boozer,C. Boozer,242,115,27,Missed,1,,,0,v,MISS Boozer 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,263
+0022600118,356,PT00M00.00S,2,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,1,0,264
+0022600118,357,PT00M00.00S,2,0,,0,,,0,0,0,,0,59,67,126,,End of 2nd Period (10:09 PM EST),period,end,1,0,265
+0022600118,362,PT12M00.00S,3,0,,0,,,0,0,0,,0,59,67,126,,Start of 3rd Period (10:25 PM EST),period,start,1,0,266
+0022600118,363,PT11M49.00S,3,1610612763,MEM,1642907,Coward,C. Coward,66,174,19,Missed,1,,,0,v,MISS Coward 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,267
+0022600118,364,PT11M49.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,268
+0022600118,365,PT11M44.00S,3,1610612763,MEM,1642907,Coward,C. Coward,38,67,8,Made,1,59,69,128,v,Coward 8' Putback Layup (13 PTS),Made Shot,Putback Layup Shot,1,2,269
+0022600118,366,PT11M26.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,93,9,Made,1,61,69,130,h,Acuff Jr. 9' Driving Floating Jump Shot (14 PTS),Made Shot,Driving Floating Jump Shot,1,2,270
+0022600118,367,PT11M09.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,271
+0022600118,367,PT11M09.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis STEAL (2 STL),,,1,0,272
+0022600118,369,PT11M01.00S,3,1610612758,SAC,203897,LaVine,Z. LaVine,-235,-10,24,Made,1,64,69,133,h,LaVine 24' 3PT Jump Shot (23 PTS) (Acuff Jr. 5 AST),Made Shot,Jump Shot,1,3,273
+0022600118,371,PT10M42.00S,3,1610612763,MEM,1630191,Stewart,I. Stewart,162,210,27,Made,1,64,72,136,v,Stewart 27' 3PT Jump Shot (8 PTS) (Boozer 3 AST),Made Shot,Jump Shot,1,3,274
+0022600118,373,PT10M23.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,-1,53,5,Missed,1,,,0,h,MISS Sabonis 5' Hook Shot,Missed Shot,Hook Shot,1,2,275
+0022600118,373,PT10M23.00S,3,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart BLOCK (2 BLK),,,1,2,276
+0022600118,374,PT10M23.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,277
+0022600118,375,PT10M19.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer Out of Bounds - Bad Pass Turnover Turnover (P1.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,278
+0022600118,376,PT10M12.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis OFF.Foul (P4) (J.Butler),Foul,Offensive,1,0,279
+0022600118,378,PT10M12.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis Offensive Foul Turnover (P2.T8),Turnover,Offensive Foul Turnover,1,0,280
+0022600118,379,PT10M01.00S,3,1610612763,MEM,1629660,Jerome,T. Jerome,16,45,5,Made,1,64,74,138,v,Jerome 5' Driving Reverse Layup (12 PTS),Made Shot,Driving Reverse Layup Shot,1,2,281
+0022600118,380,PT10M01.00S,3,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,282
+0022600118,382,PT09M48.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,2,134,13,Made,1,66,74,140,h,Acuff Jr. 13' Pullup Jump Shot (16 PTS),Made Shot,Pullup Jump shot,1,2,283
+0022600118,383,PT09M40.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,-22,56,6,Missed,1,,,0,v,MISS Boozer 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,284
+0022600118,383,PT09M40.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa BLOCK (2 BLK),,,1,2,285
+0022600118,384,PT09M40.00S,3,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,0,0,286
+0022600118,387,PT09M30.00S,3,1610612763,MEM,1630191,Stewart,I. Stewart,27,58,6,Made,1,66,76,142,v,Stewart 6' Dunk (10 PTS) (Boozer 4 AST),Made Shot,Dunk Shot,1,2,287
+0022600118,389,PT09M17.00S,3,1610612758,SAC,203897,LaVine,Z. LaVine,-94,172,20,Missed,1,,,0,h,MISS LaVine 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,288
+0022600118,390,PT09M17.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,h,Hunter REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,289
+0022600118,391,PT09M17.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer S.FOUL (P3.T1) (E.Scott),Foul,Shooting,1,0,290
+0022600118,393,PT09M17.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,67,76,143,h,Hunter Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,291
+0022600118,394,PT09M17.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,h,MISS Hunter Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,292
+0022600118,395,PT09M17.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,293
+0022600118,396,PT09M01.00S,3,1610612763,MEM,1629660,Jerome,T. Jerome,0,48,5,Made,1,67,78,145,v,Jerome 5' Driving Floating Jump Shot (14 PTS),Made Shot,Driving Floating Jump Shot,1,2,294
+0022600118,397,PT08M41.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,-11,41,4,Made,1,69,78,147,h,Achiuwa 4' Reverse Layup (6 PTS) (Sabonis 2 AST),Made Shot,Reverse Layup Shot,1,2,295
+0022600118,399,PT08M27.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,5,275,28,Missed,1,,,0,v,MISS Boozer 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,296
+0022600118,400,PT08M27.00S,3,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,297
+0022600118,401,PT08M22.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,6,48,5,Made,1,69,80,149,v,Boozer 5' Cutting Dunk Shot (10 PTS) (Stewart 2 AST),Made Shot,Cutting Dunk Shot,1,2,298
+0022600118,403,PT08M15.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward P.FOUL (P2.T2) (J.Butler),Foul,Personal,1,0,299
+0022600118,405,PT08M09.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-126,230,26,Missed,1,,,0,h,MISS Acuff Jr. 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,300
+0022600118,406,PT08M09.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,301
+0022600118,407,PT07M57.00S,3,1610612763,MEM,1629660,Jerome,T. Jerome,-9,91,9,Made,1,69,82,151,v,Jerome 9' Driving Floating Jump Shot (17 PTS),Made Shot,Driving Floating Jump Shot,1,2,302
+0022600118,408,PT07M57.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,h,Hunter S.FOUL (P2.T1) (M.Ervin),Foul,Shooting,1,0,303
+0022600118,410,PT07M57.00S,3,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,69,83,152,v,Jerome Free Throw 1 of 1 (17 PTS),Free Throw,Free Throw 1 of 1,1,0,304
+0022600118,411,PT07M40.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,-200,152,25,Missed,1,,,0,h,MISS Hunter 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,305
+0022600118,412,PT07M40.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,306
+0022600118,413,PT07M30.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,42,52,7,Missed,1,,,0,v,MISS Boozer 7' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,307
+0022600118,413,PT07M30.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa BLOCK (3 BLK),,,1,2,308
+0022600118,414,PT07M30.00S,3,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Rebound,Rebound,Unknown,0,0,309
+0022600118,417,PT07M30.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,SUB: Mogbo FOR Sabonis,Substitution,,0,0,310
+0022600118,421,PT07M30.00S,3,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,SUB: Jackson FOR Jerome,Substitution,,0,0,311
+0022600118,422,PT07M30.00S,3,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,SUB: Spencer FOR Stewart,Substitution,,0,0,312
+0022600118,423,PT07M30.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,SUB: Hendricks FOR Coward,Substitution,,0,0,313
+0022600118,424,PT07M17.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-89,38,10,Made,1,71,83,154,h,Acuff Jr. 10' Pullup Jump Shot (18 PTS) (Hunter 1 AST),Made Shot,Pullup Jump shot,1,2,314
+0022600118,426,PT07M00.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,120,149,19,Missed,1,,,0,v,MISS Boozer 19' Jump Shot,Missed Shot,Jump Shot,1,2,315
+0022600118,427,PT07M00.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,316
+0022600118,428,PT06M52.00S,3,1610612758,SAC,203897,LaVine,Z. LaVine,96,89,13,Made,1,73,83,156,h,LaVine 13' Fadeaway Jumper (25 PTS),Made Shot,Fadeaway Jump Shot,1,2,317
+0022600118,429,PT06M40.00S,3,1610612758,SAC,1642367,Mogbo,J. Mogbo,0,0,0,,0,,,0,h,Mogbo P.FOUL (P1.T2) (M.Ervin),Foul,Personal,1,0,318
+0022600118,432,PT06M40.00S,3,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,SUB: Sharp FOR LaVine,Substitution,,0,0,319
+0022600118,433,PT06M32.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,11,88,9,Missed,1,,,0,v,MISS Boozer 9' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,320
+0022600118,434,PT06M32.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,321
+0022600118,435,PT06M18.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,-26,39,5,Made,1,75,83,158,h,Achiuwa 5' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,322
+0022600118,436,PT05M59.00S,3,1610612763,MEM,1642377,Wells,J. Wells,-108,24,11,Made,1,75,85,160,v,Wells 11' Pullup Jump Shot (12 PTS),Made Shot,Pullup Jump shot,1,2,323
+0022600118,437,PT05M44.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,237,87,25,Made,1,78,85,163,h,Hunter 25' 3PT Jump Shot (7 PTS) (Acuff Jr. 6 AST),Made Shot,Jump Shot,1,3,324
+0022600118,439,PT05M43.00S,3,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,325
+0022600118,441,PT05M43.00S,3,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,SUB: Coward FOR Wells,Substitution,,0,0,326
+0022600118,442,PT05M31.00S,3,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,h,Sharp P.FOUL (P2.T3) (M.Ervin),Foul,Personal,1,0,327
+0022600118,444,PT05M23.00S,3,1610612763,MEM,1642907,Coward,C. Coward,143,238,28,Missed,1,,,0,v,MISS Coward 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,328
+0022600118,445,PT05M23.00S,3,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,329
+0022600118,446,PT05M18.00S,3,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,Jackson Lost Ball Turnover (P2.T8),Turnover,Lost Ball,1,0,330
+0022600118,446,PT05M18.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa STEAL (2 STL),,,1,0,331
+0022600118,448,PT05M14.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,-32,47,6,Made,1,80,85,165,h,Achiuwa 6' Running Layup (10 PTS),Made Shot,Running Layup Shot,1,2,332
+0022600118,449,PT04M51.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,h,Hunter S.FOUL (P3.T4) (M.Ervin),Foul,Shooting,1,0,333
+0022600118,451,PT04M51.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,80,86,166,v,Boozer Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,334
+0022600118,452,PT04M51.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,80,87,167,v,Boozer Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,335
+0022600118,453,PT04M36.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,13,269,27,Missed,1,,,0,h,MISS Hunter 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,336
+0022600118,454,PT04M36.00S,3,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Rebound,Rebound,Unknown,1,0,337
+0022600118,455,PT04M36.00S,3,1610612763,MEM,1641707,Hendricks,T. Hendricks,0,0,0,,0,,,0,v,Hendricks L.B.FOUL (P1.T3) (M.Ervin),Foul,Loose Ball,1,0,338
+0022600118,458,PT04M36.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,h,SUB: Monk FOR Acuff Jr.,Substitution,,0,0,339
+0022600118,459,PT04M29.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,-8,52,5,Missed,1,,,0,h,MISS Achiuwa 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,340
+0022600118,459,PT04M29.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer BLOCK (2 BLK),,,1,2,341
+0022600118,460,PT04M29.00S,3,1610612763,MEM,1641707,Hendricks,T. Hendricks,0,0,0,,0,,,0,v,Hendricks REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,342
+0022600118,461,PT04M21.00S,3,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,Spencer Bad Pass Turnover (P2.T9),Turnover,Bad Pass,1,0,343
+0022600118,461,PT04M21.00S,3,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,Monk STEAL (1 STL),,,1,0,344
+0022600118,463,PT04M17.00S,3,1610612758,SAC,1642367,Mogbo,J. Mogbo,-16,34,4,Made,1,82,87,169,h,Mogbo 4' Running Alley Oop Dunk Shot (2 PTS) (Monk 2 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,345
+0022600118,465,PT04M17.00S,3,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,346
+0022600118,469,PT04M17.00S,3,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,SUB: Post FOR Jackson,Substitution,,0,0,347
+0022600118,470,PT04M17.00S,3,1610612763,MEM,1641707,Hendricks,T. Hendricks,0,0,0,,0,,,0,v,SUB: Grant FOR Hendricks,Substitution,,0,0,348
+0022600118,471,PT04M17.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,SUB: Pippen Jr. FOR Boozer,Substitution,,0,0,349
+0022600118,472,PT04M06.00S,3,1610612763,MEM,203924,Grant,J. Grant,21,47,5,Missed,1,,,0,v,MISS Grant 5' Hook Shot,Missed Shot,Hook Shot,1,2,350
+0022600118,473,PT04M06.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,351
+0022600118,474,PT03M53.00S,3,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,Monk Bad Pass Turnover (P2.T9),Turnover,Bad Pass,1,0,352
+0022600118,474,PT03M53.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward STEAL (1 STL),,,1,0,353
+0022600118,476,PT03M47.00S,3,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,48,30,6,Missed,1,,,0,v,MISS Pippen Jr. 6' Running Layup,Missed Shot,Running Layup Shot,1,2,354
+0022600118,477,PT03M47.00S,3,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,Monk REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,355
+0022600118,478,PT03M46.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,,Double Personal,Foul,Double Personal,1,0,356
+0022600118,480,PT03M46.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,,Double Personal,Foul,Double Personal,1,0,357
+0022600118,488,PT03M46.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,h,SUB: Plowden FOR Hunter,Substitution,,0,0,358
+0022600118,489,PT03M30.00S,3,1610612758,SAC,1628370,Monk,M. Monk,-34,268,27,Missed,1,,,0,h,MISS Monk 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,359
+0022600118,490,PT03M30.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,360
+0022600118,491,PT03M27.00S,3,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant S.FOUL (P3.T4) (J.Butler),Foul,Shooting,1,0,361
+0022600118,493,PT03M27.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,MISS Achiuwa Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,362
+0022600118,494,PT03M27.00S,3,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Rebound,Rebound,Normal Rebound,0,0,363
+0022600118,495,PT03M27.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,MISS Achiuwa Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,364
+0022600118,496,PT03M27.00S,3,1610612758,SAC,1631342,Plowden,D. Plowden,0,0,0,,0,,,0,h,Plowden REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,365
+0022600118,497,PT03M19.00S,3,1610612758,SAC,1643567,Sharp,E. Sharp,196,170,26,Missed,1,,,0,h,MISS Sharp 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,366
+0022600118,498,PT03M19.00S,3,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Rebound,Rebound,Unknown,0,0,367
+0022600118,499,PT03M09.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,34,33,5,Made,1,84,87,171,h,Achiuwa 5' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,368
+0022600118,500,PT02M51.00S,3,1610612763,MEM,1642285,Spencer,C. Spencer,32,268,27,Made,1,84,90,174,v,Spencer 27' 3PT Pullup Jump Shot (13 PTS) (Grant 3 AST),Made Shot,Pullup Jump shot,1,3,369
+0022600118,502,PT02M34.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,-37,102,11,Missed,1,,,0,h,MISS Achiuwa 11' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,370
+0022600118,503,PT02M34.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,371
+0022600118,504,PT02M25.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward OFF.Foul (P4) (E.Scott),Foul,Offensive,1,0,372
+0022600118,506,PT02M25.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward Offensive Foul Turnover (P2.T10),Turnover,Offensive Foul Turnover,1,0,373
+0022600118,508,PT02M25.00S,3,1610612758,SAC,1631342,Plowden,D. Plowden,0,0,0,,0,,,0,h,SUB: LaVine FOR Plowden,Substitution,,0,0,374
+0022600118,509,PT02M06.00S,3,1610612758,SAC,1628370,Monk,M. Monk,-143,238,28,Missed,1,,,0,h,MISS Monk 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,375
+0022600118,510,PT02M06.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,376
+0022600118,511,PT01M55.00S,3,1610612758,SAC,1642367,Mogbo,J. Mogbo,0,0,0,,0,,,0,h,Mogbo P.FOUL (P2.PN) (E.Scott),Foul,Personal,1,0,377
+0022600118,513,PT01M55.00S,3,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,MISS Pippen Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,378
+0022600118,514,PT01M55.00S,3,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Normal Rebound,0,0,379
+0022600118,518,PT01M55.00S,3,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,SUB: Wells FOR Spencer,Substitution,,0,0,380
+0022600118,519,PT01M55.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,SUB: Jerome FOR Coward,Substitution,,0,0,381
+0022600118,515,PT01M55.00S,3,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,84,91,175,v,Pippen Jr. Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,382
+0022600118,520,PT01M33.00S,3,1610612758,SAC,1628370,Monk,M. Monk,-32,50,6,Missed,1,,,0,h,MISS Monk 6' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,383
+0022600118,521,PT01M33.00S,3,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,Pippen Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,384
+0022600118,522,PT01M23.00S,3,1610612763,MEM,1642366,Post,Q. Post,5,266,27,Missed,1,,,0,v,MISS Post 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,385
+0022600118,523,PT01M23.00S,3,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,h,Sharp REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,386
+0022600118,578,PT01M12.00S,3,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,Pippen Jr. S.FOUL (P1.PN) (E.Scott),Foul,Shooting,1,0,387
+0022600118,580,PT01M12.00S,3,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,85,91,176,h,LaVine Free Throw 1 of 2 (26 PTS),Free Throw,Free Throw 1 of 2,1,0,388
+0022600118,581,PT01M12.00S,3,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,86,91,177,h,LaVine Free Throw 2 of 2 (27 PTS),Free Throw,Free Throw 2 of 2,1,0,389
+0022600118,526,PT01M00.00S,3,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,h,Sharp S.FOUL (P3.PN) (J.Butler),Foul,Shooting,1,0,390
+0022600118,528,PT01M00.00S,3,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,,,0,v,MISS Post Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,391
+0022600118,554,PT01M00.00S,3,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Normal Rebound,1,0,392
+0022600118,530,PT01M00.00S,3,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,86,92,178,v,Post Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,393
+0022600118,531,PT00M40.30S,3,1610612758,SAC,203897,LaVine,Z. LaVine,-228,100,25,Missed,1,,,0,h,MISS LaVine 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,394
+0022600118,532,PT00M40.30S,3,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,0,0,395
+0022600118,540,PT00M30.40S,3,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,h,Sharp P.FOUL (P4.PN) (E.Scott),Foul,Personal,1,0,396
+0022600118,542,PT00M30.40S,3,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,86,93,179,v,Jerome Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,397
+0022600118,545,PT00M30.40S,3,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,h,SUB: Acuff Jr. FOR Sharp,Substitution,,0,0,398
+0022600118,543,PT00M30.40S,3,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,86,94,180,v,Jerome Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,399
+0022600118,546,PT00M14.30S,3,1610612758,SAC,203897,LaVine,Z. LaVine,-2,57,6,Made,1,88,94,182,h,LaVine 6' Driving Dunk (29 PTS),Made Shot,Driving Dunk Shot,1,2,400
+0022600118,547,PT00M01.50S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,h,Acuff Jr. S.FOUL (P2.PN) (M.Ervin),Foul,Shooting,1,0,401
+0022600118,549,PT00M01.50S,3,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,88,95,183,v,Jerome Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,402
+0022600118,550,PT00M01.50S,3,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,88,96,184,v,Jerome Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,1,0,403
+0022600118,551,PT00M01.30S,3,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells P.FOUL (P3.PN) (M.Ervin),Foul,Personal,1,0,404
+0022600118,556,PT00M01.30S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,h,SUB: Plowden FOR Acuff Jr.,Substitution,,0,0,405
+0022600118,559,PT00M01.30S,3,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,SUB: Black FOR Monk,Substitution,,0,0,406
+0022600118,562,PT00M01.30S,3,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,SUB: Boozer FOR Grant,Substitution,,0,0,407
+0022600118,563,PT00M01.30S,3,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,SUB: Stewart FOR Wells,Substitution,,0,0,408
+0022600118,611,PT00M01.30S,3,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,89,96,185,h,LaVine Free Throw 1 of 2 (30 PTS),Free Throw,Free Throw 1 of 2,1,0,409
+0022600118,612,PT00M01.30S,3,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,90,96,186,h,LaVine Free Throw 2 of 2 (31 PTS),Free Throw,Free Throw 2 of 2,1,0,410
+0022600118,564,PT00M00.10S,3,0,,0,,,0,0,0,,0,,,0,v,GRIZZLIES Heave,Heave,Team Field Goal Attempt,0,0,411
+0022600118,565,PT00M00.10S,3,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,0,0,412
+0022600118,566,PT00M00.00S,3,0,,0,,,0,0,0,,0,90,96,186,,End of 3rd Period (10:59 PM EST),period,end,1,0,413
+0022600118,577,PT12M00.00S,4,0,,0,,,0,0,0,,0,90,96,186,,Start of 4th Period (11:02 PM EST),period,start,1,0,414
+0022600118,583,PT11M43.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Out of Bounds - Bad Pass Turnover Turnover (P2.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,415
+0022600118,584,PT11M25.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,32,124,13,Missed,1,,,0,v,MISS Jerome 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,416
+0022600118,584,PT11M25.00S,4,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,h,Sharp BLOCK (1 BLK),,,1,2,417
+0022600118,585,PT11M25.00S,4,1610612758,SAC,1642367,Mogbo,J. Mogbo,0,0,0,,0,,,0,h,Mogbo REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,418
+0022600118,587,PT11M19.00S,4,1610612758,SAC,1642367,Mogbo,J. Mogbo,-40,63,7,Missed,1,,,0,h,MISS Mogbo 7' Running Layup,Missed Shot,Running Layup Shot,1,2,419
+0022600118,588,PT11M19.00S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,Monk REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,420
+0022600118,589,PT11M17.00S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,Missed,1,,,0,h,MISS Monk Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,421
+0022600118,590,PT11M17.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,422
+0022600118,591,PT11M13.00S,4,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,Pippen Jr. Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,423
+0022600118,591,PT11M13.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine STEAL (1 STL),,,1,0,424
+0022600118,593,PT11M08.00S,4,1610612758,SAC,1628370,Monk,M. Monk,-39,48,6,Made,1,92,96,188,h,Monk 6' Running Dunk (6 PTS) (LaVine 2 AST),Made Shot,Running Dunk Shot,1,2,425
+0022600118,595,PT10M45.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,-35,82,9,Made,1,92,98,190,v,Jerome 9' Driving Floating Jump Shot (23 PTS),Made Shot,Driving Floating Jump Shot,1,2,426
+0022600118,596,PT10M30.00S,4,1610612758,SAC,1642367,Mogbo,J. Mogbo,238,29,24,Made,1,95,98,193,h,Mogbo 24' 3PT Jump Shot (5 PTS) (LaVine 3 AST),Made Shot,Jump Shot,1,3,427
+0022600118,598,PT10M14.00S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,Monk P.FOUL (P2.T1) (J.Butler),Foul,Personal,1,0,428
+0022600118,601,PT10M14.00S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,SUB: Acuff Jr. FOR Monk,Substitution,,0,0,429
+0022600118,602,PT09M59.00S,4,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells Bad Pass Turnover (P1.T12),Turnover,Bad Pass,1,0,430
+0022600118,602,PT09M59.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine STEAL (2 STL),,,1,0,431
+0022600118,604,PT09M51.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-236,21,24,Missed,1,,,0,h,MISS Acuff Jr. 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,432
+0022600118,605,PT09M51.00S,4,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,433
+0022600118,606,PT09M45.00S,4,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,-52,24,6,Missed,1,,,0,v,MISS Pippen Jr. 6' Running Layup,Missed Shot,Running Layup Shot,1,2,434
+0022600118,607,PT09M45.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,435
+0022600118,608,PT09M39.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,24,46,5,Made,1,97,98,195,h,LaVine 5' Running Reverse Layup (33 PTS) (Acuff Jr. 7 AST),Made Shot,Running Reverse Layup Shot,1,2,436
+0022600118,610,PT09M39.00S,4,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,437
+0022600118,614,PT09M39.00S,4,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,SUB: Coward FOR Pippen Jr.,Substitution,,0,0,438
+0022600118,615,PT09M22.00S,4,1610612763,MEM,1642907,Coward,C. Coward,4,50,5,Missed,1,,,0,v,MISS Coward 5' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,439
+0022600118,616,PT09M22.00S,4,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,,,0,v,Post REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,440
+0022600118,617,PT09M19.00S,4,1610612763,MEM,1642366,Post,Q. Post,0,0,0,Made,1,97,100,197,v,Post Tip Layup Shot (5 PTS),Made Shot,Tip Layup Shot,1,2,441
+0022600118,618,PT09M03.00S,4,1610612758,SAC,1642367,Mogbo,J. Mogbo,0,52,5,Made,1,99,100,199,h,Mogbo 5' Turnaround Hook Shot (7 PTS) (Sabonis 3 AST),Made Shot,Turnaround Hook Shot,1,2,442
+0022600118,620,PT08M48.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,-132,229,26,Missed,1,,,0,v,MISS Jerome 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,443
+0022600118,621,PT08M48.00S,4,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,444
+0022600118,622,PT08M45.00S,4,1610612763,MEM,203924,Grant,J. Grant,-25,50,6,Missed,1,,,0,v,MISS Grant 6' Putback Dunk,Missed Shot,Putback Dunk Shot,1,2,445
+0022600118,623,PT08M45.00S,4,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,446
+0022600118,624,PT08M42.00S,4,1610612763,MEM,203924,Grant,J. Grant,-16,38,4,Missed,1,,,0,v,MISS Grant 4' Layup,Missed Shot,Layup Shot,1,2,447
+0022600118,625,PT08M42.00S,4,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,,,0,v,Post REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,448
+0022600118,626,PT08M37.00S,4,1610612763,MEM,1642366,Post,Q. Post,0,0,0,Made,1,99,102,201,v,Post Tip Layup Shot (7 PTS),Made Shot,Tip Layup Shot,1,2,449
+0022600118,627,PT08M24.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,90,79,12,Made,1,101,102,203,h,Acuff Jr. 12' Pullup Jump Shot (20 PTS),Made Shot,Pullup Jump shot,1,2,450
+0022600118,628,PT08M17.00S,4,1610612758,SAC,1642367,Mogbo,J. Mogbo,0,0,0,,0,,,0,h,Mogbo P.FOUL (P3.T2) (M.Ervin),Foul,Personal,1,0,451
+0022600118,630,PT08M05.00S,4,1610612763,MEM,203924,Grant,J. Grant,239,45,24,Missed,1,,,0,v,MISS Grant 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,452
+0022600118,631,PT08M05.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:4 Def:8),Rebound,Unknown,1,0,453
+0022600118,632,PT07M45.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,-158,246,29,Missed,1,,,0,h,MISS LaVine 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,454
+0022600118,633,PT07M45.00S,4,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,455
+0022600118,634,PT07M30.00S,4,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,h,Sharp S.FOUL (P5.T3) (J.Butler),Foul,Shooting,1,0,456
+0022600118,636,PT07M30.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,101,103,204,v,Jerome Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,1,0,457
+0022600118,639,PT07M30.00S,4,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,h,SUB: Plowden FOR Sharp,Substitution,,0,0,458
+0022600118,642,PT07M30.00S,4,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,SUB: Stewart FOR Wells,Substitution,,0,0,459
+0022600118,643,PT07M30.00S,4,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,,,0,v,SUB: Boozer FOR Post,Substitution,,0,0,460
+0022600118,637,PT07M30.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,101,104,205,v,Jerome Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,1,0,461
+0022600118,644,PT07M15.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,-3,268,27,Missed,1,,,0,h,MISS LaVine 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,462
+0022600118,645,PT07M15.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,463
+0022600118,646,PT07M08.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,-32,31,4,Missed,1,,,0,v,MISS Boozer 4' Running Layup,Missed Shot,Running Layup Shot,1,2,464
+0022600118,647,PT07M08.00S,4,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Rebound,Rebound,Unknown,0,0,465
+0022600118,650,PT07M08.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,SUB: Spencer FOR Jerome,Substitution,,0,0,466
+0022600118,651,PT06M56.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,79,95,12,Missed,1,,,0,h,MISS Acuff Jr. 12' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,467
+0022600118,652,PT06M56.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,468
+0022600118,653,PT06M51.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,h,Acuff Jr. P.FOUL (P3.T4) (E.Scott),Foul,Personal,1,0,469
+0022600118,656,PT06M51.00S,4,1610612758,SAC,1642367,Mogbo,J. Mogbo,0,0,0,,0,,,0,h,SUB: Achiuwa FOR Mogbo,Substitution,,0,0,470
+0022600118,657,PT06M45.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,38,266,27,Missed,1,,,0,v,MISS Boozer 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,471
+0022600118,658,PT06M45.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,472
+0022600118,659,PT06M38.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,79,64,10,Made,1,103,104,207,h,Acuff Jr. 10' Running Jump Shot (22 PTS) (LaVine 4 AST),Made Shot,Running Jump Shot,1,2,473
+0022600118,660,PT06M27.00S,4,1610612763,MEM,1642907,Coward,C. Coward,45,95,11,Made,1,103,106,209,v,Coward 11' Driving Floating Bank Jump Shot (15 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,474
+0022600118,662,PT06M02.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,63,249,26,Missed,1,,,0,h,MISS Acuff Jr. 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,475
+0022600118,663,PT06M02.00S,4,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,476
+0022600118,664,PT05M52.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,6,76,8,Missed,1,,,0,v,MISS Boozer 8' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,477
+0022600118,665,PT05M52.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,478
+0022600118,666,PT05M41.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,-12,46,5,Made,1,105,106,211,h,Sabonis 5' Reverse Layup (13 PTS) (LaVine 5 AST),Made Shot,Reverse Layup Shot,1,2,479
+0022600118,668,PT05M41.00S,4,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart S.FOUL (P3.T1) (E.Scott),Foul,Shooting,1,0,480
+0022600118,673,PT05M41.00S,4,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,SUB: Wells FOR Grant,Substitution,,0,0,481
+0022600118,674,PT05M41.00S,4,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,SUB: Jerome FOR Spencer,Substitution,,0,0,482
+0022600118,670,PT05M41.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,106,106,212,h,Sabonis Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,1,0,483
+0022600118,675,PT05M28.00S,4,1610612763,MEM,1630191,Stewart,I. Stewart,-21,49,5,Made,1,106,108,214,v,Stewart 5' Floating Jump Shot (13 PTS) (Jerome 6 AST),Made Shot,Floating Jump shot,1,2,484
+0022600118,677,PT05M28.00S,4,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa S.FOUL (P1.PN) (E.Scott),Foul,Shooting,1,0,485
+0022600118,679,PT05M28.00S,4,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,106,109,215,v,Stewart Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,1,0,486
+0022600118,680,PT05M14.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,53,54,8,Missed,1,,,0,h,MISS Acuff Jr. 8' Driving Layup,Missed Shot,Driving Layup Shot,1,2,487
+0022600118,681,PT05M14.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:10),Rebound,Unknown,1,0,488
+0022600118,682,PT05M08.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,-21,39,4,Missed,1,,,0,v,MISS Boozer 4' Running Layup,Missed Shot,Running Layup Shot,1,2,489
+0022600118,683,PT05M08.00S,4,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,490
+0022600118,684,PT05M06.00S,4,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,Made,1,106,111,217,v,Coward Tip Layup Shot (17 PTS),Made Shot,Tip Layup Shot,1,2,491
+0022600118,685,PT04M47.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-158,224,27,Missed,1,,,0,h,MISS Acuff Jr. 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,492
+0022600118,686,PT04M47.00S,4,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,493
+0022600118,687,PT04M28.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,-146,229,27,Made,1,106,114,220,v,Jerome 27' 3PT Step Back Jump Shot (28 PTS),Made Shot,Step Back Jump shot,1,3,494
+0022600118,688,PT04M28.00S,4,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,495
+0022600118,690,PT04M28.00S,4,1610612758,SAC,1631342,Plowden,D. Plowden,0,0,0,,0,,,0,h,SUB: Hunter FOR Plowden,Substitution,,0,0,496
+0022600118,691,PT04M20.00S,4,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart P.FOUL (P4.T2) (M.Ervin),Foul,Personal,1,0,497
+0022600118,693,PT04M07.00S,4,1610612758,SAC,1629631,Hunter,D. Hunter,-234,58,24,Missed,1,,,0,h,MISS Hunter 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,498
+0022600118,694,PT04M07.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:11),Rebound,Unknown,1,0,499
+0022600118,695,PT03M57.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,-38,71,8,Made,1,106,116,222,v,Jerome 8' Driving Floating Jump Shot (31 PTS),Made Shot,Driving Floating Jump Shot,1,2,500
+0022600118,696,PT03M57.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,h,Acuff Jr. S.FOUL (P4.PN) (E.Scott),Foul,Shooting,1,0,501
+0022600118,698,PT03M57.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,106,117,223,v,Jerome Free Throw 1 of 1 (31 PTS),Free Throw,Free Throw 1 of 1,1,0,502
+0022600118,699,PT03M32.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,-100,124,16,Made,1,108,117,225,h,LaVine 16' Pullup Jump Shot (35 PTS),Made Shot,Pullup Jump shot,1,2,503
+0022600118,700,PT03M10.00S,4,1610612763,MEM,1630191,Stewart,I. Stewart,3,55,6,Missed,1,,,0,v,MISS Stewart 6' Layup,Missed Shot,Layup Shot,1,2,504
+0022600118,701,PT03M10.00S,4,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,505
+0022600118,702,PT03M08.00S,4,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,Missed,1,,,0,v,MISS Stewart Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,506
+0022600118,703,PT03M08.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:4 Def:9),Rebound,Unknown,1,0,507
+0022600118,704,PT03M03.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,-32,18,4,Made,1,110,117,227,h,LaVine 4' Driving Layup (37 PTS),Made Shot,Driving Layup Shot,1,2,508
+0022600118,705,PT03M01.00S,4,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,509
+0022600118,706,PT02M41.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,-95,19,10,Missed,1,,,0,v,MISS Boozer 10' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,510
+0022600118,707,PT02M41.00S,4,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,Achiuwa REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,511
+0022600118,708,PT02M18.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,73,153,17,Missed,1,,,0,h,MISS Acuff Jr. 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,512
+0022600118,709,PT02M18.00S,4,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,513
+0022600118,710,PT01M54.00S,4,1610612763,MEM,1642907,Coward,C. Coward,127,241,27,Missed,1,,,0,v,MISS Coward 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,514
+0022600118,711,PT01M54.00S,4,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,515
+0022600118,712,PT01M53.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,44,40,6,Made,1,110,119,229,v,Boozer 6' Dunk (14 PTS) (Wells 3 AST),Made Shot,Dunk Shot,1,2,516
+0022600118,714,PT01M42.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis OFF.Foul (P5) (J.Butler),Foul,Offensive,1,0,517
+0022600118,716,PT01M42.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis Offensive Foul Turnover (P3.T11),Turnover,Offensive Foul Turnover,1,0,518
+0022600118,717,PT01M26.00S,4,1610612763,MEM,1642377,Wells,J. Wells,0,64,6,Made,1,110,121,231,v,Wells 6' Driving Floating Jump Shot (14 PTS),Made Shot,Driving Floating Jump Shot,1,2,519
+0022600118,718,PT01M26.00S,4,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,520
+0022600118,721,PT01M19.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-238,33,24,Missed,1,,,0,h,MISS Acuff Jr. 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,521
+0022600118,722,PT01M19.00S,4,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,h,Hunter REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,522
+0022600118,723,PT01M16.00S,4,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,Missed,1,,,0,h,MISS Hunter Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,523
+0022600118,724,PT01M16.00S,4,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,524
+0022600118,725,PT01M10.00S,4,1610612763,MEM,1642377,Wells,J. Wells,-1,33,3,Made,1,110,123,233,v,Wells 3' Layup (16 PTS) (Jerome 7 AST),Made Shot,Layup Shot,1,2,525
+0022600118,727,PT01M10.00S,4,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart S.FOUL (P5.T3) (E.Scott),Foul,Shooting,1,0,526
+0022600118,729,PT01M10.00S,4,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,h,MISS Achiuwa Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,527
+0022600118,730,PT01M10.00S,4,0,,1610612758,,,0,0,0,,0,,,0,h,KINGS Rebound,Rebound,Normal Rebound,1,0,528
+0022600118,733,PT01M10.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Lane Violation Turnover (P3.T12),Turnover,Lane Violation,1,0,529
+0022600118,734,PT00M45.50S,4,1610612763,MEM,1642377,Wells,J. Wells,16,123,12,Missed,1,,,0,v,MISS Wells 12' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,530
+0022600118,735,PT00M45.50S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:4 Def:10),Rebound,Unknown,1,0,531
+0022600118,736,PT00M40.50S,4,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Lost Ball Turnover (P4.T13),Turnover,Lost Ball,1,0,532
+0022600118,736,PT00M40.50S,4,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells STEAL (2 STL),,,1,0,533
+0022600118,738,PT00M16.00S,4,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Turnover: Shot Clock (T#13),Turnover,Shot Clock Turnover,1,0,534
+0022600118,739,PT00M08.30S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-18,276,28,Missed,1,,,0,h,MISS Acuff Jr. 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,535
+0022600118,740,PT00M08.30S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:5 Def:10),Rebound,Unknown,1,0,536
+0022600118,741,PT00M07.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,-22,33,4,Made,1,112,123,235,h,Sabonis 4' Putback Layup (15 PTS),Made Shot,Putback Layup Shot,1,2,537
+0022600118,742,PT00M00.00S,4,0,,0,,,0,0,0,,0,112,123,235,,End of 4th Period (11:30 PM EST),period,end,1,0,538
