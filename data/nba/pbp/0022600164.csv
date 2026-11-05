@@ -1,0 +1,495 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600164,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:11 PM EST),period,start,1,0,1
+0022600164,4,PT12M00.00S,1,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Jump Ball Gafford vs. Sabonis: Tip to Flagg,Jump Ball,,1,0,2
+0022600164,7,PT11M40.00S,1,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,3
+0022600164,7,PT11M40.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa STEAL (1 STL),,,1,0,4
+0022600164,9,PT11M36.00S,1,1610612758,SAC,203897,LaVine,Z. LaVine,37,43,6,Missed,1,,,0,v,MISS LaVine 6' Running Jump Shot,Missed Shot,Running Jump Shot,1,2,5
+0022600164,10,PT11M36.00S,1,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,LaVine REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,6
+0022600164,11,PT11M31.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,-39,243,25,Missed,1,,,0,v,MISS Hunter 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,7
+0022600164,12,PT11M31.00S,1,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,8
+0022600164,13,PT11M15.00S,1,1610612742,DAL,1642843,Flagg,C. Flagg,-126,58,14,Missed,1,,,0,h,MISS Flagg 14' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,9
+0022600164,14,PT11M15.00S,1,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,LaVine REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,10
+0022600164,15,PT11M01.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,11
+0022600164,16,PT10M49.00S,1,1610612742,DAL,1631108,Christie,M. Christie,-189,179,26,Missed,1,,,0,h,MISS Christie 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,12
+0022600164,17,PT10M49.00S,1,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,13
+0022600164,18,PT10M45.00S,1,1610612742,DAL,1629655,Gafford,D. Gafford,19,-4,2,Made,1,2,0,2,h,Gafford 2' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,14
+0022600164,19,PT10M40.00S,1,1610612742,DAL,1631108,Christie,M. Christie,0,0,0,,0,,,0,h,Christie S.FOUL (P1.T1) (E.Scott),Foul,Shooting,1,0,15
+0022600164,21,PT10M40.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,2,1,3,v,Achiuwa Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,16
+0022600164,22,PT10M40.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,MISS Achiuwa Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,17
+0022600164,23,PT10M40.00S,1,1610612742,DAL,1631108,Christie,M. Christie,0,0,0,,0,,,0,h,Christie REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,18
+0022600164,24,PT10M22.00S,1,1610612742,DAL,1629023,Washington,P. Washington,191,162,25,Missed,1,,,0,h,MISS Washington 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,19
+0022600164,25,PT10M22.00S,1,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,20
+0022600164,26,PT10M17.00S,1,1610612742,DAL,1631108,Christie,M. Christie,-110,253,28,Missed,1,,,0,h,MISS Christie 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,21
+0022600164,27,PT10M17.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,22
+0022600164,28,PT10M02.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-10,24,3,Missed,1,,,0,v,MISS Acuff Jr. 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,23
+0022600164,29,PT10M02.00S,1,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,24
+0022600164,30,PT09M42.00S,1,1610612742,DAL,1629655,Gafford,D. Gafford,17,1,2,Made,1,4,1,5,h,Gafford 2' Cutting Layup Shot (4 PTS) (Flagg 1 AST),Made Shot,Cutting Layup Shot,1,2,25
+0022600164,32,PT09M26.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,31,43,5,Made,1,4,3,7,v,Hunter 5' Cutting Layup Shot (2 PTS) (Sabonis 1 AST),Made Shot,Cutting Layup Shot,1,2,26
+0022600164,34,PT09M04.00S,1,1610612742,DAL,1631108,Christie,M. Christie,-235,25,24,Missed,1,,,0,h,MISS Christie 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,27
+0022600164,35,PT09M04.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,28
+0022600164,36,PT08M44.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,29
+0022600164,36,PT08M44.00S,1,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington STEAL (1 STL),,,1,0,30
+0022600164,38,PT08M41.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. Violation:Kicked Ball (S.Foster),Violation,Kicked Ball,0,0,31
+0022600164,39,PT08M34.00S,1,1610612742,DAL,1642843,Flagg,C. Flagg,-117,195,23,Missed,1,,,0,h,MISS Flagg 23' Jump Shot,Missed Shot,Jump Shot,1,2,32
+0022600164,40,PT08M34.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,33
+0022600164,41,PT08M24.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,-22,20,3,Missed,1,,,0,v,MISS Achiuwa 3' Cutting Dunk Shot,Missed Shot,Cutting Dunk Shot,1,2,34
+0022600164,42,PT08M24.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,35
+0022600164,43,PT08M17.00S,1,1610612758,SAC,203897,LaVine,Z. LaVine,-236,12,24,Made,1,4,6,10,v,LaVine 24' 3PT Jump Shot (3 PTS) (Hunter 1 AST),Made Shot,Jump Shot,1,3,36
+0022600164,45,PT08M09.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter S.FOUL (P1.T1) (R.Acosta),Foul,Shooting,1,0,37
+0022600164,47,PT08M09.00S,1,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,5,6,11,h,Flagg Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,38
+0022600164,48,PT08M09.00S,1,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,6,6,12,h,Flagg Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,39
+0022600164,49,PT07M47.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa Out of Bounds Lost Ball Turnover (P1.T3),Turnover,Out of Bounds Lost Ball Turnover,1,0,40
+0022600164,50,PT07M38.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa S.FOUL (P1.T2) (S.Foster),Foul,Shooting,1,0,41
+0022600164,52,PT07M38.00S,1,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,7,6,13,h,Washington Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,42
+0022600164,55,PT07M38.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,SUB: Clifford FOR Achiuwa,Substitution,,0,0,43
+0022600164,53,PT07M38.00S,1,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,8,6,14,h,Washington Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,44
+0022600164,56,PT07M24.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,228,28,0,Missed,1,,,0,v,MISS Hunter 3PT Jump Shot,Missed Shot,Jump Shot,1,3,45
+0022600164,57,PT07M24.00S,1,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,1,0,46
+0022600164,59,PT07M11.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,-97,151,18,Missed,1,,,0,v,MISS Hunter 18' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,47
+0022600164,60,PT07M11.00S,1,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,48
+0022600164,61,PT06M55.00S,1,1610612742,DAL,1631108,Christie,M. Christie,236,13,24,Missed,1,,,0,h,MISS Christie 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,49
+0022600164,62,PT06M55.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,50
+0022600164,63,PT06M40.00S,1,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,LaVine Out of Bounds - Bad Pass Turnover Turnover (P1.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,51
+0022600164,64,PT06M40.00S,1,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,52
+0022600164,68,PT06M40.00S,1,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,SUB: Marshall FOR Gafford,Substitution,,0,0,53
+0022600164,69,PT06M40.00S,1,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,SUB: Johnson Jr. FOR Martin,Substitution,,0,0,54
+0022600164,70,PT06M40.00S,1,1610612742,DAL,1631108,Christie,M. Christie,0,0,0,,0,,,0,h,SUB: Risacher FOR Christie,Substitution,,0,0,55
+0022600164,72,PT06M40.00S,1,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,SUB: Sharp FOR LaVine,Substitution,,0,0,56
+0022600164,73,PT06M17.00S,1,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,-21,5,2,Made,1,10,6,16,h,Johnson Jr. 2' Reverse Layup (2 PTS) (Marshall 1 AST),Made Shot,Reverse Layup Shot,1,2,57
+0022600164,75,PT05M59.00S,1,1610612758,SAC,1643567,Sharp,E. Sharp,-227,18,0,Made,1,10,9,19,v,Sharp 3PT Jump Shot (3 PTS) (Acuff Jr. 1 AST),Made Shot,Jump Shot,1,3,58
+0022600164,77,PT05M48.00S,1,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,v,Sharp S.FOUL (P1.T3) (R.Acosta),Foul,Shooting,1,0,59
+0022600164,79,PT05M48.00S,1,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,11,9,20,h,Flagg Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,60
+0022600164,81,PT05M48.00S,1,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,12,9,21,h,Flagg Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,61
+0022600164,82,PT05M37.00S,1,1610612758,SAC,1642363,Clifford,N. Clifford,227,24,0,Missed,1,,,0,v,MISS Clifford 3PT Jump Shot,Missed Shot,Jump Shot,1,3,62
+0022600164,83,PT05M37.00S,1,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Rebound,Rebound,Unknown,0,0,63
+0022600164,85,PT05M21.00S,1,1610612742,DAL,1630230,Marshall,N. Marshall,237,21,24,Missed,1,,,0,h,MISS Marshall 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,64
+0022600164,86,PT05M21.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,65
+0022600164,87,PT05M15.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-58,192,20,Missed,1,,,0,v,MISS Acuff Jr. 20' Running Jump Shot,Missed Shot,Running Jump Shot,1,2,66
+0022600164,88,PT05M15.00S,1,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,67
+0022600164,89,PT05M11.00S,1,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington Out of Bounds - Bad Pass Turnover Turnover (P2.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,68
+0022600164,90,PT04M56.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,69
+0022600164,90,PT04M56.00S,1,1610612742,DAL,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,Marshall STEAL (1 STL),,,1,0,70
+0022600164,92,PT04M50.00S,1,1610612742,DAL,1642258,Risacher,Z. Risacher,16,253,25,Missed,1,,,0,h,MISS Risacher 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,71
+0022600164,93,PT04M50.00S,1,1610612758,SAC,1642363,Clifford,N. Clifford,0,0,0,,0,,,0,v,Clifford REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,72
+0022600164,94,PT04M25.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-24,30,4,Made,1,12,11,23,v,Sabonis 4' Driving Layup (2 PTS) (Acuff Jr. 2 AST),Made Shot,Driving Layup Shot,1,2,73
+0022600164,98,PT04M09.00S,1,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,SUB: Clayton Jr. FOR Washington,Substitution,,0,0,74
+0022600164,102,PT04M09.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Monk FOR Sabonis,Substitution,,0,0,75
+0022600164,103,PT04M09.00S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,SUB: Plowden FOR Acuff Jr.,Substitution,,0,0,76
+0022600164,104,PT04M09.00S,1,1610612758,SAC,1642363,Clifford,N. Clifford,0,0,0,,0,,,0,v,SUB: Achiuwa FOR Clifford,Substitution,,0,0,77
+0022600164,105,PT04M01.00S,1,1610612742,DAL,1642843,Flagg,C. Flagg,67,256,26,Missed,1,,,0,h,MISS Flagg 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,78
+0022600164,106,PT04M01.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,79
+0022600164,107,PT03M45.00S,1,1610612758,SAC,1628370,Monk,M. Monk,-3,43,4,Missed,1,,,0,v,MISS Monk 4' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,80
+0022600164,108,PT03M45.00S,1,1610612742,DAL,1642258,Risacher,Z. Risacher,0,0,0,,0,,,0,h,Risacher REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,81
+0022600164,109,PT03M23.00S,1,1610612742,DAL,1630230,Marshall,N. Marshall,-20,94,10,Missed,1,,,0,h,MISS Marshall 10' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,82
+0022600164,110,PT03M23.00S,1,1610612758,SAC,1631342,Plowden,D. Plowden,0,0,0,,0,,,0,v,Plowden REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,83
+0022600164,111,PT03M08.00S,1,1610612758,SAC,1628370,Monk,M. Monk,-112,225,25,Made,1,12,14,26,v,Monk 25' 3PT Jump Shot (3 PTS) (Hunter 2 AST),Made Shot,Jump Shot,1,3,84
+0022600164,113,PT02M51.00S,1,1610612742,DAL,1642843,Flagg,C. Flagg,43,12,4,Missed,1,,,0,h,MISS Flagg 4' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,85
+0022600164,114,PT02M51.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,86
+0022600164,115,PT02M44.00S,1,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,,0,,,0,h,Johnson Jr. S.FOUL (P1.T2) (R.Acosta),Foul,Shooting,1,0,87
+0022600164,117,PT02M44.00S,1,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,88
+0022600164,121,PT02M44.00S,1,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,SUB: Sasser FOR Flagg,Substitution,,0,0,89
+0022600164,122,PT02M44.00S,1,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,,0,,,0,h,SUB: Gafford FOR Johnson Jr.,Substitution,,0,0,90
+0022600164,118,PT02M44.00S,1,1610612758,SAC,1631342,Plowden,D. Plowden,0,0,0,,0,,,0,v,MISS Plowden Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,91
+0022600164,123,PT02M44.00S,1,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,1,0,92
+0022600164,124,PT02M44.00S,1,1610612758,SAC,1631342,Plowden,D. Plowden,0,0,0,,0,12,15,27,v,Plowden Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,93
+0022600164,125,PT02M25.00S,1,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,-32,106,11,Made,1,14,15,29,h,Clayton Jr. 11' Pullup Jump Shot (2 PTS) (Marshall 2 AST),Made Shot,Pullup Jump shot,1,2,94
+0022600164,127,PT02M10.00S,1,1610612758,SAC,1628370,Monk,M. Monk,123,249,28,Missed,1,,,0,v,MISS Monk 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,95
+0022600164,128,PT02M10.00S,1,1610612742,DAL,1642258,Risacher,Z. Risacher,0,0,0,,0,,,0,h,Risacher REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,96
+0022600164,129,PT02M00.00S,1,1610612742,DAL,1630230,Marshall,N. Marshall,155,193,25,Missed,1,,,0,h,MISS Marshall 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,97
+0022600164,130,PT02M00.00S,1,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,98
+0022600164,131,PT01M48.00S,1,1610612758,SAC,1631342,Plowden,D. Plowden,230,25,0,Missed,1,,,0,v,MISS Plowden 3PT Jump Shot,Missed Shot,Jump Shot,1,3,99
+0022600164,132,PT01M48.00S,1,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,100
+0022600164,133,PT01M38.00S,1,1610612742,DAL,1630230,Marshall,N. Marshall,12,251,25,Missed,1,,,0,h,MISS Marshall 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,101
+0022600164,134,PT01M38.00S,1,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,v,Sharp REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,102
+0022600164,135,PT01M21.00S,1,1610612758,SAC,1631342,Plowden,D. Plowden,233,79,25,Missed,1,,,0,v,MISS Plowden 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,103
+0022600164,136,PT01M21.00S,1,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,104
+0022600164,137,PT01M14.00S,1,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,v,Sharp S.FOUL (P2.T4) (R.Acosta),Foul,Shooting,1,0,105
+0022600164,139,PT01M14.00S,1,1610612742,DAL,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,MISS Marshall Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,106
+0022600164,141,PT01M14.00S,1,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Rebound,Rebound,Normal Rebound,1,0,107
+0022600164,146,PT01M14.00S,1,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,v,SUB: Sabonis FOR Sharp,Substitution,,0,0,108
+0022600164,147,PT01M14.00S,1,1610612758,SAC,1631342,Plowden,D. Plowden,0,0,0,,0,,,0,v,SUB: Acuff Jr. FOR Plowden,Substitution,,0,0,109
+0022600164,148,PT01M14.00S,1,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,SUB: LaVine FOR Hunter,Substitution,,0,0,110
+0022600164,142,PT01M14.00S,1,1610612742,DAL,1630230,Marshall,N. Marshall,0,0,0,,0,15,15,30,h,Marshall Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,111
+0022600164,149,PT01M00.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-21,-3,2,Made,1,15,17,32,v,Sabonis 2' Cutting Layup Shot (4 PTS) (Monk 1 AST),Made Shot,Cutting Layup Shot,1,2,112
+0022600164,151,PT00M52.40S,1,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,95,37,10,Missed,1,,,0,h,MISS Clayton Jr. 10' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,113
+0022600164,152,PT00M52.40S,1,1610612742,DAL,1642258,Risacher,Z. Risacher,0,0,0,,0,,,0,h,Risacher REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,114
+0022600164,153,PT00M42.90S,1,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,232,95,25,Made,1,18,17,35,h,Clayton Jr. 25' 3PT Jump Shot (5 PTS) (Risacher 1 AST),Made Shot,Jump Shot,1,3,115
+0022600164,155,PT00M29.10S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-22,18,3,Made,1,18,19,37,v,Sabonis 3' Cutting Layup Shot (6 PTS) (Monk 2 AST),Made Shot,Cutting Layup Shot,1,2,116
+0022600164,160,PT00M18.30S,1,1610612742,DAL,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,SUB: Martin FOR Marshall,Substitution,,0,0,117
+0022600164,161,PT00M18.30S,1,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,SUB: Washington FOR Gafford,Substitution,,0,0,118
+0022600164,162,PT00M07.50S,1,1610612742,DAL,1642258,Risacher,Z. Risacher,0,0,0,,0,,,0,h,Risacher Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,119
+0022600164,162,PT00M07.50S,1,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. STEAL (1 STL),,,1,0,120
+0022600164,164,PT00M02.20S,1,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,LaVine Out of Bounds Lost Ball Turnover (P2.T6),Turnover,Out of Bounds Lost Ball Turnover,1,0,121
+0022600164,165,PT00M00.30S,1,0,,0,,,0,0,0,,0,,,0,h,MAVERICKS Heave,Heave,Team Field Goal Attempt,0,0,122
+0022600164,166,PT00M00.30S,1,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Rebound,Rebound,Unknown,1,0,123
+0022600164,167,PT00M00.00S,1,0,,0,,,0,0,0,,0,18,19,37,,End of 1st Period (8:36 PM EST),period,end,1,0,124
+0022600164,170,PT12M00.00S,2,0,,0,,,0,0,0,,0,18,19,37,,Start of 2nd Period (8:39 PM EST),period,start,0,0,125
+0022600164,171,PT11M47.00S,2,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,Martin Violation:Kicked Ball (E.Scott),Violation,Kicked Ball,0,0,126
+0022600164,172,PT11M41.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-102,112,15,Missed,1,,,0,v,MISS Acuff Jr. 15' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,127
+0022600164,173,PT11M41.00S,2,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,128
+0022600164,176,PT11M21.00S,2,1610612742,DAL,1629655,Gafford,D. Gafford,-26,38,5,Made,1,20,19,39,h,Gafford 5' Hook Shot (6 PTS),Made Shot,Hook Shot,1,2,129
+0022600164,177,PT11M00.00S,2,1610612758,SAC,1641778,Black,L. Black,-18,14,2,Missed,1,,,0,v,MISS Black 2' Cutting Dunk Shot,Missed Shot,Cutting Dunk Shot,1,2,130
+0022600164,177,PT11M00.00S,2,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford BLOCK (1 BLK),,,1,2,131
+0022600164,178,PT11M00.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,132
+0022600164,180,PT10M56.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,Made,1,20,21,41,v,Sabonis Putback Layup (8 PTS),Made Shot,Putback Layup Shot,1,2,133
+0022600164,181,PT10M45.00S,2,1610612742,DAL,1642258,Risacher,Z. Risacher,0,0,0,,0,,,0,h,Risacher Bad Pass Turnover (P2.T4),Turnover,Bad Pass,1,0,134
+0022600164,181,PT10M45.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis STEAL (1 STL),,,1,0,135
+0022600164,183,PT10M41.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,3,8,1,Made,1,20,23,43,v,LaVine 1' Running Dunk (5 PTS) (Black 1 AST),Made Shot,Running Dunk Shot,1,2,136
+0022600164,186,PT10M18.00S,2,1610612742,DAL,1629655,Gafford,D. Gafford,13,5,1,Missed,1,,,0,h,MISS Gafford 1' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,137
+0022600164,187,PT10M18.00S,2,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,138
+0022600164,188,PT10M16.00S,2,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,Made,1,22,23,45,h,Gafford Putback Layup (8 PTS),Made Shot,Putback Layup Shot,1,2,139
+0022600164,189,PT10M03.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,9,162,16,Made,1,22,25,47,v,Acuff Jr. 16' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,140
+0022600164,190,PT09M53.00S,2,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,Martin Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,141
+0022600164,190,PT09M53.00S,2,1610612758,SAC,1641778,Black,L. Black,0,0,0,,0,,,0,v,Black STEAL (1 STL),,,1,0,142
+0022600164,192,PT09M50.00S,2,1610612742,DAL,1631204,Sasser,M. Sasser,0,0,0,,0,,,0,h,Sasser S.FOUL (P1.T1) (R.Acosta),Foul,Shooting,1,0,143
+0022600164,194,PT09M50.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,22,26,48,v,LaVine Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,144
+0022600164,198,PT09M50.00S,2,1610612742,DAL,1631204,Sasser,M. Sasser,0,0,0,,0,,,0,h,SUB: Washington FOR Sasser,Substitution,,0,0,145
+0022600164,199,PT09M50.00S,2,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,SUB: Flagg FOR Martin,Substitution,,0,0,146
+0022600164,195,PT09M50.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,22,27,49,v,LaVine Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,147
+0022600164,200,PT09M32.00S,2,1610612742,DAL,1629655,Gafford,D. Gafford,-5,38,4,Made,1,24,27,51,h,Gafford 4' Turnaround Jump Shot (10 PTS) (Flagg 2 AST),Made Shot,Turnaround Jump Shot,1,2,148
+0022600164,202,PT09M19.00S,2,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford S.FOUL (P1.T2) (S.Foster),Foul,Shooting,1,0,149
+0022600164,204,PT09M19.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,150
+0022600164,205,PT09M19.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,1,0,151
+0022600164,208,PT09M19.00S,2,1610612742,DAL,1642258,Risacher,Z. Risacher,0,0,0,,0,,,0,h,SUB: Christie FOR Risacher,Substitution,,0,0,152
+0022600164,210,PT09M19.00S,2,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,SUB: Hunter FOR Monk,Substitution,,0,0,153
+0022600164,206,PT09M19.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,24,28,52,v,Sabonis Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,154
+0022600164,211,PT09M06.00S,2,1610612742,DAL,1629655,Gafford,D. Gafford,4,2,0,Made,1,26,28,54,h,Gafford Alley Oop Dunk (12 PTS) (Flagg 3 AST),Made Shot,Alley Oop Dunk Shot,1,2,155
+0022600164,213,PT08M52.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,232,14,0,Missed,1,,,0,v,MISS Acuff Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,156
+0022600164,214,PT08M52.00S,2,1610612742,DAL,1631108,Christie,M. Christie,0,0,0,,0,,,0,h,Christie REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,157
+0022600164,215,PT08M28.00S,2,1610612742,DAL,1629655,Gafford,D. Gafford,17,62,6,Made,1,28,28,56,h,Gafford 6' Turnaround Fadeaway (14 PTS) (Clayton Jr. 1 AST),Made Shot,Turnaround Fadeaway shot,1,2,158
+0022600164,217,PT08M28.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P1.T1) (S.Foster),Foul,Shooting,1,0,159
+0022600164,219,PT08M28.00S,2,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,29,28,57,h,Gafford Free Throw 1 of 1 (15 PTS),Free Throw,Free Throw 1 of 1,1,0,160
+0022600164,220,PT08M21.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-22,61,6,Made,1,29,30,59,v,Acuff Jr. 6' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,161
+0022600164,221,PT08M10.00S,2,1610612742,DAL,1642843,Flagg,C. Flagg,-5,1,1,Made,1,31,30,61,h,Flagg 1' Driving Dunk (6 PTS),Made Shot,Driving Dunk Shot,1,2,162
+0022600164,222,PT08M09.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,163
+0022600164,224,PT08M09.00S,2,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,0,0,0,,0,,,0,h,SUB: Marshall FOR Clayton Jr.,Substitution,,0,0,164
+0022600164,226,PT07M51.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,-170,202,26,Missed,1,,,0,v,MISS LaVine 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,165
+0022600164,227,PT07M51.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,166
+0022600164,228,PT07M46.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,11,9,1,Made,1,31,32,63,v,LaVine 1' Cutting Dunk Shot (9 PTS) (Sabonis 2 AST),Made Shot,Cutting Dunk Shot,1,2,167
+0022600164,230,PT07M26.00S,2,1610612742,DAL,1631108,Christie,M. Christie,197,144,24,Missed,1,,,0,h,MISS Christie 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,168
+0022600164,231,PT07M26.00S,2,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,169
+0022600164,232,PT07M24.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P2.T2) (E.Scott),Foul,Shooting,1,0,170
+0022600164,234,PT07M24.00S,2,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,MISS Washington Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,171
+0022600164,235,PT07M24.00S,2,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Rebound,Rebound,Normal Rebound,1,0,172
+0022600164,238,PT07M24.00S,2,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,SUB: Johnson Jr. FOR Gafford,Substitution,,0,0,173
+0022600164,240,PT07M24.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Achiuwa FOR Sabonis,Substitution,,0,0,174
+0022600164,236,PT07M24.00S,2,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,32,32,64,h,Washington Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,175
+0022600164,241,PT07M14.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. Lost Ball Turnover (P2.T7),Turnover,Lost Ball,1,0,176
+0022600164,241,PT07M14.00S,2,1610612742,DAL,1631108,Christie,M. Christie,0,0,0,,0,,,0,h,Christie STEAL (1 STL),,,1,0,177
+0022600164,243,PT07M10.00S,2,1610612742,DAL,1631108,Christie,M. Christie,0,0,0,,0,,,0,h,Christie Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,178
+0022600164,243,PT07M10.00S,2,1610612758,SAC,1641778,Black,L. Black,0,0,0,,0,,,0,v,Black STEAL (2 STL),,,1,0,179
+0022600164,245,PT07M00.00S,2,1610612758,SAC,1629631,Hunter,D. Hunter,-22,13,3,Missed,1,,,0,v,MISS Hunter 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,180
+0022600164,246,PT07M00.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,1,0,181
+0022600164,249,PT06M59.00S,2,1610612742,DAL,1631108,Christie,M. Christie,0,0,0,,0,,,0,h,SUB: Clayton Jr. FOR Christie,Substitution,,0,0,182
+0022600164,250,PT06M45.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Turnover: Shot Clock (T#8),Turnover,Shot Clock Turnover,1,0,183
+0022600164,251,PT06M27.00S,2,1610612742,DAL,1642843,Flagg,C. Flagg,117,166,20,Made,1,34,32,66,h,Flagg 20' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,184
+0022600164,252,PT06M16.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,180,174,25,Missed,1,,,0,v,MISS Acuff Jr. 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,185
+0022600164,253,PT06M16.00S,2,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,186
+0022600164,254,PT06M12.00S,2,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter Lost Ball Turnover (P2.T9),Turnover,Lost Ball,1,0,187
+0022600164,254,PT06M12.00S,2,1610612742,DAL,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,Marshall STEAL (2 STL),,,1,0,188
+0022600164,256,PT06M06.00S,2,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,189
+0022600164,256,PT06M06.00S,2,1610612758,SAC,1641778,Black,L. Black,0,0,0,,0,,,0,v,Black STEAL (3 STL),,,1,0,190
+0022600164,258,PT06M00.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,234,45,24,Missed,1,,,0,v,MISS Acuff Jr. 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,191
+0022600164,259,PT06M00.00S,2,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,192
+0022600164,260,PT05M38.00S,2,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,-102,118,16,Made,1,36,32,68,h,Clayton Jr. 16' Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,2,193
+0022600164,261,PT05M25.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,LaVine Bad Pass Turnover (P3.T10),Turnover,Bad Pass,1,0,194
+0022600164,261,PT05M25.00S,2,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,0,0,0,,0,,,0,h,Clayton Jr. STEAL (1 STL),,,1,0,195
+0022600164,263,PT05M22.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,LaVine S.FOUL (P1.T3) (R.Acosta),Foul,Shooting,1,0,196
+0022600164,266,PT05M22.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,197
+0022600164,269,PT05M22.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,SUB: Sharp FOR Acuff Jr.,Substitution,,0,0,198
+0022600164,270,PT05M22.00S,2,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,SUB: Monk FOR LaVine,Substitution,,0,0,199
+0022600164,265,PT05M22.00S,2,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,0,0,0,,0,37,32,69,h,Clayton Jr. Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,200
+0022600164,271,PT05M22.00S,2,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,0,0,0,,0,38,32,70,h,Clayton Jr. Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,201
+0022600164,272,PT05M03.00S,2,1610612758,SAC,1628370,Monk,M. Monk,-136,227,26,Made,1,38,35,73,v,Monk 26' 3PT Step Back Jump Shot (6 PTS),Made Shot,Step Back Jump shot,1,3,202
+0022600164,273,PT04M47.00S,2,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter S.FOUL (P2.T4) (E.Scott),Foul,Shooting,1,0,203
+0022600164,275,PT04M47.00S,2,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,39,35,74,h,Flagg Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,204
+0022600164,276,PT04M47.00S,2,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,40,35,75,h,Flagg Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,205
+0022600164,277,PT04M24.00S,2,1610612758,SAC,1641778,Black,L. Black,-224,115,25,Made,1,40,38,78,v,Black 25' 3PT Jump Shot (3 PTS) (Achiuwa 1 AST),Made Shot,Jump Shot,1,3,206
+0022600164,279,PT04M15.00S,2,1610612742,DAL,1642843,Flagg,C. Flagg,-207,166,27,Missed,1,,,0,h,MISS Flagg 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,207
+0022600164,280,PT04M15.00S,2,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,v,Sharp REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,208
+0022600164,281,PT04M09.00S,2,1610612758,SAC,1629631,Hunter,D. Hunter,38,16,4,Made,1,40,40,80,v,Hunter 4' Running Finger Roll Layup (4 PTS) (Sharp 1 AST),Made Shot,Running Finger Roll Layup Shot,1,2,209
+0022600164,283,PT03M55.00S,2,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,-38,31,5,Made,1,42,40,82,h,Johnson Jr. 5' Turnaround Bank Hook Shot (4 PTS),Made Shot,Turnaround Bank Hook Shot,1,2,210
+0022600164,285,PT03M38.00S,2,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,-69,22,7,Made,1,42,42,84,v,Achiuwa 7' Jump Shot (3 PTS) (Monk 3 AST),Made Shot,Jump Shot,1,2,211
+0022600164,287,PT03M28.00S,2,1610612742,DAL,1642843,Flagg,C. Flagg,109,127,17,Missed,1,,,0,h,MISS Flagg 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,212
+0022600164,288,PT03M28.00S,2,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,,0,,,0,h,Johnson Jr. REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,213
+0022600164,289,PT03M24.00S,2,1610612742,DAL,1629023,Washington,P. Washington,-205,144,25,Made,1,45,42,87,h,Washington 25' 3PT Jump Shot (6 PTS) (Johnson Jr. 1 AST),Made Shot,Jump Shot,1,3,214
+0022600164,291,PT03M06.00S,2,1610612758,SAC,1629631,Hunter,D. Hunter,31,129,13,Made,1,45,44,89,v,Hunter 13' Jump Shot (6 PTS) (Monk 4 AST),Made Shot,Jump Shot,1,2,215
+0022600164,293,PT02M56.00S,2,1610612742,DAL,1629023,Washington,P. Washington,-232,23,0,Missed,1,,,0,h,MISS Washington 3PT Jump Shot,Missed Shot,Jump Shot,1,3,216
+0022600164,294,PT02M56.00S,2,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,,0,,,0,h,Johnson Jr. REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,217
+0022600164,295,PT02M54.00S,2,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,Made,1,47,44,91,h,Johnson Jr. Tip Layup Shot (6 PTS),Made Shot,Tip Layup Shot,1,2,218
+0022600164,296,PT02M39.00S,2,1610612758,SAC,1643567,Sharp,E. Sharp,195,166,26,Made,1,47,47,94,v,Sharp 26' 3PT Jump Shot (6 PTS),Made Shot,Jump Shot,1,3,219
+0022600164,298,PT02M30.00S,2,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa S.FOUL (P2.PN) (R.Acosta),Foul,Shooting,1,0,220
+0022600164,300,PT02M30.00S,2,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,,0,,,0,h,MISS Johnson Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,221
+0022600164,301,PT02M30.00S,2,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Rebound,Rebound,Normal Rebound,0,0,222
+0022600164,304,PT02M30.00S,2,1610612742,DAL,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,SUB: Martin FOR Marshall,Substitution,,0,0,223
+0022600164,307,PT02M30.00S,2,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,SUB: Sabonis FOR Achiuwa,Substitution,,0,0,224
+0022600164,308,PT02M30.00S,2,1610612758,SAC,1641778,Black,L. Black,0,0,0,,0,,,0,v,SUB: Acuff Jr. FOR Black,Substitution,,0,0,225
+0022600164,302,PT02M30.00S,2,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,,0,,,0,h,MISS Johnson Jr. Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,226
+0022600164,309,PT02M30.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,227
+0022600164,310,PT02M17.00S,2,1610612758,SAC,1629631,Hunter,D. Hunter,-19,91,9,Missed,1,,,0,v,MISS Hunter 9' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,228
+0022600164,311,PT02M17.00S,2,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,229
+0022600164,312,PT02M10.00S,2,1610612742,DAL,1642843,Flagg,C. Flagg,-90,30,9,Missed,1,,,0,h,MISS Flagg 9' Running Jump Shot,Missed Shot,Running Jump Shot,1,2,230
+0022600164,313,PT02M10.00S,2,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Rebound,Rebound,Unknown,1,0,231
+0022600164,314,PT02M09.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis L.B.FOUL (P3.PN) (S.Foster),Foul,Loose Ball,1,0,232
+0022600164,316,PT02M09.00S,2,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,,0,48,47,95,h,Johnson Jr. Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,233
+0022600164,319,PT02M09.00S,2,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,0,0,0,,0,,,0,h,SUB: Risacher FOR Clayton Jr.,Substitution,,0,0,234
+0022600164,321,PT02M09.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Achiuwa FOR Sabonis,Substitution,,0,0,235
+0022600164,317,PT02M09.00S,2,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,,0,49,47,96,h,Johnson Jr. Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,236
+0022600164,322,PT01M49.00S,2,1610612758,SAC,1628370,Monk,M. Monk,54,24,6,Made,1,49,49,98,v,Monk 6' Driving Bank Hook Shot (8 PTS),Made Shot,Driving Bank Hook Shot,1,2,237
+0022600164,323,PT01M23.00S,2,1610612742,DAL,1628997,Martin,C. Martin,101,194,22,Missed,1,,,0,h,MISS Martin 22' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,238
+0022600164,324,PT01M23.00S,2,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,239
+0022600164,325,PT01M18.00S,2,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter S.FOUL (P3.PN) (R.Acosta),Foul,Shooting,1,0,240
+0022600164,327,PT01M18.00S,2,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,,0,,,0,h,MISS Johnson Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,241
+0022600164,328,PT01M18.00S,2,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Rebound,Rebound,Normal Rebound,0,0,242
+0022600164,331,PT01M18.00S,2,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,SUB: Black FOR Hunter,Substitution,,0,0,243
+0022600164,329,PT01M18.00S,2,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,,0,50,49,99,h,Johnson Jr. Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,244
+0022600164,332,PT01M01.00S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,54,40,7,Made,1,50,51,101,v,Acuff Jr. 7' Driving Floating Bank Jump Shot (6 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,245
+0022600164,333,PT00M46.00S,2,1610612742,DAL,1628997,Martin,C. Martin,-170,175,24,Made,1,53,51,104,h,Martin 24' 3PT Jump Shot (3 PTS) (Flagg 4 AST),Made Shot,Jump Shot,1,3,246
+0022600164,335,PT00M34.60S,2,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,12,250,25,Missed,1,,,0,v,MISS Acuff Jr. 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,247
+0022600164,336,PT00M34.60S,2,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,248
+0022600164,337,PT00M22.40S,2,1610612742,DAL,1642843,Flagg,C. Flagg,26,9,3,Missed,1,,,0,h,MISS Flagg 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,249
+0022600164,337,PT00M22.40S,2,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,v,Sharp BLOCK (1 BLK),,,1,2,250
+0022600164,338,PT00M22.40S,2,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,v,Sharp REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,251
+0022600164,340,PT00M05.20S,2,1610612758,SAC,1628370,Monk,M. Monk,4,253,25,Made,1,53,54,107,v,Monk 25' 3PT Jump Shot (11 PTS) (Acuff Jr. 3 AST),Made Shot,Jump Shot,1,3,252
+0022600164,342,PT00M00.40S,2,1610612742,DAL,1628997,Martin,C. Martin,-90,264,28,Missed,1,,,0,h,MISS Martin 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,253
+0022600164,343,PT00M00.40S,2,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Rebound,Rebound,Unknown,1,0,254
+0022600164,344,PT00M00.00S,2,0,,0,,,0,0,0,,0,53,54,107,,End of 2nd Period (9:07 PM EST),period,end,1,0,255
+0022600164,355,PT12M00.00S,3,0,,0,,,0,0,0,,0,53,54,107,,Start of 3rd Period (9:23 PM EST),period,start,1,0,256
+0022600164,356,PT11M40.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,-235,11,24,Missed,1,,,0,v,MISS Hunter 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,257
+0022600164,357,PT11M40.00S,3,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,0,0,0,,0,,,0,h,Clayton Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,258
+0022600164,358,PT11M28.00S,3,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford OFF.Foul (P2) (S.Foster),Foul,Offensive,1,0,259
+0022600164,360,PT11M28.00S,3,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford Offensive Foul Turnover (P1.T8),Turnover,Offensive Foul Turnover,1,0,260
+0022600164,361,PT11M11.00S,3,1610612758,SAC,203897,LaVine,Z. LaVine,-190,183,26,Made,1,53,57,110,v,LaVine 26' 3PT Jump Shot (12 PTS) (Achiuwa 2 AST),Made Shot,Jump Shot,1,3,261
+0022600164,363,PT11M00.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,-31,249,25,Missed,1,,,0,h,MISS Flagg 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,262
+0022600164,364,PT11M00.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,263
+0022600164,365,PT10M55.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. Lost Ball Turnover (P3.T11),Turnover,Lost Ball,1,0,264
+0022600164,365,PT10M55.00S,3,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington STEAL (2 STL),,,1,0,265
+0022600164,367,PT10M37.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. P.FOUL (P1.T1) (R.Acosta),Foul,Personal,1,0,266
+0022600164,369,PT10M37.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg Out of Bounds - Bad Pass Turnover Turnover (P2.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,267
+0022600164,370,PT10M27.00S,3,1610612758,SAC,203897,LaVine,Z. LaVine,31,16,3,Missed,1,,,0,v,MISS LaVine 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,268
+0022600164,371,PT10M27.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:4 Def:0),Rebound,Unknown,1,0,269
+0022600164,372,PT10M18.00S,3,1610612758,SAC,203897,LaVine,Z. LaVine,-240,54,25,Missed,1,,,0,v,MISS LaVine 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,270
+0022600164,373,PT10M18.00S,3,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,271
+0022600164,374,PT10M13.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. P.FOUL (P2.T2) (S.Foster),Foul,Personal,1,0,272
+0022600164,376,PT10M09.00S,3,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,-70,67,10,Missed,1,,,0,h,MISS Clayton Jr. 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,273
+0022600164,377,PT10M09.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,274
+0022600164,378,PT09M59.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-40,258,26,Made,1,53,60,113,v,Acuff Jr. 26' 3PT Jump Shot (9 PTS) (Achiuwa 3 AST),Made Shot,Jump Shot,1,3,275
+0022600164,380,PT09M44.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,87,52,10,Made,1,55,60,115,h,Flagg 10' Driving Floating Bank Jump Shot (12 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,276
+0022600164,381,PT09M31.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-65,59,9,Made,1,55,62,117,v,Acuff Jr. 9' Driving Floating Jump Shot (11 PTS) (Sabonis 3 AST),Made Shot,Driving Floating Jump Shot,1,2,277
+0022600164,383,PT09M30.00S,3,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,278
+0022600164,385,PT09M30.00S,3,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,0,0,0,,0,,,0,h,SUB: Sasser FOR Clayton Jr.,Substitution,,0,0,279
+0022600164,386,PT09M18.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg Traveling Turnover (P3.T10),Turnover,Traveling,1,0,280
+0022600164,387,PT09M07.00S,3,1610612758,SAC,203897,LaVine,Z. LaVine,213,140,25,Missed,1,,,0,v,MISS LaVine 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,281
+0022600164,388,PT09M07.00S,3,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,282
+0022600164,390,PT08M56.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,40,200,20,Missed,1,,,0,h,MISS Flagg 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,283
+0022600164,391,PT08M56.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,284
+0022600164,392,PT08M49.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Traveling Turnover (P2.T12),Turnover,Traveling,1,0,285
+0022600164,393,PT08M34.00S,3,1610612742,DAL,1629023,Washington,P. Washington,26,24,4,Missed,1,,,0,h,MISS Washington 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,286
+0022600164,393,PT08M34.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa BLOCK (1 BLK),,,1,2,287
+0022600164,394,PT08M34.00S,3,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Rebound,Rebound,Unknown,1,0,288
+0022600164,397,PT08M30.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,-104,19,11,Missed,1,,,0,h,MISS Flagg 11' Jump Shot,Missed Shot,Jump Shot,1,2,289
+0022600164,398,PT08M30.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,290
+0022600164,399,PT08M22.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,110,218,24,Missed,1,,,0,v,MISS Hunter 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,291
+0022600164,400,PT08M22.00S,3,1610612742,DAL,1631204,Sasser,M. Sasser,0,0,0,,0,,,0,h,Sasser REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,292
+0022600164,401,PT08M12.00S,3,1610612742,DAL,1629023,Washington,P. Washington,177,192,26,Made,1,58,62,120,h,Washington 26' 3PT Jump Shot (9 PTS) (Sasser 1 AST),Made Shot,Jump Shot,1,3,293
+0022600164,403,PT08M10.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,294
+0022600164,405,PT08M10.00S,3,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,SUB: Marshall FOR Martin,Substitution,,0,0,295
+0022600164,406,PT07M56.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-57,249,26,Missed,1,,,0,v,MISS Acuff Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,296
+0022600164,407,PT07M56.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:5 Def:0),Rebound,Unknown,1,0,297
+0022600164,408,PT07M52.00S,3,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford P.FOUL (P3.T1) (R.Acosta),Foul,Personal,1,0,298
+0022600164,410,PT07M40.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Lost Ball Turnover (P3.T13),Turnover,Lost Ball,1,0,299
+0022600164,410,PT07M40.00S,3,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford STEAL (1 STL),,,1,0,300
+0022600164,412,PT07M33.00S,3,1610612742,DAL,1629023,Washington,P. Washington,-179,166,24,Missed,1,,,0,h,MISS Washington 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,301
+0022600164,413,PT07M33.00S,3,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Rebound,Rebound,Unknown,1,0,302
+0022600164,417,PT07M31.00S,3,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,SUB: Black FOR LaVine,Substitution,,0,0,303
+0022600164,418,PT07M31.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,SUB: Monk FOR Achiuwa,Substitution,,0,0,304
+0022600164,419,PT07M28.00S,3,1610612742,DAL,1631204,Sasser,M. Sasser,159,43,16,Made,1,60,62,122,h,Sasser 16' Jump Shot (2 PTS) (Marshall 3 AST),Made Shot,Jump Shot,1,2,305
+0022600164,421,PT07M05.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,-232,19,0,Missed,1,,,0,v,MISS Hunter 3PT Jump Shot,Missed Shot,Jump Shot,1,3,306
+0022600164,422,PT07M05.00S,3,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,307
+0022600164,423,PT06M55.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. P.FOUL (P3.T3) (S.Foster),Foul,Personal,1,0,308
+0022600164,425,PT06M51.00S,3,1610612742,DAL,1631204,Sasser,M. Sasser,30,212,21,Made,1,62,62,124,h,Sasser 21' Step Back Jump Shot (4 PTS) (Marshall 4 AST),Made Shot,Step Back Jump shot,1,2,309
+0022600164,427,PT06M38.00S,3,1610612758,SAC,1628370,Monk,M. Monk,13,276,28,Missed,1,,,0,v,MISS Monk 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,310
+0022600164,428,PT06M38.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,311
+0022600164,429,PT06M28.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,74,23,8,Missed,1,,,0,h,MISS Flagg 8' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,312
+0022600164,430,PT06M28.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,313
+0022600164,431,PT06M21.00S,3,1610612758,SAC,1628370,Monk,M. Monk,-4,0,0,Made,1,62,64,126,v,Monk Running Dunk (13 PTS) (Acuff Jr. 4 AST),Made Shot,Running Dunk Shot,1,2,314
+0022600164,433,PT06M19.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Violation: Delay of game Violation,Violation,Delay Of Game,0,0,315
+0022600164,434,PT06M03.00S,3,1610612742,DAL,1629655,Gafford,D. Gafford,8,33,3,Made,1,64,64,128,h,Gafford 3' Layup (18 PTS) (Marshall 5 AST),Made Shot,Layup Shot,1,2,316
+0022600164,435,PT06M03.00S,3,1610612758,SAC,1641778,Black,L. Black,0,0,0,,0,,,0,v,Black S.FOUL (P1.T4) (E.Scott),Foul,Shooting,1,0,317
+0022600164,438,PT06M03.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,SUB: Risacher FOR Flagg,Substitution,,0,0,318
+0022600164,439,PT06M03.00S,3,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,65,64,129,h,Gafford Free Throw 1 of 1 (18 PTS),Free Throw,Free Throw 1 of 1,1,0,319
+0022600164,440,PT05M49.00S,3,1610612758,SAC,1641778,Black,L. Black,188,169,25,Made,1,65,67,132,v,Black 25' 3PT Jump Shot (6 PTS) (Acuff Jr. 5 AST),Made Shot,Jump Shot,1,3,320
+0022600164,442,PT05M40.00S,3,1610612742,DAL,1630230,Marshall,N. Marshall,100,68,12,Missed,1,,,0,h,MISS Marshall 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,321
+0022600164,443,PT05M40.00S,3,1610612758,SAC,1641778,Black,L. Black,0,0,0,,0,,,0,v,Black REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,322
+0022600164,444,PT05M27.00S,3,1610612758,SAC,1641778,Black,L. Black,185,156,24,Missed,1,,,0,v,MISS Black 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,323
+0022600164,445,PT05M27.00S,3,1610612742,DAL,1642258,Risacher,Z. Risacher,0,0,0,,0,,,0,h,Risacher REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,324
+0022600164,446,PT05M13.00S,3,1610612742,DAL,1631204,Sasser,M. Sasser,-206,134,25,Missed,1,,,0,h,MISS Sasser 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,325
+0022600164,447,PT05M13.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,326
+0022600164,448,PT05M00.00S,3,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,327
+0022600164,448,PT05M00.00S,3,1610612742,DAL,1642258,Risacher,Z. Risacher,0,0,0,,0,,,0,h,Risacher STEAL (1 STL),,,1,0,328
+0022600164,450,PT04M46.00S,3,1610612742,DAL,1630230,Marshall,N. Marshall,-23,252,25,Missed,1,,,0,h,MISS Marshall 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,329
+0022600164,451,PT04M46.00S,3,1610612742,DAL,1642258,Risacher,Z. Risacher,0,0,0,,0,,,0,h,Risacher REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,330
+0022600164,452,PT04M42.00S,3,1610612742,DAL,1629023,Washington,P. Washington,-120,227,26,Missed,1,,,0,h,MISS Washington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,331
+0022600164,453,PT04M42.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:5 Def:1),Rebound,Unknown,1,0,332
+0022600164,454,PT04M30.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,131,180,22,Made,1,65,69,134,v,Acuff Jr. 22' Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,2,333
+0022600164,456,PT04M20.00S,3,1610612742,DAL,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,Marshall Out of Bounds - Bad Pass Turnover Turnover (P1.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,334
+0022600164,457,PT04M09.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,113,110,16,Made,1,65,71,136,v,Acuff Jr. 16' Driving Floating Jump Shot (15 PTS) (Monk 5 AST),Made Shot,Driving Floating Jump Shot,1,2,335
+0022600164,459,PT04M09.00S,3,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,336
+0022600164,462,PT04M09.00S,3,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,SUB: Johnson Jr. FOR Gafford,Substitution,,0,0,337
+0022600164,463,PT04M09.00S,3,1610612742,DAL,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,SUB: Flagg FOR Marshall,Substitution,,0,0,338
+0022600164,464,PT03M48.00S,3,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,32,92,10,Made,1,67,71,138,h,Johnson Jr. 10' Jump Shot (11 PTS) (Washington 1 AST),Made Shot,Jump Shot,1,2,339
+0022600164,466,PT03M26.00S,3,1610612758,SAC,1641778,Black,L. Black,-238,34,24,Made,1,67,74,141,v,Black 24' 3PT Jump Shot (9 PTS) (Acuff Jr. 6 AST),Made Shot,Jump Shot,1,3,340
+0022600164,468,PT03M18.00S,3,1610612758,SAC,1641778,Black,L. Black,0,0,0,,0,,,0,v,Black P.FOUL (P2.PN) (S.Foster),Foul,Personal,1,0,341
+0022600164,470,PT03M18.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,68,74,142,h,Flagg Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,342
+0022600164,471,PT03M18.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,69,74,143,h,Flagg Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,343
+0022600164,472,PT03M06.00S,3,1610612742,DAL,1642258,Risacher,Z. Risacher,0,0,0,,0,,,0,h,Risacher P.FOUL (P1.T2) (S.Foster),Foul,Personal,1,0,344
+0022600164,475,PT03M06.00S,3,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,SUB: Martin FOR Washington,Substitution,,0,0,345
+0022600164,476,PT02M54.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-148,237,28,Missed,1,,,0,v,MISS Acuff Jr. 28' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,346
+0022600164,477,PT02M54.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,1,0,347
+0022600164,478,PT02M53.00S,3,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,Martin L.B.FOUL (P1.T3) (R.Acosta),Foul,Loose Ball,1,0,348
+0022600164,481,PT02M38.00S,3,1610612758,SAC,1641778,Black,L. Black,-187,190,27,Missed,1,,,0,v,MISS Black 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,349
+0022600164,482,PT02M38.00S,3,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,350
+0022600164,483,PT02M30.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter P.FOUL (P4.PN) (S.Foster),Foul,Personal,1,0,351
+0022600164,485,PT02M30.00S,3,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,70,74,144,h,Martin Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,352
+0022600164,488,PT02M30.00S,3,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,,0,,,0,h,SUB: Gafford FOR Johnson Jr.,Substitution,,0,0,353
+0022600164,491,PT02M30.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Sharp FOR Sabonis,Substitution,,0,0,354
+0022600164,492,PT02M30.00S,3,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,SUB: Achiuwa FOR Hunter,Substitution,,0,0,355
+0022600164,486,PT02M30.00S,3,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,71,74,145,h,Martin Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,356
+0022600164,493,PT02M12.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg S.FOUL (P1.T4) (S.Foster),Foul,Shooting,1,0,357
+0022600164,495,PT02M12.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,MISS Acuff Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,358
+0022600164,496,PT02M12.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,1,0,359
+0022600164,497,PT02M12.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,71,75,146,v,Acuff Jr. Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,1,0,360
+0022600164,498,PT01M55.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,-5,34,3,Missed,1,,,0,h,MISS Flagg 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,361
+0022600164,499,PT01M55.00S,3,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Rebound,Rebound,Unknown,1,0,362
+0022600164,501,PT01M51.00S,3,1610612758,SAC,1641778,Black,L. Black,0,0,0,,0,,,0,v,Black P.FOUL (P3.PN) (E.Scott),Foul,Personal,1,0,363
+0022600164,503,PT01M51.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,72,75,147,h,Flagg Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,1,0,364
+0022600164,504,PT01M51.00S,3,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,73,75,148,h,Flagg Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,1,0,365
+0022600164,505,PT01M38.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,55,29,6,Missed,1,,,0,v,MISS Acuff Jr. 6' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,366
+0022600164,506,PT01M38.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,367
+0022600164,507,PT01M37.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,-12,1,1,Made,1,73,77,150,v,Achiuwa 1' Putback Layup (6 PTS),Made Shot,Putback Layup Shot,1,2,368
+0022600164,508,PT01M37.00S,3,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford S.FOUL (P4.PN) (E.Scott),Foul,Shooting,1,0,369
+0022600164,511,PT01M37.00S,3,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,SUB: Washington FOR Gafford,Substitution,,0,0,370
+0022600164,513,PT01M37.00S,3,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,SUB: LaVine FOR Acuff Jr.,Substitution,,0,0,371
+0022600164,514,PT01M37.00S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,73,78,151,v,Achiuwa Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,372
+0022600164,515,PT01M23.00S,3,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,v,Sharp P.FOUL (P3.PN) (E.Scott),Foul,Personal,1,0,373
+0022600164,517,PT01M23.00S,3,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,74,78,152,h,Washington Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,374
+0022600164,518,PT01M23.00S,3,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,MISS Washington Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,375
+0022600164,519,PT01M23.00S,3,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,LaVine REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,376
+0022600164,520,PT01M04.00S,3,1610612742,DAL,1642258,Risacher,Z. Risacher,0,0,0,,0,,,0,h,Risacher P.FOUL (P2.PN) (S.Foster),Foul,Personal,1,0,377
+0022600164,522,PT01M04.00S,3,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,MISS Monk Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,378
+0022600164,523,PT01M04.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,0,0,379
+0022600164,524,PT01M04.00S,3,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,74,79,153,v,Monk Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,380
+0022600164,525,PT00M45.40S,3,1610612742,DAL,1642258,Risacher,Z. Risacher,-49,249,25,Missed,1,,,0,h,MISS Risacher 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,381
+0022600164,526,PT00M45.40S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,382
+0022600164,527,PT00M31.30S,3,1610612758,SAC,1628370,Monk,M. Monk,42,36,6,Missed,1,,,0,v,MISS Monk 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,383
+0022600164,528,PT00M31.30S,3,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,384
+0022600164,529,PT00M26.50S,3,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,Martin Violation:Kicked Ball (E.Scott),Violation,Kicked Ball,0,0,385
+0022600164,530,PT00M16.90S,3,1610612758,SAC,203897,LaVine,Z. LaVine,17,5,2,Made,1,74,81,155,v,LaVine 2' Driving Reverse Layup (14 PTS),Made Shot,Driving Reverse Layup Shot,1,2,386
+0022600164,531,PT00M00.30S,3,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg Lost Ball Turnover (P4.T12),Turnover,Lost Ball,1,0,387
+0022600164,531,PT00M00.30S,3,1610612758,SAC,1641778,Black,L. Black,0,0,0,,0,,,0,v,Black STEAL (4 STL),,,1,0,388
+0022600164,533,PT00M00.00S,3,0,,0,,,0,0,0,,0,74,81,155,,End of 3rd Period (9:56 PM EST),period,end,1,0,389
+0022600164,534,PT12M00.00S,4,0,,0,,,0,0,0,,0,74,81,155,,Start of 4th Period (9:59 PM EST),period,start,0,0,390
+0022600164,535,PT11M46.00S,4,1610612742,DAL,1642843,Flagg,C. Flagg,26,28,4,Missed,1,,,0,h,MISS Flagg 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,391
+0022600164,535,PT11M46.00S,4,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa BLOCK (2 BLK),,,1,2,392
+0022600164,536,PT11M46.00S,4,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,393
+0022600164,538,PT11M22.00S,4,1610612758,SAC,1628370,Monk,M. Monk,-93,71,12,Made,1,74,83,157,v,Monk 12' Driving Floating Jump Shot (16 PTS),Made Shot,Driving Floating Jump Shot,1,2,394
+0022600164,539,PT11M06.00S,4,1610612742,DAL,1642258,Risacher,Z. Risacher,83,249,26,Missed,1,,,0,h,MISS Risacher 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,395
+0022600164,540,PT11M06.00S,4,1610612758,SAC,1641778,Black,L. Black,0,0,0,,0,,,0,v,Black REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,396
+0022600164,541,PT10M58.00S,4,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg P.FOUL (P2.T1) (R.Acosta),Foul,Personal,1,0,397
+0022600164,544,PT10M58.00S,4,1610612742,DAL,1642258,Risacher,Z. Risacher,0,0,0,,0,,,0,h,SUB: Gafford FOR Risacher,Substitution,,0,0,398
+0022600164,545,PT10M42.00S,4,1610612758,SAC,1628370,Monk,M. Monk,116,224,25,Missed,1,,,0,v,MISS Monk 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,399
+0022600164,546,PT10M42.00S,4,1610612758,SAC,1641778,Black,L. Black,0,0,0,,0,,,0,v,Black REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,400
+0022600164,547,PT10M40.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Turnover: Shot Clock (T#15),Turnover,Shot Clock Turnover,1,0,401
+0022600164,557,PT10M40.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Delay,Foul,Delay Technical,0,0,402
+0022600164,558,PT10M40.00S,4,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,75,83,158,h,Flagg Free Throw Technical (17 PTS),Free Throw,Free Throw Technical,1,0,403
+0022600164,550,PT10M25.00S,4,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg Bad Pass Turnover (P5.T13),Turnover,Bad Pass,1,0,404
+0022600164,550,PT10M25.00S,4,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,v,Sharp STEAL (1 STL),,,1,0,405
+0022600164,552,PT10M21.00S,4,1610612758,SAC,1643567,Sharp,E. Sharp,-175,193,26,Made,1,75,86,161,v,Sharp 26' 3PT Running Jump Shot (9 PTS),Made Shot,Running Jump Shot,1,3,406
+0022600164,553,PT09M59.00S,4,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,v,Sharp S.FOUL (P4.T1) (R.Acosta),Foul,Shooting,1,0,407
+0022600164,555,PT09M59.00S,4,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,76,86,162,h,Washington Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,408
+0022600164,556,PT09M59.00S,4,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,77,86,163,h,Washington Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,409
+0022600164,559,PT09M44.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,45,253,26,Made,1,77,89,166,v,LaVine 26' 3PT Jump Shot (17 PTS) (Monk 6 AST),Made Shot,Jump Shot,1,3,410
+0022600164,561,PT09M21.00S,4,1610612742,DAL,1631204,Sasser,M. Sasser,0,0,0,,0,,,0,h,Sasser Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,411
+0022600164,561,PT09M21.00S,4,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa STEAL (2 STL),,,1,0,412
+0022600164,563,PT09M15.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,-193,164,25,Missed,1,,,0,v,MISS LaVine 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,413
+0022600164,564,PT09M15.00S,4,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,414
+0022600164,565,PT09M05.00S,4,1610612742,DAL,1629655,Gafford,D. Gafford,13,17,2,Made,1,79,89,168,h,Gafford 2' Reverse Layup (20 PTS) (Flagg 5 AST),Made Shot,Reverse Layup Shot,1,2,415
+0022600164,567,PT08M46.00S,4,1610612758,SAC,1628370,Monk,M. Monk,-1,151,15,Made,1,79,91,170,v,Monk 15' Step Back Jump Shot (18 PTS),Made Shot,Step Back Jump shot,1,2,416
+0022600164,568,PT08M28.00S,4,1610612742,DAL,1629023,Washington,P. Washington,237,87,25,Missed,1,,,0,h,MISS Washington 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,417
+0022600164,569,PT08M28.00S,4,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,Gafford REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,418
+0022600164,570,PT08M23.00S,4,1610612742,DAL,1631204,Sasser,M. Sasser,13,248,25,Missed,1,,,0,h,MISS Sasser 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,419
+0022600164,571,PT08M23.00S,4,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,420
+0022600164,572,PT08M14.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,421
+0022600164,576,PT08M14.00S,4,1610612742,DAL,1628997,Martin,C. Martin,0,0,0,,0,,,0,h,SUB: Clayton Jr. FOR Martin,Substitution,,0,0,422
+0022600164,577,PT08M14.00S,4,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,SUB: Johnson Jr. FOR Washington,Substitution,,0,0,423
+0022600164,578,PT08M14.00S,4,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,SUB: Marshall FOR Gafford,Substitution,,0,0,424
+0022600164,580,PT08M14.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,SUB: Acuff Jr. FOR LaVine,Substitution,,0,0,425
+0022600164,581,PT08M02.00S,4,1610612758,SAC,1628370,Monk,M. Monk,140,195,24,Made,1,79,94,173,v,Monk 24' 3PT Step Back Jump Shot (21 PTS),Made Shot,Step Back Jump shot,1,3,426
+0022600164,582,PT07M47.00S,4,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,121,213,24,Made,1,82,94,176,h,Clayton Jr. 24' 3PT Pullup Jump Shot (12 PTS),Made Shot,Pullup Jump shot,1,3,427
+0022600164,583,PT07M23.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. Lost Ball Turnover (P4.T16),Turnover,Lost Ball,1,0,428
+0022600164,583,PT07M23.00S,4,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,,0,,,0,h,Johnson Jr. STEAL (1 STL),,,1,0,429
+0022600164,585,PT07M20.00S,4,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,v,Sharp P.FOUL (P5.T2) (E.Scott),Foul,Personal,1,0,430
+0022600164,588,PT07M20.00S,4,1610612758,SAC,1641778,Black,L. Black,0,0,0,,0,,,0,v,SUB: Sabonis FOR Black,Substitution,,0,0,431
+0022600164,590,PT07M20.00S,4,1610612758,SAC,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,SUB: Hunter FOR Achiuwa,Substitution,,0,0,432
+0022600164,591,PT07M14.00S,4,1610612742,DAL,1642843,Flagg,C. Flagg,148,213,26,Missed,1,,,0,h,MISS Flagg 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,433
+0022600164,592,PT07M14.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,434
+0022600164,593,PT07M02.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,25,11,3,Missed,1,,,0,v,MISS Acuff Jr. 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,435
+0022600164,594,PT07M02.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,1,0,436
+0022600164,596,PT07M01.00S,4,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,437
+0022600164,597,PT07M01.00S,4,0,,0,,,0,0,0,,0,82,94,176,,Instant Replay4th Period (10:13 PM EST),Instant Replay,Coach Challenge Ruling Stands,0,0,438
+0022600164,599,PT07M01.00S,4,1610612758,SAC,1643567,Sharp,E. Sharp,0,0,0,,0,,,0,v,SUB: LaVine FOR Sharp,Substitution,,0,0,439
+0022600164,601,PT07M01.00S,4,1610612742,DAL,1631204,Sasser,M. Sasser,0,0,0,,0,,,0,h,SUB: Washington FOR Sasser,Substitution,,0,0,440
+0022600164,602,PT06M55.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,,,0,v,Acuff Jr. Bad Pass Turnover (P5.T17),Turnover,Bad Pass,1,0,441
+0022600164,602,PT06M55.00S,4,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg STEAL (1 STL),,,1,0,442
+0022600164,604,PT06M53.00S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk P.FOUL (P1.T3) (S.Foster),Foul,Personal,1,0,443
+0022600164,606,PT06M46.00S,4,1610612742,DAL,1642843,Flagg,C. Flagg,-89,62,11,Missed,1,,,0,h,MISS Flagg 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,444
+0022600164,606,PT06M46.00S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk BLOCK (1 BLK),,,1,2,445
+0022600164,607,PT06M46.00S,4,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Rebound,Rebound,Unknown,1,0,446
+0022600164,610,PT06M44.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,447
+0022600164,612,PT06M36.00S,4,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,13,1,Made,1,84,94,178,h,Johnson Jr. 1' Driving Dunk (13 PTS) (Flagg 6 AST),Made Shot,Driving Dunk Shot,1,2,448
+0022600164,614,PT06M17.00S,4,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington P.FOUL (P1.T2) (S.Foster),Foul,Personal,1,0,449
+0022600164,616,PT06M08.00S,4,1610612758,SAC,1629631,Hunter,D. Hunter,-24,13,3,Missed,1,,,0,v,MISS Hunter 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,450
+0022600164,617,PT06M08.00S,4,1610612742,DAL,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,Marshall REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,451
+0022600164,618,PT05M59.00S,4,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,141,213,26,Made,1,87,94,181,h,Clayton Jr. 26' 3PT Jump Shot (15 PTS) (Marshall 6 AST),Made Shot,Jump Shot,1,3,452
+0022600164,620,PT05M42.00S,4,1610612742,DAL,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,Marshall S.FOUL (P1.T3) (R.Acosta),Foul,Shooting,1,0,453
+0022600164,622,PT05M42.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,87,95,182,v,Acuff Jr. Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,1,0,454
+0022600164,623,PT05M42.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,0,0,0,,0,87,96,183,v,Acuff Jr. Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,455
+0022600164,624,PT05M34.00S,4,1610612742,DAL,1630230,Marshall,N. Marshall,22,5,2,Missed,1,,,0,h,MISS Marshall 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,456
+0022600164,625,PT05M34.00S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,457
+0022600164,626,PT05M24.00S,4,1610612758,SAC,1628370,Monk,M. Monk,-96,238,26,Made,1,87,99,186,v,Monk 26' 3PT Jump Shot (24 PTS) (LaVine 1 AST),Made Shot,Jump Shot,1,3,458
+0022600164,628,PT05M08.00S,4,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,191,165,25,Missed,1,,,0,h,MISS Clayton Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,459
+0022600164,629,PT05M08.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:5 Def:2),Rebound,Unknown,1,0,460
+0022600164,630,PT04M53.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-54,78,9,Made,1,87,101,188,v,Acuff Jr. 9' Driving Floating Jump Shot (20 PTS),Made Shot,Driving Floating Jump Shot,1,2,461
+0022600164,631,PT04M28.00S,4,1610612742,DAL,1630230,Marshall,N. Marshall,63,57,8,Made,1,89,101,190,h,Marshall 8' Driving Floating Jump Shot (3 PTS),Made Shot,Driving Floating Jump Shot,1,2,462
+0022600164,632,PT04M10.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,33,11,3,Made,1,89,103,192,v,Acuff Jr. 3' Driving Layup (22 PTS),Made Shot,Driving Layup Shot,1,2,463
+0022600164,633,PT04M10.00S,4,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,464
+0022600164,635,PT04M10.00S,4,1610612742,DAL,1643516,Johnson Jr.,M. Johnson Jr.,0,0,0,,0,,,0,h,SUB: Gafford FOR Johnson Jr.,Substitution,,0,0,465
+0022600164,636,PT03M59.00S,4,1610612742,DAL,1630230,Marshall,N. Marshall,64,45,8,Made,1,91,103,194,h,Marshall 8' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,466
+0022600164,637,PT03M41.00S,4,1610612758,SAC,1643411,Acuff Jr.,D. Acuff Jr.,-50,263,27,Made,1,91,106,197,v,Acuff Jr. 27' 3PT Pullup Jump Shot (25 PTS),Made Shot,Pullup Jump shot,1,3,467
+0022600164,638,PT03M28.00S,4,1610612742,DAL,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,Marshall Backcourt Turnover (P2.T15),Turnover,Backcourt Turnover,1,0,468
+0022600164,639,PT03M14.00S,4,1610612742,DAL,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,Marshall P.FOUL (P2.T4) (S.Foster),Foul,Personal,1,0,469
+0022600164,641,PT03M12.00S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk Bad Pass Turnover (P2.T18),Turnover,Bad Pass,1,0,470
+0022600164,641,PT03M12.00S,4,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg STEAL (2 STL),,,1,0,471
+0022600164,643,PT03M09.00S,4,1610612758,SAC,1629631,Hunter,D. Hunter,0,0,0,,0,,,0,v,Hunter S.FOUL (P5.T4) (S.Foster),Foul,Shooting,1,0,472
+0022600164,645,PT03M09.00S,4,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,0,0,0,,0,92,106,198,h,Clayton Jr. Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,473
+0022600164,646,PT03M09.00S,4,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,0,0,0,,0,93,106,199,h,Clayton Jr. Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,474
+0022600164,647,PT02M46.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,231,7,0,Made,1,93,109,202,v,LaVine 3PT Jump Shot (20 PTS) (Monk 7 AST),Made Shot,Jump Shot,1,3,475
+0022600164,649,PT02M40.00S,4,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,Flagg Backcourt Turnover (P6.T16),Turnover,Backcourt Turnover,1,0,476
+0022600164,650,PT02M18.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,139,208,25,Made,1,93,112,205,v,LaVine 25' 3PT Step Back Jump Shot (23 PTS),Made Shot,Step Back Jump shot,1,3,477
+0022600164,651,PT02M03.00S,4,1610612742,DAL,1629023,Washington,P. Washington,123,215,25,Missed,1,,,0,h,MISS Washington 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,478
+0022600164,652,PT02M03.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,LaVine REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,479
+0022600164,656,PT01M39.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis OFF.Foul (P4) (R.Acosta),Foul,Offensive,1,0,480
+0022600164,658,PT01M39.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Offensive Foul Turnover (P4.T19),Turnover,Offensive Foul Turnover,1,0,481
+0022600164,662,PT01M39.00S,4,1610612742,DAL,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,SUB: Howard FOR Washington,Substitution,,0,0,482
+0022600164,663,PT01M39.00S,4,1610612742,DAL,1642843,Flagg,C. Flagg,0,0,0,,0,,,0,h,SUB: Cisse FOR Flagg,Substitution,,0,0,483
+0022600164,664,PT01M39.00S,4,1610612742,DAL,1629655,Gafford,D. Gafford,0,0,0,,0,,,0,h,SUB: Lawal FOR Gafford,Substitution,,0,0,484
+0022600164,667,PT01M39.00S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,SUB: Sharp FOR Monk,Substitution,,0,0,485
+0022600164,668,PT01M39.00S,4,1610612758,SAC,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,SUB: Black FOR LaVine,Substitution,,0,0,486
+0022600164,669,PT01M29.00S,4,1610612742,DAL,1642383,Clayton Jr.,W. Clayton Jr.,127,224,26,Made,1,96,112,208,h,Clayton Jr. 26' 3PT Step Back Jump Shot (20 PTS),Made Shot,Step Back Jump shot,1,3,487
+0022600164,670,PT01M06.00S,4,1610612758,SAC,1629631,Hunter,D. Hunter,-174,187,26,Missed,1,,,0,v,MISS Hunter 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,488
+0022600164,671,PT01M06.00S,4,1610612742,DAL,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,Marshall REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,489
+0022600164,672,PT01M01.00S,4,1610612742,DAL,1641724,Howard,J. Howard,14,19,2,Made,1,98,112,210,h,Howard 2' Running Finger Roll Layup (2 PTS) (Marshall 7 AST),Made Shot,Running Finger Roll Layup Shot,1,2,490
+0022600164,674,PT00M44.00S,4,1610612758,SAC,1641778,Black,L. Black,229,11,0,Made,1,98,115,213,v,Black 3PT Jump Shot (12 PTS) (Sabonis 4 AST),Made Shot,Jump Shot,1,3,491
+0022600164,676,PT00M29.80S,4,1610612742,DAL,1643588,Lawal,T. Lawal,-3,28,3,Made,1,100,115,215,h,Lawal 3' Cutting Layup Shot (2 PTS) (Clayton Jr. 2 AST),Made Shot,Cutting Layup Shot,1,2,492
+0022600164,678,PT00M05.80S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Turnover: Shot Clock (T#20),Turnover,Shot Clock Turnover,1,0,493
+0022600164,679,PT00M00.00S,4,0,,0,,,0,0,0,,0,100,115,215,,End of 4th Period (10:30 PM EST),period,end,1,0,494
