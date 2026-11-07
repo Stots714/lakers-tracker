@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T19:47:30-08:00",
+ "updated": "2026-11-06T19:54:32-08:00",
  "board_date": "2026-11-06",
  "games": [
   {
@@ -1138,33 +1138,33 @@
    "game_id": "0022600032",
    "tip_utc": "2026-11-07T03:00:00Z",
    "status": 2,
-   "status_text": "Q2 12:00",
+   "status_text": "Q2 9:15",
    "period": 2,
-   "clock": "12:00",
+   "clock": "9:15",
    "home": {
     "team": "LAL",
-    "score": 20,
+    "score": 28,
     "periods": [
      20,
-     0,
+     8,
      0,
      0
     ],
     "stats": {
-     "fgm": 9,
-     "fga": 29,
+     "fgm": 11,
+     "fga": 32,
      "fg3m": 0,
-     "fg3a": 12,
-     "ftm": 2,
-     "fta": 4,
+     "fg3a": 13,
+     "ftm": 6,
+     "fta": 8,
      "oreb": 5,
-     "dreb": 4,
-     "tov": 2,
-     "pf": 6,
-     "ast": 3,
-     "stl": 2,
+     "dreb": 6,
+     "tov": 3,
+     "pf": 8,
+     "ast": 5,
+     "stl": 3,
      "blk": 0,
-     "pts_paint": 16,
+     "pts_paint": 20,
      "pts_second_chance": 6,
      "pts_fast_break": 0,
      "pts_off_tov": 4,
@@ -1181,73 +1181,73 @@
       "min": "12:00"
      },
      {
+      "name": "Walker Kessler",
+      "pts": 8,
+      "reb": 3,
+      "ast": 0,
+      "min": "9:57"
+     },
+     {
       "name": "Adou Thiero",
       "pts": 4,
       "reb": 2,
       "ast": 1,
       "min": "3:43"
-     },
-     {
-      "name": "Walker Kessler",
-      "pts": 2,
-      "reb": 2,
-      "ast": 0,
-      "min": "7:12"
      }
     ]
    },
    "away": {
     "team": "POR",
-    "score": 29,
+    "score": 38,
     "periods": [
      29,
-     0,
+     9,
      0,
      0
     ],
     "stats": {
-     "fgm": 9,
-     "fga": 21,
-     "fg3m": 6,
-     "fg3a": 12,
-     "ftm": 5,
-     "fta": 9,
+     "fgm": 12,
+     "fga": 25,
+     "fg3m": 7,
+     "fg3a": 14,
+     "ftm": 7,
+     "fta": 12,
      "oreb": 5,
-     "dreb": 11,
-     "tov": 5,
-     "pf": 5,
-     "ast": 7,
-     "stl": 0,
+     "dreb": 12,
+     "tov": 7,
+     "pf": 8,
+     "ast": 8,
+     "stl": 1,
      "blk": 3,
-     "pts_paint": 6,
+     "pts_paint": 8,
      "pts_second_chance": 8,
-     "pts_fast_break": 5,
-     "pts_off_tov": 3,
-     "pts_bench": 13,
-     "biggest_lead": 12,
+     "pts_fast_break": 9,
+     "pts_off_tov": 6,
+     "pts_bench": 16,
+     "biggest_lead": 14,
      "lead_changes": 1
     },
     "leaders": [
      {
       "name": "Deni Avdija",
-      "pts": 6,
+      "pts": 10,
       "reb": 5,
-      "ast": 3,
-      "min": "8:17"
+      "ast": 4,
+      "min": "11:02"
      },
      {
-      "name": "Jrue Holiday",
-      "pts": 4,
+      "name": "Chris Youngblood",
+      "pts": 6,
       "reb": 1,
-      "ast": 1,
-      "min": "6:20"
+      "ast": 0,
+      "min": "6:28"
      },
      {
-      "name": "Sidy Cissoko",
-      "pts": 4,
+      "name": "Damian Lillard",
+      "pts": 5,
       "reb": 0,
-      "ast": 1,
-      "min": "5:51"
+      "ast": 0,
+      "min": "9:57"
      }
     ]
    },
@@ -1271,6 +1271,10 @@
     {
      "t": 12.0,
      "m": -9
+    },
+    {
+     "t": 14.8,
+     "m": -10
     }
    ]
   },
@@ -1278,37 +1282,37 @@
    "game_id": "0022600033",
    "tip_utc": "2026-11-07T03:00:00Z",
    "status": 2,
-   "status_text": "Q1 2:28",
+   "status_text": "Q1 :20.5",
    "period": 1,
-   "clock": "2:28",
+   "clock": "0:20",
    "home": {
     "team": "SAC",
-    "score": 26,
+    "score": 29,
     "periods": [
-     26,
+     29,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 9,
-     "fga": 15,
-     "fg3m": 3,
-     "fg3a": 6,
+     "fgm": 10,
+     "fga": 19,
+     "fg3m": 4,
+     "fg3a": 9,
      "ftm": 5,
      "fta": 5,
      "oreb": 0,
-     "dreb": 5,
-     "tov": 3,
-     "pf": 5,
-     "ast": 8,
+     "dreb": 6,
+     "tov": 4,
+     "pf": 8,
+     "ast": 9,
      "stl": 2,
      "blk": 1,
-     "pts_paint": 10,
+     "pts_paint": 12,
      "pts_second_chance": 0,
      "pts_fast_break": 5,
      "pts_off_tov": 2,
-     "pts_bench": 7,
+     "pts_bench": 10,
      "biggest_lead": 3,
      "lead_changes": 10
     },
@@ -1316,9 +1320,16 @@
      {
       "name": "Zach LaVine",
       "pts": 6,
-      "reb": 0,
+      "reb": 1,
       "ast": 1,
-      "min": "6:11"
+      "min": "8:14"
+     },
+     {
+      "name": "Emanuel Sharp",
+      "pts": 6,
+      "reb": 1,
+      "ast": 0,
+      "min": "5:24"
      },
      {
       "name": "Darius Acuff Jr.",
@@ -1326,48 +1337,48 @@
       "reb": 1,
       "ast": 0,
       "min": "5:41"
-     },
-     {
-      "name": "Emanuel Sharp",
-      "pts": 5,
-      "reb": 1,
-      "ast": 0,
-      "min": "3:21"
      }
     ]
    },
    "away": {
     "team": "SAS",
-    "score": 30,
+    "score": 36,
     "periods": [
-     30,
+     36,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 10,
-     "fga": 18,
-     "fg3m": 4,
-     "fg3a": 6,
-     "ftm": 6,
-     "fta": 7,
-     "oreb": 2,
-     "dreb": 5,
-     "tov": 2,
+     "fgm": 11,
+     "fga": 21,
+     "fg3m": 5,
+     "fg3a": 8,
+     "ftm": 9,
+     "fta": 11,
+     "oreb": 3,
+     "dreb": 8,
+     "tov": 3,
      "pf": 2,
-     "ast": 5,
+     "ast": 6,
      "stl": 0,
-     "blk": 0,
+     "blk": 1,
      "pts_paint": 12,
      "pts_second_chance": 5,
      "pts_fast_break": 3,
-     "pts_off_tov": 3,
+     "pts_off_tov": 6,
      "pts_bench": 3,
-     "biggest_lead": 6,
+     "biggest_lead": 9,
      "lead_changes": 10
     },
     "leaders": [
+     {
+      "name": "Victor Wembanyama",
+      "pts": 10,
+      "reb": 5,
+      "ast": 0,
+      "min": "7:44"
+     },
      {
       "name": "Devin Vassell",
       "pts": 9,
@@ -1381,13 +1392,6 @@
       "reb": 1,
       "ast": 3,
       "min": "7:46"
-     },
-     {
-      "name": "Dylan Harper",
-      "pts": 6,
-      "reb": 1,
-      "ast": 0,
-      "min": "8:47"
      }
     ]
    },
@@ -1407,6 +1411,10 @@
     {
      "t": 9.5,
      "m": -4
+    },
+    {
+     "t": 11.7,
+     "m": -7
     }
    ]
   }
