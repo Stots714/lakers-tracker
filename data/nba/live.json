@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T18:29:59-08:00",
+ "updated": "2026-11-06T18:37:02-08:00",
  "board_date": "2026-11-06",
  "games": [
   {
@@ -278,54 +278,54 @@
    "game_id": "0022600027",
    "tip_utc": "2026-11-07T00:30:00Z",
    "status": 2,
-   "status_text": "Q3 1:40",
-   "period": 3,
-   "clock": "1:40",
+   "status_text": "Q4 12:00",
+   "period": 4,
+   "clock": "12:00",
    "home": {
     "team": "CLE",
-    "score": 83,
+    "score": 91,
     "periods": [
      33,
      29,
-     21,
+     29,
      0
     ],
     "stats": {
-     "fgm": 30,
-     "fga": 69,
-     "fg3m": 9,
-     "fg3a": 29,
-     "ftm": 14,
-     "fta": 18,
-     "oreb": 12,
-     "dreb": 29,
+     "fgm": 32,
+     "fga": 72,
+     "fg3m": 10,
+     "fg3a": 30,
+     "ftm": 17,
+     "fta": 23,
+     "oreb": 13,
+     "dreb": 31,
      "tov": 9,
-     "pf": 13,
-     "ast": 20,
-     "stl": 8,
+     "pf": 14,
+     "ast": 21,
+     "stl": 9,
      "blk": 2,
-     "pts_paint": 38,
-     "pts_second_chance": 8,
+     "pts_paint": 40,
+     "pts_second_chance": 11,
      "pts_fast_break": 14,
-     "pts_off_tov": 14,
-     "pts_bench": 30,
-     "biggest_lead": 16,
+     "pts_off_tov": 19,
+     "pts_bench": 31,
+     "biggest_lead": 17,
      "lead_changes": 1
     },
     "leaders": [
+     {
+      "name": "Donovan Mitchell",
+      "pts": 20,
+      "reb": 6,
+      "ast": 8,
+      "min": "27:04"
+     },
      {
       "name": "Evan Mobley",
       "pts": 17,
       "reb": 4,
       "ast": 4,
       "min": "23:22"
-     },
-     {
-      "name": "Donovan Mitchell",
-      "pts": 15,
-      "reb": 6,
-      "ast": 8,
-      "min": "25:24"
      },
      {
       "name": "James Harden",
@@ -338,29 +338,29 @@
    },
    "away": {
     "team": "PHI",
-    "score": 73,
+    "score": 74,
     "periods": [
      22,
      32,
-     19,
+     20,
      0
     ],
     "stats": {
      "fgm": 24,
-     "fga": 57,
+     "fga": 61,
      "fg3m": 9,
-     "fg3a": 29,
-     "ftm": 16,
-     "fta": 17,
-     "oreb": 1,
-     "dreb": 25,
-     "tov": 11,
-     "pf": 15,
+     "fg3a": 32,
+     "ftm": 17,
+     "fta": 19,
+     "oreb": 3,
+     "dreb": 27,
+     "tov": 12,
+     "pf": 17,
      "ast": 16,
      "stl": 5,
      "blk": 2,
      "pts_paint": 20,
-     "pts_second_chance": 3,
+     "pts_second_chance": 4,
      "pts_fast_break": 14,
      "pts_off_tov": 10,
      "pts_bench": 14,
@@ -377,17 +377,17 @@
      },
      {
       "name": "Tyrese Maxey",
-      "pts": 16,
+      "pts": 17,
       "reb": 3,
       "ast": 4,
-      "min": "28:07"
+      "min": "29:47"
      },
      {
       "name": "Jaylen Brown",
       "pts": 14,
-      "reb": 3,
+      "reb": 4,
       "ast": 5,
-      "min": "26:06"
+      "min": "27:46"
      }
     ]
    },
@@ -411,6 +411,10 @@
     {
      "t": 34.3,
      "m": 10
+    },
+    {
+     "t": 36.0,
+     "m": 17
     }
    ]
   },
@@ -418,61 +422,61 @@
    "game_id": "0022600028",
    "tip_utc": "2026-11-07T01:00:00Z",
    "status": 2,
-   "status_text": "Q3 7:42",
+   "status_text": "Q3 5:27",
    "period": 3,
-   "clock": "7:42",
+   "clock": "5:27",
    "home": {
     "team": "DAL",
-    "score": 68,
+    "score": 77,
     "periods": [
      26,
      31,
-     11,
+     20,
      0
     ],
     "stats": {
-     "fgm": 23,
-     "fga": 54,
+     "fgm": 26,
+     "fga": 62,
      "fg3m": 8,
-     "fg3a": 21,
-     "ftm": 14,
-     "fta": 18,
-     "oreb": 12,
-     "dreb": 16,
+     "fg3a": 22,
+     "ftm": 17,
+     "fta": 22,
+     "oreb": 15,
+     "dreb": 19,
      "tov": 10,
      "pf": 10,
-     "ast": 14,
-     "stl": 6,
+     "ast": 16,
+     "stl": 8,
      "blk": 3,
-     "pts_paint": 28,
-     "pts_second_chance": 12,
+     "pts_paint": 32,
+     "pts_second_chance": 16,
      "pts_fast_break": 10,
-     "pts_off_tov": 13,
+     "pts_off_tov": 14,
      "pts_bench": 24,
-     "biggest_lead": 5,
-     "lead_changes": 8
+     "biggest_lead": 7,
+     "lead_changes": 9
     },
     "leaders": [
      {
       "name": "P.J. Washington",
-      "pts": 22,
+      "pts": 23,
       "reb": 3,
       "ast": 0,
-      "min": "22:00"
+      "min": "24:17"
      },
      {
       "name": "Cooper Flagg",
-      "pts": 11,
-      "reb": 6,
+      "pts": 15,
+      "reb": 7,
       "ast": 6,
-      "min": "19:20"
+      "min": "21:37"
      },
      {
       "name": "Morez Johnson Jr.",
       "pts": 9,
-      "reb": 7,
-      "ast": 1,
-      "min": "9:19"
+      "reb": 11,
+      "ast": 2,
+      "min": "11:34"
      }
     ]
    },
@@ -487,47 +491,47 @@
     ],
     "stats": {
      "fgm": 28,
-     "fga": 51,
+     "fga": 54,
      "fg3m": 10,
-     "fg3a": 23,
+     "fg3a": 25,
      "ftm": 4,
      "fta": 4,
      "oreb": 4,
-     "dreb": 19,
-     "tov": 12,
-     "pf": 14,
+     "dreb": 22,
+     "tov": 14,
+     "pf": 16,
      "ast": 21,
      "stl": 3,
-     "blk": 3,
+     "blk": 4,
      "pts_paint": 30,
      "pts_second_chance": 3,
      "pts_fast_break": 9,
      "pts_off_tov": 5,
      "pts_bench": 11,
      "biggest_lead": 8,
-     "lead_changes": 8
+     "lead_changes": 9
     },
     "leaders": [
      {
       "name": "Lauri Markkanen",
       "pts": 21,
-      "reb": 1,
+      "reb": 2,
       "ast": 0,
-      "min": "20:59"
+      "min": "23:16"
      },
      {
       "name": "Keyonte George",
       "pts": 11,
       "reb": 5,
       "ast": 8,
-      "min": "20:41"
+      "min": "22:58"
      },
      {
       "name": "Ace Bailey",
       "pts": 10,
       "reb": 4,
       "ast": 0,
-      "min": "19:19"
+      "min": "21:36"
      }
     ]
    },
@@ -547,6 +551,10 @@
     {
      "t": 28.3,
      "m": -2
+    },
+    {
+     "t": 30.6,
+     "m": 7
     }
    ]
   },
@@ -554,34 +562,34 @@
    "game_id": "0022600029",
    "tip_utc": "2026-11-07T01:00:00Z",
    "status": 2,
-   "status_text": "Q3 9:49",
+   "status_text": "Q3 6:22",
    "period": 3,
-   "clock": "9:49",
+   "clock": "6:22",
    "home": {
     "team": "MEM",
-    "score": 51,
+    "score": 63,
     "periods": [
      28,
      21,
-     2,
+     14,
      0
     ],
     "stats": {
-     "fgm": 17,
-     "fga": 51,
-     "fg3m": 5,
-     "fg3a": 27,
-     "ftm": 12,
-     "fta": 13,
-     "oreb": 7,
-     "dreb": 19,
-     "tov": 11,
-     "pf": 11,
-     "ast": 12,
+     "fgm": 20,
+     "fga": 57,
+     "fg3m": 7,
+     "fg3a": 32,
+     "ftm": 16,
+     "fta": 17,
+     "oreb": 8,
+     "dreb": 21,
+     "tov": 13,
+     "pf": 12,
+     "ast": 14,
      "stl": 3,
      "blk": 0,
-     "pts_paint": 20,
-     "pts_second_chance": 10,
+     "pts_paint": 22,
+     "pts_second_chance": 12,
      "pts_fast_break": 8,
      "pts_off_tov": 8,
      "pts_bench": 14,
@@ -591,79 +599,79 @@
     "leaders": [
      {
       "name": "Ty Jerome",
-      "pts": 13,
-      "reb": 1,
-      "ast": 3,
-      "min": "16:27"
+      "pts": 18,
+      "reb": 2,
+      "ast": 5,
+      "min": "19:53"
      },
      {
       "name": "Zach Edey",
-      "pts": 8,
-      "reb": 2,
+      "pts": 10,
+      "reb": 3,
       "ast": 1,
-      "min": "11:13"
+      "min": "14:39"
      },
      {
       "name": "Cedric Coward",
-      "pts": 8,
+      "pts": 10,
       "reb": 7,
       "ast": 0,
-      "min": "14:45"
+      "min": "18:11"
      }
     ]
    },
    "away": {
     "team": "OKC",
-    "score": 80,
+    "score": 90,
     "periods": [
      35,
      36,
-     9,
+     19,
      0
     ],
     "stats": {
-     "fgm": 34,
-     "fga": 55,
-     "fg3m": 10,
-     "fg3a": 20,
+     "fgm": 38,
+     "fga": 61,
+     "fg3m": 12,
+     "fg3a": 24,
      "ftm": 2,
      "fta": 7,
      "oreb": 2,
-     "dreb": 22,
-     "tov": 6,
-     "pf": 11,
-     "ast": 17,
-     "stl": 8,
+     "dreb": 24,
+     "tov": 7,
+     "pf": 13,
+     "ast": 19,
+     "stl": 9,
      "blk": 3,
-     "pts_paint": 42,
+     "pts_paint": 46,
      "pts_second_chance": 5,
-     "pts_fast_break": 9,
-     "pts_off_tov": 22,
+     "pts_fast_break": 12,
+     "pts_off_tov": 25,
      "pts_bench": 18,
-     "biggest_lead": 29,
+     "biggest_lead": 32,
      "lead_changes": 2
     },
     "leaders": [
      {
       "name": "Ajay Mitchell",
-      "pts": 24,
-      "reb": 0,
+      "pts": 26,
+      "reb": 1,
       "ast": 4,
-      "min": "18:28"
+      "min": "21:54"
      },
      {
       "name": "Shai Gilgeous-Alexander",
-      "pts": 21,
+      "pts": 23,
       "reb": 2,
       "ast": 3,
-      "min": "19:52"
+      "min": "23:18"
      },
      {
       "name": "Jared McCain",
-      "pts": 16,
+      "pts": 19,
       "reb": 3,
       "ast": 0,
-      "min": "17:00"
+      "min": "20:26"
      }
     ]
    },
@@ -679,6 +687,10 @@
     {
      "t": 26.2,
      "m": -29
+    },
+    {
+     "t": 29.6,
+     "m": -27
     }
    ]
   },
@@ -686,34 +698,34 @@
    "game_id": "0022600030",
    "tip_utc": "2026-11-07T01:00:00Z",
    "status": 2,
-   "status_text": "Q3 10:25",
+   "status_text": "Q3 7:59",
    "period": 3,
-   "clock": "10:25",
+   "clock": "7:59",
    "home": {
     "team": "MIL",
-    "score": 60,
+    "score": 64,
     "periods": [
      29,
      31,
-     0,
+     4,
      0
     ],
     "stats": {
-     "fgm": 25,
-     "fga": 47,
+     "fgm": 26,
+     "fga": 51,
      "fg3m": 4,
-     "fg3a": 19,
-     "ftm": 6,
-     "fta": 6,
-     "oreb": 11,
-     "dreb": 15,
+     "fg3a": 21,
+     "ftm": 8,
+     "fta": 8,
+     "oreb": 12,
+     "dreb": 16,
      "tov": 13,
      "pf": 16,
-     "ast": 15,
+     "ast": 17,
      "stl": 2,
      "blk": 5,
-     "pts_paint": 38,
-     "pts_second_chance": 13,
+     "pts_paint": 40,
+     "pts_second_chance": 15,
      "pts_fast_break": 6,
      "pts_off_tov": 15,
      "pts_bench": 17,
@@ -723,52 +735,52 @@
     "leaders": [
      {
       "name": "Brayden Burries",
-      "pts": 15,
-      "reb": 8,
-      "ast": 1,
-      "min": "20:40"
+      "pts": 17,
+      "reb": 9,
+      "ast": 3,
+      "min": "23:12"
      },
      {
       "name": "Kyle Kuzma",
       "pts": 13,
       "reb": 3,
       "ast": 3,
-      "min": "16:51"
+      "min": "19:23"
      },
      {
       "name": "Jaime Jaquez Jr.",
       "pts": 9,
       "reb": 2,
       "ast": 2,
-      "min": "14:43"
+      "min": "17:15"
      }
     ]
    },
    "away": {
     "team": "TOR",
-    "score": 55,
+    "score": 62,
     "periods": [
      24,
      27,
-     4,
+     11,
      0
     ],
     "stats": {
-     "fgm": 19,
-     "fga": 48,
-     "fg3m": 5,
-     "fg3a": 21,
+     "fgm": 22,
+     "fga": 53,
+     "fg3m": 6,
+     "fg3a": 24,
      "ftm": 12,
      "fta": 17,
      "oreb": 6,
-     "dreb": 9,
+     "dreb": 11,
      "tov": 8,
-     "pf": 9,
-     "ast": 15,
+     "pf": 11,
+     "ast": 17,
      "stl": 9,
      "blk": 1,
      "pts_paint": 26,
-     "pts_second_chance": 13,
+     "pts_second_chance": 15,
      "pts_fast_break": 9,
      "pts_off_tov": 18,
      "pts_bench": 20,
@@ -777,6 +789,13 @@
     },
     "leaders": [
      {
+      "name": "RJ Barrett",
+      "pts": 15,
+      "reb": 2,
+      "ast": 2,
+      "min": "20:42"
+     },
+     {
       "name": "Alijah Martin",
       "pts": 14,
       "reb": 2,
@@ -784,18 +803,11 @@
       "min": "13:51"
      },
      {
-      "name": "RJ Barrett",
-      "pts": 13,
-      "reb": 2,
-      "ast": 1,
-      "min": "18:10"
-     },
-     {
       "name": "Collin Murray-Boyles",
       "pts": 8,
       "reb": 1,
-      "ast": 0,
-      "min": "17:57"
+      "ast": 1,
+      "min": "20:29"
      }
     ]
    },
@@ -815,6 +827,10 @@
     {
      "t": 25.6,
      "m": 5
+    },
+    {
+     "t": 28.0,
+     "m": 2
     }
    ]
   },
@@ -822,89 +838,89 @@
    "game_id": "0022600031",
    "tip_utc": "2026-11-07T01:00:00Z",
    "status": 2,
-   "status_text": "Q3 11:19",
+   "status_text": "Q3 8:22",
    "period": 3,
-   "clock": "11:19",
+   "clock": "8:22",
    "home": {
     "team": "NOP",
-    "score": 53,
+    "score": 61,
     "periods": [
      30,
      21,
-     2,
+     10,
      0
     ],
     "stats": {
-     "fgm": 20,
-     "fga": 46,
+     "fgm": 23,
+     "fga": 50,
      "fg3m": 5,
-     "fg3a": 14,
-     "ftm": 8,
-     "fta": 10,
+     "fg3a": 15,
+     "ftm": 10,
+     "fta": 14,
      "oreb": 8,
-     "dreb": 14,
-     "tov": 7,
-     "pf": 11,
-     "ast": 12,
-     "stl": 3,
+     "dreb": 16,
+     "tov": 8,
+     "pf": 13,
+     "ast": 14,
+     "stl": 4,
      "blk": 0,
-     "pts_paint": 26,
+     "pts_paint": 32,
      "pts_second_chance": 9,
-     "pts_fast_break": 17,
-     "pts_off_tov": 9,
-     "pts_bench": 13,
+     "pts_fast_break": 19,
+     "pts_off_tov": 12,
+     "pts_bench": 14,
      "biggest_lead": 6,
      "lead_changes": 7
     },
     "leaders": [
      {
       "name": "Karlo Matković",
-      "pts": 16,
-      "reb": 2,
+      "pts": 18,
+      "reb": 3,
       "ast": 1,
-      "min": "14:50"
+      "min": "17:20"
+     },
+     {
+      "name": "Jeremiah Fears",
+      "pts": 12,
+      "reb": 4,
+      "ast": 2,
+      "min": "19:31"
      },
      {
       "name": "Trey Murphy III",
       "pts": 10,
-      "reb": 1,
-      "ast": 1,
-      "min": "17:03"
-     },
-     {
-      "name": "Jeremiah Fears",
-      "pts": 8,
-      "reb": 4,
+      "reb": 2,
       "ast": 2,
-      "min": "16:34"
+      "min": "20:00"
      }
     ]
    },
    "away": {
     "team": "MIN",
-    "score": 57,
+    "score": 64,
     "periods": [
      27,
      30,
-     0,
+     7,
      0
     ],
     "stats": {
-     "fgm": 19,
-     "fga": 42,
+     "fgm": 22,
+     "fga": 47,
      "fg3m": 7,
      "fg3a": 21,
-     "ftm": 12,
-     "fta": 13,
-     "oreb": 5,
-     "dreb": 17,
-     "tov": 6,
-     "pf": 8,
-     "ast": 13,
-     "stl": 2,
+     "ftm": 13,
+     "fta": 17,
+     "oreb": 6,
+     "dreb": 18,
+     "tov": 8,
+     "pf": 10,
+     "ast": 14,
+     "stl": 3,
      "blk": 3,
-     "pts_paint": 22,
-     "pts_second_chance": 10,
+     "pts_paint": 28,
+     "pts_second_chance": 12,
      "pts_fast_break": 3,
      "pts_off_tov": 9,
      "pts_bench": 11,
@@ -917,21 +933,21 @@
       "pts": 12,
       "reb": 1,
       "ast": 1,
-      "min": "18:06"
+      "min": "21:03"
      },
      {
       "name": "Jaden McDaniels",
       "pts": 11,
       "reb": 2,
       "ast": 4,
-      "min": "19:52"
+      "min": "22:49"
      },
      {
-      "name": "LaMelo Ball",
+      "name": "Jonathan Kuminga",
       "pts": 11,
-      "reb": 2,
+      "reb": 4,
       "ast": 4,
-      "min": "17:59"
+      "min": "21:17"
      }
     ]
    },
@@ -951,6 +967,10 @@
     {
      "t": 24.7,
      "m": -4
+    },
+    {
+     "t": 27.6,
+     "m": -3
     }
    ]
   },
