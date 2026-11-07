@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-06T18:15:53-08:00",
+ "updated": "2026-11-06T18:22:55-08:00",
  "board_date": "2026-11-06",
  "games": [
   {
    "game_id": "0022600025",
    "tip_utc": "2026-11-07T00:00:00Z",
-   "status": 2,
-   "status_text": "Q4 :13.0",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "0:13",
+   "clock": "0:00",
    "home": {
     "team": "ATL",
-    "score": 135,
+    "score": 139,
     "periods": [
      28,
      38,
      39,
-     30
+     34
     ],
     "stats": {
      "fgm": 52,
      "fga": 98,
      "fg3m": 16,
      "fg3a": 38,
-     "ftm": 15,
-     "fta": 16,
+     "ftm": 19,
+     "fta": 20,
      "oreb": 14,
-     "dreb": 28,
+     "dreb": 29,
      "tov": 16,
      "pf": 18,
-     "ast": 37,
+     "ast": 38,
      "stl": 11,
      "blk": 1,
      "pts_paint": 62,
@@ -43,24 +43,24 @@
     "leaders": [
      {
       "name": "Nickeil Alexander-Walker",
-      "pts": 26,
+      "pts": 28,
       "reb": 2,
       "ast": 2,
-      "min": "33:14"
+      "min": "33:28"
      },
      {
       "name": "Luguentz Dort",
       "pts": 25,
       "reb": 7,
-      "ast": 3,
-      "min": "32:09"
+      "ast": 4,
+      "min": "32:22"
      },
      {
       "name": "Onyeka Okongwu",
-      "pts": 20,
-      "reb": 9,
+      "pts": 22,
+      "reb": 10,
       "ast": 1,
-      "min": "33:08"
+      "min": "33:22"
      }
     ]
    },
@@ -75,15 +75,15 @@
     ],
     "stats": {
      "fgm": 46,
-     "fga": 90,
+     "fga": 91,
      "fg3m": 18,
-     "fg3a": 33,
+     "fg3a": 34,
      "ftm": 22,
      "fta": 24,
      "oreb": 14,
      "dreb": 27,
      "tov": 16,
-     "pf": 14,
+     "pf": 16,
      "ast": 28,
      "stl": 10,
      "blk": 4,
@@ -101,21 +101,21 @@
       "pts": 33,
       "reb": 4,
       "ast": 7,
-      "min": "40:04"
+      "min": "40:17"
      },
      {
       "name": "Trae Young",
       "pts": 23,
       "reb": 2,
       "ast": 10,
-      "min": "36:45"
+      "min": "36:59"
      },
      {
       "name": "Tre Johnson",
       "pts": 23,
       "reb": 1,
       "ast": 1,
-      "min": "27:00"
+      "min": "27:14"
      }
     ]
    },
@@ -131,44 +131,48 @@
     {
      "t": 47.8,
      "m": 3
+    },
+    {
+     "t": 48.0,
+     "m": 7
     }
    ]
   },
   {
    "game_id": "0022600026",
    "tip_utc": "2026-11-07T00:00:00Z",
-   "status": 2,
-   "status_text": "Q4 2:29",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "2:29",
+   "clock": "0:00",
    "home": {
     "team": "CHA",
-    "score": 73,
+    "score": 80,
     "periods": [
      20,
      19,
      18,
-     16
+     23
     ],
     "stats": {
-     "fgm": 24,
-     "fga": 86,
+     "fgm": 27,
+     "fga": 92,
      "fg3m": 11,
-     "fg3a": 48,
-     "ftm": 14,
-     "fta": 16,
+     "fg3a": 50,
+     "ftm": 15,
+     "fta": 17,
      "oreb": 19,
      "dreb": 24,
      "tov": 17,
-     "pf": 16,
-     "ast": 15,
-     "stl": 4,
+     "pf": 17,
+     "ast": 18,
+     "stl": 6,
      "blk": 5,
-     "pts_paint": 24,
-     "pts_second_chance": 16,
-     "pts_fast_break": 5,
-     "pts_off_tov": 14,
-     "pts_bench": 40,
+     "pts_paint": 30,
+     "pts_second_chance": 18,
+     "pts_fast_break": 10,
+     "pts_off_tov": 20,
+     "pts_bench": 47,
      "biggest_lead": 0,
      "lead_changes": 0
     },
@@ -182,10 +186,10 @@
      },
      {
       "name": "Tidjane Salaün",
-      "pts": 12,
+      "pts": 13,
       "reb": 4,
       "ast": 0,
-      "min": "20:57"
+      "min": "23:26"
      },
      {
       "name": "Sion James",
@@ -198,32 +202,32 @@
    },
    "away": {
     "team": "BOS",
-    "score": 115,
+    "score": 119,
     "periods": [
      40,
      30,
      26,
-     19
+     23
     ],
     "stats": {
-     "fgm": 37,
-     "fga": 82,
-     "fg3m": 23,
-     "fg3a": 43,
-     "ftm": 18,
-     "fta": 21,
+     "fgm": 38,
+     "fga": 83,
+     "fg3m": 24,
+     "fg3a": 44,
+     "ftm": 19,
+     "fta": 23,
      "oreb": 14,
-     "dreb": 35,
-     "tov": 15,
+     "dreb": 37,
+     "tov": 19,
      "pf": 17,
-     "ast": 32,
+     "ast": 33,
      "stl": 4,
-     "blk": 7,
+     "blk": 8,
      "pts_paint": 28,
      "pts_second_chance": 18,
      "pts_fast_break": 16,
      "pts_off_tov": 20,
-     "pts_bench": 45,
+     "pts_bench": 49,
      "biggest_lead": 46,
      "lead_changes": 0
     },
@@ -263,6 +267,10 @@
     {
      "t": 45.5,
      "m": -42
+    },
+    {
+     "t": 48.0,
+     "m": -39
     }
    ]
   },
@@ -270,91 +278,91 @@
    "game_id": "0022600027",
    "tip_utc": "2026-11-07T00:30:00Z",
    "status": 2,
-   "status_text": "Q3 7:49",
+   "status_text": "Q3 3:46",
    "period": 3,
-   "clock": "7:49",
+   "clock": "3:46",
    "home": {
     "team": "CLE",
-    "score": 67,
+    "score": 79,
     "periods": [
      33,
      29,
-     5,
+     17,
      0
     ],
     "stats": {
-     "fgm": 23,
-     "fga": 56,
-     "fg3m": 7,
-     "fg3a": 24,
+     "fgm": 28,
+     "fga": 65,
+     "fg3m": 9,
+     "fg3a": 28,
      "ftm": 14,
      "fta": 18,
-     "oreb": 11,
-     "dreb": 24,
-     "tov": 8,
-     "pf": 10,
-     "ast": 16,
-     "stl": 6,
+     "oreb": 12,
+     "dreb": 25,
+     "tov": 9,
+     "pf": 12,
+     "ast": 19,
+     "stl": 8,
      "blk": 2,
-     "pts_paint": 30,
-     "pts_second_chance": 6,
-     "pts_fast_break": 12,
-     "pts_off_tov": 9,
-     "pts_bench": 26,
+     "pts_paint": 36,
+     "pts_second_chance": 8,
+     "pts_fast_break": 14,
+     "pts_off_tov": 14,
+     "pts_bench": 30,
      "biggest_lead": 16,
      "lead_changes": 1
     },
     "leaders": [
      {
       "name": "Evan Mobley",
-      "pts": 15,
+      "pts": 17,
       "reb": 4,
       "ast": 4,
-      "min": "20:19"
+      "min": "23:22"
      },
      {
       "name": "Donovan Mitchell",
       "pts": 13,
       "reb": 6,
-      "ast": 7,
-      "min": "21:38"
+      "ast": 8,
+      "min": "23:10"
      },
      {
-      "name": "Mario Hezonja",
-      "pts": 10,
-      "reb": 3,
-      "ast": 1,
-      "min": "10:52"
+      "name": "James Harden",
+      "pts": 12,
+      "reb": 6,
+      "ast": 3,
+      "min": "24:11"
      }
     ]
    },
    "away": {
     "team": "PHI",
-    "score": 65,
+    "score": 72,
     "periods": [
      22,
      32,
-     11,
+     18,
      0
     ],
     "stats": {
-     "fgm": 22,
-     "fga": 49,
-     "fg3m": 8,
-     "fg3a": 23,
-     "ftm": 13,
-     "fta": 13,
+     "fgm": 24,
+     "fga": 53,
+     "fg3m": 9,
+     "fg3a": 25,
+     "ftm": 15,
+     "fta": 15,
      "oreb": 1,
-     "dreb": 21,
-     "tov": 7,
+     "dreb": 23,
+     "tov": 11,
      "pf": 14,
-     "ast": 14,
+     "ast": 16,
      "stl": 5,
-     "blk": 1,
+     "blk": 2,
      "pts_paint": 20,
      "pts_second_chance": 2,
-     "pts_fast_break": 12,
-     "pts_off_tov": 8,
+     "pts_fast_break": 14,
+     "pts_off_tov": 10,
      "pts_bench": 13,
      "biggest_lead": 2,
      "lead_changes": 1
@@ -364,22 +372,22 @@
       "name": "VJ Edgecombe",
       "pts": 19,
       "reb": 1,
-      "ast": 0,
-      "min": "20:32"
+      "ast": 1,
+      "min": "23:35"
      },
      {
       "name": "Tyrese Maxey",
-      "pts": 12,
-      "reb": 2,
+      "pts": 16,
+      "reb": 3,
       "ast": 4,
-      "min": "21:53"
+      "min": "25:53"
      },
      {
       "name": "Jaylen Brown",
-      "pts": 11,
+      "pts": 14,
       "reb": 3,
       "ast": 5,
-      "min": "22:00"
+      "min": "25:03"
      }
     ]
    },
@@ -395,6 +403,10 @@
     {
      "t": 28.2,
      "m": 2
+    },
+    {
+     "t": 32.2,
+     "m": 7
     }
    ]
   },
@@ -402,9 +414,9 @@
    "game_id": "0022600028",
    "tip_utc": "2026-11-07T01:00:00Z",
    "status": 2,
-   "status_text": "Half",
-   "period": 2,
-   "clock": "0:00",
+   "status_text": "Q3 11:48",
+   "period": 3,
+   "clock": "11:48",
    "home": {
     "team": "DAL",
     "score": 57,
@@ -442,7 +454,7 @@
       "pts": 22,
       "reb": 1,
       "ast": 0,
-      "min": "17:44"
+      "min": "17:56"
      },
      {
       "name": "Morez Johnson Jr.",
@@ -478,8 +490,8 @@
      "fta": 4,
      "oreb": 4,
      "dreb": 17,
-     "tov": 11,
-     "pf": 11,
+     "tov": 12,
+     "pf": 12,
      "ast": 17,
      "stl": 3,
      "blk": 3,
@@ -497,14 +509,14 @@
       "pts": 12,
       "reb": 1,
       "ast": 0,
-      "min": "16:43"
+      "min": "16:55"
      },
      {
       "name": "Keyonte George",
       "pts": 11,
       "reb": 4,
       "ast": 6,
-      "min": "16:25"
+      "min": "16:37"
      },
      {
       "name": "Josh Okogie",
@@ -522,6 +534,10 @@
     },
     {
      "t": 24.0,
+     "m": 0
+    },
+    {
+     "t": 24.2,
      "m": 0
     }
    ]
@@ -608,7 +624,7 @@
      "dreb": 20,
      "tov": 6,
      "pf": 11,
-     "ast": 17,
+     "ast": 16,
      "stl": 7,
      "blk": 2,
      "pts_paint": 38,
