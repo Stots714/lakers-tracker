@@ -1,42 +1,42 @@
 {
- "updated": "2026-11-08T14:19:33-08:00",
+ "updated": "2026-11-08T14:26:35-08:00",
  "board_date": "2026-11-08",
  "games": [
   {
    "game_id": "0022600196",
    "tip_utc": "2026-11-08T20:30:00Z",
    "status": 2,
-   "status_text": "Q4 10:46",
+   "status_text": "Q4 8:29",
    "period": 4,
-   "clock": "10:46",
+   "clock": "8:29",
    "home": {
     "team": "CHI",
-    "score": 96,
+    "score": 101,
     "periods": [
      33,
      28,
      32,
-     3
+     8
     ],
     "stats": {
-     "fgm": 39,
-     "fga": 69,
-     "fg3m": 7,
-     "fg3a": 25,
+     "fgm": 41,
+     "fga": 76,
+     "fg3m": 8,
+     "fg3a": 29,
      "ftm": 11,
      "fta": 14,
-     "oreb": 8,
-     "dreb": 22,
+     "oreb": 9,
+     "dreb": 24,
      "tov": 10,
-     "pf": 14,
-     "ast": 25,
-     "stl": 5,
+     "pf": 15,
+     "ast": 26,
+     "stl": 6,
      "blk": 6,
-     "pts_paint": 58,
-     "pts_second_chance": 9,
+     "pts_paint": 60,
+     "pts_second_chance": 12,
      "pts_fast_break": 13,
-     "pts_off_tov": 11,
-     "pts_bench": 33,
+     "pts_off_tov": 13,
+     "pts_bench": 36,
      "biggest_lead": 7,
      "lead_changes": 9
     },
@@ -44,9 +44,9 @@
      {
       "name": "Jalen Smith",
       "pts": 16,
-      "reb": 5,
+      "reb": 6,
       "ast": 2,
-      "min": "21:55"
+      "min": "24:12"
      },
      {
       "name": "Matas Buzelis",
@@ -66,30 +66,30 @@
    },
    "away": {
     "team": "PHI",
-    "score": 101,
+    "score": 107,
     "periods": [
      34,
      34,
      31,
-     2
+     8
     ],
     "stats": {
-     "fgm": 39,
-     "fga": 79,
-     "fg3m": 10,
-     "fg3a": 24,
-     "ftm": 13,
-     "fta": 17,
+     "fgm": 41,
+     "fga": 83,
+     "fg3m": 11,
+     "fg3a": 27,
+     "ftm": 14,
+     "fta": 18,
      "oreb": 19,
-     "dreb": 23,
-     "tov": 8,
+     "dreb": 26,
+     "tov": 9,
      "pf": 11,
-     "ast": 25,
+     "ast": 27,
      "stl": 6,
-     "blk": 1,
-     "pts_paint": 52,
+     "blk": 2,
+     "pts_paint": 54,
      "pts_second_chance": 31,
-     "pts_fast_break": 16,
+     "pts_fast_break": 18,
      "pts_off_tov": 14,
      "pts_bench": 15,
      "biggest_lead": 12,
@@ -105,17 +105,17 @@
      },
      {
       "name": "Jaylen Brown",
-      "pts": 21,
+      "pts": 22,
       "reb": 6,
       "ast": 4,
-      "min": "26:15"
+      "min": "28:32"
      },
      {
       "name": "LeBron James",
-      "pts": 18,
+      "pts": 19,
       "reb": 2,
-      "ast": 2,
-      "min": "24:42"
+      "ast": 3,
+      "min": "26:59"
      }
     ]
    },
@@ -175,6 +175,10 @@
     {
      "t": 37.2,
      "m": -5
+    },
+    {
+     "t": 39.5,
+     "m": -6
     }
    ]
   },
