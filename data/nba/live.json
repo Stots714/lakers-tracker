@@ -1,42 +1,42 @@
 {
- "updated": "2026-11-08T14:05:28-08:00",
+ "updated": "2026-11-08T14:12:30-08:00",
  "board_date": "2026-11-08",
  "games": [
   {
    "game_id": "0022600196",
    "tip_utc": "2026-11-08T20:30:00Z",
    "status": 2,
-   "status_text": "Q3 4:05",
+   "status_text": "Q3 :18.9",
    "period": 3,
-   "clock": "4:05",
+   "clock": "0:19",
    "home": {
     "team": "CHI",
-    "score": 81,
+    "score": 93,
     "periods": [
      33,
      28,
-     20,
+     32,
      0
     ],
     "stats": {
-     "fgm": 32,
-     "fga": 61,
+     "fgm": 38,
+     "fga": 67,
      "fg3m": 7,
      "fg3a": 24,
      "ftm": 10,
      "fta": 13,
      "oreb": 8,
-     "dreb": 18,
+     "dreb": 21,
      "tov": 9,
      "pf": 12,
-     "ast": 19,
+     "ast": 23,
      "stl": 5,
-     "blk": 5,
-     "pts_paint": 48,
+     "blk": 6,
+     "pts_paint": 56,
      "pts_second_chance": 9,
-     "pts_fast_break": 12,
+     "pts_fast_break": 13,
      "pts_off_tov": 11,
-     "pts_bench": 18,
+     "pts_bench": 30,
      "biggest_lead": 7,
      "lead_changes": 9
     },
@@ -66,33 +66,33 @@
    },
    "away": {
     "team": "PHI",
-    "score": 91,
+    "score": 99,
     "periods": [
      34,
      34,
-     23,
+     31,
      0
     ],
     "stats": {
-     "fgm": 36,
-     "fga": 70,
-     "fg3m": 8,
-     "fg3a": 21,
+     "fgm": 39,
+     "fga": 79,
+     "fg3m": 10,
+     "fg3a": 24,
      "ftm": 11,
      "fta": 13,
-     "oreb": 16,
+     "oreb": 19,
      "dreb": 22,
      "tov": 8,
      "pf": 10,
-     "ast": 23,
+     "ast": 25,
      "stl": 6,
      "blk": 1,
-     "pts_paint": 50,
-     "pts_second_chance": 26,
+     "pts_paint": 52,
+     "pts_second_chance": 31,
      "pts_fast_break": 16,
      "pts_off_tov": 14,
-     "pts_bench": 7,
-     "biggest_lead": 11,
+     "pts_bench": 15,
+     "biggest_lead": 12,
      "lead_changes": 9
     },
     "leaders": [
@@ -100,8 +100,8 @@
       "name": "Tyrese Maxey",
       "pts": 24,
       "reb": 3,
-      "ast": 5,
-      "min": "25:37"
+      "ast": 7,
+      "min": "29:19"
      },
      {
       "name": "Jaylen Brown",
@@ -167,6 +167,10 @@
     {
      "t": 31.9,
      "m": -10
+    },
+    {
+     "t": 35.7,
+     "m": -6
     }
    ]
   },
