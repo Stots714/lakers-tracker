@@ -1,52 +1,52 @@
 {
- "updated": "2026-11-08T13:02:09-08:00",
+ "updated": "2026-11-08T13:09:11-08:00",
  "board_date": "2026-11-08",
  "games": [
   {
    "game_id": "0022600196",
    "tip_utc": "2026-11-08T20:30:00Z",
    "status": 2,
-   "status_text": "Q1 1:17",
-   "period": 1,
-   "clock": "1:17",
+   "status_text": "Q2 9:51",
+   "period": 2,
+   "clock": "9:51",
    "home": {
     "team": "CHI",
-    "score": 31,
+    "score": 38,
     "periods": [
-     31,
-     0,
+     33,
+     5,
      0,
      0
     ],
     "stats": {
-     "fgm": 12,
-     "fga": 23,
-     "fg3m": 4,
-     "fg3a": 10,
+     "fgm": 15,
+     "fga": 31,
+     "fg3m": 5,
+     "fg3a": 14,
      "ftm": 3,
      "fta": 5,
      "oreb": 5,
-     "dreb": 6,
+     "dreb": 10,
      "tov": 1,
-     "pf": 2,
-     "ast": 8,
+     "pf": 3,
+     "ast": 10,
      "stl": 0,
-     "blk": 2,
-     "pts_paint": 14,
+     "blk": 3,
+     "pts_paint": 18,
      "pts_second_chance": 6,
-     "pts_fast_break": 5,
+     "pts_fast_break": 8,
      "pts_off_tov": 2,
-     "pts_bench": 5,
+     "pts_bench": 10,
      "biggest_lead": 7,
-     "lead_changes": 2
+     "lead_changes": 6
     },
     "leaders": [
      {
       "name": "Jalen Smith",
-      "pts": 10,
-      "reb": 2,
-      "ast": 0,
-      "min": "8:12"
+      "pts": 12,
+      "reb": 3,
+      "ast": 1,
+      "min": "10:18"
      },
      {
       "name": "Matas Buzelis",
@@ -66,42 +66,42 @@
    },
    "away": {
     "team": "PHI",
-    "score": 30,
+    "score": 36,
     "periods": [
-     30,
-     0,
+     34,
+     2,
      0,
      0
     ],
     "stats": {
-     "fgm": 12,
-     "fga": 28,
+     "fgm": 15,
+     "fga": 36,
      "fg3m": 4,
-     "fg3a": 10,
+     "fg3a": 11,
      "ftm": 2,
      "fta": 2,
-     "oreb": 8,
-     "dreb": 8,
+     "oreb": 9,
+     "dreb": 13,
      "tov": 2,
-     "pf": 3,
-     "ast": 7,
+     "pf": 4,
+     "ast": 9,
      "stl": 1,
      "blk": 0,
-     "pts_paint": 16,
+     "pts_paint": 22,
      "pts_second_chance": 17,
-     "pts_fast_break": 4,
+     "pts_fast_break": 10,
      "pts_off_tov": 2,
-     "pts_bench": 3,
-     "biggest_lead": 1,
-     "lead_changes": 2
+     "pts_bench": 5,
+     "biggest_lead": 3,
+     "lead_changes": 6
     },
     "leaders": [
      {
       "name": "Jaylen Brown",
-      "pts": 6,
+      "pts": 10,
       "reb": 4,
       "ast": 1,
-      "min": "9:21"
+      "min": "12:39"
      },
      {
       "name": "Joel Embiid",
@@ -113,9 +113,9 @@
      {
       "name": "VJ Edgecombe",
       "pts": 6,
-      "reb": 3,
+      "reb": 4,
       "ast": 2,
-      "min": "9:03"
+      "min": "11:09"
      }
     ]
    },
@@ -135,6 +135,10 @@
     {
      "t": 10.7,
      "m": 1
+    },
+    {
+     "t": 14.2,
+     "m": 2
     }
    ]
   },
