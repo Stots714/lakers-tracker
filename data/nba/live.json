@@ -1,42 +1,42 @@
 {
- "updated": "2026-11-08T13:16:13-08:00",
+ "updated": "2026-11-08T13:23:15-08:00",
  "board_date": "2026-11-08",
  "games": [
   {
    "game_id": "0022600196",
    "tip_utc": "2026-11-08T20:30:00Z",
    "status": 2,
-   "status_text": "Q2 7:01",
+   "status_text": "Q2 4:41",
    "period": 2,
-   "clock": "7:01",
+   "clock": "4:41",
    "home": {
     "team": "CHI",
-    "score": 42,
+    "score": 46,
     "periods": [
      33,
-     9,
+     13,
      0,
      0
     ],
     "stats": {
-     "fgm": 17,
-     "fga": 37,
+     "fgm": 18,
+     "fga": 41,
      "fg3m": 5,
-     "fg3a": 18,
-     "ftm": 3,
-     "fta": 5,
-     "oreb": 6,
-     "dreb": 10,
-     "tov": 2,
-     "pf": 5,
-     "ast": 10,
+     "fg3a": 19,
+     "ftm": 5,
+     "fta": 7,
+     "oreb": 7,
+     "dreb": 13,
+     "tov": 3,
+     "pf": 6,
+     "ast": 11,
      "stl": 1,
-     "blk": 4,
-     "pts_paint": 22,
+     "blk": 5,
+     "pts_paint": 24,
      "pts_second_chance": 6,
      "pts_fast_break": 8,
      "pts_off_tov": 2,
-     "pts_bench": 10,
+     "pts_bench": 12,
      "biggest_lead": 7,
      "lead_changes": 9
     },
@@ -49,73 +49,73 @@
       "min": "12:40"
      },
      {
-      "name": "Josh Giddey",
-      "pts": 6,
-      "reb": 2,
-      "ast": 7,
-      "min": "11:21"
+      "name": "Matas Buzelis",
+      "pts": 7,
+      "reb": 3,
+      "ast": 1,
+      "min": "12:09"
      },
      {
-      "name": "Matas Buzelis",
-      "pts": 5,
-      "reb": 1,
-      "ast": 1,
-      "min": "9:53"
+      "name": "Josh Giddey",
+      "pts": 6,
+      "reb": 3,
+      "ast": 7,
+      "min": "11:21"
      }
     ]
    },
    "away": {
     "team": "PHI",
-    "score": 45,
+    "score": 51,
     "periods": [
      34,
-     11,
+     17,
      0,
      0
     ],
     "stats": {
-     "fgm": 19,
-     "fga": 43,
-     "fg3m": 4,
-     "fg3a": 13,
-     "ftm": 3,
-     "fta": 3,
-     "oreb": 12,
-     "dreb": 16,
+     "fgm": 21,
+     "fga": 48,
+     "fg3m": 5,
+     "fg3a": 14,
+     "ftm": 4,
+     "fta": 5,
+     "oreb": 13,
+     "dreb": 17,
      "tov": 3,
-     "pf": 4,
-     "ast": 11,
-     "stl": 2,
-     "blk": 0,
-     "pts_paint": 28,
-     "pts_second_chance": 22,
+     "pf": 5,
+     "ast": 12,
+     "stl": 3,
+     "blk": 1,
+     "pts_paint": 30,
+     "pts_second_chance": 24,
      "pts_fast_break": 12,
      "pts_off_tov": 4,
      "pts_bench": 7,
-     "biggest_lead": 3,
+     "biggest_lead": 7,
      "lead_changes": 9
     },
     "leaders": [
      {
-      "name": "Jaylen Brown",
-      "pts": 12,
-      "reb": 5,
+      "name": "LeBron James",
+      "pts": 14,
+      "reb": 2,
       "ast": 2,
-      "min": "15:32"
+      "min": "13:11"
      },
      {
-      "name": "LeBron James",
-      "pts": 8,
-      "reb": 1,
-      "ast": 2,
-      "min": "11:52"
+      "name": "Jaylen Brown",
+      "pts": 12,
+      "reb": 4,
+      "ast": 3,
+      "min": "16:51"
      },
      {
       "name": "Joel Embiid",
       "pts": 6,
       "reb": 5,
       "ast": 0,
-      "min": "9:03"
+      "min": "10:00"
      }
     ]
    },
@@ -143,6 +143,10 @@
     {
      "t": 17.0,
      "m": -3
+    },
+    {
+     "t": 19.3,
+     "m": -5
     }
    ]
   },
