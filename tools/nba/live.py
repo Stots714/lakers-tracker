@@ -32,6 +32,12 @@ from pathlib import Path
 
 from nba_api.live.nba.endpoints import boxscore, scoreboard
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+try:
+    import injuries  # the NBA's official injury report; needs pypdf
+except ImportError:  # pypdf arrives with the next run_update.ps1; the watcher works without it
+    injuries = None
+
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "data" / "nba" / "live.json"
 LOG = Path(__file__).resolve().parent / "last_live.log"
@@ -40,6 +46,7 @@ CHECK_EVERY = 7 * 60      # seconds between live checks
 WAIT_STEP = 30 * 60       # longest single wait before tip-off, so a schedule change is noticed
 NEW_DAY_STEP = 30 * 60    # NBA.com switches its scoreboard to the new day in the late morning, Eastern time
 NEW_DAY_LIMIT = 12 * 3600 # stop waiting for the new day's scoreboard after this long
+INJURY_EVERY = 30 * 60    # how often to read the injury report while a game today has yet to tip
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -209,6 +216,8 @@ def git(*args):
 
 def push(message):
     git("add", "data/nba/live.json")
+    if (OUT.parent / "injuries.csv").exists():
+        git("add", "data/nba/injuries.csv")
     if git("diff", "--cached", "--quiet").returncode == 0:
         return False
     for args in (("commit", "-q", "-m", message), ("pull", "-q", "--rebase"), ("push", "-q")):
@@ -259,7 +268,7 @@ def main():
         return 4
     ids = [g["gameId"] for g in board]
     log(f"{len(board)} games on {board_date}: " + ", ".join(f'{g["awayTeam"]["teamTricode"]}@{g["homeTeam"]["teamTricode"]}' for g in board))
-    last_push = 0.0
+    last_push = last_injury = 0.0
     timer = WakeTimer()
     while True:
         try:
@@ -276,10 +285,20 @@ def main():
                    and now < dt.datetime.fromisoformat(g["tip_utc"].replace("Z", "+00:00")) + dt.timedelta(hours=4)]  # later than that: postponed
         done = not live and not waiting
         write(board_date, games)
+        news = ""
+        if injuries is not None and waiting and time.time() - last_injury >= INJURY_EVERY:
+            last_injury = time.time()
+            try:
+                got, label, changed = injuries.update(OUT.parent, log=log)
+                if changed:
+                    news = f"Injury report {label}"
+                    log(f"  injury report {label}: {len(got)} players listed")
+            except Exception as e:  # the watcher carries on without it
+                log(f"  injury report not read: {type(e).__name__}: {str(e)[:160]}")
         summary = "; ".join(f'{g["away"]["team"]} {g["away"]["score"]}-{g["home"]["score"]} {g["home"]["team"]} ({g["status_text"]})' for g in games if g["status"] >= 2)
         log(f"check: {len(live)} live, {sum(g['status'] == 3 for g in games)} final of {len(games)}. {summary}")
-        if not a.no_push and (a.once or done or (live and time.time() - last_push >= PUSH_EVERY)):
-            if push(f"Live: {summary[:120] or 'tonight'}"):
+        if not a.no_push and (a.once or done or news or (live and time.time() - last_push >= PUSH_EVERY)):
+            if push(news if news and not live else f"Live: {summary[:120] or 'tonight'}"):
                 last_push = time.time()
                 log("  pushed")
         if done:

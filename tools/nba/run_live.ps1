@@ -29,6 +29,9 @@ if (-not (Test-Path $Py)) {
 }
 if (-not (Test-Path $Py)) { Write-Host 'STOPPED: Python is not set up. Run run_update.ps1 once by hand.' -ForegroundColor Red; Stop-Transcript | Out-Null; exit 1 }
 
+# Bring in any new requirement (for example pypdf for the injury report). Quiet, and harmless if offline.
+& $Py -m pip install --quiet --disable-pip-version-check -r (Join-Path $Here 'requirements.txt') 2>$null | Out-Null
+
 $PyArgs = @((Join-Path $Here 'live.py'))
 if ($Once) { $PyArgs += '--once' }
 & $Py @PyArgs

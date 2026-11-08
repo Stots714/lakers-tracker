@@ -25,7 +25,7 @@ The detail steps cover the Lakers and their next opponent, read from the schedul
 
 ## Live games
 
-The same daily setup also starts a live watcher every morning at 9:00, hidden. It sleeps until the first tip-off, then reads NBA.com's live feed and pushes `data/nba/live.json` about every 7 minutes while games are on (GitHub Pages allows about 10 site updates an hour). The site shows it as a Live card at the top for the focus team's game: score by quarter, a live win chance, the margin through the game, the keys so far against each team's season (offensive rebounds, free throws, turnovers, threes) and the top scorers. When every game is final it waits 15 minutes and runs the full update, so the ratings include the night's games. On days with no games it stops at once.
+The same daily setup also starts a live watcher every morning at 9:00, hidden. It sleeps until the first tip-off, then reads NBA.com's live feed and pushes `data/nba/live.json` about every 7 minutes while games are on (GitHub Pages allows about 10 site updates an hour). The site shows it as a Live card at the top for the focus team's game: score by quarter, a live win chance, the margin through the game, the keys so far against each team's season (offensive rebounds, free throws, turnovers, threes) and the top scorers. Before tip-off it also reads the NBA's official injury report every 30 minutes and pushes it when a newer one is out, so the site shows who is out, doubtful or questionable. When every game is final it waits 15 minutes and runs the full update, so the ratings include the night's games. On days with no games it stops at once.
 
 Start it by hand on a game night:
 
@@ -46,6 +46,8 @@ The live win chance (Proposed) starts from the pre-game projection for the minut
 | `league_player_games.csv` | Every player's line in every game |
 | `league_quarters.csv` | Points per quarter for each team in each game |
 | `league_inactive.csv` | Players NBA.com listed inactive for each game |
+| `league_extras.csv` | Per team per game: team turnovers, paint, second-chance, fast-break, off-turnover and bench points, lead changes |
+| `injuries.csv` | The newest official NBA injury report: each listed player's status (Out, Doubtful, Questionable, Probable) and reason (injuries.py, read with pypdf) |
 | `games_<TEAM>.csv` | Each game: NBA.com game id, date, matchup, result, team box totals |
 | `player_games_<TEAM>.csv`, `player_games_adv_<TEAM>.csv` | Player box score per game, basic and advanced (usage, ratings) |
 | `onoff_<TEAM>.csv` | Team results with each player on the court and off it, advanced (`COURT` = on or off) |

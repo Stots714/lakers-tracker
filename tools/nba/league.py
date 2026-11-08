@@ -14,6 +14,8 @@ the four factors) counts team turnovers too, so league_box.csv adds them from th
 The page merges these over the hand-checked Lakers files; NBA.com wins where both exist.
 Plain Python only (see rows.py for why there is no pandas).
 """
+import datetime as _dt
+
 from nba_api.stats.endpoints import boxscoresummaryv3, leaguegamefinder, playergamelogs, scheduleleaguev2
 from nba_api.stats.static import teams as static_teams
 
@@ -53,6 +55,21 @@ def _opp(matchup):
     return str(matchup).split()[-1]
 
 
+def _sides(sched):
+    """game id -> (home, away) from the schedule. NBA.com's MATCHUP text is occasionally wrong
+    (on 2026-11-07 it gave Indiana as its own opponent), so the schedule decides where it can."""
+    return {str(g["gameId"]): (g.get("homeTeam_teamTricode"), g.get("awayTeam_teamTricode")) for g in (sched or [])}
+
+
+def _opp_ha(r, sides):
+    """(opponent, 'H' or 'A') for a team or player row."""
+    team, gid = r["TEAM_ABBREVIATION"], str(r["GAME_ID"])
+    home, away = sides.get(gid, (None, None))
+    if team in (home, away) and home and away:
+        return (away, "H") if team == home else (home, "A")
+    return _opp(r["MATCHUP"]), ("A" if "@" in str(r["MATCHUP"]) else "H")
+
+
 def _regular(rows, key):
     return [r for r in rows if str(r.get(key, "")).startswith(REGULAR)]
 
@@ -79,15 +96,15 @@ def player_games(fetch, season):
     return _regular(from_dataset(ep.player_game_logs)[0], "GAME_ID")
 
 
-def write_box(tg, save):
-    out = []
+def write_box(tg, save, sched=None):
+    out, sides = [], _sides(sched)
     for r in tg:
+        opp, ha = _opp_ha(r, sides)
         mp = _min(r.get("MIN"))
         if mp is not None:
             mp = 240 + 25 * max(0, int(round((mp - 240) / 25)))
         out.append({
-            "date": _date(r["GAME_DATE"]), "team": r["TEAM_ABBREVIATION"], "opp": _opp(r["MATCHUP"]),
-            "home_away": "A" if "@" in str(r["MATCHUP"]) else "H",
+            "date": _date(r["GAME_DATE"]), "team": r["TEAM_ABBREVIATION"], "opp": opp, "home_away": ha,
             **{k: _int(r[k.upper()]) for k in BOX},
             "mp": int(round(mp)) if mp is not None else "", "game_id": str(r["GAME_ID"]),
         })
@@ -112,11 +129,11 @@ def write_results(sched, box, save):
     return save(out, "league_results.csv", ["date", "away", "home", "away_pts", "home_pts", "ot", "game_id"]), out
 
 
-def write_player_games(pg, save):
-    out = []
+def write_player_games(pg, save, sched=None):
+    out, sides = [], _sides(sched)
     for r in pg:
         out.append({
-            "date": _date(r["GAME_DATE"]), "team": r["TEAM_ABBREVIATION"], "opp": _opp(r["MATCHUP"]), "player": r["PLAYER_NAME"],
+            "date": _date(r["GAME_DATE"]), "team": r["TEAM_ABBREVIATION"], "opp": _opp_ha(r, sides)[0], "player": r["PLAYER_NAME"],
             "min": round(_min(r.get("MIN")) or 0, 2),
             **{k: _int(r[k.upper()]) for k in LINE},
             "game_id": str(r["GAME_ID"]), "player_id": r["PLAYER_ID"],
@@ -134,8 +151,19 @@ def summaries(fetch, save, out_dir, results, refresh=False):
     q_old = [] if refresh else read(out_dir / "league_quarters.csv")
     i_old = [] if refresh else read(out_dir / "league_inactive.csv")
     x_old = [] if refresh else read(out_dir / "league_extras.csv")
-    done = {r["game_id"] for r in q_old} & {r["game_id"] for r in x_old}
     info = {r["game_id"]: r for r in results if r["home_pts"] != ""}
+    # A game counts as done once its quarters, extras and inactive list are all on file. NBA.com sometimes
+    # fills the inactive list in late (39 early-season games had none), so a game without one is asked
+    # for again, for up to 30 days.
+    has_inactive = {r["game_id"] for r in i_old}
+    today = _dt.date.today()
+
+    def recent(gid):
+        try:
+            return (today - _dt.date.fromisoformat(info[gid]["date"])).days <= 30
+        except (KeyError, ValueError):
+            return False
+    done = {g for g in {r["game_id"] for r in q_old} & {r["game_id"] for r in x_old} if g in has_inactive or not recent(g)}
     todo = [g for g in info if g not in done]
     redo = set(todo)  # drop any partial rows for games fetched again
     q_old = [r for r in q_old if r["game_id"] not in redo]

@@ -55,6 +55,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import league  # noqa: E402  (league-wide files in the tracker's formats)
 import rows  # noqa: E402  (plain-Python tables; no pandas, see rows.py)
 
+try:
+    import injuries  # noqa: E402  (the NBA's official injury report; needs pypdf)
+except ImportError as _e:  # pypdf not installed yet: run_update.ps1 installs it on the next run
+    injuries, INJURY_IMPORT_ERROR = None, _e
+
 SEASON = "2026-27"
 SEASON_TYPE = "Regular Season"
 PAUSE = 1.5      # seconds between requests, to stay polite
@@ -222,12 +227,18 @@ def settle(label, n, missed):
     return (n, {"pending": len(missed)}) if missed else n
 
 
+def _has_rows(path):
+    """True if a CSV has at least one data row (a file saved mid-game can hold only its header)."""
+    with path.open(encoding="utf-8") as f:
+        return sum(1 for _ in zip(range(2), f)) > 1
+
+
 def per_game(game_ids, folder, cls, attr, refresh, dates=None):
     """One file per game. A game that fails is skipped (no file), so the next run tries it again."""
     new, missed = 0, []
     for gid in game_ids:
         path = OUT / folder / f"{gid}.csv"
-        if path.exists() and not refresh:
+        if path.exists() and not refresh and _has_rows(path):
             continue
         try:
             ep = fetch(cls, game_id=gid)
@@ -305,7 +316,7 @@ def main():
 
         def box():
             L["tg"] = finals(league.team_games(fetch, SEASON), "GAME_ID")
-            n, L["box"] = league.write_box(L["tg"], save)
+            n, L["box"] = league.write_box(L["tg"], save, L.get("sched"))
             return n
 
         def results():
@@ -313,7 +324,7 @@ def main():
             return n
 
         def pgames():
-            n, L["pg"] = league.write_player_games(finals(league.player_games(fetch, SEASON), "GAME_ID"), save)
+            n, L["pg"] = league.write_player_games(finals(league.player_games(fetch, SEASON), "GAME_ID"), save, L.get("sched"))
             return n
 
         step("league schedule", sched, "games")
@@ -330,6 +341,14 @@ def main():
             league_notes = league.checks(ROOT, L["results"], L["box"], L["pg"], OUT)
             for n in league_notes:
                 log("CHECK " + n)
+
+    def injury_report():
+        if injuries is None:
+            raise RuntimeError(f"pypdf is not installed ({INJURY_IMPORT_ERROR})")
+        got, label, changed = injuries.update(OUT, log=log)
+        log(f"  injury report {label}" + ("" if changed else " (no newer report)"))
+        return len(got) if got is not None else len(rows.read(OUT / "injuries.csv"))
+    step("injury report", injury_report, "players listed")
 
     teams = [t.upper() for t in a.teams] if a.teams else ["LAL"] + ([next_opponent()] if next_opponent() else [])
     teams = list(dict.fromkeys(teams))
@@ -365,7 +384,8 @@ def main():
     notes = league_notes + checks(lal_games)
     ok = sum(s["ok"] for s in status.values())
     files = {"nba_results": "league_results.csv", "nba_box": "league_box.csv", "nba_player_games": "league_player_games.csv",
-             "nba_quarters": "league_quarters.csv", "nba_inactive": "league_inactive.csv", "nba_extras": "league_extras.csv"}
+             "nba_quarters": "league_quarters.csv", "nba_inactive": "league_inactive.csv", "nba_extras": "league_extras.csv",
+             "nba_injuries": "injuries.csv"}
     manifest = {
         "updated": dt.datetime.now().astimezone().isoformat(timespec="seconds"),
         "season": SEASON, "teams": teams, "nba_api": version("nba_api"),

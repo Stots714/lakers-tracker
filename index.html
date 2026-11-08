@@ -162,6 +162,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .lk-cover:empty { display: none; }
 
 
+#lk-updated.lk-stale { color: var(--color-bad); }
 .lk-live-head { display: flex; align-items: center; gap: var(--cds-gap-sm); }
 .lk-live-dot { width: 0.6rem; height: 0.6rem; border-radius: 50%; background: var(--color-bad); animation: lkpulse 1.6s ease-in-out infinite; }
 .lk-live-dot[hidden] { display: none; }
@@ -490,7 +491,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 
   <section class="lk-card" id="absences">
     <h2>Known key absences</h2>
-    <p class="lk-note">Absences confirmed by a cited report, plus rotation players (20+ minutes a game) on NBA.com's inactive list for a game. A game with no flag is not proof of full strength. <span id="lk-abs-note"></span></p>
+    <p class="lk-note">Upcoming games: the NBA’s official injury report (Out, Doubtful, Questionable, Probable), and cited reports for dates it does not cover. Played games: rotation players (15+ minutes a game) on NBA.com's inactive list. A game with no flag is not proof of full strength. <span id="lk-abs-note"></span></p>
     <div class="lk-tablewrap">
       <table class="lk-table lk-stack" id="lk-abs" data-source="absences_all" data-row-key="team,player,from">
         <thead><tr>
@@ -519,7 +520,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       <li><b>±</b> is one standard error, from game-to-game noise of 12 points and the shrinkage above. About two times in three, a team's true strength sits inside rating ± that number. With shrinkage off it is approximated as 12 ÷ √games.</li>
       <li><b>Per 100 possessions.</b> Possessions ≈ FGA + 0.44 × FTA − offensive rebounds + turnovers, averaged over the team and its opponents. Pace is possessions per 48 minutes.</li>
       <li><b>Scorecard.</b> For each game date, the ratings are refit using only earlier games, then each game that day is projected. Nothing from the game itself or later games leaks in.</li>
-      <li><b>With known absences (Proposed method).</b> A missing player's value is (his box plus-minus + 2) × his minutes per game ÷ 48, where +2 measures him against a replacement-level player. His BPM blends this season with last season, last season counting as 20 games. That value is scaled by the share of games he has played, because a team that has already played without him is already rated without him. Only absences on file are used; NBA.com inactive lists describe games already played, so they never change a projection.</li>
+      <li><b>With known absences (Proposed method).</b> A missing player's value is (his box plus-minus + 2) × his minutes per game ÷ 48, where +2 measures him against a replacement-level player. His BPM blends this season with last season, last season counting as 20 games. That value is scaled by the share of games he has played, because a team that has already played without him is already rated without him. Absences come from the NBA’s official injury report (only players listed Out count; a player with no BPM on file counts as league average) and from cited reports for dates it does not cover. NBA.com inactive lists describe games already played, so they never change a projection.</li>
     </ul>
     <p><b>Not built in, shown as context:</b> the four factors, three-point luck, player stats and quarter splits. Absences adjust the projections only, shown next to the healthy projection, never the ratings themselves.</p>
     <p><b>Focus team.</b> Pick any team at the top and every section follows it: the title, the next game and spotlight, players, quarters and game-by-game four factors. Compare with picks a second team for the tiles, game log, scorecard and next meeting. The highlight color is the focus team's own color (teamcolorcodes.com; Clippers and Jazz from Design Your Way, the Jazz value approximate), lightened or darkened where needed so text on it stays readable.</p>
@@ -545,6 +546,29 @@ const variantOf = (p) => 'h' + (p.hca ? 1 : 0) + 's' + (p.shrink ? 1 : 0) + 'r' 
 // NBA.com wins wherever both have the same game, so the site stays current from the daily PC run.
 const isNum = (v) => v !== '' && v !== null && v !== undefined && !Number.isNaN(Number(v));
 const normName = (s) => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z ]/g, '').trim();
+// What a missing player is worth to his team's margin, in points: (blended BPM + 2) × his share of team
+// minutes. Games and minutes come from the NBA.com lines on file; BPM from player_impact (current season
+// blended with last season's, 20 games of weight). A player with no BPM on file counts as league average (0).
+const absenceValuer = (player_impact, player_games_all, teamGp) => {
+  const imp = new Map(player_impact.map((p) => [p.team + '|' + normName(p.player), p]));
+  const st = new Map();
+  for (const g of player_games_all) {
+    const m = Number(g.min);
+    if (!(m > 0)) continue;
+    const k = g.team + '|' + normName(g.player), s = st.get(k) || { g: 0, min: 0 };
+    s.g += 1; s.min += m; st.set(k, s);
+  }
+  const num = (v) => (v === '' || v === undefined || v === null ? null : Number(v));
+  return (team, player) => {
+    const k = team + '|' + normName(player), p = imp.get(k), s = st.get(k);
+    if (!p && !s) return null;
+    const g = s ? s.g : Number(p.g), min = s ? s.min : Number(p.min);
+    if (!g) return 0;
+    const cur = p ? num(p.bpm) : null, prior = p ? num(p.bpm_prior) : null;
+    const bpm = cur === null ? (prior === null ? 0 : prior) : prior === null ? cur * g / (g + 20) : (g * cur + 20 * prior) / (g + 20);
+    return (bpm + 2) * (min / g) / 48 * Math.min(1, g / (teamGp.get(team) || g));
+  };
+};
 
 dash.calc('results_all', {
   inputs: ['results', 'nba_results'],
@@ -712,31 +736,61 @@ dash.calc('team_totals', {
 });
 
 dash.calc('absences_all', {
-  inputs: ['absences', 'nba_inactive', 'player_games_all', 'schedule'],
-  title: 'Absences: reported, plus NBA.com inactive lists',
-  description: 'Every cited absence on file, plus rotation players (20+ minutes a game in 2+ games) on NBA.com’s inactive list for a game; consecutive missed games are joined into one row.',
-  fn: (absences, nba_inactive, player_games_all, schedule) => {
-    const rows = absences.map((a) => ({ ...a, kind: 'report' }));
-    const mins = new Map();
-    for (const g of player_games_all) {
-      const k = g.team + '|' + normName(g.player), m = mins.get(k) || { t: 0, n: 0, name: g.player };
-      if (Number(g.min) > 0) { m.t += Number(g.min); m.n += 1; }
-      mins.set(k, m);
-    }
+  inputs: ['absences', 'nba_inactive', 'player_games_all', 'schedule', 'nba_injuries'],
+  title: 'Absences: the NBA injury report, cited reports and NBA.com inactive lists',
+  description: 'The newest NBA injury report decides each game it covers (Out counts as absent; Doubtful, Questionable and Probable are shown but not counted). Cited reports cover other dates and end at the player’s first game back. Rotation players (15+ minutes a game in 2+ games) on NBA.com’s inactive list for a played game are added; consecutive missed games are joined into one row.',
+  fn: (absences, nba_inactive, player_games_all, schedule, nba_injuries) => {
+    const day = (s, n) => { const d = new Date(s + 'T00:00:00Z'); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
     const teamDates = new Map();
     for (const g of schedule) if (g.played) for (const t of [g.home, g.away]) { if (!teamDates.has(t)) teamDates.set(t, []); teamDates.get(t).push(g.date); }
-    const covered = (team, player, d) => absences.some((a) => a.team === team && normName(a.player) === normName(player) && a.from <= d && (!a.until || a.until >= d));
+    teamDates.forEach((l) => l.sort());
+    const mins = new Map(), playedOn = new Map();
+    for (const g of player_games_all) {
+      const k = g.team + '|' + normName(g.player), m = mins.get(k) || { t: 0, n: 0, name: g.player };
+      if (Number(g.min) > 0) { m.t += Number(g.min); m.n += 1; if (!playedOn.has(k)) playedOn.set(k, []); playedOn.get(k).push(g.date); }
+      mins.set(k, m);
+    }
+    playedOn.forEach((l) => l.sort());
+    // The injury report: authoritative for every team and date it covers (a team that has filed)
+    const report = (nba_injuries || []).filter((r) => r.team && r.game_date);
+    const filed = new Set(report.filter((r) => r.player && r.status !== 'Not submitted').map((r) => r.team + '|' + r.game_date));
+    const listed = report.filter((r) => r.player && ['Out', 'Doubtful', 'Questionable', 'Probable'].includes(r.status) && !/^G League/i.test(r.reason || ''));
+    // Cited reports: end at the player's first game back, and before any date the injury report covers
+    const rows = [];
+    for (const a of absences) {
+      const k = a.team + '|' + normName(a.player);
+      let until = a.until || '';
+      const back = (playedOn.get(k) || []).find((d) => d >= a.from);
+      if (back && (!until || until >= back)) {
+        const before = (teamDates.get(a.team) || []).filter((d) => d >= a.from && d < back).pop();
+        if (!before) continue;  // he played in the first game it covers
+        until = before;
+      }
+      const cover = [...filed].filter((x) => x.startsWith(a.team + '|')).map((x) => x.slice(4)).filter((d) => d >= a.from && (!until || d <= until)).sort()[0];
+      if (cover) { if (cover <= a.from) continue; until = day(cover, -1); }
+      rows.push({ ...a, until, kind: 'report' });
+    }
+    for (const r of listed) {
+      const m = mins.get(r.team + '|' + normName(r.player));
+      rows.push({
+        team: r.team, player: m ? m.name : r.player, role: m && m.n ? (m.t / m.n).toFixed(0) + ' min a game' : 'No games yet',
+        from: r.game_date, until: r.game_date, status: r.status + ': ' + String(r.reason || '').replace(/^Injury\/Illness - /, ''),
+        source: 'NBA injury report, ' + r.report, kind: 'injury', inj: r.status, out: r.status === 'Out',
+      });
+    }
+    // NBA.com inactive lists for games already played
+    const covered = (team, player, d) => rows.some((a) => a.team === team && normName(a.player) === normName(player) && a.from <= d && (!a.until || a.until >= d));
     const byPlayer = new Map();
     for (const r of nba_inactive) {
       const k = r.team + '|' + normName(r.player), m = mins.get(k);
-      if (!m || m.n < 2 || m.t / m.n < 20 || covered(r.team, r.player, r.date)) continue;
+      if (!m || m.n < 2 || m.t / m.n < 15 || covered(r.team, r.player, r.date)) continue;
       if (!byPlayer.has(k)) byPlayer.set(k, { team: r.team, player: m.name, dates: new Set() });
       byPlayer.get(k).dates.add(r.date);
     }
     const mk = (p, run) => ({ team: p.team, player: p.player, role: 'Rotation', from: run.from, until: run.until, status: 'Inactive (NBA.com game report)', source: 'NBA.com box score summary', kind: 'inactive' });
     for (const p of byPlayer.values()) {
       let run = null;
-      for (const d of (teamDates.get(p.team) || []).slice().sort()) {
+      for (const d of teamDates.get(p.team) || []) {
         if (p.dates.has(d)) { if (run) run.until = d; else run = { from: d, until: d }; } else if (run) { rows.push(mk(p, run)); run = null; }
       }
       if (run) rows.push(mk(p, run));
@@ -746,23 +800,14 @@ dash.calc('absences_all', {
 });
 
 dash.calc('game_log', {
-  inputs: ['schedule', 'model', 'absences_all', 'player_impact'],
+  inputs: ['schedule', 'model', 'absences_all', 'player_impact', 'player_games_all'],
   title: 'Game log and projections per team',
   description: 'Played games: performance = margin minus home court and rest, plus opponent rating. Upcoming games (next 5): projected margin, and the same with known absences priced in. Per toggle setting.',
-  fn: (schedule, model, absences, player_impact) => {
+  fn: (schedule, model, absences, player_impact, player_games_all) => {
     const HCA = 2.0, B2B = 1.0;
     const norm = (s) => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-    const imp = new Map(player_impact.map((p) => [p.team + '|' + norm(p.player), p]));
     const teamGp = new Map(model.filter((m) => m.variant === 'h1s1r1').map((m) => [m.team, m.gp]));
-    const value = (team, player) => {
-      const p = imp.get(team + '|' + norm(player));
-      if (!p) return null;
-      const g = Number(p.g), min = Number(p.min);
-      if (!g) return 0;
-      const cur = p.bpm === '' ? null : Number(p.bpm), prior = p.bpm_prior === '' ? null : Number(p.bpm_prior);
-      const bpm = cur === null ? (prior === null ? 0 : prior) : prior === null ? cur * g / (g + 20) : (g * cur + 20 * prior) / (g + 20);
-      return (bpm + 2) * (min / g) / 48 * Math.min(1, g / (teamGp.get(team) || g));
-    };
+    const value = absenceValuer(player_impact, player_games_all, teamGp);
     const adjust = (team, opp, teamOut, oppOut) => {
       const parts = [], miss = [];
       let adj = 0;
@@ -778,7 +823,7 @@ dash.calc('game_log', {
 
     const lbl = (s) => { const d = new Date(s + 'T00:00:00Z'); return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][d.getUTCDay()] + ' ' + ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getUTCMonth()] + ' ' + d.getUTCDate(); };
     const rating = new Map(model.map((m) => [m.variant + '|' + m.team, m.rating]));
-    const out = (team, date) => absences.filter((a) => a.team === team && a.from <= date && (!a.until || a.until >= date)).map((a) => a.player);
+    const out = (team, date) => [...new Set(absences.filter((a) => a.team === team && a.out !== false && a.from <= date && (!a.until || a.until >= date)).map((a) => a.player))];
     const rows = [];
     for (const variant of [...new Set(model.map((m) => m.variant))]) {
       const h = variant[1] === '1', r = variant[5] === '1';
@@ -817,22 +862,13 @@ dash.calc('game_log', {
 
 
 dash.calc('next_game', {
-  inputs: ['lakers_schedule', 'schedule', 'model', 'absences_all', 'player_impact'],
+  inputs: ['lakers_schedule', 'schedule', 'model', 'absences_all', 'player_impact', 'player_games_all'],
   title: 'Next game for each focus team, and its next meeting with every other team',
   description: 'focus = the team the page is about; team = the team picked to compare. When they are the same, the focus team’s next game; otherwise their next meeting. Projected focus-team margin with home court and rest, per toggle setting.',
-  fn: (lakers_schedule, schedule, model, absences, player_impact) => {
+  fn: (lakers_schedule, schedule, model, absences, player_impact, player_games_all) => {
     const HCA = 2.0, B2B = 1.0;
-    const imp = new Map(player_impact.map((p) => [p.team + '|' + normName(p.player), p]));
     const teamGp = new Map(model.filter((m) => m.variant === 'h1s1r1').map((m) => [m.team, m.gp]));
-    const value = (team, player) => {
-      const p = imp.get(team + '|' + normName(player));
-      if (!p) return null;
-      const g = Number(p.g), min = Number(p.min);
-      if (!g) return 0;
-      const cur = p.bpm === '' ? null : Number(p.bpm), prior = p.bpm_prior === '' ? null : Number(p.bpm_prior);
-      const bpm = cur === null ? (prior === null ? 0 : prior) : prior === null ? cur * g / (g + 20) : (g * cur + 20 * prior) / (g + 20);
-      return (bpm + 2) * (min / g) / 48 * Math.min(1, g / (teamGp.get(team) || g));
-    };
+    const value = absenceValuer(player_impact, player_games_all, teamGp);
     const adjust = (team, opp, teamOut, oppOut) => {
       const parts = [], miss = [];
       let adj = 0;
@@ -850,7 +886,10 @@ dash.calc('next_game', {
     const coveredTo = schedule.map((g) => g.date).sort().pop();
     const day = (s) => Date.parse(s + 'T00:00:00Z') / 864e5;
     const lbl = (s) => { const d = new Date(s + 'T00:00:00Z'); return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][d.getUTCDay()] + ' ' + ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getUTCMonth()] + ' ' + d.getUTCDate(); };
-    const out = (team, date) => absences.filter((a) => a.team === team && a.from <= date && (!a.until || a.until >= date)).map((a) => a.player);
+    const out = (team, date) => [...new Set(absences.filter((a) => a.team === team && a.out !== false && a.from <= date && (!a.until || a.until >= date)).map((a) => a.player))];
+    // Listed on the injury report but not ruled out: shown with the status, not priced in
+    const listed = (team, date) => absences.filter((a) => a.team === team && a.kind === 'injury' && a.out === false && a.from === date).map((a) => a.player + ' (' + a.inj.toLowerCase() + ')');
+    const reportOn = (date, teams) => { const a = absences.find((x) => x.kind === 'injury' && x.from === date && teams.includes(x.team)); return a ? a.source.replace('NBA injury report, ', '') : ''; };
     const teams = [...new Set(model.map((m) => m.team))];
     // Each team's games from the league schedule, plus the Lakers' own schedule file past the league file's last date
     const games = new Map(teams.map((t) => [t, []]));
@@ -883,7 +922,9 @@ dash.calc('next_game', {
             adj_note: ad.note || 'No absence adjustment for this date.',
             games_away: ahead.indexOf(g),
             rest_note: (fB2b ? fname + ' on a back-to-back. ' : fname + ' rested. ') + (known ? (oppB2b ? names.get(g.opp) + ' on a back-to-back.' : names.get(g.opp) + ' rested.') : names.get(g.opp) + ' rest not yet known; assumed rested.'),
-            absent_note: [fOut.length ? fname + ' out: ' + fOut.join(', ') : '', oppOut.length ? names.get(g.opp) + ' out: ' + oppOut.join(', ') : ''].filter(Boolean).join('; ') || 'No key absences on file for this date.',
+            absent_note: ([fOut.length ? fname + ' out: ' + fOut.join(', ') : '', listed(F, g.date).length ? fname + ' listed: ' + listed(F, g.date).join(', ') : '',
+              oppOut.length ? names.get(g.opp) + ' out: ' + oppOut.join(', ') : '', listed(g.opp, g.date).length ? names.get(g.opp) + ' listed: ' + listed(g.opp, g.date).join(', ') : ''].filter(Boolean).join('; ') || 'No key absences on file for this date.')
+              + (reportOn(g.date, [F, g.opp]) ? ' (NBA injury report, ' + reportOn(g.date, [F, g.opp]) + '.)' : ''),
           });
         }
       }
@@ -1117,15 +1158,18 @@ dash.calc('player_form', {
     const n = Number, gs = (g) => n(g.pts) + 0.4 * n(g.fgm) - 0.7 * n(g.fga) - 0.4 * (n(g.fta) - n(g.ftm)) + 0.7 * n(g.oreb) + 0.3 * n(g.dreb) + n(g.stl) + 0.7 * n(g.ast) + 0.7 * n(g.blk) - 0.4 * n(g.pf) - n(g.tov);
     const by = new Map();
     for (const g of player_games) { const k = g.team + '|' + g.player; if (!by.has(k)) by.set(k, []); by.get(k).push(g); }
+    const tdates = new Map();
+    for (const g of player_games) { if (!tdates.has(g.team)) tdates.set(g.team, new Set()); tdates.get(g.team).add(g.date); }
+    tdates.forEach((v, t) => tdates.set(t, [...v].sort()));
     const rows = [];
     for (const [k, list] of by) {
       list.sort((a, b) => (a.date < b.date ? -1 : 1));
       const scores = list.map(gs), last = scores.slice(-3), mins = list.map((g) => n(g.min));
-      const teamGames = new Set(player_games.filter((g) => g.team === list[0].team).map((g) => g.date)).size;
+      const td = tdates.get(list[0].team), teamGames = td.length;
       rows.push({
         team: list[0].team, player: list[0].player, games: list.length, team_games: teamGames, mpg: mins.reduce((a, v) => a + v, 0) / list.length,
         season: scores.reduce((a, v) => a + v, 0) / scores.length, last3: last.reduce((a, v) => a + v, 0) / last.length,
-        trend: scores.map((v) => +v.toFixed(1)).join(' '), dates: list.map((g) => g.date).join(' '), last_date: list[list.length - 1].date,
+        trend: scores.map((v) => +v.toFixed(1)).join(' '), dates: list.map((g) => g.date).join(' '), last_date: list[list.length - 1].date, recent: list[list.length - 1].date >= (td[td.length - 2] || td[0]),
       });
     }
     return rows.sort((a, b) => b.last3 - a.last3);
@@ -1336,7 +1380,13 @@ function render() {
   if (schd.status === 'ok') {
     const lastPlayed = schd.data.filter((g) => g.played).map((g) => g.date).sort().pop();
     const nbaGames = schd.data.filter((g) => g.played && g.src === 'nba').length;
-    document.getElementById('lk-updated').textContent = lastPlayed ? 'Results through ' + dayFmt(new Date(lastPlayed + 'T00:00:00Z')) + (nbaGames ? ' (NBA.com data).' : '.') + ' Recalculated in your browser from the data files.' : '';
+    const man = window.NBA_MANIFEST, upd = man && man.updated ? new Date(man.updated) : null;
+    const ago = upd ? (Date.now() - upd.getTime()) / 36e5 : null;
+    const when = upd ? upd.toLocaleString('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) + ' PT' : '';
+    const updEl = document.getElementById('lk-updated');
+    updEl.textContent = lastPlayed ? 'Results through ' + dayFmt(new Date(lastPlayed + 'T00:00:00Z')) + (nbaGames ? ' (NBA.com data).' : '.') + (upd ? ' Data updated ' + when + '.' : '') + ' Recalculated in your browser from the data files.' : '';
+    updEl.classList.toggle('lk-stale', ago !== null && ago > 30);
+    if (ago !== null && ago > 30) updEl.textContent = 'Data is ' + (ago >= 48 ? Math.floor(ago / 24) + ' days' : Math.round(ago) + ' hours') + ' old (last updated ' + when + '); the PC that refreshes it may be off. ' + updEl.textContent;
   } else if (schd.status === 'error') {
     document.getElementById('lk-updated').textContent = 'The data files did not load. Reload to try again.';
   }
@@ -1385,7 +1435,7 @@ function render() {
   document.getElementById('lk-next-games-note').textContent = 'Projected margin for the ' + cn + '.' + (coveredTo ? ' Rest is known from the league schedule through ' + dayFmt(new Date(coveredTo + 'T00:00:00Z')) + '.' : '');
   if (gl.status === 'ok') {
     const mine = gl.data.filter((r) => r.variant === v && r.team === team);
-    mine.filter((r) => r.status === 'played').forEach((r) => {
+    mine.filter((r) => r.status === 'played').sort((a, b) => (a.date < b.date ? 1 : -1)).forEach((r) => {  // newest first
       const tr = document.createElement('tr'); tr.dataset.key = v + ',' + team + ',' + r.date;
       cell(tr, r.day_label, 'lk-left'); cell(tr, r.matchup, 'lk-left'); cell(tr, r.score);
       cell(tr, sgn(r.perf), 'lk-strong'); cell(tr, sgn(r.opp_rating)); cell(tr, r.flags || '—', 'lk-left'); cell(tr, r.absent || '—', 'lk-wrap lk-wide');
@@ -1434,7 +1484,7 @@ function render() {
   const lbBody = document.querySelector('#lk-lbox tbody'); lbBody.replaceChildren();
   if (lb.status === 'ok') {
     const rows = lb.data.filter((r) => r.team === focus || r.opp === focus)
-      .sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : (a.team === focus ? -1 : 1)));
+      .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : (a.team === focus ? -1 : 1)));  // newest first
     rows.forEach((r) => {
       const tr = document.createElement('tr'); tr.dataset.key = r.date + ',' + r.team;
       if (r.team === focus) tr.className = 'lk-sel';
@@ -1558,11 +1608,15 @@ function render() {
   const fBody2 = document.querySelector('#lk-form tbody'); fBody2.replaceChildren();
   if (pf.status === 'ok' && srw) {
     const sideRows = [];
-    for (const s of [focus, srw.opp]) sideRows.push(...pf.data.filter((r) => r.team === s && r.mpg >= 15 && r.games >= 2).slice(0, 3));
+    const abNow = (dash.data('absences_all').data || []).filter((a) => a.from <= srw.date && (!a.until || a.until >= srw.date));
+    const outNow = new Set(abNow.filter((a) => a.out !== false).map((a) => a.team + '|' + normName(a.player)));
+    const tagNow = new Map(abNow.filter((a) => a.kind === 'injury' && a.out === false).map((a) => [a.team + '|' + normName(a.player), a.inj.toLowerCase()]));
+    for (const s of [focus, srw.opp]) sideRows.push(...pf.data.filter((r) => r.team === s && r.mpg >= 15 && r.games >= 2 && r.recent !== false && !outNow.has(r.team + '|' + normName(r.player))).slice(0, 3));
     sideRows.forEach((r) => {
       const tr = document.createElement('tr'); tr.dataset.key = r.team + ',' + r.player;
       if (r.team === focus) tr.className = 'lk-sel';
-      cell(tr, r.team, 'lk-left'); cell(tr, r.player, 'lk-left'); cell(tr, r.last3.toFixed(1), 'lk-strong'); cell(tr, r.season.toFixed(1));
+      const tag = tagNow.get(r.team + '|' + normName(r.player));
+      cell(tr, r.team, 'lk-left'); cell(tr, r.player + (tag ? ' (' + tag + ')' : ''), 'lk-left'); cell(tr, r.last3.toFixed(1), 'lk-strong'); cell(tr, r.season.toFixed(1));
       const td = cell(tr, '', 'lk-left');
       const vals = r.trend.split(' ').map(Number), lo = Math.min(0, ...vals), hi = Math.max(...vals, 1), W = 88, H = 22;
       const x = (i) => (vals.length === 1 ? W / 2 : 4 + i * (W - 8) / (vals.length - 1)), y = (val) => H - 3 - (val - lo) / (hi - lo) * (H - 6);
@@ -1575,7 +1629,7 @@ function render() {
     });
     const on = (s) => { const g = pf.data.filter((r) => r.team === s); return g.length ? g[0].team_games : 0; };
     const fg = on(focus), og = on(srw.opp);
-    document.getElementById('lk-form-note').textContent = 'Top three by last-3 Game Score on each side (15+ minutes a game). The line shows each game in order. Box scores on file: ' + fn + ' ' + fg + ' games, ' + srw.opp_name + ' ' + og + '.' + (!fg || !og ? ' The rest arrive with the NBA.com data run.' : '');
+    document.getElementById('lk-form-note').textContent = 'Top three by last-3 Game Score on each side: 15+ minutes a game, played in one of the team’s last two games, and not ruled out for this one. The line shows each game in order. Box scores on file: ' + fn + ' ' + fg + ' games, ' + srw.opp_name + ' ' + og + '.' + (!fg || !og ? ' The rest arrive with the NBA.com data run.' : '');
   }
   const ww = dash.data('with_without');
   const wwEl = document.getElementById('lk-ww');
@@ -1628,31 +1682,42 @@ function render() {
   const aBody = document.querySelector('#lk-abs tbody'); aBody.replaceChildren();
   if (ab.status === 'ok') {
     const show = new Set([focus, team, srw ? srw.opp : focus]);
-    const rows = ab.data.filter((r) => show.has(r.team)).sort((a, b) => (a.team === focus ? 0 : 1) - (b.team === focus ? 0 : 1) || (a.from < b.from ? 1 : -1));
+    const rank = (r) => (r.kind === 'injury' ? 0 : 1);
+    // The injury report first, soonest game first; then everything else, most recent first
+    const rows = ab.data.filter((r) => show.has(r.team)).sort((a, b) => rank(a) - rank(b) || (rank(a) === 0 ? (a.from < b.from ? -1 : a.from > b.from ? 1 : 0) : 0) || (a.team === focus ? 0 : 1) - (b.team === focus ? 0 : 1) || (a.from < b.from ? 1 : a.from > b.from ? -1 : 0));
     rows.forEach((r) => {
       const tr = document.createElement('tr'); tr.dataset.key = r.team + ',' + r.player + ',' + r.from;
       cell(tr, r.team, 'lk-left'); cell(tr, r.player, 'lk-left'); cell(tr, r.status, 'lk-wrap'); cell(tr, r.role, 'lk-left'); cell(tr, r.from, 'lk-left'); cell(tr, r.until || '—', 'lk-left'); cell(tr, r.source, 'lk-wrap lk-wide');
       aBody.appendChild(tr);
     });
-    document.getElementById('lk-abs-note').textContent = 'Showing the ' + [...show].map((x) => names.get(x) || x).join(', the ') + '. ' + (rows.length ? '' : 'None on file.');
+    const inj = dash.data('nba_injuries'), label = inj.status === 'ok' && inj.data.length ? inj.data[0].report : '';
+    document.getElementById('lk-abs-note').textContent = 'Showing the ' + [...show].map((x) => names.get(x) || x).join(', the ') + '. ' + (rows.length ? '' : 'None on file. ')
+      + (label ? 'Newest NBA injury report: ' + label + '.' : 'The NBA injury report is not on file yet; it arrives with the PC’s next run.');
   }
   ['lk-played', 'lk-upcoming', 'lk-ff', 'lk-abs', 'lk-eff', 'lk-players', 'lk-lbox', 'lk-form'].forEach((id) => phoneLayout(document.getElementById(id)));
 }
 dash.onData(render);
 try { matchMedia('(prefers-color-scheme: dark)').addEventListener('change', render); } catch (e) { /* older browsers */ }
-fetch('data/sources.json', { cache: 'no-cache' }).then((r) => r.json()).then((list) => {
+let SOURCES = null;
+const renderSources = () => {
+  if (!SOURCES) return;
+  const fmt = (when) => new Date(when).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) + ' PT';
+  const inj = dash.data('nba_injuries'), injLabel = inj.status === 'ok' && inj.data.length ? inj.data[0].report : '';
   const ul = document.getElementById('lk-src');
-  ul.replaceChildren(...list.map((s) => {
+  ul.replaceChildren(...SOURCES.map((s) => {
     const li = document.createElement('li');
     const a = document.createElement('a'); a.href = s.file; a.textContent = s.title;
     const d = document.createElement('span'); d.textContent = ' — ' + s.description;
     const u = document.createElement('span'); u.className = 'lk-src-date';
     u.dataset.src = s.id;
-    const when = s.nba ? (window.NBA_MANIFEST ? window.NBA_MANIFEST.updated : null) : s.updated;
-    u.textContent = when ? ' Updated ' + new Date(when).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) + ' PT.' : (s.nba ? ' Not on file yet: arrives with the first NBA.com data run.' : '');
+    if (s.id === 'nba_injuries') u.textContent = injLabel ? ' Report of ' + injLabel + '.' : ' Not on file yet: arrives with the PC’s next run.';
+    else if (s.nba) u.textContent = window.NBA_MANIFEST ? ' Updated ' + fmt(window.NBA_MANIFEST.updated) + '.' : ' Not on file yet: arrives with the first NBA.com data run.';
+    else u.textContent = s.updated ? ' Updated ' + fmt(s.updated) + '.' : '';
     li.append(a, d, u); return li;
   }));
-}).catch(() => {});
+};
+fetch('data/sources.json', { cache: 'no-cache' }).then((r) => r.json()).then((list) => { SOURCES = list; renderSources(); }).catch(() => {});
+dash.onData(renderSources);
 // Reload the data on demand, and when the app comes back to the screen after 5 minutes away
 let lastLoad = 0;
 // NBA.com files are read only once the PC script has written them (its manifest lists them), so nothing 404s before the first run
@@ -1662,7 +1727,8 @@ const loadAll = async () => {
   try { const r = await fetch('data/nba/manifest.json', { cache: 'no-cache' }); m = r.ok ? await r.json() : null; } catch (e) { m = null; }
   window.NBA_MANIFEST = m && m.updated ? m : null;
   const have = new Set(Object.keys((m && m.league) || {}));
-  const files = Object.fromEntries(Object.entries(FILES).filter(([id]) => !OPTIONAL.includes(id) || have.has(id)));
+  // The injury report is always requested: the build seeds an empty file, and the live watcher can write it before the next full run lists it
+  const files = Object.fromEntries(Object.entries(FILES).filter(([id]) => !OPTIONAL.includes(id) || have.has(id) || id === 'nba_injuries'));
   loadLive();
   return dashLoad(files, OPTIONAL);
 };
@@ -1683,9 +1749,9 @@ const FILES = {
   lakers_players: 'data/lakers_players.csv', lakers_quarters: 'data/lakers_quarters.csv', player_impact: 'data/player_impact.csv',
   player_games: 'data/player_games.csv', spotlight_notes: 'data/spotlight_notes.csv',
   nba_results: 'data/nba/league_results.csv', nba_box: 'data/nba/league_box.csv', nba_player_games: 'data/nba/league_player_games.csv',
-  nba_quarters: 'data/nba/league_quarters.csv', nba_inactive: 'data/nba/league_inactive.csv',
+  nba_quarters: 'data/nba/league_quarters.csv', nba_inactive: 'data/nba/league_inactive.csv', nba_injuries: 'data/nba/injuries.csv',
 };
-const OPTIONAL = ['nba_results', 'nba_box', 'nba_player_games', 'nba_quarters', 'nba_inactive'];
+const OPTIONAL = ['nba_results', 'nba_box', 'nba_player_games', 'nba_quarters', 'nba_inactive', 'nba_injuries'];
 loadAll();
 // ---- Live card: data/nba/live.json, written during games by tools/nba/live.py on the PC ----
 // Live win chance (Proposed): the pre-game projection for the minutes left plus the current margin,

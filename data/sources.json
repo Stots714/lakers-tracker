@@ -122,5 +122,13 @@
   "file": "data/nba/league_inactive.csv",
   "updated": null,
   "nba": true
+ },
+ {
+  "id": "nba_injuries",
+  "title": "NBA official injury report",
+  "description": "The newest league injury report: each listed player's status (Out, Doubtful, Questionable, Probable) and reason, for the games it covers. Written by tools/nba on a PC.",
+  "file": "data/nba/injuries.csv",
+  "updated": null,
+  "nba": true
  }
 ]
