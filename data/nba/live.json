@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T15:40:10-08:00",
+ "updated": "2026-11-08T15:47:13-08:00",
  "board_date": "2026-11-08",
  "games": [
   {
@@ -198,116 +198,116 @@
    "game_id": "0022600197",
    "tip_utc": "2026-11-08T23:00:00Z",
    "status": 2,
-   "status_text": "Q2 9:48",
+   "status_text": "Q2 6:51",
    "period": 2,
-   "clock": "9:48",
+   "clock": "6:51",
    "home": {
     "team": "DET",
-    "score": 20,
+    "score": 26,
     "periods": [
      14,
-     6,
+     12,
      0,
      0
     ],
     "stats": {
-     "fgm": 8,
-     "fga": 24,
-     "fg3m": 4,
-     "fg3a": 11,
+     "fgm": 10,
+     "fga": 34,
+     "fg3m": 6,
+     "fg3a": 16,
      "ftm": 0,
      "fta": 0,
-     "oreb": 6,
-     "dreb": 6,
+     "oreb": 11,
+     "dreb": 8,
      "tov": 10,
-     "pf": 3,
-     "ast": 4,
+     "pf": 4,
+     "ast": 6,
      "stl": 2,
      "blk": 1,
      "pts_paint": 8,
      "pts_second_chance": 6,
      "pts_fast_break": 0,
      "pts_off_tov": 0,
-     "pts_bench": 11,
+     "pts_bench": 17,
      "biggest_lead": 0,
      "lead_changes": 0
     },
     "leaders": [
      {
       "name": "Kevin Huerter",
-      "pts": 6,
-      "reb": 1,
+      "pts": 9,
+      "reb": 2,
       "ast": 1,
-      "min": "6:18"
+      "min": "9:21"
      },
      {
       "name": "Daniss Jenkins",
       "pts": 5,
-      "reb": 1,
-      "ast": 0,
-      "min": "4:50"
+      "reb": 2,
+      "ast": 1,
+      "min": "6:36"
      },
      {
       "name": "Paul Reed",
       "pts": 4,
-      "reb": 6,
+      "reb": 9,
       "ast": 0,
-      "min": "8:47"
+      "min": "11:50"
      }
     ]
    },
    "away": {
     "team": "LAL",
-    "score": 42,
+    "score": 45,
     "periods": [
      38,
-     4,
+     7,
      0,
      0
     ],
     "stats": {
-     "fgm": 18,
-     "fga": 29,
+     "fgm": 19,
+     "fga": 33,
      "fg3m": 5,
-     "fg3a": 8,
-     "ftm": 1,
-     "fta": 2,
-     "oreb": 3,
-     "dreb": 9,
-     "tov": 2,
-     "pf": 1,
+     "fg3a": 10,
+     "ftm": 2,
+     "fta": 4,
+     "oreb": 4,
+     "dreb": 12,
+     "tov": 3,
+     "pf": 5,
      "ast": 8,
      "stl": 5,
-     "blk": 1,
-     "pts_paint": 24,
-     "pts_second_chance": 4,
-     "pts_fast_break": 7,
+     "blk": 2,
+     "pts_paint": 26,
+     "pts_second_chance": 6,
+     "pts_fast_break": 9,
      "pts_off_tov": 21,
-     "pts_bench": 18,
+     "pts_bench": 20,
      "biggest_lead": 26,
      "lead_changes": 0
     },
     "leaders": [
      {
       "name": "Quentin Grimes",
-      "pts": 10,
+      "pts": 11,
       "reb": 1,
       "ast": 0,
-      "min": "12:39"
+      "min": "13:35"
      },
      {
       "name": "Austin Reaves",
       "pts": 8,
-      "reb": 0,
+      "reb": 1,
       "ast": 2,
-      "min": "9:15"
+      "min": "11:22"
      },
      {
       "name": "Ziaire Williams",
       "pts": 8,
       "reb": 0,
       "ast": 0,
-      "min": "5:21"
+      "min": "5:45"
      }
     ]
    },
@@ -331,6 +331,10 @@
     {
      "t": 14.2,
      "m": -22
+    },
+    {
+     "t": 17.1,
+     "m": -19
     }
    ]
   },
