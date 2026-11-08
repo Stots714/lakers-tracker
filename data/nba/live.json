@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T15:47:13-08:00",
+ "updated": "2026-11-08T15:54:15-08:00",
  "board_date": "2026-11-08",
  "games": [
   {
@@ -198,61 +198,61 @@
    "game_id": "0022600197",
    "tip_utc": "2026-11-08T23:00:00Z",
    "status": 2,
-   "status_text": "Q2 6:51",
+   "status_text": "Q2 5:02",
    "period": 2,
-   "clock": "6:51",
+   "clock": "5:02",
    "home": {
     "team": "DET",
-    "score": 26,
+    "score": 33,
     "periods": [
      14,
-     12,
+     19,
      0,
      0
     ],
     "stats": {
-     "fgm": 10,
-     "fga": 34,
-     "fg3m": 6,
-     "fg3a": 16,
-     "ftm": 0,
-     "fta": 0,
+     "fgm": 12,
+     "fga": 36,
+     "fg3m": 7,
+     "fg3a": 17,
+     "ftm": 2,
+     "fta": 2,
      "oreb": 11,
-     "dreb": 8,
+     "dreb": 9,
      "tov": 10,
      "pf": 4,
-     "ast": 6,
+     "ast": 8,
      "stl": 2,
-     "blk": 1,
-     "pts_paint": 8,
+     "blk": 2,
+     "pts_paint": 10,
      "pts_second_chance": 6,
      "pts_fast_break": 0,
-     "pts_off_tov": 0,
-     "pts_bench": 17,
+     "pts_off_tov": 2,
+     "pts_bench": 22,
      "biggest_lead": 0,
      "lead_changes": 0
     },
     "leaders": [
      {
+      "name": "Daniss Jenkins",
+      "pts": 10,
+      "reb": 2,
+      "ast": 2,
+      "min": "8:25"
+     },
+     {
       "name": "Kevin Huerter",
       "pts": 9,
       "reb": 2,
       "ast": 1,
-      "min": "9:21"
+      "min": "11:10"
      },
      {
-      "name": "Daniss Jenkins",
+      "name": "John Collins",
       "pts": 5,
-      "reb": 2,
+      "reb": 1,
       "ast": 1,
-      "min": "6:36"
-     },
-     {
-      "name": "Paul Reed",
-      "pts": 4,
-      "reb": 9,
-      "ast": 0,
-      "min": "11:50"
+      "min": "13:47"
      }
     ]
    },
@@ -267,15 +267,15 @@
     ],
     "stats": {
      "fgm": 19,
-     "fga": 33,
+     "fga": 36,
      "fg3m": 5,
-     "fg3a": 10,
+     "fg3a": 11,
      "ftm": 2,
      "fta": 4,
-     "oreb": 4,
+     "oreb": 5,
      "dreb": 12,
-     "tov": 3,
-     "pf": 5,
+     "tov": 4,
+     "pf": 7,
      "ast": 8,
      "stl": 5,
      "blk": 2,
@@ -300,14 +300,14 @@
       "pts": 8,
       "reb": 1,
       "ast": 2,
-      "min": "11:22"
+      "min": "13:11"
      },
      {
       "name": "Ziaire Williams",
       "pts": 8,
-      "reb": 0,
+      "reb": 1,
       "ast": 0,
-      "min": "5:45"
+      "min": "7:34"
      }
     ]
    },
@@ -335,6 +335,10 @@
     {
      "t": 17.1,
      "m": -19
+    },
+    {
+     "t": 19.0,
+     "m": -12
     }
    ]
   },
