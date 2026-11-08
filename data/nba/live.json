@@ -1,40 +1,40 @@
 {
- "updated": "2026-11-08T14:40:40-08:00",
+ "updated": "2026-11-08T14:47:42-08:00",
  "board_date": "2026-11-08",
  "games": [
   {
    "game_id": "0022600196",
    "tip_utc": "2026-11-08T20:30:00Z",
    "status": 2,
-   "status_text": "Q4 1:31",
+   "status_text": "Q4 :00.0",
    "period": 4,
-   "clock": "1:31",
+   "clock": "0:00",
    "home": {
     "team": "CHI",
-    "score": 116,
+    "score": 121,
     "periods": [
      33,
      28,
      32,
-     23
+     28
     ],
     "stats": {
-     "fgm": 45,
-     "fga": 86,
+     "fgm": 46,
+     "fga": 88,
      "fg3m": 10,
-     "fg3a": 36,
-     "ftm": 16,
-     "fta": 19,
+     "fg3a": 37,
+     "ftm": 19,
+     "fta": 23,
      "oreb": 9,
-     "dreb": 32,
-     "tov": 12,
-     "pf": 16,
-     "ast": 29,
+     "dreb": 33,
+     "tov": 13,
+     "pf": 18,
+     "ast": 30,
      "stl": 6,
      "blk": 8,
-     "pts_paint": 62,
+     "pts_paint": 64,
      "pts_second_chance": 12,
-     "pts_fast_break": 13,
+     "pts_fast_break": 15,
      "pts_off_tov": 13,
      "pts_bench": 36,
      "biggest_lead": 7,
@@ -42,50 +42,50 @@
     },
     "leaders": [
      {
+      "name": "Matas Buzelis",
+      "pts": 19,
+      "reb": 5,
+      "ast": 2,
+      "min": "30:50"
+     },
+     {
       "name": "Josh Giddey",
       "pts": 19,
       "reb": 7,
-      "ast": 14,
-      "min": "32:01"
-     },
-     {
-      "name": "Matas Buzelis",
-      "pts": 17,
-      "reb": 5,
-      "ast": 2,
-      "min": "29:25"
+      "ast": 15,
+      "min": "33:26"
      },
      {
       "name": "Caleb Wilson",
-      "pts": 16,
+      "pts": 18,
       "reb": 5,
       "ast": 0,
-      "min": "30:03"
+      "min": "31:28"
      }
     ]
    },
    "away": {
     "team": "PHI",
-    "score": 123,
+    "score": 127,
     "periods": [
      34,
      34,
      31,
-     24
+     28
     ],
     "stats": {
      "fgm": 46,
-     "fga": 97,
+     "fga": 99,
      "fg3m": 14,
      "fg3a": 34,
-     "ftm": 17,
-     "fta": 21,
+     "ftm": 21,
+     "fta": 25,
      "oreb": 20,
-     "dreb": 32,
+     "dreb": 34,
      "tov": 9,
-     "pf": 15,
+     "pf": 16,
      "ast": 30,
-     "stl": 7,
+     "stl": 8,
      "blk": 2,
      "pts_paint": 58,
      "pts_second_chance": 33,
@@ -97,25 +97,25 @@
     },
     "leaders": [
      {
+      "name": "Jaylen Brown",
+      "pts": 29,
+      "reb": 7,
+      "ast": 4,
+      "min": "34:51"
+     },
+     {
       "name": "Tyrese Maxey",
       "pts": 27,
       "reb": 4,
       "ast": 7,
-      "min": "34:18"
-     },
-     {
-      "name": "Jaylen Brown",
-      "pts": 25,
-      "reb": 6,
-      "ast": 4,
-      "min": "33:26"
+      "min": "35:43"
      },
      {
       "name": "LeBron James",
       "pts": 22,
-      "reb": 4,
+      "reb": 5,
       "ast": 5,
-      "min": "31:21"
+      "min": "32:46"
      }
     ]
    },
@@ -187,6 +187,10 @@
     {
      "t": 46.5,
      "m": -7
+    },
+    {
+     "t": 48.0,
+     "m": -6
     }
    ]
   },
