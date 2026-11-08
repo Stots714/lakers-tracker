@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T15:26:06-08:00",
+ "updated": "2026-11-08T15:33:08-08:00",
  "board_date": "2026-11-08",
  "games": [
   {
@@ -198,37 +198,37 @@
    "game_id": "0022600197",
    "tip_utc": "2026-11-08T23:00:00Z",
    "status": 2,
-   "status_text": "Q1 4:13",
+   "status_text": "Q1 :01.8",
    "period": 1,
-   "clock": "4:13",
+   "clock": "0:02",
    "home": {
     "team": "DET",
-    "score": 9,
+    "score": 14,
     "periods": [
-     9,
+     14,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 4,
-     "fga": 15,
-     "fg3m": 1,
-     "fg3a": 6,
+     "fgm": 6,
+     "fga": 22,
+     "fg3m": 2,
+     "fg3a": 9,
      "ftm": 0,
      "fta": 0,
      "oreb": 6,
-     "dreb": 3,
-     "tov": 7,
-     "pf": 1,
-     "ast": 1,
+     "dreb": 4,
+     "tov": 8,
+     "pf": 2,
+     "ast": 2,
      "stl": 2,
-     "blk": 1,
-     "pts_paint": 6,
+     "blk": 0,
+     "pts_paint": 8,
      "pts_second_chance": 4,
      "pts_fast_break": 0,
      "pts_off_tov": 2,
-     "pts_bench": 0,
+     "pts_bench": 5,
      "biggest_lead": 0,
      "lead_changes": 0
     },
@@ -244,70 +244,70 @@
       "name": "John Collins",
       "pts": 3,
       "reb": 1,
-      "ast": 0,
-      "min": "7:47"
+      "ast": 1,
+      "min": "11:58"
      },
      {
-      "name": "Ausar Thompson",
-      "pts": 2,
-      "reb": 2,
-      "ast": 1,
-      "min": "6:39"
+      "name": "Kevin Huerter",
+      "pts": 3,
+      "reb": 0,
+      "ast": 0,
+      "min": "4:11"
      }
     ]
    },
    "away": {
     "team": "LAL",
-    "score": 23,
+    "score": 38,
     "periods": [
-     23,
+     38,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 10,
-     "fga": 15,
-     "fg3m": 3,
-     "fg3a": 4,
-     "ftm": 0,
-     "fta": 0,
-     "oreb": 0,
-     "dreb": 4,
+     "fgm": 16,
+     "fga": 22,
+     "fg3m": 5,
+     "fg3a": 7,
+     "ftm": 1,
+     "fta": 2,
+     "oreb": 1,
+     "dreb": 9,
      "tov": 2,
-     "pf": 0,
-     "ast": 4,
+     "pf": 1,
+     "ast": 7,
      "stl": 4,
-     "blk": 0,
-     "pts_paint": 12,
+     "blk": 1,
+     "pts_paint": 20,
      "pts_second_chance": 2,
-     "pts_fast_break": 5,
-     "pts_off_tov": 14,
-     "pts_bench": 3,
-     "biggest_lead": 14,
+     "pts_fast_break": 7,
+     "pts_off_tov": 17,
+     "pts_bench": 16,
+     "biggest_lead": 24,
      "lead_changes": 0
     },
     "leaders": [
      {
       "name": "Quentin Grimes",
-      "pts": 8,
+      "pts": 10,
       "reb": 1,
       "ast": 0,
-      "min": "7:47"
+      "min": "10:31"
      },
      {
       "name": "Austin Reaves",
       "pts": 8,
       "reb": 0,
-      "ast": 1,
-      "min": "7:47"
+      "ast": 2,
+      "min": "9:14"
      },
      {
-      "name": "Sandro Mamukelashvili",
-      "pts": 3,
+      "name": "Ziaire Williams",
+      "pts": 8,
       "reb": 0,
       "ast": 0,
-      "min": "2:12"
+      "min": "5:19"
      }
     ]
    },
@@ -323,6 +323,10 @@
     {
      "t": 7.8,
      "m": -14
+    },
+    {
+     "t": 12.0,
+     "m": -24
     }
    ]
   },
