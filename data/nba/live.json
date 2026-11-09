@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T17:50:06-08:00",
+ "updated": "2026-11-08T17:57:12-08:00",
  "board_date": "2026-11-08",
  "games": [
   {
@@ -390,38 +390,38 @@
    "game_id": "0022600198",
    "tip_utc": "2026-11-09T00:00:00Z",
    "status": 2,
-   "status_text": "Q3 2:33",
+   "status_text": "Q3 :00.7",
    "period": 3,
-   "clock": "2:33",
+   "clock": "0:01",
    "home": {
     "team": "MIN",
-    "score": 76,
+    "score": 87,
     "periods": [
      28,
      29,
-     19,
+     30,
      0
     ],
     "stats": {
-     "fgm": 25,
-     "fga": 55,
-     "fg3m": 7,
-     "fg3a": 23,
-     "ftm": 19,
-     "fta": 23,
-     "oreb": 6,
-     "dreb": 24,
+     "fgm": 29,
+     "fga": 61,
+     "fg3m": 8,
+     "fg3a": 25,
+     "ftm": 21,
+     "fta": 25,
+     "oreb": 7,
+     "dreb": 26,
      "tov": 13,
-     "pf": 14,
-     "ast": 12,
+     "pf": 16,
+     "ast": 15,
      "stl": 5,
      "blk": 3,
-     "pts_paint": 34,
-     "pts_second_chance": 9,
-     "pts_fast_break": 15,
+     "pts_paint": 40,
+     "pts_second_chance": 11,
+     "pts_fast_break": 19,
      "pts_off_tov": 13,
-     "pts_bench": 21,
-     "biggest_lead": 10,
+     "pts_bench": 29,
+     "biggest_lead": 11,
      "lead_changes": 4
     },
     "leaders": [
@@ -437,45 +437,45 @@
       "pts": 14,
       "reb": 3,
       "ast": 0,
-      "min": "19:59"
+      "min": "19:36"
      },
      {
       "name": "Jaden McDaniels",
-      "pts": 10,
+      "pts": 13,
       "reb": 5,
       "ast": 3,
-      "min": "26:04"
+      "min": "28:47"
      }
     ]
    },
    "away": {
     "team": "UTA",
-    "score": 72,
+    "score": 78,
     "periods": [
      25,
      26,
-     21,
+     27,
      0
     ],
     "stats": {
-     "fgm": 27,
-     "fga": 58,
+     "fgm": 28,
+     "fga": 62,
      "fg3m": 7,
-     "fg3a": 18,
-     "ftm": 11,
-     "fta": 15,
+     "fg3a": 19,
+     "ftm": 15,
+     "fta": 19,
      "oreb": 5,
-     "dreb": 20,
+     "dreb": 21,
      "tov": 11,
-     "pf": 16,
+     "pf": 17,
      "ast": 17,
      "stl": 8,
      "blk": 3,
-     "pts_paint": 36,
+     "pts_paint": 38,
      "pts_second_chance": 7,
      "pts_fast_break": 19,
      "pts_off_tov": 15,
-     "pts_bench": 14,
+     "pts_bench": 16,
      "biggest_lead": 6,
      "lead_changes": 4
     },
@@ -489,10 +489,10 @@
      },
      {
       "name": "Keyonte George",
-      "pts": 15,
+      "pts": 19,
       "reb": 5,
       "ast": 8,
-      "min": "24:09"
+      "min": "26:29"
      },
      {
       "name": "Jaxson Hayes",
@@ -543,6 +543,10 @@
     {
      "t": 33.5,
      "m": 4
+    },
+    {
+     "t": 36.0,
+     "m": 9
     }
    ]
   },
@@ -702,33 +706,33 @@
    "game_id": "0022600200",
    "tip_utc": "2026-11-09T01:00:00Z",
    "status": 2,
-   "status_text": "Q2 9:33",
+   "status_text": "Q2 3:52",
    "period": 2,
-   "clock": "9:33",
+   "clock": "3:52",
    "home": {
     "team": "MIL",
-    "score": 29,
+    "score": 37,
     "periods": [
      27,
-     2,
+     10,
      0,
      0
     ],
     "stats": {
-     "fgm": 11,
-     "fga": 25,
-     "fg3m": 5,
-     "fg3a": 14,
+     "fgm": 14,
+     "fga": 35,
+     "fg3m": 7,
+     "fg3a": 22,
      "ftm": 2,
      "fta": 2,
-     "oreb": 3,
-     "dreb": 11,
-     "tov": 5,
+     "oreb": 4,
+     "dreb": 13,
+     "tov": 7,
      "pf": 5,
-     "ast": 8,
+     "ast": 12,
      "stl": 1,
      "blk": 2,
-     "pts_paint": 8,
+     "pts_paint": 10,
      "pts_second_chance": 3,
      "pts_fast_break": 7,
      "pts_off_tov": 4,
@@ -739,56 +743,56 @@
     "leaders": [
      {
       "name": "Kyle Kuzma",
-      "pts": 16,
+      "pts": 21,
       "reb": 1,
       "ast": 0,
-      "min": "8:53"
+      "min": "14:28"
      },
      {
       "name": "Tyler Herro",
       "pts": 7,
       "reb": 0,
       "ast": 0,
-      "min": "9:24"
+      "min": "11:24"
      },
      {
       "name": "Brayden Burries",
-      "pts": 4,
-      "reb": 3,
-      "ast": 1,
-      "min": "9:41"
+      "pts": 7,
+      "reb": 4,
+      "ast": 2,
+      "min": "13:16"
      }
     ]
    },
    "away": {
     "team": "BOS",
-    "score": 33,
+    "score": 48,
     "periods": [
      25,
-     8,
+     23,
      0,
      0
     ],
     "stats": {
-     "fgm": 11,
-     "fga": 31,
-     "fg3m": 6,
-     "fg3a": 16,
+     "fgm": 18,
+     "fga": 41,
+     "fg3m": 7,
+     "fg3a": 18,
      "ftm": 5,
      "fta": 8,
-     "oreb": 8,
-     "dreb": 8,
-     "tov": 2,
-     "pf": 4,
-     "ast": 8,
-     "stl": 4,
+     "oreb": 9,
+     "dreb": 12,
+     "tov": 3,
+     "pf": 5,
+     "ast": 12,
+     "stl": 6,
      "blk": 1,
-     "pts_paint": 8,
-     "pts_second_chance": 9,
-     "pts_fast_break": 6,
-     "pts_off_tov": 8,
-     "pts_bench": 4,
-     "biggest_lead": 6,
+     "pts_paint": 20,
+     "pts_second_chance": 11,
+     "pts_fast_break": 8,
+     "pts_off_tov": 13,
+     "pts_bench": 8,
+     "biggest_lead": 14,
      "lead_changes": 1
     },
     "leaders": [
@@ -797,21 +801,21 @@
       "pts": 16,
       "reb": 3,
       "ast": 2,
-      "min": "12:00"
+      "min": "12:55"
      },
      {
       "name": "Paul George",
-      "pts": 12,
+      "pts": 14,
       "reb": 1,
-      "ast": 0,
-      "min": "9:34"
+      "ast": 1,
+      "min": "15:09"
      },
      {
-      "name": "Mitchell Robinson",
-      "pts": 4,
-      "reb": 4,
-      "ast": 0,
-      "min": "6:56"
+      "name": "Derrick White",
+      "pts": 7,
+      "reb": 2,
+      "ast": 3,
+      "min": "13:06"
      }
     ]
    },
@@ -831,6 +835,10 @@
     {
      "t": 14.4,
      "m": -4
+    },
+    {
+     "t": 20.1,
+     "m": -11
     }
    ]
   },
@@ -838,9 +846,9 @@
    "game_id": "0022600201",
    "tip_utc": "2026-11-09T02:00:00Z",
    "status": 1,
-   "status_text": "9:00 pm ET",
+   "status_text": "pregame",
    "period": 0,
-   "clock": "",
+   "clock": "0:00",
    "home": {
     "team": "LAC",
     "score": 0,
@@ -849,7 +857,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "away": {
     "team": "NOP",
@@ -859,7 +890,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "history": []
   },
@@ -867,9 +921,9 @@
    "game_id": "0022600202",
    "tip_utc": "2026-11-09T02:00:00Z",
    "status": 1,
-   "status_text": "9:00 pm ET",
+   "status_text": "pregame",
    "period": 0,
-   "clock": "",
+   "clock": "0:00",
    "home": {
     "team": "SAC",
     "score": 0,
@@ -878,7 +932,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "away": {
     "team": "MIA",
@@ -888,7 +965,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "history": []
   }
