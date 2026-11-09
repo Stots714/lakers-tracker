@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T16:34:03-08:00",
+ "updated": "2026-11-08T16:41:08-08:00",
  "board_date": "2026-11-08",
  "games": [
   {
@@ -198,109 +198,109 @@
    "game_id": "0022600197",
    "tip_utc": "2026-11-08T23:00:00Z",
    "status": 2,
-   "status_text": "Q3 7:43",
+   "status_text": "Q3 4:19",
    "period": 3,
-   "clock": "7:43",
+   "clock": "4:19",
    "home": {
     "team": "DET",
-    "score": 59,
+    "score": 69,
     "periods": [
      14,
      34,
-     11,
+     21,
      0
     ],
     "stats": {
-     "fgm": 21,
-     "fga": 52,
-     "fg3m": 12,
-     "fg3a": 25,
-     "ftm": 5,
-     "fta": 9,
+     "fgm": 25,
+     "fga": 57,
+     "fg3m": 13,
+     "fg3a": 27,
+     "ftm": 6,
+     "fta": 10,
      "oreb": 11,
      "dreb": 16,
-     "tov": 12,
+     "tov": 13,
      "pf": 13,
-     "ast": 14,
-     "stl": 2,
-     "blk": 4,
-     "pts_paint": 18,
+     "ast": 16,
+     "stl": 5,
+     "blk": 5,
+     "pts_paint": 24,
      "pts_second_chance": 8,
-     "pts_fast_break": 2,
-     "pts_off_tov": 5,
-     "pts_bench": 40,
+     "pts_fast_break": 4,
+     "pts_off_tov": 7,
+     "pts_bench": 44,
      "biggest_lead": 0,
      "lead_changes": 0
     },
     "leaders": [
      {
       "name": "Daniss Jenkins",
-      "pts": 22,
+      "pts": 25,
       "reb": 2,
       "ast": 4,
-      "min": "14:43"
+      "min": "18:07"
      },
      {
       "name": "Kevin Huerter",
-      "pts": 13,
-      "reb": 2,
-      "ast": 1,
-      "min": "16:23"
+      "pts": 14,
+      "reb": 3,
+      "ast": 3,
+      "min": "19:47"
      },
      {
       "name": "John Collins",
-      "pts": 6,
+      "pts": 8,
       "reb": 2,
       "ast": 1,
-      "min": "23:06"
+      "min": "26:30"
      }
     ]
    },
    "away": {
     "team": "LAL",
-    "score": 73,
+    "score": 82,
     "periods": [
      38,
      23,
-     12,
+     21,
      0
     ],
     "stats": {
-     "fgm": 28,
-     "fga": 54,
-     "fg3m": 8,
-     "fg3a": 17,
+     "fgm": 32,
+     "fga": 60,
+     "fg3m": 9,
+     "fg3a": 19,
      "ftm": 9,
      "fta": 13,
-     "oreb": 5,
-     "dreb": 18,
-     "tov": 5,
-     "pf": 12,
-     "ast": 12,
+     "oreb": 7,
+     "dreb": 20,
+     "tov": 8,
+     "pf": 13,
+     "ast": 13,
      "stl": 6,
      "blk": 3,
-     "pts_paint": 38,
-     "pts_second_chance": 10,
+     "pts_paint": 42,
+     "pts_second_chance": 12,
      "pts_fast_break": 11,
      "pts_off_tov": 23,
-     "pts_bench": 23,
+     "pts_bench": 25,
      "biggest_lead": 26,
      "lead_changes": 0
     },
     "leaders": [
      {
       "name": "Austin Reaves",
-      "pts": 27,
+      "pts": 32,
       "reb": 3,
       "ast": 3,
-      "min": "22:30"
+      "min": "25:54"
      },
      {
       "name": "Quentin Grimes",
       "pts": 12,
-      "reb": 2,
+      "reb": 1,
       "ast": 3,
-      "min": "22:54"
+      "min": "26:18"
      },
      {
       "name": "Ziaire Williams",
@@ -355,6 +355,10 @@
     {
      "t": 28.3,
      "m": -14
+    },
+    {
+     "t": 31.7,
+     "m": -13
     }
    ]
   },
@@ -362,47 +366,54 @@
    "game_id": "0022600198",
    "tip_utc": "2026-11-09T00:00:00Z",
    "status": 2,
-   "status_text": "Q1 :54.2",
-   "period": 1,
-   "clock": "0:54",
+   "status_text": "Q2 9:40",
+   "period": 2,
+   "clock": "9:40",
    "home": {
     "team": "MIN",
-    "score": 23,
+    "score": 30,
     "periods": [
-     23,
-     0,
+     28,
+     2,
      0,
      0
     ],
     "stats": {
-     "fgm": 10,
-     "fga": 26,
-     "fg3m": 2,
-     "fg3a": 12,
-     "ftm": 1,
-     "fta": 2,
+     "fgm": 12,
+     "fga": 31,
+     "fg3m": 3,
+     "fg3a": 15,
+     "ftm": 3,
+     "fta": 4,
      "oreb": 4,
-     "dreb": 7,
+     "dreb": 11,
      "tov": 2,
      "pf": 5,
-     "ast": 5,
-     "stl": 2,
-     "blk": 2,
-     "pts_paint": 16,
+     "ast": 7,
+     "stl": 3,
+     "blk": 3,
+     "pts_paint": 18,
      "pts_second_chance": 5,
-     "pts_fast_break": 2,
+     "pts_fast_break": 4,
      "pts_off_tov": 5,
-     "pts_bench": 11,
+     "pts_bench": 16,
      "biggest_lead": 6,
-     "lead_changes": 3
+     "lead_changes": 4
     },
     "leaders": [
      {
       "name": "Bones Hyland",
-      "pts": 5,
+      "pts": 7,
       "reb": 0,
       "ast": 0,
-      "min": "3:50"
+      "min": "4:45"
+     },
+     {
+      "name": "Trey Lyles",
+      "pts": 5,
+      "reb": 3,
+      "ast": 1,
+      "min": "7:05"
      },
      {
       "name": "Jonathan Kuminga",
@@ -410,36 +421,29 @@
       "reb": 0,
       "ast": 0,
       "min": "7:15"
-     },
-     {
-      "name": "LaMelo Ball",
-      "pts": 4,
-      "reb": 2,
-      "ast": 1,
-      "min": "7:15"
      }
     ]
    },
    "away": {
     "team": "UTA",
-    "score": 25,
+    "score": 27,
     "periods": [
      25,
-     0,
+     2,
      0,
      0
     ],
     "stats": {
-     "fgm": 8,
-     "fga": 18,
+     "fgm": 9,
+     "fga": 23,
      "fg3m": 3,
      "fg3a": 7,
      "ftm": 6,
      "fta": 8,
      "oreb": 2,
-     "dreb": 10,
-     "tov": 3,
-     "pf": 3,
+     "dreb": 14,
+     "tov": 5,
+     "pf": 4,
      "ast": 6,
      "stl": 1,
      "blk": 1,
@@ -447,9 +451,9 @@
      "pts_second_chance": 3,
      "pts_fast_break": 7,
      "pts_off_tov": 2,
-     "pts_bench": 5,
+     "pts_bench": 7,
      "biggest_lead": 6,
-     "lead_changes": 3
+     "lead_changes": 4
     },
     "leaders": [
      {
@@ -471,7 +475,7 @@
       "pts": 5,
       "reb": 4,
       "ast": 3,
-      "min": "8:35"
+      "min": "9:30"
      }
     ]
    },
@@ -483,37 +487,41 @@
     {
      "t": 11.1,
      "m": -2
+    },
+    {
+     "t": 14.3,
+     "m": 3
     }
    ]
   },
   {
    "game_id": "0022600199",
    "tip_utc": "2026-11-09T00:30:00Z",
-   "status": 1,
-   "status_text": "pregame",
-   "period": 0,
-   "clock": "0:00",
+   "status": 2,
+   "status_text": "Q1 11:34",
+   "period": 1,
+   "clock": "11:34",
    "home": {
     "team": "DAL",
-    "score": 0,
+    "score": 2,
     "periods": [
-     0,
+     2,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 0,
-     "fga": 0,
+     "fgm": 1,
+     "fga": 1,
      "fg3m": 0,
      "fg3a": 0,
      "ftm": 0,
      "fta": 0,
      "oreb": 0,
-     "dreb": 0,
+     "dreb": 1,
      "tov": 0,
      "pf": 0,
-     "ast": 0,
+     "ast": 1,
      "stl": 0,
      "blk": 0,
      "pts_paint": 0,
@@ -521,10 +529,32 @@
      "pts_fast_break": 0,
      "pts_off_tov": 0,
      "pts_bench": 0,
-     "biggest_lead": 0,
+     "biggest_lead": 2,
      "lead_changes": 0
     },
-    "leaders": []
+    "leaders": [
+     {
+      "name": "Caleb Martin",
+      "pts": 2,
+      "reb": 1,
+      "ast": 0,
+      "min": "0:21"
+     },
+     {
+      "name": "P.J. Washington",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "0:21"
+     },
+     {
+      "name": "Daniel Gafford",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "0:21"
+     }
+    ]
    },
    "away": {
     "team": "BKN",
@@ -537,9 +567,9 @@
     ],
     "stats": {
      "fgm": 0,
-     "fga": 0,
+     "fga": 1,
      "fg3m": 0,
-     "fg3a": 0,
+     "fg3a": 1,
      "ftm": 0,
      "fta": 0,
      "oreb": 0,
@@ -557,9 +587,36 @@
      "biggest_lead": 0,
      "lead_changes": 0
     },
-    "leaders": []
+    "leaders": [
+     {
+      "name": "Michael Porter Jr.",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "0:21"
+     },
+     {
+      "name": "Julius Randle",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "0:21"
+     },
+     {
+      "name": "Day'Ron Sharpe",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "0:21"
+     }
+    ]
    },
-   "history": []
+   "history": [
+    {
+     "t": 0.4,
+     "m": 2
+    }
+   ]
   },
   {
    "game_id": "0022600200",
