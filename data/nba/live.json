@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T15:54:15-08:00",
+ "updated": "2026-11-08T16:01:17-08:00",
  "board_date": "2026-11-08",
  "games": [
   {
@@ -198,116 +198,116 @@
    "game_id": "0022600197",
    "tip_utc": "2026-11-08T23:00:00Z",
    "status": 2,
-   "status_text": "Q2 5:02",
+   "status_text": "Q2 2:25",
    "period": 2,
-   "clock": "5:02",
+   "clock": "2:25",
    "home": {
     "team": "DET",
-    "score": 33,
+    "score": 38,
     "periods": [
      14,
-     19,
+     24,
      0,
      0
     ],
     "stats": {
-     "fgm": 12,
-     "fga": 36,
-     "fg3m": 7,
-     "fg3a": 17,
-     "ftm": 2,
-     "fta": 2,
+     "fgm": 13,
+     "fga": 38,
+     "fg3m": 8,
+     "fg3a": 18,
+     "ftm": 4,
+     "fta": 7,
      "oreb": 11,
-     "dreb": 9,
+     "dreb": 11,
      "tov": 10,
-     "pf": 4,
-     "ast": 8,
+     "pf": 5,
+     "ast": 9,
      "stl": 2,
-     "blk": 2,
+     "blk": 3,
      "pts_paint": 10,
      "pts_second_chance": 6,
      "pts_fast_break": 0,
      "pts_off_tov": 2,
-     "pts_bench": 22,
+     "pts_bench": 25,
      "biggest_lead": 0,
      "lead_changes": 0
     },
     "leaders": [
      {
       "name": "Daniss Jenkins",
-      "pts": 10,
+      "pts": 13,
       "reb": 2,
       "ast": 2,
-      "min": "8:25"
+      "min": "11:02"
      },
      {
       "name": "Kevin Huerter",
       "pts": 9,
       "reb": 2,
       "ast": 1,
-      "min": "11:10"
+      "min": "12:42"
      },
      {
       "name": "John Collins",
-      "pts": 5,
+      "pts": 6,
       "reb": 1,
       "ast": 1,
-      "min": "13:47"
+      "min": "16:24"
      }
     ]
    },
    "away": {
     "team": "LAL",
-    "score": 45,
+    "score": 53,
     "periods": [
      38,
-     7,
+     15,
      0,
      0
     ],
     "stats": {
-     "fgm": 19,
-     "fga": 36,
-     "fg3m": 5,
-     "fg3a": 11,
-     "ftm": 2,
-     "fta": 4,
+     "fgm": 22,
+     "fga": 42,
+     "fg3m": 6,
+     "fg3a": 14,
+     "ftm": 3,
+     "fta": 5,
      "oreb": 5,
-     "dreb": 12,
+     "dreb": 13,
      "tov": 4,
-     "pf": 7,
-     "ast": 8,
+     "pf": 10,
+     "ast": 10,
      "stl": 5,
      "blk": 2,
-     "pts_paint": 26,
-     "pts_second_chance": 6,
+     "pts_paint": 30,
+     "pts_second_chance": 9,
      "pts_fast_break": 9,
      "pts_off_tov": 21,
-     "pts_bench": 20,
+     "pts_bench": 23,
      "biggest_lead": 26,
      "lead_changes": 0
     },
     "leaders": [
      {
+      "name": "Austin Reaves",
+      "pts": 13,
+      "reb": 2,
+      "ast": 2,
+      "min": "15:48"
+     },
+     {
       "name": "Quentin Grimes",
       "pts": 11,
       "reb": 1,
-      "ast": 0,
-      "min": "13:35"
-     },
-     {
-      "name": "Austin Reaves",
-      "pts": 8,
-      "reb": 1,
       "ast": 2,
-      "min": "13:11"
+      "min": "16:12"
      },
      {
       "name": "Ziaire Williams",
-      "pts": 8,
+      "pts": 11,
       "reb": 1,
       "ast": 0,
-      "min": "7:34"
+      "min": "10:11"
      }
     ]
    },
@@ -339,6 +339,10 @@
     {
      "t": 19.0,
      "m": -12
+    },
+    {
+     "t": 21.6,
+     "m": -15
     }
    ]
   },
@@ -346,9 +350,9 @@
    "game_id": "0022600198",
    "tip_utc": "2026-11-09T00:00:00Z",
    "status": 1,
-   "status_text": "7:00 pm ET",
+   "status_text": "pregame",
    "period": 0,
-   "clock": "",
+   "clock": "0:00",
    "home": {
     "team": "MIN",
     "score": 0,
@@ -357,7 +361,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "away": {
     "team": "UTA",
@@ -367,7 +394,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "history": []
   },
