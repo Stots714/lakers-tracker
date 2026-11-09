@@ -1,0 +1,507 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600160,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:41 PM EST),period,start,1,0,1
+0022600160,4,PT12M00.00S,1,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Jump Ball Huff vs. Okongwu: Tip to Dort,Jump Ball,,1,0,2
+0022600160,7,PT11M41.00S,1,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff P.FOUL (P1.T1) (Z.Zarba),Foul,Personal,1,0,3
+0022600160,9,PT11M34.00S,1,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,-231,24,0,Made,1,0,3,3,v,Alexander-Walker 3PT Jump Shot (3 PTS) (McCollum 1 AST),Made Shot,Jump Shot,1,3,4
+0022600160,11,PT11M19.00S,1,1610612737,ATL,1629652,Dort,L. Dort,0,0,0,,0,,,0,v,Dort P.FOUL (P1.T1) (Z.Zarba),Foul,Personal,1,0,5
+0022600160,13,PT11M07.00S,1,1610612754,IND,1631245,Jackson,Q. Jackson,-92,85,13,Made,1,2,3,5,h,Jackson 13' Turnaround Fadeaway (2 PTS),Made Shot,Turnaround Fadeaway shot,1,2,6
+0022600160,14,PT11M00.00S,1,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,Walker P.FOUL (P1.T2) (Z.Zarba),Foul,Personal,1,0,7
+0022600160,16,PT10M50.00S,1,1610612737,ATL,1630168,Okongwu,O. Okongwu,-65,87,11,Made,1,2,5,7,v,Okongwu 11' Pullup Jump Shot (2 PTS) (McCollum 2 AST),Made Shot,Pullup Jump shot,1,2,8
+0022600160,18,PT10M37.00S,1,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,9
+0022600160,18,PT10M37.00S,1,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels STEAL (1 STL),,,1,0,10
+0022600160,20,PT10M35.00S,1,1610612737,ATL,1630700,Daniels,D. Daniels,1,0,0,Missed,1,,,0,v,MISS Daniels Running Finger Roll Layup,Missed Shot,Running Finger Roll Layup Shot,1,2,11
+0022600160,21,PT10M35.00S,1,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0022600160,22,PT10M29.00S,1,1610612754,IND,1631245,Jackson,Q. Jackson,16,274,27,Missed,1,,,0,h,MISS Jackson 27' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,13
+0022600160,23,PT10M29.00S,1,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,Okongwu REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,14
+0022600160,24,PT10M21.00S,1,1610612737,ATL,203468,McCollum,C. McCollum,-157,14,16,Missed,1,,,0,v,MISS McCollum 16' Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,2,15
+0022600160,25,PT10M21.00S,1,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,16
+0022600160,26,PT10M07.00S,1,1610612754,IND,1641716,Walker,J. Walker,-29,30,4,Made,1,4,5,9,h,Walker 4' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,17
+0022600160,27,PT09M55.00S,1,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,18
+0022600160,27,PT09M55.00S,1,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson STEAL (1 STL),,,1,0,19
+0022600160,29,PT09M52.00S,1,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,20
+0022600160,29,PT09M52.00S,1,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker STEAL (1 STL),,,1,0,21
+0022600160,31,PT09M49.00S,1,1610612737,ATL,1630700,Daniels,D. Daniels,2,3,0,Made,1,4,7,11,v,Daniels Cutting Finger Roll Layup Shot (2 PTS) (Alexander-Walker 1 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,22
+0022600160,33,PT09M29.00S,1,1610612754,IND,1630643,Huff,J. Huff,0,27,3,Made,1,6,7,13,h,Huff 3' Layup (3 PTS) (Jackson 1 AST),Made Shot,Layup Shot,1,2,23
+0022600160,35,PT09M29.00S,1,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,Okongwu S.FOUL (P1.T2) (Z.Zarba),Foul,Shooting,1,0,24
+0022600160,37,PT09M29.00S,1,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,7,7,14,h,Huff Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,25
+0022600160,38,PT09M11.00S,1,1610612737,ATL,1629652,Dort,L. Dort,-89,71,11,Missed,1,,,0,v,MISS Dort 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,26
+0022600160,39,PT09M11.00S,1,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,27
+0022600160,40,PT09M05.00S,1,1610612754,IND,1631245,Jackson,Q. Jackson,-25,23,3,Made,1,9,7,16,h,Jackson 3' Running Layup (4 PTS) (Walker 1 AST),Made Shot,Running Layup Shot,1,2,28
+0022600160,42,PT08M57.00S,1,1610612737,ATL,203468,McCollum,C. McCollum,100,75,13,Made,1,9,9,18,v,McCollum 13' Driving Floating Bank Jump Shot (2 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,29
+0022600160,43,PT08M41.00S,1,1610612754,IND,1643552,Smith,B. Smith,-9,8,1,Made,1,11,9,20,h,Smith 1' Driving Reverse Layup (2 PTS),Made Shot,Driving Reverse Layup Shot,1,2,30
+0022600160,44,PT08M29.00S,1,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,23,34,4,Missed,1,,,0,v,MISS Alexander-Walker 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,31
+0022600160,45,PT08M29.00S,1,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,1,0,32
+0022600160,47,PT08M24.00S,1,1610612737,ATL,1630168,Okongwu,O. Okongwu,-222,149,27,Made,1,11,12,23,v,Okongwu 27' 3PT Jump Shot (5 PTS) (McCollum 3 AST),Made Shot,Jump Shot,1,3,33
+0022600160,49,PT08M09.00S,1,1610612754,IND,1631245,Jackson,Q. Jackson,215,124,25,Missed,1,,,0,h,MISS Jackson 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,34
+0022600160,50,PT08M09.00S,1,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,Okongwu REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,35
+0022600160,51,PT08M00.00S,1,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,-41,13,4,Made,1,11,14,25,v,Alexander-Walker 4' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,36
+0022600160,52,PT07M41.00S,1,1610612754,IND,1630643,Huff,J. Huff,13,27,3,Made,1,13,14,27,h,Huff 3' Driving Finger Roll Layup (5 PTS) (Jackson 2 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,37
+0022600160,54,PT07M29.00S,1,1610612737,ATL,203468,McCollum,C. McCollum,46,83,9,Missed,1,,,0,v,MISS McCollum 9' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,38
+0022600160,55,PT07M29.00S,1,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,39
+0022600160,56,PT07M26.00S,1,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum Lost Ball Turnover (P2.T2),Turnover,Lost Ball,1,0,40
+0022600160,56,PT07M26.00S,1,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith STEAL (1 STL),,,1,0,41
+0022600160,58,PT07M20.00S,1,1610612754,IND,1641716,Walker,J. Walker,-4,16,2,Made,1,15,14,29,h,Walker 2' Running Finger Roll Layup (4 PTS) (Smith 1 AST),Made Shot,Running Finger Roll Layup Shot,1,2,42
+0022600160,60,PT07M20.00S,1,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,43
+0022600160,62,PT07M20.00S,1,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,SUB: Brown FOR Jackson,Substitution,,0,0,44
+0022600160,64,PT07M20.00S,1,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,SUB: Wiggins FOR Daniels,Substitution,,0,0,45
+0022600160,65,PT07M03.00S,1,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,230,68,24,Made,1,15,17,32,v,Alexander-Walker 24' 3PT Jump Shot (8 PTS) (McCollum 4 AST),Made Shot,Jump Shot,1,3,46
+0022600160,67,PT06M43.00S,1,1610612754,IND,1630643,Huff,J. Huff,-5,263,26,Missed,1,,,0,h,MISS Huff 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,47
+0022600160,68,PT06M43.00S,1,1610612737,ATL,1630598,Wiggins,A. Wiggins,0,0,0,,0,,,0,v,Wiggins REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,48
+0022600160,69,PT06M35.00S,1,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker Out of Bounds Lost Ball Turnover (P1.T3),Turnover,Out of Bounds Lost Ball Turnover,1,0,49
+0022600160,70,PT06M14.00S,1,1610612754,IND,1641738,Brown,K. Brown,29,11,3,Made,1,17,17,34,h,Brown 3' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,50
+0022600160,71,PT05M57.00S,1,1610612737,ATL,1630168,Okongwu,O. Okongwu,-16,245,25,Made,1,17,20,37,v,Okongwu 25' 3PT Jump Shot (8 PTS) (McCollum 5 AST),Made Shot,Jump Shot,1,3,51
+0022600160,73,PT05M39.00S,1,1610612754,IND,1641771,Slawson,J. Slawson,-228,10,0,Made,1,20,20,40,h,Slawson 3PT Jump Shot (3 PTS) (Smith 2 AST),Made Shot,Jump Shot,1,3,52
+0022600160,75,PT05M24.00S,1,1610612737,ATL,1629652,Dort,L. Dort,19,7,2,Made,1,20,22,42,v,Dort 2' Layup (2 PTS) (Okongwu 1 AST),Made Shot,Layup Shot,1,2,53
+0022600160,77,PT04M57.00S,1,1610612754,IND,1641771,Slawson,J. Slawson,89,301,31,Missed,1,,,0,h,MISS Slawson 31' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,54
+0022600160,78,PT04M57.00S,1,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,0,0,55
+0022600160,79,PT04M56.00S,1,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Turnover: Shot Clock (T#3),Turnover,Shot Clock Turnover,1,0,56
+0022600160,80,PT04M47.00S,1,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,-10,59,6,Made,1,20,24,44,v,Alexander-Walker 6' Driving Floating Jump Shot (10 PTS),Made Shot,Driving Floating Jump Shot,1,2,57
+0022600160,81,PT04M35.00S,1,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum P.FOUL (P1.T3) (M.Kogut),Foul,Personal,1,0,58
+0022600160,84,PT04M35.00S,1,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,SUB: Jackson FOR Huff,Substitution,,0,0,59
+0022600160,87,PT04M35.00S,1,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,SUB: Ejiofor FOR Okongwu,Substitution,,0,0,60
+0022600160,88,PT04M35.00S,1,1610612737,ATL,1629652,Dort,L. Dort,0,0,0,,0,,,0,v,SUB: Newell FOR Dort,Substitution,,0,0,61
+0022600160,89,PT04M29.00S,1,1610612754,IND,1643552,Smith,B. Smith,43,24,5,Made,1,22,24,46,h,Smith 5' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,62
+0022600160,90,PT04M20.00S,1,1610612737,ATL,1630598,Wiggins,A. Wiggins,1,22,2,Made,1,22,26,48,v,Wiggins 2' Driving Layup (2 PTS) (Alexander-Walker 2 AST),Made Shot,Driving Layup Shot,1,2,63
+0022600160,91,PT03M57.00S,1,1610612754,IND,1641716,Walker,J. Walker,16,262,26,Missed,1,,,0,h,MISS Walker 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,64
+0022600160,92,PT03M57.00S,1,1610612737,ATL,1630598,Wiggins,A. Wiggins,0,0,0,,0,,,0,v,Wiggins REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,65
+0022600160,94,PT03M50.00S,1,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,-239,23,24,Missed,1,,,0,v,MISS Alexander-Walker 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,66
+0022600160,95,PT03M50.00S,1,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,67
+0022600160,96,PT03M41.00S,1,1610612754,IND,1641771,Slawson,J. Slawson,-178,200,27,Missed,1,,,0,h,MISS Slawson 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,68
+0022600160,97,PT03M41.00S,1,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,Newell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,69
+0022600160,98,PT03M32.00S,1,1610612737,ATL,1630598,Wiggins,A. Wiggins,166,201,26,Made,1,22,29,51,v,Wiggins 26' 3PT Jump Shot (5 PTS) (McCollum 6 AST),Made Shot,Jump Shot,1,3,70
+0022600160,100,PT03M30.00S,1,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,71
+0022600160,102,PT03M30.00S,1,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,SUB: Huff FOR Slawson,Substitution,,0,0,72
+0022600160,105,PT03M30.00S,1,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,SUB: Daniels FOR McCollum,Substitution,,0,0,73
+0022600160,106,PT03M30.00S,1,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,SUB: Kispert FOR Alexander-Walker,Substitution,,0,0,74
+0022600160,107,PT03M06.00S,1,1610612754,IND,1641716,Walker,J. Walker,-234,58,24,Missed,1,,,0,h,MISS Walker 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,75
+0022600160,108,PT03M06.00S,1,1610612737,ATL,1630557,Kispert,C. Kispert,0,0,0,,0,,,0,v,Kispert REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,76
+0022600160,109,PT02M54.00S,1,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,Newell Offensive Charge Foul (P1) (J.Schroeder),Foul,Offensive Charge,1,0,77
+0022600160,111,PT02M54.00S,1,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,Newell Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,78
+0022600160,112,PT02M44.00S,1,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels S.FOUL (P1.T4) (Z.Zarba),Foul,Shooting,1,0,79
+0022600160,114,PT02M44.00S,1,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,MISS Smith Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,80
+0022600160,115,PT02M44.00S,1,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Normal Rebound,1,0,81
+0022600160,118,PT02M44.00S,1,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,SUB: Slawson FOR Walker,Substitution,,0,0,82
+0022600160,116,PT02M44.00S,1,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,23,29,52,h,Smith Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,83
+0022600160,119,PT02M34.00S,1,1610612737,ATL,1630598,Wiggins,A. Wiggins,-227,76,24,Missed,1,,,0,v,MISS Wiggins 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,84
+0022600160,120,PT02M34.00S,1,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,0,0,0,,0,,,0,v,Ejiofor REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,85
+0022600160,121,PT02M31.00S,1,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,0,0,0,Missed,1,,,0,v,MISS Ejiofor Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,86
+0022600160,122,PT02M31.00S,1,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,0,0,0,,0,,,0,v,Ejiofor REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,87
+0022600160,123,PT02M29.00S,1,1610612737,ATL,1630557,Kispert,C. Kispert,162,198,26,Made,1,23,32,55,v,Kispert 26' 3PT Jump Shot (3 PTS) (Ejiofor 1 AST),Made Shot,Jump Shot,1,3,88
+0022600160,125,PT02M10.00S,1,1610612754,IND,1630643,Huff,J. Huff,-13,11,2,Made,1,25,32,57,h,Huff 2' Layup (8 PTS) (Slawson 1 AST),Made Shot,Layup Shot,1,2,89
+0022600160,127,PT02M10.00S,1,1610612737,ATL,1630598,Wiggins,A. Wiggins,0,0,0,,0,,,0,v,Wiggins S.FOUL (P1.PN) (J.Schroeder),Foul,Shooting,1,0,90
+0022600160,129,PT02M10.00S,1,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,26,32,58,h,Huff Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,1,0,91
+0022600160,130,PT01M56.00S,1,1610612737,ATL,1630700,Daniels,D. Daniels,-136,219,26,Missed,1,,,0,v,MISS Daniels 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,92
+0022600160,131,PT01M56.00S,1,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,1,0,93
+0022600160,133,PT01M38.00S,1,1610612754,IND,1631245,Jackson,Q. Jackson,11,7,1,Missed,1,,,0,h,MISS Jackson 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,94
+0022600160,134,PT01M38.00S,1,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,95
+0022600160,135,PT01M35.00S,1,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,Missed,1,,,0,h,MISS Slawson Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,96
+0022600160,136,PT01M35.00S,1,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,0,0,0,,0,,,0,v,Ejiofor REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,97
+0022600160,137,PT01M26.00S,1,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,26,281,28,Made,1,26,35,61,v,Ejiofor 28' 3PT Jump Shot (3 PTS) (Wiggins 1 AST),Made Shot,Jump Shot,1,3,98
+0022600160,139,PT01M11.00S,1,1610612754,IND,1631245,Jackson,Q. Jackson,245,49,25,Made,1,29,35,64,h,Jackson 25' 3PT Jump Shot (7 PTS) (Smith 3 AST),Made Shot,Jump Shot,1,3,99
+0022600160,141,PT00M49.90S,1,1610612737,ATL,1630598,Wiggins,A. Wiggins,-21,124,13,Missed,1,,,0,v,MISS Wiggins 13' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,100
+0022600160,142,PT00M49.90S,1,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,101
+0022600160,143,PT00M32.20S,1,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff OFF.Foul (P2) (Z.Zarba),Foul,Offensive,1,0,102
+0022600160,145,PT00M32.20S,1,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,103
+0022600160,147,PT00M32.20S,1,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,SUB: Walker FOR Huff,Substitution,,0,0,104
+0022600160,148,PT00M24.00S,1,1610612737,ATL,1630700,Daniels,D. Daniels,33,58,7,Made,1,29,37,66,v,Daniels 7' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,105
+0022600160,149,PT00M01.20S,1,1610612754,IND,1631245,Jackson,Q. Jackson,-7,266,27,Missed,1,,,0,h,MISS Jackson 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,106
+0022600160,150,PT00M01.20S,1,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,0,0,107
+0022600160,151,PT00M00.00S,1,0,,0,,,0,0,0,,0,29,37,66,,End of 1st Period (8:04 PM EST),period,end,1,0,108
+0022600160,154,PT12M00.00S,2,0,,0,,,0,0,0,,0,29,37,66,,Start of 2nd Period (8:07 PM EST),period,start,0,0,109
+0022600160,155,PT11M48.00S,2,1610612754,IND,1641771,Slawson,J. Slawson,-11,27,3,Missed,1,,,0,h,MISS Slawson 3' Cutting Finger Roll Layup Shot,Missed Shot,Cutting Finger Roll Layup Shot,1,2,110
+0022600160,156,PT11M48.00S,2,1610612737,ATL,1642484,Dennis,R. Dennis,0,0,0,,0,,,0,v,Dennis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,111
+0022600160,157,PT11M41.00S,2,1610612737,ATL,1630557,Kispert,C. Kispert,-205,148,25,Made,1,29,40,69,v,Kispert 25' 3PT Running Jump Shot (6 PTS) (Newell 1 AST),Made Shot,Running Jump Shot,1,3,112
+0022600160,159,PT11M29.00S,2,1610612754,IND,1643552,Smith,B. Smith,-27,27,4,Missed,1,,,0,h,MISS Smith 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,113
+0022600160,160,PT11M29.00S,2,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,0,0,0,,0,,,0,v,Ejiofor REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,114
+0022600160,161,PT11M15.00S,2,1610612737,ATL,1630557,Kispert,C. Kispert,-24,32,4,Missed,1,,,0,v,MISS Kispert 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,115
+0022600160,161,PT11M15.00S,2,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith BLOCK (1 BLK),,,1,2,116
+0022600160,162,PT11M15.00S,2,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,0,0,117
+0022600160,165,PT11M04.00S,2,1610612754,IND,1641716,Walker,J. Walker,-7,22,2,Missed,1,,,0,h,MISS Walker 2' Layup,Missed Shot,Layup Shot,1,2,118
+0022600160,166,PT11M04.00S,2,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,Newell REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,119
+0022600160,167,PT10M57.00S,2,1610612737,ATL,1630557,Kispert,C. Kispert,140,212,25,Made,1,29,43,72,v,Kispert 25' 3PT Running Pull-Up Jump Shot (9 PTS) (Dennis 1 AST),Made Shot,Running Pull-Up Jump Shot,1,3,120
+0022600160,169,PT10M40.00S,2,1610612754,IND,1641738,Brown,K. Brown,150,233,28,Made,1,32,43,75,h,Brown 28' 3PT Jump Shot (5 PTS) (Smith 4 AST),Made Shot,Jump Shot,1,3,121
+0022600160,171,PT10M22.00S,2,1610612737,ATL,1630598,Wiggins,A. Wiggins,0,0,0,,0,,,0,v,Wiggins OFF.Foul (P2) (J.Schroeder),Foul,Offensive,1,0,122
+0022600160,173,PT10M22.00S,2,1610612737,ATL,1630598,Wiggins,A. Wiggins,0,0,0,,0,,,0,v,Wiggins Offensive Foul Turnover (P1.T5),Turnover,Offensive Foul Turnover,1,0,123
+0022600160,174,PT10M06.00S,2,1610612754,IND,1631245,Jackson,Q. Jackson,-4,35,4,Missed,1,,,0,h,MISS Jackson 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,124
+0022600160,174,PT10M06.00S,2,1610612737,ATL,1642484,Dennis,R. Dennis,0,0,0,,0,,,0,v,Dennis BLOCK (1 BLK),,,1,2,125
+0022600160,175,PT10M06.00S,2,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,0,0,126
+0022600160,178,PT10M06.00S,2,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,127
+0022600160,179,PT10M06.00S,2,0,,0,,,0,0,0,,0,32,43,75,,Instant Replay2nd Period (8:10 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,128
+0022600160,181,PT10M06.00S,2,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,SUB: Huff FOR Smith,Substitution,,0,0,129
+0022600160,182,PT09M50.00S,2,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,Newell Lost Ball Turnover (P2.T6),Turnover,Lost Ball,1,0,130
+0022600160,182,PT09M50.00S,2,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson STEAL (1 STL),,,1,0,131
+0022600160,184,PT09M47.00S,2,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson Lost Ball Turnover (P2.T5),Turnover,Lost Ball,1,0,132
+0022600160,184,PT09M47.00S,2,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,Newell STEAL (1 STL),,,1,0,133
+0022600160,186,PT09M44.00S,2,1610612737,ATL,1630557,Kispert,C. Kispert,241,28,24,Made,1,32,46,78,v,Kispert 24' 3PT Jump Shot (12 PTS) (Dennis 2 AST),Made Shot,Jump Shot,1,3,134
+0022600160,188,PT09M16.00S,2,1610612754,IND,1641738,Brown,K. Brown,66,50,8,Made,1,34,46,80,h,Brown 8' Turnaround Fadeaway (7 PTS),Made Shot,Turnaround Fadeaway shot,1,2,135
+0022600160,189,PT09M05.00S,2,1610612737,ATL,1630557,Kispert,C. Kispert,-158,208,26,Missed,1,,,0,v,MISS Kispert 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,136
+0022600160,190,PT09M05.00S,2,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,137
+0022600160,191,PT08M44.00S,2,1610612754,IND,1641716,Walker,J. Walker,-6,123,12,Made,1,36,46,82,h,Walker 12' Driving Floating Jump Shot (6 PTS),Made Shot,Driving Floating Jump Shot,1,2,138
+0022600160,192,PT08M32.00S,2,1610612737,ATL,1642484,Dennis,R. Dennis,-162,14,16,Made,1,36,48,84,v,Dennis 16' Step Back Jump Shot (2 PTS),Made Shot,Step Back Jump shot,1,2,139
+0022600160,193,PT08M14.00S,2,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson Bad Pass Turnover (P3.T6),Turnover,Bad Pass,1,0,140
+0022600160,193,PT08M14.00S,2,1610612737,ATL,1630557,Kispert,C. Kispert,0,0,0,,0,,,0,v,Kispert STEAL (1 STL),,,1,0,141
+0022600160,195,PT08M08.00S,2,1610612737,ATL,1630598,Wiggins,A. Wiggins,71,241,25,Missed,1,,,0,v,MISS Wiggins 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,142
+0022600160,196,PT08M08.00S,2,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,143
+0022600160,197,PT07M53.00S,2,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,Newell P.FOUL (P2.T1) (J.Schroeder),Foul,Personal,1,0,144
+0022600160,200,PT07M53.00S,2,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,SUB: Smith FOR Jackson,Substitution,,0,0,145
+0022600160,204,PT07M53.00S,2,1610612737,ATL,1642484,Dennis,R. Dennis,0,0,0,,0,,,0,v,SUB: McCollum FOR Dennis,Substitution,,0,0,146
+0022600160,205,PT07M53.00S,2,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,0,0,0,,0,,,0,v,SUB: Alexander-Walker FOR Ejiofor,Substitution,,0,0,147
+0022600160,206,PT07M53.00S,2,1610612737,ATL,1630598,Wiggins,A. Wiggins,0,0,0,,0,,,0,v,SUB: Okongwu FOR Wiggins,Substitution,,0,0,148
+0022600160,207,PT07M46.00S,2,1610612754,IND,1641738,Brown,K. Brown,243,53,25,Missed,1,,,0,h,MISS Brown 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,149
+0022600160,208,PT07M46.00S,2,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,150
+0022600160,209,PT07M37.00S,2,1610612754,IND,1641771,Slawson,J. Slawson,51,263,27,Missed,1,,,0,h,MISS Slawson 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,151
+0022600160,210,PT07M37.00S,2,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,Okongwu REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,152
+0022600160,211,PT07M27.00S,2,1610612737,ATL,203468,McCollum,C. McCollum,41,33,5,Missed,1,,,0,v,MISS McCollum 5' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,153
+0022600160,212,PT07M27.00S,2,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,154
+0022600160,213,PT07M14.00S,2,1610612754,IND,1630643,Huff,J. Huff,-3,-2,0,Made,1,38,48,86,h,Huff Dunk (10 PTS),Made Shot,Dunk Shot,1,2,155
+0022600160,214,PT07M03.00S,2,1610612737,ATL,1642854,Newell,A. Newell,29,34,4,Missed,1,,,0,v,MISS Newell 4' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,156
+0022600160,215,PT07M03.00S,2,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,0,0,157
+0022600160,217,PT06M52.00S,2,1610612754,IND,1630643,Huff,J. Huff,-2,21,2,Made,1,40,48,88,h,Huff 2' Reverse Dunk (12 PTS) (Smith 5 AST),Made Shot,Reverse Dunk Shot,1,2,158
+0022600160,219,PT06M39.00S,2,1610612737,ATL,1630168,Okongwu,O. Okongwu,-34,240,24,Missed,1,,,0,v,MISS Okongwu 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,159
+0022600160,220,PT06M39.00S,2,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,160
+0022600160,221,PT06M25.00S,2,1610612754,IND,1630643,Huff,J. Huff,22,4,2,Made,1,42,48,90,h,Huff 2' Cutting Layup Shot (15 PTS) (Smith 6 AST),Made Shot,Cutting Layup Shot,1,2,161
+0022600160,223,PT06M25.00S,2,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker S.FOUL (P1.T2) (Z.Zarba),Foul,Shooting,1,0,162
+0022600160,227,PT06M25.00S,2,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,,,0,h,SUB: Jackson FOR Brown,Substitution,,0,0,163
+0022600160,230,PT06M25.00S,2,1610612737,ATL,1630557,Kispert,C. Kispert,0,0,0,,0,,,0,v,SUB: Daniels FOR Kispert,Substitution,,0,0,164
+0022600160,231,PT06M25.00S,2,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,SUB: Dort FOR Newell,Substitution,,0,0,165
+0022600160,225,PT06M25.00S,2,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,43,48,91,h,Huff Free Throw 1 of 1 (15 PTS),Free Throw,Free Throw 1 of 1,1,0,166
+0022600160,232,PT06M13.00S,2,1610612737,ATL,1629652,Dort,L. Dort,221,144,26,Made,1,43,51,94,v,Dort 26' 3PT Pullup Jump Shot (5 PTS) (McCollum 7 AST),Made Shot,Pullup Jump shot,1,3,167
+0022600160,234,PT05M57.00S,2,1610612754,IND,1643552,Smith,B. Smith,-107,51,12,Made,1,45,51,96,h,Smith 12' Fadeaway Bank Shot (7 PTS),Made Shot,Fadeaway Bank shot,1,2,168
+0022600160,235,PT05M47.00S,2,1610612737,ATL,1629652,Dort,L. Dort,182,166,25,Made,1,45,54,99,v,Dort 25' 3PT Jump Shot (8 PTS) (Okongwu 2 AST),Made Shot,Jump Shot,1,3,169
+0022600160,237,PT05M26.00S,2,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker S.FOUL (P2.T3) (J.Schroeder),Foul,Shooting,1,0,170
+0022600160,239,PT05M26.00S,2,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,MISS Walker Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,171
+0022600160,240,PT05M26.00S,2,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Normal Rebound,0,0,172
+0022600160,243,PT05M26.00S,2,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,SUB: Brown FOR Slawson,Substitution,,0,0,173
+0022600160,241,PT05M26.00S,2,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,46,54,100,h,Walker Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,174
+0022600160,244,PT05M13.00S,2,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,233,37,24,Missed,1,,,0,v,MISS Alexander-Walker 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,175
+0022600160,245,PT05M13.00S,2,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,1,0,176
+0022600160,247,PT05M09.00S,2,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,-245,30,25,Made,1,46,57,103,v,Alexander-Walker 25' 3PT Jump Shot (13 PTS) (Daniels 1 AST),Made Shot,Jump Shot,1,3,177
+0022600160,249,PT05M02.00S,2,1610612754,IND,1631245,Jackson,Q. Jackson,17,11,2,Made,1,48,57,105,h,Jackson 2' Driving Layup (10 PTS) (Smith 7 AST),Made Shot,Driving Layup Shot,1,2,178
+0022600160,250,PT05M02.00S,2,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum S.FOUL (P2.T4) (Z.Zarba),Foul,Shooting,1,0,179
+0022600160,252,PT05M02.00S,2,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,49,57,106,h,Jackson Free Throw 1 of 1 (10 PTS),Free Throw,Free Throw 1 of 1,1,0,180
+0022600160,253,PT04M52.00S,2,1610612737,ATL,203468,McCollum,C. McCollum,-78,55,10,Made,1,49,59,108,v,McCollum 10' Driving Floating Bank Jump Shot (4 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,181
+0022600160,254,PT04M34.00S,2,1610612754,IND,1641716,Walker,J. Walker,-26,102,11,Missed,1,,,0,h,MISS Walker 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,182
+0022600160,255,PT04M34.00S,2,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,183
+0022600160,256,PT04M18.00S,2,1610612737,ATL,203468,McCollum,C. McCollum,-5,-10,1,Missed,1,,,0,v,MISS McCollum 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,184
+0022600160,257,PT04M18.00S,2,1610612737,ATL,1629652,Dort,L. Dort,0,0,0,,0,,,0,v,Dort REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,185
+0022600160,258,PT04M15.00S,2,1610612737,ATL,203468,McCollum,C. McCollum,-101,9,10,Missed,1,,,0,v,MISS McCollum 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,186
+0022600160,259,PT04M15.00S,2,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,187
+0022600160,260,PT03M56.00S,2,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith Step Out of Bounds Turnover (P2.T7),Turnover,Step Out of Bounds Turnover,1,0,188
+0022600160,261,PT03M56.00S,2,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,189
+0022600160,263,PT03M56.00S,2,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,SUB: Slawson FOR Jackson,Substitution,,0,0,190
+0022600160,264,PT03M56.00S,2,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Violation: Delay of game Violation,Violation,Delay Of Game,0,0,191
+0022600160,265,PT03M44.00S,2,1610612737,ATL,203468,McCollum,C. McCollum,-237,82,25,Made,1,49,62,111,v,McCollum 25' 3PT Jump Shot (7 PTS) (Alexander-Walker 3 AST),Made Shot,Jump Shot,1,3,192
+0022600160,267,PT03M18.00S,2,1610612754,IND,1641738,Brown,K. Brown,240,13,24,Made,1,52,62,114,h,Brown 24' 3PT Jump Shot (10 PTS) (Smith 8 AST),Made Shot,Jump Shot,1,3,193
+0022600160,269,PT03M04.00S,2,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker Lost Ball Turnover (P2.T7),Turnover,Lost Ball,1,0,194
+0022600160,269,PT03M04.00S,2,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson STEAL (2 STL),,,1,0,195
+0022600160,271,PT02M57.00S,2,1610612754,IND,1630643,Huff,J. Huff,-67,248,26,Missed,1,,,0,h,MISS Huff 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,196
+0022600160,272,PT02M57.00S,2,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,197
+0022600160,273,PT02M53.00S,2,1610612754,IND,1641738,Brown,K. Brown,-37,11,4,Made,1,54,62,116,h,Brown 4' Putback Layup (12 PTS),Made Shot,Putback Layup Shot,1,2,198
+0022600160,274,PT02M42.00S,2,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum Lost Ball Turnover (P3.T8),Turnover,Lost Ball,1,0,199
+0022600160,274,PT02M42.00S,2,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith STEAL (2 STL),,,1,0,200
+0022600160,276,PT02M38.00S,2,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,Walker Lost Ball Turnover (P1.T8),Turnover,Lost Ball,1,0,201
+0022600160,276,PT02M38.00S,2,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker STEAL (2 STL),,,1,0,202
+0022600160,278,PT02M37.00S,2,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson P.FOUL (P1.T1) (J.Schroeder),Foul,Personal,1,0,203
+0022600160,280,PT02M29.00S,2,1610612737,ATL,203468,McCollum,C. McCollum,-155,208,26,Missed,1,,,0,v,MISS McCollum 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,204
+0022600160,281,PT02M29.00S,2,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,205
+0022600160,282,PT02M14.00S,2,1610612754,IND,1641738,Brown,K. Brown,-227,27,0,Missed,1,,,0,h,MISS Brown 3PT Jump Shot,Missed Shot,Jump Shot,1,3,206
+0022600160,283,PT02M14.00S,2,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,Okongwu REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,207
+0022600160,284,PT02M01.00S,2,1610612737,ATL,1630168,Okongwu,O. Okongwu,-7,63,6,Missed,1,,,0,v,MISS Okongwu 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,208
+0022600160,285,PT02M01.00S,2,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,209
+0022600160,286,PT01M51.00S,2,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff Bad Pass Turnover (P2.T9),Turnover,Bad Pass,1,0,210
+0022600160,286,PT01M51.00S,2,1610612737,ATL,1629652,Dort,L. Dort,0,0,0,,0,,,0,v,Dort STEAL (1 STL),,,1,0,211
+0022600160,288,PT01M45.00S,2,1610612737,ATL,203468,McCollum,C. McCollum,-231,85,25,Missed,1,,,0,v,MISS McCollum 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,212
+0022600160,289,PT01M45.00S,2,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,213
+0022600160,290,PT01M28.00S,2,1610612754,IND,1641716,Walker,J. Walker,-234,53,24,Missed,1,,,0,h,MISS Walker 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,214
+0022600160,291,PT01M28.00S,2,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,215
+0022600160,292,PT01M19.00S,2,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith P.FOUL (P1.T2) (Z.Zarba),Foul,Personal,1,0,216
+0022600160,294,PT01M14.00S,2,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,-111,8,11,Made,1,54,64,118,v,Alexander-Walker 11' Pullup Jump Shot (16 PTS),Made Shot,Pullup Jump shot,1,2,217
+0022600160,295,PT01M14.00S,2,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,Walker S.FOUL (P2.PN) (M.Kogut),Foul,Shooting,1,0,218
+0022600160,297,PT01M14.00S,2,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,54,65,119,v,Alexander-Walker Free Throw 1 of 1 (16 PTS),Free Throw,Free Throw 1 of 1,1,0,219
+0022600160,298,PT00M56.70S,2,1610612754,IND,1630643,Huff,J. Huff,24,114,12,Made,1,56,65,121,h,Huff 12' Turnaround Jump Shot (17 PTS),Made Shot,Turnaround Jump Shot,1,2,220
+0022600160,299,PT00M48.30S,2,1610612737,ATL,203468,McCollum,C. McCollum,127,256,29,Missed,1,,,0,v,MISS McCollum 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,221
+0022600160,300,PT00M48.30S,2,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,222
+0022600160,301,PT00M44.00S,2,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,-247,29,25,Made,1,56,68,124,v,Alexander-Walker 25' 3PT Jump Shot (19 PTS) (Daniels 2 AST),Made Shot,Jump Shot,1,3,223
+0022600160,303,PT00M41.50S,2,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith Bad Pass Turnover (P3.T10),Turnover,Bad Pass,0,0,224
+0022600160,303,PT00M41.50S,2,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum STEAL (1 STL),,,0,0,225
+0022600160,305,PT00M37.70S,2,1610612737,ATL,1629652,Dort,L. Dort,171,189,25,Missed,1,,,0,v,MISS Dort 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,226
+0022600160,306,PT00M37.70S,2,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,227
+0022600160,307,PT00M13.10S,2,1610612754,IND,1630643,Huff,J. Huff,-3,275,28,Missed,1,,,0,h,MISS Huff 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,228
+0022600160,308,PT00M13.10S,2,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,Okongwu REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,229
+0022600160,309,PT00M00.50S,2,1610612737,ATL,1630168,Okongwu,O. Okongwu,43,242,25,Missed,1,,,0,v,MISS Okongwu 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,230
+0022600160,309,PT00M00.50S,2,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,Walker BLOCK (1 BLK),,,1,3,231
+0022600160,310,PT00M00.50S,2,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,1,0,232
+0022600160,312,PT00M00.00S,2,0,,0,,,0,0,0,,0,56,68,124,,End of 2nd Period (8:32 PM EST),period,end,1,0,233
+0022600160,316,PT12M00.00S,3,0,,0,,,0,0,0,,0,56,68,124,,Start of 3rd Period (8:47 PM EST),period,start,1,0,234
+0022600160,317,PT11M43.00S,3,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff Out of Bounds Lost Ball Turnover (P3.T11),Turnover,Out of Bounds Lost Ball Turnover,1,0,235
+0022600160,318,PT11M30.00S,3,1610612737,ATL,1630700,Daniels,D. Daniels,-69,87,11,Missed,1,,,0,v,MISS Daniels 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,236
+0022600160,319,PT11M30.00S,3,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,237
+0022600160,320,PT11M25.00S,3,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,-15,260,26,Missed,1,,,0,v,MISS Alexander-Walker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,238
+0022600160,321,PT11M25.00S,3,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,239
+0022600160,322,PT11M05.00S,3,1610612754,IND,1641716,Walker,J. Walker,-37,29,5,Missed,1,,,0,h,MISS Walker 5' Layup,Missed Shot,Layup Shot,1,2,240
+0022600160,323,PT11M05.00S,3,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,241
+0022600160,324,PT10M55.00S,3,1610612737,ATL,1630168,Okongwu,O. Okongwu,228,2,0,Missed,1,,,0,v,MISS Okongwu 3PT Jump Shot,Missed Shot,Jump Shot,1,3,242
+0022600160,325,PT10M55.00S,3,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,243
+0022600160,326,PT10M41.00S,3,1610612754,IND,1643552,Smith,B. Smith,37,29,5,Made,1,58,68,126,h,Smith 5' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,244
+0022600160,327,PT10M33.00S,3,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,170,1,17,Missed,1,,,0,v,MISS Alexander-Walker 17' Jump Shot,Missed Shot,Jump Shot,1,2,245
+0022600160,328,PT10M33.00S,3,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,Okongwu REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,246
+0022600160,329,PT10M27.00S,3,1610612737,ATL,203468,McCollum,C. McCollum,-99,278,30,Made,1,58,71,129,v,McCollum 30' 3PT Jump Shot (10 PTS) (Okongwu 3 AST),Made Shot,Jump Shot,1,3,247
+0022600160,331,PT10M03.00S,3,1610612754,IND,1631245,Jackson,Q. Jackson,-31,77,8,Missed,1,,,0,h,MISS Jackson 8' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,248
+0022600160,332,PT10M03.00S,3,1610612737,ATL,1629652,Dort,L. Dort,0,0,0,,0,,,0,v,Dort REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,249
+0022600160,333,PT09M52.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson P.FOUL (P2.T1) (M.Kogut),Foul,Personal,1,0,250
+0022600160,335,PT09M48.00S,3,1610612737,ATL,1630700,Daniels,D. Daniels,-26,67,7,Made,1,58,73,131,v,Daniels 7' Turnaround Jump Shot (6 PTS) (Alexander-Walker 4 AST),Made Shot,Turnaround Jump Shot,1,2,251
+0022600160,336,PT09M34.00S,3,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith Out of Bounds - Bad Pass Turnover Turnover (P4.T12),Turnover,Out of Bounds - Bad Pass Turnover,1,0,252
+0022600160,337,PT09M20.00S,3,1610612737,ATL,203468,McCollum,C. McCollum,135,2,14,Missed,1,,,0,v,MISS McCollum 14' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,253
+0022600160,338,PT09M20.00S,3,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,254
+0022600160,339,PT09M09.00S,3,1610612754,IND,1641716,Walker,J. Walker,-184,188,26,Made,1,61,73,134,h,Walker 26' 3PT Jump Shot (10 PTS) (Smith 9 AST),Made Shot,Jump Shot,1,3,255
+0022600160,341,PT08M58.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson P.FOUL (P3.T2) (J.Schroeder),Foul,Personal,1,0,256
+0022600160,344,PT08M58.00S,3,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,SUB: Brown FOR Jackson,Substitution,,0,0,257
+0022600160,345,PT08M51.00S,3,1610612737,ATL,1630700,Daniels,D. Daniels,124,12,12,Missed,1,,,0,v,MISS Daniels 12' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,258
+0022600160,346,PT08M51.00S,3,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,1,0,259
+0022600160,347,PT08M50.00S,3,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels L.B.FOUL (P2.T1) (Z.Zarba),Foul,Loose Ball,1,0,260
+0022600160,349,PT08M31.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson Lost Ball Turnover (P1.T13),Turnover,Lost Ball,1,0,261
+0022600160,349,PT08M31.00S,3,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker STEAL (3 STL),,,1,0,262
+0022600160,351,PT08M26.00S,3,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,,,0,h,Brown S.FOUL (P1.T3) (M.Kogut),Foul,Shooting,1,0,263
+0022600160,353,PT08M26.00S,3,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,MISS McCollum Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,264
+0022600160,354,PT08M26.00S,3,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Normal Rebound,0,0,265
+0022600160,355,PT08M26.00S,3,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,61,74,135,v,McCollum Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,266
+0022600160,356,PT08M12.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,176,211,27,Made,1,64,74,138,h,Slawson 27' 3PT Pullup Jump Shot (6 PTS) (Huff 1 AST),Made Shot,Pullup Jump shot,1,3,267
+0022600160,358,PT07M58.00S,3,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,169,182,25,Made,1,64,77,141,v,Alexander-Walker 25' 3PT Jump Shot (22 PTS) (Daniels 3 AST),Made Shot,Jump Shot,1,3,268
+0022600160,359,PT07M42.00S,3,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum S.FOUL (P3.T2) (Z.Zarba),Foul,Shooting,1,0,269
+0022600160,361,PT07M42.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,65,77,142,h,Slawson Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,270
+0022600160,363,PT07M42.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,66,77,143,h,Slawson Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,271
+0022600160,364,PT07M32.00S,3,1610612737,ATL,1629652,Dort,L. Dort,194,169,26,Missed,1,,,0,v,MISS Dort 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,272
+0022600160,365,PT07M32.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,273
+0022600160,366,PT07M09.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,48,264,27,Missed,1,,,0,h,MISS Slawson 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,274
+0022600160,367,PT07M09.00S,3,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,1,0,275
+0022600160,369,PT06M58.00S,3,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,242,11,24,Made,1,66,80,146,v,Alexander-Walker 24' 3PT Jump Shot (25 PTS) (McCollum 8 AST),Made Shot,Jump Shot,1,3,276
+0022600160,371,PT06M55.00S,3,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,277
+0022600160,374,PT06M55.00S,3,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,SUB: Jackson FOR Huff,Substitution,,0,0,278
+0022600160,376,PT06M55.00S,3,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,SUB: Wiggins FOR Daniels,Substitution,,0,0,279
+0022600160,377,PT06M42.00S,3,1610612754,IND,1643552,Smith,B. Smith,57,62,8,Missed,1,,,0,h,MISS Smith 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,280
+0022600160,378,PT06M42.00S,3,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,281
+0022600160,379,PT06M29.00S,3,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,9,127,13,Missed,1,,,0,v,MISS Alexander-Walker 13' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,282
+0022600160,380,PT06M29.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,283
+0022600160,381,PT06M22.00S,3,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson OFF.Foul (P1) (M.Kogut),Foul,Offensive,1,0,284
+0022600160,383,PT06M22.00S,3,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson Offensive Foul Turnover (P4.T14),Turnover,Offensive Foul Turnover,1,0,285
+0022600160,384,PT06M11.00S,3,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker Bad Pass Turnover (P3.T9),Turnover,Bad Pass,1,0,286
+0022600160,384,PT06M11.00S,3,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson STEAL (2 STL),,,1,0,287
+0022600160,386,PT06M05.00S,3,1610612754,IND,1641716,Walker,J. Walker,-21,-4,2,Made,1,68,80,148,h,Walker 2' Running Layup (12 PTS) (Slawson 2 AST),Made Shot,Running Layup Shot,1,2,288
+0022600160,388,PT05M46.00S,3,1610612737,ATL,1629652,Dort,L. Dort,-63,74,10,Missed,1,,,0,v,MISS Dort 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,289
+0022600160,389,PT05M46.00S,3,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,290
+0022600160,429,PT05M44.00S,3,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,4,14,1,Missed,1,,,0,v,MISS Alexander-Walker 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,291
+0022600160,430,PT05M44.00S,3,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,292
+0022600160,390,PT05M42.00S,3,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,51,23,6,Missed,1,,,0,v,MISS Alexander-Walker 6' Putback Layup,Missed Shot,Putback Layup Shot,1,2,293
+0022600160,391,PT05M42.00S,3,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,294
+0022600160,394,PT05M32.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,SUB: Huff FOR Slawson,Substitution,,0,0,295
+0022600160,397,PT05M32.00S,3,1610612737,ATL,1629652,Dort,L. Dort,0,0,0,,0,,,0,v,SUB: Newell FOR Dort,Substitution,,0,0,296
+0022600160,398,PT05M32.00S,3,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,SUB: Ejiofor FOR Okongwu,Substitution,,0,0,297
+0022600160,399,PT05M31.00S,3,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker P.FOUL (P3.T3) (J.Schroeder),Foul,Personal,1,0,298
+0022600160,402,PT05M31.00S,3,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,SUB: Kispert FOR Alexander-Walker,Substitution,,0,0,299
+0022600160,403,PT05M19.00S,3,1610612754,IND,1643552,Smith,B. Smith,33,152,16,Missed,1,,,0,h,MISS Smith 16' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,300
+0022600160,404,PT05M19.00S,3,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,301
+0022600160,405,PT05M10.00S,3,1610612754,IND,1641738,Brown,K. Brown,-189,198,27,Missed,1,,,0,h,MISS Brown 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,302
+0022600160,406,PT05M10.00S,3,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,303
+0022600160,407,PT04M54.00S,3,1610612754,IND,1630643,Huff,J. Huff,46,48,7,Missed,1,,,0,h,MISS Huff 7' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,304
+0022600160,408,PT04M54.00S,3,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,305
+0022600160,409,PT04M46.00S,3,1610612737,ATL,1630598,Wiggins,A. Wiggins,-67,49,8,Made,1,68,82,150,v,Wiggins 8' Driving Layup (7 PTS) (McCollum 9 AST),Made Shot,Driving Layup Shot,1,2,306
+0022600160,411,PT04M27.00S,3,1610612754,IND,1631245,Jackson,Q. Jackson,-222,133,26,Missed,1,,,0,h,MISS Jackson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,307
+0022600160,412,PT04M27.00S,3,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,1,0,308
+0022600160,413,PT04M25.00S,3,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,Newell L.B.FOUL (P3.T4) (M.Kogut),Foul,Loose Ball,1,0,309
+0022600160,416,PT04M25.00S,3,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,SUB: Slawson FOR Walker,Substitution,,0,0,310
+0022600160,418,PT04M25.00S,3,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,SUB: Daniels FOR McCollum,Substitution,,0,0,311
+0022600160,419,PT04M13.00S,3,1610612754,IND,1643552,Smith,B. Smith,-126,213,25,Made,1,71,82,153,h,Smith 25' 3PT Jump Shot (12 PTS) (Slawson 3 AST),Made Shot,Jump Shot,1,3,312
+0022600160,423,PT03M56.00S,3,1610612737,ATL,1630557,Kispert,C. Kispert,245,8,25,Missed,1,,,0,v,MISS Kispert 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,313
+0022600160,424,PT03M56.00S,3,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,1,0,314
+0022600160,425,PT03M54.00S,3,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,0,0,0,,0,,,0,v,Ejiofor L.B.FOUL (P1.PN) (M.Kogut),Foul,Loose Ball,1,0,315
+0022600160,427,PT03M54.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,72,82,154,h,Slawson Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,316
+0022600160,428,PT03M54.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,73,82,155,h,Slawson Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,317
+0022600160,431,PT03M35.00S,3,1610612737,ATL,1630598,Wiggins,A. Wiggins,126,263,29,Missed,1,,,0,v,MISS Wiggins 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,318
+0022600160,432,PT03M35.00S,3,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,319
+0022600160,433,PT03M25.00S,3,1610612737,ATL,1630557,Kispert,C. Kispert,0,0,0,,0,,,0,v,Kispert Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,320
+0022600160,433,PT03M25.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson STEAL (3 STL),,,1,0,321
+0022600160,435,PT03M19.00S,3,1610612754,IND,1643552,Smith,B. Smith,31,10,3,Made,1,75,82,157,h,Smith 3' Running Layup (14 PTS) (Jackson 3 AST),Made Shot,Running Layup Shot,1,2,322
+0022600160,437,PT03M18.00S,3,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,323
+0022600160,439,PT03M18.00S,3,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,SUB: Walker FOR Jackson,Substitution,,0,0,324
+0022600160,440,PT03M08.00S,3,1610612737,ATL,1630598,Wiggins,A. Wiggins,108,78,13,Missed,1,,,0,v,MISS Wiggins 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,325
+0022600160,441,PT03M08.00S,3,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,1,0,326
+0022600160,443,PT02M58.00S,3,1610612737,ATL,1630557,Kispert,C. Kispert,0,0,0,,0,,,0,v,Kispert Double Dribble Turnover (P2.T11),Turnover,Double Dribble,1,0,327
+0022600160,444,PT02M38.00S,3,1610612754,IND,1643552,Smith,B. Smith,97,230,25,Missed,1,,,0,h,MISS Smith 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,328
+0022600160,445,PT02M38.00S,3,1610612737,ATL,1630598,Wiggins,A. Wiggins,0,0,0,,0,,,0,v,Wiggins REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,329
+0022600160,446,PT02M29.00S,3,1610612737,ATL,1630598,Wiggins,A. Wiggins,0,0,0,,0,,,0,v,Wiggins Lost Ball Turnover (P2.T12),Turnover,Lost Ball,1,0,330
+0022600160,446,PT02M29.00S,3,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,Walker STEAL (1 STL),,,1,0,331
+0022600160,448,PT02M26.00S,3,1610612754,IND,1641716,Walker,J. Walker,13,12,2,Made,1,77,82,159,h,Walker 2' Running Layup (14 PTS) (Brown 1 AST),Made Shot,Running Layup Shot,1,2,332
+0022600160,450,PT02M12.00S,3,1610612737,ATL,1630557,Kispert,C. Kispert,26,16,3,Made,1,77,84,161,v,Kispert 3' Driving Layup (14 PTS) (Ejiofor 2 AST),Made Shot,Driving Layup Shot,1,2,333
+0022600160,452,PT02M06.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson Lost Ball Turnover (P2.T15),Turnover,Lost Ball,1,0,334
+0022600160,452,PT02M06.00S,3,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels STEAL (2 STL),,,1,0,335
+0022600160,454,PT02M01.00S,3,1610612737,ATL,1630700,Daniels,D. Daniels,31,31,4,Missed,1,,,0,v,MISS Daniels 4' Running Layup,Missed Shot,Running Layup Shot,1,2,336
+0022600160,454,PT02M01.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson BLOCK (1 BLK),,,1,2,337
+0022600160,455,PT02M01.00S,3,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,0,0,338
+0022600160,460,PT02M01.00S,3,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,SUB: Dort FOR Newell,Substitution,,0,0,339
+0022600160,461,PT02M01.00S,3,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,0,0,0,,0,,,0,v,SUB: Okongwu FOR Ejiofor,Substitution,,0,0,340
+0022600160,462,PT01M52.00S,3,1610612737,ATL,1630700,Daniels,D. Daniels,7,34,3,Missed,1,,,0,v,MISS Daniels 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,341
+0022600160,462,PT01M52.00S,3,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson BLOCK (2 BLK),,,1,2,342
+0022600160,463,PT01M52.00S,3,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,1,0,343
+0022600160,466,PT01M38.00S,3,1610612754,IND,1643552,Smith,B. Smith,132,49,14,Made,1,79,84,163,h,Smith 14' Step Back Jump Shot (16 PTS),Made Shot,Step Back Jump shot,1,2,344
+0022600160,467,PT01M18.00S,3,1610612737,ATL,1630700,Daniels,D. Daniels,-46,110,12,Missed,1,,,0,v,MISS Daniels 12' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,345
+0022600160,468,PT01M18.00S,3,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,346
+0022600160,469,PT01M08.00S,3,1610612754,IND,1630643,Huff,J. Huff,250,12,25,Missed,1,,,0,h,MISS Huff 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,347
+0022600160,470,PT01M08.00S,3,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,348
+0022600160,471,PT00M58.60S,3,1610612737,ATL,1629652,Dort,L. Dort,52,253,26,Made,1,79,87,166,v,Dort 26' 3PT Jump Shot (11 PTS) (Daniels 4 AST),Made Shot,Jump Shot,1,3,349
+0022600160,473,PT00M33.70S,3,1610612754,IND,1641771,Slawson,J. Slawson,-139,19,14,Missed,1,,,0,h,MISS Slawson 14' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,350
+0022600160,474,PT00M33.70S,3,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,351
+0022600160,475,PT00M25.80S,3,1610612737,ATL,1630598,Wiggins,A. Wiggins,-240,0,24,Missed,1,,,0,v,MISS Wiggins 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,352
+0022600160,476,PT00M25.80S,3,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,353
+0022600160,477,PT00M01.60S,3,1610612754,IND,1643552,Smith,B. Smith,-42,31,5,Missed,1,,,0,h,MISS Smith 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,354
+0022600160,477,PT00M01.60S,3,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels BLOCK (1 BLK),,,1,2,355
+0022600160,478,PT00M01.60S,3,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,356
+0022600160,481,PT00M01.60S,3,0,,0,,,0,0,0,,0,,,0,v,HAWKS Heave,Heave,Team Field Goal Attempt,0,0,357
+0022600160,482,PT00M01.60S,3,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,0,0,358
+0022600160,480,PT00M00.00S,3,0,,0,,,0,0,0,,0,79,87,166,,End of 3rd Period (9:14 PM EST),period,end,1,0,359
+0022600160,491,PT12M00.00S,4,0,,0,,,0,0,0,,0,79,87,166,,Start of 4th Period (9:17 PM EST),period,start,0,0,360
+0022600160,492,PT11M46.00S,4,1610612737,ATL,1630557,Kispert,C. Kispert,67,269,28,Missed,1,,,0,v,MISS Kispert 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,361
+0022600160,493,PT11M46.00S,4,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,362
+0022600160,494,PT11M27.00S,4,1610612754,IND,1641716,Walker,J. Walker,-6,252,25,Missed,1,,,0,h,MISS Walker 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,363
+0022600160,495,PT11M27.00S,4,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,Newell REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,364
+0022600160,496,PT11M14.00S,4,1610612737,ATL,1642484,Dennis,R. Dennis,97,100,14,Made,1,79,89,168,v,Dennis 14' Floating Jump Shot (4 PTS),Made Shot,Floating Jump shot,1,2,365
+0022600160,497,PT11M13.00S,4,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff Non-Unsportsmanlike Tech Foul - Flopping (P2.T0) (J.Schroeder),Foul,Flopping,1,0,366
+0022600160,498,PT11M13.00S,4,1610612737,ATL,1630598,Wiggins,A. Wiggins,0,0,0,,0,,,0,v,MISS Wiggins Free Throw Technical,Free Throw,Free Throw Technical,1,0,367
+0022600160,499,PT11M13.00S,4,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Normal Rebound,1,0,368
+0022600160,500,PT11M01.00S,4,1610612754,IND,1641716,Walker,J. Walker,6,19,2,Missed,1,,,0,h,MISS Walker 2' Alley Oop Layup,Missed Shot,Alley Oop Layup shot,1,2,369
+0022600160,501,PT11M01.00S,4,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,Newell REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,370
+0022600160,502,PT10M52.00S,4,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,-238,37,24,Missed,1,,,0,v,MISS Ejiofor 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,371
+0022600160,503,PT10M52.00S,4,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,372
+0022600160,504,PT10M35.00S,4,1610612737,ATL,1630557,Kispert,C. Kispert,0,0,0,,0,,,0,v,Kispert Non-Unsportsmanlike Tech Foul - Flopping (P0.T0) (Z.Zarba),Foul,Flopping,1,0,373
+0022600160,505,PT10M35.00S,4,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,80,89,169,h,Walker Free Throw Technical (15 PTS),Free Throw,Free Throw Technical,1,0,374
+0022600160,506,PT10M25.00S,4,1610612754,IND,1641738,Brown,K. Brown,-43,8,4,Missed,1,,,0,h,MISS Brown 4' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,375
+0022600160,506,PT10M25.00S,4,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,Newell BLOCK (1 BLK),,,1,2,376
+0022600160,507,PT10M25.00S,4,1610612737,ATL,1642484,Dennis,R. Dennis,0,0,0,,0,,,0,v,Dennis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,377
+0022600160,509,PT10M18.00S,4,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,24,48,5,Missed,1,,,0,v,MISS Ejiofor 5' Running Alley Oop Dunk Shot,Missed Shot,Running Alley Oop Dunk Shot,1,2,378
+0022600160,510,PT10M18.00S,4,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,379
+0022600160,511,PT10M04.00S,4,1610612754,IND,1641738,Brown,K. Brown,32,9,3,Made,1,82,89,171,h,Brown 3' Driving Layup (14 PTS),Made Shot,Driving Layup Shot,1,2,380
+0022600160,512,PT09M52.00S,4,1610612737,ATL,1630598,Wiggins,A. Wiggins,11,15,2,Missed,1,,,0,v,MISS Wiggins 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,381
+0022600160,513,PT09M52.00S,4,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,0,0,0,,0,,,0,v,Ejiofor REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,382
+0022600160,514,PT09M46.00S,4,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,0,0,0,,0,,,0,v,Ejiofor Bad Pass Turnover (P1.T13),Turnover,Bad Pass,1,0,383
+0022600160,514,PT09M46.00S,4,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,,,0,h,Brown STEAL (1 STL),,,1,0,384
+0022600160,516,PT09M38.00S,4,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff Out of Bounds - Bad Pass Turnover Turnover (P4.T16),Turnover,Out of Bounds - Bad Pass Turnover,1,0,385
+0022600160,518,PT09M38.00S,4,1610612737,ATL,1643544,Ejiofor,Z. Ejiofor,0,0,0,,0,,,0,v,SUB: Okongwu FOR Ejiofor,Substitution,,0,0,386
+0022600160,519,PT09M28.00S,4,1610612737,ATL,1642484,Dennis,R. Dennis,-100,253,27,Missed,1,,,0,v,MISS Dennis 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,387
+0022600160,520,PT09M28.00S,4,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,0,0,388
+0022600160,521,PT09M25.00S,4,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff L.B.FOUL (P3.T1) (M.Kogut),Foul,Loose Ball,1,0,389
+0022600160,524,PT09M25.00S,4,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,SUB: Smith FOR Huff,Substitution,,0,0,390
+0022600160,525,PT09M19.00S,4,1610612737,ATL,1642484,Dennis,R. Dennis,-29,279,28,Missed,1,,,0,v,MISS Dennis 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,391
+0022600160,526,PT09M19.00S,4,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,392
+0022600160,527,PT09M09.00S,4,1610612754,IND,1641771,Slawson,J. Slawson,-221,145,26,Missed,1,,,0,h,MISS Slawson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,393
+0022600160,528,PT09M09.00S,4,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,Okongwu REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,394
+0022600160,529,PT08M59.00S,4,1610612737,ATL,1630598,Wiggins,A. Wiggins,-237,121,27,Missed,1,,,0,v,MISS Wiggins 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,395
+0022600160,530,PT08M59.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,396
+0022600160,531,PT08M34.00S,4,1610612754,IND,1641771,Slawson,J. Slawson,30,50,6,Made,1,84,89,173,h,Slawson 6' Driving Hook Shot (12 PTS) (Walker 2 AST),Made Shot,Driving Hook Shot,1,2,397
+0022600160,533,PT08M31.00S,4,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,398
+0022600160,537,PT08M31.00S,4,1610612737,ATL,1630557,Kispert,C. Kispert,0,0,0,,0,,,0,v,SUB: Dort FOR Kispert,Substitution,,0,0,399
+0022600160,538,PT08M31.00S,4,1610612737,ATL,1642854,Newell,A. Newell,0,0,0,,0,,,0,v,SUB: McCollum FOR Newell,Substitution,,0,0,400
+0022600160,539,PT08M31.00S,4,1610612737,ATL,1642484,Dennis,R. Dennis,0,0,0,,0,,,0,v,SUB: Alexander-Walker FOR Dennis,Substitution,,0,0,401
+0022600160,540,PT08M19.00S,4,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,-230,-5,0,Made,1,84,92,176,v,Alexander-Walker 3PT Jump Shot (28 PTS) (Wiggins 2 AST),Made Shot,Jump Shot,1,3,402
+0022600160,542,PT08M07.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,6,30,3,Made,1,86,92,178,h,Jackson 3' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,403
+0022600160,543,PT08M06.00S,4,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker S.FOUL (P4.T1) (J.Schroeder),Foul,Shooting,1,0,404
+0022600160,545,PT08M06.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,87,92,179,h,Jackson Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,1,0,405
+0022600160,546,PT07M56.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson S.FOUL (P2.T2) (J.Schroeder),Foul,Shooting,1,0,406
+0022600160,548,PT07M56.00S,4,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,87,93,180,v,Okongwu Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,407
+0022600160,549,PT07M56.00S,4,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,MISS Okongwu Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,408
+0022600160,550,PT07M56.00S,4,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,409
+0022600160,551,PT07M46.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson Bad Pass Turnover (P5.T17),Turnover,Bad Pass,1,0,410
+0022600160,551,PT07M46.00S,4,1610612737,ATL,1630598,Wiggins,A. Wiggins,0,0,0,,0,,,0,v,Wiggins STEAL (1 STL),,,1,0,411
+0022600160,553,PT07M41.00S,4,1610612737,ATL,1630598,Wiggins,A. Wiggins,41,23,5,Missed,1,,,0,v,MISS Wiggins 5' Running Layup,Missed Shot,Running Layup Shot,1,2,412
+0022600160,553,PT07M41.00S,4,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson BLOCK (3 BLK),,,1,2,413
+0022600160,554,PT07M41.00S,4,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,414
+0022600160,556,PT07M36.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,-2,9,1,Made,1,89,93,182,h,Jackson 1' Running Layup (16 PTS) (Smith 10 AST),Made Shot,Running Layup Shot,1,2,415
+0022600160,558,PT07M36.00S,4,1610612737,ATL,1629652,Dort,L. Dort,0,0,0,,0,,,0,v,Dort S.FOUL (P2.T2) (J.Schroeder),Foul,Shooting,1,0,416
+0022600160,561,PT07M36.00S,4,0,,0,,,0,0,0,,0,90,93,183,,Instant Replay4th Period (9:28 PM EST),Instant Replay,Support Ruling,0,0,417
+0022600160,560,PT07M36.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,90,93,183,h,Jackson Free Throw 1 of 1 (16 PTS),Free Throw,Free Throw 1 of 1,1,0,418
+0022600160,562,PT07M23.00S,4,1610612737,ATL,1630168,Okongwu,O. Okongwu,-26,11,3,Missed,1,,,0,v,MISS Okongwu 3' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,419
+0022600160,563,PT07M23.00S,4,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,420
+0022600160,597,PT07M23.00S,4,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,-3,-31,3,Missed,1,,,0,v,MISS Alexander-Walker 3' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,421
+0022600160,597,PT07M23.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson BLOCK (1 BLK),,,1,2,422
+0022600160,599,PT07M23.00S,4,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,Okongwu REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,423
+0022600160,564,PT07M19.00S,4,1610612737,ATL,1630168,Okongwu,O. Okongwu,18,10,2,Made,1,90,95,185,v,Okongwu 2' Layup (11 PTS),Made Shot,Layup Shot,1,2,424
+0022600160,565,PT07M19.00S,4,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,Slawson Violation:Defensive Goaltending (M.Kogut),Violation,Defensive Goaltending,0,0,425
+0022600160,566,PT07M09.00S,4,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,,,0,h,Brown Lost Ball Turnover (P1.T18),Turnover,Lost Ball,1,0,426
+0022600160,566,PT07M09.00S,4,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker STEAL (4 STL),,,1,0,427
+0022600160,568,PT06M55.00S,4,1610612737,ATL,203468,McCollum,C. McCollum,-69,89,11,Missed,1,,,0,v,MISS McCollum 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,428
+0022600160,569,PT06M55.00S,4,1610612754,IND,1641716,Walker,J. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,429
+0022600160,570,PT06M43.00S,4,1610612754,IND,1641738,Brown,K. Brown,-5,266,27,Missed,1,,,0,h,MISS Brown 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,430
+0022600160,571,PT06M43.00S,4,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,431
+0022600160,572,PT06M29.00S,4,1610612737,ATL,1629652,Dort,L. Dort,-54,250,26,Made,1,90,98,188,v,Dort 26' 3PT Jump Shot (14 PTS) (McCollum 10 AST),Made Shot,Jump Shot,1,3,432
+0022600160,574,PT06M25.00S,4,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,433
+0022600160,576,PT06M25.00S,4,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,,,0,h,SUB: Huff FOR Brown,Substitution,,0,0,434
+0022600160,578,PT06M25.00S,4,1610612737,ATL,1630598,Wiggins,A. Wiggins,0,0,0,,0,,,0,v,SUB: Daniels FOR Wiggins,Substitution,,0,0,435
+0022600160,579,PT06M09.00S,4,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,Okongwu P.FOUL (P2.T3) (J.Schroeder),Foul,Personal,1,0,436
+0022600160,581,PT06M03.00S,4,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith Lost Ball Turnover (P5.T19),Turnover,Lost Ball,1,0,437
+0022600160,581,PT06M03.00S,4,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels STEAL (3 STL),,,1,0,438
+0022600160,583,PT06M00.00S,4,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,-200,184,27,Made,1,90,101,191,v,Alexander-Walker 27' 3PT Running Pull-Up Jump Shot (31 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,439
+0022600160,584,PT05M38.00S,4,1610612754,IND,1630643,Huff,J. Huff,26,65,7,Made,1,92,101,193,h,Huff 7' Floating Jump Shot (19 PTS) (Walker 3 AST),Made Shot,Floating Jump shot,1,2,440
+0022600160,586,PT05M23.00S,4,1610612737,ATL,203468,McCollum,C. McCollum,187,168,25,Missed,1,,,0,v,MISS McCollum 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,441
+0022600160,587,PT05M23.00S,4,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,442
+0022600160,588,PT05M10.00S,4,1610612737,ATL,1630168,Okongwu,O. Okongwu,15,36,4,Missed,1,,,0,v,MISS Okongwu 4' Jump Shot,Missed Shot,Jump Shot,1,2,443
+0022600160,589,PT05M10.00S,4,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,444
+0022600160,592,PT04M57.00S,4,1610612754,IND,1641771,Slawson,J. Slawson,0,0,0,,0,,,0,h,SUB: Brown FOR Slawson,Substitution,,0,0,445
+0022600160,593,PT04M53.00S,4,1610612737,ATL,1629652,Dort,L. Dort,0,0,0,,0,,,0,v,Dort S.FOUL (P3.T4) (Z.Zarba),Foul,Shooting,1,0,446
+0022600160,596,PT04M53.00S,4,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,447
+0022600160,595,PT04M53.00S,4,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,MISS Huff Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,448
+0022600160,600,PT04M53.00S,4,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Normal Rebound,0,0,449
+0022600160,601,PT04M53.00S,4,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,93,101,194,h,Huff Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,1,0,450
+0022600160,602,PT04M43.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson P.FOUL (P3.T3) (J.Schroeder),Foul,Personal,1,0,451
+0022600160,605,PT04M38.00S,4,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,191,177,26,Missed,1,,,0,v,MISS Alexander-Walker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,452
+0022600160,606,PT04M38.00S,4,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,453
+0022600160,607,PT04M34.00S,4,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,22,258,26,Made,1,93,104,197,v,Alexander-Walker 26' 3PT Jump Shot (34 PTS) (McCollum 11 AST),Made Shot,Jump Shot,1,3,454
+0022600160,609,PT04M12.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,75,289,30,Missed,1,,,0,h,MISS Jackson 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,455
+0022600160,610,PT04M12.00S,4,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,Okongwu REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,456
+0022600160,611,PT03M58.00S,4,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels Lost Ball Turnover (P1.T14),Turnover,Lost Ball,1,0,457
+0022600160,611,PT03M58.00S,4,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith STEAL (3 STL),,,1,0,458
+0022600160,613,PT03M56.00S,4,1610612737,ATL,1629652,Dort,L. Dort,0,0,0,,0,,,0,v,Dort P.FOUL (P4.PN) (Z.Zarba),Foul,Personal,1,0,459
+0022600160,615,PT03M56.00S,4,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,94,104,198,h,Brown Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,1,0,460
+0022600160,616,PT03M56.00S,4,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,95,104,199,h,Brown Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,1,0,461
+0022600160,617,PT03M47.00S,4,1610612737,ATL,203468,McCollum,C. McCollum,-10,42,4,Missed,1,,,0,v,MISS McCollum 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,462
+0022600160,617,PT03M47.00S,4,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff BLOCK (1 BLK),,,1,2,463
+0022600160,618,PT03M47.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,464
+0022600160,620,PT03M26.00S,4,1610612754,IND,1643552,Smith,B. Smith,47,248,25,Made,1,98,104,202,h,Smith 25' 3PT Jump Shot (19 PTS) (Huff 2 AST),Made Shot,Jump Shot,1,3,465
+0022600160,622,PT03M04.00S,4,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,-94,253,27,Missed,1,,,0,v,MISS Alexander-Walker 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,466
+0022600160,623,PT03M04.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,467
+0022600160,624,PT02M53.00S,4,1610612737,ATL,1629652,Dort,L. Dort,0,0,0,,0,,,0,v,Dort P.FOUL (P5.PN) (J.Schroeder),Foul,Personal,1,0,468
+0022600160,626,PT02M53.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,99,104,203,h,Jackson Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,1,0,469
+0022600160,627,PT02M53.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,100,104,204,h,Jackson Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,470
+0022600160,628,PT02M32.00S,4,1610612737,ATL,1629652,Dort,L. Dort,-6,33,3,Missed,1,,,0,v,MISS Dort 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,471
+0022600160,629,PT02M32.00S,4,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels REBOUND (Off:5 Def:3),Rebound,Unknown,1,0,472
+0022600160,630,PT02M29.00S,4,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels Bad Pass Turnover (P2.T15),Turnover,Bad Pass,1,0,473
+0022600160,630,PT02M29.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson STEAL (3 STL),,,1,0,474
+0022600160,632,PT02M24.00S,4,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,Okongwu Personal Take Foul (P3.PN) (Z.Zarba),Foul,Personal Take,1,0,475
+0022600160,634,PT02M24.00S,4,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,101,104,205,h,Huff Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,1,0,476
+0022600160,635,PT02M24.00S,4,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,102,104,206,h,Huff Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,1,0,477
+0022600160,636,PT02M10.00S,4,1610612754,IND,1641738,Brown,K. Brown,0,0,0,,0,,,0,h,Brown S.FOUL (P2.T4) (Z.Zarba),Foul,Shooting,1,0,478
+0022600160,640,PT02M10.00S,4,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,479
+0022600160,641,PT02M10.00S,4,0,,0,,,0,0,0,,0,102,104,206,,Instant Replay4th Period (9:48 PM EST),Instant Replay,Coach Challenge Ruling Stands,0,0,480
+0022600160,638,PT02M10.00S,4,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,102,105,207,v,McCollum Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,481
+0022600160,639,PT02M10.00S,4,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,102,106,208,v,McCollum Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,482
+0022600160,642,PT01M49.00S,4,1610612754,IND,1641716,Walker,J. Walker,54,255,26,Missed,1,,,0,h,MISS Walker 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,483
+0022600160,642,PT01M49.00S,4,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum BLOCK (1 BLK),,,1,3,484
+0022600160,643,PT01M49.00S,4,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,485
+0022600160,645,PT01M26.00S,4,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,v,Alexander-Walker Bad Pass Turnover (P4.T16),Turnover,Bad Pass,1,0,486
+0022600160,645,PT01M26.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson STEAL (4 STL),,,1,0,487
+0022600160,647,PT01M23.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,-16,12,2,Made,1,104,106,210,h,Jackson 2' Running Dunk (20 PTS),Made Shot,Running Dunk Shot,1,2,488
+0022600160,648,PT01M07.00S,4,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,-228,123,26,Missed,1,,,0,v,MISS Alexander-Walker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,489
+0022600160,648,PT01M07.00S,4,1610612754,IND,1631245,Jackson,Q. Jackson,0,0,0,,0,,,0,h,Jackson BLOCK (2 BLK),,,1,3,490
+0022600160,649,PT01M07.00S,4,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,Smith REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,491
+0022600160,651,PT00M58.70S,4,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Timeout: Regular (Full 7 Short 0),Timeout,Regular,0,0,492
+0022600160,653,PT00M58.70S,4,1610612754,IND,1643552,Smith,B. Smith,0,0,0,,0,,,0,h,SUB: Slawson FOR Smith,Substitution,,0,0,493
+0022600160,654,PT00M43.10S,4,1610612754,IND,1631245,Jackson,Q. Jackson,-224,124,26,Missed,1,,,0,h,MISS Jackson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,494
+0022600160,655,PT00M43.10S,4,1610612737,ATL,1630168,Okongwu,O. Okongwu,0,0,0,,0,,,0,v,Okongwu REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,495
+0022600160,656,PT00M27.20S,4,1610612737,ATL,203468,McCollum,C. McCollum,105,232,25,Missed,1,,,0,v,MISS McCollum 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,496
+0022600160,657,PT00M27.20S,4,1610612737,ATL,1630700,Daniels,D. Daniels,0,0,0,,0,,,0,v,Daniels REBOUND (Off:6 Def:3),Rebound,Unknown,1,0,497
+0022600160,658,PT00M12.90S,4,1610612737,ATL,1629638,Alexander-Walker,N. Alexander-Walker,15,26,3,Missed,1,,,0,v,MISS Alexander-Walker 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,498
+0022600160,658,PT00M12.90S,4,1610612754,IND,1630643,Huff,J. Huff,0,0,0,,0,,,0,h,Huff BLOCK (2 BLK),,,1,2,499
+0022600160,659,PT00M12.90S,4,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,0,0,500
+0022600160,662,PT00M12.90S,4,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,501
+0022600160,663,PT00M10.20S,4,1610612737,ATL,1630168,Okongwu,O. Okongwu,4,125,13,Made,1,104,108,212,v,Okongwu 13' Driving Hook Shot (13 PTS) (McCollum 12 AST),Made Shot,Driving Hook Shot,1,2,502
+0022600160,664,PT00M08.40S,4,0,,0,,,0,0,0,,0,104,108,212,,Instant Replay4th Period (9:58 PM EST),Instant Replay,Support Ruling,0,0,503
+0022600160,665,PT00M03.80S,4,1610612754,IND,1630643,Huff,J. Huff,-212,142,26,Missed,1,,,0,h,MISS Huff 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,504
+0022600160,666,PT00M03.80S,4,1610612737,ATL,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,505
+0022600160,667,PT00M00.00S,4,0,,0,,,0,0,0,,0,104,108,212,,End of 4th Period (9:58 PM EST),period,end,1,0,506

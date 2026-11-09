@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-08T09:40:46-08:00",
+ "updated": "2026-11-09T01:04:26-08:00",
  "season": "2026-27",
  "teams": [
   "LAL",
-  "DET"
+  "ATL"
  ],
  "nba_api": "1.12.0",
  "league": {
@@ -12,7 +12,8 @@
   "nba_player_games": "league_player_games.csv",
   "nba_quarters": "league_quarters.csv",
   "nba_inactive": "league_inactive.csv",
-  "nba_extras": "league_extras.csv"
+  "nba_extras": "league_extras.csv",
+  "nba_injuries": "injuries.csv"
  },
  "steps": {
   "league schedule": {
@@ -21,7 +22,7 @@
   },
   "league team box scores": {
    "ok": true,
-   "team-games": 278
+   "team-games": 292
   },
   "league results": {
    "ok": true,
@@ -29,27 +30,31 @@
   },
   "league player games": {
    "ok": true,
-   "player lines": 3133
+   "player lines": 3294
   },
   "league quarter scores, inactive lists and game extras": {
    "ok": true,
-   "new games": 0
+   "new games": 46
   },
   "league team turnovers": {
    "ok": true,
-   "team-games": 278
+   "team-games": 292
+  },
+  "injury report": {
+   "ok": true,
+   "players listed": 78
   },
   "LAL games": {
    "ok": true,
-   "rows": 10
+   "rows": 11
   },
   "LAL player games": {
    "ok": true,
-   "rows": 113
+   "rows": 123
   },
   "LAL player games advanced": {
    "ok": true,
-   "rows": 113
+   "rows": 123
   },
   "LAL on/off": {
    "ok": true,
@@ -57,74 +62,75 @@
   },
   "LAL 5-man lineups": {
    "ok": true,
-   "rows": 94
+   "rows": 69
   },
   "LAL 2-man lineups": {
    "ok": true,
-   "rows": 96
+   "rows": 99
   },
   "LAL shots": {
    "ok": true,
-   "rows": 823
+   "rows": 907
   },
   "LAL shots against": {
    "ok": true,
-   "rows": 851
+   "rows": 945
   },
   "LAL hustle": {
    "ok": true,
    "rows": 17
   },
-  "DET games": {
+  "ATL games": {
    "ok": true,
-   "rows": 8
+   "rows": 11
   },
-  "DET player games": {
+  "ATL player games": {
    "ok": true,
-   "rows": 96
+   "rows": 112
   },
-  "DET player games advanced": {
+  "ATL player games advanced": {
    "ok": true,
-   "rows": 96
+   "rows": 112
   },
-  "DET on/off": {
+  "ATL on/off": {
    "ok": true,
-   "rows": 35
+   "rows": 32
   },
-  "DET 5-man lineups": {
+  "ATL 5-man lineups": {
    "ok": true,
-   "rows": 105
+   "rows": 51
   },
-  "DET 2-man lineups": {
+  "ATL 2-man lineups": {
    "ok": true,
-   "rows": 96
+   "rows": 73
   },
-  "DET shots": {
+  "ATL shots": {
    "ok": true,
-   "rows": 680
+   "rows": 1068
   },
-  "DET shots against": {
+  "ATL shots against": {
    "ok": true,
-   "rows": 686
+   "rows": 949
   },
-  "DET hustle": {
+  "ATL hustle": {
    "ok": true,
-   "rows": 16
+   "rows": 14
   },
   "matchups": {
    "ok": true,
-   "new games": 0
+   "new games": 10,
+   "pending": 1
   },
   "play-by-play": {
    "ok": true,
-   "new games": 0
+   "new games": 12
   }
  },
  "checks": [
   "Scores: 68 games in both files, 0 differ; 0 hand-checked games not found on NBA.com by date and teams.",
   "Lakers box scores: 10 team-games compared, 4 numbers differ [('2026-10-21', 'GSW', 'tov', '15', 16), ('2026-10-23', 'LAC', 'tov', '25', 26), ('2026-10-25', 'UTA', 'dreb', '31', 32), ('2026-10-25', 'UTA', 'tov', '19', 17)].",
-  "Player points add up to team points in 278 of 278 team-games.",
-  "Turnovers (players + team) match NBA.com's game totals in 277 of 278 team-games: [('2026-10-30', 'CHA')].",
+  "Player points add up to team points in 292 of 292 team-games.",
+  "Turnovers (players + team) match NBA.com's game totals in 291 of 292 team-games: [('2026-10-30', 'CHA')].",
   "Lakers quarter scores: 10 compared, 0 differ.",
   "Lakers scores checked against results.csv: 5 games, 0 mismatches ",
   "Oct 21 Doncic-Lendeborg rows (ABC7 reported Doncic 1 of 6 against Lendeborg):\n  familyNameOff | familyNameDef | matchupMinutes | partialPossessions | playerPoints | matchupFieldGoalsMade | matchupFieldGoalsAttempted\n  Dončić | Lendeborg | 3:03 | 18.5 | 9 | 1 | 5\n  Lendeborg | Dončić | 2:56 | 14.7 | 2 | 1 | 2"
