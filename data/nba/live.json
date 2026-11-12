@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T19:41:13-08:00",
+ "updated": "2026-11-11T19:48:18-08:00",
  "board_date": "2026-11-11",
  "games": [
   {
@@ -902,102 +902,102 @@
    "game_id": "0022600224",
    "tip_utc": "2026-11-12T02:00:00Z",
    "status": 2,
-   "status_text": "Q3 6:03",
+   "status_text": "Q3 3:50",
    "period": 3,
-   "clock": "6:03",
+   "clock": "3:50",
    "home": {
     "team": "UTA",
-    "score": 78,
+    "score": 81,
     "periods": [
      34,
      25,
-     19,
+     22,
      0
     ],
     "stats": {
      "fgm": 24,
-     "fga": 55,
+     "fga": 60,
      "fg3m": 12,
-     "fg3a": 33,
-     "ftm": 18,
-     "fta": 21,
-     "oreb": 5,
-     "dreb": 19,
+     "fg3a": 35,
+     "ftm": 21,
+     "fta": 25,
+     "oreb": 7,
+     "dreb": 21,
      "tov": 5,
      "pf": 13,
      "ast": 16,
-     "stl": 3,
-     "blk": 6,
+     "stl": 4,
+     "blk": 7,
      "pts_paint": 18,
-     "pts_second_chance": 6,
+     "pts_second_chance": 7,
      "pts_fast_break": 3,
      "pts_off_tov": 5,
      "pts_bench": 24,
      "biggest_lead": 6,
-     "lead_changes": 11
+     "lead_changes": 13
     },
     "leaders": [
      {
       "name": "Ace Bailey",
-      "pts": 17,
-      "reb": 5,
+      "pts": 18,
+      "reb": 6,
       "ast": 2,
-      "min": "23:08"
+      "min": "25:22"
      },
      {
       "name": "Darryn Peterson",
       "pts": 17,
       "reb": 3,
       "ast": 4,
-      "min": "23:08"
+      "min": "24:02"
      },
      {
       "name": "Keyonte George",
-      "pts": 10,
-      "reb": 6,
+      "pts": 12,
+      "reb": 7,
       "ast": 5,
-      "min": "22:35"
+      "min": "24:49"
      }
     ]
    },
    "away": {
     "team": "ORL",
-    "score": 79,
+    "score": 82,
     "periods": [
      29,
      37,
-     13,
+     16,
      0
     ],
     "stats": {
-     "fgm": 27,
-     "fga": 58,
-     "fg3m": 10,
-     "fg3a": 28,
+     "fgm": 28,
+     "fga": 63,
+     "fg3m": 11,
+     "fg3a": 32,
      "ftm": 15,
      "fta": 18,
      "oreb": 6,
-     "dreb": 23,
-     "tov": 7,
-     "pf": 19,
+     "dreb": 27,
+     "tov": 9,
+     "pf": 21,
      "ast": 16,
      "stl": 3,
-     "blk": 1,
+     "blk": 2,
      "pts_paint": 28,
      "pts_second_chance": 18,
      "pts_fast_break": 12,
      "pts_off_tov": 6,
      "pts_bench": 14,
      "biggest_lead": 7,
-     "lead_changes": 11
+     "lead_changes": 13
     },
     "leaders": [
      {
       "name": "Franz Wagner",
-      "pts": 23,
-      "reb": 7,
+      "pts": 26,
+      "reb": 8,
       "ast": 0,
-      "min": "24:20"
+      "min": "26:34"
      },
      {
       "name": "Desmond Bane",
@@ -1011,7 +1011,7 @@
       "pts": 14,
       "reb": 5,
       "ast": 5,
-      "min": "22:29"
+      "min": "24:18"
      }
     ]
    },
@@ -1027,6 +1027,10 @@
     {
      "t": 29.9,
      "m": -1
+    },
+    {
+     "t": 32.2,
+     "m": -1
     }
    ]
   },
@@ -1034,7 +1038,7 @@
    "game_id": "0022600225",
    "tip_utc": "2026-11-12T02:30:00Z",
    "status": 2,
-   "status_text": "Q2 :00.0",
+   "status_text": "Half",
    "period": 2,
    "clock": "0:00",
    "home": {
@@ -1081,14 +1085,14 @@
       "pts": 15,
       "reb": 7,
       "ast": 4,
-      "min": "17:56"
+      "min": "17:57"
      },
      {
       "name": "Fred VanVleet",
       "pts": 7,
       "reb": 0,
       "ast": 2,
-      "min": "15:44"
+      "min": "15:45"
      }
     ]
    },
@@ -1170,92 +1174,92 @@
    "game_id": "0022600226",
    "tip_utc": "2026-11-12T03:00:00Z",
    "status": 2,
-   "status_text": "Q2 10:32",
+   "status_text": "Q2 7:03",
    "period": 2,
-   "clock": "10:32",
+   "clock": "7:03",
    "home": {
     "team": "POR",
-    "score": 30,
+    "score": 38,
     "periods": [
      28,
-     2,
-     0,
-     0
-    ],
-    "stats": {
-     "fgm": 10,
-     "fga": 21,
-     "fg3m": 6,
-     "fg3a": 15,
-     "ftm": 4,
-     "fta": 4,
-     "oreb": 1,
-     "dreb": 9,
-     "tov": 8,
-     "pf": 4,
-     "ast": 5,
-     "stl": 0,
-     "blk": 1,
-     "pts_paint": 8,
-     "pts_second_chance": 2,
-     "pts_fast_break": 0,
-     "pts_off_tov": 4,
-     "pts_bench": 12,
-     "biggest_lead": 2,
-     "lead_changes": 8
-    },
-    "leaders": [
-     {
-      "name": "Sidy Cissoko",
-      "pts": 6,
-      "reb": 0,
-      "ast": 0,
-      "min": "7:33"
-     },
-     {
-      "name": "Toumani Camara",
-      "pts": 5,
-      "reb": 0,
-      "ast": 0,
-      "min": "9:50"
-     },
-     {
-      "name": "Deni Avdija",
-      "pts": 5,
-      "reb": 1,
-      "ast": 2,
-      "min": "9:31"
-     }
-    ]
-   },
-   "away": {
-    "team": "OKC",
-    "score": 34,
-    "periods": [
-     32,
-     2,
+     10,
      0,
      0
     ],
     "stats": {
      "fgm": 14,
-     "fga": 29,
-     "fg3m": 4,
-     "fg3a": 10,
-     "ftm": 2,
+     "fga": 26,
+     "fg3m": 6,
+     "fg3a": 15,
+     "ftm": 4,
      "fta": 4,
-     "oreb": 4,
-     "dreb": 8,
-     "tov": 3,
+     "oreb": 1,
+     "dreb": 13,
+     "tov": 11,
      "pf": 5,
      "ast": 7,
-     "stl": 6,
+     "stl": 0,
      "blk": 1,
      "pts_paint": 16,
+     "pts_second_chance": 2,
+     "pts_fast_break": 2,
+     "pts_off_tov": 4,
+     "pts_bench": 14,
+     "biggest_lead": 2,
+     "lead_changes": 8
+    },
+    "leaders": [
+     {
+      "name": "Deni Avdija",
+      "pts": 9,
+      "reb": 1,
+      "ast": 2,
+      "min": "13:00"
+     },
+     {
+      "name": "Toumani Camara",
+      "pts": 7,
+      "reb": 1,
+      "ast": 1,
+      "min": "13:19"
+     },
+     {
+      "name": "Sidy Cissoko",
+      "pts": 6,
+      "reb": 0,
+      "ast": 0,
+      "min": "8:25"
+     }
+    ]
+   },
+   "away": {
+    "team": "OKC",
+    "score": 41,
+    "periods": [
+     32,
+     9,
+     0,
+     0
+    ],
+    "stats": {
+     "fgm": 17,
+     "fga": 38,
+     "fg3m": 5,
+     "fg3a": 14,
+     "ftm": 2,
+     "fta": 4,
+     "oreb": 5,
+     "dreb": 9,
+     "tov": 3,
+     "pf": 5,
+     "ast": 10,
+     "stl": 6,
+     "blk": 1,
+     "pts_paint": 18,
      "pts_second_chance": 5,
      "pts_fast_break": 5,
      "pts_off_tov": 11,
-     "pts_bench": 5,
+     "pts_bench": 8,
      "biggest_lead": 9,
      "lead_changes": 8
     },
@@ -1279,7 +1283,7 @@
       "pts": 6,
       "reb": 2,
       "ast": 0,
-      "min": "8:58"
+      "min": "12:27"
      }
     ]
    },
@@ -1299,6 +1303,10 @@
     {
      "t": 13.5,
      "m": -4
+    },
+    {
+     "t": 16.9,
+     "m": -3
     }
    ]
   }
