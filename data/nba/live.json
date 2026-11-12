@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T20:48:30-08:00",
+ "updated": "2026-11-11T20:55:33-08:00",
  "board_date": "2026-11-11",
  "games": [
   {
@@ -1042,37 +1042,37 @@
    "game_id": "0022600225",
    "tip_utc": "2026-11-12T02:30:00Z",
    "status": 2,
-   "status_text": "Q4 8:57",
+   "status_text": "Q4 6:48",
    "period": 4,
-   "clock": "8:57",
+   "clock": "6:48",
    "home": {
     "team": "HOU",
-    "score": 93,
+    "score": 99,
     "periods": [
      35,
      21,
      29,
-     8
+     14
     ],
     "stats": {
-     "fgm": 37,
-     "fga": 73,
-     "fg3m": 9,
-     "fg3a": 28,
+     "fgm": 39,
+     "fga": 77,
+     "fg3m": 11,
+     "fg3a": 32,
      "ftm": 10,
      "fta": 13,
      "oreb": 8,
-     "dreb": 27,
+     "dreb": 28,
      "tov": 11,
-     "pf": 19,
-     "ast": 22,
+     "pf": 21,
+     "ast": 24,
      "stl": 5,
      "blk": 7,
      "pts_paint": 44,
      "pts_second_chance": 8,
      "pts_fast_break": 19,
      "pts_off_tov": 18,
-     "pts_bench": 17,
+     "pts_bench": 23,
      "biggest_lead": 15,
      "lead_changes": 0
     },
@@ -1082,7 +1082,7 @@
       "pts": 19,
       "reb": 7,
       "ast": 4,
-      "min": "25:17"
+      "min": "27:28"
      },
      {
       "name": "Kevin Durant",
@@ -1094,40 +1094,40 @@
      {
       "name": "Alperen Sengun",
       "pts": 17,
-      "reb": 10,
-      "ast": 8,
-      "min": "29:17"
+      "reb": 11,
+      "ast": 9,
+      "min": "31:28"
      }
     ]
    },
    "away": {
     "team": "GSW",
-    "score": 85,
+    "score": 91,
     "periods": [
      20,
      31,
      28,
-     6
+     12
     ],
     "stats": {
-     "fgm": 28,
-     "fga": 68,
-     "fg3m": 15,
-     "fg3a": 40,
-     "ftm": 14,
-     "fta": 21,
-     "oreb": 9,
-     "dreb": 25,
+     "fgm": 30,
+     "fga": 75,
+     "fg3m": 16,
+     "fg3a": 45,
+     "ftm": 15,
+     "fta": 22,
+     "oreb": 12,
+     "dreb": 27,
      "tov": 10,
      "pf": 16,
      "ast": 20,
      "stl": 5,
      "blk": 4,
-     "pts_paint": 22,
-     "pts_second_chance": 10,
+     "pts_paint": 24,
+     "pts_second_chance": 12,
      "pts_fast_break": 7,
      "pts_off_tov": 16,
-     "pts_bench": 32,
+     "pts_bench": 34,
      "biggest_lead": 0,
      "lead_changes": 0
     },
@@ -1135,23 +1135,23 @@
      {
       "name": "Yaxel Lendeborg",
       "pts": 25,
-      "reb": 9,
+      "reb": 10,
       "ast": 0,
-      "min": "30:55"
+      "min": "32:48"
      },
      {
       "name": "Brandin Podziemski",
-      "pts": 16,
+      "pts": 20,
       "reb": 6,
       "ast": 4,
-      "min": "33:27"
+      "min": "35:38"
      },
      {
       "name": "De'Anthony Melton",
       "pts": 11,
       "reb": 4,
       "ast": 4,
-      "min": "22:47"
+      "min": "23:05"
      }
     ]
    },
@@ -1179,6 +1179,10 @@
     {
      "t": 39.0,
      "m": 8
+    },
+    {
+     "t": 41.2,
+     "m": 8
     }
    ]
   },
@@ -1186,9 +1190,9 @@
    "game_id": "0022600226",
    "tip_utc": "2026-11-12T03:00:00Z",
    "status": 2,
-   "status_text": "Q3 :23.4",
-   "period": 3,
-   "clock": "0:23",
+   "status_text": "Q4 10:41",
+   "period": 4,
+   "clock": "10:41",
    "home": {
     "team": "POR",
     "score": 88,
@@ -1200,15 +1204,15 @@
     ],
     "stats": {
      "fgm": 30,
-     "fga": 63,
+     "fga": 64,
      "fg3m": 17,
      "fg3a": 41,
      "ftm": 11,
      "fta": 12,
      "oreb": 7,
-     "dreb": 22,
-     "tov": 16,
-     "pf": 17,
+     "dreb": 23,
+     "tov": 18,
+     "pf": 18,
      "ast": 19,
      "stl": 5,
      "blk": 5,
@@ -1218,7 +1222,7 @@
      "pts_off_tov": 15,
      "pts_bench": 30,
      "biggest_lead": 12,
-     "lead_changes": 9
+     "lead_changes": 10
     },
     "leaders": [
      {
@@ -1226,14 +1230,14 @@
       "pts": 17,
       "reb": 0,
       "ast": 0,
-      "min": "20:31"
+      "min": "22:13"
      },
      {
       "name": "Deni Avdija",
       "pts": 17,
       "reb": 1,
       "ast": 6,
-      "min": "24:22"
+      "min": "26:05"
      },
      {
       "name": "Jrue Holiday",
@@ -1246,34 +1250,34 @@
    },
    "away": {
     "team": "OKC",
-    "score": 83,
+    "score": 90,
     "periods": [
      32,
      18,
-     33,
-     0
+     35,
+     5
     ],
     "stats": {
-     "fgm": 31,
-     "fga": 69,
-     "fg3m": 9,
-     "fg3a": 28,
-     "ftm": 12,
-     "fta": 14,
-     "oreb": 9,
+     "fgm": 33,
+     "fga": 73,
+     "fg3m": 10,
+     "fg3a": 31,
+     "ftm": 14,
+     "fta": 16,
+     "oreb": 10,
      "dreb": 23,
      "tov": 10,
-     "pf": 12,
-     "ast": 16,
-     "stl": 8,
+     "pf": 13,
+     "ast": 18,
+     "stl": 10,
      "blk": 3,
-     "pts_paint": 34,
-     "pts_second_chance": 12,
+     "pts_paint": 36,
+     "pts_second_chance": 15,
      "pts_fast_break": 7,
-     "pts_off_tov": 18,
-     "pts_bench": 14,
+     "pts_off_tov": 23,
+     "pts_bench": 19,
      "biggest_lead": 9,
-     "lead_changes": 9
+     "lead_changes": 10
     },
     "leaders": [
      {
@@ -1281,21 +1285,21 @@
       "pts": 24,
       "reb": 4,
       "ast": 2,
-      "min": "28:24"
+      "min": "28:47"
      },
      {
       "name": "Isaiah Hartenstein",
       "pts": 16,
-      "reb": 7,
-      "ast": 4,
-      "min": "25:31"
+      "reb": 8,
+      "ast": 6,
+      "min": "26:50"
      },
      {
       "name": "Alex Caruso",
       "pts": 14,
       "reb": 5,
       "ast": 1,
-      "min": "20:57"
+      "min": "21:21"
      }
     ]
    },
@@ -1327,6 +1331,10 @@
     {
      "t": 35.6,
      "m": 5
+    },
+    {
+     "t": 37.3,
+     "m": -2
     }
    ]
   }
