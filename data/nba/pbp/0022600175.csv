@@ -1,0 +1,521 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600175,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:41 PM EST),period,start,1,0,1
+0022600175,4,PT12M00.00S,1,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Jump Ball Queta vs. Turner: Tip to Burries,Jump Ball,,1,0,2
+0022600175,7,PT11M42.00S,1,1610612749,MIL,1643415,Burries,B. Burries,-66,101,12,Missed,1,,,0,v,MISS Burries 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,3
+0022600175,7,PT11M42.00S,1,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White BLOCK (1 BLK),,,1,2,4
+0022600175,8,PT11M42.00S,1,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,5
+0022600175,10,PT11M37.00S,1,1610612749,MIL,1628398,Kuzma,K. Kuzma,10,37,4,Missed,1,,,0,v,MISS Kuzma 4' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,6
+0022600175,11,PT11M37.00S,1,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,7
+0022600175,12,PT11M33.00S,1,1610612749,MIL,1629639,Herro,T. Herro,225,-11,0,Missed,1,,,0,v,MISS Herro 3PT Jump Shot,Missed Shot,Jump Shot,1,3,8
+0022600175,13,PT11M33.00S,1,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,9
+0022600175,14,PT11M22.00S,1,1610612738,BOS,1630573,Hauser,S. Hauser,172,208,27,Made,1,3,0,3,h,Hauser 27' 3PT Jump Shot (3 PTS) (White 1 AST),Made Shot,Jump Shot,1,3,10
+0022600175,16,PT10M52.00S,1,1610612749,MIL,1629639,Herro,T. Herro,206,131,24,Missed,1,,,0,v,MISS Herro 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,11
+0022600175,16,PT10M52.00S,1,1610612738,BOS,1642864,González,H. González,0,0,0,,0,,,0,h,Gonzalez BLOCK (1 BLK),,,1,3,12
+0022600175,17,PT10M52.00S,1,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,13
+0022600175,19,PT10M51.00S,1,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Turnover: Shot Clock (T#1),Turnover,Shot Clock Turnover,1,0,14
+0022600175,64,PT10M36.00S,1,1610612738,BOS,1642864,González,H. González,0,0,0,,0,,,0,h,Gonzalez Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,15
+0022600175,64,PT10M36.00S,1,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner STEAL (1 STL),,,1,0,16
+0022600175,22,PT10M27.00S,1,1610612749,MIL,1628398,Kuzma,K. Kuzma,-181,183,26,Missed,1,,,0,v,MISS Kuzma 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,17
+0022600175,23,PT10M27.00S,1,1610612738,BOS,1642864,González,H. González,0,0,0,,0,,,0,h,Gonzalez REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,18
+0022600175,24,PT10M17.00S,1,1610612738,BOS,1630573,Hauser,S. Hauser,185,176,26,Made,1,6,0,6,h,Hauser 26' 3PT Step Back Jump Shot (6 PTS) (George 1 AST),Made Shot,Step Back Jump shot,1,3,19
+0022600175,26,PT09M50.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,-172,222,28,Made,1,6,3,9,v,Jaquez Jr. 28' 3PT Jump Shot (3 PTS) (Turner 1 AST),Made Shot,Jump Shot,1,3,20
+0022600175,28,PT09M35.00S,1,1610612738,BOS,1629674,Queta,N. Queta,22,115,12,Missed,1,,,0,h,MISS Queta 12' Jump Shot,Missed Shot,Jump Shot,1,2,21
+0022600175,29,PT09M35.00S,1,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,22
+0022600175,30,PT09M28.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,23
+0022600175,30,PT09M28.00S,1,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George STEAL (1 STL),,,1,0,24
+0022600175,32,PT09M23.00S,1,1610612738,BOS,1630573,Hauser,S. Hauser,-168,189,25,Missed,1,,,0,h,MISS Hauser 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,25
+0022600175,33,PT09M23.00S,1,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,26
+0022600175,34,PT09M15.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,5,53,5,Made,1,6,5,11,v,Jaquez Jr. 5' Running Layup (5 PTS) (Kuzma 1 AST),Made Shot,Running Layup Shot,1,2,27
+0022600175,35,PT09M00.00S,1,1610612738,BOS,1630573,Hauser,S. Hauser,-227,-2,0,Missed,1,,,0,h,MISS Hauser 3PT Jump Shot,Missed Shot,Jump Shot,1,3,28
+0022600175,36,PT09M00.00S,1,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,29
+0022600175,37,PT08M43.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,-220,15,22,Missed,1,,,0,v,MISS Jaquez Jr. 22' Jump Shot,Missed Shot,Jump Shot,1,2,30
+0022600175,38,PT08M43.00S,1,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,Hauser REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,31
+0022600175,39,PT08M28.00S,1,1610612738,BOS,202331,George,P. George,-85,129,15,Made,1,8,5,13,h,George 15' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,32
+0022600175,40,PT08M05.00S,1,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,33
+0022600175,40,PT08M05.00S,1,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George STEAL (2 STL),,,1,0,34
+0022600175,42,PT08M01.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. S.FOUL (P1.T1) (J.Capers),Foul,Shooting,1,0,35
+0022600175,44,PT08M01.00S,1,1610612738,BOS,1642864,González,H. González,0,0,0,,0,9,5,14,h,Gonzalez Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,36
+0022600175,45,PT08M01.00S,1,1610612738,BOS,1642864,González,H. González,0,0,0,,0,10,5,15,h,Gonzalez Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,37
+0022600175,46,PT07M48.00S,1,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries Out of Bounds - Bad Pass Turnover Turnover (P1.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,38
+0022600175,48,PT07M42.00S,1,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner S.FOUL (P1.T2) (J.Scott),Foul,Shooting,1,0,39
+0022600175,50,PT07M42.00S,1,1610612738,BOS,202331,George,P. George,0,0,0,,0,11,5,16,h,George Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,40
+0022600175,51,PT07M42.00S,1,1610612738,BOS,202331,George,P. George,0,0,0,,0,12,5,17,h,George Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,41
+0022600175,52,PT07M28.00S,1,1610612749,MIL,1626167,Turner,M. Turner,233,-11,0,Made,1,12,8,20,v,Turner 3PT Jump Shot (3 PTS) (Herro 1 AST),Made Shot,Jump Shot,1,3,42
+0022600175,54,PT07M10.00S,1,1610612738,BOS,202331,George,P. George,-127,139,19,Missed,1,,,0,h,MISS George 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,43
+0022600175,55,PT07M10.00S,1,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,44
+0022600175,56,PT07M00.00S,1,1610612749,MIL,1629639,Herro,T. Herro,-171,191,26,Missed,1,,,0,v,MISS Herro 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,45
+0022600175,57,PT07M00.00S,1,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,46
+0022600175,58,PT06M49.00S,1,1610612738,BOS,1629674,Queta,N. Queta,-49,50,7,Made,1,14,8,22,h,Queta 7' Fadeaway Jumper (2 PTS) (White 2 AST),Made Shot,Fadeaway Jump Shot,1,2,47
+0022600175,60,PT06M49.00S,1,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries S.FOUL (P1.T3) (J.Capers),Foul,Shooting,1,0,48
+0022600175,62,PT06M49.00S,1,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,49
+0022600175,68,PT06M49.00S,1,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,SUB: Jakucionis FOR Burries,Substitution,,0,0,50
+0022600175,63,PT06M49.00S,1,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,MISS Queta Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,51
+0022600175,69,PT06M49.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,52
+0022600175,70,PT06M32.00S,1,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner Out of Bounds - Bad Pass Turnover Turnover (P1.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,53
+0022600175,74,PT06M32.00S,1,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,SUB: Robinson FOR Hauser,Substitution,,0,0,54
+0022600175,75,PT06M32.00S,1,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,SUB: Pritchard FOR Queta,Substitution,,0,0,55
+0022600175,76,PT06M32.00S,1,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,SUB: Scheierman FOR White,Substitution,,0,0,56
+0022600175,77,PT06M19.00S,1,1610612738,BOS,1630202,Pritchard,P. Pritchard,132,56,14,Made,1,16,8,24,h,Pritchard 14' Fadeaway Jumper (2 PTS),Made Shot,Fadeaway Jump Shot,1,2,57
+0022600175,78,PT06M01.00S,1,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,58
+0022600175,78,PT06M01.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson STEAL (1 STL),,,1,0,59
+0022600175,80,PT05M55.00S,1,1610612738,BOS,202331,George,P. George,182,193,27,Missed,1,,,0,h,MISS George 27' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,60
+0022600175,81,PT05M55.00S,1,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,Jakucionis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,61
+0022600175,82,PT05M47.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,-24,18,3,Missed,1,,,0,v,MISS Jaquez Jr. 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,62
+0022600175,83,PT05M47.00S,1,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,63
+0022600175,84,PT05M38.00S,1,1610612738,BOS,202331,George,P. George,-40,245,25,Made,1,19,8,27,h,George 25' 3PT Jump Shot (7 PTS) (Pritchard 1 AST),Made Shot,Jump Shot,1,3,64
+0022600175,86,PT05M37.00S,1,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,65
+0022600175,88,PT05M37.00S,1,1610612738,BOS,1642864,González,H. González,0,0,0,,0,,,0,h,SUB: Garza FOR Gonzalez,Substitution,,0,0,66
+0022600175,91,PT05M37.00S,1,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,SUB: Ware FOR Kuzma,Substitution,,0,0,67
+0022600175,92,PT05M37.00S,1,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Ament FOR Turner,Substitution,,0,0,68
+0022600175,93,PT05M21.00S,1,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,-238,32,24,Missed,1,,,0,v,MISS Jakucionis 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,69
+0022600175,94,PT05M21.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,70
+0022600175,95,PT04M57.00S,1,1610612738,BOS,202331,George,P. George,-157,208,26,Made,1,22,8,30,h,George 26' 3PT Pullup Jump Shot (10 PTS) (Garza 1 AST),Made Shot,Pullup Jump shot,1,3,71
+0022600175,97,PT04M43.00S,1,1610612749,MIL,1642276,Ware,K. Ware,-111,241,27,Missed,1,,,0,v,MISS Ware 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,72
+0022600175,98,PT04M43.00S,1,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,73
+0022600175,99,PT04M35.00S,1,1610612738,BOS,1630202,Pritchard,P. Pritchard,-124,163,20,Missed,1,,,0,h,MISS Pritchard 20' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,74
+0022600175,100,PT04M35.00S,1,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Unknown,1,0,75
+0022600175,102,PT04M09.00S,1,1610612749,MIL,1629639,Herro,T. Herro,-8,199,20,Missed,1,,,0,v,MISS Herro 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,76
+0022600175,103,PT04M09.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,77
+0022600175,119,PT03M55.00S,1,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George Out of Bounds - Bad Pass Turnover Turnover (P1.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,78
+0022600175,109,PT03M55.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,SUB: Rollins FOR Jaquez Jr.,Substitution,,0,0,79
+0022600175,110,PT03M55.00S,1,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,SUB: Green FOR Herro,Substitution,,0,0,80
+0022600175,111,PT03M55.00S,1,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Timeout: Coach Challenge (Reg.1 Short 0),Timeout,Coach Challenge,0,0,81
+0022600175,112,PT03M55.00S,1,0,,0,,,0,0,0,,0,22,8,30,,Instant Replay1st Period (7:58 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,82
+0022600175,113,PT03M43.00S,1,1610612749,MIL,1643417,Ament,N. Ament,-6,268,27,Missed,1,,,0,v,MISS Ament 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,83
+0022600175,114,PT03M43.00S,1,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,,0,,,0,h,Garza REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,84
+0022600175,115,PT03M32.00S,1,1610612738,BOS,1630568,Garza,L. Garza,150,222,27,Made,1,25,8,33,h,Garza 27' 3PT Jump Shot (3 PTS) (Pritchard 2 AST),Made Shot,Jump Shot,1,3,85
+0022600175,117,PT03M07.00S,1,1610612749,MIL,1631157,Rollins,R. Rollins,-237,5,24,Missed,1,,,0,v,MISS Rollins 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,86
+0022600175,118,PT03M07.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,87
+0022600175,120,PT02M55.00S,1,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George OFF.Foul (P1) (J.Capers),Foul,Offensive,1,0,88
+0022600175,122,PT02M55.00S,1,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George Offensive Foul Turnover (P2.T3),Turnover,Offensive Foul Turnover,1,0,89
+0022600175,123,PT02M42.00S,1,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,90
+0022600175,123,PT02M42.00S,1,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,,0,,,0,h,Garza STEAL (1 STL),,,1,0,91
+0022600175,125,PT02M36.00S,1,1610612738,BOS,1630202,Pritchard,P. Pritchard,-113,92,15,Made,1,27,8,35,h,Pritchard 15' Running Jump Shot (4 PTS) (George 2 AST),Made Shot,Running Jump Shot,1,2,92
+0022600175,126,PT02M23.00S,1,1610612749,MIL,1643417,Ament,N. Ament,42,39,6,Missed,1,,,0,v,MISS Ament 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,93
+0022600175,126,PT02M23.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson BLOCK (1 BLK),,,1,2,94
+0022600175,127,PT02M23.00S,1,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,95
+0022600175,129,PT02M07.00S,1,1610612738,BOS,1631248,Scheierman,B. Scheierman,71,85,11,Missed,1,,,0,h,MISS Scheierman 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,96
+0022600175,129,PT02M07.00S,1,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware BLOCK (1 BLK),,,1,2,97
+0022600175,130,PT02M07.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,98
+0022600175,236,PT02M04.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,15,24,3,Missed,1,,,0,h,MISS Robinson 3' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,99
+0022600175,238,PT02M04.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,100
+0022600175,131,PT02M02.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,Missed,1,,,0,h,MISS Robinson Putback Layup,Missed Shot,Putback Layup Shot,1,2,101
+0022600175,131,PT02M02.00S,1,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins BLOCK (1 BLK),,,1,2,102
+0022600175,132,PT02M02.00S,1,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,103
+0022600175,133,PT01M51.00S,1,1610612749,MIL,1643417,Ament,N. Ament,231,33,0,Made,1,27,11,38,v,Ament 3PT Jump Shot (3 PTS) (Green 1 AST),Made Shot,Jump Shot,1,3,104
+0022600175,136,PT01M30.00S,1,1610612738,BOS,1630568,Garza,L. Garza,76,87,12,Missed,1,,,0,h,MISS Garza 12' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,105
+0022600175,137,PT01M30.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,106
+0022600175,284,PT01M28.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,11,11,2,Missed,1,,,0,h,MISS Robinson 2' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,107
+0022600175,285,PT01M28.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,108
+0022600175,138,PT01M27.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,3,3,0,Missed,1,,,0,h,MISS Robinson Layup,Missed Shot,Layup Shot,1,2,109
+0022600175,139,PT01M27.00S,1,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,,0,,,0,h,Garza REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,110
+0022600175,140,PT01M23.00S,1,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,Missed,1,,,0,h,MISS Garza Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,111
+0022600175,141,PT01M23.00S,1,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,112
+0022600175,142,PT01M19.00S,1,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman P.FOUL (P1.T1) (D.Taylor),Foul,Personal,1,0,113
+0022600175,145,PT01M19.00S,1,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,SUB: Queta FOR Robinson,Substitution,,0,0,114
+0022600175,147,PT01M19.00S,1,1610612749,MIL,1643417,Ament,N. Ament,0,0,0,,0,,,0,v,SUB: Dieng FOR Ament,Substitution,,0,0,115
+0022600175,148,PT01M12.00S,1,1610612749,MIL,1631172,Dieng,O. Dieng,-25,265,27,Missed,1,,,0,v,MISS Dieng 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,116
+0022600175,149,PT01M12.00S,1,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,117
+0022600175,150,PT00M53.30S,1,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,Jakucionis S.FOUL (P1.T4) (D.Taylor),Foul,Shooting,1,0,118
+0022600175,152,PT00M53.30S,1,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,MISS Queta Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,119
+0022600175,153,PT00M53.30S,1,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Normal Rebound,1,0,120
+0022600175,157,PT00M53.30S,1,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,SUB: Burries FOR Jakucionis,Substitution,,0,0,121
+0022600175,158,PT00M53.30S,1,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,SUB: Turner FOR Ware,Substitution,,0,0,122
+0022600175,154,PT00M53.30S,1,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,28,11,39,h,Queta Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,123
+0022600175,159,PT00M31.50S,1,1610612749,MIL,1631260,Green,A. Green,137,60,15,Missed,1,,,0,v,MISS Green 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,124
+0022600175,160,PT00M31.50S,1,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,125
+0022600175,161,PT00M10.40S,1,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George Out of Bounds - Bad Pass Turnover Turnover (P3.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,126
+0022600175,163,PT00M10.40S,1,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,,0,,,0,h,SUB: Walsh FOR Garza,Substitution,,0,0,127
+0022600175,165,PT00M10.40S,1,1610612749,MIL,1631172,Dieng,O. Dieng,0,0,0,,0,,,0,v,SUB: Herro FOR Dieng,Substitution,,0,0,128
+0022600175,169,PT00M05.10S,1,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta S.FOUL (P1.PN) (D.Taylor),Foul,Shooting,1,0,129
+0022600175,171,PT00M05.10S,1,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,28,12,40,v,Rollins Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,130
+0022600175,175,PT00M05.10S,1,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,SUB: Hauser FOR Queta,Substitution,,0,0,131
+0022600175,176,PT00M05.10S,1,1610612738,BOS,1641775,Walsh,J. Walsh,0,0,0,,0,,,0,h,SUB: Garza FOR Walsh,Substitution,,0,0,132
+0022600175,180,PT00M05.10S,1,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,,,0,v,SUB: Sims FOR Green,Substitution,,0,0,133
+0022600175,181,PT00M05.10S,1,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Ament FOR Turner,Substitution,,0,0,134
+0022600175,182,PT00M05.10S,1,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,SUB: Dieng FOR Herro,Substitution,,0,0,135
+0022600175,172,PT00M05.10S,1,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,MISS Rollins Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,136
+0022600175,183,PT00M05.10S,1,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,137
+0022600175,184,PT00M01.00S,1,1610612749,MIL,1643415,Burries,B. Burries,26,95,10,Made,1,28,14,42,v,Burries 10' Jump Shot (2 PTS),Made Shot,Jump Shot,1,2,138
+0022600175,188,PT00M00.00S,1,0,,0,,,0,0,0,,0,28,14,42,,End of 1st Period (8:07 PM EST),period,end,1,0,139
+0022600175,195,PT12M00.00S,2,0,,0,,,0,0,0,,0,28,14,42,,Start of 2nd Period (8:09 PM EST),period,start,0,0,140
+0022600175,200,PT11M51.00S,2,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins P.FOUL (P1.T1) (J.Capers),Foul,Personal,1,0,141
+0022600175,202,PT11M42.00S,2,1610612738,BOS,1628401,White,D. White,31,64,7,Missed,1,,,0,h,MISS White 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,142
+0022600175,203,PT11M42.00S,2,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,143
+0022600175,204,PT11M28.00S,2,1610612749,MIL,1631157,Rollins,R. Rollins,-37,6,4,Missed,1,,,0,v,MISS Rollins 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,144
+0022600175,204,PT11M28.00S,2,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White BLOCK (2 BLK),,,1,2,145
+0022600175,205,PT11M28.00S,2,1610612738,BOS,1641775,Walsh,J. Walsh,0,0,0,,0,,,0,h,Walsh REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,146
+0022600175,207,PT11M23.00S,2,1610612738,BOS,1641775,Walsh,J. Walsh,17,22,3,Missed,1,,,0,h,MISS Walsh 3' Running Layup,Missed Shot,Running Layup Shot,1,2,147
+0022600175,208,PT11M23.00S,2,1610612749,MIL,1643417,Ament,N. Ament,0,0,0,,0,,,0,v,Ament REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,148
+0022600175,209,PT11M16.00S,2,1610612749,MIL,1643417,Ament,N. Ament,42,50,7,Missed,1,,,0,v,MISS Ament 7' Running Layup,Missed Shot,Running Layup Shot,1,2,149
+0022600175,210,PT11M16.00S,2,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,150
+0022600175,211,PT11M00.00S,2,1610612738,BOS,1641775,Walsh,J. Walsh,-229,15,0,Made,1,31,14,45,h,Walsh 3PT Jump Shot (3 PTS) (Pritchard 3 AST),Made Shot,Jump Shot,1,3,151
+0022600175,213,PT10M46.00S,2,1610612749,MIL,1626167,Turner,M. Turner,222,125,25,Made,1,31,17,48,v,Turner 25' 3PT Jump Shot (6 PTS) (Rollins 1 AST),Made Shot,Jump Shot,1,3,152
+0022600175,215,PT10M30.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,-92,98,13,Made,1,33,17,50,h,Pritchard 13' Fadeaway Jumper (6 PTS),Made Shot,Fadeaway Jump Shot,1,2,153
+0022600175,216,PT10M24.00S,2,1610612738,BOS,1641775,Walsh,J. Walsh,0,0,0,,0,,,0,h,Walsh P.FOUL (P1.T1) (D.Taylor),Foul,Personal,1,0,154
+0022600175,220,PT10M15.00S,2,1610612749,MIL,1631157,Rollins,R. Rollins,-93,147,17,Made,1,33,19,52,v,Rollins 17' Fadeaway Jumper (3 PTS),Made Shot,Fadeaway Jump Shot,1,2,155
+0022600175,221,PT09M55.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,-21,13,2,Made,1,35,19,54,h,Pritchard 2' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,156
+0022600175,223,PT09M39.00S,2,1610612749,MIL,1643417,Ament,N. Ament,226,23,0,Missed,1,,,0,v,MISS Ament 3PT Jump Shot,Missed Shot,Jump Shot,1,3,157
+0022600175,224,PT09M39.00S,2,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,158
+0022600175,225,PT09M26.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,-31,29,4,Missed,1,,,0,h,MISS Pritchard 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,159
+0022600175,226,PT09M26.00S,2,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,160
+0022600175,227,PT09M05.00S,2,1610612749,MIL,1643415,Burries,B. Burries,147,200,25,Missed,1,,,0,v,MISS Burries 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,161
+0022600175,228,PT09M05.00S,2,1610612738,BOS,1641775,Walsh,J. Walsh,0,0,0,,0,,,0,h,Walsh REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,162
+0022600175,229,PT08M54.00S,2,1610612738,BOS,1628401,White,D. White,69,119,14,Made,1,37,19,56,h,White 14' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,163
+0022600175,230,PT08M34.00S,2,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta S.FOUL (P2.T2) (J.Capers),Foul,Shooting,1,0,164
+0022600175,232,PT08M34.00S,2,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,37,20,57,v,Burries Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,165
+0022600175,235,PT08M34.00S,2,1610612749,MIL,1643417,Ament,N. Ament,0,0,0,,0,,,0,v,SUB: Kuzma FOR Ament,Substitution,,0,0,166
+0022600175,233,PT08M34.00S,2,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,37,21,58,v,Burries Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,167
+0022600175,239,PT08M15.00S,2,1610612738,BOS,1628401,White,D. White,-1,247,25,Missed,1,,,0,h,MISS White 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,168
+0022600175,240,PT08M15.00S,2,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,169
+0022600175,241,PT08M08.00S,2,1610612749,MIL,1643415,Burries,B. Burries,-241,28,24,Missed,1,,,0,v,MISS Burries 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,170
+0022600175,242,PT08M08.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,Pritchard REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,171
+0022600175,243,PT07M56.00S,2,1610612738,BOS,1628401,White,D. White,203,182,27,Missed,1,,,0,h,MISS White 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,172
+0022600175,244,PT07M56.00S,2,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,173
+0022600175,245,PT07M54.00S,2,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,Made,1,39,21,60,h,Queta Tip Layup Shot (5 PTS),Made Shot,Tip Layup Shot,1,2,174
+0022600175,246,PT07M41.00S,2,1610612749,MIL,1626167,Turner,M. Turner,172,195,26,Made,1,39,24,63,v,Turner 26' 3PT Jump Shot (9 PTS) (Green 2 AST),Made Shot,Jump Shot,1,3,175
+0022600175,250,PT07M35.00S,2,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,SUB: Robinson FOR Queta,Substitution,,0,0,176
+0022600175,251,PT07M28.00S,2,1610612738,BOS,1628401,White,D. White,74,15,8,Made,1,41,24,65,h,White 8' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,177
+0022600175,252,PT07M15.00S,2,1610612749,MIL,1631260,Green,A. Green,-155,211,26,Made,1,41,27,68,v,Green 26' 3PT Jump Shot (3 PTS) (Burries 1 AST),Made Shot,Jump Shot,1,3,178
+0022600175,253,PT06M58.00S,2,1610612738,BOS,1630573,Hauser,S. Hauser,-180,171,25,Missed,1,,,0,h,MISS Hauser 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,179
+0022600175,255,PT06M58.00S,2,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,180
+0022600175,256,PT06M49.00S,2,1610612749,MIL,1626167,Turner,M. Turner,132,224,26,Missed,1,,,0,v,MISS Turner 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,181
+0022600175,257,PT06M49.00S,2,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,182
+0022600175,258,PT06M46.00S,2,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,183
+0022600175,263,PT06M46.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,SUB: Garza FOR Pritchard,Substitution,,0,0,184
+0022600175,264,PT06M46.00S,2,1610612738,BOS,1641775,Walsh,J. Walsh,0,0,0,,0,,,0,h,SUB: Scheierman FOR Walsh,Substitution,,0,0,185
+0022600175,265,PT06M46.00S,2,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,SUB: Gonzalez FOR Hauser,Substitution,,0,0,186
+0022600175,269,PT06M46.00S,2,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Herro FOR Turner,Substitution,,0,0,187
+0022600175,270,PT06M46.00S,2,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,SUB: Ware FOR Burries,Substitution,,0,0,188
+0022600175,271,PT06M46.00S,2,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,SUB: Jakucionis FOR Rollins,Substitution,,0,0,189
+0022600175,272,PT06M33.00S,2,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware S.FOUL (P1.T2) (D.Taylor),Foul,Shooting,1,0,190
+0022600175,274,PT06M33.00S,2,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,MISS Robinson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,191
+0022600175,275,PT06M33.00S,2,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Normal Rebound,0,0,192
+0022600175,276,PT06M33.00S,2,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,42,27,69,h,Robinson Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,193
+0022600175,277,PT06M22.00S,2,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,194
+0022600175,277,PT06M22.00S,2,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White STEAL (1 STL),,,1,0,195
+0022600175,279,PT06M10.00S,2,1610612738,BOS,1629011,Robinson,M. Robinson,34,24,4,Made,1,44,27,71,h,Robinson 4' Cutting Layup Shot (3 PTS) (White 3 AST),Made Shot,Cutting Layup Shot,1,2,196
+0022600175,281,PT06M10.00S,2,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,197
+0022600175,282,PT06M00.00S,2,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White P.FOUL (P1.T3) (J.Scott),Foul,Personal,1,0,198
+0022600175,286,PT05M55.00S,2,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware OFF.Foul (P2) (J.Scott),Foul,Offensive,1,0,199
+0022600175,288,PT05M55.00S,2,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,200
+0022600175,289,PT05M41.00S,2,1610612738,BOS,1642864,González,H. González,-8,21,2,Made,1,46,27,73,h,Gonzalez 2' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,201
+0022600175,290,PT05M25.00S,2,1610612749,MIL,1642276,Ware,K. Ware,26,37,5,Missed,1,,,0,v,MISS Ware 5' Layup,Missed Shot,Layup Shot,1,2,202
+0022600175,291,PT05M25.00S,2,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,,0,,,0,h,Garza REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,203
+0022600175,292,PT05M07.00S,2,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,,,0,v,Green S.FOUL (P1.T3) (D.Taylor),Foul,Shooting,1,0,204
+0022600175,294,PT05M07.00S,2,1610612738,BOS,1628401,White,D. White,0,0,0,,0,47,27,74,h,White Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,205
+0022600175,297,PT05M07.00S,2,1610612738,BOS,1642864,González,H. González,0,0,0,,0,,,0,h,SUB: George FOR Gonzalez,Substitution,,0,0,206
+0022600175,300,PT05M07.00S,2,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,SUB: Turner FOR Ware,Substitution,,0,0,207
+0022600175,301,PT05M07.00S,2,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,,,0,v,SUB: Jaquez Jr. FOR Green,Substitution,,0,0,208
+0022600175,295,PT05M07.00S,2,1610612738,BOS,1628401,White,D. White,0,0,0,,0,48,27,75,h,White Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,209
+0022600175,302,PT04M51.00S,2,1610612749,MIL,1629639,Herro,T. Herro,-235,38,24,Missed,1,,,0,v,MISS Herro 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,210
+0022600175,303,PT04M51.00S,2,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,211
+0022600175,362,PT04M37.00S,2,1610612738,BOS,202331,George,P. George,10,63,6,Missed,1,,,0,h,MISS George 6' Jump Shot,Missed Shot,Jump Shot,1,2,212
+0022600175,362,PT04M37.00S,2,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner BLOCK (1 BLK),,,1,2,213
+0022600175,364,PT04M37.00S,2,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,214
+0022600175,306,PT04M31.00S,2,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,-15,15,2,Made,1,48,29,77,v,Jaquez Jr. 2' Running Layup (7 PTS) (Turner 2 AST),Made Shot,Running Layup Shot,1,2,215
+0022600175,308,PT04M12.00S,2,1610612738,BOS,1630568,Garza,L. Garza,-225,3,0,Made,1,51,29,80,h,Garza 3PT Jump Shot (6 PTS) (George 3 AST),Made Shot,Jump Shot,1,3,216
+0022600175,310,PT03M56.00S,2,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,-28,265,27,Made,1,51,32,83,v,Jakucionis 27' 3PT Jump Shot (3 PTS) (Jaquez Jr. 1 AST),Made Shot,Jump Shot,1,3,217
+0022600175,312,PT03M31.00S,2,1610612738,BOS,202331,George,P. George,-154,22,16,Missed,1,,,0,h,MISS George 16' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,218
+0022600175,313,PT03M31.00S,2,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,,0,,,0,h,Garza REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,219
+0022600175,314,PT03M22.00S,2,1610612738,BOS,202331,George,P. George,-197,167,26,Missed,1,,,0,h,MISS George 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,220
+0022600175,315,PT03M22.00S,2,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson REBOUND (Off:5 Def:4),Rebound,Unknown,1,0,221
+0022600175,316,PT03M18.00S,2,1610612738,BOS,1629011,Robinson,M. Robinson,-2,-2,0,Missed,1,,,0,h,MISS Robinson Layup,Missed Shot,Layup Shot,1,2,222
+0022600175,317,PT03M18.00S,2,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,,0,,,0,h,Garza REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,223
+0022600175,318,PT03M15.00S,2,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,Made,1,53,32,85,h,Garza Tip Layup Shot (8 PTS),Made Shot,Tip Layup Shot,1,2,224
+0022600175,319,PT02M55.00S,2,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,-95,179,20,Missed,1,,,0,v,MISS Jaquez Jr. 20' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,225
+0022600175,320,PT02M55.00S,2,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,226
+0022600175,321,PT02M44.00S,2,1610612738,BOS,1629011,Robinson,M. Robinson,-11,4,1,Missed,1,,,0,h,MISS Robinson 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,227
+0022600175,322,PT02M44.00S,2,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,228
+0022600175,323,PT02M30.00S,2,1610612749,MIL,1629639,Herro,T. Herro,137,227,27,Made,1,53,35,88,v,Herro 27' 3PT Jump Shot (3 PTS) (Jakucionis 1 AST),Made Shot,Jump Shot,1,3,229
+0022600175,325,PT02M13.00S,2,1610612738,BOS,1628401,White,D. White,-115,228,26,Made,1,56,35,91,h,White 26' 3PT Jump Shot (9 PTS) (Garza 2 AST),Made Shot,Jump Shot,1,3,230
+0022600175,327,PT01M54.00S,2,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,200,155,25,Made,1,56,38,94,v,Jaquez Jr. 25' 3PT Jump Shot (10 PTS) (Kuzma 2 AST),Made Shot,Jump Shot,1,3,231
+0022600175,329,PT01M33.00S,2,1610612738,BOS,1630568,Garza,L. Garza,234,1,0,Made,1,59,38,97,h,Garza 3PT Jump Shot (11 PTS) (White 4 AST),Made Shot,Jump Shot,1,3,232
+0022600175,331,PT01M24.00S,2,1610612749,MIL,1629639,Herro,T. Herro,223,2,0,Made,1,59,41,100,v,Herro 3PT Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,3,233
+0022600175,332,PT01M02.00S,2,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,Jakucionis P.FOUL (P2.T4) (D.Taylor),Foul,Personal,1,0,234
+0022600175,337,PT01M02.00S,2,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,SUB: Pritchard FOR Robinson,Substitution,,0,0,235
+0022600175,338,PT01M02.00S,2,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,,0,,,0,h,SUB: Walsh FOR Garza,Substitution,,0,0,236
+0022600175,339,PT01M02.00S,2,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,SUB: Queta FOR White,Substitution,,0,0,237
+0022600175,342,PT01M02.00S,2,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,SUB: Burries FOR Kuzma,Substitution,,0,0,238
+0022600175,343,PT01M02.00S,2,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,SUB: Sims FOR Jakucionis,Substitution,,0,0,239
+0022600175,344,PT00M57.40S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,56,202,21,Missed,1,,,0,h,MISS Pritchard 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,240
+0022600175,345,PT00M57.40S,2,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,241
+0022600175,346,PT00M50.70S,2,1610612749,MIL,1629639,Herro,T. Herro,126,231,26,Missed,1,,,0,v,MISS Herro 26' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,242
+0022600175,347,PT00M50.70S,2,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,243
+0022600175,348,PT00M38.80S,2,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George Lost Ball Turnover (P4.T5),Turnover,Lost Ball,1,0,244
+0022600175,348,PT00M38.80S,2,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner STEAL (2 STL),,,1,0,245
+0022600175,350,PT00M27.80S,2,1610612749,MIL,1643415,Burries,B. Burries,230,21,0,Missed,1,,,0,v,MISS Burries 3PT Jump Shot,Missed Shot,Jump Shot,1,3,246
+0022600175,351,PT00M27.80S,2,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,247
+0022600175,352,PT00M24.70S,2,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries Out of Bounds - Bad Pass Turnover Turnover (P2.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,248
+0022600175,354,PT00M24.70S,2,1610612738,BOS,1641775,Walsh,J. Walsh,0,0,0,,0,,,0,h,SUB: Hauser FOR Walsh,Substitution,,0,0,249
+0022600175,356,PT00M24.70S,2,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,SUB: Dieng FOR Herro,Substitution,,0,0,250
+0022600175,357,PT00M04.90S,2,1610612738,BOS,1631248,Scheierman,B. Scheierman,242,29,24,Made,1,62,41,103,h,Scheierman 24' 3PT Jump Shot (3 PTS) (George 4 AST),Made Shot,Jump Shot,1,3,251
+0022600175,359,PT00M00.00S,2,1610612749,MIL,1631172,Dieng,O. Dieng,-181,195,27,Missed,1,,,0,v,MISS Dieng 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,252
+0022600175,360,PT00M00.00S,2,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Unknown,1,0,253
+0022600175,365,PT00M00.00S,2,0,,0,,,0,0,0,,0,62,41,103,,Instant Replay2nd Period (8:34 PM EST),Instant Replay,Replay Center,0,0,254
+0022600175,361,PT00M00.00S,2,0,,0,,,0,0,0,,0,62,41,103,,End of 2nd Period (8:34 PM EST),period,end,1,0,255
+0022600175,374,PT12M00.00S,3,0,,0,,,0,0,0,,0,62,41,103,,Start of 3rd Period (8:49 PM EST),period,start,0,0,256
+0022600175,375,PT11M40.00S,3,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,257
+0022600175,375,PT11M40.00S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma STEAL (1 STL),,,1,0,258
+0022600175,377,PT11M38.00S,3,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White S.FOUL (P2.T1) (J.Scott),Foul,Shooting,1,0,259
+0022600175,379,PT11M38.00S,3,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,MISS Burries Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,260
+0022600175,380,PT11M38.00S,3,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Normal Rebound,0,0,261
+0022600175,381,PT11M38.00S,3,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,62,42,104,v,Burries Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,262
+0022600175,382,PT11M18.00S,3,1610612738,BOS,202331,George,P. George,-182,74,20,Missed,1,,,0,h,MISS George 20' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,263
+0022600175,383,PT11M18.00S,3,1610612738,BOS,1642864,González,H. González,0,0,0,,0,,,0,h,Gonzalez REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,264
+0022600175,384,PT11M14.00S,3,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George Step Out of Bounds Turnover (P5.T7),Turnover,Step Out of Bounds Turnover,1,0,265
+0022600175,385,PT11M00.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,42,261,26,Made,1,62,45,107,v,Jaquez Jr. 26' 3PT Jump Shot (13 PTS) (Burries 2 AST),Made Shot,Jump Shot,1,3,266
+0022600175,387,PT10M48.00S,3,1610612738,BOS,202331,George,P. George,73,248,26,Made,1,65,45,110,h,George 26' 3PT Jump Shot (13 PTS) (White 5 AST),Made Shot,Jump Shot,1,3,267
+0022600175,389,PT10M29.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,41,37,6,Made,1,65,47,112,v,Jaquez Jr. 6' Driving Floating Jump Shot (15 PTS) (Herro 2 AST),Made Shot,Driving Floating Jump Shot,1,2,268
+0022600175,391,PT10M28.00S,3,1610612738,BOS,1642864,González,H. González,0,0,0,,0,,,0,h,Gonzalez Non-Unsportsmanlike Tech Foul - Flopping (P0.T1) (D.Taylor),Foul,Flopping,1,0,269
+0022600175,392,PT10M28.00S,3,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,65,48,113,v,Herro Free Throw Technical (7 PTS),Free Throw,Free Throw Technical,1,0,270
+0022600175,393,PT10M11.00S,3,1610612738,BOS,1628401,White,D. White,3,108,11,Made,1,67,48,115,h,White 11' Driving Floating Jump Shot (11 PTS) (Queta 1 AST),Made Shot,Driving Floating Jump Shot,1,2,271
+0022600175,395,PT09M47.00S,3,1610612749,MIL,1629639,Herro,T. Herro,15,155,16,Missed,1,,,0,v,MISS Herro 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,272
+0022600175,396,PT09M47.00S,3,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,273
+0022600175,397,PT09M32.00S,3,1610612738,BOS,1628401,White,D. White,72,54,9,Missed,1,,,0,h,MISS White 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,274
+0022600175,398,PT09M32.00S,3,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,275
+0022600175,399,PT09M18.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,-228,-6,0,Missed,1,,,0,v,MISS Jaquez Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,276
+0022600175,400,PT09M18.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,277
+0022600175,401,PT09M09.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,236,16,24,Made,1,67,51,118,v,Jaquez Jr. 24' 3PT Jump Shot (18 PTS) (Kuzma 3 AST),Made Shot,Jump Shot,1,3,278
+0022600175,403,PT08M53.00S,3,1610612738,BOS,1629674,Queta,N. Queta,-21,31,4,Missed,1,,,0,h,MISS Queta 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,279
+0022600175,404,PT08M53.00S,3,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,280
+0022600175,405,PT08M40.00S,3,1610612749,MIL,1629639,Herro,T. Herro,45,34,6,Made,1,67,53,120,v,Herro 6' Driving Layup (9 PTS) (Turner 3 AST),Made Shot,Driving Layup Shot,1,2,281
+0022600175,406,PT08M40.00S,3,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,282
+0022600175,411,PT08M40.00S,3,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,SUB: Robinson FOR White,Substitution,,0,0,283
+0022600175,412,PT08M40.00S,3,1610612738,BOS,1642864,González,H. González,0,0,0,,0,,,0,h,SUB: Pritchard FOR Gonzalez,Substitution,,0,0,284
+0022600175,413,PT08M40.00S,3,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,SUB: Garza FOR Queta,Substitution,,0,0,285
+0022600175,414,PT08M30.00S,3,1610612738,BOS,1630573,Hauser,S. Hauser,-19,106,11,Made,1,69,53,122,h,Hauser 11' Pullup Jump Shot (8 PTS) (Pritchard 4 AST),Made Shot,Pullup Jump shot,1,2,286
+0022600175,416,PT08M21.00S,3,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,Pritchard P.FOUL (P1.T2) (J.Scott),Foul,Personal,1,0,287
+0022600175,418,PT08M11.00S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,-21,251,25,Made,1,69,56,125,v,Kuzma 25' 3PT Jump Shot (3 PTS) (Burries 3 AST),Made Shot,Jump Shot,1,3,288
+0022600175,420,PT07M42.00S,3,1610612738,BOS,1630573,Hauser,S. Hauser,-162,219,27,Missed,1,,,0,h,MISS Hauser 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,289
+0022600175,421,PT07M42.00S,3,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,290
+0022600175,422,PT07M39.00S,3,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries L.B.FOUL (P2.T1) (J.Scott),Foul,Loose Ball,1,0,291
+0022600175,424,PT07M33.00S,3,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner S.FOUL (P2.T2) (J.Capers),Foul,Shooting,1,0,292
+0022600175,426,PT07M33.00S,3,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,70,56,126,h,Pritchard Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,293
+0022600175,427,PT07M33.00S,3,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,71,56,127,h,Pritchard Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,294
+0022600175,428,PT07M15.00S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,31,28,4,Made,1,71,58,129,v,Kuzma 4' Driving Finger Roll Layup (5 PTS) (Herro 3 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,295
+0022600175,430,PT06M58.00S,3,1610612738,BOS,1630568,Garza,L. Garza,226,56,0,Missed,1,,,0,h,MISS Garza 3PT Jump Shot,Missed Shot,Jump Shot,1,3,296
+0022600175,431,PT06M58.00S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,297
+0022600175,432,PT06M51.00S,3,1610612749,MIL,1629639,Herro,T. Herro,16,-4,2,Made,1,71,60,131,v,Herro 2' Running Dunk (11 PTS) (Kuzma 4 AST),Made Shot,Running Dunk Shot,1,2,298
+0022600175,434,PT06M36.00S,3,1610612738,BOS,202331,George,P. George,97,248,27,Made,1,74,60,134,h,George 27' 3PT Jump Shot (16 PTS) (Robinson 1 AST),Made Shot,Jump Shot,1,3,299
+0022600175,436,PT06M23.00S,3,1610612749,MIL,1629639,Herro,T. Herro,-114,231,26,Made,1,74,63,137,v,Herro 26' 3PT Pullup Jump Shot (14 PTS) (Turner 4 AST),Made Shot,Pullup Jump shot,1,3,300
+0022600175,438,PT06M04.00S,3,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson Bad Pass Turnover (P1.T8),Turnover,Bad Pass,1,0,301
+0022600175,438,PT06M04.00S,3,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries STEAL (1 STL),,,1,0,302
+0022600175,440,PT06M02.00S,3,1610612749,MIL,1643415,Burries,B. Burries,-11,3,1,Made,1,74,65,139,v,Burries 1' Running Dunk (7 PTS),Made Shot,Running Dunk Shot,1,2,303
+0022600175,441,PT06M02.00S,3,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,304
+0022600175,444,PT06M02.00S,3,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,SUB: White FOR George,Substitution,,0,0,305
+0022600175,445,PT06M02.00S,3,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,SUB: Scheierman FOR Hauser,Substitution,,0,0,306
+0022600175,446,PT05M45.00S,3,1610612738,BOS,1628401,White,D. White,109,246,27,Missed,1,,,0,h,MISS White 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,307
+0022600175,447,PT05M45.00S,3,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,308
+0022600175,448,PT05M38.00S,3,1610612749,MIL,1629639,Herro,T. Herro,14,3,1,Made,1,74,67,141,v,Herro 1' Running Layup (16 PTS),Made Shot,Running Layup Shot,1,2,309
+0022600175,449,PT05M18.00S,3,1610612738,BOS,1631248,Scheierman,B. Scheierman,179,184,26,Made,1,77,67,144,h,Scheierman 26' 3PT Jump Shot (6 PTS) (Pritchard 5 AST),Made Shot,Jump Shot,1,3,310
+0022600175,451,PT04M48.00S,3,1610612749,MIL,1629639,Herro,T. Herro,81,40,9,Missed,1,,,0,v,MISS Herro 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,311
+0022600175,452,PT04M48.00S,3,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,312
+0022600175,453,PT04M43.00S,3,1610612738,BOS,1631248,Scheierman,B. Scheierman,-177,190,26,Made,1,80,67,147,h,Scheierman 26' 3PT Running Pull-Up Jump Shot (9 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,313
+0022600175,454,PT04M37.00S,3,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,314
+0022600175,456,PT04M33.00S,3,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,,0,,,0,h,SUB: Queta FOR Garza,Substitution,,0,0,315
+0022600175,459,PT04M33.00S,3,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,SUB: Rollins FOR Burries,Substitution,,0,0,316
+0022600175,460,PT04M33.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,SUB: Ament FOR Jaquez Jr.,Substitution,,0,0,317
+0022600175,461,PT04M20.00S,3,1610612749,MIL,1626167,Turner,M. Turner,148,269,31,Made,1,80,70,150,v,Turner 31' 3PT Jump Shot (12 PTS) (Rollins 2 AST),Made Shot,Jump Shot,1,3,318
+0022600175,463,PT04M02.00S,3,1610612738,BOS,1628401,White,D. White,-59,23,6,Missed,1,,,0,h,MISS White 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,319
+0022600175,464,PT04M02.00S,3,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson REBOUND (Off:6 Def:4),Rebound,Unknown,1,0,320
+0022600175,465,PT03M50.00S,3,1610612738,BOS,1629011,Robinson,M. Robinson,27,15,3,Missed,1,,,0,h,MISS Robinson 3' Layup,Missed Shot,Layup Shot,1,2,321
+0022600175,465,PT03M50.00S,3,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner BLOCK (2 BLK),,,1,2,322
+0022600175,466,PT03M50.00S,3,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,323
+0022600175,468,PT03M37.00S,3,1610612749,MIL,1643417,Ament,N. Ament,240,17,24,Missed,1,,,0,v,MISS Ament 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,324
+0022600175,469,PT03M37.00S,3,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,325
+0022600175,470,PT03M23.00S,3,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins P.FOUL (P2.T3) (J.Capers),Foul,Personal,1,0,326
+0022600175,474,PT03M23.00S,3,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,SUB: Hauser FOR Robinson,Substitution,,0,0,327
+0022600175,475,PT03M23.00S,3,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,SUB: Walsh FOR Pritchard,Substitution,,0,0,328
+0022600175,477,PT03M23.00S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,SUB: Ware FOR Kuzma,Substitution,,0,0,329
+0022600175,478,PT03M23.00S,3,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman Out of Bounds - Bad Pass Turnover Turnover (P1.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,330
+0022600175,479,PT03M08.00S,3,1610612749,MIL,1631157,Rollins,R. Rollins,-118,62,13,Missed,1,,,0,v,MISS Rollins 13' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,331
+0022600175,480,PT03M08.00S,3,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,332
+0022600175,481,PT03M05.00S,3,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,Missed,1,,,0,v,MISS Ware Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,333
+0022600175,482,PT03M05.00S,3,1610612749,MIL,1643417,Ament,N. Ament,0,0,0,,0,,,0,v,Ament REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,334
+0022600175,483,PT03M00.00S,3,1610612749,MIL,1629639,Herro,T. Herro,-186,182,26,Made,1,80,73,153,v,Herro 26' 3PT Jump Shot (19 PTS) (Turner 5 AST),Made Shot,Jump Shot,1,3,335
+0022600175,485,PT02M45.00S,3,1610612738,BOS,1629674,Queta,N. Queta,-34,95,10,Missed,1,,,0,h,MISS Queta 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,336
+0022600175,486,PT02M45.00S,3,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,337
+0022600175,487,PT02M42.00S,3,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,Missed,1,,,0,h,MISS Queta Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,338
+0022600175,488,PT02M42.00S,3,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,339
+0022600175,489,PT02M21.00S,3,1610612749,MIL,1631157,Rollins,R. Rollins,-9,6,1,Made,1,80,75,155,v,Rollins 1' Driving Layup (5 PTS) (Turner 6 AST),Made Shot,Driving Layup Shot,1,2,340
+0022600175,491,PT02M05.00S,3,1610612749,MIL,1643417,Ament,N. Ament,0,0,0,,0,,,0,v,Ament P.FOUL (P1.T4) (J.Capers),Foul,Personal,1,0,341
+0022600175,493,PT01M59.00S,3,1610612738,BOS,1628401,White,D. White,42,123,13,Made,1,82,75,157,h,White 13' Driving Floating Jump Shot (13 PTS) (Queta 2 AST),Made Shot,Driving Floating Jump Shot,1,2,342
+0022600175,495,PT01M47.00S,3,1610612749,MIL,1629639,Herro,T. Herro,-42,19,5,Made,1,82,77,159,v,Herro 5' Cutting Layup Shot (21 PTS) (Rollins 3 AST),Made Shot,Cutting Layup Shot,1,2,343
+0022600175,497,PT01M33.00S,3,1610612738,BOS,1641775,Walsh,J. Walsh,229,9,0,Missed,1,,,0,h,MISS Walsh 3PT Jump Shot,Missed Shot,Jump Shot,1,3,344
+0022600175,498,PT01M33.00S,3,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,345
+0022600175,499,PT01M17.00S,3,1610612749,MIL,1631157,Rollins,R. Rollins,-14,16,2,Missed,1,,,0,v,MISS Rollins 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,346
+0022600175,500,PT01M17.00S,3,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,347
+0022600175,501,PT01M05.00S,3,1610612738,BOS,1630573,Hauser,S. Hauser,-148,243,28,Missed,1,,,0,h,MISS Hauser 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,348
+0022600175,502,PT01M05.00S,3,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,349
+0022600175,503,PT01M00.00S,3,1610612738,BOS,1630573,Hauser,S. Hauser,84,246,26,Made,1,85,77,162,h,Hauser 26' 3PT Jump Shot (11 PTS) (White 6 AST),Made Shot,Jump Shot,1,3,350
+0022600175,505,PT00M43.90S,3,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White S.FOUL (P3.T3) (J.Capers),Foul,Shooting,1,0,351
+0022600175,507,PT00M43.90S,3,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,85,78,163,v,Herro Free Throw 1 of 2 (22 PTS),Free Throw,Free Throw 1 of 2,1,0,352
+0022600175,510,PT00M43.90S,3,1610612738,BOS,1641775,Walsh,J. Walsh,0,0,0,,0,,,0,h,SUB: Gonzalez FOR Walsh,Substitution,,0,0,353
+0022600175,508,PT00M43.90S,3,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,85,79,164,v,Herro Free Throw 2 of 2 (23 PTS),Free Throw,Free Throw 2 of 2,1,0,354
+0022600175,511,PT00M32.80S,3,1610612738,BOS,1628401,White,D. White,24,20,3,Missed,1,,,0,h,MISS White 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,355
+0022600175,512,PT00M32.80S,3,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,356
+0022600175,513,PT00M26.30S,3,1610612738,BOS,1631248,Scheierman,B. Scheierman,-142,100,17,Missed,1,,,0,h,MISS Scheierman 17' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,357
+0022600175,514,PT00M26.30S,3,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,358
+0022600175,515,PT00M24.30S,3,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,Made,1,87,79,166,h,Queta Tip Layup Shot (7 PTS),Made Shot,Tip Layup Shot,1,2,359
+0022600175,516,PT00M13.60S,3,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,360
+0022600175,516,PT00M13.60S,3,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman STEAL (1 STL),,,1,0,361
+0022600175,518,PT00M00.30S,3,1610612738,BOS,1628401,White,D. White,218,125,25,Missed,1,,,0,h,MISS White 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,362
+0022600175,519,PT00M00.30S,3,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,1,0,363
+0022600175,520,PT00M00.00S,3,0,,0,,,0,0,0,,0,87,79,166,,End of 3rd Period (9:14 PM EST),period,end,1,0,364
+0022600175,527,PT12M00.00S,4,0,,0,,,0,0,0,,0,87,79,166,,Start of 4th Period (9:17 PM EST),period,start,1,0,365
+0022600175,528,PT11M40.00S,4,1610612749,MIL,1642276,Ware,K. Ware,73,34,8,Missed,1,,,0,v,MISS Ware 8' Hook Shot,Missed Shot,Hook Shot,1,2,366
+0022600175,529,PT11M40.00S,4,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,367
+0022600175,530,PT11M31.00S,4,1610612738,BOS,202331,George,P. George,63,246,25,Missed,1,,,0,h,MISS George 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,368
+0022600175,531,PT11M31.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,369
+0022600175,532,PT11M18.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins Out of Bounds - Bad Pass Turnover Turnover (P3.T12),Turnover,Out of Bounds - Bad Pass Turnover,1,0,370
+0022600175,533,PT11M09.00S,4,1610612738,BOS,1642864,González,H. González,224,34,0,Missed,1,,,0,h,MISS Gonzalez 3PT Jump Shot,Missed Shot,Jump Shot,1,3,371
+0022600175,534,PT11M09.00S,4,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,372
+0022600175,535,PT11M02.00S,4,1610612738,BOS,1628401,White,D. White,-217,160,27,Missed,1,,,0,h,MISS White 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,373
+0022600175,536,PT11M02.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,374
+0022600175,537,PT10M47.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,235,82,25,Made,1,87,82,169,v,Rollins 25' 3PT Jump Shot (8 PTS) (Jaquez Jr. 2 AST),Made Shot,Jump Shot,1,3,375
+0022600175,539,PT10M32.00S,4,1610612738,BOS,1642864,González,H. González,226,-4,0,Missed,1,,,0,h,MISS Gonzalez 3PT Jump Shot,Missed Shot,Jump Shot,1,3,376
+0022600175,540,PT10M32.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,377
+0022600175,541,PT10M22.00S,4,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White P.FOUL (P4.T1) (J.Capers),Foul,Personal,1,0,378
+0022600175,543,PT10M16.00S,4,1610612749,MIL,1643417,Ament,N. Ament,-33,281,28,Made,1,87,85,172,v,Ament 28' 3PT Jump Shot (6 PTS) (Rollins 4 AST),Made Shot,Jump Shot,1,3,379
+0022600175,545,PT10M08.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins P.FOUL (P3.T1) (D.Taylor),Foul,Personal,1,0,380
+0022600175,547,PT10M00.00S,4,1610612749,MIL,1643417,Ament,N. Ament,0,0,0,,0,,,0,v,Ament S.FOUL (P2.T2) (D.Taylor),Foul,Shooting,1,0,381
+0022600175,549,PT10M00.00S,4,1610612738,BOS,1628401,White,D. White,0,0,0,,0,88,85,173,h,White Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,382
+0022600175,553,PT10M00.00S,4,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,SUB: Robinson FOR Queta,Substitution,,0,0,383
+0022600175,554,PT10M00.00S,4,1610612738,BOS,1642864,González,H. González,0,0,0,,0,,,0,h,SUB: Garza FOR Gonzalez,Substitution,,0,0,384
+0022600175,550,PT10M00.00S,4,1610612738,BOS,1628401,White,D. White,0,0,0,,0,89,85,174,h,White Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,385
+0022600175,555,PT09M42.00S,4,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,Robinson P.FOUL (P1.T2) (D.Taylor),Foul,Personal,1,0,386
+0022600175,557,PT09M33.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins Bad Pass Turnover (P4.T13),Turnover,Bad Pass,1,0,387
+0022600175,557,PT09M33.00S,4,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George STEAL (3 STL),,,1,0,388
+0022600175,559,PT09M30.00S,4,1610612738,BOS,202331,George,P. George,33,42,5,Made,1,91,85,176,h,George 5' Running Finger Roll Layup (18 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,389
+0022600175,560,PT09M30.00S,4,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,,,0,v,Green S.FOUL (P2.T3) (J.Capers),Foul,Shooting,1,0,390
+0022600175,562,PT09M30.00S,4,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,MISS George Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,391
+0022600175,563,PT09M30.00S,4,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,392
+0022600175,564,PT09M08.00S,4,1610612749,MIL,1643417,Ament,N. Ament,194,177,26,Missed,1,,,0,v,MISS Ament 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,393
+0022600175,565,PT09M08.00S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Unknown,0,0,394
+0022600175,566,PT09M08.00S,4,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,,0,,,0,h,Garza L.B.FOUL (P1.T3) (J.Capers),Foul,Loose Ball,1,0,395
+0022600175,569,PT09M08.00S,4,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,SUB: Hauser FOR White,Substitution,,0,0,396
+0022600175,570,PT09M00.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,56,24,6,Missed,1,,,0,v,MISS Jaquez Jr. 6' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,397
+0022600175,571,PT09M00.00S,4,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,398
+0022600175,572,PT08M57.00S,4,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,Made,1,91,87,178,v,Ware Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,399
+0022600175,573,PT08M47.00S,4,1610612738,BOS,1631248,Scheierman,B. Scheierman,-238,33,24,Missed,1,,,0,h,MISS Scheierman 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,400
+0022600175,574,PT08M47.00S,4,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,Hauser REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,401
+0022600175,575,PT08M41.00S,4,1610612738,BOS,202331,George,P. George,227,11,0,Missed,1,,,0,h,MISS George 3PT Jump Shot,Missed Shot,Jump Shot,1,3,402
+0022600175,576,PT08M41.00S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,1,0,403
+0022600175,577,PT08M40.00S,4,1610612749,MIL,1643417,Ament,N. Ament,0,0,0,,0,,,0,v,Ament L.B.FOUL (P3.T4) (J.Capers),Foul,Loose Ball,1,0,404
+0022600175,579,PT08M33.00S,4,1610612738,BOS,1630573,Hauser,S. Hauser,137,232,27,Missed,1,,,0,h,MISS Hauser 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,405
+0022600175,580,PT08M33.00S,4,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,406
+0022600175,581,PT08M23.00S,4,1610612749,MIL,1642276,Ware,K. Ware,185,166,25,Missed,1,,,0,v,MISS Ware 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,407
+0022600175,582,PT08M23.00S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Unknown,1,0,408
+0022600175,583,PT08M22.00S,4,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George L.B.FOUL (P2.T4) (J.Capers),Foul,Loose Ball,1,0,409
+0022600175,585,PT08M18.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,1,0,Made,1,91,89,180,v,Rollins Cutting Dunk Shot (10 PTS) (Ware 1 AST),Made Shot,Cutting Dunk Shot,1,2,410
+0022600175,587,PT08M17.00S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,411
+0022600175,588,PT07M57.00S,4,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George Bad Pass Turnover (P6.T10),Turnover,Bad Pass,1,0,412
+0022600175,588,PT07M57.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins STEAL (1 STL),,,1,0,413
+0022600175,590,PT07M51.00S,4,1610612749,MIL,1643417,Ament,N. Ament,19,7,2,Made,1,91,91,182,v,Ament 2' Running Layup (8 PTS) (Rollins 5 AST),Made Shot,Running Layup Shot,1,2,414
+0022600175,592,PT07M38.00S,4,1610612738,BOS,1631248,Scheierman,B. Scheierman,-54,179,19,Missed,1,,,0,h,MISS Scheierman 19' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,415
+0022600175,593,PT07M38.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,416
+0022600175,594,PT07M26.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,82,23,9,Missed,1,,,0,v,MISS Jaquez Jr. 9' Driving Layup,Missed Shot,Driving Layup Shot,1,2,417
+0022600175,595,PT07M26.00S,4,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,418
+0022600175,598,PT07M21.00S,4,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,,0,,,0,h,Garza OFF.Foul (P2) (J.Capers),Foul,Offensive,1,0,419
+0022600175,608,PT07M21.00S,4,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,,0,,,0,h,Garza Offensive Foul Turnover (P1.T11),Turnover,Offensive Foul Turnover,1,0,420
+0022600175,601,PT07M21.00S,4,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,SUB: Queta FOR Robinson,Substitution,,0,0,421
+0022600175,602,PT07M21.00S,4,1610612738,BOS,1630568,Garza,L. Garza,0,0,0,,0,,,0,h,SUB: Walsh FOR Garza,Substitution,,0,0,422
+0022600175,604,PT06M58.00S,4,1610612749,MIL,1631260,Green,A. Green,-160,198,25,Missed,1,,,0,v,MISS Green 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,423
+0022600175,605,PT06M58.00S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Unknown,1,0,424
+0022600175,609,PT06M50.00S,4,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman S.FOUL (P2.PN) (J.Scott),Foul,Shooting,1,0,425
+0022600175,611,PT06M50.00S,4,1610612749,MIL,1643417,Ament,N. Ament,0,0,0,,0,,,0,v,MISS Ament Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,426
+0022600175,612,PT06M50.00S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Normal Rebound,1,0,427
+0022600175,615,PT06M50.00S,4,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,SUB: White FOR Scheierman,Substitution,,0,0,428
+0022600175,617,PT06M50.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,SUB: Kuzma FOR Jaquez Jr.,Substitution,,0,0,429
+0022600175,613,PT06M50.00S,4,1610612749,MIL,1643417,Ament,N. Ament,0,0,0,,0,91,92,183,v,Ament Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,430
+0022600175,618,PT06M29.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins S.FOUL (P4.PN) (J.Scott),Foul,Shooting,1,0,431
+0022600175,620,PT06M29.00S,4,1610612738,BOS,1628401,White,D. White,0,0,0,,0,92,92,184,h,White Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,432
+0022600175,621,PT06M29.00S,4,1610612738,BOS,1628401,White,D. White,0,0,0,,0,93,92,185,h,White Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,433
+0022600175,622,PT06M17.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,46,50,7,Missed,1,,,0,v,MISS Rollins 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,434
+0022600175,622,PT06M17.00S,4,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta BLOCK (1 BLK),,,1,2,435
+0022600175,623,PT06M17.00S,4,1610612738,BOS,1641775,Walsh,J. Walsh,0,0,0,,0,,,0,h,Walsh REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,436
+0022600175,625,PT06M08.00S,4,1610612738,BOS,202331,George,P. George,-14,16,2,Made,1,95,92,187,h,George 2' Driving Reverse Layup (20 PTS) (White 7 AST),Made Shot,Driving Reverse Layup Shot,1,2,437
+0022600175,626,PT06M08.00S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,438
+0022600175,631,PT06M08.00S,4,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,SUB: Burries FOR Ware,Substitution,,0,0,439
+0022600175,632,PT06M08.00S,4,1610612749,MIL,1643417,Ament,N. Ament,0,0,0,,0,,,0,v,SUB: Herro FOR Ament,Substitution,,0,0,440
+0022600175,633,PT06M08.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,SUB: Turner FOR Rollins,Substitution,,0,0,441
+0022600175,634,PT05M55.00S,4,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,Hauser P.FOUL (P1.PN) (J.Capers),Foul,Personal,1,0,442
+0022600175,636,PT05M55.00S,4,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,95,93,188,v,Green Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,443
+0022600175,637,PT05M55.00S,4,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,95,94,189,v,Green Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,444
+0022600175,638,PT05M40.00S,4,1610612738,BOS,1628401,White,D. White,32,28,4,Missed,1,,,0,h,MISS White 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,445
+0022600175,639,PT05M40.00S,4,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,446
+0022600175,640,PT05M33.00S,4,1610612749,MIL,1626167,Turner,M. Turner,1,267,27,Missed,1,,,0,v,MISS Turner 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,447
+0022600175,641,PT05M33.00S,4,1610612738,BOS,1641775,Walsh,J. Walsh,0,0,0,,0,,,0,h,Walsh REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,448
+0022600175,642,PT05M20.00S,4,1610612738,BOS,1641775,Walsh,J. Walsh,182,177,25,Missed,1,,,0,h,MISS Walsh 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,449
+0022600175,643,PT05M20.00S,4,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,450
+0022600175,644,PT05M08.00S,4,1610612749,MIL,1643415,Burries,B. Burries,72,121,14,Made,1,95,96,191,v,Burries 14' Driving Floating Jump Shot (9 PTS) (Green 3 AST),Made Shot,Driving Floating Jump Shot,1,2,451
+0022600175,646,PT04M54.00S,4,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner S.FOUL (P3.PN) (J.Capers),Foul,Shooting,1,0,452
+0022600175,648,PT04M54.00S,4,1610612738,BOS,202331,George,P. George,0,0,0,,0,96,96,192,h,George Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,1,0,453
+0022600175,651,PT04M54.00S,4,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,,,0,v,SUB: Jaquez Jr. FOR Green,Substitution,,0,0,454
+0022600175,649,PT04M54.00S,4,1610612738,BOS,202331,George,P. George,0,0,0,,0,97,96,193,h,George Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,1,0,455
+0022600175,652,PT04M43.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma Traveling Turnover (P3.T14),Turnover,Traveling,1,0,456
+0022600175,653,PT04M30.00S,4,1610612738,BOS,202331,George,P. George,149,101,18,Missed,1,,,0,h,MISS George 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,457
+0022600175,654,PT04M30.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,458
+0022600175,655,PT04M22.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,34,17,4,Missed,1,,,0,v,MISS Jaquez Jr. 4' Running Layup,Missed Shot,Running Layup Shot,1,2,459
+0022600175,655,PT04M22.00S,4,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta BLOCK (2 BLK),,,1,2,460
+0022600175,656,PT04M22.00S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Unknown,1,0,461
+0022600175,660,PT04M22.00S,4,1610612738,BOS,1641775,Walsh,J. Walsh,0,0,0,,0,,,0,h,SUB: Scheierman FOR Walsh,Substitution,,0,0,462
+0022600175,661,PT04M20.00S,4,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries Bad Pass Turnover (P3.T15),Turnover,Bad Pass,1,0,463
+0022600175,661,PT04M20.00S,4,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George STEAL (4 STL),,,1,0,464
+0022600175,663,PT04M08.00S,4,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White Bad Pass Turnover (P2.T12),Turnover,Bad Pass,1,0,465
+0022600175,663,PT04M08.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. STEAL (1 STL),,,1,0,466
+0022600175,665,PT04M04.00S,4,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,George S.FOUL (P3.PN) (J.Capers),Foul,Shooting,1,0,467
+0022600175,667,PT04M04.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,MISS Kuzma Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,468
+0022600175,668,PT04M04.00S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Normal Rebound,0,0,469
+0022600175,671,PT04M04.00S,4,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,SUB: Rollins FOR Burries,Substitution,,0,0,470
+0022600175,669,PT04M04.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,97,97,194,v,Kuzma Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,471
+0022600175,672,PT03M50.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma P.FOUL (P1.PN) (J.Capers),Foul,Personal,1,0,472
+0022600175,674,PT03M50.00S,4,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,MISS George Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,473
+0022600175,675,PT03M50.00S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Normal Rebound,0,0,474
+0022600175,677,PT03M50.00S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,475
+0022600175,676,PT03M50.00S,4,1610612738,BOS,202331,George,P. George,0,0,0,,0,,,0,h,MISS George Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,476
+0022600175,678,PT03M50.00S,4,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,477
+0022600175,679,PT03M29.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,32,20,4,Missed,1,,,0,v,MISS Jaquez Jr. 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,478
+0022600175,680,PT03M29.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,479
+0022600175,681,PT03M23.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,216,140,26,Missed,1,,,0,v,MISS Jaquez Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,480
+0022600175,682,PT03M23.00S,4,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,481
+0022600175,683,PT03M06.00S,4,1610612738,BOS,1629674,Queta,N. Queta,-21,11,2,Made,1,99,97,196,h,Queta 2' Cutting Layup Shot (9 PTS) (George 5 AST),Made Shot,Cutting Layup Shot,1,2,482
+0022600175,685,PT02M57.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,-232,3,0,Missed,1,,,0,v,MISS Kuzma 3PT Jump Shot,Missed Shot,Jump Shot,1,3,483
+0022600175,686,PT02M57.00S,4,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,484
+0022600175,687,PT02M32.00S,4,1610612738,BOS,1628401,White,D. White,-149,237,28,Missed,1,,,0,h,MISS White 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,485
+0022600175,688,PT02M32.00S,4,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,486
+0022600175,689,PT02M22.00S,4,1610612738,BOS,1628401,White,D. White,0,16,2,Made,1,101,97,198,h,White 2' Cutting Layup Shot (20 PTS) (Scheierman 1 AST),Made Shot,Cutting Layup Shot,1,2,487
+0022600175,691,PT02M22.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. S.FOUL (P2.PN) (D.Taylor),Foul,Shooting,1,0,488
+0022600175,694,PT02M22.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,SUB: Green FOR Kuzma,Substitution,,0,0,489
+0022600175,695,PT02M22.00S,4,1610612738,BOS,1628401,White,D. White,0,0,0,,0,102,97,199,h,White Free Throw 1 of 1 (20 PTS),Free Throw,Free Throw 1 of 1,1,0,490
+0022600175,696,PT02M06.00S,4,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta P.FOUL (P3.PN) (D.Taylor),Foul,Personal,1,0,491
+0022600175,698,PT02M06.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,MISS Jaquez Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,492
+0022600175,699,PT02M06.00S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Normal Rebound,0,0,493
+0022600175,700,PT02M06.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,MISS Jaquez Jr. Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,494
+0022600175,701,PT02M06.00S,4,1610612738,BOS,1629674,Queta,N. Queta,0,0,0,,0,,,0,h,Queta REBOUND (Off:4 Def:8),Rebound,Unknown,1,0,495
+0022600175,702,PT01M49.00S,4,1610612738,BOS,1628401,White,D. White,-19,53,6,Made,1,104,97,201,h,White 6' Driving Floating Jump Shot (22 PTS) (Queta 3 AST),Made Shot,Driving Floating Jump Shot,1,2,496
+0022600175,704,PT01M40.00S,4,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman P.FOUL (P3.PN) (D.Taylor),Foul,Personal,1,0,497
+0022600175,706,PT01M40.00S,4,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,104,98,202,v,Herro Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,1,0,498
+0022600175,707,PT01M40.00S,4,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,104,99,203,v,Herro Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,1,0,499
+0022600175,708,PT01M23.00S,4,1610612738,BOS,202331,George,P. George,-227,127,26,Made,1,107,99,206,h,George 26' 3PT Step Back Jump Shot (25 PTS),Made Shot,Step Back Jump shot,1,3,500
+0022600175,709,PT01M14.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,173,198,26,Made,1,107,102,209,v,Rollins 26' 3PT Step Back Jump Shot (13 PTS),Made Shot,Step Back Jump shot,1,3,501
+0022600175,710,PT00M54.70S,4,1610612738,BOS,202331,George,P. George,-116,126,17,Missed,1,,,0,h,MISS George 17' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,502
+0022600175,711,PT00M54.70S,4,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,503
+0022600175,712,PT00M42.00S,4,1610612738,BOS,1630573,Hauser,S. Hauser,-229,85,24,Missed,1,,,0,h,MISS Hauser 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,504
+0022600175,713,PT00M42.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,505
+0022600175,714,PT00M30.90S,4,1610612749,MIL,1629639,Herro,T. Herro,179,177,25,Missed,1,,,0,v,MISS Herro 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,506
+0022600175,715,PT00M30.90S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,507
+0022600175,716,PT00M26.10S,4,1610612749,MIL,1631260,Green,A. Green,-232,66,24,Missed,1,,,0,v,MISS Green 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,508
+0022600175,717,PT00M26.10S,4,1610612738,BOS,1631248,Scheierman,B. Scheierman,0,0,0,,0,,,0,h,Scheierman REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,509
+0022600175,718,PT00M19.80S,4,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,,,0,v,Green Personal Take Foul (P3.PN) (J.Scott),Foul,Personal Take,1,0,510
+0022600175,720,PT00M19.80S,4,1610612738,BOS,1628401,White,D. White,0,0,0,,0,108,102,210,h,White Free Throw 1 of 2 (23 PTS),Free Throw,Free Throw 1 of 2,1,0,511
+0022600175,723,PT00M19.80S,4,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,,,0,v,SUB: Sims FOR Green,Substitution,,0,0,512
+0022600175,721,PT00M19.80S,4,1610612738,BOS,1628401,White,D. White,0,0,0,,0,109,102,211,h,White Free Throw 2 of 2 (24 PTS),Free Throw,Free Throw 2 of 2,1,0,513
+0022600175,724,PT00M19.80S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,514
+0022600175,726,PT00M19.80S,4,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,SUB: Robinson FOR Hauser,Substitution,,0,0,515
+0022600175,728,PT00M19.80S,4,1610612749,MIL,1630579,Sims,J. Sims,0,0,0,,0,,,0,v,SUB: Green FOR Sims,Substitution,,0,0,516
+0022600175,729,PT00M16.20S,4,1610612749,MIL,1631260,Green,A. Green,-160,218,27,Missed,1,,,0,v,MISS Green 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,517
+0022600175,730,PT00M16.20S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,518
+0022600175,733,PT00M14.20S,4,1610612738,BOS,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,h,SUB: Hauser FOR Robinson,Substitution,,0,0,519
+0022600175,734,PT00M00.00S,4,0,,0,,,0,0,0,,0,109,102,211,,End of 4th Period (9:54 PM EST),period,end,1,0,520

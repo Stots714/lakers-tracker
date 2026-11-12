@@ -1,0 +1,543 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600086,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:16 PM EST),period,start,1,0,1
+0022600086,4,PT12M00.00S,1,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,Jump Ball Sarr vs. Turner: Tip to Jaquez Jr.,Jump Ball,,1,0,2
+0022600086,7,PT11M47.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,4,0,0,Made,1,0,2,2,v,Jaquez Jr. Cutting Dunk Shot (3 PTS) (Kuzma 1 AST),Made Shot,Cutting Dunk Shot,1,2,3
+0022600086,9,PT11M47.00S,1,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young S.FOUL (P1.T1) (C.Washington),Foul,Shooting,1,0,4
+0022600086,11,PT11M47.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,0,3,3,v,Jaquez Jr. Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,0,0,5
+0022600086,12,PT11M35.00S,1,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,6
+0022600086,12,PT11M35.00S,1,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma STEAL (1 STL),,,1,0,7
+0022600086,14,PT11M31.00S,1,1610612749,MIL,1629639,Herro,T. Herro,203,139,25,Missed,1,,,0,v,MISS Herro 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,8
+0022600086,15,PT11M31.00S,1,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,9
+0022600086,16,PT11M16.00S,1,1610612764,WAS,1642259,Sarr,A. Sarr,-237,-20,24,Missed,1,,,0,h,MISS Sarr 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,10
+0022600086,17,PT11M16.00S,1,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,11
+0022600086,18,PT10M53.00S,1,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,12
+0022600086,18,PT10M53.00S,1,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,Coulibaly STEAL (1 STL),,,1,0,13
+0022600086,20,PT10M48.00S,1,1610612764,WAS,1642273,George,K. George,242,3,24,Missed,1,,,0,h,MISS George 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,14
+0022600086,21,PT10M48.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0022600086,22,PT10M34.00S,1,1610612749,MIL,1626167,Turner,M. Turner,-26,250,25,Missed,1,,,0,v,MISS Turner 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,16
+0022600086,23,PT10M34.00S,1,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,17
+0022600086,24,PT10M18.00S,1,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,29,1,3,Made,1,2,3,5,h,Coulibaly 3' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,18
+0022600086,25,PT10M18.00S,1,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins S.FOUL (P1.T1) (C.Washington),Foul,Shooting,1,0,19
+0022600086,27,PT10M18.00S,1,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,MISS Coulibaly Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,20
+0022600086,28,PT10M18.00S,1,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,Sarr REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,21
+0022600086,29,PT10M15.00S,1,1610612764,WAS,1642273,George,K. George,-153,214,26,Missed,1,,,0,h,MISS George 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,22
+0022600086,30,PT10M15.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,23
+0022600086,32,PT09M53.00S,1,1610612749,MIL,1631157,Rollins,R. Rollins,-120,90,15,Made,1,2,5,7,v,Rollins 15' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,24
+0022600086,33,PT09M38.00S,1,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,-241,-25,24,Missed,1,,,0,h,MISS Coulibaly 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,25
+0022600086,34,PT09M38.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,26
+0022600086,35,PT09M26.00S,1,1610612749,MIL,1628398,Kuzma,K. Kuzma,-217,131,25,Missed,1,,,0,v,MISS Kuzma 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,27
+0022600086,36,PT09M26.00S,1,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,28
+0022600086,37,PT09M19.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,20,0,2,Made,1,2,7,9,v,Jaquez Jr. 2' Floating Jump Shot (5 PTS) (Rollins 1 AST),Made Shot,Floating Jump shot,1,2,29
+0022600086,39,PT09M13.00S,1,1610612764,WAS,1642273,George,K. George,-5,5,1,Made,1,4,7,11,h,George 1' Cutting Dunk Shot (2 PTS) (Young 1 AST),Made Shot,Cutting Dunk Shot,1,2,30
+0022600086,41,PT08M58.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,31
+0022600086,41,PT08M58.00S,1,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,Coulibaly STEAL (2 STL),,,1,0,32
+0022600086,43,PT08M42.00S,1,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis Lost Ball Turnover (P2.T2),Turnover,Lost Ball,1,0,33
+0022600086,43,PT08M42.00S,1,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro STEAL (1 STL),,,1,0,34
+0022600086,45,PT08M32.00S,1,1610612749,MIL,1629639,Herro,T. Herro,1,-1,0,Made,1,4,9,13,v,Herro Running Layup (2 PTS),Made Shot,Running Layup Shot,1,2,35
+0022600086,46,PT08M22.00S,1,1610612764,WAS,1642273,George,K. George,19,9,2,Missed,1,,,0,h,MISS George 2' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,36
+0022600086,47,PT08M22.00S,1,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,37
+0022600086,48,PT08M17.00S,1,1610612749,MIL,1631157,Rollins,R. Rollins,-34,6,3,Missed,1,,,0,v,MISS Rollins 3' Running Layup,Missed Shot,Running Layup Shot,1,2,38
+0022600086,49,PT08M17.00S,1,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,Sarr REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,39
+0022600086,50,PT08M03.00S,1,1610612764,WAS,1629027,Young,T. Young,7,69,7,Missed,1,,,0,h,MISS Young 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,40
+0022600086,51,PT08M03.00S,1,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,41
+0022600086,52,PT07M59.00S,1,1610612764,WAS,203076,Davis,A. Davis,0,0,0,Made,1,6,9,15,h,Davis Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,42
+0022600086,53,PT07M48.00S,1,1610612749,MIL,1631157,Rollins,R. Rollins,95,105,14,Missed,1,,,0,v,MISS Rollins 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,43
+0022600086,54,PT07M48.00S,1,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,Sarr REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,44
+0022600086,55,PT07M38.00S,1,1610612764,WAS,203076,Davis,A. Davis,5,12,1,Made,1,8,9,17,h,Davis 1' Running Dunk (4 PTS) (Coulibaly 1 AST),Made Shot,Running Dunk Shot,1,2,45
+0022600086,57,PT07M35.00S,1,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner Bad Pass Turnover (P2.T3),Turnover,Bad Pass,1,0,46
+0022600086,57,PT07M35.00S,1,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis STEAL (1 STL),,,1,0,47
+0022600086,59,PT07M30.00S,1,1610612764,WAS,203076,Davis,A. Davis,-16,14,2,Missed,1,,,0,h,MISS Davis 2' Layup,Missed Shot,Layup Shot,1,2,48
+0022600086,59,PT07M30.00S,1,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner BLOCK (1 BLK),,,1,2,49
+0022600086,60,PT07M30.00S,1,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,50
+0022600086,62,PT07M26.00S,1,1610612749,MIL,1628398,Kuzma,K. Kuzma,-13,7,1,Made,1,8,11,19,v,Kuzma 1' Running Dunk (2 PTS) (Rollins 2 AST),Made Shot,Running Dunk Shot,1,2,51
+0022600086,64,PT07M16.00S,1,1610612764,WAS,1629027,Young,T. Young,18,245,25,Missed,1,,,0,h,MISS Young 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,52
+0022600086,65,PT07M16.00S,1,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,53
+0022600086,66,PT07M12.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,-24,9,3,Made,1,8,13,21,v,Jaquez Jr. 3' Running Layup (7 PTS) (Turner 1 AST),Made Shot,Running Layup Shot,1,2,54
+0022600086,68,PT07M12.00S,1,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,55
+0022600086,69,PT06M54.00S,1,1610612764,WAS,1642273,George,K. George,-10,8,1,Made,1,10,13,23,h,George 1' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,56
+0022600086,71,PT06M54.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. S.FOUL (P1.T2) (N.Sago),Foul,Shooting,1,0,57
+0022600086,73,PT06M54.00S,1,1610612764,WAS,1642273,George,K. George,0,0,0,,0,11,13,24,h,George Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,58
+0022600086,74,PT06M39.00S,1,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner OFF.Foul (P1) (C.Washington),Foul,Offensive,1,0,59
+0022600086,76,PT06M39.00S,1,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner Offensive Foul Turnover (P3.T4),Turnover,Offensive Foul Turnover,1,0,60
+0022600086,79,PT06M39.00S,1,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,SUB: Ware FOR Rollins,Substitution,,0,0,61
+0022600086,80,PT06M39.00S,1,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Jakucionis FOR Turner,Substitution,,0,0,62
+0022600086,81,PT06M28.00S,1,1610612764,WAS,1642259,Sarr,A. Sarr,-7,15,2,Made,1,13,13,26,h,Sarr 2' Alley Oop Dunk (2 PTS) (Young 2 AST),Made Shot,Alley Oop Dunk Shot,1,2,63
+0022600086,83,PT06M11.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,-30,241,24,Missed,1,,,0,v,MISS Jaquez Jr. 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,64
+0022600086,84,PT06M11.00S,1,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,65
+0022600086,85,PT06M05.00S,1,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis Out of Bounds - Bad Pass Turnover Turnover (P3.T3),Turnover,Out of Bounds - Bad Pass Turnover,1,0,66
+0022600086,88,PT06M05.00S,1,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,SUB: Champagnie FOR Sarr,Substitution,,0,0,67
+0022600086,89,PT06M05.00S,1,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Johnson FOR Young,Substitution,,0,0,68
+0022600086,90,PT05M53.00S,1,1610612749,MIL,1628398,Kuzma,K. Kuzma,42,6,4,Missed,1,,,0,v,MISS Kuzma 4' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,69
+0022600086,91,PT05M53.00S,1,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,70
+0022600086,92,PT05M45.00S,1,1610612764,WAS,203076,Davis,A. Davis,70,256,27,Made,1,16,13,29,h,Davis 27' 3PT Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,3,71
+0022600086,93,PT05M30.00S,1,1610612749,MIL,1629639,Herro,T. Herro,-82,38,9,Missed,1,,,0,v,MISS Herro 9' Driving Layup,Missed Shot,Driving Layup Shot,1,2,72
+0022600086,94,PT05M30.00S,1,1610612764,WAS,1630551,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,73
+0022600086,95,PT05M24.00S,1,1610612764,WAS,203076,Davis,A. Davis,130,252,28,Missed,1,,,0,h,MISS Davis 28' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,74
+0022600086,96,PT05M24.00S,1,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Unknown,1,0,75
+0022600086,99,PT05M22.00S,1,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,SUB: Green FOR Kuzma,Substitution,,0,0,76
+0022600086,100,PT05M22.00S,1,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,SUB: Dieng FOR Jaquez Jr.,Substitution,,0,0,77
+0022600086,102,PT04M58.00S,1,1610612749,MIL,1629639,Herro,T. Herro,177,168,24,Made,1,16,16,32,v,Herro 24' 3PT Pullup Jump Shot (5 PTS) (Green 1 AST),Made Shot,Pullup Jump shot,1,3,78
+0022600086,104,PT04M40.00S,1,1610612764,WAS,1642273,George,K. George,21,-2,2,Made,1,18,16,34,h,George 2' Alley Oop Dunk (7 PTS) (Davis 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,79
+0022600086,106,PT04M24.00S,1,1610612749,MIL,1629639,Herro,T. Herro,65,121,14,Made,1,18,18,36,v,Herro 14' Driving Floating Jump Shot (7 PTS) (Jakucionis 1 AST),Made Shot,Driving Floating Jump Shot,1,2,80
+0022600086,108,PT04M16.00S,1,1610612764,WAS,203076,Davis,A. Davis,-4,40,4,Made,1,20,18,38,h,Davis 4' Driving Floating Jump Shot (10 PTS) (George 1 AST),Made Shot,Driving Floating Jump Shot,1,2,81
+0022600086,110,PT04M16.00S,1,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware S.FOUL (P1.T3) (J.Goble),Foul,Shooting,1,0,82
+0022600086,113,PT04M16.00S,1,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,SUB: Middleton FOR Coulibaly,Substitution,,0,0,83
+0022600086,114,PT04M16.00S,1,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,21,18,39,h,Davis Free Throw 1 of 1 (10 PTS),Free Throw,Free Throw 1 of 1,1,0,84
+0022600086,115,PT03M52.00S,1,1610612749,MIL,1631260,Green,A. Green,-111,24,11,Missed,1,,,0,v,MISS Green 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,85
+0022600086,116,PT03M52.00S,1,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,86
+0022600086,117,PT03M40.00S,1,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware S.FOUL (P2.T4) (C.Washington),Foul,Shooting,1,0,87
+0022600086,119,PT03M40.00S,1,1610612764,WAS,1642848,Johnson,T. Johnson,0,0,0,,0,22,18,40,h,Johnson Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,88
+0022600086,122,PT03M40.00S,1,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,SUB: Young FOR George,Substitution,,0,0,89
+0022600086,123,PT03M40.00S,1,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,SUB: Sarr FOR Davis,Substitution,,0,0,90
+0022600086,124,PT03M40.00S,1,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,91
+0022600086,127,PT03M40.00S,1,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,SUB: Burries FOR Herro,Substitution,,0,0,92
+0022600086,125,PT03M40.00S,1,1610612764,WAS,1642848,Johnson,T. Johnson,0,0,0,,0,23,18,41,h,Johnson Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,93
+0022600086,129,PT03M24.00S,1,1610612749,MIL,1642276,Ware,K. Ware,179,184,26,Missed,1,,,0,v,MISS Ware 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,94
+0022600086,130,PT03M24.00S,1,1610612764,WAS,1630551,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,95
+0022600086,131,PT03M06.00S,1,1610612764,WAS,1629027,Young,T. Young,-240,-26,24,Missed,1,,,0,h,MISS Young 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,96
+0022600086,131,PT03M06.00S,1,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,Jakucionis BLOCK (1 BLK),,,1,3,97
+0022600086,132,PT03M06.00S,1,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,98
+0022600086,134,PT02M58.00S,1,1610612749,MIL,1631172,Dieng,O. Dieng,-205,158,26,Missed,1,,,0,v,MISS Dieng 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,99
+0022600086,135,PT02M58.00S,1,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Unknown,1,0,100
+0022600086,136,PT02M56.00S,1,1610612764,WAS,1642848,Johnson,T. Johnson,0,0,0,,0,,,0,h,Johnson L.B.FOUL (P1.T2) (J.Goble),Foul,Loose Ball,1,0,101
+0022600086,138,PT02M48.00S,1,1610612749,MIL,1643415,Burries,B. Burries,-10,137,14,Missed,1,,,0,v,MISS Burries 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,102
+0022600086,139,PT02M48.00S,1,1610612764,WAS,1630551,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,103
+0022600086,140,PT02M30.00S,1,1610612764,WAS,1642259,Sarr,A. Sarr,136,223,26,Missed,1,,,0,h,MISS Sarr 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,104
+0022600086,141,PT02M30.00S,1,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,105
+0022600086,142,PT02M14.00S,1,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young P.FOUL (P2.T3) (J.Goble),Foul,Personal,1,0,106
+0022600086,145,PT02M14.00S,1,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,SUB: Turner FOR Ware,Substitution,,0,0,107
+0022600086,146,PT02M08.00S,1,1610612749,MIL,1631172,Dieng,O. Dieng,-11,5,1,Made,1,23,20,43,v,Dieng 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,108
+0022600086,147,PT01M59.00S,1,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries P.FOUL (P1.PN) (N.Sago),Foul,Personal,1,0,109
+0022600086,149,PT01M59.00S,1,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,MISS Young Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,110
+0022600086,150,PT01M59.00S,1,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Normal Rebound,0,0,111
+0022600086,153,PT01M59.00S,1,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,SUB: Rollins FOR Jakucionis,Substitution,,0,0,112
+0022600086,151,PT01M59.00S,1,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,MISS Young Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,113
+0022600086,154,PT01M59.00S,1,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Unknown,0,0,114
+0022600086,156,PT01M37.00S,1,1610612749,MIL,1631260,Green,A. Green,-235,8,24,Made,1,23,23,46,v,Green 24' 3PT Jump Shot (3 PTS) (Dieng 1 AST),Made Shot,Jump Shot,1,3,115
+0022600086,158,PT01M11.00S,1,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,,,0,v,Green P.FOUL (P1.PN) (N.Sago),Foul,Personal,1,0,116
+0022600086,160,PT01M11.00S,1,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,24,23,47,h,Young Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,117
+0022600086,161,PT01M11.00S,1,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,25,23,48,h,Young Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,118
+0022600086,162,PT00M59.70S,1,1610612749,MIL,1626167,Turner,M. Turner,-208,209,29,Missed,1,,,0,v,MISS Turner 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,119
+0022600086,163,PT00M59.70S,1,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,1,0,120
+0022600086,165,PT00M50.40S,1,1610612764,WAS,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton Out of Bounds Lost Ball Turnover (P1.T4),Turnover,Out of Bounds Lost Ball Turnover,1,0,121
+0022600086,166,PT00M33.70S,1,1610612749,MIL,1631157,Rollins,R. Rollins,-104,36,11,Missed,1,,,0,v,MISS Rollins 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,122
+0022600086,167,PT00M33.70S,1,1610612764,WAS,1630551,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,123
+0022600086,168,PT00M14.40S,1,1610612764,WAS,1642848,Johnson,T. Johnson,-105,83,13,Missed,1,,,0,h,MISS Johnson 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,124
+0022600086,169,PT00M14.40S,1,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,Sarr REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,125
+0022600086,170,PT00M09.60S,1,1610612764,WAS,1642259,Sarr,A. Sarr,62,70,9,Missed,1,,,0,h,MISS Sarr 9' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,126
+0022600086,171,PT00M09.60S,1,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,127
+0022600086,172,PT00M04.10S,1,1610612764,WAS,1642848,Johnson,T. Johnson,0,0,0,,0,,,0,h,Johnson P.FOUL (P2.T4) (N.Sago),Foul,Personal,1,0,128
+0022600086,175,PT00M04.10S,1,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Coulibaly FOR Young,Substitution,,0,0,129
+0022600086,176,PT00M00.10S,1,1610612749,MIL,1631172,Dieng,O. Dieng,18,8,2,Missed,1,,,0,v,MISS Dieng 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,130
+0022600086,177,PT00M00.10S,1,1610612764,WAS,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,131
+0022600086,178,PT00M00.00S,1,0,,0,,,0,0,0,,0,25,23,48,,End of 1st Period (7:42 PM EST),period,end,1,0,132
+0022600086,189,PT12M00.00S,2,0,,0,,,0,0,0,,0,25,23,48,,Start of 2nd Period (7:45 PM EST),period,start,1,0,133
+0022600086,190,PT11M37.00S,2,1610612764,WAS,1642848,Johnson,T. Johnson,-2,311,31,Missed,1,,,0,h,MISS Johnson 31' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,134
+0022600086,191,PT11M37.00S,2,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,135
+0022600086,192,PT11M23.00S,2,1610612764,WAS,1630551,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie S.FOUL (P1.T1) (C.Washington),Foul,Shooting,1,0,136
+0022600086,194,PT11M23.00S,2,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,25,24,49,v,Burries Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,137
+0022600086,195,PT11M23.00S,2,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,25,25,50,v,Burries Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,138
+0022600086,196,PT11M12.00S,2,1610612764,WAS,1629027,Young,T. Young,-175,226,29,Missed,1,,,0,h,MISS Young 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,139
+0022600086,197,PT11M12.00S,2,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,140
+0022600086,199,PT11M07.00S,2,1610612764,WAS,1642267,Carrington,B. Carrington,0,0,0,,0,,,0,h,Jump Ball Carrington vs. Rollins: Tip to Turner,Jump Ball,,1,0,141
+0022600086,202,PT10M52.00S,2,1610612749,MIL,1631157,Rollins,R. Rollins,-84,135,16,Missed,1,,,0,v,MISS Rollins 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,142
+0022600086,203,PT10M52.00S,2,1610612764,WAS,1630551,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,143
+0022600086,204,PT10M36.00S,2,1610612764,WAS,1629028,Ayton,D. Ayton,16,7,2,Made,1,27,25,52,h,Ayton 2' Alley Oop Dunk (2 PTS) (Young 3 AST),Made Shot,Alley Oop Dunk Shot,1,2,144
+0022600086,206,PT10M13.00S,2,1610612749,MIL,1631157,Rollins,R. Rollins,-57,24,6,Missed,1,,,0,v,MISS Rollins 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,145
+0022600086,207,PT10M13.00S,2,1610612764,WAS,1630551,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,146
+0022600086,208,PT10M05.00S,2,1610612764,WAS,1642267,Carrington,B. Carrington,-241,25,24,Missed,1,,,0,h,MISS Carrington 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,147
+0022600086,209,PT10M05.00S,2,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Unknown,1,0,148
+0022600086,211,PT09M54.00S,2,1610612764,WAS,1642267,Carrington,B. Carrington,0,0,0,,0,,,0,h,Carrington P.FOUL (P1.T2) (J.Goble),Foul,Personal,1,0,149
+0022600086,213,PT09M39.00S,2,1610612749,MIL,1631157,Rollins,R. Rollins,223,2,0,Missed,1,,,0,v,MISS Rollins 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,150
+0022600086,214,PT09M39.00S,2,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,151
+0022600086,215,PT09M29.00S,2,1610612749,MIL,1643415,Burries,B. Burries,-42,-1,4,Made,1,27,27,54,v,Burries 4' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,152
+0022600086,216,PT09M29.00S,2,1610612764,WAS,1642848,Johnson,T. Johnson,0,0,0,,0,,,0,h,Johnson S.FOUL (P3.T3) (C.Washington),Foul,Shooting,1,0,153
+0022600086,218,PT09M29.00S,2,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,27,28,55,v,Burries Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,154
+0022600086,219,PT09M09.00S,2,1610612764,WAS,1642267,Carrington,B. Carrington,205,160,26,Made,1,30,28,58,h,Carrington 26' 3PT Jump Shot (3 PTS) (Young 4 AST),Made Shot,Jump Shot,1,3,155
+0022600086,221,PT08M57.00S,2,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries Offensive Charge Foul (P2) (C.Washington),Foul,Offensive Charge,1,0,156
+0022600086,223,PT08M57.00S,2,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries Offensive Foul Turnover (P1.T5),Turnover,Offensive Foul Turnover,1,0,157
+0022600086,224,PT08M43.00S,2,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries S.FOUL (P3.T1) (C.Washington),Foul,Shooting,1,0,158
+0022600086,226,PT08M43.00S,2,1610612764,WAS,1629028,Ayton,D. Ayton,0,0,0,,0,31,28,59,h,Ayton Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,159
+0022600086,229,PT08M43.00S,2,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,SUB: Jakucionis FOR Burries,Substitution,,0,0,160
+0022600086,227,PT08M43.00S,2,1610612764,WAS,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,MISS Ayton Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,161
+0022600086,230,PT08M43.00S,2,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,162
+0022600086,231,PT08M35.00S,2,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,9,9,1,Made,1,31,30,61,v,Jaquez Jr. 1' Running Layup (9 PTS) (Kuzma 2 AST),Made Shot,Running Layup Shot,1,2,163
+0022600086,233,PT08M20.00S,2,1610612764,WAS,1629027,Young,T. Young,4,156,16,Made,1,33,30,63,h,Young 16' Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,2,164
+0022600086,234,PT08M20.00S,2,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,Jakucionis S.FOUL (P1.T2) (C.Washington),Foul,Shooting,1,0,165
+0022600086,236,PT08M20.00S,2,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,34,30,64,h,Young Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,166
+0022600086,237,PT08M08.00S,2,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,31,26,4,Missed,1,,,0,v,MISS Jaquez Jr. 4' Layup,Missed Shot,Layup Shot,1,2,167
+0022600086,237,PT08M08.00S,2,1610612764,WAS,1642848,Johnson,T. Johnson,0,0,0,,0,,,0,h,Johnson BLOCK (1 BLK),,,1,2,168
+0022600086,238,PT08M08.00S,2,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,169
+0022600086,240,PT08M04.00S,2,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,-210,169,27,Made,1,34,33,67,v,Jakucionis 27' 3PT Jump Shot (3 PTS) (Jaquez Jr. 1 AST),Made Shot,Jump Shot,1,3,170
+0022600086,242,PT07M47.00S,2,1610612764,WAS,1642848,Johnson,T. Johnson,-64,239,25,Missed,1,,,0,h,MISS Johnson 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,171
+0022600086,243,PT07M47.00S,2,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,172
+0022600086,244,PT07M41.00S,2,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,173
+0022600086,245,PT07M33.00S,2,1610612764,WAS,1642267,Carrington,B. Carrington,0,0,0,,0,,,0,h,Carrington Out of Bounds Lost Ball Turnover (P1.T5),Turnover,Out of Bounds Lost Ball Turnover,1,0,174
+0022600086,248,PT07M33.00S,2,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: George FOR Young,Substitution,,0,0,175
+0022600086,249,PT07M33.00S,2,1610612764,WAS,1630551,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,SUB: Davis FOR Champagnie,Substitution,,0,0,176
+0022600086,250,PT07M19.00S,2,1610612749,MIL,1626167,Turner,M. Turner,-74,237,25,Missed,1,,,0,v,MISS Turner 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,177
+0022600086,251,PT07M19.00S,2,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,1,0,178
+0022600086,254,PT07M18.00S,2,1610612764,WAS,1642267,Carrington,B. Carrington,0,0,0,,0,,,0,h,SUB: Middleton FOR Carrington,Substitution,,0,0,179
+0022600086,256,PT07M18.00S,2,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Ware FOR Turner,Substitution,,0,0,180
+0022600086,257,PT07M02.00S,2,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,181
+0022600086,257,PT07M02.00S,2,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma STEAL (2 STL),,,1,0,182
+0022600086,259,PT06M57.00S,2,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George S.FOUL (P1.T4) (C.Washington),Foul,Shooting,1,0,183
+0022600086,262,PT06M57.00S,2,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,184
+0022600086,264,PT06M57.00S,2,1610612764,WAS,1642848,Johnson,T. Johnson,0,0,0,,0,,,0,h,SUB: Carrington FOR Johnson,Substitution,,0,0,185
+0022600086,266,PT06M57.00S,2,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,SUB: Herro FOR Rollins,Substitution,,0,0,186
+0022600086,261,PT06M57.00S,2,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,34,34,68,v,Jaquez Jr. Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,0,0,187
+0022600086,267,PT06M57.00S,2,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,34,35,69,v,Jaquez Jr. Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,188
+0022600086,268,PT06M41.00S,2,1610612764,WAS,203076,Davis,A. Davis,-42,1,4,Missed,1,,,0,h,MISS Davis 4' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,189
+0022600086,269,PT06M41.00S,2,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,190
+0022600086,270,PT06M34.00S,2,1610612749,MIL,1642276,Ware,K. Ware,-2,0,0,Made,1,34,37,71,v,Ware Running Dunk (2 PTS) (Herro 1 AST),Made Shot,Running Dunk Shot,1,2,191
+0022600086,272,PT06M34.00S,2,1610612764,WAS,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton S.FOUL (P1.PN) (N.Sago),Foul,Shooting,1,0,192
+0022600086,274,PT06M34.00S,2,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,MISS Ware Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,193
+0022600086,275,PT06M34.00S,2,1610612764,WAS,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,194
+0022600086,276,PT06M27.00S,2,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,Jakucionis P.FOUL (P2.T3) (J.Goble),Foul,Personal,1,0,195
+0022600086,278,PT06M23.00S,2,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George OFF.Foul (P2) (N.Sago),Foul,Offensive,1,0,196
+0022600086,280,PT06M23.00S,2,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George Offensive Foul Turnover (P2.T7),Turnover,Offensive Foul Turnover,1,0,197
+0022600086,281,PT06M10.00S,2,1610612749,MIL,1629639,Herro,T. Herro,68,95,12,Made,1,34,39,73,v,Herro 12' Driving Floating Jump Shot (9 PTS) (Ware 1 AST),Made Shot,Driving Floating Jump Shot,1,2,198
+0022600086,282,PT06M09.00S,2,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,199
+0022600086,283,PT05M50.00S,2,1610612764,WAS,203076,Davis,A. Davis,-224,120,25,Missed,1,,,0,h,MISS Davis 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,200
+0022600086,284,PT05M50.00S,2,1610612764,WAS,1642267,Carrington,B. Carrington,0,0,0,,0,,,0,h,Carrington REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,201
+0022600086,285,PT05M43.00S,2,1610612764,WAS,203076,Davis,A. Davis,-6,30,3,Made,1,36,39,75,h,Davis 3' Cutting Layup Shot (12 PTS) (Carrington 1 AST),Made Shot,Cutting Layup Shot,1,2,202
+0022600086,287,PT05M33.00S,2,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George L.B.FOUL (P3.PN) (C.Washington),Foul,Loose Ball,1,0,203
+0022600086,289,PT05M33.00S,2,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,36,40,76,v,Herro Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,204
+0022600086,292,PT05M33.00S,2,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,SUB: Young FOR George,Substitution,,0,0,205
+0022600086,295,PT05M33.00S,2,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,SUB: Green FOR Kuzma,Substitution,,0,0,206
+0022600086,296,PT05M33.00S,2,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,SUB: Dieng FOR Jaquez Jr.,Substitution,,0,0,207
+0022600086,290,PT05M33.00S,2,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,36,41,77,v,Herro Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,208
+0022600086,297,PT05M08.00S,2,1610612764,WAS,1642267,Carrington,B. Carrington,-238,49,24,Made,1,39,41,80,h,Carrington 24' 3PT Jump Shot (6 PTS) (Young 5 AST),Made Shot,Jump Shot,1,3,209
+0022600086,299,PT04M40.00S,2,1610612749,MIL,1629639,Herro,T. Herro,46,33,6,Missed,1,,,0,v,MISS Herro 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,210
+0022600086,299,PT04M40.00S,2,1610612764,WAS,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton BLOCK (1 BLK),,,1,2,211
+0022600086,300,PT04M40.00S,2,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,212
+0022600086,302,PT04M36.00S,2,1610612749,MIL,1642276,Ware,K. Ware,-11,0,1,Made,1,39,43,82,v,Ware 1' Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,213
+0022600086,303,PT04M28.00S,2,1610612764,WAS,1629028,Ayton,D. Ayton,1,5,1,Made,1,41,43,84,h,Ayton 1' Layup (5 PTS) (Carrington 2 AST),Made Shot,Layup Shot,1,2,214
+0022600086,305,PT04M18.00S,2,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,215
+0022600086,305,PT04M18.00S,2,1610612764,WAS,1642267,Carrington,B. Carrington,0,0,0,,0,,,0,h,Carrington STEAL (1 STL),,,1,0,216
+0022600086,307,PT04M11.00S,2,1610612764,WAS,203114,Middleton,K. Middleton,-144,51,15,Missed,1,,,0,h,MISS Middleton 15' Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,2,217
+0022600086,308,PT04M11.00S,2,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,218
+0022600086,309,PT03M58.00S,2,1610612749,MIL,1642276,Ware,K. Ware,216,123,25,Missed,1,,,0,v,MISS Ware 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,219
+0022600086,310,PT03M58.00S,2,1610612749,MIL,1631172,Dieng,O. Dieng,0,0,0,,0,,,0,v,Dieng REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,220
+0022600086,311,PT03M54.00S,2,1610612749,MIL,1629639,Herro,T. Herro,-37,251,25,Missed,1,,,0,v,MISS Herro 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,221
+0022600086,312,PT03M54.00S,2,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,222
+0022600086,313,PT03M51.00S,2,1610612749,MIL,1642276,Ware,K. Ware,5,-13,1,Missed,1,,,0,v,MISS Ware 1' Tip Dunk Shot,Missed Shot,Tip Dunk Shot,1,2,223
+0022600086,314,PT03M51.00S,2,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,1,0,224
+0022600086,317,PT03M51.00S,2,1610612764,WAS,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,SUB: Coulibaly FOR Middleton,Substitution,,0,0,225
+0022600086,318,PT03M38.00S,2,1610612764,WAS,1642267,Carrington,B. Carrington,-90,92,13,Made,1,43,43,86,h,Carrington 13' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,226
+0022600086,319,PT03M20.00S,2,1610612749,MIL,1642276,Ware,K. Ware,-30,28,4,Made,1,43,45,88,v,Ware 4' Dunk (6 PTS) (Herro 2 AST),Made Shot,Dunk Shot,1,2,227
+0022600086,321,PT03M05.00S,2,1610612764,WAS,203076,Davis,A. Davis,-67,146,16,Missed,1,,,0,h,MISS Davis 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,228
+0022600086,322,PT03M05.00S,2,1610612764,WAS,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,229
+0022600086,323,PT03M00.00S,2,1610612764,WAS,1629028,Ayton,D. Ayton,-16,108,11,Missed,1,,,0,h,MISS Ayton 11' Jump Shot,Missed Shot,Jump Shot,1,2,230
+0022600086,324,PT03M00.00S,2,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,1,0,231
+0022600086,327,PT02M59.00S,2,1610612764,WAS,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,SUB: Sarr FOR Ayton,Substitution,,0,0,232
+0022600086,328,PT02M46.00S,2,1610612764,WAS,1629027,Young,T. Young,-63,281,29,Missed,1,,,0,h,MISS Young 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,233
+0022600086,329,PT02M46.00S,2,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,Jakucionis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,234
+0022600086,330,PT02M41.00S,2,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,Coulibaly Violation:Kicked Ball (J.Goble),Violation,Kicked Ball,0,0,235
+0022600086,331,PT02M29.00S,2,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro Lost Ball Turnover (P2.T8),Turnover,Lost Ball,1,0,236
+0022600086,331,PT02M29.00S,2,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis STEAL (2 STL),,,1,0,237
+0022600086,333,PT02M29.00S,2,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro L.B.FOUL (P1.T4) (C.Washington),Foul,Loose Ball,1,0,238
+0022600086,339,PT02M29.00S,2,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,SUB: Jaquez Jr. FOR Ware,Substitution,,0,0,239
+0022600086,340,PT02M29.00S,2,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,SUB: Kuzma FOR Jakucionis,Substitution,,0,0,240
+0022600086,341,PT02M29.00S,2,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,,,0,v,SUB: Rollins FOR Green,Substitution,,0,0,241
+0022600086,342,PT02M29.00S,2,1610612749,MIL,1631172,Dieng,O. Dieng,0,0,0,,0,,,0,v,SUB: Turner FOR Dieng,Substitution,,0,0,242
+0022600086,343,PT02M21.00S,2,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma P.FOUL (P1.PN) (J.Goble),Foul,Personal,1,0,243
+0022600086,345,PT02M21.00S,2,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,44,45,89,h,Young Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,244
+0022600086,346,PT02M21.00S,2,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,45,45,90,h,Young Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,245
+0022600086,347,PT02M06.00S,2,1610612749,MIL,1631157,Rollins,R. Rollins,118,216,25,Missed,1,,,0,v,MISS Rollins 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,246
+0022600086,348,PT02M06.00S,2,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,247
+0022600086,349,PT01M57.00S,2,1610612749,MIL,1629639,Herro,T. Herro,-35,159,16,Missed,1,,,0,v,MISS Herro 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,248
+0022600086,349,PT01M57.00S,2,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,Coulibaly BLOCK (1 BLK),,,1,2,249
+0022600086,350,PT01M57.00S,2,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,250
+0022600086,352,PT01M50.00S,2,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Out of Bounds - Bad Pass Turnover Turnover (P1.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,251
+0022600086,353,PT01M31.00S,2,1610612749,MIL,1626167,Turner,M. Turner,-13,6,1,Made,1,45,47,92,v,Turner 1' Driving Layup (3 PTS) (Herro 3 AST),Made Shot,Driving Layup Shot,1,2,252
+0022600086,355,PT01M31.00S,2,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis S.FOUL (P1.PN) (J.Goble),Foul,Shooting,1,0,253
+0022600086,357,PT01M31.00S,2,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,45,48,93,v,Turner Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,254
+0022600086,358,PT01M14.00S,2,1610612764,WAS,1642267,Carrington,B. Carrington,-18,108,11,Missed,1,,,0,h,MISS Carrington 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,255
+0022600086,359,PT01M14.00S,2,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,256
+0022600086,361,PT01M01.00S,2,1610612749,MIL,1626167,Turner,M. Turner,66,254,26,Made,1,45,51,96,v,Turner 26' 3PT Jump Shot (6 PTS) (Herro 4 AST),Made Shot,Jump Shot,1,3,257
+0022600086,363,PT00M50.40S,2,1610612764,WAS,1629027,Young,T. Young,-24,-4,2,Missed,1,,,0,h,MISS Young 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,258
+0022600086,364,PT00M50.40S,2,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,Sarr REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,259
+0022600086,365,PT00M49.20S,2,1610612764,WAS,1642259,Sarr,A. Sarr,-6,8,1,Made,1,47,51,98,h,Sarr 1' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,260
+0022600086,366,PT00M34.60S,2,1610612749,MIL,1631157,Rollins,R. Rollins,-32,4,3,Made,1,47,53,100,v,Rollins 3' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,261
+0022600086,367,PT00M25.10S,2,1610612764,WAS,1629027,Young,T. Young,21,3,2,Made,1,49,53,102,h,Young 2' Driving Floating Jump Shot (9 PTS) (Davis 2 AST),Made Shot,Driving Floating Jump Shot,1,2,262
+0022600086,369,PT00M07.50S,2,1610612749,MIL,1629639,Herro,T. Herro,-105,251,27,Made,1,49,56,105,v,Herro 27' 3PT Step Back Jump Shot (14 PTS),Made Shot,Step Back Jump shot,1,3,263
+0022600086,370,PT00M05.10S,2,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins P.FOUL (P2.PN) (N.Sago),Foul,Personal,1,0,264
+0022600086,372,PT00M05.10S,2,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,50,56,106,h,Young Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,265
+0022600086,375,PT00M05.10S,2,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,SUB: Champagnie FOR Sarr,Substitution,,0,0,266
+0022600086,378,PT00M05.10S,2,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,SUB: Green FOR Jaquez Jr.,Substitution,,0,0,267
+0022600086,379,PT00M05.10S,2,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,SUB: Jakucionis FOR Rollins,Substitution,,0,0,268
+0022600086,373,PT00M05.10S,2,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,51,56,107,h,Young Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,269
+0022600086,380,PT00M00.40S,2,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,-42,-4,4,Missed,1,,,0,v,MISS Jakucionis 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,270
+0022600086,380,PT00M00.40S,2,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,Coulibaly BLOCK (2 BLK),,,1,2,271
+0022600086,381,PT00M00.40S,2,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,272
+0022600086,386,PT00M00.00S,2,0,,0,,,0,0,0,,0,51,56,107,,End of 2nd Period (8:17 PM EST),period,end,1,0,273
+0022600086,395,PT12M00.00S,3,0,,0,,,0,0,0,,0,51,56,107,,Start of 3rd Period (8:32 PM EST),period,start,0,0,274
+0022600086,396,PT11M33.00S,3,1610612764,WAS,203076,Davis,A. Davis,-24,24,3,Missed,1,,,0,h,MISS Davis 3' Turnaround Bank Shot,Missed Shot,Turnaround Bank shot,1,2,275
+0022600086,397,PT11M33.00S,3,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,Sarr REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,276
+0022600086,398,PT11M29.00S,3,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,Made,1,53,56,109,h,Sarr Putback Layup (6 PTS),Made Shot,Putback Layup Shot,1,2,277
+0022600086,399,PT11M20.00S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,250,7,25,Missed,1,,,0,v,MISS Kuzma 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,278
+0022600086,400,PT11M20.00S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,279
+0022600086,401,PT11M01.00S,3,1610612764,WAS,1642259,Sarr,A. Sarr,-250,-28,25,Missed,1,,,0,h,MISS Sarr 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,280
+0022600086,402,PT11M01.00S,3,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,281
+0022600086,403,PT10M52.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,-28,5,3,Made,1,53,58,111,v,Jaquez Jr. 3' Running Reverse Layup (13 PTS) (Herro 5 AST),Made Shot,Running Reverse Layup Shot,1,2,282
+0022600086,406,PT10M41.00S,3,1610612764,WAS,1629027,Young,T. Young,-53,79,10,Made,1,55,58,113,h,Young 10' Driving Floating Jump Shot (13 PTS) (Davis 3 AST),Made Shot,Driving Floating Jump Shot,1,2,283
+0022600086,408,PT10M32.00S,3,1610612749,MIL,1631157,Rollins,R. Rollins,-228,112,25,Missed,1,,,0,v,MISS Rollins 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,284
+0022600086,409,PT10M32.00S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,285
+0022600086,410,PT10M22.00S,3,1610612764,WAS,1642273,George,K. George,-243,-14,24,Missed,1,,,0,h,MISS George 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,286
+0022600086,411,PT10M22.00S,3,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,287
+0022600086,412,PT10M11.00S,3,1610612749,MIL,1629639,Herro,T. Herro,39,6,4,Missed,1,,,0,v,MISS Herro 4' Running Layup,Missed Shot,Running Layup Shot,1,2,288
+0022600086,413,PT10M11.00S,3,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,289
+0022600086,414,PT10M05.00S,3,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George Bad Pass Turnover (P3.T9),Turnover,Bad Pass,1,0,290
+0022600086,414,PT10M05.00S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma STEAL (3 STL),,,1,0,291
+0022600086,416,PT09M53.00S,3,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro Lost Ball Turnover (P3.T9),Turnover,Lost Ball,1,0,292
+0022600086,416,PT09M53.00S,3,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young STEAL (1 STL),,,1,0,293
+0022600086,418,PT09M50.00S,3,1610612764,WAS,1642273,George,K. George,-197,168,26,Missed,1,,,0,h,MISS George 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,294
+0022600086,419,PT09M50.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,295
+0022600086,420,PT09M41.00S,3,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young P.FOUL (P3.T1) (J.Goble),Foul,Personal,1,0,296
+0022600086,422,PT09M33.00S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,148,251,29,Made,1,55,61,116,v,Kuzma 29' 3PT Jump Shot (5 PTS) (Rollins 3 AST),Made Shot,Jump Shot,1,3,297
+0022600086,424,PT09M16.00S,3,1610612764,WAS,203076,Davis,A. Davis,-15,12,2,Made,1,57,61,118,h,Davis 2' Driving Layup (14 PTS),Made Shot,Driving Layup Shot,1,2,298
+0022600086,425,PT09M05.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,1,29,3,Made,1,57,63,120,v,Jaquez Jr. 3' Driving Floating Jump Shot (15 PTS),Made Shot,Driving Floating Jump Shot,1,2,299
+0022600086,426,PT08M47.00S,3,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,4,3,1,Made,1,59,63,122,h,Coulibaly 1' Driving Layup (4 PTS) (Sarr 1 AST),Made Shot,Driving Layup Shot,1,2,300
+0022600086,428,PT08M31.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,217,163,27,Made,1,59,66,125,v,Jaquez Jr. 27' 3PT Jump Shot (18 PTS) (Turner 2 AST),Made Shot,Jump Shot,1,3,301
+0022600086,430,PT08M21.00S,3,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George Out of Bounds - Bad Pass Turnover Turnover (P4.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,302
+0022600086,431,PT08M05.00S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,303
+0022600086,431,PT08M05.00S,3,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,Coulibaly STEAL (3 STL),,,1,0,304
+0022600086,433,PT08M02.00S,3,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner S.FOUL (P2.T1) (J.Goble),Foul,Shooting,1,0,305
+0022600086,435,PT08M02.00S,3,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,60,66,126,h,Coulibaly Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,306
+0022600086,436,PT08M02.00S,3,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,61,66,127,h,Coulibaly Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,307
+0022600086,437,PT07M52.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. Lost Ball Turnover (P2.T11),Turnover,Lost Ball,1,0,308
+0022600086,437,PT07M52.00S,3,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young STEAL (2 STL),,,1,0,309
+0022600086,439,PT07M51.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. P.FOUL (P2.T2) (C.Washington),Foul,Personal,1,0,310
+0022600086,441,PT07M35.00S,3,1610612764,WAS,1642273,George,K. George,213,119,24,Made,1,64,66,130,h,George 24' 3PT Step Back Jump Shot (10 PTS) (Young 6 AST),Made Shot,Step Back Jump shot,1,3,311
+0022600086,443,PT07M20.00S,3,1610612749,MIL,1629639,Herro,T. Herro,207,301,37,Made,1,64,69,133,v,Herro 37' 3PT Pullup Jump Shot (17 PTS),Made Shot,Pullup Jump shot,1,3,312
+0022600086,444,PT07M07.00S,3,1610612764,WAS,1642259,Sarr,A. Sarr,-48,56,7,Missed,1,,,0,h,MISS Sarr 7' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,313
+0022600086,445,PT07M07.00S,3,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,1,0,314
+0022600086,446,PT07M06.00S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma P.FOUL (P2.T3) (C.Washington),Foul,Personal,1,0,315
+0022600086,448,PT06M59.00S,3,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins S.FOUL (P3.T4) (C.Washington),Foul,Shooting,1,0,316
+0022600086,451,PT06M59.00S,3,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,317
+0022600086,453,PT06M59.00S,3,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,SUB: Jakucionis FOR Rollins,Substitution,,0,0,318
+0022600086,450,PT06M59.00S,3,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,MISS Young Free Throw 1 of 3,Free Throw,Free Throw 1 of 3,1,0,319
+0022600086,454,PT06M59.00S,3,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Normal Rebound,0,0,320
+0022600086,455,PT06M59.00S,3,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,65,69,134,h,Young Free Throw 2 of 3 (14 PTS),Free Throw,Free Throw 2 of 3,1,0,321
+0022600086,456,PT06M59.00S,3,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,66,69,135,h,Young Free Throw 3 of 3 (15 PTS),Free Throw,Free Throw 3 of 3,1,0,322
+0022600086,457,PT06M41.00S,3,1610612749,MIL,1626167,Turner,M. Turner,17,12,2,Made,1,66,71,137,v,Turner 2' Cutting Dunk Shot (8 PTS) (Herro 6 AST),Made Shot,Cutting Dunk Shot,1,2,323
+0022600086,459,PT06M23.00S,3,1610612764,WAS,203076,Davis,A. Davis,-22,53,6,Missed,1,,,0,h,MISS Davis 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,324
+0022600086,460,PT06M23.00S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,325
+0022600086,461,PT06M04.00S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,97,69,12,Missed,1,,,0,v,MISS Kuzma 12' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,326
+0022600086,462,PT06M04.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,327
+0022600086,463,PT06M04.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,-10,8,1,Made,1,66,73,139,v,Jaquez Jr. 1' Putback Layup (21 PTS),Made Shot,Putback Layup Shot,1,2,328
+0022600086,464,PT06M04.00S,3,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,Coulibaly S.FOUL (P1.T2) (C.Washington),Foul,Shooting,1,0,329
+0022600086,468,PT06M04.00S,3,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,SUB: Champagnie FOR Sarr,Substitution,,0,0,330
+0022600086,469,PT06M04.00S,3,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Johnson FOR Young,Substitution,,0,0,331
+0022600086,470,PT06M04.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,66,74,140,v,Jaquez Jr. Free Throw 1 of 1 (21 PTS),Free Throw,Free Throw 1 of 1,1,0,332
+0022600086,471,PT05M45.00S,3,1610612764,WAS,1642848,Johnson,T. Johnson,64,93,11,Made,1,68,74,142,h,Johnson 11' Floating Jump Shot (4 PTS) (Davis 4 AST),Made Shot,Floating Jump shot,1,2,333
+0022600086,473,PT05M38.00S,3,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George P.FOUL (P4.T3) (J.Goble),Foul,Personal,1,0,334
+0022600086,476,PT05M38.00S,3,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,SUB: Carrington FOR George,Substitution,,0,0,335
+0022600086,479,PT05M38.00S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,SUB: Dieng FOR Kuzma,Substitution,,0,0,336
+0022600086,480,PT05M38.00S,3,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Ware FOR Turner,Substitution,,0,0,337
+0022600086,481,PT05M27.00S,3,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,Coulibaly S.FOUL (P2.T4) (C.Washington),Foul,Shooting,1,0,338
+0022600086,483,PT05M27.00S,3,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,MISS Ware Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,339
+0022600086,484,PT05M27.00S,3,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Normal Rebound,1,0,340
+0022600086,485,PT05M27.00S,3,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,68,75,143,v,Ware Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,341
+0022600086,486,PT05M12.00S,3,1610612764,WAS,1642848,Johnson,T. Johnson,0,0,0,,0,,,0,h,Johnson Bad Pass Turnover (P1.T11),Turnover,Bad Pass,1,0,342
+0022600086,486,PT05M12.00S,3,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware STEAL (1 STL),,,1,0,343
+0022600086,488,PT05M08.00S,3,1610612749,MIL,1629639,Herro,T. Herro,205,165,26,Missed,1,,,0,v,MISS Herro 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,344
+0022600086,489,PT05M08.00S,3,1610612764,WAS,1630551,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,345
+0022600086,490,PT04M47.00S,3,1610612764,WAS,203076,Davis,A. Davis,5,20,2,Made,1,70,75,145,h,Davis 2' Driving Floating Jump Shot (16 PTS),Made Shot,Driving Floating Jump Shot,1,2,346
+0022600086,491,PT04M39.00S,3,1610612764,WAS,1642848,Johnson,T. Johnson,0,0,0,,0,,,0,h,Johnson S.FOUL (P4.PN) (J.Goble),Foul,Shooting,1,0,347
+0022600086,493,PT04M39.00S,3,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,70,76,146,v,Jakucionis Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,348
+0022600086,496,PT04M39.00S,3,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,SUB: Green FOR Jaquez Jr.,Substitution,,0,0,349
+0022600086,494,PT04M39.00S,3,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,70,77,147,v,Jakucionis Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,350
+0022600086,497,PT04M29.00S,3,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware S.FOUL (P3.PN) (J.Goble),Foul,Shooting,1,0,351
+0022600086,499,PT04M29.00S,3,1610612764,WAS,1642267,Carrington,B. Carrington,0,0,0,,0,71,77,148,h,Carrington Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,352
+0022600086,502,PT04M29.00S,3,1610612764,WAS,1642848,Johnson,T. Johnson,0,0,0,,0,,,0,h,SUB: Middleton FOR Johnson,Substitution,,0,0,353
+0022600086,500,PT04M29.00S,3,1610612764,WAS,1642267,Carrington,B. Carrington,0,0,0,,0,72,77,149,h,Carrington Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,354
+0022600086,503,PT04M10.00S,3,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,31,2,3,Made,1,72,79,151,v,Jakucionis 3' Driving Layup (7 PTS) (Herro 7 AST),Made Shot,Driving Layup Shot,1,2,355
+0022600086,505,PT04M01.00S,3,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware S.FOUL (P4.PN) (J.Goble),Foul,Shooting,1,0,356
+0022600086,507,PT04M01.00S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,MISS Davis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,357
+0022600086,508,PT04M01.00S,3,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Normal Rebound,0,0,358
+0022600086,509,PT04M01.00S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,73,79,152,h,Davis Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,359
+0022600086,510,PT03M47.00S,3,1610612749,MIL,1629639,Herro,T. Herro,137,252,29,Missed,1,,,0,v,MISS Herro 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,360
+0022600086,511,PT03M47.00S,3,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,Coulibaly REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,361
+0022600086,512,PT03M35.00S,3,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware S.FOUL (P5.PN) (C.Washington),Foul,Shooting,1,0,362
+0022600086,514,PT03M35.00S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,74,79,153,h,Davis Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,363
+0022600086,517,PT03M35.00S,3,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,SUB: Burries FOR Herro,Substitution,,0,0,364
+0022600086,518,PT03M35.00S,3,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,365
+0022600086,520,PT03M35.00S,3,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,SUB: Turner FOR Ware,Substitution,,0,0,366
+0022600086,521,PT03M35.00S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,75,79,154,h,Davis Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,367
+0022600086,522,PT03M14.00S,3,1610612749,MIL,1631172,Dieng,O. Dieng,-129,205,24,Missed,1,,,0,v,MISS Dieng 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,368
+0022600086,523,PT03M14.00S,3,1610612764,WAS,1630551,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,369
+0022600086,524,PT02M57.00S,3,1610612764,WAS,203076,Davis,A. Davis,-26,65,7,Missed,1,,,0,h,MISS Davis 7' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,370
+0022600086,525,PT02M57.00S,3,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,371
+0022600086,526,PT02M47.00S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis S.FOUL (P2.PN) (C.Washington),Foul,Shooting,1,0,372
+0022600086,528,PT02M47.00S,3,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,MISS Burries Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,373
+0022600086,529,PT02M47.00S,3,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Normal Rebound,0,0,374
+0022600086,532,PT02M47.00S,3,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,SUB: Young FOR Coulibaly,Substitution,,0,0,375
+0022600086,530,PT02M47.00S,3,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,75,80,155,v,Burries Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,376
+0022600086,533,PT02M35.00S,3,1610612764,WAS,1642267,Carrington,B. Carrington,20,57,6,Missed,1,,,0,h,MISS Carrington 6' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,377
+0022600086,534,PT02M35.00S,3,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,1,0,378
+0022600086,535,PT02M35.00S,3,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner L.B.FOUL (P3.PN) (C.Washington),Foul,Loose Ball,1,0,379
+0022600086,537,PT02M35.00S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,76,80,156,h,Davis Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,380
+0022600086,538,PT02M35.00S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,77,80,157,h,Davis Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,1,0,381
+0022600086,539,PT02M25.00S,3,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,-28,32,4,Made,1,77,82,159,v,Jakucionis 4' Driving Layup (9 PTS) (Dieng 2 AST),Made Shot,Driving Layup Shot,1,2,382
+0022600086,541,PT02M15.00S,3,1610612764,WAS,1630551,Champagnie,J. Champagnie,-25,9,3,Made,1,79,82,161,h,Champagnie 3' Reverse Layup (2 PTS) (Carrington 3 AST),Made Shot,Reverse Layup Shot,1,2,383
+0022600086,543,PT02M10.00S,3,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,Jakucionis Lost Ball Turnover (P1.T12),Turnover,Lost Ball,1,0,384
+0022600086,543,PT02M10.00S,3,1610612764,WAS,1642267,Carrington,B. Carrington,0,0,0,,0,,,0,h,Carrington STEAL (2 STL),,,1,0,385
+0022600086,547,PT02M01.00S,3,1610612764,WAS,203076,Davis,A. Davis,-142,-12,14,Made,1,81,82,163,h,Davis 14' Fadeaway Jumper (23 PTS),Made Shot,Fadeaway Jump Shot,1,2,386
+0022600086,549,PT02M01.00S,3,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner S.FOUL (P4.PN) (N.Sago),Foul,Shooting,1,0,387
+0022600086,552,PT02M01.00S,3,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,388
+0022600086,554,PT02M01.00S,3,1610612749,MIL,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Sims FOR Turner,Substitution,,0,0,389
+0022600086,551,PT02M01.00S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,MISS Davis Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,390
+0022600086,555,PT02M01.00S,3,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,Burries REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,391
+0022600086,556,PT01M46.00S,3,1610612764,WAS,1642267,Carrington,B. Carrington,0,0,0,,0,,,0,h,Carrington P.FOUL (P2.PN) (J.Goble),Foul,Personal,1,0,392
+0022600086,558,PT01M46.00S,3,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,81,83,164,v,Jakucionis Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,393
+0022600086,559,PT01M46.00S,3,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,81,84,165,v,Jakucionis Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,394
+0022600086,560,PT01M37.00S,3,1610612749,MIL,1631172,Dieng,O. Dieng,0,0,0,,0,,,0,v,Dieng P.FOUL (P1.PN) (N.Sago),Foul,Personal,1,0,395
+0022600086,562,PT01M37.00S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,82,84,166,h,Davis Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,1,0,396
+0022600086,563,PT01M37.00S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,83,84,167,h,Davis Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,1,0,397
+0022600086,564,PT01M27.00S,3,1610612749,MIL,1631260,Green,A. Green,0,257,26,Made,1,83,87,170,v,Green 26' 3PT Pullup Jump Shot (6 PTS) (Jakucionis 2 AST),Made Shot,Pullup Jump shot,1,3,398
+0022600086,566,PT01M12.00S,3,1610612764,WAS,203076,Davis,A. Davis,41,116,12,Made,1,85,87,172,h,Davis 12' Jump Shot (27 PTS) (Young 7 AST),Made Shot,Jump Shot,1,2,399
+0022600086,568,PT01M02.00S,3,1610612749,MIL,1643415,Burries,B. Burries,184,187,26,Made,1,85,90,175,v,Burries 26' 3PT Jump Shot (9 PTS) (Jakucionis 3 AST),Made Shot,Jump Shot,1,3,400
+0022600086,570,PT00M44.80S,3,1610612764,WAS,1630551,Champagnie,J. Champagnie,-242,-14,24,Missed,1,,,0,h,MISS Champagnie 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,401
+0022600086,571,PT00M44.80S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,402
+0022600086,572,PT00M44.00S,3,1610612764,WAS,203076,Davis,A. Davis,-15,35,4,Made,1,87,90,177,h,Davis 4' Putback Layup (29 PTS),Made Shot,Putback Layup Shot,1,2,403
+0022600086,573,PT00M30.60S,3,1610612749,MIL,1643415,Burries,B. Burries,-216,117,25,Made,1,87,93,180,v,Burries 25' 3PT Step Back Jump Shot (12 PTS) (Dieng 3 AST),Made Shot,Step Back Jump shot,1,3,404
+0022600086,574,PT00M09.40S,3,1610612764,WAS,1629027,Young,T. Young,-48,0,5,Missed,1,,,0,h,MISS Young 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,405
+0022600086,576,PT00M09.40S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,406
+0022600086,577,PT00M09.40S,3,1610612749,MIL,1631172,Dieng,O. Dieng,0,0,0,,0,,,0,v,Dieng S.FOUL (P2.PN) (C.Washington),Foul,Shooting,1,0,407
+0022600086,579,PT00M09.40S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,88,93,181,h,Davis Free Throw 1 of 2 (30 PTS),Free Throw,Free Throw 1 of 2,1,0,408
+0022600086,582,PT00M09.40S,3,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Coulibaly FOR Young,Substitution,,0,0,409
+0022600086,584,PT00M09.40S,3,1610612749,MIL,1630579,Sims,J. Sims,0,0,0,,0,,,0,v,SUB: Kuzma FOR Sims,Substitution,,0,0,410
+0022600086,580,PT00M09.40S,3,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,MISS Davis Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,411
+0022600086,585,PT00M09.40S,3,1610612764,WAS,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,412
+0022600086,586,PT00M08.00S,3,1610612764,WAS,203114,Middleton,K. Middleton,-6,9,1,Made,1,90,93,183,h,Middleton 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,413
+0022600086,587,PT00M01.10S,3,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma Out of Bounds - Bad Pass Turnover Turnover (P3.T13),Turnover,Out of Bounds - Bad Pass Turnover,1,0,414
+0022600086,589,PT00M01.10S,3,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,SUB: Young FOR Coulibaly,Substitution,,0,0,415
+0022600086,591,PT00M01.10S,3,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,SUB: Sims FOR Burries,Substitution,,0,0,416
+0022600086,592,PT00M00.10S,3,0,,0,,,0,0,0,,0,,,0,h,WIZARDS Heave,Heave,Team Field Goal Attempt,0,0,417
+0022600086,593,PT00M00.10S,3,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,0,0,418
+0022600086,594,PT00M00.00S,3,0,,0,,,0,0,0,,0,90,93,183,,End of 3rd Period (9:08 PM EST),period,end,1,0,419
+0022600086,601,PT12M00.00S,4,0,,0,,,0,0,0,,0,90,93,183,,Start of 4th Period (9:10 PM EST),period,start,0,0,420
+0022600086,608,PT11M44.00S,4,1610612749,MIL,1643415,Burries,B. Burries,29,0,3,Missed,1,,,0,v,MISS Burries 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,421
+0022600086,609,PT11M44.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,422
+0022600086,610,PT11M39.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,232,129,27,Made,1,90,96,186,v,Rollins 27' 3PT Jump Shot (7 PTS) (Kuzma 3 AST),Made Shot,Jump Shot,1,3,423
+0022600086,612,PT11M26.00S,4,1610612764,WAS,1630551,Champagnie,J. Champagnie,21,253,25,Made,1,93,96,189,h,Champagnie 25' 3PT Jump Shot (5 PTS) (Young 8 AST),Made Shot,Jump Shot,1,3,424
+0022600086,614,PT11M07.00S,4,1610612749,MIL,1643415,Burries,B. Burries,37,19,4,Missed,1,,,0,v,MISS Burries 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,425
+0022600086,615,PT11M07.00S,4,1610612764,WAS,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,426
+0022600086,616,PT10M54.00S,4,1610612764,WAS,1629027,Young,T. Young,59,8,6,Made,1,95,96,191,h,Young 6' Driving Floating Jump Shot (17 PTS),Made Shot,Driving Floating Jump Shot,1,2,427
+0022600086,617,PT10M37.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,47,63,8,Missed,1,,,0,v,MISS Rollins 8' Driving Layup,Missed Shot,Driving Layup Shot,1,2,428
+0022600086,617,PT10M37.00S,4,1610612764,WAS,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton BLOCK (2 BLK),,,1,2,429
+0022600086,618,PT10M37.00S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,1,0,430
+0022600086,621,PT10M25.00S,4,1610612764,WAS,1629028,Ayton,D. Ayton,5,20,2,Made,1,97,96,193,h,Ayton 2' Dunk (7 PTS) (Champagnie 1 AST),Made Shot,Dunk Shot,1,2,431
+0022600086,623,PT10M25.00S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,432
+0022600086,625,PT10M25.00S,4,1610612749,MIL,1631260,Green,A. Green,0,0,0,,0,,,0,v,SUB: Jaquez Jr. FOR Green,Substitution,,0,0,433
+0022600086,627,PT10M11.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,14,7,2,Missed,1,,,0,v,MISS Kuzma 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,434
+0022600086,628,PT10M11.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,Rollins REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,435
+0022600086,629,PT10M08.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,Made,1,97,98,195,v,Rollins Tip Layup Shot (9 PTS),Made Shot,Tip Layup Shot,1,2,436
+0022600086,630,PT09M49.00S,4,1610612764,WAS,1642848,Johnson,T. Johnson,7,12,1,Made,1,99,98,197,h,Johnson 1' Driving Floating Jump Shot (6 PTS) (Young 9 AST),Made Shot,Driving Floating Jump Shot,1,2,437
+0022600086,634,PT09M33.00S,4,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware Offensive Charge Foul (P6) (C.Washington),Foul,Offensive Charge,1,0,438
+0022600086,636,PT09M33.00S,4,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,Ware Offensive Foul Turnover (P1.T14),Turnover,Offensive Foul Turnover,1,0,439
+0022600086,638,PT09M33.00S,4,1610612749,MIL,1642276,Ware,K. Ware,0,0,0,,0,,,0,v,SUB: Turner FOR Ware,Substitution,,0,0,440
+0022600086,639,PT09M16.00S,4,1610612764,WAS,1642848,Johnson,T. Johnson,-142,122,19,Made,1,101,98,199,h,Johnson 19' Pullup Jump Shot (8 PTS) (Young 10 AST),Made Shot,Pullup Jump shot,1,2,441
+0022600086,641,PT09M01.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,-102,248,27,Missed,1,,,0,v,MISS Rollins 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,442
+0022600086,642,PT09M01.00S,4,1610612764,WAS,1642848,Johnson,T. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,443
+0022600086,643,PT08M41.00S,4,1610612764,WAS,1629028,Ayton,D. Ayton,-18,7,2,Made,1,103,98,201,h,Ayton 2' Hook Shot (9 PTS) (Young 11 AST),Made Shot,Hook Shot,1,2,444
+0022600086,645,PT08M20.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,-244,51,25,Missed,1,,,0,v,MISS Kuzma 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,445
+0022600086,646,PT08M20.00S,4,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,446
+0022600086,647,PT08M13.00S,4,1610612764,WAS,1630551,Champagnie,J. Champagnie,10,0,1,Made,1,105,98,203,h,Champagnie 1' Running Layup (8 PTS) (George 2 AST),Made Shot,Running Layup Shot,1,2,447
+0022600086,649,PT08M13.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,Kuzma S.FOUL (P3.T1) (J.Goble),Foul,Shooting,1,0,448
+0022600086,651,PT08M13.00S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,449
+0022600086,655,PT08M13.00S,4,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,SUB: Herro FOR Burries,Substitution,,0,0,450
+0022600086,656,PT08M13.00S,4,1610612749,MIL,1631157,Rollins,R. Rollins,0,0,0,,0,,,0,v,SUB: Jakucionis FOR Rollins,Substitution,,0,0,451
+0022600086,652,PT08M13.00S,4,1610612764,WAS,1630551,Champagnie,J. Champagnie,0,0,0,,0,106,98,204,h,Champagnie Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,1,0,452
+0022600086,657,PT07M59.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,-26,47,5,Missed,1,,,0,v,MISS Kuzma 5' Hook Shot,Missed Shot,Hook Shot,1,2,453
+0022600086,658,PT07M59.00S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,1,0,454
+0022600086,661,PT07M59.00S,4,1610612764,WAS,1630551,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,SUB: Coulibaly FOR Champagnie,Substitution,,0,0,455
+0022600086,662,PT07M52.00S,4,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,-237,-14,24,Made,1,109,98,207,h,Coulibaly 24' 3PT Jump Shot (9 PTS) (George 3 AST),Made Shot,Jump Shot,1,3,456
+0022600086,664,PT07M39.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,-22,22,3,Missed,1,,,0,v,MISS Jaquez Jr. 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,457
+0022600086,665,PT07M39.00S,4,1610612764,WAS,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,458
+0022600086,666,PT07M26.00S,4,1610612764,WAS,1629028,Ayton,D. Ayton,-37,5,4,Made,1,111,98,209,h,Ayton 4' Cutting Layup Shot (11 PTS) (Young 12 AST),Made Shot,Cutting Layup Shot,1,2,459
+0022600086,668,PT07M04.00S,4,1610612749,MIL,1629639,Herro,T. Herro,73,20,8,Missed,1,,,0,v,MISS Herro 8' Driving Layup,Missed Shot,Driving Layup Shot,1,2,460
+0022600086,669,PT07M04.00S,4,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,461
+0022600086,670,PT07M00.00S,4,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,Jakucionis P.FOUL (P3.T2) (C.Washington),Foul,Personal,1,0,462
+0022600086,673,PT07M00.00S,4,1610612749,MIL,1628398,Kuzma,K. Kuzma,0,0,0,,0,,,0,v,SUB: Dieng FOR Kuzma,Substitution,,0,0,463
+0022600086,674,PT06M47.00S,4,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,227,-15,0,Missed,1,,,0,h,MISS Coulibaly 3PT Jump Shot,Missed Shot,Jump Shot,1,3,464
+0022600086,675,PT06M47.00S,4,1610612749,MIL,1631172,Dieng,O. Dieng,0,0,0,,0,,,0,v,Dieng REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,465
+0022600086,676,PT06M34.00S,4,1610612749,MIL,1629639,Herro,T. Herro,0,262,26,Made,1,111,101,212,v,Herro 26' 3PT Step Back Jump Shot (20 PTS) (Jaquez Jr. 2 AST),Made Shot,Step Back Jump shot,1,3,466
+0022600086,677,PT06M14.00S,4,1610612764,WAS,1629027,Young,T. Young,-164,201,26,Missed,1,,,0,h,MISS Young 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,467
+0022600086,678,PT06M14.00S,4,1610612749,MIL,1631172,Dieng,O. Dieng,0,0,0,,0,,,0,v,Dieng REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,468
+0022600086,679,PT05M56.00S,4,1610612749,MIL,1626167,Turner,M. Turner,-88,234,25,Made,1,111,104,215,v,Turner 25' 3PT Jump Shot (11 PTS) (Herro 8 AST),Made Shot,Jump Shot,1,3,469
+0022600086,681,PT05M54.00S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,470
+0022600086,684,PT05M54.00S,4,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Davis FOR Young,Substitution,,0,0,471
+0022600086,685,PT05M54.00S,4,1610612764,WAS,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,SUB: Sarr FOR Ayton,Substitution,,0,0,472
+0022600086,686,PT05M37.00S,4,1610612764,WAS,1642273,George,K. George,-205,135,25,Missed,1,,,0,h,MISS George 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,473
+0022600086,687,PT05M37.00S,4,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,Jakucionis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,474
+0022600086,781,PT05M25.00S,4,1610612764,WAS,1642848,Johnson,T. Johnson,0,0,0,,0,,,0,h,Johnson P.FOUL (P5.T1) (C.Washington),Foul,Personal,0,0,475
+0022600086,691,PT05M25.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,SUB: Burries FOR Jaquez Jr.,Substitution,,0,0,476
+0022600086,693,PT05M25.00S,4,1610612764,WAS,1642848,Johnson,T. Johnson,0,0,0,,0,,,0,h,SUB: Carrington FOR Johnson,Substitution,,0,0,477
+0022600086,695,PT05M23.00S,4,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,Coulibaly P.FOUL (P3.T2) (C.Washington),Foul,Personal,1,0,478
+0022600086,697,PT05M16.00S,4,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,149,233,28,Missed,1,,,0,v,MISS Jakucionis 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,479
+0022600086,698,PT05M16.00S,4,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,Sarr REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,480
+0022600086,699,PT04M59.00S,4,1610612764,WAS,1642273,George,K. George,-16,17,2,Made,1,113,104,217,h,George 2' Driving Dunk (12 PTS) (Carrington 4 AST),Made Shot,Driving Dunk Shot,1,2,481
+0022600086,701,PT04M39.00S,4,1610612749,MIL,1629639,Herro,T. Herro,8,284,28,Missed,1,,,0,v,MISS Herro 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,482
+0022600086,701,PT04M39.00S,4,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis BLOCK (1 BLK),,,1,3,483
+0022600086,702,PT04M39.00S,4,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,Jakucionis REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,484
+0022600086,704,PT04M37.00S,4,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,-1,23,2,Made,1,113,106,219,v,Jakucionis 2' Tip Layup Shot (13 PTS),Made Shot,Tip Layup Shot,1,2,485
+0022600086,705,PT04M31.00S,4,1610612749,MIL,1631172,Dieng,O. Dieng,0,0,0,,0,,,0,v,Dieng S.FOUL (P3.T3) (C.Washington),Foul,Shooting,1,0,486
+0022600086,707,PT04M31.00S,4,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,114,106,220,h,Davis Free Throw 1 of 2 (31 PTS),Free Throw,Free Throw 1 of 2,1,0,487
+0022600086,708,PT04M31.00S,4,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,115,106,221,h,Davis Free Throw 2 of 2 (32 PTS),Free Throw,Free Throw 2 of 2,1,0,488
+0022600086,709,PT04M18.00S,4,1610612749,MIL,1629639,Herro,T. Herro,0,0,0,,0,,,0,v,Herro Bad Pass Turnover (P4.T15),Turnover,Bad Pass,1,0,489
+0022600086,709,PT04M18.00S,4,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George STEAL (1 STL),,,1,0,490
+0022600086,711,PT04M12.00S,4,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,Jakucionis P.FOUL (P4.T4) (C.Washington),Foul,Personal,1,0,491
+0022600086,714,PT04M12.00S,4,1610612764,WAS,1642267,Carrington,B. Carrington,0,0,0,,0,,,0,h,SUB: Young FOR Carrington,Substitution,,0,0,492
+0022600086,716,PT04M12.00S,4,1610612749,MIL,1643415,Burries,B. Burries,0,0,0,,0,,,0,v,SUB: Jaquez Jr. FOR Burries,Substitution,,0,0,493
+0022600086,717,PT03M56.00S,4,1610612764,WAS,203076,Davis,A. Davis,33,173,18,Missed,1,,,0,h,MISS Davis 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,494
+0022600086,718,PT03M56.00S,4,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,Coulibaly REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,495
+0022600086,719,PT03M55.00S,4,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,Made,1,117,106,223,h,Coulibaly Putback Dunk (11 PTS),Made Shot,Putback Dunk Shot,1,2,496
+0022600086,720,PT03M42.00S,4,1610612749,MIL,1629639,Herro,T. Herro,-218,126,25,Missed,1,,,0,v,MISS Herro 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,497
+0022600086,721,PT03M42.00S,4,1610612749,MIL,1631172,Dieng,O. Dieng,0,0,0,,0,,,0,v,Dieng REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,498
+0022600086,734,PT03M39.00S,4,1610612749,MIL,1631172,Dieng,O. Dieng,0,0,0,,0,,,0,v,Dieng Lost Ball Turnover (P1.T16),Turnover,Lost Ball,1,0,499
+0022600086,734,PT03M39.00S,4,1610612764,WAS,1641731,Coulibaly,B. Coulibaly,0,0,0,,0,,,0,h,Coulibaly STEAL (4 STL),,,1,0,500
+0022600086,722,PT03M23.00S,4,1610612764,WAS,1629027,Young,T. Young,-182,295,35,Missed,1,,,0,h,MISS Young 35' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,501
+0022600086,723,PT03M23.00S,4,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,Sarr REBOUND (Off:5 Def:3),Rebound,Unknown,1,0,502
+0022600086,724,PT03M19.00S,4,1610612764,WAS,203076,Davis,A. Davis,-37,-4,4,Made,1,119,106,225,h,Davis 4' Dunk (34 PTS) (Sarr 2 AST),Made Shot,Dunk Shot,1,2,503
+0022600086,726,PT03M06.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,-162,233,28,Missed,1,,,0,v,MISS Jaquez Jr. 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,504
+0022600086,727,PT03M06.00S,4,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,Sarr REBOUND (Off:5 Def:4),Rebound,Unknown,1,0,505
+0022600086,728,PT02M47.00S,4,1610612764,WAS,1642259,Sarr,A. Sarr,-217,-33,22,Missed,1,,,0,h,MISS Sarr 22' Jump Shot,Missed Shot,Jump Shot,1,2,506
+0022600086,729,PT02M47.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,Jaquez Jr. REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,507
+0022600086,730,PT02M42.00S,4,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young S.FOUL (P4.T3) (C.Washington),Foul,Shooting,1,0,508
+0022600086,732,PT02M42.00S,4,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,119,107,226,v,Jakucionis Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,509
+0022600086,733,PT02M42.00S,4,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,119,108,227,v,Jakucionis Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,510
+0022600086,736,PT02M23.00S,4,1610612764,WAS,1642273,George,K. George,22,110,11,Made,1,121,108,229,h,George 11' Pullup Jump Shot (14 PTS),Made Shot,Pullup Jump shot,1,2,511
+0022600086,737,PT02M10.00S,4,1610612749,MIL,1631172,Dieng,O. Dieng,-227,-9,0,Made,1,121,111,232,v,Dieng 3PT Jump Shot (5 PTS) (Herro 9 AST),Made Shot,Jump Shot,1,3,512
+0022600086,751,PT01M42.00S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Turnover: Shot Clock (T#12),Turnover,Shot Clock Turnover,0,0,513
+0022600086,741,PT01M42.00S,4,0,,0,,,0,0,0,,0,121,111,232,,Instant Replay4th Period (9:34 PM EST),Instant Replay,Overturn Ruling,0,0,514
+0022600086,742,PT01M32.00S,4,1610612749,MIL,1629639,Herro,T. Herro,-9,17,2,Made,1,121,113,234,v,Herro 2' Cutting Layup Shot (22 PTS) (Turner 3 AST),Made Shot,Cutting Layup Shot,1,2,515
+0022600086,744,PT01M22.00S,4,1610612764,WAS,1642273,George,K. George,-27,6,3,Made,1,123,113,236,h,George 3' Alley Oop Dunk (16 PTS) (Young 13 AST),Made Shot,Alley Oop Dunk Shot,1,2,516
+0022600086,746,PT01M13.00S,4,1610612764,WAS,1642259,Sarr,A. Sarr,0,0,0,,0,,,0,h,Sarr S.FOUL (P1.T4) (J.Goble),Foul,Shooting,1,0,517
+0022600086,748,PT01M13.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,MISS Jaquez Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,518
+0022600086,749,PT01M13.00S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Rebound,Rebound,Normal Rebound,1,0,519
+0022600086,750,PT01M13.00S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,123,114,237,v,Jaquez Jr. Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,1,0,520
+0022600086,752,PT00M57.70S,4,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,0,0,0,,0,,,0,v,Jakucionis S.FOUL (P5.PN) (J.Goble),Foul,Shooting,1,0,521
+0022600086,754,PT00M57.70S,4,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,124,114,238,h,Young Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,522
+0022600086,755,PT00M57.70S,4,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,125,114,239,h,Young Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,523
+0022600086,756,PT00M52.40S,4,1610612749,MIL,1642857,Jakučionis,K. Jakučionis,211,167,27,Missed,1,,,0,v,MISS Jakucionis 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,524
+0022600086,756,PT00M52.40S,4,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George BLOCK (1 BLK),,,1,3,525
+0022600086,757,PT00M52.40S,4,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,526
+0022600086,759,PT00M48.50S,4,1610612764,WAS,1642273,George,K. George,1,-3,0,Made,1,127,114,241,h,George Running Dunk (18 PTS),Made Shot,Running Dunk Shot,1,2,527
+0022600086,760,PT00M48.50S,4,0,,1610612749,,,0,0,0,,0,,,0,v,Bucks Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,528
+0022600086,762,PT00M48.50S,4,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,SUB: Carrington FOR Davis,Substitution,,0,0,529
+0022600086,764,PT00M48.50S,4,1610612764,WAS,1642267,Carrington,B. Carrington,0,0,0,,0,,,0,h,SUB: Davis FOR Carrington,Substitution,,0,0,530
+0022600086,765,PT00M39.60S,4,1610612749,MIL,1629639,Herro,T. Herro,-2,22,2,Made,1,127,116,243,v,Herro 2' Driving Layup (24 PTS),Made Shot,Driving Layup Shot,1,2,531
+0022600086,766,PT00M38.70S,4,1610612749,MIL,1631172,Dieng,O. Dieng,0,0,0,,0,,,0,v,Dieng P.FOUL (P4.PN) (N.Sago),Foul,Personal,1,0,532
+0022600086,768,PT00M38.70S,4,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,,,0,h,MISS Young Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,533
+0022600086,769,PT00M38.70S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Normal Rebound,1,0,534
+0022600086,772,PT00M38.70S,4,1610612749,MIL,1631170,Jaquez Jr.,J. Jaquez Jr.,0,0,0,,0,,,0,v,SUB: Green FOR Jaquez Jr.,Substitution,,0,0,535
+0022600086,770,PT00M38.70S,4,1610612764,WAS,1629027,Young,T. Young,0,0,0,,0,128,116,244,h,Young Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,1,0,536
+0022600086,773,PT00M32.10S,4,1610612749,MIL,1631172,Dieng,O. Dieng,-60,249,26,Missed,1,,,0,v,MISS Dieng 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,537
+0022600086,774,PT00M32.10S,4,1610612764,WAS,1642273,George,K. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,538
+0022600086,775,PT00M06.10S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Turnover: Shot Clock (T#13),Turnover,Shot Clock Turnover,1,0,539
+0022600086,776,PT00M03.10S,4,1610612749,MIL,1629639,Herro,T. Herro,-59,363,37,Missed,1,,,0,v,MISS Herro 37' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,540
+0022600086,777,PT00M03.10S,4,1610612764,WAS,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,541
+0022600086,778,PT00M00.00S,4,0,,0,,,0,0,0,,0,128,116,244,,End of 4th Period (9:43 PM EST),period,end,1,0,542
