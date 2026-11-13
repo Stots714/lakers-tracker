@@ -160,6 +160,15 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .lk-head .lk-mode { margin-top: var(--cds-gap-xs); }
 .lk-cover { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: var(--cds-gap-xs) 0 0; line-height: 1.45; }
 .lk-cover:empty { display: none; }
+.lk-legend i.lk-k-sq { width: 10px; height: 10px; border-radius: 2px; }
+.lk-fig-wide { grid-column: 1 / -1; }
+.lk-chart .lk-bar { fill: var(--lk-other, var(--cds-chart-reference)); }
+.lk-chart .lk-bar.lk-f { fill: var(--lk-accent); }
+#scorecard .lk-quick { margin-top: var(--cds-gap-xs); }
+@container lkcard (max-width: 960px) {
+  #scorecard .lk-table.lk-stack td:first-child { grid-column: 1 / -1; justify-content: flex-start; text-align: left; color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  #scorecard .lk-table.lk-stack td:first-child::before { content: none; }
+}
 .lk-h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: var(--cds-gap-md) 0 var(--cds-gap-xs); }
 #lk-watch tbody tr, #lk-conf tbody tr { cursor: pointer; }
 #around .lk-tablewrap { max-height: none; }
@@ -470,27 +479,65 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 
 
   <section class="lk-card" id="scorecard">
-    <h2>Projection scorecard</h2>
+    <h2>Track record</h2>
     <p class="lk-note">Every game so far re-projected with ratings fit only on the games before it, under the adjustments chosen above, then compared with the result. The baseline is the simplest guess: the home team by 2.</p>
     <div class="lk-scores">
       <div><div class="lk-label">Games checked</div><div class="lk-big dash-skeleton" data-source="scorecard_summary" data-field="n">—</div></div>
       <div><div class="lk-label">Average miss</div><div class="lk-big dash-skeleton" data-source="scorecard_summary" data-field="mae">—</div><div class="lk-sub">Baseline <span data-source="scorecard_summary" data-field="base_mae">—</span></div></div>
       <div><div class="lk-label">Winner picked</div><div class="lk-big dash-skeleton" data-source="scorecard_summary" data-field="hit">—</div><div class="lk-sub">Baseline <span data-source="scorecard_summary" data-field="base_hit">—</span></div></div>
     </div>
-    <div class="lk-tablewrap">
-      <table class="lk-table" id="lk-score" data-source="scorecard" data-row-key="variant,date,home">
-        <thead><tr>
-          <th data-field="date" class="lk-left">Date</th>
-          <th data-field="home" class="lk-left">Game</th>
-          <th data-field="proj">Projected</th>
-          <th data-field="actual">Actual</th>
-          <th data-field="miss">Miss</th>
-          <th data-field="hit" class="lk-left">Winner</th>
-        </tr></thead>
-        <tbody></tbody>
-      </table>
+    <h3 class="lk-h3">Quick read</h3>
+    <ul class="lk-quick" id="lk-track-quick"></ul>
+    <div class="lk-charts">
+      <figure class="lk-fig">
+        <figcaption><p class="lk-fig-t" id="lk-week-t">Winners picked, week by week</p><p class="lk-fig-s" id="lk-week-s"></p></figcaption>
+        <div class="lk-legend" aria-hidden="true"><span><i class="lk-k-sq lk-k-accent"></i>This app</span><span><i class="lk-k-sq lk-k-watch"></i>Home team always</span></div>
+        <div class="lk-chartwrap"><svg class="lk-chart" id="lk-weekchart" role="img" aria-label="Winners picked by week"></svg></div>
+      </figure>
+      <figure class="lk-fig">
+        <figcaption><p class="lk-fig-t" id="lk-cal-t">Chance given vs what happened</p><p class="lk-fig-s" id="lk-cal-s"></p></figcaption>
+        <div class="lk-legend" aria-hidden="true"><span><i class="lk-k-dot lk-k-accent"></i>How often the favorite won</span><span><i class="lk-k-ref"></i>Exactly as predicted</span></div>
+        <div class="lk-chartwrap"><svg class="lk-chart" id="lk-calchart" role="img" aria-label="Chance given against how often the favorite won"></svg></div>
+      </figure>
+      <figure class="lk-fig lk-fig-wide">
+        <figcaption><p class="lk-fig-t" id="lk-ph-t">Projected wins over time</p><p class="lk-fig-s" id="lk-ph-s"></p></figcaption>
+        <div class="lk-legend" aria-hidden="true" id="lk-ph-legend"></div>
+        <div class="lk-chartwrap"><svg class="lk-chart" id="lk-phchart" role="img" aria-label="Projected wins over time"></svg></div>
+      </figure>
     </div>
-    <p class="lk-note" id="lk-score-note"></p>
+    <details class="lk-details" id="lk-track-details">
+      <summary>Details <span>every game for the selected team, week by week, and by chance given</span></summary>
+      <h3 class="lk-h3" id="lk-score-h3">Games</h3>
+      <div class="lk-tablewrap">
+        <table class="lk-table" id="lk-score" data-source="scorecard" data-row-key="variant,date,home">
+          <thead><tr>
+            <th data-field="date" class="lk-left">Date</th>
+            <th data-field="home" class="lk-left">Game</th>
+            <th data-field="proj">Projected</th>
+            <th data-field="actual">Actual</th>
+            <th data-field="miss">Miss</th>
+            <th data-field="hit" class="lk-left">Winner</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="lk-note" id="lk-score-note"></p>
+      <h3 class="lk-h3">Week by week</h3>
+      <div class="lk-tablewrap">
+        <table class="lk-table lk-stack" id="lk-track-weeks">
+          <thead><tr><th class="lk-left">Week</th><th>Games</th><th>Winner picked</th><th>Home team won</th><th>Average miss</th><th>Baseline miss</th><th>Brier score</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <h3 class="lk-h3">By chance given</h3>
+      <div class="lk-tablewrap">
+        <table class="lk-table lk-stack" id="lk-track-cal">
+          <thead><tr><th class="lk-left">Chance given to the favorite</th><th>Games</th><th>Average chance</th><th>Favorite won</th><th>95% range</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="lk-note" id="lk-track-note"></p>
+    </details>
   </section>
 
   <section class="lk-grid" id="focus-detail">
@@ -643,6 +690,19 @@ const variantOf = (p) => 'h' + (p.hca ? 1 : 0) + 's' + (p.shrink ? 1 : 0) + 'r' 
 // NBA.com wins wherever both have the same game, so the site stays current from the daily PC run.
 const isNum = (v) => v !== '' && v !== null && v !== undefined && !Number.isNaN(Number(v));
 const normName = (s) => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z ]/g, '').trim();
+// Diagonal of a matrix inverse (Gauss-Jordan with partial pivoting); leaves A untouched
+const invDiag = (A) => {
+  const n = A.length, M = A.map((row, i) => row.concat(A.map((_, j) => (i === j ? 1 : 0))));
+  for (let c = 0; c < n; c++) {
+    let p = c;
+    for (let k = c + 1; k < n; k++) if (Math.abs(M[k][c]) > Math.abs(M[p][c])) p = k;
+    [M[c], M[p]] = [M[p], M[c]];
+    const d = M[c][c];
+    for (let j = 0; j < 2 * n; j++) M[c][j] /= d;
+    for (let k = 0; k < n; k++) if (k !== c && M[k][c]) { const f = M[k][c]; for (let j = 0; j < 2 * n; j++) M[k][j] -= f * M[c][j]; }
+  }
+  return M.map((row, i) => row[n + i]);
+};
 // ---- Starting ratings (Proposed; tested on this season's games Nov 12, 2026: Brier 0.216 to 0.198 game by game) ----
 // Shrinkage pulls each team toward a starting rating instead of toward average. Starting rating = 0.7 × 5 × the minutes-weighted
 // average of the team's players' 2025-26 box plus-minus (Basketball-Reference), each pulled toward -2.0 by 500 minutes; a player
@@ -1228,7 +1288,7 @@ dash.calc('quarters', {
 dash.calc('scorecard', {
   inputs: ['schedule', 'teams', 'player_games_all', 'player_prior'],
   title: 'Projection scorecard, game by game',
-  description: 'Each played game projected with ratings refit on earlier games only (same model and toggles), against the result and a home-team-by-2 baseline.',
+  description: 'Each played game projected with ratings refit on earlier games only (same model and toggles), against the result and a home-team-by-2 baseline. p: the home team’s win chance, Φ(projected margin / sd), sd = √(12² + rating variance of both teams).',
   fn: (schedule, teams, player_games_all, player_prior) => {
     const HCA = 2.0, B2B = 1.0, LAMBDA = 5;
     const ids = teams.map((t) => t.team), ix = new Map(ids.map((t, i) => [t, i])), n = ids.length;
@@ -1243,6 +1303,7 @@ dash.calc('scorecard', {
       }
       for (let i = 0; i < n; i++) A[i][i] += s ? LAMBDA : 1e-6;
       if (s) for (let i = 0; i < n; i++) b[i] += LAMBDA * mu[i];
+      const vd = s ? invDiag(A).map((v) => 144 * v) : null;  // rating variances, before A is reduced below
       for (let c = 0; c < n; c++) {
         let p = c;
         for (let k = c + 1; k < n; k++) if (Math.abs(A[k][c]) > Math.abs(A[p][c])) p = k;
@@ -1252,7 +1313,7 @@ dash.calc('scorecard', {
       const x = new Array(n).fill(0);
       for (let i = n - 1; i >= 0; i--) { let v = b[i]; for (let j = i + 1; j < n; j++) v -= A[i][j] * x[j]; x[i] = v / A[i][i]; }
       const mean = x.reduce((a, v) => a + v, 0) / n;
-      return x.map((v) => v - mean);
+      return { x: x.map((v) => v - mean), vd };
     };
     const dates = [...new Set(played.map((g) => g.date))].sort();
     const muAt = new Map(dates.map((d) => [d, startRatings(ids, player_games_all, values, d)]));  // starts from minutes before each date
@@ -1261,11 +1322,14 @@ dash.calc('scorecard', {
       const variant = 'h' + h + 's' + s + 'r' + r;
       for (const d of dates) {
         const before = played.filter((g) => g.date < d);
-        const x = before.length ? fit(before, h, s, r, muAt.get(d)) : new Array(n).fill(0);
+        const f = before.length ? fit(before, h, s, r, muAt.get(d)) : { x: new Array(n).fill(0), vd: s ? new Array(n).fill(144 / LAMBDA) : null }, x = f.x;
+        const gp = new Map(); for (const g of before) { gp.set(g.home, (gp.get(g.home) || 0) + 1); gp.set(g.away, (gp.get(g.away) || 0) + 1); }
+        const vOf = (t) => (f.vd ? f.vd[ix.get(t)] : 144 / Math.max(gp.get(t) || 0, 1));
         for (const g of played.filter((g) => g.date === d)) {
           const ctx = (h && !g.neutral ? HCA : 0) + (r ? B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0)) : 0);
           const proj = x[ix.get(g.home)] - x[ix.get(g.away)] + ctx, actual = g.home_pts - g.away_pts;
-          rows.push({ variant, date: d, away: g.away, home: g.home, proj, actual, miss: Math.abs(proj - actual), hit: proj === 0 ? null : (proj > 0) === (actual > 0), base_miss: Math.abs(HCA - actual), base_hit: actual > 0 });
+          const sd = Math.sqrt(144 + vOf(g.home) + vOf(g.away));
+          rows.push({ variant, date: d, away: g.away, home: g.home, proj, sd, p: wPhi(proj / sd), actual, miss: Math.abs(proj - actual), hit: proj === 0 ? null : (proj > 0) === (actual > 0), base_miss: Math.abs(HCA - actual), base_hit: actual > 0 });
         }
       }
     }
@@ -1431,10 +1495,31 @@ const wCholesky = (S) => {
   return L;
 };
 
+// Expected wins, exactly: wins through `upTo` plus, for each game still to play (later games, and earlier ones with no result on
+// file yet), the chance of winning it, Phi(expected margin / sqrt(12^2 + variance of the rating difference)); each team's games
+// missing from 82 are played against an average opponent, half at home. This is the average the season simulation estimates.
+const wExpected = (schedule, ids, fit, upTo) => {
+  const n = ids.length, ix = fit.ix, exp = new Array(n).fill(0), known = new Array(n).fill(0);
+  for (const g of schedule) {
+    const h = ix.get(g.home), a = ix.get(g.away);
+    if (h === undefined || a === undefined) continue;
+    known[h]++; known[a]++;
+    if (g.played && g.date <= upTo) { if (g.home_pts > g.away_pts) exp[h]++; else exp[a]++; continue; }
+    const v = W_SIGMA * W_SIGMA * (fit.inv[h][h] + fit.inv[a][a] - 2 * fit.inv[h][a]);
+    const p = wPhi((fit.r[h] - fit.r[a] + wHca(g) + wRest(g)) / Math.sqrt(W_SIGMA * W_SIGMA + v));
+    exp[h] += p; exp[a] += 1 - p;
+  }
+  for (let i = 0; i < n; i++) {
+    const sd = Math.sqrt(W_SIGMA * W_SIGMA * (1 + fit.inv[i][i]));
+    for (let k = 0; k < Math.max(0, 82 - known[i]); k++) exp[i] += wPhi((fit.r[i] + (k % 2 ? -W_HCA : W_HCA)) / sd);
+  }
+  return exp;
+};
+
 dash.calc('watch', {
   inputs: ['schedule', 'teams', 'player_games_all', 'player_prior'],
   title: 'Teams to watch: rating, two-week trend and season odds',
-  description: 'Default settings. Rating and standard error as in the league table; trend = rating now minus rating from games through 14 days before the latest result; season odds from 1,000 simulated finishes of the schedule, each drawing the ratings from their uncertainty (normal, covariance 12² × the inverse normal matrix) and each game margin from N(home − away + home court + rest, 12²).',
+  description: 'Default settings. Rating and standard error as in the league table; trend = rating now minus rating from games through 14 days before the latest result; projected wins: the exact expected value (wExpected); 80% range and other season odds from 1,000 simulated finishes of the schedule, each drawing the ratings from their uncertainty (normal, covariance 12² × the inverse normal matrix) and each game margin from N(home − away + home court + rest, 12²).',
   fn: (schedule, teams, player_games_all, player_prior) => {
     const ids = teams.map((t) => t.team), n = ids.length;
     const played = schedule.filter((g) => g.played);
@@ -1483,8 +1568,10 @@ dash.calc('watch', {
     }
     const q = (arr, p) => { const a = Array.from(arr).sort((x, y) => x - y); return a[Math.min(a.length - 1, Math.floor(p * a.length))]; };
     const order = ids.map((t, i) => [i, fit.r[i]]).sort((a, b) => b[1] - a[1]).map(([i]) => i);
+    // Projected wins: the exact expectation (the simulation's average, without its sampling noise); range and chances from the simulation
+    const expW = wExpected(schedule, ids, fit, '9999');
     const rows = ids.map((t, i) => {
-      const proj = winsAll[i].reduce((a, v) => a + v, 0) / W_SIMS;
+      const proj = expW[i];
       return {
         team: t, conf: CONF[t] || '', rating: fit.r[i], se: W_SIGMA * Math.sqrt(fit.inv[i][i]), rank: order.indexOf(i) + 1,
         wins: W[i], losses: L[i], left: rest.filter(([h, a]) => h === i || a === i).length + filler[i], added: filler[i],
@@ -1520,6 +1607,34 @@ dash.calc('tonight', {
         gain: Object.fromEntries(ids.map((t, i) => [t, gain[i]])), rating: Object.fromEntries(ids.map((t, i) => [t, fit.r[i]])),
       };
     });
+  },
+});
+
+dash.calc('proj_history', {
+  inputs: ['schedule', 'teams', 'player_games_all', 'player_prior'],
+  title: 'Projected wins as of each game night',
+  description: 'Default settings. For each date with games, from the first night by which every team has played: ratings refit on the games through that date (starting ratings from the minutes known then), then each team’s expected wins: wins so far plus, for every game still to play (later games, and earlier ones with no result on file yet), the chance of winning it, Φ(expected margin / √(12² + variance of the rating difference)), with each team’s games missing from 82 played against an average opponent, half at home. This is the average the season simulation estimates, computed exactly instead of by sampling.',
+  fn: (schedule, teams, player_games_all, player_prior) => {
+    const ids = teams.map((t) => t.team), n = ids.length, ix = new Map(ids.map((t, i) => [t, i]));
+    const played = schedule.filter((g) => g.played);
+    if (!played.length) return [];
+    const values = startValues(player_prior);
+    const shift = (d, k) => { const x = new Date(d + 'T00:00:00Z'); x.setUTCDate(x.getUTCDate() + k); return x.toISOString().slice(0, 10); };
+    // From the first night by which every team has played (before that, a team with no games has no starting rating yet)
+    const firstGame = new Map();
+    for (const g of played) for (const x of [g.home, g.away]) if (!firstGame.has(x) || g.date < firstGame.get(x)) firstGame.set(x, g.date);
+    const from = ids.every((x) => firstGame.has(x)) ? ids.map((x) => firstGame.get(x)).sort().pop() : null;
+    const rows = [];
+    if (!from) return rows;
+    for (const d of [...new Set(played.map((g) => g.date))].sort().filter((d) => d >= from)) {
+      const before = played.filter((g) => g.date <= d);
+      const fit = watchFit(before, ids, startRatings(ids, player_games_all, values, shift(d, 1)));
+      const W = new Array(n).fill(0), L = new Array(n).fill(0);
+      for (const g of before) { const h = ix.get(g.home), a = ix.get(g.away); if (h === undefined || a === undefined) continue; if (g.home_pts > g.away_pts) { W[h]++; L[a]++; } else { W[a]++; L[h]++; } }
+      const exp = wExpected(schedule, ids, fit, d);
+      ids.forEach((t, i) => rows.push({ date: d, team: t, proj: exp[i], wins: W[i], losses: L[i], rating: fit.r[i] }));
+    }
+    return rows;
   },
 });
 
@@ -2070,7 +2185,7 @@ function wInteract(svg, n, start, show, hide, indexAt) {
 }
 document.addEventListener('pointerdown', (e) => {
   if (e.target.closest && e.target.closest('.lk-chart')) return;
-  document.querySelectorAll('#around .lk-chart').forEach((s) => { if (s._hide) s._hide(); });
+  document.querySelectorAll('.lk-chart').forEach((s) => { if (s._hide) s._hide(); });
 });
 function wEmpty(svg, msg) {
   const W = Math.max(280, svg.parentNode.clientWidth);
@@ -2236,7 +2351,7 @@ function wGrey() {
   const score = (g) => Math.min(wDE(a, g) / 15, wDE(a, g, W_MACHADO.protan) / 8, wDE(a, g, W_MACHADO.deutan) / 8);
   const L = (c) => wOklab(c.map(wLin))[0], recedes = (g) => (light ? L(g) > L(a) : L(g) < L(a));
   const pick = cands.find((g) => score(g) >= 1 && recedes(g)) || cands.find((g) => score(g) >= 1) || cands.reduce((b, g) => (score(g) > score(b) ? g : b));
-  el.style.setProperty('--lk-other', 'rgb(' + pick.join(',') + ')');
+  (document.querySelector('.lk') || el).style.setProperty('--lk-other', 'rgb(' + pick.join(',') + ')');  // every card's charts
 }
 try { new MutationObserver(wGrey).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] }); } catch (e) { /* older browsers */ }
 let wChartData = null;
@@ -2451,7 +2566,7 @@ function renderAround() {
     const seNow = me.se, gp = me.wins + me.losses, seMid = 12 / Math.sqrt(41 + 5);
     document.getElementById('lk-watch-note').textContent = 'Picked for the ' + fn + ' from what the data says now: upcoming opponents, contenders, seeding rivals, teams close in the ratings, big movers and key absences. '
       + 'Ratings start from each team’s players’ impact last season and move toward results as games are played; they are still settling: about ±' + seNow.toFixed(1) + ' points after ' + gp + ' games, about ±' + seMid.toFixed(1) + ' by midseason, so expect this list to change. '
-      + 'Projected wins (80% range) and top-6 seed chance (in each team’s conference) come from ' + me.sims.toLocaleString('en-US') + ' simulated finishes of the schedule, as of ' + wDay(me.asof) + '; they hold each team’s strength fixed (no injuries or trades) and ignore tiebreakers. '
+      + 'Projected wins are the exact average over every way the rest of the season can go; the 80% range and top-6 seed chance (in each team’s conference) come from ' + me.sims.toLocaleString('en-US') + ' simulated finishes of the schedule, as of ' + wDay(me.asof) + '; they hold each team’s strength fixed (no injuries or trades) and ignore tiebreakers. '
       + (me.added ? 'The 2 games the NBA adds for each team after the Cup group stage are not scheduled yet, so they are played here against an average opponent. ' : '')
       + 'NBA Cup group and knockout games count like any other game; the Cup final does not count and is left out. Default settings. Tap a team to compare it.';
     // Details: the whole conference, which is also the table view of the playoff picture chart
@@ -2483,6 +2598,282 @@ try {
   const det = document.getElementById('lk-around-details');
   try { if (localStorage.getItem('lk-around-details') === 'open') det.open = true; } catch (e) { /* storage unavailable */ }
   det.addEventListener('toggle', () => { try { localStorage.setItem('lk-around-details', det.open ? 'open' : 'closed'); } catch (e) { /* storage unavailable */ } });
+})();
+
+// ---- Track record card: a quick read, three charts, and the details (games, weeks, chance groups) ----
+// Uses the chart helpers in watch_render.js (wEl, wTip, wInteract, wEmpty, wTextW, wShort) and the scorecard calc.
+const tPct = (v) => Math.round(v * 100) + '%';
+const tWilson = (k, n) => {  // 95% range for a rate of k in n
+  if (!n) return [0, 1];
+  const z = 1.96, p = k / n, den = 1 + z * z / n, c = (p + z * z / (2 * n)) / den, h = z * Math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / den;
+  return [Math.max(0, c - h), Math.min(1, c + h)];
+};
+const tBrier = (rs) => rs.reduce((a, r) => a + (r.p - (r.actual > 0 ? 1 : 0)) ** 2, 0) / rs.length;
+
+// Seven-day blocks from the first scored night
+function tWeeks(rows) {
+  if (!rows.length) return [];
+  const first = rows.map((r) => r.date).sort()[0], t0 = Date.parse(first + 'T00:00:00Z');
+  const by = new Map();
+  for (const r of rows) { const k = Math.floor((Date.parse(r.date + 'T00:00:00Z') - t0) / 864e5 / 7); if (!by.has(k)) by.set(k, []); by.get(k).push(r); }
+  return [...by.keys()].sort((a, b) => a - b).map((k) => {
+    const rs = by.get(k), called = rs.filter((r) => r.hit !== null), from = new Date(t0 + k * 7 * 864e5), to = new Date(t0 + (k * 7 + 6) * 864e5);
+    const last = rs.map((r) => r.date).sort().pop();
+    return {
+      label: wShort(from), range: wShort(from) + '–' + wShort(new Date(Math.min(to.getTime(), Date.parse(last + 'T00:00:00Z')))),
+      n: rs.length, hits: called.filter((r) => r.hit).length, called: called.length,
+      hitRate: called.length ? called.filter((r) => r.hit).length / called.length : 0, baseRate: rs.filter((r) => r.base_hit).length / rs.length,
+      mae: rs.reduce((a, r) => a + r.miss, 0) / rs.length, base_mae: rs.reduce((a, r) => a + r.base_miss, 0) / rs.length, brier: tBrier(rs),
+    };
+  });
+}
+// The favorite's side of each forecast, grouped by the chance it was given
+function tBuckets(rows) {
+  const edges = [[0.5, 0.6, '50–60%'], [0.6, 0.7, '60–70%'], [0.7, 0.8, '70–80%'], [0.8, 1.0001, '80% or more']];
+  return edges.map(([lo, hi, label]) => {
+    const b = rows.filter((r) => { const q = Math.max(r.p, 1 - r.p); return q >= lo && q < hi; });
+    const k = b.filter((r) => (r.p >= 0.5) === (r.actual > 0)).length;
+    return { lo, hi, label, n: b.length, k, pred: b.length ? b.reduce((a, r) => a + Math.max(r.p, 1 - r.p), 0) / b.length : null, obs: b.length ? k / b.length : null, ci: tWilson(k, b.length) };
+  }).filter((b) => b.n);
+}
+
+// Chart 1: winners picked each week, this app against always picking the home team
+function tBarChart(svg, weeks) {
+  if (!weeks.length) return wEmpty(svg, 'No games scored yet');
+  const wrap = svg.parentNode, W = Math.max(280, wrap.clientWidth), H = 214, padL = 42, padR = 6, padT = 20, padB = 36;
+  const plotW = W - padL - padR, plotH = H - padT - padB, gw = plotW / weeks.length, bw = Math.min(24, gw * 0.28);
+  const Y = (v) => padT + (1 - v) * plotH, y0 = Y(0);
+  svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H); svg.setAttribute('width', W); svg.setAttribute('height', H);
+  svg.replaceChildren();
+  const hov = wEl(svg, 'rect', { class: 'lk-hov', x: 0, y: padT - 16, width: Math.max(0, gw - 4), height: plotH + 16, rx: 4, visibility: 'hidden' });
+  for (const t of [0, 0.25, 0.5, 0.75, 1]) {
+    wEl(svg, 'line', { class: t ? 'lk-grid' : 'lk-zero', x1: padL, x2: W - padR, y1: Y(t), y2: Y(t) });
+    wEl(svg, 'text', { x: padL - 6, y: Y(t) + 3.5, 'text-anchor': 'end' }, Math.round(t * 100) + '%');
+  }
+  // Bars grow from the baseline with a 4px rounded top
+  const bar = (x, v, cls) => {
+    const yt = Y(v), r = Math.min(4, (y0 - yt) / 2, bw / 2);
+    wEl(svg, 'path', { class: cls, d: 'M' + x + ',' + y0 + 'L' + x + ',' + (yt + r) + 'Q' + x + ',' + yt + ' ' + (x + r) + ',' + yt + 'L' + (x + bw - r) + ',' + yt + 'Q' + (x + bw) + ',' + yt + ' ' + (x + bw) + ',' + (yt + r) + 'L' + (x + bw) + ',' + y0 + 'Z' });
+  };
+  weeks.forEach((wk, i) => {
+    const cx = padL + gw * (i + 0.5);
+    bar(cx - bw - 1, wk.hitRate, 'lk-bar lk-f'); bar(cx + 1, wk.baseRate, 'lk-bar');
+    wEl(svg, 'text', { x: cx - 1 - bw / 2, y: Y(wk.hitRate) - 5, 'text-anchor': 'middle', class: 'lk-strong' }, tPct(wk.hitRate));
+    wEl(svg, 'text', { x: cx, y: H - padB + 15, 'text-anchor': 'middle' }, wk.label);
+    wEl(svg, 'text', { x: cx, y: H - padB + 28, 'text-anchor': 'middle', class: 'lk-small' }, wk.n + ' games');
+  });
+  const tip = wTip(wrap);
+  wInteract(svg, weeks.length, weeks.length - 1, (i) => {
+    const wk = weeks[i];
+    hov.setAttribute('x', padL + gw * i + 2); hov.setAttribute('visibility', 'visible');
+    tip.show(padL + gw * (i + 0.5), padT + plotH * 0.4, wk.range + ' (' + wk.n + ' games)', [
+      { value: tPct(wk.hitRate), label: 'winners picked (' + wk.hits + ' of ' + wk.called + ')', key: 'accent' },
+      { value: tPct(wk.baseRate), label: 'home team won (the baseline)', key: 'watch' },
+      { value: wk.mae.toFixed(1), label: 'points off on average (baseline ' + wk.base_mae.toFixed(1) + ')' },
+    ]);
+  }, () => { hov.setAttribute('visibility', 'hidden'); tip.hide(); }, (e) => {
+    const b = svg.getBoundingClientRect(), px = (e.clientX - b.left) * W / b.width;
+    if (px < padL || px > W - padR) return null;
+    return Math.max(0, Math.min(weeks.length - 1, Math.floor((px - padL) / gw)));
+  });
+  svg.setAttribute('aria-label', 'Winners picked by week: ' + weeks.map((wk) => wk.range + ' ' + tPct(wk.hitRate) + ' against ' + tPct(wk.baseRate) + ' for the home team').join('; ') + '.');
+}
+
+// Chart 2: the chance given to the favorite against how often the favorite won, with 95% ranges
+function tCalChart(svg, buckets) {
+  if (!buckets.length) return wEmpty(svg, 'No games scored yet');
+  const wrap = svg.parentNode, W = Math.max(280, wrap.clientWidth), H = 236, padL = 40, padR = 12, padT = 24, padB = 38;
+  const yLo = Math.min(0.4, Math.floor(Math.min(...buckets.map((b) => b.ci[0])) * 10) / 10);
+  const X = (v) => padL + (v - 0.5) / 0.5 * (W - padL - padR), Y = (v) => padT + (1 - v) / (1 - yLo) * (H - padT - padB);
+  svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H); svg.setAttribute('width', W); svg.setAttribute('height', H);
+  svg.replaceChildren();
+  const hov = wEl(svg, 'rect', { class: 'lk-hov', x: 0, y: padT, width: 0, height: H - padT - padB, rx: 4, visibility: 'hidden' });
+  for (let t = 0.5; t <= 1.0001; t += 0.1) {
+    wEl(svg, 'line', { class: 'lk-grid', x1: X(t), x2: X(t), y1: padT, y2: H - padB });
+    wEl(svg, 'text', { x: X(t), y: H - padB + 15, 'text-anchor': t > 0.99 ? 'end' : 'middle' }, Math.round(t * 100) + '%');
+  }
+  for (let t = Math.ceil(yLo * 10) / 10; t <= 1.0001; t += 0.1) {
+    wEl(svg, 'line', { class: 'lk-grid', x1: padL, x2: W - padR, y1: Y(t), y2: Y(t) });
+    wEl(svg, 'text', { x: padL - 6, y: Y(t) + 3.5, 'text-anchor': 'end' }, Math.round(t * 100) + '%');
+  }
+  wEl(svg, 'text', { x: padL, y: 12 }, 'Favorite won');
+  wEl(svg, 'text', { x: W - padR, y: H - 4, 'text-anchor': 'end' }, 'Chance given to the favorite');
+  wEl(svg, 'line', { class: 'lk-ref', x1: X(0.5), y1: Y(0.5), x2: X(1), y2: Y(1) });
+  buckets.forEach((b) => wEl(svg, 'line', { class: 'lk-whisk lk-f', x1: X(b.pred), x2: X(b.pred), y1: Y(b.ci[0]), y2: Y(b.ci[1]) }));
+  buckets.forEach((b) => wEl(svg, 'circle', { class: 'lk-dot lk-f', cx: X(b.pred), cy: Y(b.obs), r: 4 + Math.min(4, Math.sqrt(b.n) / 2) }));
+  const tip = wTip(wrap);
+  wInteract(svg, buckets.length, buckets.length - 1, (i) => {
+    const b = buckets[i], x0 = X(b.lo), x1 = X(Math.min(1, b.hi));
+    hov.setAttribute('x', x0); hov.setAttribute('width', Math.max(0, x1 - x0)); hov.setAttribute('visibility', 'visible');
+    tip.show(X(b.pred), Y(b.obs), 'Favorites given ' + b.label + ' (' + b.n + ' games)', [
+      { value: tPct(b.obs), label: 'won (95% range ' + tPct(b.ci[0]) + '–' + tPct(b.ci[1]) + ')', key: 'accent' },
+      { value: tPct(b.pred), label: 'average chance given' },
+    ]);
+  }, () => { hov.setAttribute('visibility', 'hidden'); tip.hide(); }, (e) => {
+    const bb = svg.getBoundingClientRect(), px = (e.clientX - bb.left) * W / bb.width;
+    if (px < padL - 10 || px > W - padR + 10) return null;
+    let best = 0; buckets.forEach((b, i) => { if (Math.abs(X(b.pred) - px) < Math.abs(X(buckets[best].pred) - px)) best = i; });
+    return best;
+  });
+  svg.setAttribute('aria-label', 'Chance given against how often the favorite won: ' + buckets.map((b) => b.label + ', ' + b.n + ' games, won ' + tPct(b.obs) + ' with ' + tPct(b.pred) + ' given').join('; ') + '.');
+}
+
+// Chart 3: projected wins as of each game night for the focus team (and the compare team, in grey)
+function tPhChart(svg, series) {
+  const fs = series[0];
+  if (!fs || fs.pts.length < 2) return wEmpty(svg, 'Not enough game nights yet');
+  const wrap = svg.parentNode, W = Math.max(280, wrap.clientWidth), H = 220, padL = 30, padT = 10, padB = 24;
+  const labelOf = (s) => s.name + ' ' + Math.round(s.pts[s.pts.length - 1].proj);
+  const gutR = Math.min(150, Math.max(...series.map((s) => wTextW(labelOf(s)))) * 1.15 + 24);  // bold labels run wider than the estimate
+  const dates = fs.pts.map((q) => q.date), t = dates.map((d) => Date.parse(d + 'T00:00:00Z'));
+  const all = series.flatMap((s) => s.pts.map((q) => q.proj));
+  const step = Math.max(...all) - Math.min(...all) > 30 ? 10 : 5;
+  const y0 = Math.max(0, Math.floor((Math.min(...all) - 2) / step) * step), y1 = Math.min(82, Math.ceil((Math.max(...all) + 2) / step) * step);
+  const x1 = W - gutR, X = (i) => padL + (t[i] - t[0]) / (t[t.length - 1] - t[0]) * (x1 - padL), Y = (v) => padT + (y1 - v) / (y1 - y0 || 1) * (H - padT - padB);
+  svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H); svg.setAttribute('width', W); svg.setAttribute('height', H);
+  svg.replaceChildren();
+  for (let v = y0; v <= y1; v += step) {
+    wEl(svg, 'line', { class: 'lk-grid', x1: padL, x2: x1, y1: Y(v), y2: Y(v) });
+    wEl(svg, 'text', { x: padL - 6, y: Y(v) + 3.5, 'text-anchor': 'end' }, v);
+  }
+  let leftEdge = Infinity;
+  for (let i = dates.length - 1; i >= 0; i--) {
+    const s = wShort(new Date(t[i])), tw = wTextW(s), anchor = i === dates.length - 1 ? 'end' : i === 0 ? 'start' : 'middle';
+    const a = anchor === 'end' ? X(i) - tw : anchor === 'middle' ? X(i) - tw / 2 : X(i);
+    if (a + tw + 10 > leftEdge) continue;
+    wEl(svg, 'text', { x: X(i), y: H - padB + 16, 'text-anchor': anchor }, s);
+    leftEdge = a;
+  }
+  const cross = wEl(svg, 'line', { class: 'lk-cross', x1: 0, x2: 0, y1: padT, y2: H - padB, visibility: 'hidden' });
+  const at = (s, i) => s.pts.find((q) => q.date === dates[i]);
+  const path = (s) => dates.map((d, i) => at(s, i)).map((q, i) => (q ? (i ? 'L' : 'M') + X(i).toFixed(1) + ',' + Y(q.proj).toFixed(1) : '')).join('');
+  series.slice(1).forEach((s) => wEl(svg, 'path', { class: 'lk-line', d: path(s) }));
+  wEl(svg, 'path', { class: 'lk-line lk-f', d: path(fs) });
+  const last = dates.length - 1;
+  const ends = series.map((s) => ({ s, ty: Y(at(s, last).proj) }));
+  series.slice(1).forEach((s) => wEl(svg, 'circle', { class: 'lk-dot', cx: X(last), cy: Y(at(s, last).proj), r: 4 }));
+  wEl(svg, 'circle', { class: 'lk-dot lk-f', cx: X(last), cy: ends[0].ty, r: 4.5 });
+  // End labels, kept 14px apart
+  const L = ends.slice().sort((a, b) => a.ty - b.ty);
+  L.forEach((l, i) => { l.ly = i ? Math.max(l.ty, L[i - 1].ly + 14) : l.ty; });
+  L.forEach((l) => {
+    wEl(svg, 'path', { class: 'lk-leader', d: 'M' + (x1 + 7) + ',' + l.ty.toFixed(1) + 'L' + (x1 + 13) + ',' + l.ly.toFixed(1) + 'L' + (x1 + 16) + ',' + l.ly.toFixed(1) });
+    wEl(svg, 'text', { x: x1 + 19, y: l.ly + 3.5, class: l.s === fs ? 'lk-strong' : 'lk-name' }, labelOf(l.s));
+  });
+  const hl = wEl(svg, 'g', {});
+  const tip = wTip(wrap);
+  wInteract(svg, dates.length, last, (i) => {
+    cross.setAttribute('x1', X(i)); cross.setAttribute('x2', X(i)); cross.setAttribute('visibility', 'visible');
+    hl.replaceChildren();
+    series.forEach((s) => { const q = at(s, i); if (q) wEl(hl, 'circle', { class: 'lk-dot' + (s === fs ? ' lk-f' : ''), cx: X(i), cy: Y(q.proj), r: 4 }); });
+    const q0 = at(fs, i);
+    tip.show(X(i), Y(q0.proj), 'After ' + wShort(new Date(t[i])) + ' games', series.map((s) => { const q = at(s, i); return { value: q.proj.toFixed(1), label: s.name + ' (' + q.wins + '-' + q.losses + ' then)', key: s === fs ? 'accent' : 'watch' }; }));
+  }, () => { cross.setAttribute('visibility', 'hidden'); hl.replaceChildren(); tip.hide(); }, (e) => {
+    const b = svg.getBoundingClientRect(), px = (e.clientX - b.left) * W / b.width;
+    if (px < padL - 10 || px > x1 + 10) return null;
+    let best = 0; dates.forEach((_, i) => { if (Math.abs(X(i) - px) < Math.abs(X(best) - px)) best = i; });
+    return best;
+  });
+  svg.setAttribute('aria-label', 'Projected wins after each game night: ' + series.map((s) => s.name + ' ' + s.pts.map((q) => q.proj.toFixed(1)).join(', ')).join('; ') + '.');
+}
+
+let tChartData = null;
+function tDrawCharts() {
+  const d = tChartData; if (!d) return;
+  const a = document.getElementById('lk-weekchart'), b = document.getElementById('lk-calchart'), c = document.getElementById('lk-phchart');
+  if (a) tBarChart(a, d.weeks);
+  if (b) tCalChart(b, d.buckets);
+  if (c) tPhChart(c, d.series);
+}
+
+function renderTrack() {
+  if (!document.getElementById('lk-track-quick')) return;
+  const p = P(), v = variantOf(p), F = p.focus, T = p.team;
+  const t = dash.data('teams'), names = new Map(t.status === 'ok' ? t.data.map((r) => [r.team, r.name]) : []);
+  const nm = (x) => names.get(x) || x, fn = nm(F);
+  const sc = dash.data('scorecard'), rows = sc.status === 'ok' ? sc.data.filter((r) => r.variant === v) : [];
+  const weeks = tWeeks(rows), buckets = tBuckets(rows);
+  const ph = dash.data('proj_history'), hist = ph.status === 'ok' ? ph.data : [];
+  const series = [F].concat(T !== F ? [T] : []).map((x) => ({ team: x, name: nm(x), pts: hist.filter((r) => r.team === x) })).filter((s) => s.pts.length);
+
+  // Quick read
+  const items = [];
+  if (rows.length) {
+    const called = rows.filter((r) => r.hit !== null), hits = called.filter((r) => r.hit).length;
+    const base = rows.filter((r) => r.base_hit).length / rows.length;
+    const mae = rows.reduce((a, r) => a + r.miss, 0) / rows.length, bmae = rows.reduce((a, r) => a + r.base_miss, 0) / rows.length;
+    items.push({ lead: 'Winners:', text: 'picked ' + hits + ' of ' + called.length + ' games (' + tPct(hits / called.length) + '), against ' + tPct(base) + ' for always picking the home team.' });
+    items.push({ lead: 'Margins:', text: 'off by ' + mae.toFixed(1) + ' points on average, against ' + bmae.toFixed(1) + ' for the home-team-by-2 guess. Single games vary by about 12 points, so even perfect ratings would miss by about 9.6 on average.' });
+    const off = buckets.filter((b) => b.pred < b.ci[0] || b.pred > b.ci[1]);
+    if (!off.length) items.push({ lead: 'Chances:', text: 'they have held up. In every group, how often the favorite won is within the margin of error of the chance given (chart below).' });
+    else items.push({ lead: 'Chances:', text: off.map((b) => 'favorites given ' + b.label + ' won ' + tPct(b.obs) + ' of ' + b.n + ' games, against ' + tPct(b.pred) + ' predicted').join('; ') + '. ' + (off.every((b) => b.obs > b.pred) ? 'The app has been cautious there, so far.' : off.every((b) => b.obs < b.pred) ? 'The app has been overconfident there, so far.' : 'Mixed so far.') });
+    if (weeks.length >= 2) items.push({ lead: 'By week:', text: weeks.map((wk) => tPct(wk.hitRate)).join(', ') + ' of winners picked (' + weeks.map((wk) => wk.n).join(', ') + ' games).' });
+    const mine = rows.filter((r) => r.home === T || r.away === T), mc = mine.filter((r) => r.hit !== null);
+    if (mine.length) items.push({ lead: nm(T) + ' games:', text: 'picked ' + mc.filter((r) => r.hit).length + ' of ' + mc.length + '; off by ' + (mine.reduce((a, r) => a + r.miss, 0) / mine.length).toFixed(1) + ' points on average.' });
+  }
+  if (series[0] && series[0].pts.length >= 2) {
+    const q = series[0].pts, a = q[0], b = q[q.length - 1];
+    const lo = q.reduce((m, x) => (x.proj < m.proj ? x : m)), hi = q.reduce((m, x) => (x.proj > m.proj ? x : m));
+    items.push({ lead: fn + ' projection:', text: 'about ' + Math.round(b.proj) + ' wins now, from ' + Math.round(a.proj) + ' on ' + wShort(new Date(a.date + 'T00:00:00Z')) + ', once every team had played; lowest ' + Math.round(lo.proj) + ' (' + wShort(new Date(lo.date + 'T00:00:00Z')) + '), highest ' + Math.round(hi.proj) + ' (' + wShort(new Date(hi.date + 'T00:00:00Z')) + '). It can only be scored when the season ends.' });
+  }
+  if (v !== 'h1s1r1') items.push({ lead: 'Settings:', text: 'these use the adjustments chosen above, not the defaults.' });
+  wQuick(document.getElementById('lk-track-quick'), items);
+
+  // Chart titles state the finding
+  const ttl = (id, s) => { const el = document.getElementById(id); if (el) el.textContent = s; };
+  if (weeks.length) {
+    const lw = weeks[weeks.length - 1], allHit = rows.filter((r) => r.hit).length / Math.max(1, rows.filter((r) => r.hit !== null).length);
+    ttl('lk-week-t', 'Winners picked: ' + tPct(allHit) + ' so far, against ' + tPct(rows.filter((r) => r.base_hit).length / rows.length) + ' for the home team');
+    ttl('lk-week-s', 'Each week, the share of games where the app’s pick won, next to how often the home team won. Latest week: ' + lw.range + ', ' + lw.n + ' games.');
+  }
+  if (buckets.length) {
+    const off = buckets.filter((b) => b.pred < b.ci[0] || b.pred > b.ci[1]);
+    ttl('lk-cal-t', off.length ? 'Chances given vs what happened: ' + off.length + ' of ' + buckets.length + ' groups outside the margin of error' : 'Chances given have matched what happened, within the margin of error');
+    ttl('lk-cal-s', 'Games grouped by the chance the app gave the favorite. Dot: how often the favorite won (bigger dot, more games); line: the 95% range for that many games; dashed: exactly as predicted.');
+  }
+  if (series[0] && series[0].pts.length) {
+    const q = series[0].pts, b = q[q.length - 1];
+    ttl('lk-ph-t', fn + ' projected wins: about ' + Math.round(b.proj) + ' now, from ' + Math.round(q[0].proj) + ' on ' + wShort(new Date(q[0].date + 'T00:00:00Z')));
+    ttl('lk-ph-s', 'Expected wins after each game night, from the ratings as they stood then (default settings), starting once every team had played. Season-end results will score these.');
+    const lg = document.getElementById('lk-ph-legend');
+    if (lg) {
+      lg.replaceChildren();
+      series.forEach((s, i) => { const sp = document.createElement('span'), k = document.createElement('i'); k.className = i ? 'lk-k-watch' : 'lk-k-accent'; sp.appendChild(k); sp.appendChild(document.createTextNode(s.name)); lg.appendChild(sp); });
+    }
+  }
+  tChartData = { weeks, buckets, series };
+  tDrawCharts();
+
+  // Details: week by week and by chance given
+  const wb = document.querySelector('#lk-track-weeks tbody'); wb.replaceChildren();
+  weeks.forEach((wk) => {
+    const tr = document.createElement('tr');
+    cell(tr, wk.range, 'lk-left'); cell(tr, String(wk.n)); cell(tr, tPct(wk.hitRate) + ' (' + wk.hits + ' of ' + wk.called + ')'); cell(tr, tPct(wk.baseRate));
+    cell(tr, wk.mae.toFixed(1)); cell(tr, wk.base_mae.toFixed(1)); cell(tr, wk.brier.toFixed(3));
+    wb.appendChild(tr);
+  });
+  const cb = document.querySelector('#lk-track-cal tbody'); cb.replaceChildren();
+  buckets.forEach((b) => {
+    const tr = document.createElement('tr');
+    cell(tr, b.label, 'lk-left'); cell(tr, String(b.n)); cell(tr, tPct(b.pred)); cell(tr, tPct(b.obs) + ' (' + b.k + ' of ' + b.n + ')'); cell(tr, tPct(b.ci[0]) + '–' + tPct(b.ci[1]));
+    cb.appendChild(tr);
+  });
+  if (rows.length) {
+    document.getElementById('lk-track-note').textContent = 'Brier score: the average of (chance given minus what happened)² per game, where what happened is 1 for a home win and 0 otherwise; lower is better, and 0.25 is what a coin flip scores. '
+      + 'Each game’s chance comes from its projected margin and the uncertainty of both teams’ ratings at the time: Φ(margin ÷ √(12² + rating variance)). The 95% range is a Wilson interval for that many games. Weeks are seven-day blocks from the first night.';
+  }
+  ['lk-track-weeks', 'lk-track-cal'].forEach((id) => phoneLayout(document.getElementById(id)));
+}
+dash.onData(renderTrack);
+try {
+  let lastTW = 0;
+  new ResizeObserver((ents) => { const wd = Math.round(ents[0].contentRect.width); if (wd && wd !== lastTW) { lastTW = wd; requestAnimationFrame(tDrawCharts); } })
+    .observe(document.querySelector('#scorecard .lk-charts'));
+} catch (e) { /* older browsers: the charts keep the width they were drawn at */ }
+(() => {
+  const det = document.getElementById('lk-track-details');
+  try { if (localStorage.getItem('lk-track-details') === 'open') det.open = true; } catch (e) { /* storage unavailable */ }
+  det.addEventListener('toggle', () => { try { localStorage.setItem('lk-track-details', det.open ? 'open' : 'closed'); } catch (e) { /* storage unavailable */ } });
 })();
 let SOURCES = null;
 const renderSources = () => {
