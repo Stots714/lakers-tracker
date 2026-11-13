@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T19:39:34-08:00",
+ "updated": "2026-11-12T19:46:37-08:00",
  "board_date": "2026-11-12",
  "games": [
   {
@@ -482,54 +482,54 @@
    "game_id": "0022600230",
    "tip_utc": "2026-11-13T02:00:00Z",
    "status": 2,
-   "status_text": "Q3 4:02",
+   "status_text": "Q3 1:25",
    "period": 3,
-   "clock": "4:02",
+   "clock": "1:25",
    "home": {
     "team": "PHX",
-    "score": 68,
+    "score": 72,
     "periods": [
      28,
      27,
-     13,
+     17,
      0
     ],
     "stats": {
-     "fgm": 25,
-     "fga": 60,
+     "fgm": 27,
+     "fga": 67,
      "fg3m": 11,
-     "fg3a": 31,
+     "fg3a": 34,
      "ftm": 7,
      "fta": 10,
-     "oreb": 4,
+     "oreb": 7,
      "dreb": 16,
      "tov": 6,
-     "pf": 11,
+     "pf": 12,
      "ast": 15,
      "stl": 6,
      "blk": 4,
-     "pts_paint": 26,
-     "pts_second_chance": 3,
+     "pts_paint": 28,
+     "pts_second_chance": 5,
      "pts_fast_break": 9,
-     "pts_off_tov": 23,
-     "pts_bench": 19,
+     "pts_off_tov": 25,
+     "pts_bench": 21,
      "biggest_lead": 17,
-     "lead_changes": 14
+     "lead_changes": 17
     },
     "leaders": [
      {
       "name": "Devin Booker",
-      "pts": 19,
+      "pts": 21,
       "reb": 1,
       "ast": 7,
-      "min": "26:28"
+      "min": "27:59"
      },
      {
       "name": "Dillon Brooks",
       "pts": 12,
       "reb": 2,
       "ast": 1,
-      "min": "22:50"
+      "min": "23:50"
      },
      {
       "name": "Jalen Green",
@@ -542,34 +542,34 @@
    },
    "away": {
     "team": "CHA",
-    "score": 67,
+    "score": 73,
     "periods": [
      22,
      28,
-     17,
+     23,
      0
     ],
     "stats": {
-     "fgm": 25,
-     "fga": 60,
-     "fg3m": 9,
-     "fg3a": 26,
+     "fgm": 27,
+     "fga": 63,
+     "fg3m": 11,
+     "fg3a": 29,
      "ftm": 8,
      "fta": 9,
      "oreb": 12,
      "dreb": 26,
-     "tov": 17,
+     "tov": 18,
      "pf": 13,
-     "ast": 16,
+     "ast": 18,
      "stl": 3,
-     "blk": 1,
+     "blk": 2,
      "pts_paint": 32,
      "pts_second_chance": 15,
      "pts_fast_break": 13,
      "pts_off_tov": 7,
-     "pts_bench": 18,
+     "pts_bench": 24,
      "biggest_lead": 5,
-     "lead_changes": 14
+     "lead_changes": 17
     },
     "leaders": [
      {
@@ -583,15 +583,15 @@
       "name": "Grayson Allen",
       "pts": 12,
       "reb": 3,
-      "ast": 4,
-      "min": "23:30"
+      "ast": 5,
+      "min": "25:01"
      },
      {
       "name": "Naz Reid",
       "pts": 11,
       "reb": 5,
       "ast": 2,
-      "min": "23:08"
+      "min": "24:24"
      }
     ]
    },
@@ -631,6 +631,10 @@
     {
      "t": 32.0,
      "m": 1
+    },
+    {
+     "t": 34.6,
+     "m": -1
     }
    ]
   }
