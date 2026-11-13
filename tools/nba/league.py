@@ -120,13 +120,19 @@ def write_results(sched, box, save):
     for g in sched:
         final = _int(g.get("gameStatus")) == 3
         gid = str(g["gameId"])
+        # NBA Cup group and knockout games count in the standings (the final has its own 006 id and is left out);
+        # the schedule labels them, e.g. "Emirates NBA Cup" / "West Group B", or game subtype "in-season"
+        label = " ".join(str(g.get(k) or "").strip() for k in ("gameLabel", "gameSubLabel")).strip()
+        cup = label if ("cup" in label.lower() or "in-season" in str(g.get("gameSubtype") or "").lower()) else ""
         out.append({
             "date": g["date"], "away": g["awayTeam_teamTricode"], "home": g["homeTeam_teamTricode"],
             "away_pts": _int(g.get("awayTeam_score")) if final else "", "home_pts": _int(g.get("homeTeam_score")) if final else "",
             "ot": ot.get(gid, 0) if final else "", "game_id": gid,
+            "cup": cup or ("NBA Cup" if "in-season" in str(g.get("gameSubtype") or "").lower() else ""),
+            "neutral": 1 if str(g.get("isNeutral")).lower() in ("1", "true") else 0,
         })
     out.sort(key=lambda x: (x["date"], x["game_id"]))
-    return save(out, "league_results.csv", ["date", "away", "home", "away_pts", "home_pts", "ot", "game_id"]), out
+    return save(out, "league_results.csv", ["date", "away", "home", "away_pts", "home_pts", "ot", "game_id", "cup", "neutral"]), out
 
 
 def write_player_games(pg, save, sched=None):
