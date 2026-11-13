@@ -611,8 +611,8 @@ dash.calc('results_all', {
     }
     for (const g of nba_results) {
       const k = key(g);
-      if (isNum(g.home_pts) && isNum(g.away_pts)) out.set(k, { date: g.date, away: g.away, home: g.home, away_pts: g.away_pts, home_pts: g.home_pts, ot: g.ot || 0, src: 'nba', cup: g.cup || '' });
-      else if (!out.has(k)) out.set(k, { date: g.date, away: g.away, home: g.home, away_pts: '', home_pts: '', ot: '', src: 'nba', cup: g.cup || '' });
+      if (isNum(g.home_pts) && isNum(g.away_pts)) out.set(k, { date: g.date, away: g.away, home: g.home, away_pts: g.away_pts, home_pts: g.home_pts, ot: g.ot || 0, src: 'nba', cup: g.cup || '', neutral: Number(g.neutral) === 1 });
+      else if (!out.has(k)) out.set(k, { date: g.date, away: g.away, home: g.home, away_pts: '', home_pts: '', ot: '', src: 'nba', cup: g.cup || '', neutral: Number(g.neutral) === 1 });
     }
     return [...out.values()].sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
   },
@@ -631,7 +631,7 @@ dash.calc('schedule', {
       const home_rest = last.has(g.home) ? d - last.get(g.home) : null;
       last.set(g.away, d); last.set(g.home, d);
       const played = g.home_pts !== '' && g.home_pts !== null && g.home_pts !== undefined;
-      return { src: g.src, cup: g.cup || '', date: g.date, away: g.away, home: g.home, away_pts: played ? Number(g.away_pts) : null, home_pts: played ? Number(g.home_pts) : null, ot: Number(g.ot || 0), away_rest, home_rest, played };
+      return { src: g.src, cup: g.cup || '', neutral: !!g.neutral, date: g.date, away: g.away, home: g.home, away_pts: played ? Number(g.away_pts) : null, home_pts: played ? Number(g.home_pts) : null, ot: Number(g.ot || 0), away_rest, home_rest, played };
     });
   },
 });
@@ -649,7 +649,7 @@ dash.calc('model', {
       const n = ids.length, A = ids.map(() => new Array(n).fill(0)), b = new Array(n).fill(0);
       for (const g of played) {
         const i = ix.get(g.home), j = ix.get(g.away);
-        const y = g.home_pts - g.away_pts - (h ? HCA : 0) - (r ? B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0)) : 0);
+        const y = g.home_pts - g.away_pts - (h && !g.neutral ? HCA : 0) - (r ? B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0)) : 0);
         A[i][i]++; A[j][j]++; A[i][j]--; A[j][i]--; b[i] += y; b[j] -= y;
       }
       for (let i = 0; i < n; i++) A[i][i] += s ? LAMBDA : 1e-6;
@@ -862,10 +862,10 @@ dash.calc('game_log', {
           const home = g.home === team, opp = home ? g.away : g.home;
           const rest = home ? g.home_rest : g.away_rest, oppRest = home ? g.away_rest : g.home_rest;
           const b2b = rest === 1, oppB2b = oppRest === 1;
-          const ctx = (h ? (home ? HCA : -HCA) : 0) + (r ? B2B * ((oppB2b ? 1 : 0) - (b2b ? 1 : 0)) : 0);
+          const ctx = (h && !g.neutral ? (home ? HCA : -HCA) : 0) + (r ? B2B * ((oppB2b ? 1 : 0) - (b2b ? 1 : 0)) : 0);
           const oppRating = rating.get(variant + '|' + opp);
           const margin = g.played ? (home ? g.home_pts - g.away_pts : g.away_pts - g.home_pts) : null;
-          const flags = [g.cup ? 'NBA Cup' : '', b2b ? 'Back-to-back' : '', oppB2b ? 'Opp. back-to-back' : '', g.ot ? 'OT' : '', g.played && (Math.abs(margin) <= 5 || g.ot) ? 'Close' : ''].filter(Boolean).join(' · ');
+          const flags = [g.neutral ? 'Neutral site' : '', g.cup ? 'NBA Cup' : '', b2b ? 'Back-to-back' : '', oppB2b ? 'Opp. back-to-back' : '', g.ot ? 'OT' : '', g.played && (Math.abs(margin) <= 5 || g.ot) ? 'Close' : ''].filter(Boolean).join(' · ');
           const mineOut = out(team, g.date), oppOut = out(opp, g.date);
           const projBase = g.played ? null : rating.get(variant + '|' + team) - oppRating + ctx;
           const ad = g.played ? { adj: 0, note: '' } : adjust(team, opp, mineOut, oppOut);
@@ -921,7 +921,7 @@ dash.calc('next_game', {
     const teams = [...new Set(model.map((m) => m.team))];
     // Each team's games from the league schedule, plus the Lakers' own schedule file past the league file's last date
     const games = new Map(teams.map((t) => [t, []]));
-    for (const g of schedule) for (const [t, o, h] of [[g.home, g.away, true], [g.away, g.home, false]]) if (games.has(t)) games.get(t).push({ date: g.date, opp: o, home: h, played: g.played, opp_rest: h ? g.away_rest : g.home_rest, cup: g.cup || '' });
+    for (const g of schedule) for (const [t, o, h] of [[g.home, g.away, true], [g.away, g.home, false]]) if (games.has(t)) games.get(t).push({ date: g.date, opp: o, home: h, played: g.played, opp_rest: h ? g.away_rest : g.home_rest, cup: g.cup || '', neutral: !!g.neutral });
     for (const g of lakers_schedule) if (g.date > coveredTo && games.has('LAL')) games.get('LAL').push({ date: g.date, opp: g.opp, home: g.home_away === 'H', played: false, opp_rest: null });
     games.forEach((list) => list.sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0)));
     const rows = [];
@@ -938,7 +938,7 @@ dash.calc('next_game', {
           const prev = dates.filter((d) => d < g.date).pop();
           const fB2b = prev ? day(g.date) - day(prev) === 1 : false;
           const oppB2b = known && g.opp_rest === 1;
-          const hca = h ? (g.home ? HCA : -HCA) : 0;
+          const hca = h && !g.neutral ? (g.home ? HCA : -HCA) : 0;
           const rest = r ? B2B * ((oppB2b ? 1 : 0) - (fB2b ? 1 : 0)) : 0;
           const fr = rating.get(variant + '|' + F), orr = rating.get(variant + '|' + g.opp);
           const fOut = out(F, g.date), oppOut = out(g.opp, g.date);
@@ -949,7 +949,7 @@ dash.calc('next_game', {
             proj_adj: ad.note && !ad.note.startsWith('No impact') ? fr - orr + hca + rest + ad.adj : null,
             adj_note: ad.note || 'No absence adjustment for this date.',
             games_away: ahead.indexOf(g),
-            rest_note: (g.cup ? 'NBA Cup game (' + g.cup + '); it counts in the standings. ' : '') + (fB2b ? fname + ' on a back-to-back. ' : fname + ' rested. ') + (known ? (oppB2b ? names.get(g.opp) + ' on a back-to-back.' : names.get(g.opp) + ' rested.') : names.get(g.opp) + ' rest not yet known; assumed rested.'),
+            rest_note: (g.neutral ? 'Neutral site: no home court. ' : '') + (g.cup ? 'NBA Cup game (' + g.cup + '); it counts in the standings. ' : '') + (fB2b ? fname + ' on a back-to-back. ' : fname + ' rested. ') + (known ? (oppB2b ? names.get(g.opp) + ' on a back-to-back.' : names.get(g.opp) + ' rested.') : names.get(g.opp) + ' rest not yet known; assumed rested.'),
             absent_note: ([fOut.length ? fname + ' out: ' + fOut.join(', ') : '', listed(F, g.date).length ? fname + ' listed: ' + listed(F, g.date).join(', ') : '',
               oppOut.length ? names.get(g.opp) + ' out: ' + oppOut.join(', ') : '', listed(g.opp, g.date).length ? names.get(g.opp) + ' listed: ' + listed(g.opp, g.date).join(', ') : ''].filter(Boolean).join('; ') || 'No key absences on file for this date.')
               + (reportOn(g.date, [F, g.opp]) ? ' (NBA injury report, ' + reportOn(g.date, [F, g.opp]) + '.)' : ''),
@@ -1125,7 +1125,7 @@ dash.calc('scorecard', {
       const A = ids.map(() => new Array(n).fill(0)), b = new Array(n).fill(0);
       for (const g of games) {
         const i = ix.get(g.home), j = ix.get(g.away);
-        const y = g.home_pts - g.away_pts - (h ? HCA : 0) - (r ? B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0)) : 0);
+        const y = g.home_pts - g.away_pts - (h && !g.neutral ? HCA : 0) - (r ? B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0)) : 0);
         A[i][i]++; A[j][j]++; A[i][j]--; A[j][i]--; b[i] += y; b[j] -= y;
       }
       for (let i = 0; i < n; i++) A[i][i] += s ? LAMBDA : 1e-6;
@@ -1148,7 +1148,7 @@ dash.calc('scorecard', {
         const before = played.filter((g) => g.date < d);
         const x = before.length ? fit(before, h, s, r) : new Array(n).fill(0);
         for (const g of played.filter((g) => g.date === d)) {
-          const ctx = (h ? HCA : 0) + (r ? B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0)) : 0);
+          const ctx = (h && !g.neutral ? HCA : 0) + (r ? B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0)) : 0);
           const proj = x[ix.get(g.home)] - x[ix.get(g.away)] + ctx, actual = g.home_pts - g.away_pts;
           rows.push({ variant, date: d, away: g.away, home: g.home, proj, actual, miss: Math.abs(proj - actual), hit: proj === 0 ? null : (proj > 0) === (actual > 0), base_miss: Math.abs(HCA - actual), base_hit: actual > 0 });
         }
@@ -1266,6 +1266,7 @@ const CONF = {
   NOP: 'West', OKC: 'West', PHX: 'West', POR: 'West', SAC: 'West', SAS: 'West', UTA: 'West',
 };
 const W_HCA = 2.0, W_B2B = 1.0, W_LAMBDA = 5, W_SIGMA = 12, W_SIMS = 1000;
+const wHca = (g) => (g.neutral ? 0 : W_HCA);  // no home court at a neutral site
 const wRest = (g) => W_B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0));
 const etToday = () => new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' });
 
@@ -1276,7 +1277,7 @@ const watchFit = (games, ids) => {
   for (const g of games) {
     const i = ix.get(g.home), j = ix.get(g.away);
     if (i === undefined || j === undefined) continue;
-    const y = g.home_pts - g.away_pts - W_HCA - wRest(g);
+    const y = g.home_pts - g.away_pts - wHca(g) - wRest(g);
     A[i][i]++; A[j][j]++; A[i][j]--; A[j][i]--; b[i] += y; b[j] -= y;
   }
   for (let i = 0; i < n; i++) A[i][i] += W_LAMBDA;
@@ -1337,7 +1338,7 @@ dash.calc('watch', {
     const W = new Array(n).fill(0), L = new Array(n).fill(0);
     for (const g of played) { const h = ix.get(g.home), a = ix.get(g.away); if (h === undefined || a === undefined) continue; if (g.home_pts > g.away_pts) { W[h]++; L[a]++; } else { W[a]++; L[h]++; } }
     // The rest of the schedule (NBA Cup knockout slots without teams yet are left out)
-    const rest = schedule.filter((g) => !g.played && ix.has(g.home) && ix.has(g.away)).map((g) => [ix.get(g.home), ix.get(g.away), W_HCA + wRest(g)]);
+    const rest = schedule.filter((g) => !g.played && ix.has(g.home) && ix.has(g.away)).map((g) => [ix.get(g.home), ix.get(g.away), wHca(g) + wRest(g)]);
     // The NBA schedules 80 games per team and adds the last 2 after the Cup group stage (Cup knockout games, or two
     // games between teams that did not advance). Until they appear, each team's missing games are played against an
     // average opponent, half at home, so projected wins are out of 82.
@@ -1398,7 +1399,7 @@ dash.calc('tonight', {
       const gain = watchGain(fit, g.home, g.away);
       return {
         date, today: date === today, home: g.home, away: g.away, cup: g.cup || '',
-        expected: fit.r[fit.ix.get(g.home)] - fit.r[fit.ix.get(g.away)] + W_HCA + wRest(g),
+        expected: fit.r[fit.ix.get(g.home)] - fit.r[fit.ix.get(g.away)] + wHca(g) + wRest(g),
         gain: Object.fromEntries(ids.map((t, i) => [t, gain[i]])), rating: Object.fromEntries(ids.map((t, i) => [t, fit.r[i]])),
       };
     });

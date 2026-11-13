@@ -260,4 +260,12 @@ def checks(root, results, box, pgames, out_dir):
         lq = read(data / "lakers_quarters.csv")
         qd = [(r["date"], r["team"]) for r in lq if (r["date"], r["team"]) in q and any(int(r[k]) != int(q[(r["date"], r["team"])][k]) for k in ["q1", "q2", "q3", "q4"])]
         notes.append(f"Lakers quarter scores: {sum((r['date'], r['team']) in q for r in lq)} compared, {len(qd)} differ{(' ' + str(qd)) if qd else ''}.")
+    # NBA Cup group play uses point differential as a tiebreaker, so Cup games may run to bigger margins.
+    # The ratings count every point; this line tracks whether that matters (compare at season end).
+    fin = [r for r in results if r["home_pts"] != "" and r["away_pts"] != ""]
+    cup = [abs(int(r["home_pts"]) - int(r["away_pts"])) for r in fin if r.get("cup")]
+    other = [abs(int(r["home_pts"]) - int(r["away_pts"])) for r in fin if not r.get("cup")]
+    if cup and other:
+        notes.append(f"NBA Cup games: {len(cup)} played, average winning margin {sum(cup) / len(cup):.1f} points, "
+                     f"against {sum(other) / len(other):.1f} in the other {len(other)} games.")
     return notes
