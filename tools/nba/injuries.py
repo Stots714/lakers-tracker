@@ -53,6 +53,9 @@ TEAMS = {
     "Toronto Raptors": "TOR", "Utah Jazz": "UTA", "Washington Wizards": "WAS",
 }
 FIELDS = ["report", "game_date", "game_time", "matchup", "team", "player", "status", "reason"]
+# How each reason in the report begins; any other line in the reason column continues the line above
+REASON_START = re.compile(r"^(Injury/Illness|G League|Not With Team|Personal|League Suspension|Suspension|Health and Safety"
+                          r"|Rest\b|Return to Competition|Concussion|Coach|Trade|Load Management|NOT YET SUBMITTED)", re.I)
 
 
 class ReportError(Exception):
@@ -159,6 +162,11 @@ def parse(pdf_bytes, report_label=""):
     """PDF bytes -> list of row dicts (FIELDS). Raises ReportError when the result does not check out."""
     reader = PdfReader(io.BytesIO(pdf_bytes))
     entries, carry, bad = [], {c: "" for c in COLS[:4]}, []
+    # A reason that wraps onto two lines can start on the line above its player's row, so reasons are
+    # paired with players in reading order rather than by row: each new reason (it starts with one of the
+    # report's reason types) belongs to the next player still without one, and any other reason line
+    # continues the reason before it.
+    reasons, waiting_players, waiting_reasons, current = [], [], [], None
     for page in reader.pages:
         frags = _fragments(page)
         heads = {t: x for x, y, t in frags if t in COLS}
@@ -179,13 +187,30 @@ def parse(pdf_bytes, report_label=""):
                         carry["Team"] = carry["Team"] if cells.get("Team") else ""
             player, status, reason = cells.get("Player Name", ""), cells.get("Current Status", ""), cells.get("Reason", "")
             if player or status:
-                entries.append({**carry, "Player Name": player, "Current Status": status, "Reason": reason})
-            elif reason.upper().startswith("NOT YET SUBMITTED"):
-                entries.append({**carry, "Player Name": "", "Current Status": "Not submitted", "Reason": ""})
-            elif reason and entries:
-                entries[-1]["Reason"] = (entries[-1]["Reason"] + " " + reason).strip()  # a wrapped reason
-            elif text.strip():
+                entries.append({**carry, "Player Name": player, "Current Status": status, "Reason": ""})
+                if waiting_reasons:
+                    waiting_reasons.pop(0)["owner"] = len(entries) - 1
+                else:
+                    waiting_players.append(len(entries) - 1)
+            if reason:
+                if reason.upper().startswith("NOT YET SUBMITTED"):
+                    entries.append({**carry, "Player Name": "", "Current Status": "Not submitted", "Reason": ""})
+                    current = None
+                elif REASON_START.match(reason) or current is None:
+                    current = {"text": reason, "owner": waiting_players.pop(0) if waiting_players else None}
+                    reasons.append(current)
+                    if current["owner"] is None:
+                        waiting_reasons.append(current)
+                else:
+                    current["text"] += " " + reason  # a wrapped reason
+            elif not (player or status) and text.strip():
                 bad.append(text)
+    for r in reasons:
+        if r["owner"] is None:
+            bad.append("reason with no player: " + r["text"])
+        else:
+            entries[r["owner"]]["Reason"] = re.sub(r"(\w)- (?=[A-Z])", r"\1-", r["text"])  # "Two- Way" -> "Two-Way"
+    bad += ["player with no reason: " + entries[i]["Player Name"] for i in waiting_players]
     rows = []
     for e in entries:
         problems = []

@@ -160,6 +160,15 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .lk-head .lk-mode { margin-top: var(--cds-gap-xs); }
 .lk-cover { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: var(--cds-gap-xs) 0 0; line-height: 1.45; }
 .lk-cover:empty { display: none; }
+.lk-h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: var(--cds-gap-md) 0 var(--cds-gap-xs); }
+#lk-watch tbody tr { cursor: pointer; }
+#around .lk-tablewrap { max-height: none; }
+@container lkcard (max-width: 960px) {
+  #around .lk-table.lk-stack td:first-child { grid-column: 1 / -1; justify-content: flex-start; text-align: left; color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  #around .lk-table.lk-stack td:first-child::before { content: none; }
+  #around .lk-table.lk-stack td.lk-wrap { display: block; text-align: left; }
+  #around .lk-table.lk-stack td.lk-wrap::before { display: block; margin: 0 0 0.1rem; }
+}
 
 
 #lk-updated.lk-stale { color: var(--color-bad); }
@@ -291,6 +300,25 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
     <ul class="lk-notes" id="lk-story" data-source="spotlight_notes"></ul>
   </section>
 
+  <section class="lk-card" id="around">
+    <h2 id="lk-around-title">Around the league</h2>
+    <h3 class="lk-h3" id="lk-tonight-h3">Tonight</h3>
+    <p class="lk-note" id="lk-tonight-note"></p>
+    <div class="lk-tablewrap">
+      <table class="lk-table lk-stack" id="lk-tonight">
+        <thead><tr><th class="lk-left">Game</th><th class="lk-left">Status</th><th class="lk-left lk-wide">What it means</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <h3 class="lk-h3">Teams to watch</h3>
+    <div class="lk-tablewrap">
+      <table class="lk-table lk-stack" id="lk-watch">
+        <thead><tr><th class="lk-left">Team</th><th>Rating</th><th>2-week trend</th><th>Projected wins</th><th>Top-6 seed</th><th class="lk-left lk-wide">Why we're watching</th><th class="lk-left">Next</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="lk-note" id="lk-watch-note"></p>
+  </section>
   <section class="lk-card" id="league">
     <h2 id="lk-league-title">League ratings</h2>
     <p class="lk-note" id="lk-league-note">All 30 teams under the adjustments chosen above. Tap a team to compare it.</p>
@@ -1228,6 +1256,148 @@ dash.calc('with_without', {
   },
 });
 
+// ---- Around the league: teams to watch, season odds and tonight's games ----
+// Default settings only (home court 2.0, back-to-back 1.0, shrinkage of 5 games, game noise 12 points),
+// the same model as the league table. Proposed: season odds come from simulating the rest of the schedule.
+const CONF = {
+  ATL: 'East', BOS: 'East', BKN: 'East', CHA: 'East', CHI: 'East', CLE: 'East', DET: 'East', IND: 'East',
+  MIA: 'East', MIL: 'East', NYK: 'East', ORL: 'East', PHI: 'East', TOR: 'East', WAS: 'East',
+  DAL: 'West', DEN: 'West', GSW: 'West', HOU: 'West', LAC: 'West', LAL: 'West', MEM: 'West', MIN: 'West',
+  NOP: 'West', OKC: 'West', PHX: 'West', POR: 'West', SAC: 'West', SAS: 'West', UTA: 'West',
+};
+const W_HCA = 2.0, W_B2B = 1.0, W_LAMBDA = 5, W_SIGMA = 12, W_SIMS = 1000;
+const wRest = (g) => W_B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0));
+const etToday = () => new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' });
+
+// Ratings plus the full inverse of the normal matrix (the model calc keeps only its diagonal)
+const watchFit = (games, ids) => {
+  const n = ids.length, ix = new Map(ids.map((t, i) => [t, i]));
+  const A = ids.map(() => new Array(n).fill(0)), b = new Array(n).fill(0);
+  for (const g of games) {
+    const i = ix.get(g.home), j = ix.get(g.away);
+    if (i === undefined || j === undefined) continue;
+    const y = g.home_pts - g.away_pts - W_HCA - wRest(g);
+    A[i][i]++; A[j][j]++; A[i][j]--; A[j][i]--; b[i] += y; b[j] -= y;
+  }
+  for (let i = 0; i < n; i++) A[i][i] += W_LAMBDA;
+  const M = A.map((row, i) => row.concat(ids.map((_, j) => (i === j ? 1 : 0))));
+  for (let c = 0; c < n; c++) {
+    let p = c;
+    for (let k = c + 1; k < n; k++) if (Math.abs(M[k][c]) > Math.abs(M[p][c])) p = k;
+    [M[c], M[p]] = [M[p], M[c]];
+    const d = M[c][c];
+    for (let j = 0; j < 2 * n; j++) M[c][j] /= d;
+    for (let k = 0; k < n; k++) if (k !== c && M[k][c]) { const f = M[k][c]; for (let j = 0; j < 2 * n; j++) M[k][j] -= f * M[c][j]; }
+  }
+  const inv = M.map((row) => row.slice(n));
+  const r = inv.map((row) => row.reduce((a, v, j) => a + v * b[j], 0));
+  const mean = r.reduce((a, v) => a + v, 0) / n;
+  return { r: r.map((v) => v - mean), inv, ix };
+};
+// How one more game moves every rating, per point of home margin above what the ratings expect (Sherman-Morrison)
+const watchGain = (fit, home, away) => {
+  const i = fit.ix.get(home), j = fit.ix.get(away);
+  const u = fit.inv.map((row) => row[i] - row[j]);
+  const k = 1 + u[i] - u[j];
+  return u.map((v) => v / k);
+};
+// Small seeded random number generator (mulberry32) and normal draws, so the odds do not change on reload
+const wRng = (seed) => () => { seed |= 0; seed = (seed + 0x6D2B79F5) | 0; let t = Math.imul(seed ^ (seed >>> 15), 1 | seed); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+const wNormal = (rnd) => { let u = 0; while (u === 0) u = rnd(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * rnd()); };
+const wPhi = (z) => { const t = 1 / (1 + 0.2316419 * Math.abs(z)), d = 0.3989423 * Math.exp(-z * z / 2); const p = d * t * (0.3193815 + t * (-0.3565638 + t * (1.781478 + t * (-1.821256 + t * 1.330274)))); return z > 0 ? 1 - p : p; };
+const wCholesky = (S) => {
+  const n = S.length, L = S.map(() => new Array(n).fill(0));
+  for (let i = 0; i < n; i++) for (let j = 0; j <= i; j++) {
+    let s = S[i][j];
+    for (let k = 0; k < j; k++) s -= L[i][k] * L[j][k];
+    L[i][j] = i === j ? Math.sqrt(Math.max(s, 1e-12)) : s / L[j][j];
+  }
+  return L;
+};
+
+dash.calc('watch', {
+  inputs: ['schedule', 'teams'],
+  title: 'Teams to watch: rating, two-week trend and season odds',
+  description: 'Default settings. Rating and standard error as in the league table; trend = rating now minus rating from games through 14 days before the latest result; season odds from 1,000 simulated finishes of the schedule, each drawing the ratings from their uncertainty (normal, covariance 12² × the inverse normal matrix) and each game margin from N(home − away + home court + rest, 12²).',
+  fn: (schedule, teams) => {
+    const ids = teams.map((t) => t.team), n = ids.length;
+    const played = schedule.filter((g) => g.played);
+    if (!played.length) return [];
+    const fit = watchFit(played, ids), ix = fit.ix;
+    const asof = played.map((g) => g.date).sort().pop();
+    const shift = (d, k) => { const x = new Date(d + 'T00:00:00Z'); x.setUTCDate(x.getUTCDate() + k); return x.toISOString().slice(0, 10); };
+    // Rating history: as of each week since the first week, and two weeks ago
+    const first = played.map((g) => g.date).sort()[0];
+    const marks = [];
+    for (let d = shift(first, 6); d < asof; d = shift(d, 7)) marks.push(d);
+    marks.push(asof);
+    const hist = marks.map((d) => watchFit(played.filter((g) => g.date <= d), ids).r);
+    const then = shift(asof, -14), fitThen = played.some((g) => g.date <= then) ? watchFit(played.filter((g) => g.date <= then), ids) : null;
+    // Records so far
+    const W = new Array(n).fill(0), L = new Array(n).fill(0);
+    for (const g of played) { const h = ix.get(g.home), a = ix.get(g.away); if (h === undefined || a === undefined) continue; if (g.home_pts > g.away_pts) { W[h]++; L[a]++; } else { W[a]++; L[h]++; } }
+    // The rest of the schedule (NBA Cup knockout slots without teams yet are left out)
+    const rest = schedule.filter((g) => !g.played && ix.has(g.home) && ix.has(g.away)).map((g) => [ix.get(g.home), ix.get(g.away), W_HCA + wRest(g)]);
+    // Simulate
+    const chol = wCholesky(fit.inv.map((row) => row.map((v) => v * W_SIGMA * W_SIGMA)));
+    const rnd = wRng(20261112);
+    const winsAll = ids.map(() => new Int16Array(W_SIMS));
+    const top6 = new Array(n).fill(0), top10 = new Array(n).fill(0), first1 = new Array(n).fill(0), top5r = new Array(n).fill(0);
+    const confs = ['East', 'West'].map((c) => ids.map((t, i) => [t, i]).filter(([t]) => CONF[t] === c).map(([, i]) => i));
+    const draw = new Array(n), z = new Array(n), wins = new Array(n);
+    for (let s = 0; s < W_SIMS; s++) {
+      for (let i = 0; i < n; i++) z[i] = wNormal(rnd);
+      for (let i = 0; i < n; i++) { let v = fit.r[i]; for (let k = 0; k <= i; k++) v += chol[i][k] * z[k]; draw[i] = v; wins[i] = W[i]; }
+      // Home win with probability Φ(expected margin / 12): the same as drawing the margin, with one uniform number instead of a normal
+      for (const [h, a, ctx] of rest) { if (rnd() < wPhi((draw[h] - draw[a] + ctx) / W_SIGMA)) wins[h]++; else wins[a]++; }
+      for (const list of confs) {
+        list.map((i) => [i, wins[i] + rnd() * 0.5]).sort((x, y) => y[1] - x[1]).forEach(([i], k) => { if (k < 6) top6[i]++; if (k < 10) top10[i]++; if (k === 0) first1[i]++; });
+      }
+      draw.map((v, i) => [i, v]).sort((x, y) => y[1] - x[1]).slice(0, 5).forEach(([i]) => { top5r[i]++; });
+      for (let i = 0; i < n; i++) winsAll[i][s] = wins[i];
+    }
+    const q = (arr, p) => { const a = Array.from(arr).sort((x, y) => x - y); return a[Math.min(a.length - 1, Math.floor(p * a.length))]; };
+    const order = ids.map((t, i) => [i, fit.r[i]]).sort((a, b) => b[1] - a[1]).map(([i]) => i);
+    const rows = ids.map((t, i) => {
+      const proj = winsAll[i].reduce((a, v) => a + v, 0) / W_SIMS;
+      return {
+        team: t, conf: CONF[t] || '', rating: fit.r[i], se: W_SIGMA * Math.sqrt(fit.inv[i][i]), rank: order.indexOf(i) + 1,
+        wins: W[i], losses: L[i], left: rest.filter(([h, a]) => h === i || a === i).length,
+        trend: fitThen ? fit.r[i] - fitThen.r[i] : null, hist: hist.map((r) => +r[i].toFixed(2)).join(' '), hist_dates: marks.join(' '),
+        proj_w: proj, w_lo: q(winsAll[i], 0.1), w_hi: q(winsAll[i], 0.9),
+        p_top6: top6[i] / W_SIMS, p_top10: top10[i] / W_SIMS, p_first: first1[i] / W_SIMS, p_top5_rating: top5r[i] / W_SIMS,
+        asof, sims: W_SIMS,
+      };
+    });
+    // Projected conference seed: order by projected wins
+    for (const c of ['East', 'West']) rows.filter((r) => r.conf === c).sort((a, b) => b.proj_w - a.proj_w).forEach((r, k) => { r.seed = k + 1; });
+    return rows;
+  },
+});
+
+dash.calc('tonight', {
+  inputs: ['schedule', 'teams'],
+  title: 'Tonight’s games and how each one moves every team’s rating',
+  description: 'The next slate of unplayed games (today’s date in US Eastern time, or the next date with games). For each game: the home margin the ratings expect, and how much each team’s rating moves per point of home margin above that (exact for one game; games are treated as independent when combined).',
+  fn: (schedule, teams) => {
+    const ids = teams.map((t) => t.team);
+    const played = schedule.filter((g) => g.played);
+    if (!played.length) return [];
+    const fit = watchFit(played, ids), today = etToday();
+    const ahead = schedule.filter((g) => !g.played && g.date >= today && fit.ix.has(g.home) && fit.ix.has(g.away));
+    const date = ahead.map((g) => g.date).sort()[0];
+    if (!date) return [];
+    return ahead.filter((g) => g.date === date).map((g) => {
+      const gain = watchGain(fit, g.home, g.away);
+      return {
+        date, today: date === today, home: g.home, away: g.away,
+        expected: fit.r[fit.ix.get(g.home)] - fit.r[fit.ix.get(g.away)] + W_HCA + wRest(g),
+        gain: Object.fromEntries(ids.map((t, i) => [t, gain[i]])), rating: Object.fromEntries(ids.map((t, i) => [t, fit.r[i]])),
+      };
+    });
+  },
+});
+
 // ---- Focus team: the team the whole page is about. Compare with: a second team for the tiles, game log and next meeting.
 // Team colors: teamcolorcodes.com (Oct 2026), with the Clippers' 2024 palette and the Jazz's purple from Design Your Way (Jazz value approximate).
 const TEAM_COLORS = {
@@ -1698,6 +1868,148 @@ function render() {
 }
 dash.onData(render);
 try { matchMedia('(prefers-color-scheme: dark)').addEventListener('change', render); } catch (e) { /* older browsers */ }
+
+// ---- Around the league card: tonight's games for the focus team, and the teams worth watching ----
+// LIVE belongs to the site's live card, which loads after this script: read it only once it exists
+const wLive = () => { try { return LIVE && Array.isArray(LIVE.games) ? LIVE : null; } catch (e) { return null; } };
+const wSign = (v, d = 2) => (v >= 0 ? '+' : '-') + Math.abs(v).toFixed(d);
+// Chances from 1,000 simulations carry about ±3 points of noise: shown to the nearest 5%
+const wPct = (p) => (p < 0.05 ? 'under 5%' : p > 0.95 ? 'over 95%' : Math.round(p * 20) * 5 + '%');
+const wTimes = (k) => (k === 1 ? 'once' : k === 2 ? 'twice' : k + ' times');
+function wSpark(td, values) {
+  const vals = values.split(' ').map(Number);
+  if (vals.length < 2) return;
+  const lo = Math.min(...vals), hi = Math.max(...vals), W = 88, H = 22;
+  const x = (i) => 4 + i * (W - 8) / (vals.length - 1), y = (v) => (hi === lo ? H / 2 : H - 3 - (v - lo) / (hi - lo) * (H - 6));
+  const NS = 'http://www.w3.org/2000/svg', svg = document.createElementNS(NS, 'svg');
+  svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H); svg.setAttribute('class', 'lk-spark'); svg.setAttribute('role', 'img');
+  svg.setAttribute('aria-label', 'Rating week by week: ' + vals.map((v) => v.toFixed(1)).join(', '));
+  const line = document.createElementNS(NS, 'polyline'); line.setAttribute('points', vals.map((v, i) => x(i) + ',' + y(v)).join(' ')); svg.appendChild(line);
+  const c = document.createElementNS(NS, 'circle'); c.setAttribute('cx', x(vals.length - 1)); c.setAttribute('cy', y(vals[vals.length - 1])); c.setAttribute('r', 2.5); svg.appendChild(c);
+  td.appendChild(document.createTextNode(' ')); td.appendChild(svg);
+}
+
+function renderAround() {
+  if (!document.getElementById('around')) return;
+  const p = P(), F = p.focus;
+  const t = dash.data('teams'), names = new Map(t.status === 'ok' ? t.data.map((r) => [r.team, r.name]) : []);
+  const nm = (x) => names.get(x) || x, fn = nm(F);
+  const sc = dash.data('schedule'), sched = sc.status === 'ok' ? sc.data : [];
+  const met = (a, b) => sched.filter((g) => g.played && ((g.home === a && g.away === b) || (g.home === b && g.away === a))).length;
+  document.getElementById('lk-around-title').textContent = 'Around the league';
+
+  // Tonight
+  const tn = dash.data('tonight'), live = wLive();
+  const tBody = document.querySelector('#lk-tonight tbody'); tBody.replaceChildren();
+  const games = tn.status === 'ok' ? tn.data : [];
+  const liveOf = (g) => (live && live.board_date === g.date ? live.games.find((x) => x.home.team === g.home && x.away.team === g.away) : null);
+  const total = {};  // rating moves for every team if tonight ended as it stands
+  let anyLive = false;
+  for (const g of games) {
+    const lg = liveOf(g), tr = document.createElement('tr');
+    cell(tr, nm(g.away) + ' @ ' + nm(g.home), 'lk-left');
+    let status = 'Not started';
+    if (lg && (lg.status === 2 || lg.status === 3)) {
+      const m = lg.home.score - lg.away.score;
+      status = (lg.status === 3 ? 'Final: ' : lg.status_text + ': ') + lg.away.team + ' ' + lg.away.score + ', ' + lg.home.team + ' ' + lg.home.score;
+      for (const [k, gk] of Object.entries(g.gain)) total[k] = (total[k] || 0) + gk * (m - g.expected);
+      anyLive = true;
+    } else if (lg && lg.tip_utc) {
+      status = 'Tip ' + new Date(lg.tip_utc).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) + ' PT';
+    }
+    cell(tr, status, 'lk-left');
+    const notes = [];
+    if (g.home === F || g.away === F) notes.push('The ' + fn + '’ own game: see Next game above.');
+    else {
+      // Rating: how much this game moves the focus team, per 10 points of margin
+      const gF = g.gain[F] || 0, helps = gF >= 0 ? g.home : g.away, k = met(F, helps);
+      if (Math.abs(gF) * 10 >= 0.01) notes.push(fn + ' ' + wSign(Math.abs(gF) * 10) + ' for every 10 points the ' + nm(helps) + ' win by' + (k ? ' (the ' + fn + ' have played them ' + wTimes(k) + ').' : '.'));
+      else notes.push('Little effect on the ' + fn + '’ rating (under 0.01 per 10 points).');
+      // Rank: the margin at which a team in this game would pass, or drop below, the focus team
+      for (const T of [g.home, g.away]) {
+        const diff0 = g.rating[T] - g.rating[F], slope = g.gain[T] - g.gain[F];
+        if (!slope) continue;
+        const mStar = g.expected - diff0 / slope, mT = T === g.home ? mStar : -mStar, n = Math.ceil(Math.abs(mT));
+        if (n > 30) continue;
+        if (diff0 < 0) notes.push('The ' + nm(T) + ' pass the ' + fn + ' in the ratings ' + (mT > 0 ? 'with a win by ' + n + ' or more.' : 'unless they lose by ' + n + ' or more.'));
+        else notes.push('The ' + nm(T) + ' drop below the ' + fn + ' ' + (mT < 0 ? 'with a loss by ' + n + ' or more.' : 'unless they win by ' + n + ' or more.'));
+      }
+      if (lg && (lg.status === 2 || lg.status === 3)) { const now = (g.gain[F] || 0) * (lg.home.score - lg.away.score - g.expected); notes.push(Math.abs(now) < 0.005 ? 'As it stands: no change for the ' + fn + '.' : 'As it stands: ' + fn + ' ' + wSign(now) + '.'); }
+    }
+    cell(tr, notes.join(' '), 'lk-left lk-wrap');
+    tBody.appendChild(tr);
+  }
+  const w = dash.data('watch'), wrows = w.status === 'ok' ? w.data : [];
+  const me = wrows.find((r) => r.team === F);
+  let tonightNote = '';
+  if (!games.length) tonightNote = 'No games on the schedule file ahead.';
+  else {
+    const d = games[0].date, lbl = dayFmt(new Date(d + 'T00:00:00Z'));
+    document.getElementById('lk-tonight-h3').textContent = games[0].today ? 'Tonight' : 'Next games: ' + lbl;
+    tonightNote = (games[0].today ? 'Tonight, ' + lbl : 'Next games: ' + lbl) + ' (' + games.length + ' game' + (games.length > 1 ? 's' : '') + '). Ratings move only a little from other teams’ games; where they matter is the order.';
+    if (anyLive && me) {
+      const now = wrows.map((r) => [r.team, r.rating + (total[r.team] || 0)]).sort((a, b) => b[1] - a[1]);
+      const rk = now.findIndex(([x]) => x === F) + 1, r1 = now.find(([x]) => x === F)[1];
+      tonightNote += ' If tonight ended as it stands: ' + fn + ' ' + wSign(me.rating) + ' to ' + wSign(r1) + ', ' + (rk === me.rank ? 'still ' + ord(rk) : ord(me.rank) + ' to ' + ord(rk)) + '.';
+    }
+  }
+  document.getElementById('lk-tonight-note').textContent = tonightNote;
+
+  // Teams to watch
+  const wBody = document.querySelector('#lk-watch tbody'); wBody.replaceChildren();
+  if (me) {
+    const ahead = sched.filter((g) => !g.played && (g.home === F || g.away === F)).slice(0, 2).map((g) => (g.home === F ? g.away : g.home));
+    const tonightTeams = new Set(games.flatMap((g) => [g.home, g.away]));
+    const ab = dash.data('absences_all'), abRows = ab.status === 'ok' ? ab.data : [];
+    const pi = dash.data('player_impact'), pg = dash.data('player_games_all');
+    const teamGp = new Map(wrows.map((r) => [r.team, r.wins + r.losses]));
+    const value = pi.status === 'ok' && pg.status === 'ok' ? absenceValuer(pi.data, pg.data, teamGp) : () => null;
+    const nextOf = (T) => sched.find((g) => !g.played && (g.home === T || g.away === T));
+    const tags = (r) => {
+      const out = [], wt = { n: 0 };
+      const add = (s, k) => { out.push(s); wt.n += k; };
+      if (ahead.includes(r.team)) add('Plays the ' + fn + ' next' + (ahead[0] === r.team ? '' : ' after that'), 4);
+      if (r.rank <= 5) add('Contender: ' + ord(r.rank) + ' in the ratings, ' + wPct(r.p_top5_rating) + ' chance it is truly top 5', 3);
+      if (r.conf === me.conf && Math.abs(r.seed - me.seed) <= 2) add('Seeding rival: projected ' + ord(r.seed) + ' in the ' + r.conf, 3);
+      if (Math.abs(r.rating - me.rating) <= 1.5) add('Close in the ratings (' + wSign(r.rating - me.rating, 1) + ')', 2);
+      if (r.trend !== null && Math.abs(r.trend) >= 2) add((r.trend > 0 ? 'Rising ' : 'Falling ') + wSign(r.trend, 1) + ' in two weeks', 1);
+      const ng = nextOf(r.team);
+      if (ng) {
+        const outs = abRows.filter((a) => a.team === r.team && a.kind === 'injury' && a.out !== false && a.from === ng.date)
+          .map((a) => [a.player, value(r.team, a.player)]).filter(([, v]) => v !== null && v >= 1.5);
+        if (outs.length) add('Without ' + outs.map(([pl, v]) => pl + ' (' + wSign(-v, 1) + ')').join(', ') + ' next game', 1);
+      }
+      return { out, weight: wt.n };
+    };
+    const picked = wrows.filter((r) => r.team !== F).map((r) => ({ r, ...tags(r) })).filter((x) => x.weight >= 2)
+      .sort((a, b) => b.weight - a.weight || a.r.rank - b.r.rank).slice(0, 7);
+    const line = (r, why, isMe) => {
+      const tr = document.createElement('tr'); tr.dataset.team = r.team;
+      if (isMe) tr.className = 'lk-sel';
+      cell(tr, nm(r.team) + ' (' + r.wins + '-' + r.losses + ')', 'lk-left');
+      cell(tr, sgn(r.rating) + ' · ' + ord(r.rank));
+      const tdT = cell(tr, r.trend === null ? '—' : sgn(r.trend)); wSpark(tdT, r.hist);
+      cell(tr, Math.round(r.proj_w) + ' (' + r.w_lo + '–' + r.w_hi + ')');
+      cell(tr, wPct(r.p_top6));
+      cell(tr, why, 'lk-left lk-wrap');
+      const ng = nextOf(r.team);
+      cell(tr, !ng ? '—' : (tonightTeams.has(r.team) && games[0] && ng.date === games[0].date ? (games[0].today ? 'Tonight ' : dayFmt(new Date(ng.date + 'T00:00:00Z')) + ' ') : dayFmt(new Date(ng.date + 'T00:00:00Z')) + ' ') + (ng.home === r.team ? 'vs ' + ng.away : '@ ' + ng.home), 'lk-left');
+      wBody.appendChild(tr);
+    };
+    line(me, 'Your focus team: projected ' + ord(me.seed) + ' in the ' + me.conf + ', ' + wPct(me.p_top6) + ' chance of a top-6 seed.', true);
+    picked.forEach(({ r, out }) => line(r, out.join(' · '), false));
+    const seNow = me.se, gp = me.wins + me.losses, seMid = 12 / Math.sqrt(41 + 5);
+    document.getElementById('lk-watch-note').textContent = 'Picked for the ' + fn + ' from what the data says now: upcoming opponents, contenders, seeding rivals, teams close in the ratings, big movers and key absences. '
+      + 'Ratings are still settling: about ±' + seNow.toFixed(1) + ' points after ' + gp + ' games, about ±' + seMid.toFixed(1) + ' by midseason, so expect this list to change. '
+      + 'Projected wins (80% range) and top-6 seed chance (in each team’s conference) come from ' + me.sims.toLocaleString('en-US') + ' simulated finishes of the schedule, as of ' + dayFmt(new Date(me.asof + 'T00:00:00Z')) + '; they hold each team’s strength fixed (no injuries or trades) and ignore tiebreakers. Default settings. Tap a team to compare it.';
+  }
+  ['lk-tonight', 'lk-watch'].forEach((id) => phoneLayout(document.getElementById(id)));
+}
+dash.onData(renderAround);
+document.getElementById('lk-watch').addEventListener('click', (e) => {
+  const tr = e.target.closest('tr[data-team]');
+  if (tr) pick(tr.dataset.team);
+});
 let SOURCES = null;
 const renderSources = () => {
   if (!SOURCES) return;
@@ -1765,6 +2077,7 @@ async function loadLive() {
   } catch (e) { LIVE = null; }
   liveFetched = Date.now();
   renderLive();
+  if (typeof renderAround === 'function') renderAround();  // tonight's scores feed the Around the league card
 }
 function liveGameFor(team) {
   if (!LIVE || !LIVE.games) return null;
