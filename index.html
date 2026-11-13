@@ -161,7 +161,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .lk-cover { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: var(--cds-gap-xs) 0 0; line-height: 1.45; }
 .lk-cover:empty { display: none; }
 .lk-h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: var(--cds-gap-md) 0 var(--cds-gap-xs); }
-#lk-watch tbody tr { cursor: pointer; }
+#lk-watch tbody tr, #lk-conf tbody tr { cursor: pointer; }
 #around .lk-tablewrap { max-height: none; }
 @container lkcard (max-width: 960px) {
   #around .lk-table.lk-stack td:first-child { grid-column: 1 / -1; justify-content: flex-start; text-align: left; color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
@@ -169,6 +169,50 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
   #around .lk-table.lk-stack td.lk-wrap { display: block; text-align: left; }
   #around .lk-table.lk-stack td.lk-wrap::before { display: block; margin: 0 0 0.1rem; }
 }
+.lk-quick { margin: 0 0 var(--cds-gap-md); padding-left: 1.15rem; line-height: 1.5; max-width: 64rem; }
+.lk-quick li { margin: 0 0 0.3rem; }
+.lk-quick ul { margin: 0.3rem 0 0; padding-left: 1.1rem; }
+.lk-quick b { font-weight: var(--cds-font-weight-medium); }
+.lk-charts { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--cds-gap-lg); margin: var(--cds-gap-md) 0 var(--cds-gap-sm); }
+@container lkcard (min-width: 820px) { .lk-charts { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+.lk-fig { margin: 0; min-width: 0; }
+.lk-fig-t { margin: 0; font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); line-height: 1.35; }
+.lk-fig-s { margin: 0.2rem 0 var(--cds-gap-xs); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.4; }
+.lk-legend { display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0 0 var(--cds-gap-xs); }
+.lk-legend > span { display: inline-flex; align-items: center; }
+.lk-legend i, .lk-ctip i { display: inline-block; flex: none; width: 14px; height: 2px; border-radius: 1px; margin-right: 0.4rem; vertical-align: middle; }
+.lk-legend i.lk-k-dot { width: 8px; height: 8px; border-radius: 50%; }
+.lk-k-accent { background: var(--lk-accent); }
+.lk-k-watch { background: var(--lk-other, var(--cds-chart-reference)); }
+.lk-k-other { background: var(--cds-chart-muted); height: 1px !important; }
+.lk-legend i.lk-k-ref { height: 0; border-top: 1px dashed var(--cds-chart-reference); border-radius: 0; }
+.lk-chartwrap { position: relative; }
+.lk-chart { display: block; width: 100%; height: auto; overflow: visible; touch-action: pan-y; -webkit-tap-highlight-color: transparent; }
+.lk-chart:focus { outline: none; }
+.lk-chart:focus-visible { outline: 2px solid var(--color-fg-muted); outline-offset: 3px; border-radius: 4px; }
+.lk-chart text { font-family: var(--font-anthropic-sans); font-size: 11px; fill: var(--color-fg-muted); font-variant-numeric: tabular-nums; }
+.lk-chart text.lk-name { fill: var(--color-fg); }
+.lk-chart text.lk-strong { fill: var(--color-fg); font-weight: 600; }
+.lk-chart text.lk-small { font-size: 10px; }
+.lk-chart .lk-grid { stroke: var(--cds-chart-grid); stroke-width: 1; }
+.lk-chart .lk-zero { stroke: var(--color-border-line); stroke-width: 1; }
+.lk-chart .lk-ref { stroke: var(--cds-chart-reference); stroke-width: 1; stroke-dasharray: 3 3; }
+.lk-chart .lk-hov { fill: var(--cds-chart-grid); }
+.lk-chart .lk-cross { stroke: var(--cds-chart-reference); stroke-width: 1; }
+.lk-chart .lk-whisk { stroke: var(--lk-other, var(--cds-chart-reference)); stroke-width: 2; stroke-linecap: round; }
+.lk-chart .lk-line { fill: none; stroke: var(--lk-other, var(--cds-chart-reference)); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.lk-chart .lk-ctx { fill: none; stroke: var(--cds-chart-muted); stroke-width: 1; stroke-linejoin: round; opacity: 0.75; }
+.lk-chart .lk-leader { fill: none; stroke: var(--cds-chart-reference); stroke-width: 1; }
+.lk-chart .lk-dot { fill: var(--lk-other, var(--cds-chart-reference)); stroke: var(--color-panel); stroke-width: 2; }
+.lk-chart .lk-whisk.lk-f, .lk-chart .lk-line.lk-f { stroke: var(--lk-accent); }
+.lk-chart .lk-dot.lk-f { fill: var(--lk-accent); }
+.lk-ctip { position: absolute; z-index: 3; pointer-events: none; min-width: 9rem; max-width: 17rem; padding: 0.4rem 0.55rem; background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 8px; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.45; }
+.lk-ctip[hidden] { display: none; }
+.lk-ctip .lk-ctip-h { color: var(--color-fg); margin-bottom: 0.15rem; }
+.lk-ctip b { color: var(--color-fg); font-weight: 600; font-variant-numeric: tabular-nums; margin-right: 0.15rem; }
+.lk-details { margin-top: var(--cds-gap-md); border-top: 1px solid var(--color-border-line); padding-top: var(--cds-gap-sm); }
+.lk-details > summary { cursor: pointer; font-weight: var(--cds-font-weight-medium); padding: var(--cds-pad-xs) 0; }
+.lk-details > summary span { color: var(--color-fg-muted); font-weight: 400; font-size: var(--cds-font-size-caption); margin-left: 0.35rem; }
 
 
 #lk-updated.lk-stale { color: var(--color-bad); }
@@ -302,22 +346,47 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 
   <section class="lk-card" id="around">
     <h2 id="lk-around-title">Around the league</h2>
-    <h3 class="lk-h3" id="lk-tonight-h3">Tonight</h3>
-    <p class="lk-note" id="lk-tonight-note"></p>
-    <div class="lk-tablewrap">
-      <table class="lk-table lk-stack" id="lk-tonight">
-        <thead><tr><th class="lk-left">Game</th><th class="lk-left">Status</th><th class="lk-left lk-wide">What it means</th></tr></thead>
-        <tbody></tbody>
-      </table>
+    <h3 class="lk-h3">Quick read</h3>
+    <ul class="lk-quick" id="lk-quick"></ul>
+    <div class="lk-charts">
+      <figure class="lk-fig">
+        <figcaption><p class="lk-fig-t" id="lk-seed-t">Playoff picture</p><p class="lk-fig-s" id="lk-seed-s"></p></figcaption>
+        <div class="lk-legend" aria-hidden="true"><span><i class="lk-k-dot lk-k-accent"></i><span class="lk-key-f">Focus team</span></span><span><i class="lk-k-dot lk-k-watch"></i>Other teams</span><span><i class="lk-k-ref"></i>Top 6 and top 10</span></div>
+        <div class="lk-chartwrap"><svg class="lk-chart" id="lk-seedchart" role="img" aria-label="Playoff picture"></svg></div>
+      </figure>
+      <figure class="lk-fig">
+        <figcaption><p class="lk-fig-t" id="lk-trend-t">Ratings by week</p><p class="lk-fig-s" id="lk-trend-s"></p></figcaption>
+        <div class="lk-legend" aria-hidden="true"><span><i class="lk-k-accent"></i><span class="lk-key-f">Focus team</span></span><span><i class="lk-k-watch"></i>Teams to watch</span><span><i class="lk-k-other"></i>Other teams</span></div>
+        <div class="lk-chartwrap"><svg class="lk-chart" id="lk-trendchart" role="img" aria-label="Ratings by week"></svg></div>
+      </figure>
     </div>
-    <h3 class="lk-h3">Teams to watch</h3>
-    <div class="lk-tablewrap">
-      <table class="lk-table lk-stack" id="lk-watch">
-        <thead><tr><th class="lk-left">Team</th><th>Rating</th><th>2-week trend</th><th>Projected wins</th><th>Top-6 seed</th><th class="lk-left lk-wide">Why we're watching</th><th class="lk-left">Next</th></tr></thead>
-        <tbody></tbody>
-      </table>
-    </div>
-    <p class="lk-note" id="lk-watch-note"></p>
+    <details class="lk-details" id="lk-around-details">
+      <summary>Details <span>every game tonight, why each team is on the watch list, and every team&rsquo;s season odds</span></summary>
+      <h3 class="lk-h3" id="lk-tonight-h3">Tonight</h3>
+      <p class="lk-note" id="lk-tonight-note"></p>
+      <div class="lk-tablewrap">
+        <table class="lk-table lk-stack" id="lk-tonight">
+          <thead><tr><th class="lk-left">Game</th><th class="lk-left">Status</th><th class="lk-left lk-wide">What it means</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <h3 class="lk-h3">Teams to watch</h3>
+      <div class="lk-tablewrap">
+        <table class="lk-table lk-stack" id="lk-watch">
+          <thead><tr><th class="lk-left">Team</th><th>Rating</th><th>2-week trend</th><th>Projected wins</th><th>Top-6 seed</th><th class="lk-left lk-wide">Why we're watching</th><th class="lk-left">Next</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="lk-note" id="lk-watch-note"></p>
+      <h3 class="lk-h3" id="lk-conf-h3">Playoff picture</h3>
+      <div class="lk-tablewrap">
+        <table class="lk-table lk-stack" id="lk-conf">
+          <thead><tr><th class="lk-left">Team</th><th>Seed</th><th>Record</th><th>Rating</th><th>Projected wins</th><th>Top 6</th><th>Top 10</th><th>1st seed</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="lk-note" id="lk-conf-note"></p>
+    </details>
   </section>
   <section class="lk-card" id="league">
     <h2 id="lk-league-title">League ratings</h2>
@@ -1877,13 +1946,17 @@ function render() {
 dash.onData(render);
 try { matchMedia('(prefers-color-scheme: dark)').addEventListener('change', render); } catch (e) { /* older browsers */ }
 
-// ---- Around the league card: tonight's games for the focus team, and the teams worth watching ----
+// ---- Around the league card: a quick read, two charts, and the details (tonight's games, teams to watch, every team's odds) ----
 // LIVE belongs to the site's live card, which loads after this script: read it only once it exists
 const wLive = () => { try { return LIVE && Array.isArray(LIVE.games) ? LIVE : null; } catch (e) { return null; } };
 const wSign = (v, d = 2) => (v >= 0 ? '+' : '-') + Math.abs(v).toFixed(d);
 // Chances from 1,000 simulations carry about ±3 points of noise: shown to the nearest 5%
 const wPct = (p) => (p < 0.05 ? 'under 5%' : p > 0.95 ? 'over 95%' : Math.round(p * 20) * 5 + '%');
 const wTimes = (k) => (k === 1 ? 'once' : k === 2 ? 'twice' : k + ' times');
+const wPoss = (s) => s + (/s$/.test(s) ? '’' : '’s');
+const wList = (a) => (a.length < 2 ? a.join('') : a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1]);
+const wDay = (d) => dayFmt(new Date(d + 'T00:00:00Z'));
+const wShort = (d) => ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][d.getUTCMonth()] + ' ' + d.getUTCDate();
 function wSpark(td, values) {
   const vals = values.split(' ').map(Number);
   if (vals.length < 2) return;
@@ -1897,6 +1970,245 @@ function wSpark(td, values) {
   td.appendChild(document.createTextNode(' ')); td.appendChild(svg);
 }
 
+// ---- Charts: plain SVG drawn at the card's width and colored by the page's theme tokens (no chart library to download) ----
+const W_NS = 'http://www.w3.org/2000/svg';
+const wEl = (parent, tag, at, txt) => {
+  const e = document.createElementNS(W_NS, tag);
+  for (const k in at) e.setAttribute(k, at[k]);
+  if (txt !== undefined) e.textContent = txt;
+  if (parent) parent.appendChild(e);
+  return e;
+};
+const wTextW = (s) => String(s).length * 6.2;  // about how wide 11px text is
+// One tooltip per chart: the value leads and the label follows; text only, never HTML built from data
+function wTip(wrap) {
+  let tip = wrap.querySelector('.lk-ctip');
+  if (!tip) { tip = document.createElement('div'); tip.className = 'lk-ctip'; tip.hidden = true; tip.setAttribute('aria-live', 'polite'); wrap.appendChild(tip); }
+  return {
+    show(x, y, head, rows) {
+      tip.replaceChildren();
+      const h = document.createElement('div'); h.className = 'lk-ctip-h'; h.textContent = head; tip.appendChild(h);
+      for (const r of rows) {
+        const d = document.createElement('div');
+        if (r.key) { const i = document.createElement('i'); i.className = 'lk-k-' + r.key; d.appendChild(i); }
+        const b = document.createElement('b'); b.textContent = r.value; d.appendChild(b);
+        d.appendChild(document.createTextNode(' ' + r.label));
+        tip.appendChild(d);
+      }
+      tip.hidden = false;
+      const W = wrap.clientWidth, H = wrap.clientHeight, tw = tip.offsetWidth, th = tip.offsetHeight;
+      let left = x + 16; if (left + tw > W) left = Math.max(0, x - 16 - tw);
+      const top = Math.max(0, Math.min(y - th / 2, H - th));
+      tip.style.left = left + 'px'; tip.style.top = top + 'px';
+    },
+    hide() { tip.hidden = true; },
+  };
+}
+// Pointer, touch and keyboard: the same readout for each
+function wInteract(svg, n, start, show, hide, indexAt) {
+  let cur = -1;
+  const go = (i) => { cur = i; show(i); };
+  const off = () => { cur = -1; hide(); };
+  svg._hide = off;
+  svg.setAttribute('tabindex', '0');
+  svg.onpointermove = svg.onpointerdown = (e) => { const i = indexAt(e); if (i === null) off(); else if (i !== cur) go(i); };
+  svg.onpointerleave = (e) => { if (e.pointerType !== 'touch') off(); };
+  svg.onfocus = () => go(cur >= 0 ? cur : start);
+  svg.onblur = off;
+  svg.onkeydown = (e) => {
+    const step = { ArrowDown: 1, ArrowRight: 1, ArrowUp: -1, ArrowLeft: -1 }[e.key];
+    if (step) { e.preventDefault(); go(Math.max(0, Math.min(n - 1, (cur < 0 ? start : cur) + step))); } else if (e.key === 'Escape') off();
+  };
+}
+document.addEventListener('pointerdown', (e) => {
+  if (e.target.closest && e.target.closest('.lk-chart')) return;
+  document.querySelectorAll('#around .lk-chart').forEach((s) => { if (s._hide) s._hide(); });
+});
+function wEmpty(svg, msg) {
+  const W = Math.max(280, svg.parentNode.clientWidth);
+  svg.setAttribute('viewBox', '0 0 ' + W + ' 60'); svg.setAttribute('width', W); svg.setAttribute('height', 60);
+  svg.replaceChildren(); wEl(svg, 'text', { x: W / 2, y: 34, 'text-anchor': 'middle' }, msg);
+  svg.onpointermove = svg.onpointerdown = svg.onkeydown = svg.onfocus = null; svg.removeAttribute('tabindex');
+}
+
+// Chart 1, the playoff picture: projected wins (dot) and the 80% range (line) for every team in the focus team's conference
+function wSeedChart(svg, rows, F, watched, nm) {
+  if (!rows.length) return wEmpty(svg, 'No games on file yet');
+  const wrap = svg.parentNode, W = Math.max(280, wrap.clientWidth), rowH = 20, bandH = 14, gut = 88, padR = 8, padT = 2, axisH = 22;
+  const list = rows.slice().sort((a, b) => a.seed - b.seed);
+  let y = padT; const ys = [], bands = [];
+  list.forEach((r, i) => {
+    ys.push(y + rowH / 2); y += rowH;
+    if ((i === 5 || i === 9) && i < list.length - 1) { bands.push([y + bandH / 2, i === 5 ? 'top 6' : 'top 10']); y += bandH; }
+  });
+  const H = y + axisH;
+  const lo = Math.max(0, Math.floor((Math.min(...list.map((r) => r.w_lo)) - 2) / 10) * 10);
+  const hi = Math.min(82, Math.ceil((Math.max(...list.map((r) => r.w_hi)) + 2) / 10) * 10);
+  const x0 = lo - 2;  // a little room before the first tick, so its label clears the "Wins" caption
+  const X = (v) => gut + (v - x0) / (hi - x0) * (W - gut - padR);
+  svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H); svg.setAttribute('width', W); svg.setAttribute('height', H);
+  svg.replaceChildren();
+  const hov = wEl(svg, 'rect', { class: 'lk-hov', x: 0, y: 0, width: W, height: rowH, rx: 4, visibility: 'hidden' });
+  for (let t = Math.ceil(lo / 10) * 10; t <= hi; t += 10) {
+    wEl(svg, 'line', { class: 'lk-grid', x1: X(t), x2: X(t), y1: padT, y2: H - axisH });
+    wEl(svg, 'text', { x: X(t), y: H - axisH + 15, 'text-anchor': 'middle' }, t);
+  }
+  wEl(svg, 'text', { x: gut - 8, y: H - axisH + 15, 'text-anchor': 'end' }, 'Wins');
+  for (const [by, lab] of bands) {
+    wEl(svg, 'line', { class: 'lk-ref', x1: gut, x2: W - padR, y1: by, y2: by });
+    wEl(svg, 'text', { x: gut - 8, y: by + 3.5, 'text-anchor': 'end', class: 'lk-small' }, lab);
+  }
+  list.forEach((r, i) => {
+    const f = r.team === F, cy = ys[i];
+    wEl(svg, 'text', { x: gut - 8, y: cy + 4, 'text-anchor': 'end', class: f ? 'lk-strong' : watched.has(r.team) ? 'lk-name' : '' }, nm(r.team));
+    wEl(svg, 'line', { class: 'lk-whisk' + (f ? ' lk-f' : ''), x1: X(r.w_lo), x2: X(r.w_hi), y1: cy, y2: cy });
+  });
+  // Dots after every line, so a dot is never crossed by another row's line
+  list.forEach((r, i) => wEl(svg, 'circle', { class: 'lk-dot' + (r.team === F ? ' lk-f' : ''), cx: X(r.proj_w), cy: ys[i], r: r.team === F ? 5 : 4.5 }));
+  // The one value labeled on the chart: the focus team's
+  const k = list.findIndex((r) => r.team === F);
+  if (k >= 0) {
+    const r = list[k], s = Math.round(r.proj_w) + ' wins (' + r.w_lo + '–' + r.w_hi + ')', w = wTextW(s);
+    if (X(r.w_hi) + 8 + w <= W) wEl(svg, 'text', { x: X(r.w_hi) + 8, y: ys[k] + 4, class: 'lk-strong' }, s);
+    else if (X(r.w_lo) - 8 - w >= gut) wEl(svg, 'text', { x: X(r.w_lo) - 8, y: ys[k] + 4, 'text-anchor': 'end', class: 'lk-strong' }, s);
+  }
+  const tip = wTip(wrap);
+  wInteract(svg, list.length, Math.max(0, k), (i) => {
+    const r = list[i];
+    hov.setAttribute('y', ys[i] - rowH / 2); hov.setAttribute('visibility', 'visible');
+    tip.show(X(r.proj_w), ys[i], ord(r.seed) + ' in the ' + r.conf + ': ' + nm(r.team) + ', ' + r.wins + '-' + r.losses + ' now', [
+      { value: r.proj_w.toFixed(1), label: 'projected wins (80% range ' + r.w_lo + '–' + r.w_hi + ')', key: r.team === F ? 'accent' : 'watch' },
+      { value: wPct(r.p_top6), label: 'top-6 seed (playoffs)' },
+      { value: wPct(r.p_top10), label: 'top 10 (play-in or better)' },
+      { value: wPct(r.p_first), label: 'first in the ' + r.conf },
+    ]);
+  }, () => { hov.setAttribute('visibility', 'hidden'); tip.hide(); }, (e) => {
+    const b = svg.getBoundingClientRect(), py = (e.clientY - b.top) * H / b.height;
+    if (py > H - axisH) return null;
+    let best = 0; ys.forEach((v, i) => { if (Math.abs(v - py) < Math.abs(ys[best] - py)) best = i; });
+    return best;
+  });
+  svg.setAttribute('aria-label', 'Projected wins in the ' + (list[0].conf || 'conference') + ', in order: ' + list.map((r) => nm(r.team) + ' ' + Math.round(r.proj_w) + ' (' + r.w_lo + ' to ' + r.w_hi + ')').join('; ') + '. Use the arrow keys for each team’s odds.');
+}
+
+// Chart 2, how the teams are maturing: each team's rating as of each week; the focus team in its color, the teams to watch labeled
+function wTrendChart(svg, rows, F, watched, nm) {
+  if (!rows.length) return wEmpty(svg, 'No games on file yet');
+  const dates = rows[0].hist_dates.split(' ');
+  if (dates.length < 2) return wEmpty(svg, 'The chart starts after the second week of the season');
+  const wrap = svg.parentNode, W = Math.max(280, wrap.clientWidth), H = 236, padL = 30, padT = 8, padB = 24;
+  const series = rows.map((r) => ({ team: r.team, v: r.hist.split(' ').map(Number), f: r.team === F, w: watched.has(r.team) }));
+  const fs = series.find((s) => s.f), lab = series.filter((s) => s.f || s.w);
+  const labelOf = (s) => nm(s.team) + (s.f ? ' ' + sgn(s.v[s.v.length - 1]) : '');
+  const gutR = Math.min(132, Math.max(...lab.map((s) => wTextW(labelOf(s)))) + 20);
+  const all = series.flatMap((s) => s.v);
+  const y0 = Math.floor(Math.min(...all) / 5) * 5, y1 = Math.ceil(Math.max(...all) / 5) * 5;
+  const t = dates.map((d) => Date.parse(d + 'T00:00:00Z')), x1 = W - gutR;
+  const X = (i) => padL + (t[i] - t[0]) / (t[t.length - 1] - t[0]) * (x1 - padL), Y = (v) => padT + (y1 - v) / (y1 - y0 || 1) * (H - padT - padB);
+  svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H); svg.setAttribute('width', W); svg.setAttribute('height', H);
+  svg.replaceChildren();
+  for (let v = y0; v <= y1; v += 5) {
+    wEl(svg, 'line', { class: v === 0 ? 'lk-zero' : 'lk-grid', x1: padL, x2: x1, y1: Y(v), y2: Y(v) });
+    wEl(svg, 'text', { x: padL - 6, y: Y(v) + 3.5, 'text-anchor': 'end' }, v === 0 ? '0' : (v > 0 ? '+' : '−') + Math.abs(v));
+  }
+  // Date labels: the latest always, earlier ones only where they fit
+  let leftEdge = Infinity;
+  for (let i = dates.length - 1; i >= 0; i--) {
+    const s = wShort(new Date(t[i])), tw = wTextW(s), anchor = i === dates.length - 1 ? 'end' : i === 0 ? 'start' : 'middle';
+    const a = anchor === 'end' ? X(i) - tw : anchor === 'middle' ? X(i) - tw / 2 : X(i);
+    if (a + tw + 8 > leftEdge) continue;
+    wEl(svg, 'text', { x: X(i), y: H - padB + 16, 'text-anchor': anchor }, s);
+    leftEdge = a;
+  }
+  const cross = wEl(svg, 'line', { class: 'lk-cross', x1: 0, x2: 0, y1: padT, y2: H - padB, visibility: 'hidden' });
+  const path = (s) => s.v.map((v, i) => (i ? 'L' : 'M') + X(i).toFixed(1) + ',' + Y(v).toFixed(1)).join('');
+  series.filter((s) => !s.f && !s.w).forEach((s) => wEl(svg, 'path', { class: 'lk-ctx', d: path(s) }));
+  series.filter((s) => s.w && !s.f).forEach((s) => wEl(svg, 'path', { class: 'lk-line', d: path(s) }));
+  if (fs) wEl(svg, 'path', { class: 'lk-line lk-f', d: path(fs) });
+  const last = dates.length - 1;
+  lab.forEach((s) => { if (!s.f) wEl(svg, 'circle', { class: 'lk-dot', cx: X(last), cy: Y(s.v[last]), r: 4 }); });
+  if (fs) wEl(svg, 'circle', { class: 'lk-dot lk-f', cx: X(last), cy: Y(fs.v[last]), r: 4.5 });
+  // End labels in a column at the right, spaced so they never overlap, each joined to its line by a short leader
+  const gap = 14, top = padT + 4, bottom = H - padB - 2;
+  const L = lab.map((s) => ({ s, ty: Y(s.v[last]) })).sort((a, b) => a.ty - b.ty);
+  const place = (g) => { const mid = g.items.reduce((a, l) => a + l.ty, 0) / g.items.length; g.y = Math.max(top, Math.min(bottom - (g.items.length - 1) * gap, mid - (g.items.length - 1) * gap / 2)); };
+  let groups = L.map((l) => ({ items: [l] })); groups.forEach(place);
+  for (let merged = true; merged;) {
+    merged = false;
+    for (let i = 1; i < groups.length; i++) {
+      const a = groups[i - 1], b = groups[i];
+      if (a.y + a.items.length * gap > b.y) { a.items.push(...b.items); place(a); groups.splice(i, 1); merged = true; break; }
+    }
+  }
+  groups.forEach((g) => g.items.forEach((l, k) => { l.ly = g.y + k * gap; }));
+  L.forEach((l) => {
+    wEl(svg, 'path', { class: 'lk-leader', d: 'M' + (x1 + 7) + ',' + l.ty.toFixed(1) + 'L' + (x1 + 13) + ',' + l.ly.toFixed(1) + 'L' + (x1 + 16) + ',' + l.ly.toFixed(1) });
+    wEl(svg, 'text', { x: x1 + 19, y: l.ly + 3.5, class: l.s.f ? 'lk-strong' : 'lk-name' }, labelOf(l.s));
+  });
+  const hl = wEl(svg, 'g', {});
+  const tip = wTip(wrap);
+  wInteract(svg, dates.length, last, (i) => {
+    cross.setAttribute('x1', X(i)); cross.setAttribute('x2', X(i)); cross.setAttribute('visibility', 'visible');
+    hl.replaceChildren();
+    lab.forEach((s) => wEl(hl, 'circle', { class: 'lk-dot' + (s.f ? ' lk-f' : ''), cx: X(i), cy: Y(s.v[i]), r: 4 }));
+    const head = 'As of ' + wShort(new Date(t[i])) + (fs ? ': ' + nm(F) + ' ' + ord(1 + series.filter((s) => s.v[i] > fs.v[i]).length) + ' of ' + series.length : '');
+    tip.show(X(i), fs ? Y(fs.v[i]) : H / 2, head, lab.slice().sort((a, b) => b.v[i] - a.v[i]).map((s) => ({ value: sgn(s.v[i]), label: nm(s.team), key: s.f ? 'accent' : 'watch' })));
+  }, () => { cross.setAttribute('visibility', 'hidden'); hl.replaceChildren(); tip.hide(); }, (e) => {
+    const b = svg.getBoundingClientRect(), px = (e.clientX - b.left) * W / b.width;
+    if (px < padL - 10 || px > x1 + 10) return null;
+    let best = 0; dates.forEach((_, i) => { if (Math.abs(X(i) - px) < Math.abs(X(best) - px)) best = i; });
+    return best;
+  });
+  svg.setAttribute('aria-label', 'Rating by week, ' + dates.map((d) => wShort(new Date(d + 'T00:00:00Z'))).join(', ') + ': ' + lab.map((s) => nm(s.team) + ' ' + s.v.map((v) => sgn(v)).join(', ')).join('; ') + '. Use the arrow keys to step through the weeks.');
+}
+// The grey for the other teams' marks: the first candidate a reader can tell from the focus color, with or without color
+// blindness. OKLab ΔE×100 of at least 15 in normal vision and 8 under simulated protan and deutan vision (Machado, Oliveira and
+// Fernandes 2009, full severity): the thresholds of the chart guidelines this page follows. A grey that recedes behind the focus
+// color (darker on the dark theme, lighter on the light one) is preferred, so the focus team stays the first thing the eye finds.
+const W_MACHADO = {
+  protan: [[0.152286, 1.052583, -0.204868], [0.114503, 0.786281, 0.099216], [-0.003882, -0.048116, 1.051998]],
+  deutan: [[0.367322, 0.860646, -0.227968], [0.280085, 0.672501, 0.047413], [-0.011820, 0.042940, 0.968881]],
+};
+const wLin = (c) => { c /= 255; return c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4; };
+const wOklab = ([r, g, b]) => {
+  const l = Math.cbrt(0.4122214708 * r + 0.5363325363 * g + 0.0514459929 * b), m = Math.cbrt(0.2119034982 * r + 0.6806995451 * g + 0.1073969566 * b), s = Math.cbrt(0.0883024619 * r + 0.2817188376 * g + 0.6299787005 * b);
+  return [0.2104542553 * l + 0.7936177850 * m - 0.0040720468 * s, 1.9779984951 * l - 2.4285922050 * m + 0.4505937099 * s, 0.0259040371 * l + 0.7827717662 * m - 0.8086757660 * s];
+};
+const wDE = (x, y, M) => {
+  const f = (rgb) => { const v = rgb.map(wLin); return wOklab(M ? M.map((row) => Math.max(0, Math.min(1, row[0] * v[0] + row[1] * v[1] + row[2] * v[2]))) : v); };
+  const a = f(x), b = f(y);
+  return 100 * Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]);
+};
+const W_GREYS = { light: ['#8C8794', '#A7A1B0', '#6E6878'], dark: ['#8C8794', '#6E6878', '#5F5968', '#504A58', '#A7A1B0', '#C9C4CF'] };
+function wGrey() {
+  const el = document.getElementById('around'); if (!el) return;
+  const m = getComputedStyle(el).getPropertyValue('--lk-accent').match(/\d+(\.\d+)?/g);
+  if (!m || m.length < 3) return;
+  const light = document.documentElement.dataset.theme === 'light', a = m.slice(0, 3).map(Number), cands = W_GREYS[light ? 'light' : 'dark'].map(rgbOf);
+  const score = (g) => Math.min(wDE(a, g) / 15, wDE(a, g, W_MACHADO.protan) / 8, wDE(a, g, W_MACHADO.deutan) / 8);
+  const L = (c) => wOklab(c.map(wLin))[0], recedes = (g) => (light ? L(g) > L(a) : L(g) < L(a));
+  const pick = cands.find((g) => score(g) >= 1 && recedes(g)) || cands.find((g) => score(g) >= 1) || cands.reduce((b, g) => (score(g) > score(b) ? g : b));
+  el.style.setProperty('--lk-other', 'rgb(' + pick.join(',') + ')');
+}
+try { new MutationObserver(wGrey).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] }); } catch (e) { /* older browsers */ }
+let wChartData = null;
+function wDrawCharts() {
+  const d = wChartData; if (!d) return;
+  const a = document.getElementById('lk-seedchart'), b = document.getElementById('lk-trendchart');
+  if (a) wSeedChart(a, d.conf, d.F, d.watched, d.nm);
+  if (b) wTrendChart(b, d.rows, d.F, d.watched, d.nm);
+}
+
+function wQuick(ul, items) {
+  const li = (it) => {
+    const e = document.createElement('li'), b = document.createElement('b');
+    b.textContent = it.lead; e.appendChild(b); e.appendChild(document.createTextNode(' ' + it.text));
+    if (it.sub && it.sub.length) { const u = document.createElement('ul'); it.sub.forEach((s) => u.appendChild(li(s))); e.appendChild(u); }
+    return e;
+  };
+  ul.replaceChildren(...items.map(li));
+}
+
 function renderAround() {
   if (!document.getElementById('around')) return;
   const p = P(), F = p.focus;
@@ -1906,18 +2218,16 @@ function renderAround() {
   const met = (a, b) => sched.filter((g) => g.played && ((g.home === a && g.away === b) || (g.home === b && g.away === a))).length;
   document.getElementById('lk-around-title').textContent = 'Around the league';
 
-  // Tonight
+  // ---- Tonight: one entry per game, shared by the quick read and the details table
   const tn = dash.data('tonight'), live = wLive();
-  const tBody = document.querySelector('#lk-tonight tbody'); tBody.replaceChildren();
   const games = tn.status === 'ok' ? tn.data : [];
   const liveOf = (g) => (live && live.board_date === g.date ? live.games.find((x) => x.home.team === g.home && x.away.team === g.away) : null);
   const total = {};  // rating moves for every team if tonight ended as it stands
   let anyLive = false;
-  for (const g of games) {
-    const lg = liveOf(g), tr = document.createElement('tr');
-    cell(tr, nm(g.away) + ' @ ' + nm(g.home), 'lk-left');
+  const slate = games.map((g) => {
+    const lg = liveOf(g), started = !!(lg && (lg.status === 2 || lg.status === 3));
     let status = 'Not started';
-    if (lg && (lg.status === 2 || lg.status === 3)) {
+    if (started) {
       const m = lg.home.score - lg.away.score;
       status = (lg.status === 3 ? 'Final: ' : lg.status_text + ': ') + lg.away.team + ' ' + lg.away.score + ', ' + lg.home.team + ' ' + lg.home.score;
       for (const [k, gk] of Object.entries(g.gain)) total[k] = (total[k] || 0) + gk * (m - g.expected);
@@ -1925,72 +2235,156 @@ function renderAround() {
     } else if (lg && lg.tip_utc) {
       status = 'Tip ' + new Date(lg.tip_utc).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' }) + ' PT';
     }
-    cell(tr, status + (g.cup ? ' · ' + g.cup : ''), 'lk-left');
-    const notes = [];
-    if (g.home === F || g.away === F) notes.push('The ' + fn + '’ own game: see Next game above.');
+    const own = g.home === F || g.away === F;
+    const e = { g, status, own, effect: own ? 0 : Math.abs(g.gain[F] || 0) * 10, moves: [], notes: [] };
+    if (own) e.notes.push('The ' + wPoss(fn) + ' own game: see Next game above.');
     else {
       // Rating: how much this game moves the focus team, per 10 points of margin
       const gF = g.gain[F] || 0, helps = gF >= 0 ? g.home : g.away, k = met(F, helps);
-      if (Math.abs(gF) * 10 >= 0.01) notes.push(fn + ' ' + wSign(Math.abs(gF) * 10) + ' for every 10 points the ' + nm(helps) + ' win by' + (k ? ' (the ' + fn + ' have played them ' + wTimes(k) + ').' : '.'));
-      else notes.push('Little effect on the ' + fn + '’ rating (under 0.01 per 10 points).');
+      if (e.effect >= 0.01) e.notes.push(fn + ' ' + wSign(e.effect) + ' for every 10 points the ' + nm(helps) + ' win by' + (k ? ' (the ' + fn + ' have played them ' + wTimes(k) + ').' : '.'));
+      else e.notes.push('Little effect on the ' + wPoss(fn) + ' rating (under 0.01 per 10 points).');
       // Rank: the margin at which a team in this game would pass, or drop below, the focus team
       for (const T of [g.home, g.away]) {
+        const O = T === g.home ? g.away : g.home;
         const diff0 = g.rating[T] - g.rating[F], slope = g.gain[T] - g.gain[F];
         if (!slope) continue;
-        const mStar = g.expected - diff0 / slope, mT = T === g.home ? mStar : -mStar, n = Math.ceil(Math.abs(mT));
+        const mStar = g.expected - diff0 / slope, mT = T === g.home ? mStar : -mStar, n = Math.max(1, Math.ceil(Math.abs(mT)));
         if (n > 30) continue;
-        if (diff0 < 0) notes.push('The ' + nm(T) + ' pass the ' + fn + ' in the ratings ' + (mT > 0 ? 'with a win by ' + n + ' or more.' : 'unless they lose by ' + n + ' or more.'));
-        else notes.push('The ' + nm(T) + ' drop below the ' + fn + ' ' + (mT < 0 ? 'with a loss by ' + n + ' or more.' : 'unless they win by ' + n + ' or more.'));
+        const pass = diff0 < 0;
+        if (pass) {
+          e.notes.push('The ' + nm(T) + ' pass the ' + fn + ' in the ratings ' + (mT > 0 ? 'with a win by ' + n + ' or more.' : 'unless they lose by ' + n + ' or more.'));
+          e.moves.push({ n, text: 'The ' + nm(T) + ' pass the ' + fn + (mT > 0 ? ' if they beat the ' + nm(O) + ' by ' + n + ' or more.' : ' unless they lose to the ' + nm(O) + ' by ' + n + ' or more.') });
+        } else {
+          e.notes.push('The ' + nm(T) + ' drop below the ' + fn + ' ' + (mT < 0 ? 'with a loss by ' + n + ' or more.' : 'unless they win by ' + n + ' or more.'));
+          e.moves.push({ n, text: 'The ' + nm(T) + ' drop below the ' + fn + (mT < 0 ? ' if they lose to the ' + nm(O) + ' by ' + n + ' or more.' : ' unless they beat the ' + nm(O) + ' by ' + n + ' or more.') });
+        }
       }
-      if (lg && (lg.status === 2 || lg.status === 3)) { const now = (g.gain[F] || 0) * (lg.home.score - lg.away.score - g.expected); notes.push(Math.abs(now) < 0.005 ? 'As it stands: no change for the ' + fn + '.' : 'As it stands: ' + fn + ' ' + wSign(now) + '.'); }
+      if (started) { const now = (g.gain[F] || 0) * (lg.home.score - lg.away.score - g.expected); e.notes.push(Math.abs(now) < 0.005 ? 'As it stands: no change for the ' + fn + '.' : 'As it stands: ' + fn + ' ' + wSign(now) + '.'); }
     }
-    cell(tr, notes.join(' '), 'lk-left lk-wrap');
-    tBody.appendChild(tr);
-  }
+    return e;
+  });
   const w = dash.data('watch'), wrows = w.status === 'ok' ? w.data : [];
   const me = wrows.find((r) => r.team === F);
-  let tonightNote = '';
-  if (!games.length) tonightNote = 'No games on the schedule file ahead.';
-  else {
-    const d = games[0].date, lbl = dayFmt(new Date(d + 'T00:00:00Z'));
-    document.getElementById('lk-tonight-h3').textContent = games[0].today ? 'Tonight' : 'Next games: ' + lbl;
-    tonightNote = (games[0].today ? 'Tonight, ' + lbl : 'Next games: ' + lbl) + ' (' + games.length + ' game' + (games.length > 1 ? 's' : '') + '). Ratings move only a little from other teams’ games; where they matter is the order.';
-    if (anyLive && me) {
-      const now = wrows.map((r) => [r.team, r.rating + (total[r.team] || 0)]).sort((a, b) => b[1] - a[1]);
-      const rk = now.findIndex(([x]) => x === F) + 1, r1 = now.find(([x]) => x === F)[1];
-      tonightNote += ' If tonight ended as it stands: ' + fn + ' ' + wSign(me.rating) + ' to ' + wSign(r1) + ', ' + (rk === me.rank ? 'still ' + ord(rk) : ord(me.rank) + ' to ' + ord(rk)) + '.';
-    }
+  let standsNow = '';
+  if (anyLive && me) {
+    const now = wrows.map((r) => [r.team, r.rating + (total[r.team] || 0)]).sort((a, b) => b[1] - a[1]);
+    const rk = now.findIndex(([x]) => x === F) + 1, r1 = now.find(([x]) => x === F)[1];
+    standsNow = fn + ' ' + wSign(me.rating) + ' to ' + wSign(r1) + ', ' + (rk === me.rank ? 'still ' + ord(rk) : ord(me.rank) + ' to ' + ord(rk)) + '.';
   }
-  document.getElementById('lk-tonight-note').textContent = tonightNote;
 
-  // Teams to watch
-  const wBody = document.querySelector('#lk-watch tbody'); wBody.replaceChildren();
+  // ---- Teams to watch: why each team is on the list, and how strongly
+  const ownNext = sched.filter((g) => !g.played && (g.home === F || g.away === F)).slice(0, 2);
+  const ahead = ownNext.map((g) => (g.home === F ? g.away : g.home));
+  const nextOf = (T) => sched.find((g) => !g.played && (g.home === T || g.away === T));
+  let picked = [];
   if (me) {
-    const ahead = sched.filter((g) => !g.played && (g.home === F || g.away === F)).slice(0, 2).map((g) => (g.home === F ? g.away : g.home));
-    const tonightTeams = new Set(games.flatMap((g) => [g.home, g.away]));
     const ab = dash.data('absences_all'), abRows = ab.status === 'ok' ? ab.data : [];
     const pi = dash.data('player_impact'), pg = dash.data('player_games_all');
     const teamGp = new Map(wrows.map((r) => [r.team, r.wins + r.losses]));
     const value = pi.status === 'ok' && pg.status === 'ok' ? absenceValuer(pi.data, pg.data, teamGp) : () => null;
-    const nextOf = (T) => sched.find((g) => !g.played && (g.home === T || g.away === T));
     const tags = (r) => {
-      const out = [], wt = { n: 0 };
-      const add = (s, k) => { out.push(s); wt.n += k; };
-      if (ahead.includes(r.team)) add('Plays the ' + fn + ' next' + (ahead[0] === r.team ? '' : ' after that'), 4);
-      if (r.rank <= 5) add('Contender: ' + ord(r.rank) + ' in the ratings, ' + wPct(r.p_top5_rating) + ' chance it is truly top 5', 3);
-      if (r.conf === me.conf && Math.abs(r.seed - me.seed) <= 2) add('Seeding rival: projected ' + ord(r.seed) + ' in the ' + r.conf, 3);
-      if (Math.abs(r.rating - me.rating) <= 1.5) add('Close in the ratings (' + wSign(r.rating - me.rating, 1) + ')', 2);
-      if (r.trend !== null && Math.abs(r.trend) >= 2) add((r.trend > 0 ? 'Rising ' : 'Falling ') + wSign(r.trend, 1) + ' in two weeks', 1);
+      const out = [], cats = new Set(); let weight = 0, absent = [];
+      const add = (cat, s, k) => { out.push(s); cats.add(cat); weight += k; };
+      if (ahead.includes(r.team)) add('next', 'Plays the ' + fn + ' next' + (ahead[0] === r.team ? '' : ' after that'), 4);
+      if (r.rank <= 5) add('contender', 'Contender: ' + ord(r.rank) + ' in the ratings, ' + wPct(r.p_top5_rating) + ' chance it is truly top 5', 3);
+      if (r.conf === me.conf && Math.abs(r.seed - me.seed) <= 2) add('rival', 'Seeding rival: projected ' + ord(r.seed) + ' in the ' + r.conf, 3);
+      if (Math.abs(r.rating - me.rating) <= 1.5) add('close', 'Close in the ratings (' + wSign(r.rating - me.rating, 1) + ')', 2);
+      if (r.trend !== null && Math.abs(r.trend) >= 2) add(r.trend > 0 ? 'rising' : 'falling', (r.trend > 0 ? 'Rising ' : 'Falling ') + wSign(r.trend, 1) + ' in two weeks', 1);
       const ng = nextOf(r.team);
       if (ng) {
         const outs = abRows.filter((a) => a.team === r.team && a.kind === 'injury' && a.out !== false && a.from === ng.date)
           .map((a) => [a.player, value(r.team, a.player)]).filter(([, v]) => v !== null && v >= 1.5);
-        if (outs.length) add('Without ' + outs.map(([pl, v]) => pl + ' (' + wSign(-v, 1) + ')').join(', ') + ' next game', 1);
+        if (outs.length) { absent = outs.map(([pl]) => pl); add('absence', 'Without ' + outs.map(([pl, v]) => pl + ' (' + wSign(-v, 1) + ')').join(', ') + ' next game', 1); }
       }
-      return { out, weight: wt.n };
+      return { out, cats, weight, absent };
     };
-    const picked = wrows.filter((r) => r.team !== F).map((r) => ({ r, ...tags(r) })).filter((x) => x.weight >= 2)
+    picked = wrows.filter((r) => r.team !== F).map((r) => ({ r, ...tags(r) })).filter((x) => x.weight >= 2)
       .sort((a, b) => b.weight - a.weight || a.r.rank - b.r.rank).slice(0, 7);
+  }
+
+  // ---- Quick read: the bullets
+  const items = [];
+  const others = slate.filter((e) => !e.own), ownG = slate.find((e) => e.own);
+  if (!games.length) items.push({ lead: 'Tonight:', text: 'no games ahead in the schedule file.' });
+  else {
+    const lead = games[0].today ? 'Tonight:' : 'Next games, ' + wDay(games[0].date) + ':';
+    let text = games.length + (games.length === 1 ? ' game' : ' games');
+    if (ownG) text += ', including the ' + fn + (ownG.g.home === F ? ' vs the ' + nm(ownG.g.away) : ' at the ' + nm(ownG.g.home)) + ' (see Next game above)';
+    text += '.';
+    if (others.length) {
+      const mx = Math.max(...others.map((e) => e.effect));
+      text += ' ' + (ownG ? 'The other games ' : 'Other teams’ games ') + (mx < 0.2 ? 'barely move' : 'move') + ' the ' + wPoss(fn) + ' rating: ' + (mx < 0.01 ? 'under 0.01 points' : 'at most ' + mx.toFixed(2) + ' points') + ' for every 10 points of margin.';
+      const moves = others.flatMap((e) => e.moves).sort((a, b) => a.n - b.n);
+      items.push({ lead, text });
+      items.push({ lead: 'Ratings order:', text: moves.length ? moves.slice(0, 3).map((m) => m.text).join(' ') + (moves.length > 3 ? ' ' + (moves.length - 3) + ' more in Details.' : '')
+        : 'no result in ' + (ownG ? 'the other games' : 'these games') + ' is likely to change it. A team would need to win or lose by more than 30 points to pass or drop below the ' + fn + '.' });
+    } else items.push({ lead, text });
+    if (standsNow) items.push({ lead: 'As it stands:', text: 'if tonight ended now, ' + standsNow });
+  }
+  if (me) {
+    let text = me.wins + '-' + me.losses + ', ' + ord(me.rank) + ' in the ratings (' + sgn(me.rating) + '). Projected ' + Math.round(me.proj_w) + ' wins (likely range ' + me.w_lo + '–' + me.w_hi + '), '
+      + ord(me.seed) + ' in the ' + me.conf + ', ' + wPct(me.p_top6) + ' chance of a top-6 seed.';
+    if (me.trend !== null && Math.abs(me.trend) >= 0.5) text += ' Rating ' + (me.trend > 0 ? 'up ' : 'down ') + Math.abs(me.trend).toFixed(1) + ' in two weeks.';
+    items.push({ lead: fn + ':', text });
+    const tagged = (x) => nm(x.r.team) + (x.cats.has('rising') ? ' (rising)' : x.cats.has('falling') ? ' (falling)' : '');
+    const used = new Set(ahead), sub = [];
+    if (ownNext.length) sub.push({ lead: 'Next opponents:', text: ownNext.map((g) => nm(g.home === F ? g.away : g.home) + ' (' + (g.date === etToday() ? 'tonight' : wDay(g.date)) + ')').join(', then ') + '.' });
+    const group = (test) => { const g = picked.filter((x) => !used.has(x.r.team) && test(x)); g.forEach((x) => used.add(x.r.team)); return g; };
+    const top = group((x) => x.cats.has('contender') || x.cats.has('rival'));
+    if (top.length) {
+      const c = top.some((x) => x.cats.has('contender')), s = top.some((x) => x.cats.has('rival'));
+      sub.push({ lead: (c && s ? 'Contenders and seeding rivals:' : c ? 'Contenders:' : 'Seeding rivals:'), text: wList(top.map(tagged)) + '.' });
+    }
+    const close = group((x) => x.cats.has('close'));
+    if (close.length) sub.push({ lead: 'Close to the ' + fn + ' in the ratings:', text: wList(close.map(tagged)) + '.' });
+    const movers = group(() => true);
+    if (movers.length) sub.push({ lead: 'Moving fast:', text: wList(movers.map(tagged)) + '.' });
+    const abs = picked.filter((x) => x.absent.length);
+    if (abs.length) sub.push({ lead: 'Key absences next game:', text: abs.map((x) => nm(x.r.team) + ' without ' + wList(x.absent)).join('; ') + '.' });
+    items.push({ lead: 'Teams to watch:', text: picked.length ? 'picked for the ' + fn + ' from what the data says now; the list changes as the season goes on.' : 'none stand out yet.', sub });
+  }
+  wQuick(document.getElementById('lk-quick'), items);
+
+  // ---- Charts
+  const ttl = (id, s) => { const el = document.getElementById(id); if (el) el.textContent = s; };
+  if (me) {
+    ttl('lk-seed-t', fn + ' projected ' + ord(me.seed) + ' in the ' + me.conf + ': ' + Math.round(me.proj_w) + ' wins (' + me.w_lo + '–' + me.w_hi + ')');
+    ttl('lk-seed-s', 'Every ' + me.conf + ' team. Dot: projected wins, the average of ' + me.sims.toLocaleString('en-US') + ' simulated seasons. Line: the likely range (80%). Dashed lines: top 6 (playoffs) and top 10 (play-in).');
+    const tr = me.trend === null || Math.abs(me.trend) < 0.5 ? ', steady over two weeks' : ', ' + (me.trend > 0 ? 'up ' : 'down ') + Math.abs(me.trend).toFixed(1) + ' in two weeks';
+    ttl('lk-trend-t', fn + ' rating ' + sgn(me.rating) + ', ' + ord(me.rank) + ' of ' + wrows.length + tr);
+    ttl('lk-trend-s', 'Rating as of each week: points per game better (+) or worse (−) than an average team, from the games played by then. Early weeks sit near 0 because a few games say little.');
+    document.querySelectorAll('#around .lk-key-f').forEach((el) => { el.textContent = fn; });
+  } else {
+    ttl('lk-seed-t', 'Playoff picture'); ttl('lk-seed-s', ''); ttl('lk-trend-t', 'Ratings by week'); ttl('lk-trend-s', '');
+  }
+  wGrey();
+  wChartData = { conf: me ? wrows.filter((r) => r.conf === me.conf) : [], rows: me ? wrows : [], F, watched: new Set(picked.map((x) => x.r.team)), nm };
+  wDrawCharts();
+
+  // ---- Details: tonight's games
+  const tBody = document.querySelector('#lk-tonight tbody'); tBody.replaceChildren();
+  for (const e of slate) {
+    const tr = document.createElement('tr');
+    cell(tr, nm(e.g.away) + ' @ ' + nm(e.g.home), 'lk-left');
+    cell(tr, e.status + (e.g.cup ? ' · ' + e.g.cup : ''), 'lk-left');
+    cell(tr, e.notes.join(' '), 'lk-left lk-wrap');
+    tBody.appendChild(tr);
+  }
+  let tonightNote = '';
+  if (!games.length) tonightNote = 'No games on the schedule file ahead.';
+  else {
+    const lbl = wDay(games[0].date);
+    document.getElementById('lk-tonight-h3').textContent = games[0].today ? 'Tonight' : 'Next games: ' + lbl;
+    tonightNote = (games[0].today ? 'Tonight, ' + lbl : 'Next games: ' + lbl) + ' (' + games.length + ' game' + (games.length > 1 ? 's' : '') + '). Ratings move only a little from other teams’ games; where they matter is the order.';
+    if (standsNow) tonightNote += ' If tonight ended as it stands: ' + standsNow;
+  }
+  document.getElementById('lk-tonight-note').textContent = tonightNote;
+
+  // ---- Details: teams to watch
+  const wBody = document.querySelector('#lk-watch tbody'); wBody.replaceChildren();
+  const cBody = document.querySelector('#lk-conf tbody'); cBody.replaceChildren();
+  if (me) {
+    const tonightTeams = new Set(games.flatMap((g) => [g.home, g.away]));
     const line = (r, why, isMe) => {
       const tr = document.createElement('tr'); tr.dataset.team = r.team;
       if (isMe) tr.className = 'lk-sel';
@@ -2001,7 +2395,7 @@ function renderAround() {
       cell(tr, wPct(r.p_top6));
       cell(tr, why, 'lk-left lk-wrap');
       const ng = nextOf(r.team);
-      cell(tr, !ng ? '—' : (tonightTeams.has(r.team) && games[0] && ng.date === games[0].date ? (games[0].today ? 'Tonight ' : dayFmt(new Date(ng.date + 'T00:00:00Z')) + ' ') : dayFmt(new Date(ng.date + 'T00:00:00Z')) + ' ') + (ng.home === r.team ? 'vs ' + ng.away : '@ ' + ng.home), 'lk-left');
+      cell(tr, !ng ? '—' : (tonightTeams.has(r.team) && games[0] && ng.date === games[0].date ? (games[0].today ? 'Tonight ' : wDay(ng.date) + ' ') : wDay(ng.date) + ' ') + (ng.home === r.team ? 'vs ' + ng.away : '@ ' + ng.home), 'lk-left');
       wBody.appendChild(tr);
     };
     line(me, 'Your focus team: projected ' + ord(me.seed) + ' in the ' + me.conf + ', ' + wPct(me.p_top6) + ' chance of a top-6 seed.', true);
@@ -2009,17 +2403,39 @@ function renderAround() {
     const seNow = me.se, gp = me.wins + me.losses, seMid = 12 / Math.sqrt(41 + 5);
     document.getElementById('lk-watch-note').textContent = 'Picked for the ' + fn + ' from what the data says now: upcoming opponents, contenders, seeding rivals, teams close in the ratings, big movers and key absences. '
       + 'Ratings are still settling: about ±' + seNow.toFixed(1) + ' points after ' + gp + ' games, about ±' + seMid.toFixed(1) + ' by midseason, so expect this list to change. '
-      + 'Projected wins (80% range) and top-6 seed chance (in each team’s conference) come from ' + me.sims.toLocaleString('en-US') + ' simulated finishes of the schedule, as of ' + dayFmt(new Date(me.asof + 'T00:00:00Z')) + '; they hold each team’s strength fixed (no injuries or trades) and ignore tiebreakers. '
+      + 'Projected wins (80% range) and top-6 seed chance (in each team’s conference) come from ' + me.sims.toLocaleString('en-US') + ' simulated finishes of the schedule, as of ' + wDay(me.asof) + '; they hold each team’s strength fixed (no injuries or trades) and ignore tiebreakers. '
       + (me.added ? 'The 2 games the NBA adds for each team after the Cup group stage are not scheduled yet, so they are played here against an average opponent. ' : '')
       + 'NBA Cup group and knockout games count like any other game; the Cup final does not count and is left out. Default settings. Tap a team to compare it.';
+    // Details: the whole conference, which is also the table view of the playoff picture chart
+    document.getElementById('lk-conf-h3').textContent = 'Playoff picture: every ' + me.conf + ' team';
+    wrows.filter((r) => r.conf === me.conf).sort((a, b) => a.seed - b.seed).forEach((r) => {
+      const tr = document.createElement('tr'); tr.dataset.team = r.team;
+      if (r.team === F) tr.className = 'lk-sel';
+      cell(tr, nm(r.team), 'lk-left'); cell(tr, ord(r.seed)); cell(tr, r.wins + '-' + r.losses); cell(tr, sgn(r.rating) + ' · ' + ord(r.rank));
+      cell(tr, r.proj_w.toFixed(1) + ' (' + r.w_lo + '–' + r.w_hi + ')'); cell(tr, wPct(r.p_top6)); cell(tr, wPct(r.p_top10)); cell(tr, wPct(r.p_first));
+      cBody.appendChild(tr);
+    });
+    document.getElementById('lk-conf-note').textContent = 'Ordered by projected wins; ties and tiebreakers are not modeled. The top 6 in each conference go straight to the playoffs; 7th to 10th play in the play-in tournament for the last two spots. Chances are rounded to the nearest 5%. Tap a team to compare it.';
   }
-  ['lk-tonight', 'lk-watch'].forEach((id) => phoneLayout(document.getElementById(id)));
+  ['lk-tonight', 'lk-watch', 'lk-conf'].forEach((id) => phoneLayout(document.getElementById(id)));
 }
 dash.onData(renderAround);
-document.getElementById('lk-watch').addEventListener('click', (e) => {
+['lk-watch', 'lk-conf'].forEach((id) => document.getElementById(id).addEventListener('click', (e) => {
   const tr = e.target.closest('tr[data-team]');
   if (tr) pick(tr.dataset.team);
-});
+}));
+// Redraw the charts when the card changes width (phone rotation, window resize)
+try {
+  let lastW = 0;
+  new ResizeObserver((ents) => { const wd = Math.round(ents[0].contentRect.width); if (wd && wd !== lastW) { lastW = wd; requestAnimationFrame(wDrawCharts); } })
+    .observe(document.querySelector('#around .lk-charts'));
+} catch (e) { /* older browsers: the charts keep the width they were drawn at */ }
+// The details stay open or closed the way this reader left them
+(() => {
+  const det = document.getElementById('lk-around-details');
+  try { if (localStorage.getItem('lk-around-details') === 'open') det.open = true; } catch (e) { /* storage unavailable */ }
+  det.addEventListener('toggle', () => { try { localStorage.setItem('lk-around-details', det.open ? 'open' : 'closed'); } catch (e) { /* storage unavailable */ } });
+})();
 let SOURCES = null;
 const renderSources = () => {
   if (!SOURCES) return;
