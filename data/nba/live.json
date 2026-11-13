@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T19:08:22-08:00",
+ "updated": "2026-11-12T19:32:31-08:00",
  "board_date": "2026-11-12",
  "games": [
   {
@@ -153,10 +153,10 @@
   {
    "game_id": "0022600228",
    "tip_utc": "2026-11-13T00:00:00Z",
-   "status": 2,
-   "status_text": "2OT :15.7",
+   "status": 3,
+   "status_text": "Final",
    "period": 6,
-   "clock": "0:16",
+   "clock": "0:00",
    "home": {
     "team": "WAS",
     "score": 140,
@@ -170,18 +170,18 @@
     ],
     "stats": {
      "fgm": 50,
-     "fga": 101,
+     "fga": 102,
      "fg3m": 14,
-     "fg3a": 36,
+     "fg3a": 37,
      "ftm": 26,
      "fta": 29,
      "oreb": 14,
      "dreb": 36,
      "tov": 18,
-     "pf": 27,
+     "pf": 28,
      "ast": 33,
      "stl": 6,
-     "blk": 7,
+     "blk": 6,
      "pts_paint": 62,
      "pts_second_chance": 15,
      "pts_fast_break": 12,
@@ -196,7 +196,7 @@
       "pts": 37,
       "reb": 2,
       "ast": 14,
-      "min": "44:49"
+      "min": "45:05"
      },
      {
       "name": "Anthony Davis",
@@ -210,30 +210,30 @@
       "pts": 30,
       "reb": 9,
       "ast": 2,
-      "min": "44:01"
+      "min": "44:17"
      }
     ]
    },
    "away": {
     "team": "DET",
-    "score": 142,
+    "score": 144,
     "periods": [
      33,
      31,
      30,
      27,
      11,
-     10
+     12
     ],
     "stats": {
      "fgm": 49,
      "fga": 99,
      "fg3m": 13,
      "fg3a": 35,
-     "ftm": 31,
-     "fta": 37,
+     "ftm": 33,
+     "fta": 39,
      "oreb": 13,
-     "dreb": 33,
+     "dreb": 34,
      "tov": 12,
      "pf": 25,
      "ast": 28,
@@ -243,7 +243,7 @@
      "pts_second_chance": 17,
      "pts_fast_break": 26,
      "pts_off_tov": 20,
-     "pts_bench": 29,
+     "pts_bench": 31,
      "biggest_lead": 11,
      "lead_changes": 20
     },
@@ -253,7 +253,7 @@
       "pts": 52,
       "reb": 5,
       "ast": 11,
-      "min": "47:43"
+      "min": "47:59"
      },
      {
       "name": "Daniss Jenkins",
@@ -267,7 +267,7 @@
       "pts": 17,
       "reb": 11,
       "ast": 11,
-      "min": "42:43"
+      "min": "42:54"
      }
     ]
    },
@@ -311,61 +311,65 @@
     {
      "t": 57.7,
      "m": -2
+    },
+    {
+     "t": 58.0,
+     "m": -4
     }
    ]
   },
   {
    "game_id": "0022600229",
    "tip_utc": "2026-11-13T01:00:00Z",
-   "status": 2,
-   "status_text": "Q4 5:21",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "5:21",
+   "clock": "0:00",
    "home": {
     "team": "MIN",
-    "score": 122,
+    "score": 133,
     "periods": [
      34,
      33,
      36,
-     19
+     30
     ],
     "stats": {
-     "fgm": 48,
-     "fga": 82,
+     "fgm": 52,
+     "fga": 90,
      "fg3m": 15,
-     "fg3a": 30,
-     "ftm": 11,
-     "fta": 15,
+     "fg3a": 32,
+     "ftm": 14,
+     "fta": 19,
      "oreb": 8,
-     "dreb": 37,
-     "tov": 16,
-     "pf": 18,
-     "ast": 30,
-     "stl": 9,
+     "dreb": 42,
+     "tov": 17,
+     "pf": 19,
+     "ast": 33,
+     "stl": 10,
      "blk": 7,
-     "pts_paint": 66,
+     "pts_paint": 74,
      "pts_second_chance": 25,
-     "pts_fast_break": 22,
-     "pts_off_tov": 23,
-     "pts_bench": 43,
-     "biggest_lead": 43,
+     "pts_fast_break": 26,
+     "pts_off_tov": 25,
+     "pts_bench": 54,
+     "biggest_lead": 44,
      "lead_changes": 6
     },
     "leaders": [
+     {
+      "name": "Bones Hyland",
+      "pts": 24,
+      "reb": 3,
+      "ast": 8,
+      "min": "22:41"
+     },
      {
       "name": "LaMelo Ball",
       "pts": 22,
       "reb": 3,
       "ast": 9,
       "min": "25:19"
-     },
-     {
-      "name": "Bones Hyland",
-      "pts": 21,
-      "reb": 3,
-      "ast": 6,
-      "min": "17:20"
      },
      {
       "name": "Ayo Dosunmu",
@@ -378,49 +382,49 @@
    },
    "away": {
     "team": "DAL",
-    "score": 81,
+    "score": 94,
     "periods": [
      26,
      26,
      17,
-     12
+     25
     ],
     "stats": {
-     "fgm": 31,
-     "fga": 84,
-     "fg3m": 9,
-     "fg3a": 39,
-     "ftm": 10,
-     "fta": 13,
-     "oreb": 13,
-     "dreb": 20,
-     "tov": 17,
-     "pf": 21,
-     "ast": 23,
+     "fgm": 35,
+     "fga": 94,
+     "fg3m": 13,
+     "fg3a": 48,
+     "ftm": 11,
+     "fta": 14,
+     "oreb": 14,
+     "dreb": 24,
+     "tov": 19,
+     "pf": 23,
+     "ast": 26,
      "stl": 9,
      "blk": 7,
      "pts_paint": 42,
      "pts_second_chance": 12,
      "pts_fast_break": 23,
      "pts_off_tov": 29,
-     "pts_bench": 39,
+     "pts_bench": 52,
      "biggest_lead": 5,
      "lead_changes": 6
     },
     "leaders": [
+     {
+      "name": "Zaccharie Risacher",
+      "pts": 22,
+      "reb": 6,
+      "ast": 3,
+      "min": "24:41"
+     },
      {
       "name": "Naji Marshall",
       "pts": 13,
       "reb": 1,
       "ast": 4,
       "min": "22:35"
-     },
-     {
-      "name": "Zaccharie Risacher",
-      "pts": 13,
-      "reb": 2,
-      "ast": 3,
-      "min": "19:20"
      },
      {
       "name": "Cooper Flagg",
@@ -467,6 +471,10 @@
     {
      "t": 42.6,
      "m": 41
+    },
+    {
+     "t": 48.0,
+     "m": 39
     }
    ]
   },
@@ -474,54 +482,54 @@
    "game_id": "0022600230",
    "tip_utc": "2026-11-13T02:00:00Z",
    "status": 2,
-   "status_text": "Half",
-   "period": 2,
-   "clock": "0:00",
+   "status_text": "Q3 8:21",
+   "period": 3,
+   "clock": "8:21",
    "home": {
     "team": "PHX",
-    "score": 55,
+    "score": 59,
     "periods": [
      28,
      27,
-     0,
+     4,
      0
     ],
     "stats": {
-     "fgm": 20,
-     "fga": 48,
+     "fgm": 22,
+     "fga": 54,
      "fg3m": 10,
-     "fg3a": 27,
+     "fg3a": 28,
      "ftm": 5,
-     "fta": 6,
-     "oreb": 3,
-     "dreb": 12,
+     "fta": 8,
+     "oreb": 4,
+     "dreb": 13,
      "tov": 5,
-     "pf": 9,
-     "ast": 12,
-     "stl": 5,
-     "blk": 3,
-     "pts_paint": 18,
+     "pf": 11,
+     "ast": 13,
+     "stl": 6,
+     "blk": 4,
+     "pts_paint": 22,
      "pts_second_chance": 3,
      "pts_fast_break": 9,
-     "pts_off_tov": 21,
+     "pts_off_tov": 23,
      "pts_bench": 19,
      "biggest_lead": 17,
-     "lead_changes": 8
+     "lead_changes": 9
     },
     "leaders": [
      {
       "name": "Devin Booker",
-      "pts": 15,
+      "pts": 17,
       "reb": 1,
-      "ast": 5,
-      "min": "18:40"
+      "ast": 6,
+      "min": "22:19"
      },
      {
       "name": "Jalen Green",
       "pts": 10,
-      "reb": 2,
+      "reb": 3,
       "ast": 0,
-      "min": "14:19"
+      "min": "17:58"
      },
      {
       "name": "Collin Gillespie",
@@ -534,56 +542,56 @@
    },
    "away": {
     "team": "CHA",
-    "score": 50,
+    "score": 62,
     "periods": [
      22,
      28,
-     0,
+     12,
      0
     ],
     "stats": {
-     "fgm": 18,
-     "fga": 43,
-     "fg3m": 7,
-     "fg3a": 19,
-     "ftm": 7,
-     "fta": 8,
-     "oreb": 8,
-     "dreb": 20,
-     "tov": 15,
-     "pf": 9,
-     "ast": 11,
-     "stl": 2,
+     "fgm": 23,
+     "fga": 53,
+     "fg3m": 8,
+     "fg3a": 21,
+     "ftm": 8,
+     "fta": 9,
+     "oreb": 11,
+     "dreb": 24,
+     "tov": 16,
+     "pf": 10,
+     "ast": 14,
+     "stl": 3,
      "blk": 1,
-     "pts_paint": 22,
-     "pts_second_chance": 10,
-     "pts_fast_break": 14,
-     "pts_off_tov": 5,
+     "pts_paint": 30,
+     "pts_second_chance": 15,
+     "pts_fast_break": 15,
+     "pts_off_tov": 7,
      "pts_bench": 18,
      "biggest_lead": 5,
-     "lead_changes": 8
+     "lead_changes": 9
     },
     "leaders": [
      {
-      "name": "Naz Reid",
-      "pts": 9,
-      "reb": 2,
-      "ast": 2,
-      "min": "17:09"
+      "name": "Coby White",
+      "pts": 14,
+      "reb": 3,
+      "ast": 3,
+      "min": "14:05"
      },
      {
       "name": "Grayson Allen",
-      "pts": 9,
-      "reb": 2,
-      "ast": 0,
-      "min": "15:42"
+      "pts": 12,
+      "reb": 3,
+      "ast": 2,
+      "min": "19:21"
      },
      {
-      "name": "Coby White",
-      "pts": 9,
-      "reb": 2,
-      "ast": 3,
-      "min": "10:26"
+      "name": "Naz Reid",
+      "pts": 11,
+      "reb": 4,
+      "ast": 2,
+      "min": "20:48"
      }
     ]
    },
@@ -615,6 +623,10 @@
     {
      "t": 24.0,
      "m": 5
+    },
+    {
+     "t": 27.6,
+     "m": -3
     }
    ]
   }
