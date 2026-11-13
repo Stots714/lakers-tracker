@@ -214,16 +214,20 @@ def git(*args):
     return subprocess.run(["git", "-C", str(ROOT), *args], capture_output=True, text=True)
 
 
+# Commits always carry the GitHub handle, never the PC's own git name
+IDENTITY = ("-c", "user.name=Stots714", "-c", "user.email=Stots714@users.noreply.github.com")
+
+
 def push(message):
     git("add", "data/nba/live.json")
     if (OUT.parent / "injuries.csv").exists():
         git("add", "data/nba/injuries.csv")
     if git("diff", "--cached", "--quiet").returncode == 0:
         return False
-    for args in (("commit", "-q", "-m", message), ("pull", "-q", "--rebase"), ("push", "-q")):
+    for args in (IDENTITY + ("commit", "-q", "-m", message), ("pull", "-q", "--rebase"), ("push", "-q")):
         r = git(*args)
         if r.returncode != 0:
-            log(f"  git {args[0]} failed: {(r.stderr or r.stdout).strip()[:200]}")
+            log(f"  git {args[len(IDENTITY)] if args[0] == '-c' else args[0]} failed: {(r.stderr or r.stdout).strip()[:200]}")
             return False
     return True
 

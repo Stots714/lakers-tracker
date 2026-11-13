@@ -21,6 +21,9 @@ $Repo = (Resolve-Path (Join-Path $Here '..\..')).Path
 Set-Location $Repo
 Start-Transcript -Path (Join-Path $Here 'last_live_ps.log') | Out-Null
 
+# This repository always commits as the GitHub handle, whatever name the PC uses elsewhere
+git config user.name 'Stots714'
+git config user.email 'Stots714@users.noreply.github.com'
 git pull --ff-only
 $Py = Join-Path $Here '.venv\Scripts\python.exe'
 if (-not (Test-Path $Py)) {

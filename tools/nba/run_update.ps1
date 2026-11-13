@@ -111,8 +111,9 @@ if (-not $LeagueOk) { Write-Host 'The all-30-teams files did not download, so th
 if ($Push) {
   Step 'Publishing to GitHub'
   if (Get-Command gh -ErrorAction SilentlyContinue) { gh auth setup-git 2>$null | Out-Null }
-  if (-not (git config user.name)) { git config user.name 'Stots714' }
-  if (-not (git config user.email)) { git config user.email 'Stots714@users.noreply.github.com' }
+  # This repository always commits as the GitHub handle, whatever name the PC uses elsewhere
+  git config user.name 'Stots714'
+  git config user.email 'Stots714@users.noreply.github.com'
   git add data/nba
   git diff --cached --quiet
   if ($LASTEXITCODE -eq 0) {
