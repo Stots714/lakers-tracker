@@ -29,6 +29,8 @@ function Stop-Run([string]$Message) {
 function Step([string]$Text) { Write-Host ''; Write-Host "== $Text" -ForegroundColor Cyan }
 
 Step "Updating the repository ($Repo)"
+# A run interrupted mid-rebase leaves the folder unable to pull: undo it first
+if ((Test-Path (Join-Path $Repo '.git\rebase-merge')) -or (Test-Path (Join-Path $Repo '.git\rebase-apply'))) { git rebase --abort }
 git pull --ff-only
 if ($LASTEXITCODE -ne 0) { Stop-Run 'git pull failed. Commit or discard local changes in this folder, then run again.' }
 
@@ -87,6 +89,7 @@ if ($Teams) {
   $PyArgs += $List
 }
 & $Py @PyArgs
+if ($LASTEXITCODE -eq 5) { Stop-Run 'Another update is already running on this PC, so this one stopped (nothing published). Details: tools\nba\last_run.log' }
 if ($LASTEXITCODE -ne 0) { Stop-Run "update_nba.py ended with code $LASTEXITCODE. Details: tools\nba\last_run.log" }
 if ($Check) { Stop-Transcript | Out-Null; exit 0 }
 
@@ -114,19 +117,11 @@ if ($Push) {
   # This repository always commits as the GitHub handle, whatever name the PC uses elsewhere
   git config user.name 'Stots714'
   git config user.email 'Stots714@users.noreply.github.com'
-  git add data/nba
-  git diff --cached --quiet
-  if ($LASTEXITCODE -eq 0) {
-    Write-Host 'No new data to push.'
-  } else {
-    git commit -m ('NBA.com data update ' + (Get-Date -Format 'yyyy-MM-dd'))
-    if ($LASTEXITCODE -ne 0) { Stop-Run 'git commit failed (see the messages above).' }
-    git pull --rebase
-    if ($LASTEXITCODE -ne 0) { Stop-Run 'Could not bring in the latest site changes before pushing (see the messages above).' }
-    git push
-    if ($LASTEXITCODE -ne 0) { Stop-Run 'git push failed. Check that "gh auth status" shows you signed in, then run this again.' }
-    Write-Host 'Pushed. The site updates in a minute or two: https://stots714.github.io/lakers-tracker/' -ForegroundColor Green
-  }
+  # One shared publish step (publish.py): waits for the live watcher's push if one is under way, undoes a rebase
+  # left half-done by an earlier run, retries a refused push, and logs every git failure to tools\nba\git_failures.log
+  & $Py (Join-Path $Here 'publish.py') --message ('NBA.com data update ' + (Get-Date -Format 'yyyy-MM-dd')) data/nba
+  if ($LASTEXITCODE -ne 0) { Stop-Run 'Publishing failed; details in tools\nba\git_failures.log. The next run tries again.' }
+  Write-Host 'The site updates in a minute or two: https://stots714.github.io/lakers-tracker/' -ForegroundColor Green
 }
 
 # ---- Every morning from now on ----

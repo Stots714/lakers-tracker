@@ -7,7 +7,9 @@ What it does on a game day:
   3. While any game is on, reads each started game's live box score, writes data/nba/live.json and
      pushes it every 7 minutes (GitHub Pages allows about 10 site updates an hour).
   4. When every game is final, pushes the finals, waits 15 minutes, runs the full data update
-     (run_update.ps1 -Push) so the tracker's ratings include tonight's games, and exits with code 0.
+     (run_update.ps1 -Push) so the tracker's ratings include tonight's games. If NBA.com's stats still lack a
+     final game, or show another score than the live feed, it runs the update again every 20 minutes, up to
+     3 more times. Then it exits with code 0.
 
 live.json, per game: status (1 scheduled, 2 live, 3 final), period and clock, score by period, team stats
 so far (shooting, rebounds, turnovers, fouls, paint, second-chance, fast-break points), top scorers, and a
@@ -33,6 +35,8 @@ from pathlib import Path
 from nba_api.live.nba.endpoints import boxscore, scoreboard
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import rows  # noqa: E402  (atomic file writes)
+from publish import publish  # noqa: E402  (one shared, logged way to push)
 try:
     import injuries  # the NBA's official injury report; needs pypdf
 except ImportError:  # pypdf arrives with the next run_update.ps1; the watcher works without it
@@ -47,6 +51,8 @@ WAIT_STEP = 30 * 60       # longest single wait before tip-off, so a schedule ch
 NEW_DAY_STEP = 30 * 60    # NBA.com switches its scoreboard to the new day in the late morning, Eastern time
 NEW_DAY_LIMIT = 12 * 3600 # stop waiting for the new day's scoreboard after this long
 INJURY_EVERY = 30 * 60    # how often to read the injury report while a game today has yet to tip
+CATCHUP_TRIES = 3         # more full updates when NBA.com's stats have not caught up with its live feed
+CATCHUP_WAIT = 20 * 60    # seconds between them
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -207,29 +213,56 @@ def write(board_date, games):
     OUT.parent.mkdir(parents=True, exist_ok=True)
     doc = {"updated": dt.datetime.now().astimezone().isoformat(timespec="seconds"), "board_date": board_date, "games": games,
            "source": "NBA.com live data via nba_api (cdn.nba.com)"}
-    OUT.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
-
-
-def git(*args):
-    return subprocess.run(["git", "-C", str(ROOT), *args], capture_output=True, text=True)
-
-
-# Commits always carry the GitHub handle, never the PC's own git name
-IDENTITY = ("-c", "user.name=Stots714", "-c", "user.email=Stots714@users.noreply.github.com")
+    rows.replace_text(OUT, json.dumps(doc, ensure_ascii=False, indent=1))
 
 
 def push(message):
-    git("add", "data/nba/live.json")
-    if (OUT.parent / "injuries.csv").exists():
-        git("add", "data/nba/injuries.csv")
-    if git("diff", "--cached", "--quiet").returncode == 0:
-        return False
-    for args in (IDENTITY + ("commit", "-q", "-m", message), ("pull", "-q", "--rebase"), ("push", "-q")):
-        r = git(*args)
-        if r.returncode != 0:
-            log(f"  git {args[len(IDENTITY)] if args[0] == '-c' else args[0]} failed: {(r.stderr or r.stdout).strip()[:200]}")
-            return False
-    return True
+    """Commit and push live.json (and the injury report): see publish.py. True if something was pushed."""
+    paths = ["data/nba/live.json"] + (["data/nba/injuries.csv"] if (OUT.parent / "injuries.csv").exists() else [])
+    return publish(paths, message, log=log) == "pushed"
+
+
+def missing_finals(games):
+    """Tonight's games the live feed shows as final that league_results.csv does not have, or has with another score."""
+    res = {r["game_id"]: r for r in rows.read(OUT.parent / "league_results.csv")}
+    out = []
+    for g in games:
+        if g["status"] != 3:
+            continue
+        r = res.get(g["game_id"])
+        name = f'{g["away"]["team"]}@{g["home"]["team"]}'
+        if not r or r.get("home_pts", "") == "":
+            out.append(f"{name}: no final score on NBA.com's stats yet")
+        elif (int(r["away_pts"]), int(r["home_pts"])) != (g["away"]["score"], g["home"]["score"]):
+            out.append(f'{name}: stats say {r["away_pts"]}-{r["home_pts"]}, live feed {g["away"]["score"]}-{g["home"]["score"]}')
+    return out
+
+
+def full_update():
+    r = subprocess.run(["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File",
+                        str(Path(__file__).with_name("run_update.ps1")), "-Push"])
+    log(f"full update finished (code {r.returncode})")
+    return r.returncode
+
+
+def after_the_games(games, run=full_update, wait=CATCHUP_WAIT, tries=CATCHUP_TRIES, sleep=time.sleep):
+    """The full update, then up to `tries` more, `wait` apart, until every final game is on file with the live feed's score.
+    NBA.com's stats can trail its live feed: on Nov 12 the last game was missing 17 minutes after it ended."""
+    run()
+    for attempt in range(tries):
+        missing = missing_finals(games)
+        if not missing:
+            log("every final game is on file")
+            return True
+        for m in missing:
+            log(f"  waiting for NBA.com: {m}")
+        log(f"Running the update again in {wait // 60} minutes ({attempt + 1} of {tries}).")
+        sleep(wait)
+        run()
+    missing = missing_finals(games)
+    for m in missing:
+        log(f"  still missing after {tries} more updates: {m} (the morning update tries again)")
+    return not missing
 
 
 def fetch_board():
@@ -311,9 +344,7 @@ def main():
                 keep_awake(True)
                 log("Waiting 15 minutes for NBA.com to settle the box scores, then running the full update.")
                 time.sleep(900)
-                r = subprocess.run(["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File",
-                                    str(Path(__file__).with_name("run_update.ps1")), "-Push"])
-                log(f"full update finished (code {r.returncode})")
+                after_the_games(games)
             keep_awake(False)
             return 0
         if a.once:

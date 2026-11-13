@@ -1,3 +1,6 @@
 tools/nba/.venv/
 tools/nba/last_*.log
 __pycache__/
+tools/nba/.*.lock
+tools/nba/git_failures.log
+data/nba/*.tmp

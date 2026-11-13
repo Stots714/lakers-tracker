@@ -4,6 +4,9 @@ Writes to data/nba/:
   league_results.csv        every regular-season game: date, away, home, scores once final, overtime periods
   league_box.csv            one row per team per game: shooting, rebounds, turnovers, fouls, minutes
   league_player_games.csv   every player's line in every game
+
+A final game is published only once its box score is complete and matches the final score (accept_finals);
+until then the version already on file is kept, or the game waits for the next run.
   league_quarters.csv       points per quarter for each team in each game (fetched once per game)
   league_inactive.csv       players NBA.com listed inactive for each game (fetched once per game)
   league_extras.csv         per team per game: team turnovers, paint, second-chance, fast-break, off-turnover and bench points, lead changes
@@ -96,7 +99,12 @@ def player_games(fetch, season):
     return _regular(from_dataset(ep.player_game_logs)[0], "GAME_ID")
 
 
-def write_box(tg, save, sched=None):
+BOX_COLS = ["date", "team", "opp", "home_away"] + BOX + ["mp", "game_id"]
+RESULT_COLS = ["date", "away", "home", "away_pts", "home_pts", "ot", "game_id", "cup", "neutral"]
+LINE_COLS = ["date", "team", "opp", "player", "min"] + LINE + ["game_id", "player_id"]
+
+
+def box_rows(tg, sched=None):
     out, sides = [], _sides(sched)
     for r in tg:
         opp, ha = _opp_ha(r, sides)
@@ -109,11 +117,10 @@ def write_box(tg, save, sched=None):
             "mp": int(round(mp)) if mp is not None else "", "game_id": str(r["GAME_ID"]),
         })
     out.sort(key=lambda x: (x["date"], x["game_id"], x["team"]))
-    cols = ["date", "team", "opp", "home_away"] + BOX + ["mp", "game_id"]
-    return save(out, "league_box.csv", cols), out
+    return out
 
 
-def write_results(sched, box, save):
+def result_rows(sched, box):
     """Schedule rows, with scores for final games (status 3) and overtime periods from team minutes."""
     ot = {r["game_id"]: max(0, int(round((int(r["mp"]) - 240) / 25))) for r in box if r["mp"] != ""}
     out = []
@@ -132,10 +139,10 @@ def write_results(sched, box, save):
             "neutral": 1 if str(g.get("isNeutral")).lower() in ("1", "true") else 0,
         })
     out.sort(key=lambda x: (x["date"], x["game_id"]))
-    return save(out, "league_results.csv", ["date", "away", "home", "away_pts", "home_pts", "ot", "game_id", "cup", "neutral"]), out
+    return out
 
 
-def write_player_games(pg, save, sched=None):
+def player_rows(pg, sched=None):
     out, sides = [], _sides(sched)
     for r in pg:
         out.append({
@@ -145,8 +152,133 @@ def write_player_games(pg, save, sched=None):
             "game_id": str(r["GAME_ID"]), "player_id": r["PLAYER_ID"],
         })
     out.sort(key=lambda x: (x["date"], x["team"], x["player"]))
-    cols = ["date", "team", "opp", "player", "min"] + LINE + ["game_id", "player_id"]
-    return save(out, "league_player_games.csv", cols), out
+    return out
+
+
+# ---------------- which final games to publish ----------------
+def _group(rows):
+    out = {}
+    for r in rows:
+        out.setdefault(str(r["game_id"]), []).append(r)
+    return out
+
+
+def _restored_box(r):
+    """A box row read back from league_box.csv, as box_rows() makes it (numbers, player turnovers only)."""
+    out = {k: r.get(k, "") for k in ["date", "team", "opp", "home_away", "game_id"]}
+    out.update({k: _int(r.get(k)) for k in BOX})
+    if r.get("tov_players") not in (None, ""):
+        out["tov"] = _int(r["tov_players"])  # team turnovers are added again by add_team_turnovers()
+    out["mp"] = _int(r["mp"]) if r.get("mp") not in (None, "") else ""
+    return out
+
+
+def _restored_line(r):
+    out = {k: r.get(k, "") for k in ["date", "team", "opp", "player", "game_id", "player_id"]}
+    out.update({k: _int(r.get(k)) for k in LINE})
+    out["min"] = float(r["min"]) if r.get("min") not in (None, "") else 0
+    return out
+
+
+def game_problem(res, box):
+    """Why a game's final score cannot be published yet, or None if it can.
+
+    Needed: a final score, a box score row for each team, each team's box points equal to its final score,
+    and no tie (the 112-112 seen once was a box score caught mid-overtime)."""
+    if res["home_pts"] in ("", None) or res["away_pts"] in ("", None):
+        return "no final score"
+    by_team = {r["team"]: r for r in box}
+    if len(box) != 2 or set(by_team) != {res["home"], res["away"]}:
+        return "box score not posted for both teams"
+    if _int(by_team[res["home"]]["pts"]) != _int(res["home_pts"]) or _int(by_team[res["away"]]["pts"]) != _int(res["away_pts"]):
+        return (f"box score {by_team[res['away']]['pts']}-{by_team[res['home']]['pts']} differs from the final score "
+                f"{res['away_pts']}-{res['home_pts']}")
+    if _int(res["home_pts"]) == _int(res["away_pts"]):
+        return "tied score"
+    return None
+
+
+def lines_problem(lines, box):
+    """Why a game's player lines are incomplete, or None: each team needs lines whose points add up to its box points."""
+    pts = {}
+    for r in lines:
+        pts[r["team"]] = pts.get(r["team"], 0) + _int(r["pts"])
+    for b in box:
+        if b["team"] not in pts:
+            return f"no player lines for {b['team']}"
+        if pts[b["team"]] != _int(b["pts"]):
+            return f"{b['team']} player points add up to {pts[b['team']]}, not {b['pts']}"
+    return None
+
+
+def accept_finals(results, box, lines, old_results, old_box, old_lines, min_share=0.95):
+    """Decide what to publish for each game. Returns (results, box, lines, report).
+
+    A final game is published when game_problem() finds nothing. When it does, the version already on file is
+    kept if that one was complete; otherwise the game waits (no score, no box score, no player lines) and the next
+    run asks again. Incomplete player lines do not hold a final score back: a complete earlier set is kept if there
+    is one, and the rest is reported. A schedule much shorter than the one on file means a bad download: nothing
+    is written (ValueError)."""
+    old_ids = {str(r["game_id"]) for r in old_results}
+    if old_results and len(results) < min_share * len(old_results):
+        raise ValueError(f"the schedule has {len(results)} games, against {len(old_results)} on file: not saved")
+    gone = old_ids - {str(r["game_id"]) for r in results}
+    if len(gone) > 10:
+        raise ValueError(f"{len(gone)} games on file are missing from the new schedule: not saved")
+    bx, ln = _group(box), _group(lines)
+    obx, oln = _group(old_box), _group(old_lines)
+    ores = {str(r["game_id"]): r for r in old_results}
+    out_res, out_box, out_lines = [], [], []
+    report = {"pending": [], "kept": [], "lines": []}
+
+    def name(r):
+        return f"{r['away']}@{r['home']} ({r['date']})"
+
+    def old_ok(gid):
+        o = ores.get(gid)
+        return o is not None and game_problem(o, obx.get(gid, [])) is None
+
+    for r in results:
+        gid = str(r["game_id"])
+        final = r["home_pts"] not in ("", None)
+        why = game_problem(r, bx.get(gid, [])) if final else None
+        if final and why is None:
+            out_res.append(r)
+            out_box += bx[gid]
+            new_lines, old_lines_g = ln.get(gid, []), oln.get(gid, [])
+            lw = lines_problem(new_lines, bx[gid])
+            if lw is None:
+                out_lines += new_lines
+            elif old_lines_g and lines_problem(old_lines_g, bx[gid]) is None:
+                out_lines += [_restored_line(x) for x in old_lines_g]
+                report["lines"].append(f"{name(r)}: {lw}; kept the complete lines already on file")
+            else:
+                out_lines += new_lines
+                report["lines"].append(f"{name(r)}: {lw}")
+        elif old_ok(gid):
+            # NBA.com shows this game as not final, or not complete, right now: keep the complete version on file
+            o = ores[gid]
+            out_res.append(dict(r, away_pts=_int(o["away_pts"]), home_pts=_int(o["home_pts"]), ot=_int(o["ot"])))
+            out_box += [_restored_box(x) for x in obx[gid]]
+            out_lines += [_restored_line(x) for x in oln.get(gid, [])]
+            report["kept"].append(f"{name(r)}: {why or 'no longer final on NBA.com'}; kept the version on file")
+        elif final:
+            out_res.append(dict(r, away_pts="", home_pts="", ot=""))
+            report["pending"].append(f"{name(r)}: {why}")
+        else:
+            out_res.append(r)
+    key = lambda x: (x["date"], x["game_id"], x["team"])  # noqa: E731
+    out_box.sort(key=key)
+    out_lines.sort(key=lambda x: (x["date"], x["team"], x["player"]))
+    return out_res, out_box, out_lines, report
+
+
+def save_finals(save, results, box, lines):
+    """Write the three files together, after accept_finals()."""
+    save(results, "league_results.csv", RESULT_COLS)
+    save(box, "league_box.csv", BOX_COLS)
+    save(lines, "league_player_games.csv", LINE_COLS)
+    return sum(1 for r in results if r["home_pts"] not in ("", None))
 
 
 def summaries(fetch, save, out_dir, results, refresh=False):

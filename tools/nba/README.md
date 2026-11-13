@@ -25,7 +25,7 @@ The detail steps cover the Lakers and their next opponent, read from the schedul
 
 ## Live games
 
-The same daily setup also starts a live watcher every morning at 9:00, hidden. It sleeps until the first tip-off, then reads NBA.com's live feed and pushes `data/nba/live.json` about every 7 minutes while games are on (GitHub Pages allows about 10 site updates an hour). The site shows it as a Live card at the top for the focus team's game: score by quarter, a live win chance, the margin through the game, the keys so far against each team's season (offensive rebounds, free throws, turnovers, threes) and the top scorers. Before tip-off it also reads the NBA's official injury report every 30 minutes and pushes it when a newer one is out, so the site shows who is out, doubtful or questionable. When every game is final it waits 15 minutes and runs the full update, so the ratings include the night's games. On days with no games it stops at once.
+The same daily setup also starts a live watcher every morning at 9:00, hidden. It sleeps until the first tip-off, then reads NBA.com's live feed and pushes `data/nba/live.json` about every 7 minutes while games are on (GitHub Pages allows about 10 site updates an hour). The site shows it as a Live card at the top for the focus team's game: score by quarter, a live win chance, the margin through the game, the keys so far against each team's season (offensive rebounds, free throws, turnovers, threes) and the top scorers. Before tip-off it also reads the NBA's official injury report every 30 minutes and pushes it when a newer one is out, so the site shows who is out, doubtful or questionable. When every game is final it waits 15 minutes and runs the full update, so the ratings include the night's games. NBA.com's stats can trail its live feed (on Nov 12 the last game was still missing 17 minutes after it ended), so if a final game is missing, or has another score than the live feed showed, it runs the update again every 20 minutes, up to 3 more times. On days with no games it stops at once.
 
 Start it by hand on a game night:
 
@@ -67,6 +67,14 @@ The live win chance (Proposed) starts from the pre-game projection for the minut
 - Lakers scores from NBA.com against the tracker's own `data/results.csv`. Any mismatch is listed.
 - The Oct 21 Dončić and Lendeborg matchup rows, against ABC7's report that Dončić shot 1 of 6 with Lendeborg guarding him. This shows whether the `Off` and `Def` column names point the way we read them.
 
+## How it stays safe
+
+- **One update at a time.** An update takes a lock (`tools\nba\.update.lock`). A second update started while one is running stops with code 5 and publishes nothing, so two runs can never mix their files. A lock left by a run that crashed or was closed is taken over once its process is gone, or after 3 hours.
+- **Whole files only.** Every file is written to a temporary file next to it and then swapped in, so a crash or a full disk never leaves half a file for the site.
+- **Only complete games are published.** A game's final score goes out only when both teams' box scores are posted, each team's points equal the final score, and the score is not tied (a box score caught mid-overtime once showed 112-112). Until then the complete version already on file is kept, or, for a new game, it waits for the next run without a score. Player lines that do not add up to the team's points are reported but do not hold back the score. A schedule much shorter than the one on file is treated as a bad download and nothing is saved.
+- **One way to publish.** The update and the live watcher both publish through `publish.py`: it waits for the other's push to finish, undoes a rebase left half-done by an earlier run, lets this PC's newer data win when GitHub has an older copy of the same file, retries a refused push 3 times, and writes every git failure to `tools\nba\git_failures.log`. A commit that could not be pushed goes up with the next run.
+- **Tests.** `tools\nba\.venv\Scripts\python.exe tools\nba\tests\test_reliability.py` checks all of the above offline (it uses a local test copy of the repository, never GitHub).
+
 ## If something goes wrong
 
 - Details are in `tools\nba\last_run.log` (Python) and `tools\nba\last_run_ps.log` (PowerShell). Neither is pushed.
@@ -74,6 +82,9 @@ The live win chance (Proposed) starts from the pre-game projection for the minut
 - "waiting: matchups - 1 recent game(s) not on NBA.com yet": normal right after a game. NBA.com fills in some per-game detail (who guarded whom, game summaries) later than the score. Nothing is saved for that game, so the next run asks again. If a game is still missing after 2 days, the step shows as failed instead, because that is a real gap.
 - No live updates during a game: see `tools\nba\last_live.log`. Start the watcher by hand with `Start-ScheduledTask -TaskName 'Lakers tracker - live games'`; it picks up a game already in progress.
 - "git pull failed": you have unsaved changes in the folder. Commit or discard them, then run again.
+- "Another update is already running": normal if the live watcher's after-game update and the morning update overlap; the running one finishes the job.
+- "Publishing failed": see `tools\nba\git_failures.log` for git's own message. The data is saved on the PC and goes up with the next successful run.
+- "waiting: league results - 1 recent game(s) not on NBA.com yet": a game NBA.com shows as final whose box score is not posted yet; the log names it. The next run, or the watcher's catch-up, publishes it.
 - "Access is denied" when scheduling: open PowerShell as administrator and run the schedule command again.
 - Remove the daily task: add `-Remove` to the schedule command.
 

@@ -24,6 +24,8 @@ Start-Transcript -Path (Join-Path $Here 'last_live_ps.log') | Out-Null
 # This repository always commits as the GitHub handle, whatever name the PC uses elsewhere
 git config user.name 'Stots714'
 git config user.email 'Stots714@users.noreply.github.com'
+# A run interrupted mid-rebase leaves the folder unable to pull: undo it first
+if ((Test-Path (Join-Path $Repo '.git\rebase-merge')) -or (Test-Path (Join-Path $Repo '.git\rebase-apply'))) { git rebase --abort }
 git pull --ff-only
 $Py = Join-Path $Here '.venv\Scripts\python.exe'
 if (-not (Test-Path $Py)) {

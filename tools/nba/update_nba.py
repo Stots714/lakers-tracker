@@ -54,6 +54,7 @@ from nba_api.stats.static import teams as static_teams
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import league  # noqa: E402  (league-wide files in the tracker's formats)
 import rows  # noqa: E402  (plain-Python tables; no pandas, see rows.py)
+from lock import RunLock  # noqa: E402  (one update at a time)
 
 try:
     import injuries  # noqa: E402  (the NBA's official injury report; needs pypdf)
@@ -299,6 +300,18 @@ def main():
         log(f"Connection OK: {len(df)} Lakers games found on NBA.com (latest {max(str(g['GAME_DATE'])[:10] for g in df) if df else 'none'})")
         return 0
 
+    # One update at a time: a second run that started while this one works would mix the two runs' files
+    lock = RunLock("update", stale_after=3 * 3600)
+    if not lock.acquire():
+        log(f"Another update is running ({lock.describe()}); this run stops so the two cannot mix their files.")
+        return 5
+    try:
+        return run(a)
+    finally:
+        lock.release()
+
+
+def run(a):
     league_notes = []
     if not a.no_league:
         L = {}
@@ -316,22 +329,31 @@ def main():
 
         def box():
             L["tg"] = finals(league.team_games(fetch, SEASON), "GAME_ID")
-            n, L["box"] = league.write_box(L["tg"], save, L.get("sched"))
-            return n
-
-        def results():
-            n, L["results"] = league.write_results(L["sched"], L["box"], save)
-            return n
+            return len(L["tg"])
 
         def pgames():
-            n, L["pg"] = league.write_player_games(finals(league.player_games(fetch, SEASON), "GAME_ID"), save, L.get("sched"))
-            return n
+            L["pgraw"] = finals(league.player_games(fetch, SEASON), "GAME_ID")
+            return len(L["pgraw"])
+
+        def results():
+            """Publish only complete final games (league.accept_finals); write results, box scores and player lines together."""
+            b = league.box_rows(L["tg"], L["sched"])
+            res = league.result_rows(L["sched"], b)
+            lines = league.player_rows(L["pgraw"], L["sched"]) if "pgraw" in L else []
+            old = [rows.read(OUT / f) for f in ("league_results.csv", "league_box.csv", "league_player_games.csv")]
+            res, b, lines, rep = league.accept_finals(res, b, lines, *old)
+            n = league.save_finals(save, res, b, lines)
+            L["results"], L["box"], L["pg"] = res, b, lines
+            for kind in ("pending", "kept", "lines"):
+                for note in rep[kind]:
+                    log(f"  {kind}: {note}")
+            return n, {"pending": len(rep["pending"]), "pending_games": rep["pending"], "kept_games": rep["kept"], "line_notes": rep["lines"]}
 
         step("league schedule", sched, "games")
         step("league team box scores", box, "team-games")
-        if "sched" in L and "box" in L:
-            step("league results", results, "games")
         step("league player games", pgames, "player lines")
+        if "sched" in L and "tg" in L:
+            step("league results", results, "final games")
         if "results" in L:
             step("league quarter scores, inactive lists and game extras",
                  lambda: settle("summary", *league.summaries(fetch, save, OUT, L["results"], a.refresh)), "new games")
@@ -393,7 +415,7 @@ def main():
         "steps": status, "checks": notes,
         "source": "NBA.com stats via the nba_api Python package (github.com/swar/nba_api)",
     }
-    (OUT / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False), encoding="utf-8")
+    rows.replace_text(OUT / "manifest.json", json.dumps(manifest, indent=1, ensure_ascii=False))
     log(f"--- done: {ok} of {len(status)} steps worked")
     return 0 if ok else 2
 
