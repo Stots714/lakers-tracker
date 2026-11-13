@@ -56,6 +56,13 @@
   "updated": "2026-10-29T17:30:00Z"
  },
  {
+  "id": "player_prior",
+  "title": "Last season's player impact (starting ratings)",
+  "description": "Minutes and box plus-minus (BPM) for every player in 2025-26 (582 players, Basketball-Reference advanced table, fetched Nov 12, 2026; traded players' combined line), plus 2024-25 values for six players with no 2025-26 NBA minutes (Lillard, VanVleet, Irving and Haliburton missed the season injured; Niang and Lyles). Used to build each team's starting rating. Checked against the 12 values already on file and 10 re-read values (all matched); team totals correlate 0.97 with 2025-26 win percentage.",
+  "file": "data/player_prior.csv",
+  "updated": "2026-11-13T04:30:00Z"
+ },
+ {
   "id": "spotlight_notes",
   "title": "Spotlight storyline notes",
   "description": "Short, sourced storyline notes for the next Lakers game (each note names its source and links to it).",

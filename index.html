@@ -612,7 +612,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
       <li>Every game in the league is used, so each opponent is itself adjusted for who it played. The ratings are solved together so the predicted margins fit the actual ones as closely as possible.</li>
       <li><b>Home court</b>, H = 2.0 points. Recent estimates are 1.8 (2020–26 seasons, Sparkle Technologies) and 2.08 (2022–25, VSiN).</li>
       <li><b>Rest</b>, B = 1.0 point against a team playing the second night of a back-to-back. Season-by-season estimates run from about 0.5 to 2 points (The Data Jocks).</li>
-      <li><b>Small-sample shrinkage</b> adds the equivalent of 5 games of average play to every team, so a team's rating moves toward its results as it plays more. The 5 comes from game-to-game noise of about 12 points (Wayne Winston) and last season's spread of team strength, about 5.2–5.8 points (StatMuse 2025-26 net ratings). Turn it off to see results-only ratings, which swing wildly this early in the season.</li>
+      <li><b>Small-sample shrinkage</b> adds the equivalent of 5 games played at a starting rating to every team, so a team's rating moves from that start toward its results as it plays more. The 5 comes from game-to-game noise of about 12 points (Wayne Winston) and last season's spread of team strength, about 5.2–5.8 points (StatMuse 2025-26 net ratings). <b>Starting rating:</b> each player's 2025-26 box plus-minus (Basketball-Reference), pulled toward -2.0 by 500 minutes, weighted by his share of the team's minutes this season, times 5 players on the floor and 0.7 for year-to-year change; rookies and other players with no NBA minutes last season count as -2.0, and players who missed it injured use 2024-25. It follows the roster actually playing, so departures and arrivals count. Tested game by game on this season (each game forecast from earlier games only), it beat starting every team at average: Brier score 0.216 to 0.198, lower is better. Turn it off to see results-only ratings, which swing wildly this early in the season.</li>
       <li>Ratings average zero across the league. Close games are decided by 5 points or fewer, or in overtime.</li>
       <li><b>±</b> is one standard error, from game-to-game noise of 12 points and the shrinkage above. About two times in three, a team's true strength sits inside rating ± that number. With shrinkage off it is approximated as 12 ÷ √games.</li>
       <li><b>Per 100 possessions.</b> Possessions ≈ FGA + 0.44 × FTA − offensive rebounds + turnovers, averaged over the team and its opponents. Pace is possessions per 48 minutes.</li>
@@ -643,6 +643,47 @@ const variantOf = (p) => 'h' + (p.hca ? 1 : 0) + 's' + (p.shrink ? 1 : 0) + 'r' 
 // NBA.com wins wherever both have the same game, so the site stays current from the daily PC run.
 const isNum = (v) => v !== '' && v !== null && v !== undefined && !Number.isNaN(Number(v));
 const normName = (s) => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z ]/g, '').trim();
+// ---- Starting ratings (Proposed; tested on this season's games Nov 12, 2026: Brier 0.216 to 0.198 game by game) ----
+// Shrinkage pulls each team toward a starting rating instead of toward average. Starting rating = 0.7 × 5 × the minutes-weighted
+// average of the team's players' 2025-26 box plus-minus (Basketball-Reference), each pulled toward -2.0 by 500 minutes; a player
+// with no NBA minutes last season counts as -2.0 (players who missed it injured use 2024-25). Minutes are this season's, from games
+// before the date being rated, so the start follows the roster actually playing. 5: players on the floor; 0.7: year-to-year change.
+const START_K = 0.7, START_REPL = -2.0, START_BALLAST = 500;
+const START_ALIAS = { 'ronald holland': 'ron holland' };  // NBA.com spelling -> Basketball-Reference spelling
+const startKey = (s) => {
+  const t = String(s).normalize('NFKD').replace(/[^\x00-\x7f]/g, '').toLowerCase().replace(/[.']/g, '').replace(/-/g, ' ');
+  const k = t.split(/\s+/).filter((w) => w && !['jr', 'sr', 'ii', 'iii', 'iv'].includes(w)).join(' ');
+  return START_ALIAS[k] || k;
+};
+// Player value for the start: 2025-26 row first; a 2024-25 row only for a player with no 2025-26 row
+const startValues = (player_prior) => {
+  const rows = new Map();
+  for (const r of player_prior) if (r.season === '2025-26') rows.set(startKey(r.player), r);
+  for (const r of player_prior) { const k = startKey(r.player); if (r.season !== '2025-26' && !rows.has(k)) rows.set(k, r); }
+  const out = new Map();
+  rows.forEach((r, k) => { const mp = Number(r.mp), bpm = Number(r.bpm); if (mp > 0 && Number.isFinite(bpm)) out.set(k, (mp * bpm + START_BALLAST * START_REPL) / (mp + START_BALLAST)); });
+  return out;
+};
+const startCache = new WeakMap();
+const startRows = (pg) => {  // player lines reduced to date, team, name key and minutes, once per data load
+  if (!startCache.has(pg)) startCache.set(pg, pg.filter((g) => Number(g.min) > 0).map((g) => ({ date: g.date, team: g.team, k: startKey(g.player), min: Number(g.min) })));
+  return startCache.get(pg);
+};
+// Starting rating per team (in ids order, centred on 0) from minutes in games before `before` (a date string; '9999' = all)
+const startRatings = (ids, player_games_all, values, before) => {
+  const n = ids.length, ix = new Map(ids.map((t, i) => [t, i]));
+  if (!values || !values.size) return new Array(n).fill(0);
+  const mins = ids.map(() => new Map()), tot = new Array(n).fill(0);
+  for (const g of startRows(player_games_all)) {
+    if (!(g.date < before)) continue;
+    const i = ix.get(g.team); if (i === undefined) continue;
+    mins[i].set(g.k, (mins[i].get(g.k) || 0) + g.min); tot[i] += g.min;
+  }
+  const mu = mins.map((m, i) => { if (!tot[i]) return 0; let s = 0; m.forEach((v, k) => { s += v / tot[i] * 5 * (values.has(k) ? values.get(k) : START_REPL); }); return START_K * s; });
+  const mean = mu.reduce((a, v) => a + v, 0) / n;
+  return mu.map((v) => v - mean);
+};
+
 // What a missing player is worth to his team's margin, in points: (blended BPM + 2) × his share of team
 // minutes. Games and minutes come from the NBA.com lines on file; BPM from player_impact (current season
 // blended with last season's, 20 games of weight). A player with no BPM on file counts as league average (0).
@@ -702,69 +743,6 @@ dash.calc('schedule', {
       const played = g.home_pts !== '' && g.home_pts !== null && g.home_pts !== undefined;
       return { src: g.src, cup: g.cup || '', neutral: !!g.neutral, date: g.date, away: g.away, home: g.home, away_pts: played ? Number(g.away_pts) : null, home_pts: played ? Number(g.home_pts) : null, ot: Number(g.ot || 0), away_rest, home_rest, played };
     });
-  },
-});
-
-
-dash.calc('model', {
-  inputs: ['schedule', 'teams'],
-  title: 'Team ratings for every toggle setting',
-  description: 'Least squares on game margins with home court 2.0, back-to-back 1.0 and shrinkage of 5 games; one row per team for each of the 8 on/off settings, with a standard error from game noise of 12 points.',
-  fn: (schedule, teams) => {
-    const HCA = 2.0, B2B = 1.0, LAMBDA = 5, SIGMA = 12;
-    const ids = teams.map((t) => t.team), names = new Map(teams.map((t) => [t.team, t.name])), ix = new Map(ids.map((t, i) => [t, i]));
-    const played = schedule.filter((g) => g.played);
-    const solve = (h, s, r) => {
-      const n = ids.length, A = ids.map(() => new Array(n).fill(0)), b = new Array(n).fill(0);
-      for (const g of played) {
-        const i = ix.get(g.home), j = ix.get(g.away);
-        const y = g.home_pts - g.away_pts - (h && !g.neutral ? HCA : 0) - (r ? B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0)) : 0);
-        A[i][i]++; A[j][j]++; A[i][j]--; A[j][i]--; b[i] += y; b[j] -= y;
-      }
-      for (let i = 0; i < n; i++) A[i][i] += s ? LAMBDA : 1e-6;
-      // Diagonal of the inverse, for standard errors (shrinkage on)
-      const inv = A.map((row, i) => row.concat(ids.map((_, j) => (i === j ? 1 : 0))));
-      if (s) for (let c = 0; c < n; c++) {
-        let p = c;
-        for (let k = c + 1; k < n; k++) if (Math.abs(inv[k][c]) > Math.abs(inv[p][c])) p = k;
-        [inv[c], inv[p]] = [inv[p], inv[c]];
-        const d = inv[c][c];
-        for (let j = 0; j < 2 * n; j++) inv[c][j] /= d;
-        for (let k = 0; k < n; k++) if (k !== c && inv[k][c]) { const f = inv[k][c]; for (let j = 0; j < 2 * n; j++) inv[k][j] -= f * inv[c][j]; }
-      }
-      const varDiag = s ? inv.map((row, i) => row[n + i]) : null;
-      for (let c = 0; c < n; c++) {
-        let p = c;
-        for (let k = c + 1; k < n; k++) if (Math.abs(A[k][c]) > Math.abs(A[p][c])) p = k;
-        [A[c], A[p]] = [A[p], A[c]]; [b[c], b[p]] = [b[p], b[c]];
-        for (let k = c + 1; k < n; k++) { const f = A[k][c] / A[c][c]; for (let j = c; j < n; j++) A[k][j] -= f * A[c][j]; b[k] -= f * b[c]; }
-      }
-      const x = new Array(n).fill(0);
-      for (let i = n - 1; i >= 0; i--) { let v = b[i]; for (let j = i + 1; j < n; j++) v -= A[i][j] * x[j]; x[i] = v / A[i][i]; }
-      const mean = x.reduce((a, v) => a + v, 0) / n;
-      return { x: x.map((v) => v - mean), varDiag };
-    };
-    const rows = [];
-    for (const h of [1, 0]) for (const s of [1, 0]) for (const r of [1, 0]) {
-      const variant = 'h' + h + 's' + s + 'r' + r, fit = solve(h, s, r), x = fit.x;
-      const order = ids.map((t, i) => [t, x[i]]).sort((a, b) => b[1] - a[1]).map((e) => e[0]);
-      ids.forEach((t, i) => {
-        const mine = played.filter((g) => g.home === t || g.away === t).map((g) => {
-          const home = g.home === t, m = home ? g.home_pts - g.away_pts : g.away_pts - g.home_pts;
-          return { m, opp: home ? g.away : g.home, ot: g.ot, b2b: (home ? g.home_rest : g.away_rest) === 1 };
-        });
-        const n = mine.length, wl = (gs) => gs.filter((g) => g.m > 0).length + '-' + gs.filter((g) => g.m < 0).length;
-        const close = mine.filter((g) => Math.abs(g.m) <= 5 || g.ot);
-        rows.push({
-          variant, team: t, name: names.get(t), rating: x[i], rank: order.indexOf(t) + 1, gp: n, record: wl(mine),
-          se: fit.varDiag ? SIGMA * Math.sqrt(fit.varDiag[i]) : SIGMA / Math.sqrt(Math.max(n, 1)),
-          raw: n ? mine.reduce((a, g) => a + g.m, 0) / n : null,
-          sos: n ? mine.reduce((a, g) => a + x[ix.get(g.opp)], 0) / n : null,
-          close: wl(close), ot: wl(mine.filter((g) => g.ot)), b2b: mine.filter((g) => g.b2b).length,
-        });
-      });
-    }
-    return rows;
   },
 });
 
@@ -895,6 +873,71 @@ dash.calc('absences_all', {
     return rows;
   },
 });
+
+dash.calc('model', {
+  inputs: ['schedule', 'teams', 'player_games_all', 'player_prior'],
+  title: 'Team ratings for every toggle setting',
+  description: 'Least squares on game margins with home court 2.0, back-to-back 1.0 and shrinkage of 5 games toward each team’s starting rating (last season’s players, this season’s minutes); one row per team for each of the 8 on/off settings, with a standard error from game noise of 12 points.',
+  fn: (schedule, teams, player_games_all, player_prior) => {
+    const HCA = 2.0, B2B = 1.0, LAMBDA = 5, SIGMA = 12;
+    const ids = teams.map((t) => t.team), names = new Map(teams.map((t) => [t.team, t.name])), ix = new Map(ids.map((t, i) => [t, i]));
+    const played = schedule.filter((g) => g.played);
+    const mu = startRatings(ids, player_games_all, startValues(player_prior), '9999');
+    const solve = (h, s, r) => {
+      const n = ids.length, A = ids.map(() => new Array(n).fill(0)), b = new Array(n).fill(0);
+      for (const g of played) {
+        const i = ix.get(g.home), j = ix.get(g.away);
+        const y = g.home_pts - g.away_pts - (h && !g.neutral ? HCA : 0) - (r ? B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0)) : 0);
+        A[i][i]++; A[j][j]++; A[i][j]--; A[j][i]--; b[i] += y; b[j] -= y;
+      }
+      for (let i = 0; i < n; i++) A[i][i] += s ? LAMBDA : 1e-6;
+      if (s) for (let i = 0; i < n; i++) b[i] += LAMBDA * mu[i];  // pulled toward the starting rating, not toward 0
+      // Diagonal of the inverse, for standard errors (shrinkage on)
+      const inv = A.map((row, i) => row.concat(ids.map((_, j) => (i === j ? 1 : 0))));
+      if (s) for (let c = 0; c < n; c++) {
+        let p = c;
+        for (let k = c + 1; k < n; k++) if (Math.abs(inv[k][c]) > Math.abs(inv[p][c])) p = k;
+        [inv[c], inv[p]] = [inv[p], inv[c]];
+        const d = inv[c][c];
+        for (let j = 0; j < 2 * n; j++) inv[c][j] /= d;
+        for (let k = 0; k < n; k++) if (k !== c && inv[k][c]) { const f = inv[k][c]; for (let j = 0; j < 2 * n; j++) inv[k][j] -= f * inv[c][j]; }
+      }
+      const varDiag = s ? inv.map((row, i) => row[n + i]) : null;
+      for (let c = 0; c < n; c++) {
+        let p = c;
+        for (let k = c + 1; k < n; k++) if (Math.abs(A[k][c]) > Math.abs(A[p][c])) p = k;
+        [A[c], A[p]] = [A[p], A[c]]; [b[c], b[p]] = [b[p], b[c]];
+        for (let k = c + 1; k < n; k++) { const f = A[k][c] / A[c][c]; for (let j = c; j < n; j++) A[k][j] -= f * A[c][j]; b[k] -= f * b[c]; }
+      }
+      const x = new Array(n).fill(0);
+      for (let i = n - 1; i >= 0; i--) { let v = b[i]; for (let j = i + 1; j < n; j++) v -= A[i][j] * x[j]; x[i] = v / A[i][i]; }
+      const mean = x.reduce((a, v) => a + v, 0) / n;
+      return { x: x.map((v) => v - mean), varDiag };
+    };
+    const rows = [];
+    for (const h of [1, 0]) for (const s of [1, 0]) for (const r of [1, 0]) {
+      const variant = 'h' + h + 's' + s + 'r' + r, fit = solve(h, s, r), x = fit.x;
+      const order = ids.map((t, i) => [t, x[i]]).sort((a, b) => b[1] - a[1]).map((e) => e[0]);
+      ids.forEach((t, i) => {
+        const mine = played.filter((g) => g.home === t || g.away === t).map((g) => {
+          const home = g.home === t, m = home ? g.home_pts - g.away_pts : g.away_pts - g.home_pts;
+          return { m, opp: home ? g.away : g.home, ot: g.ot, b2b: (home ? g.home_rest : g.away_rest) === 1 };
+        });
+        const n = mine.length, wl = (gs) => gs.filter((g) => g.m > 0).length + '-' + gs.filter((g) => g.m < 0).length;
+        const close = mine.filter((g) => Math.abs(g.m) <= 5 || g.ot);
+        rows.push({
+          variant, team: t, name: names.get(t), rating: x[i], start: s ? mu[i] : null, rank: order.indexOf(t) + 1, gp: n, record: wl(mine),
+          se: fit.varDiag ? SIGMA * Math.sqrt(fit.varDiag[i]) : SIGMA / Math.sqrt(Math.max(n, 1)),
+          raw: n ? mine.reduce((a, g) => a + g.m, 0) / n : null,
+          sos: n ? mine.reduce((a, g) => a + x[ix.get(g.opp)], 0) / n : null,
+          close: wl(close), ot: wl(mine.filter((g) => g.ot)), b2b: mine.filter((g) => g.b2b).length,
+        });
+      });
+    }
+    return rows;
+  },
+});
+
 
 dash.calc('game_log', {
   inputs: ['schedule', 'model', 'absences_all', 'player_impact', 'player_games_all'],
@@ -1183,14 +1226,15 @@ dash.calc('quarters', {
 });
 
 dash.calc('scorecard', {
-  inputs: ['schedule', 'teams'],
+  inputs: ['schedule', 'teams', 'player_games_all', 'player_prior'],
   title: 'Projection scorecard, game by game',
   description: 'Each played game projected with ratings refit on earlier games only (same model and toggles), against the result and a home-team-by-2 baseline.',
-  fn: (schedule, teams) => {
+  fn: (schedule, teams, player_games_all, player_prior) => {
     const HCA = 2.0, B2B = 1.0, LAMBDA = 5;
     const ids = teams.map((t) => t.team), ix = new Map(ids.map((t, i) => [t, i])), n = ids.length;
     const played = schedule.filter((g) => g.played);
-    const fit = (games, h, s, r) => {
+    const values = startValues(player_prior);
+    const fit = (games, h, s, r, mu) => {
       const A = ids.map(() => new Array(n).fill(0)), b = new Array(n).fill(0);
       for (const g of games) {
         const i = ix.get(g.home), j = ix.get(g.away);
@@ -1198,6 +1242,7 @@ dash.calc('scorecard', {
         A[i][i]++; A[j][j]++; A[i][j]--; A[j][i]--; b[i] += y; b[j] -= y;
       }
       for (let i = 0; i < n; i++) A[i][i] += s ? LAMBDA : 1e-6;
+      if (s) for (let i = 0; i < n; i++) b[i] += LAMBDA * mu[i];
       for (let c = 0; c < n; c++) {
         let p = c;
         for (let k = c + 1; k < n; k++) if (Math.abs(A[k][c]) > Math.abs(A[p][c])) p = k;
@@ -1210,12 +1255,13 @@ dash.calc('scorecard', {
       return x.map((v) => v - mean);
     };
     const dates = [...new Set(played.map((g) => g.date))].sort();
+    const muAt = new Map(dates.map((d) => [d, startRatings(ids, player_games_all, values, d)]));  // starts from minutes before each date
     const rows = [];
     for (const h of [1, 0]) for (const s of [1, 0]) for (const r of [1, 0]) {
       const variant = 'h' + h + 's' + s + 'r' + r;
       for (const d of dates) {
         const before = played.filter((g) => g.date < d);
-        const x = before.length ? fit(before, h, s, r) : new Array(n).fill(0);
+        const x = before.length ? fit(before, h, s, r, muAt.get(d)) : new Array(n).fill(0);
         for (const g of played.filter((g) => g.date === d)) {
           const ctx = (h && !g.neutral ? HCA : 0) + (r ? B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0)) : 0);
           const proj = x[ix.get(g.home)] - x[ix.get(g.away)] + ctx, actual = g.home_pts - g.away_pts;
@@ -1326,7 +1372,7 @@ dash.calc('with_without', {
 });
 
 // ---- Around the league: teams to watch, season odds and tonight's games ----
-// Default settings only (home court 2.0, back-to-back 1.0, shrinkage of 5 games, game noise 12 points),
+// Default settings only (home court 2.0, back-to-back 1.0, shrinkage of 5 games toward each team's starting rating, game noise 12 points),
 // the same model as the league table. Proposed: season odds come from simulating the rest of the schedule.
 const CONF = {
   ATL: 'East', BOS: 'East', BKN: 'East', CHA: 'East', CHI: 'East', CLE: 'East', DET: 'East', IND: 'East',
@@ -1339,8 +1385,8 @@ const wHca = (g) => (g.neutral ? 0 : W_HCA);  // no home court at a neutral site
 const wRest = (g) => W_B2B * ((g.away_rest === 1 ? 1 : 0) - (g.home_rest === 1 ? 1 : 0));
 const etToday = () => new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' });
 
-// Ratings plus the full inverse of the normal matrix (the model calc keeps only its diagonal)
-const watchFit = (games, ids) => {
+// Ratings plus the full inverse of the normal matrix (the model calc keeps only its diagonal); mu: starting ratings (calcs_new.js)
+const watchFit = (games, ids, mu) => {
   const n = ids.length, ix = new Map(ids.map((t, i) => [t, i]));
   const A = ids.map(() => new Array(n).fill(0)), b = new Array(n).fill(0);
   for (const g of games) {
@@ -1349,7 +1395,7 @@ const watchFit = (games, ids) => {
     const y = g.home_pts - g.away_pts - wHca(g) - wRest(g);
     A[i][i]++; A[j][j]++; A[i][j]--; A[j][i]--; b[i] += y; b[j] -= y;
   }
-  for (let i = 0; i < n; i++) A[i][i] += W_LAMBDA;
+  for (let i = 0; i < n; i++) { A[i][i] += W_LAMBDA; if (mu) b[i] += W_LAMBDA * mu[i]; }
   const M = A.map((row, i) => row.concat(ids.map((_, j) => (i === j ? 1 : 0))));
   for (let c = 0; c < n; c++) {
     let p = c;
@@ -1386,14 +1432,15 @@ const wCholesky = (S) => {
 };
 
 dash.calc('watch', {
-  inputs: ['schedule', 'teams'],
+  inputs: ['schedule', 'teams', 'player_games_all', 'player_prior'],
   title: 'Teams to watch: rating, two-week trend and season odds',
   description: 'Default settings. Rating and standard error as in the league table; trend = rating now minus rating from games through 14 days before the latest result; season odds from 1,000 simulated finishes of the schedule, each drawing the ratings from their uncertainty (normal, covariance 12² × the inverse normal matrix) and each game margin from N(home − away + home court + rest, 12²).',
-  fn: (schedule, teams) => {
+  fn: (schedule, teams, player_games_all, player_prior) => {
     const ids = teams.map((t) => t.team), n = ids.length;
     const played = schedule.filter((g) => g.played);
     if (!played.length) return [];
-    const fit = watchFit(played, ids), ix = fit.ix;
+    const values = startValues(player_prior), muBefore = (d) => startRatings(ids, player_games_all, values, d);
+    const fit = watchFit(played, ids, muBefore('9999')), ix = fit.ix;
     const asof = played.map((g) => g.date).sort().pop();
     const shift = (d, k) => { const x = new Date(d + 'T00:00:00Z'); x.setUTCDate(x.getUTCDate() + k); return x.toISOString().slice(0, 10); };
     // Rating history: as of each week since the first week, and two weeks ago
@@ -1401,8 +1448,9 @@ dash.calc('watch', {
     const marks = [];
     for (let d = shift(first, 6); d < asof; d = shift(d, 7)) marks.push(d);
     marks.push(asof);
-    const hist = marks.map((d) => watchFit(played.filter((g) => g.date <= d), ids).r);
-    const then = shift(asof, -14), fitThen = played.some((g) => g.date <= then) ? watchFit(played.filter((g) => g.date <= then), ids) : null;
+    // Each past fit uses the starting ratings from the minutes known then
+    const hist = marks.map((d) => watchFit(played.filter((g) => g.date <= d), ids, muBefore(shift(d, 1))).r);
+    const then = shift(asof, -14), fitThen = played.some((g) => g.date <= then) ? watchFit(played.filter((g) => g.date <= then), ids, muBefore(shift(then, 1))) : null;
     // Records so far
     const W = new Array(n).fill(0), L = new Array(n).fill(0);
     for (const g of played) { const h = ix.get(g.home), a = ix.get(g.away); if (h === undefined || a === undefined) continue; if (g.home_pts > g.away_pts) { W[h]++; L[a]++; } else { W[a]++; L[h]++; } }
@@ -1453,14 +1501,14 @@ dash.calc('watch', {
 });
 
 dash.calc('tonight', {
-  inputs: ['schedule', 'teams'],
+  inputs: ['schedule', 'teams', 'player_games_all', 'player_prior'],
   title: 'Tonight’s games and how each one moves every team’s rating',
   description: 'The next slate of unplayed games (today’s date in US Eastern time, or the next date with games). For each game: the home margin the ratings expect, and how much each team’s rating moves per point of home margin above that (exact for one game; games are treated as independent when combined).',
-  fn: (schedule, teams) => {
+  fn: (schedule, teams, player_games_all, player_prior) => {
     const ids = teams.map((t) => t.team);
     const played = schedule.filter((g) => g.played);
     if (!played.length) return [];
-    const fit = watchFit(played, ids), today = etToday();
+    const fit = watchFit(played, ids, startRatings(ids, player_games_all, startValues(player_prior), '9999')), today = etToday();
     const ahead = schedule.filter((g) => !g.played && g.date >= today && fit.ix.has(g.home) && fit.ix.has(g.away));
     const date = ahead.map((g) => g.date).sort()[0];
     if (!date) return [];
@@ -1619,7 +1667,7 @@ function render() {
     ? 'Raw margins view: no adjustment for opponents, home court or rest. ' + (rawRank ? 'Ranked ' + rawRank + ' of 30 by raw margin.' : '')
     : !p.shrink
       ? 'Shrinkage is off: ratings describe results only and swing hard this early.'
-      : 'Shrinkage is on: ratings are a best estimate of true strength, pulled toward average until more games are played.';
+      : 'Shrinkage is on: ratings are a best estimate of true strength, pulled toward a starting rating built from last season’s players until more games are played.';
 
   // Updated line
   const schd = dash.data('schedule');
@@ -1670,7 +1718,7 @@ function render() {
       cell(tr, String(r.b2b), 'lk-wide');
       tr.classList.add('lk-main');
       lBody.appendChild(tr);
-      lBody.appendChild(detailRow(r.team, r.team === team, [[raw ? 'Adjusted' : 'Results', sgn(r[alt])], ['Schedule', sgn(r.sos)], ['Back-to-backs', String(r.b2b)]]));
+      lBody.appendChild(detailRow(r.team, r.team === team, [[raw ? 'Adjusted' : 'Results', sgn(r[alt])], ['Schedule', sgn(r.sos)], ['Back-to-backs', String(r.b2b)]].concat(r.start === null || r.start === undefined ? [] : [['Starting rating', sgn(r.start)]])));
     });
   } else if (m.status === 'error') { fail(lBody); }
 
@@ -2402,7 +2450,7 @@ function renderAround() {
     picked.forEach(({ r, out }) => line(r, out.join(' · '), false));
     const seNow = me.se, gp = me.wins + me.losses, seMid = 12 / Math.sqrt(41 + 5);
     document.getElementById('lk-watch-note').textContent = 'Picked for the ' + fn + ' from what the data says now: upcoming opponents, contenders, seeding rivals, teams close in the ratings, big movers and key absences. '
-      + 'Ratings are still settling: about ±' + seNow.toFixed(1) + ' points after ' + gp + ' games, about ±' + seMid.toFixed(1) + ' by midseason, so expect this list to change. '
+      + 'Ratings start from each team’s players’ impact last season and move toward results as games are played; they are still settling: about ±' + seNow.toFixed(1) + ' points after ' + gp + ' games, about ±' + seMid.toFixed(1) + ' by midseason, so expect this list to change. '
       + 'Projected wins (80% range) and top-6 seed chance (in each team’s conference) come from ' + me.sims.toLocaleString('en-US') + ' simulated finishes of the schedule, as of ' + wDay(me.asof) + '; they hold each team’s strength fixed (no injuries or trades) and ignore tiebreakers. '
       + (me.added ? 'The 2 games the NBA adds for each team after the Cup group stage are not scheduled yet, so they are played here against an average opponent. ' : '')
       + 'NBA Cup group and knockout games count like any other game; the Cup final does not count and is left out. Default settings. Tap a team to compare it.';
@@ -2485,7 +2533,7 @@ const FILES = {
   results: 'data/results.csv', teams: 'data/teams.csv', lakers_schedule: 'data/lakers_schedule.csv',
   team_stats: 'data/team_stats.csv', opp_stats: 'data/opp_stats.csv', lakers_box: 'data/lakers_box.csv', absences: 'data/absences.csv',
   lakers_players: 'data/lakers_players.csv', lakers_quarters: 'data/lakers_quarters.csv', player_impact: 'data/player_impact.csv',
-  player_games: 'data/player_games.csv', spotlight_notes: 'data/spotlight_notes.csv',
+  player_games: 'data/player_games.csv', spotlight_notes: 'data/spotlight_notes.csv', player_prior: 'data/player_prior.csv',
   nba_results: 'data/nba/league_results.csv', nba_box: 'data/nba/league_box.csv', nba_player_games: 'data/nba/league_player_games.csv',
   nba_quarters: 'data/nba/league_quarters.csv', nba_inactive: 'data/nba/league_inactive.csv', nba_injuries: 'data/nba/injuries.csv',
 };
