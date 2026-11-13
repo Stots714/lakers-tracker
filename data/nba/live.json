@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-12T17:57:21-08:00",
+ "updated": "2026-11-12T18:04:30-08:00",
  "board_date": "2026-11-12",
  "games": [
   {
    "game_id": "0022600227",
    "tip_utc": "2026-11-13T00:00:00Z",
    "status": 2,
-   "status_text": "END Q3",
-   "period": 3,
-   "clock": "0:00",
+   "status_text": "Q4 8:28",
+   "period": 4,
+   "clock": "8:28",
    "home": {
     "team": "PHI",
-    "score": 96,
+    "score": 107,
     "periods": [
      24,
      36,
      36,
-     0
+     11
     ],
     "stats": {
-     "fgm": 35,
-     "fga": 64,
-     "fg3m": 10,
-     "fg3a": 24,
+     "fgm": 40,
+     "fga": 72,
+     "fg3m": 11,
+     "fg3a": 26,
      "ftm": 16,
      "fta": 19,
-     "oreb": 5,
-     "dreb": 22,
-     "tov": 7,
-     "pf": 13,
-     "ast": 24,
-     "stl": 7,
+     "oreb": 7,
+     "dreb": 23,
+     "tov": 8,
+     "pf": 14,
+     "ast": 26,
+     "stl": 8,
      "blk": 5,
-     "pts_paint": 44,
-     "pts_second_chance": 11,
-     "pts_fast_break": 19,
-     "pts_off_tov": 20,
-     "pts_bench": 22,
-     "biggest_lead": 11,
+     "pts_paint": 50,
+     "pts_second_chance": 13,
+     "pts_fast_break": 21,
+     "pts_off_tov": 22,
+     "pts_bench": 31,
+     "biggest_lead": 14,
      "lead_changes": 25
     },
     "leaders": [
@@ -50,10 +50,10 @@
      },
      {
       "name": "Jaylen Brown",
-      "pts": 16,
+      "pts": 18,
       "reb": 6,
       "ast": 2,
-      "min": "27:54"
+      "min": "31:26"
      },
      {
       "name": "Joel Embiid",
@@ -66,31 +66,31 @@
    },
    "away": {
     "team": "TOR",
-    "score": 87,
+    "score": 96,
     "periods": [
      33,
      27,
      27,
-     0
+     9
     ],
     "stats": {
-     "fgm": 33,
-     "fga": 67,
-     "fg3m": 11,
-     "fg3a": 29,
-     "ftm": 10,
-     "fta": 14,
+     "fgm": 36,
+     "fga": 72,
+     "fg3m": 12,
+     "fg3a": 31,
+     "ftm": 12,
+     "fta": 16,
      "oreb": 6,
-     "dreb": 22,
-     "tov": 10,
-     "pf": 19,
-     "ast": 21,
+     "dreb": 23,
+     "tov": 11,
+     "pf": 20,
+     "ast": 23,
      "stl": 6,
-     "blk": 1,
-     "pts_paint": 40,
+     "blk": 3,
+     "pts_paint": 44,
      "pts_second_chance": 8,
      "pts_fast_break": 13,
-     "pts_off_tov": 11,
+     "pts_off_tov": 13,
      "pts_bench": 20,
      "biggest_lead": 17,
      "lead_changes": 25
@@ -98,24 +98,24 @@
     "leaders": [
      {
       "name": "RJ Barrett",
-      "pts": 24,
-      "reb": 9,
+      "pts": 29,
+      "reb": 10,
       "ast": 5,
-      "min": "28:47"
+      "min": "32:19"
      },
      {
       "name": "Immanuel Quickley",
-      "pts": 18,
+      "pts": 22,
       "reb": 4,
-      "ast": 5,
-      "min": "22:29"
+      "ast": 6,
+      "min": "26:01"
      },
      {
       "name": "Collin Murray-Boyles",
       "pts": 12,
       "reb": 0,
-      "ast": 3,
-      "min": "23:29"
+      "ast": 4,
+      "min": "27:01"
      }
     ]
    },
@@ -127,6 +127,10 @@
     {
      "t": 36.0,
      "m": 9
+    },
+    {
+     "t": 39.5,
+     "m": 11
     }
    ]
   },
@@ -134,31 +138,31 @@
    "game_id": "0022600228",
    "tip_utc": "2026-11-13T00:00:00Z",
    "status": 2,
-   "status_text": "Q4 10:58",
+   "status_text": "Q4 8:31",
    "period": 4,
-   "clock": "10:58",
+   "clock": "8:31",
    "home": {
     "team": "WAS",
-    "score": 92,
+    "score": 99,
     "periods": [
      32,
      29,
      29,
-     2
+     9
     ],
     "stats": {
-     "fgm": 36,
-     "fga": 65,
+     "fgm": 37,
+     "fga": 68,
      "fg3m": 10,
-     "fg3a": 22,
-     "ftm": 10,
-     "fta": 12,
+     "fg3a": 23,
+     "ftm": 15,
+     "fta": 17,
      "oreb": 8,
-     "dreb": 20,
+     "dreb": 22,
      "tov": 12,
-     "pf": 16,
+     "pf": 18,
      "ast": 23,
-     "stl": 4,
+     "stl": 5,
      "blk": 5,
      "pts_paint": 44,
      "pts_second_chance": 10,
@@ -170,11 +174,18 @@
     },
     "leaders": [
      {
+      "name": "Trae Young",
+      "pts": 24,
+      "reb": 1,
+      "ast": 8,
+      "min": "28:03"
+     },
+     {
       "name": "Alex Sarr",
       "pts": 23,
-      "reb": 4,
+      "reb": 5,
       "ast": 1,
-      "min": "25:26"
+      "min": "27:38"
      },
      {
       "name": "Anthony Davis",
@@ -182,40 +193,33 @@
       "reb": 9,
       "ast": 3,
       "min": "29:45"
-     },
-     {
-      "name": "Trae Young",
-      "pts": 17,
-      "reb": 1,
-      "ast": 8,
-      "min": "25:51"
      }
     ]
    },
    "away": {
     "team": "DET",
-    "score": 96,
+    "score": 100,
     "periods": [
      33,
      31,
      30,
-     2
+     6
     ],
     "stats": {
-     "fgm": 33,
-     "fga": 61,
+     "fgm": 34,
+     "fga": 64,
      "fg3m": 11,
-     "fg3a": 25,
-     "ftm": 19,
-     "fta": 23,
+     "fg3a": 27,
+     "ftm": 21,
+     "fta": 25,
      "oreb": 7,
-     "dreb": 19,
-     "tov": 9,
-     "pf": 14,
+     "dreb": 21,
+     "tov": 10,
+     "pf": 17,
      "ast": 20,
      "stl": 7,
      "blk": 4,
-     "pts_paint": 34,
+     "pts_paint": 36,
      "pts_second_chance": 9,
      "pts_fast_break": 15,
      "pts_off_tov": 12,
@@ -226,17 +230,17 @@
     "leaders": [
      {
       "name": "Cade Cunningham",
-      "pts": 24,
+      "pts": 28,
       "reb": 1,
       "ast": 8,
-      "min": "27:01"
+      "min": "29:13"
      },
      {
       "name": "Daniss Jenkins",
       "pts": 21,
       "reb": 3,
       "ast": 0,
-      "min": "23:44"
+      "min": "24:32"
      },
      {
       "name": "Ausar Thompson",
@@ -255,6 +259,10 @@
     {
      "t": 37.0,
      "m": -4
+    },
+    {
+     "t": 39.5,
+     "m": -1
     }
    ]
   },
@@ -262,47 +270,47 @@
    "game_id": "0022600229",
    "tip_utc": "2026-11-13T01:00:00Z",
    "status": 2,
-   "status_text": "Q2 4:04",
+   "status_text": "Q2 :27.1",
    "period": 2,
-   "clock": "4:04",
+   "clock": "0:27",
    "home": {
     "team": "MIN",
-    "score": 55,
+    "score": 67,
     "periods": [
      34,
-     21,
+     33,
      0,
      0
     ],
     "stats": {
-     "fgm": 21,
-     "fga": 35,
+     "fgm": 27,
+     "fga": 43,
      "fg3m": 9,
      "fg3a": 17,
      "ftm": 4,
      "fta": 6,
      "oreb": 3,
-     "dreb": 17,
-     "tov": 9,
-     "pf": 9,
-     "ast": 12,
-     "stl": 3,
+     "dreb": 20,
+     "tov": 11,
+     "pf": 10,
+     "ast": 16,
+     "stl": 5,
      "blk": 2,
-     "pts_paint": 24,
-     "pts_second_chance": 10,
-     "pts_fast_break": 7,
-     "pts_off_tov": 8,
+     "pts_paint": 36,
+     "pts_second_chance": 12,
+     "pts_fast_break": 9,
+     "pts_off_tov": 12,
      "pts_bench": 21,
-     "biggest_lead": 10,
+     "biggest_lead": 15,
      "lead_changes": 6
     },
     "leaders": [
      {
       "name": "LaMelo Ball",
       "pts": 16,
-      "reb": 1,
-      "ast": 5,
-      "min": "12:13"
+      "reb": 3,
+      "ast": 7,
+      "min": "15:43"
      },
      {
       "name": "Bones Hyland",
@@ -313,40 +321,40 @@
      },
      {
       "name": "Jonathan Kuminga",
-      "pts": 7,
-      "reb": 4,
-      "ast": 1,
-      "min": "13:27"
+      "pts": 9,
+      "reb": 5,
+      "ast": 2,
+      "min": "16:57"
      }
     ]
    },
    "away": {
     "team": "DAL",
-    "score": 45,
+    "score": 52,
     "periods": [
      26,
-     19,
+     26,
      0,
      0
     ],
     "stats": {
-     "fgm": 17,
-     "fga": 40,
-     "fg3m": 5,
-     "fg3a": 15,
+     "fgm": 20,
+     "fga": 47,
+     "fg3m": 6,
+     "fg3a": 17,
      "ftm": 6,
      "fta": 7,
-     "oreb": 6,
-     "dreb": 9,
-     "tov": 5,
-     "pf": 9,
-     "ast": 12,
-     "stl": 5,
-     "blk": 2,
-     "pts_paint": 22,
-     "pts_second_chance": 4,
+     "oreb": 7,
+     "dreb": 10,
+     "tov": 8,
+     "pf": 10,
+     "ast": 14,
+     "stl": 7,
+     "blk": 3,
+     "pts_paint": 26,
+     "pts_second_chance": 6,
      "pts_fast_break": 15,
-     "pts_off_tov": 22,
+     "pts_off_tov": 25,
      "pts_bench": 16,
      "biggest_lead": 5,
      "lead_changes": 6
@@ -360,18 +368,18 @@
       "min": "10:08"
      },
      {
+      "name": "Cooper Flagg",
+      "pts": 9,
+      "reb": 4,
+      "ast": 2,
+      "min": "19:39"
+     },
+     {
       "name": "Caleb Martin",
       "pts": 7,
       "reb": 2,
       "ast": 4,
-      "min": "14:08"
-     },
-     {
-      "name": "Cooper Flagg",
-      "pts": 7,
-      "reb": 3,
-      "ast": 2,
-      "min": "16:09"
+      "min": "17:38"
      }
     ]
    },
@@ -383,6 +391,10 @@
     {
      "t": 19.9,
      "m": 10
+    },
+    {
+     "t": 23.5,
+     "m": 15
     }
    ]
   },
