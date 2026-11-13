@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T20:29:03-08:00",
+ "updated": "2026-11-12T20:36:06-08:00",
  "board_date": "2026-11-12",
  "games": [
   {
@@ -481,37 +481,37 @@
   {
    "game_id": "0022600230",
    "tip_utc": "2026-11-13T02:00:00Z",
-   "status": 2,
-   "status_text": "Q4 :11.1",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "0:11",
+   "clock": "0:00",
    "home": {
     "team": "PHX",
-    "score": 99,
+    "score": 101,
     "periods": [
      28,
      27,
      17,
-     27
+     29
     ],
     "stats": {
      "fgm": 38,
      "fga": 92,
      "fg3m": 13,
      "fg3a": 43,
-     "ftm": 10,
-     "fta": 13,
+     "ftm": 12,
+     "fta": 15,
      "oreb": 9,
-     "dreb": 21,
+     "dreb": 22,
      "tov": 8,
-     "pf": 19,
+     "pf": 20,
      "ast": 23,
      "stl": 11,
      "blk": 4,
      "pts_paint": 38,
      "pts_second_chance": 7,
      "pts_fast_break": 11,
-     "pts_off_tov": 36,
+     "pts_off_tov": 38,
      "pts_bench": 31,
      "biggest_lead": 17,
      "lead_changes": 18
@@ -519,17 +519,17 @@
     "leaders": [
      {
       "name": "Devin Booker",
-      "pts": 28,
+      "pts": 30,
       "reb": 1,
       "ast": 7,
-      "min": "34:43"
+      "min": "34:53"
      },
      {
       "name": "Dillon Brooks",
       "pts": 15,
       "reb": 3,
       "ast": 1,
-      "min": "29:45"
+      "min": "29:55"
      },
      {
       "name": "Collin Gillespie",
@@ -542,29 +542,29 @@
    },
    "away": {
     "team": "CHA",
-    "score": 95,
+    "score": 96,
     "periods": [
      22,
      28,
      26,
-     19
+     20
     ],
     "stats": {
      "fgm": 33,
-     "fga": 78,
+     "fga": 79,
      "fg3m": 14,
-     "fg3a": 38,
-     "ftm": 15,
-     "fta": 18,
-     "oreb": 14,
-     "dreb": 36,
+     "fg3a": 39,
+     "ftm": 16,
+     "fta": 20,
+     "oreb": 15,
+     "dreb": 37,
      "tov": 27,
      "pf": 19,
      "ast": 24,
      "stl": 4,
      "blk": 4,
      "pts_paint": 38,
-     "pts_second_chance": 15,
+     "pts_second_chance": 16,
      "pts_fast_break": 13,
      "pts_off_tov": 11,
      "pts_bench": 35,
@@ -584,14 +584,14 @@
       "pts": 16,
       "reb": 8,
       "ast": 3,
-      "min": "33:34"
+      "min": "33:44"
      },
      {
       "name": "Grayson Allen",
       "pts": 14,
       "reb": 4,
       "ast": 6,
-      "min": "33:55"
+      "min": "34:05"
      }
     ]
    },
@@ -659,6 +659,10 @@
     {
      "t": 47.8,
      "m": 4
+    },
+    {
+     "t": 48.0,
+     "m": 5
     }
    ]
   }
