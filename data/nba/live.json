@@ -1,41 +1,41 @@
 {
- "updated": "2026-11-15T12:24:39-08:00",
+ "updated": "2026-11-15T13:26:25-08:00",
  "board_date": "2026-11-15",
  "games": [
   {
    "game_id": "0022600236",
    "tip_utc": "2026-11-15T18:00:00Z",
-   "status": 2,
-   "status_text": "Q4 1:30",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "1:30",
+   "clock": "0:00",
    "home": {
     "team": "PHI",
-    "score": 126,
+    "score": 131,
     "periods": [
      29,
      29,
      39,
-     29
+     34
     ],
     "stats": {
-     "fgm": 46,
-     "fga": 84,
+     "fgm": 47,
+     "fga": 85,
      "fg3m": 18,
      "fg3a": 42,
-     "ftm": 16,
-     "fta": 21,
+     "ftm": 19,
+     "fta": 25,
      "oreb": 6,
-     "dreb": 33,
-     "tov": 12,
+     "dreb": 34,
+     "tov": 13,
      "pf": 24,
-     "ast": 28,
+     "ast": 29,
      "stl": 5,
      "blk": 3,
-     "pts_paint": 46,
+     "pts_paint": 48,
      "pts_second_chance": 6,
      "pts_fast_break": 20,
-     "pts_off_tov": 17,
+     "pts_off_tov": 19,
      "pts_bench": 36,
      "biggest_lead": 15,
      "lead_changes": 14
@@ -43,79 +43,79 @@
     "leaders": [
      {
       "name": "Jaylen Brown",
-      "pts": 30,
-      "reb": 3,
+      "pts": 31,
+      "reb": 2,
       "ast": 2,
-      "min": "30:58"
+      "min": "32:28"
      },
      {
       "name": "Tyrese Maxey",
-      "pts": 25,
-      "reb": 3,
+      "pts": 27,
+      "reb": 4,
       "ast": 6,
-      "min": "34:02"
+      "min": "35:32"
      },
      {
       "name": "LeBron James",
       "pts": 15,
-      "reb": 6,
-      "ast": 10,
-      "min": "31:38"
+      "reb": 7,
+      "ast": 11,
+      "min": "32:47"
      }
     ]
    },
    "away": {
     "team": "IND",
-    "score": 119,
+    "score": 124,
     "periods": [
      35,
      22,
      30,
-     32
+     37
     ],
     "stats": {
-     "fgm": 46,
-     "fga": 87,
-     "fg3m": 7,
-     "fg3a": 30,
+     "fgm": 48,
+     "fga": 91,
+     "fg3m": 8,
+     "fg3a": 32,
      "ftm": 20,
      "fta": 23,
-     "oreb": 7,
+     "oreb": 8,
      "dreb": 32,
      "tov": 10,
-     "pf": 20,
-     "ast": 30,
+     "pf": 22,
+     "ast": 32,
      "stl": 5,
      "blk": 3,
-     "pts_paint": 60,
+     "pts_paint": 62,
      "pts_second_chance": 14,
      "pts_fast_break": 7,
      "pts_off_tov": 13,
-     "pts_bench": 39,
+     "pts_bench": 42,
      "biggest_lead": 9,
      "lead_changes": 14
     },
     "leaders": [
      {
       "name": "Pascal Siakam",
-      "pts": 29,
+      "pts": 31,
       "reb": 2,
-      "ast": 1,
-      "min": "32:10"
+      "ast": 2,
+      "min": "33:40"
      },
      {
       "name": "Kelly Oubre Jr.",
       "pts": 16,
       "reb": 4,
       "ast": 2,
-      "min": "27:25"
+      "min": "28:55"
      },
      {
       "name": "Quenton Jackson",
       "pts": 15,
       "reb": 6,
-      "ast": 7,
-      "min": "28:44"
+      "ast": 8,
+      "min": "30:14"
      }
     ]
    },
@@ -147,45 +147,144 @@
     {
      "t": 46.5,
      "m": 7
+    },
+    {
+     "t": 48.0,
+     "m": 7
     }
    ]
   },
   {
    "game_id": "0022600237",
    "tip_utc": "2026-11-15T21:00:00Z",
-   "status": 1,
-   "status_text": "4:00 pm ET",
-   "period": 0,
-   "clock": "",
+   "status": 2,
+   "status_text": "Q1 5:52",
+   "period": 1,
+   "clock": "5:52",
    "home": {
     "team": "PHX",
-    "score": 0,
+    "score": 7,
     "periods": [
-     0,
+     7,
      0,
      0,
      0
+    ],
+    "stats": {
+     "fgm": 3,
+     "fga": 11,
+     "fg3m": 1,
+     "fg3a": 6,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 4,
+     "tov": 4,
+     "pf": 4,
+     "ast": 2,
+     "stl": 0,
+     "blk": 1,
+     "pts_paint": 2,
+     "pts_second_chance": 2,
+     "pts_fast_break": 0,
+     "pts_off_tov": 3,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": [
+     {
+      "name": "Miles Bridges",
+      "pts": 5,
+      "reb": 0,
+      "ast": 0,
+      "min": "4:28"
+     },
+     {
+      "name": "Devin Booker",
+      "pts": 2,
+      "reb": 0,
+      "ast": 1,
+      "min": "6:03"
+     },
+     {
+      "name": "Dillon Brooks",
+      "pts": 0,
+      "reb": 1,
+      "ast": 0,
+      "min": "6:03"
+     }
     ]
    },
    "away": {
     "team": "LAL",
-    "score": 0,
+    "score": 23,
     "periods": [
-     0,
+     23,
      0,
      0,
      0
+    ],
+    "stats": {
+     "fgm": 6,
+     "fga": 10,
+     "fg3m": 4,
+     "fg3a": 6,
+     "ftm": 7,
+     "fta": 7,
+     "oreb": 0,
+     "dreb": 6,
+     "tov": 1,
+     "pf": 2,
+     "ast": 3,
+     "stl": 2,
+     "blk": 1,
+     "pts_paint": 2,
+     "pts_second_chance": 0,
+     "pts_fast_break": 5,
+     "pts_off_tov": 6,
+     "pts_bench": 0,
+     "biggest_lead": 18,
+     "lead_changes": 0
+    },
+    "leaders": [
+     {
+      "name": "Luka Dončić",
+      "pts": 14,
+      "reb": 1,
+      "ast": 1,
+      "min": "6:03"
+     },
+     {
+      "name": "Walker Kessler",
+      "pts": 4,
+      "reb": 2,
+      "ast": 0,
+      "min": "6:03"
+     },
+     {
+      "name": "Quentin Grimes",
+      "pts": 3,
+      "reb": 1,
+      "ast": 0,
+      "min": "6:03"
+     }
     ]
    },
-   "history": []
+   "history": [
+    {
+     "t": 6.1,
+     "m": -16
+    }
+   ]
   },
   {
    "game_id": "0022600238",
    "tip_utc": "2026-11-15T21:30:00Z",
    "status": 1,
-   "status_text": "4:30 pm ET",
+   "status_text": "pregame",
    "period": 0,
-   "clock": "",
+   "clock": "0:00",
    "home": {
     "team": "LAC",
     "score": 0,
@@ -194,7 +293,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "away": {
     "team": "CHA",
@@ -204,7 +326,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "history": []
   },
