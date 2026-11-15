@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-15T10:01:09-08:00",
+ "updated": "2026-11-15T10:12:18-08:00",
  "board_date": "2026-11-15",
  "games": [
   {
    "game_id": "0022600236",
    "tip_utc": "2026-11-15T18:00:00Z",
-   "status": 1,
-   "status_text": "pregame",
-   "period": 0,
-   "clock": "0:00",
+   "status": 2,
+   "status_text": "Q1 11:08",
+   "period": 1,
+   "clock": "11:08",
    "home": {
     "team": "PHI",
-    "score": 0,
+    "score": 2,
     "periods": [
-     0,
+     2,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 0,
-     "fga": 0,
+     "fgm": 1,
+     "fga": 2,
      "fg3m": 0,
      "fg3a": 0,
      "ftm": 0,
@@ -29,43 +29,65 @@
      "dreb": 0,
      "tov": 0,
      "pf": 0,
-     "ast": 0,
-     "stl": 0,
+     "ast": 1,
+     "stl": 1,
      "blk": 0,
-     "pts_paint": 0,
+     "pts_paint": 2,
      "pts_second_chance": 0,
-     "pts_fast_break": 0,
-     "pts_off_tov": 0,
+     "pts_fast_break": 2,
+     "pts_off_tov": 2,
      "pts_bench": 0,
-     "biggest_lead": 0,
+     "biggest_lead": 2,
      "lead_changes": 0
     },
-    "leaders": []
+    "leaders": [
+     {
+      "name": "Tyrese Maxey",
+      "pts": 2,
+      "reb": 0,
+      "ast": 0,
+      "min": "0:48"
+     },
+     {
+      "name": "Jaylen Brown",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "0:48"
+     },
+     {
+      "name": "LeBron James",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "0:48"
+     }
+    ]
    },
    "away": {
     "team": "IND",
-    "score": 0,
+    "score": 2,
     "periods": [
-     0,
+     2,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 0,
-     "fga": 0,
+     "fgm": 1,
+     "fga": 1,
      "fg3m": 0,
      "fg3a": 0,
      "ftm": 0,
      "fta": 0,
      "oreb": 0,
-     "dreb": 0,
-     "tov": 0,
+     "dreb": 1,
+     "tov": 1,
      "pf": 0,
-     "ast": 0,
+     "ast": 1,
      "stl": 0,
      "blk": 0,
-     "pts_paint": 0,
+     "pts_paint": 2,
      "pts_second_chance": 0,
      "pts_fast_break": 0,
      "pts_off_tov": 0,
@@ -73,9 +95,36 @@
      "biggest_lead": 0,
      "lead_changes": 0
     },
-    "leaders": []
+    "leaders": [
+     {
+      "name": "Quenton Jackson",
+      "pts": 2,
+      "reb": 0,
+      "ast": 0,
+      "min": "0:48"
+     },
+     {
+      "name": "Aaron Nesmith",
+      "pts": 0,
+      "reb": 1,
+      "ast": 0,
+      "min": "0:48"
+     },
+     {
+      "name": "Pascal Siakam",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "0:48"
+     }
+    ]
    },
-   "history": []
+   "history": [
+    {
+     "t": 0.9,
+     "m": 0
+    }
+   ]
   },
   {
    "game_id": "0022600237",
