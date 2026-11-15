@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T23:00:04-08:00",
+ "updated": "2026-11-14T17:30:16-08:00",
  "season": "2026-27",
  "teams": [
   "LAL",
@@ -22,15 +22,15 @@
   },
   "league team box scores": {
    "ok": true,
-   "team-games": 348
+   "team-games": 366
   },
   "league player games": {
    "ok": true,
-   "player lines": 3933
+   "player lines": 4126
   },
   "league results": {
    "ok": true,
-   "final games": 174,
+   "final games": 183,
    "pending": 0,
    "pending_games": [],
    "kept_games": [],
@@ -38,15 +38,15 @@
   },
   "league quarter scores, inactive lists and game extras": {
    "ok": true,
-   "new games": 37
+   "new games": 45
   },
   "league team turnovers": {
    "ok": true,
-   "team-games": 348
+   "team-games": 366
   },
   "injury report": {
    "ok": true,
-   "players listed": 83
+   "players listed": 146
   },
   "LAL games": {
    "ok": true,
@@ -90,11 +90,11 @@
   },
   "PHX player games": {
    "ok": true,
-   "rows": 119
+   "rows": 129
   },
   "PHX player games advanced": {
    "ok": true,
-   "rows": 119
+   "rows": 129
   },
   "PHX on/off": {
    "ok": true,
@@ -102,7 +102,7 @@
   },
   "PHX 5-man lineups": {
    "ok": true,
-   "rows": 95
+   "rows": 97
   },
   "PHX 2-man lineups": {
    "ok": true,
@@ -114,7 +114,7 @@
   },
   "PHX shots against": {
    "ok": true,
-   "rows": 875
+   "rows": 955
   },
   "PHX hustle": {
    "ok": true,
@@ -122,8 +122,7 @@
   },
   "matchups": {
    "ok": true,
-   "new games": 0,
-   "pending": 1
+   "new games": 1
   },
   "play-by-play": {
    "ok": true,
@@ -133,10 +132,10 @@
  "checks": [
   "Scores: 68 games in both files, 0 differ; 0 hand-checked games not found on NBA.com by date and teams.",
   "Lakers box scores: 10 team-games compared, 4 numbers differ [('2026-10-21', 'GSW', 'tov', '15', 16), ('2026-10-23', 'LAC', 'tov', '25', 26), ('2026-10-25', 'UTA', 'dreb', '31', 32), ('2026-10-25', 'UTA', 'tov', '19', 17)].",
-  "Player points add up to team points in 348 of 348 team-games.",
-  "Turnovers (players + team) match NBA.com's game totals in 347 of 348 team-games: [('2026-10-30', 'CHA')].",
+  "Player points add up to team points in 366 of 366 team-games.",
+  "Turnovers (players + team) match NBA.com's game totals in 364 of 366 team-games: [('2026-10-30', 'CHA'), ('2026-11-09', 'CHA')].",
   "Lakers quarter scores: 10 compared, 0 differ.",
-  "NBA Cup games: 19 played, average winning margin 15.1 points, against 13.5 in the other 155 games.",
+  "NBA Cup games: 28 played, average winning margin 14.5 points, against 13.5 in the other 155 games.",
   "Lakers scores checked against results.csv: 5 games, 0 mismatches ",
   "Oct 21 Doncic-Lendeborg rows (ABC7 reported Doncic 1 of 6 against Lendeborg):\n  familyNameOff | familyNameDef | matchupMinutes | partialPossessions | playerPoints | matchupFieldGoalsMade | matchupFieldGoalsAttempted\n  Dončić | Lendeborg | 3:03 | 18.5 | 9 | 1 | 5\n  Lendeborg | Dončić | 2:56 | 14.7 | 2 | 1 | 2"
  ],
