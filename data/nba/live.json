@@ -1,44 +1,44 @@
 {
- "updated": "2026-11-15T11:19:33-08:00",
+ "updated": "2026-11-15T11:37:45-08:00",
  "board_date": "2026-11-15",
  "games": [
   {
    "game_id": "0022600236",
    "tip_utc": "2026-11-15T18:00:00Z",
    "status": 2,
-   "status_text": "Q3 12:00",
+   "status_text": "Q3 5:49",
    "period": 3,
-   "clock": "12:00",
+   "clock": "5:49",
    "home": {
     "team": "PHI",
-    "score": 58,
+    "score": 80,
     "periods": [
      29,
      29,
-     0,
+     22,
      0
     ],
     "stats": {
-     "fgm": 22,
-     "fga": 45,
-     "fg3m": 9,
-     "fg3a": 20,
-     "ftm": 5,
-     "fta": 6,
-     "oreb": 3,
-     "dreb": 18,
-     "tov": 7,
-     "pf": 12,
-     "ast": 15,
-     "stl": 4,
+     "fgm": 30,
+     "fga": 56,
+     "fg3m": 12,
+     "fg3a": 26,
+     "ftm": 8,
+     "fta": 10,
+     "oreb": 4,
+     "dreb": 22,
+     "tov": 8,
+     "pf": 14,
+     "ast": 20,
+     "stl": 5,
      "blk": 1,
-     "pts_paint": 22,
-     "pts_second_chance": 2,
-     "pts_fast_break": 13,
-     "pts_off_tov": 11,
+     "pts_paint": 30,
+     "pts_second_chance": 6,
+     "pts_fast_break": 16,
+     "pts_off_tov": 14,
      "pts_bench": 14,
-     "biggest_lead": 4,
-     "lead_changes": 10
+     "biggest_lead": 7,
+     "lead_changes": 14
     },
     "leaders": [
      {
@@ -46,76 +46,76 @@
       "pts": 20,
       "reb": 2,
       "ast": 2,
-      "min": "18:21"
+      "min": "20:28"
      },
      {
       "name": "Tyrese Maxey",
-      "pts": 15,
-      "reb": 0,
-      "ast": 3,
-      "min": "18:02"
+      "pts": 20,
+      "reb": 1,
+      "ast": 4,
+      "min": "24:08"
      },
      {
       "name": "Jabari Walker",
-      "pts": 5,
-      "reb": 5,
+      "pts": 11,
+      "reb": 6,
       "ast": 1,
-      "min": "15:48"
+      "min": "20:36"
      }
     ]
    },
    "away": {
     "team": "IND",
-    "score": 57,
+    "score": 73,
     "periods": [
      35,
      22,
-     0,
+     16,
      0
     ],
     "stats": {
-     "fgm": 23,
-     "fga": 46,
-     "fg3m": 3,
-     "fg3a": 16,
-     "ftm": 8,
-     "fta": 10,
+     "fgm": 29,
+     "fga": 56,
+     "fg3m": 4,
+     "fg3a": 19,
+     "ftm": 11,
+     "fta": 13,
      "oreb": 6,
-     "dreb": 18,
-     "tov": 6,
-     "pf": 6,
-     "ast": 16,
+     "dreb": 20,
+     "tov": 7,
+     "pf": 10,
+     "ast": 19,
      "stl": 2,
      "blk": 2,
-     "pts_paint": 28,
+     "pts_paint": 36,
      "pts_second_chance": 11,
      "pts_fast_break": 0,
-     "pts_off_tov": 6,
-     "pts_bench": 17,
+     "pts_off_tov": 8,
+     "pts_bench": 19,
      "biggest_lead": 9,
-     "lead_changes": 10
+     "lead_changes": 14
     },
     "leaders": [
      {
-      "name": "Quenton Jackson",
-      "pts": 11,
-      "reb": 2,
-      "ast": 3,
-      "min": "14:34"
-     },
-     {
       "name": "Kelly Oubre Jr.",
-      "pts": 9,
-      "reb": 3,
+      "pts": 14,
+      "reb": 4,
       "ast": 2,
-      "min": "13:53"
+      "min": "18:50"
      },
      {
       "name": "Pascal Siakam",
-      "pts": 8,
+      "pts": 12,
       "reb": 1,
-      "ast": 0,
-      "min": "14:29"
+      "ast": 1,
+      "min": "19:17"
+     },
+     {
+      "name": "Quenton Jackson",
+      "pts": 11,
+      "reb": 3,
+      "ast": 4,
+      "min": "19:22"
      }
     ]
    },
@@ -127,6 +127,10 @@
     {
      "t": 24.0,
      "m": 1
+    },
+    {
+     "t": 30.2,
+     "m": 7
     }
    ]
   },
