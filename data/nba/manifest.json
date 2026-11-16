@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-14T17:30:16-08:00",
+ "updated": "2026-11-16T00:36:20-08:00",
  "season": "2026-27",
  "teams": [
   "LAL",
-  "PHX"
+  "CHA"
  ],
  "nba_api": "1.12.0",
  "league": {
@@ -22,43 +22,43 @@
   },
   "league team box scores": {
    "ok": true,
-   "team-games": 366
+   "team-games": 394
   },
   "league player games": {
    "ok": true,
-   "player lines": 4126
+   "player lines": 4432
   },
   "league results": {
    "ok": true,
-   "final games": 183,
+   "final games": 197,
    "pending": 0,
    "pending_games": [],
    "kept_games": [],
    "line_notes": []
   },
   "league quarter scores, inactive lists and game extras": {
-   "ok": true,
-   "new games": 45
+   "ok": false,
+   "error": "RuntimeError: 1 game(s) older than 2 days could not be read, e.g. 0022600123 (2026-10-26): ConnectionError: HTTPSConnectionPool(host='stats.nba.com', port=443): Max retries exceeded with url: /stats/boxscoresummaryv3?GameID=0022"
   },
   "league team turnovers": {
    "ok": true,
-   "team-games": 366
+   "team-games": 392
   },
   "injury report": {
    "ok": true,
-   "players listed": 146
+   "players listed": 63
   },
   "LAL games": {
    "ok": true,
-   "rows": 13
+   "rows": 14
   },
   "LAL player games": {
    "ok": true,
-   "rows": 147
+   "rows": 156
   },
   "LAL player games advanced": {
    "ok": true,
-   "rows": 147
+   "rows": 156
   },
   "LAL on/off": {
    "ok": true,
@@ -66,7 +66,7 @@
   },
   "LAL 5-man lineups": {
    "ok": true,
-   "rows": 135
+   "rows": 142
   },
   "LAL 2-man lineups": {
    "ok": true,
@@ -74,68 +74,69 @@
   },
   "LAL shots": {
    "ok": true,
-   "rows": 1087
+   "rows": 1173
   },
   "LAL shots against": {
    "ok": true,
-   "rows": 1114
+   "rows": 1206
   },
   "LAL hustle": {
    "ok": true,
    "rows": 17
   },
-  "PHX games": {
+  "CHA games": {
    "ok": true,
-   "rows": 11
+   "rows": 13
   },
-  "PHX player games": {
+  "CHA player games": {
    "ok": true,
-   "rows": 129
+   "rows": 143
   },
-  "PHX player games advanced": {
+  "CHA player games advanced": {
    "ok": true,
-   "rows": 129
+   "rows": 143
   },
-  "PHX on/off": {
+  "CHA on/off": {
    "ok": true,
-   "rows": 32
+   "rows": 34
   },
-  "PHX 5-man lineups": {
+  "CHA 5-man lineups": {
+   "ok": true,
+   "rows": 150
+  },
+  "CHA 2-man lineups": {
    "ok": true,
    "rows": 97
   },
-  "PHX 2-man lineups": {
+  "CHA shots": {
    "ok": true,
-   "rows": 79
+   "rows": 1131
   },
-  "PHX shots": {
+  "CHA shots against": {
    "ok": true,
-   "rows": 973
+   "rows": 1072
   },
-  "PHX shots against": {
+  "CHA hustle": {
    "ok": true,
-   "rows": 955
-  },
-  "PHX hustle": {
-   "ok": true,
-   "rows": 15
+   "rows": 16
   },
   "matchups": {
    "ok": true,
-   "new games": 1
+   "new games": 7,
+   "pending": 2
   },
   "play-by-play": {
    "ok": true,
-   "new games": 0
+   "new games": 9
   }
  },
  "checks": [
   "Scores: 68 games in both files, 0 differ; 0 hand-checked games not found on NBA.com by date and teams.",
   "Lakers box scores: 10 team-games compared, 4 numbers differ [('2026-10-21', 'GSW', 'tov', '15', 16), ('2026-10-23', 'LAC', 'tov', '25', 26), ('2026-10-25', 'UTA', 'dreb', '31', 32), ('2026-10-25', 'UTA', 'tov', '19', 17)].",
-  "Player points add up to team points in 366 of 366 team-games.",
-  "Turnovers (players + team) match NBA.com's game totals in 364 of 366 team-games: [('2026-10-30', 'CHA'), ('2026-11-09', 'CHA')].",
+  "Player points add up to team points in 394 of 394 team-games.",
+  "Turnovers (players + team) match NBA.com's game totals in 390 of 392 team-games: [('2026-10-30', 'CHA'), ('2026-11-09', 'CHA')].",
   "Lakers quarter scores: 10 compared, 0 differ.",
-  "NBA Cup games: 28 played, average winning margin 14.5 points, against 13.5 in the other 155 games.",
+  "NBA Cup games: 28 played, average winning margin 14.5 points, against 13.6 in the other 169 games.",
   "Lakers scores checked against results.csv: 5 games, 0 mismatches ",
   "Oct 21 Doncic-Lendeborg rows (ABC7 reported Doncic 1 of 6 against Lendeborg):\n  familyNameOff | familyNameDef | matchupMinutes | partialPossessions | playerPoints | matchupFieldGoalsMade | matchupFieldGoalsAttempted\n  Dončić | Lendeborg | 3:03 | 18.5 | 9 | 1 | 5\n  Lendeborg | Dončić | 2:56 | 14.7 | 2 | 1 | 2"
  ],
