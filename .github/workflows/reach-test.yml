@@ -1,0 +1,63 @@
+name: Reach test
+
+# Manual only (Actions tab > Reach test > Run workflow, or: gh workflow run reach-test.yml).
+# Shows which data sources GitHub's machines can reach, so each job runs where its source answers.
+# Reads only: no checkout, no secrets, no commits.
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  reach:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check each source
+        shell: bash
+        run: |
+          set -u
+          CHROME='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36'
+          FIREFOX='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0'
+          # The same request headers the PC's NBA library (nba_api) sends
+          STATS=(-H "Host: stats.nba.com" -H "User-Agent: $CHROME" -H "Accept: application/json, text/plain, */*"
+                 -H "Accept-Language: en-US,en;q=0.5" -H "Referer: https://www.nba.com/" -H "Pragma: no-cache" -H "Cache-Control: no-cache")
+          CDN=(-H "User-Agent: $FIREFOX" -H "Referer: https://www.nba.com/" -H "Accept-Language: en-US,en;q=0.9")
+          PLAIN=(-H "User-Agent: $CHROME")
+
+          {
+            echo "## Which sources GitHub's machines can reach"
+            echo
+            echo "| Source | Result | HTTP | Bytes | Seconds |"
+            echo "|---|---|---|---|---|"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          check() {  # check NAME EXPECT URL HEADER-ARRAY-NAME ; EXPECT is ok (2xx wanted) or key (401 = reachable, asks for a key)
+            local name="$1" expect="$2" url="$3"; local -n hdr="$4"
+            local out code size secs result
+            out=$(curl -sS -o body.tmp -w '%{http_code} %{size_download} %{time_total}' --compressed --max-time 25 "${hdr[@]}" "$url" 2>/dev/null) || true
+            read -r code size secs <<< "${out:-000 0 25}"
+            case "$code" in
+              2??) result="Reachable" ;;
+              401) if [ "$expect" = key ]; then result="Reachable (asks for a key, as expected)"; else result="Refused: needs sign-in (401)"; fi ;;
+              403) result="Refused (403)" ;;
+              000) if [ "${secs%%.*}" -ge 24 ]; then result="No answer within 25 s (likely blocked)"; else result="Connection refused or dropped (likely blocked)"; fi ;;
+              *)   result="Answered with HTTP $code" ;;
+            esac
+            echo "REACH | $name | $result | $code | $size | $secs"
+            echo "| $name | $result | $code | $size | $secs |" >> "$GITHUB_STEP_SUMMARY"
+          }
+
+          check "stats.nba.com: league game log (morning update)" ok \
+            "https://stats.nba.com/stats/leaguegamelog?Counter=1000&DateFrom=&DateTo=&Direction=DESC&LeagueID=00&PlayerOrTeam=T&Season=2026-27&SeasonType=Regular+Season&Sorter=DATE" STATS
+          check "stats.nba.com: Lakers roster (planned roster comparison)" ok \
+            "https://stats.nba.com/stats/commonteamroster?LeagueID=00&Season=2026-27&TeamID=1610612747" STATS
+          check "cdn.nba.com: today's scoreboard (live watcher)" ok \
+            "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json" CDN
+          check "The Odds API (no key sent)" key \
+            "https://api.the-odds-api.com/v4/sports/" PLAIN
+          check "Hoops Rumors: Lakers feed" ok \
+            "https://www.hoopsrumors.com/los-angeles-lakers/feed" PLAIN
+          check "Hoops Rumors: main feed" ok \
+            "https://www.hoopsrumors.com/feed" PLAIN
