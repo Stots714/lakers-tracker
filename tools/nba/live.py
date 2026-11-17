@@ -3,7 +3,8 @@
 What it does on a game day:
   1. Reads today's NBA.com scoreboard. If it still shows yesterday (NBA.com switches to the new day in the
      late morning, Eastern time), checks again every 30 minutes until it shows today. No games: exits.
-  2. Waits until the first tip-off (re-checking every 30 minutes).
+  2. Waits until the first tip-off (re-checking every 30 minutes). About 10 to 25 minutes before each group of
+     tip-offs it starts the GitHub odds job's pre-tip read (gh workflow run odds.yml), once that job is set up.
   3. While any game is on, reads each started game's live box score, writes data/nba/live.json and
      pushes it every 7 minutes (GitHub Pages allows about 10 site updates an hour).
   4. When every game is final, pushes the finals, waits 15 minutes, runs the full data update
@@ -53,6 +54,9 @@ NEW_DAY_LIMIT = 12 * 3600 # stop waiting for the new day's scoreboard after this
 INJURY_EVERY = 30 * 60    # how often to read the injury report while a game today has yet to tip
 CATCHUP_TRIES = 3         # more full updates when NBA.com's stats have not caught up with its live feed
 CATCHUP_WAIT = 20 * 60    # seconds between them
+ODDS_LEAD = 25 * 60       # start the pre-tip odds read (a GitHub job) when a tip-off is this close
+ODDS_GROUP = 30 * 60      # tip-offs this close together share one read (each read costs credits)
+ODDS_READY = ROOT / "data" / "markets" / "odds_status.json"  # there once the odds job has run with a key
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -222,6 +226,40 @@ def push(message):
     return publish(paths, message, log=log) == "pushed"
 
 
+_gh_missing = False
+
+
+def ask_for_odds(waiting, asked, now=None, run=subprocess.run, ready=None):
+    """Start the GitHub odds job (odds.yml, kind=pretip) once per group of tip-offs, 2 to 25 minutes before
+    them, so the site records the closing line. Uses the GitHub CLI (gh) this PC is signed in to, and only
+    once the odds job is set up (its status file has arrived). Returns the tip-off times it started a read for."""
+    global _gh_missing
+    if _gh_missing or not (ready or ODDS_READY).exists():
+        return []
+    now = now or dt.datetime.now(dt.timezone.utc)
+    started = []
+    for tip in sorted({dt.datetime.fromisoformat(g["tip_utc"].replace("Z", "+00:00")) for g in waiting}):
+        ahead = (tip - now).total_seconds()
+        if not 120 < ahead <= ODDS_LEAD or any(abs((tip - a).total_seconds()) <= ODDS_GROUP for a in asked):
+            continue
+        asked.append(tip)  # one request per group, whether or not it works: never a stream of retries
+        try:
+            r = run(["gh", "workflow", "run", "odds.yml", "-f", "kind=pretip"], cwd=str(ROOT),
+                    capture_output=True, text=True, timeout=60)
+            if r.returncode == 0:
+                started.append(tip)
+                log(f"  started the pre-tip odds read on GitHub (tip-off {tip:%H:%M} UTC)")
+            else:
+                log(f"  pre-tip odds read not started: {(r.stderr or r.stdout or '').strip()[:160]}")
+        except FileNotFoundError:
+            _gh_missing = True
+            log("  pre-tip odds reads are off: the GitHub CLI (gh) is not installed or not on PATH")
+            break
+        except Exception as e:  # the watcher carries on without it
+            log(f"  pre-tip odds read not started: {type(e).__name__}: {str(e)[:120]}")
+    return started
+
+
 def missing_finals(games):
     """Tonight's games the live feed shows as final that league_results.csv does not have, or has with another score."""
     res = {r["game_id"]: r for r in rows.read(OUT.parent / "league_results.csv")}
@@ -306,6 +344,7 @@ def main():
     ids = [g["gameId"] for g in board]
     log(f"{len(board)} games on {board_date}: " + ", ".join(f'{g["awayTeam"]["teamTricode"]}@{g["homeTeam"]["teamTricode"]}' for g in board))
     last_push = last_injury = 0.0
+    odds_asked = []  # tip-off times a pre-tip odds read was started for
     timer = WakeTimer()
     while True:
         try:
@@ -322,6 +361,8 @@ def main():
                    and now < dt.datetime.fromisoformat(g["tip_utc"].replace("Z", "+00:00")) + dt.timedelta(hours=4)]  # later than that: postponed
         done = not live and not waiting
         write(board_date, games)
+        if not (a.once or a.no_push):
+            ask_for_odds(waiting, odds_asked, now)
         news = ""
         if injuries is not None and waiting and time.time() - last_injury >= INJURY_EVERY:
             last_injury = time.time()

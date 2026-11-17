@@ -1,0 +1,51 @@
+name: Odds
+
+# Betting-market lines from The Odds API, saved as one consensus number per game (tools/cloud/odds.py).
+#   morning: every day at 09:47 Pacific, right after the app's 09:40 forecast (a fair comparison)
+#   pretip:  started by the live watcher on the PC about 10 minutes before each group of tip-offs (the closing line)
+# Needs the repo secret ODDS_API_KEY (free plan). Without it the job notes that and changes nothing.
+# Writes only data/markets/, which the PC never touches, so its pushes and the PC's cannot collide.
+
+on:
+  schedule:
+    - cron: '47 17 * * *'   # 09:47 Pacific in winter, 10:47 in summer
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: 'morning (the daily read) or pretip (before tip-off)'
+        type: choice
+        options: [morning, pretip]
+        default: morning
+
+permissions:
+  contents: write
+
+concurrency:
+  group: markets
+  cancel-in-progress: false
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      KIND: ${{ inputs.kind || 'morning' }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - name: Read the lines
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python3 tools/cloud/odds.py --kind "$KIND"
+      - name: Publish
+        if: always()  # a refused read still publishes its reason, for the watchdog and the site
+        run: |
+          if [ ! -d data/markets ]; then echo "Nothing to publish."; exit 0; fi
+          git add data/markets
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          git -c user.name=Stots714 -c user.email=Stots714@users.noreply.github.com commit -q -m "Market lines: $KIND read"
+          for attempt in 1 2 3; do
+            if git pull -q --rebase origin main && git push -q origin HEAD:main; then echo "Published."; exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 15
+          done
+          echo "Could not push after 3 tries."; exit 1
