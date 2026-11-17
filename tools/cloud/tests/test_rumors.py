@@ -63,6 +63,19 @@ class Parsing(unittest.TestCase):
     def test_player_named_with_his_team_is_not_a_reporter(self):
         self.assertNotIn("Jarrett Allen", rumors.reporters_in("The Lakers want Jarrett Allen of the Cavaliers, Shams Charania reports.", PLAYERS))
 
+    def test_names_are_cleaned_and_awards_outlets_refused(self):
+        t = ("While Sam Amick of The Athletic reports the Celtics have talked trade, ESPN Kris Rhim reports the Knicks too. "
+             "The Defensive Player of the Year is not available, New York Post reports. In September. Fischer said so.")
+        got = rumors.reporters_in(t, PLAYERS)
+        self.assertIn("Sam Amick", got)
+        self.assertIn("Kris Rhim", got)
+        for bad in ("While Sam Amick", "ESPN Kris Rhim", "Defensive Player", "New York Post", "September. Fischer", "York Post"):
+            self.assertNotIn(bad, got)
+
+    def test_injury_availability_is_not_trade_interest(self):
+        body = ("<p>Austin Reaves is available to play against the Bucks after his heel bruise, Dave McMenamin of ESPN reports.</p>")
+        self.assertEqual(rows_of([("Injury Notes", "https://www.hoopsrumors.com/x.html", "Tue, 17 Nov 2026 14:02:00 +0000", body)]), [])
+
     def test_before_the_season_is_skipped(self):
         self.assertEqual(rows_of([OLD]), [])
 

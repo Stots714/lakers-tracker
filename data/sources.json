@@ -139,10 +139,32 @@
   "nba": true
  },
  {
+  "id": "nba_moves",
+  "title": "NBA.com roster moves",
+  "description": "Official moves: changes between one day's NBA.com rosters and the next (a player on another team, on none, or new), dated the day each first showed. Written by tools/nba on a PC.",
+  "file": "data/nba/roster_moves.csv",
+  "updated": null,
+  "nba": true
+ },
+ {
   "id": "markets",
   "title": "Betting-market lines (The Odds API)",
   "description": "One consensus line per game from US sportsbooks: the market's expected home margin (the median spread) and the home team's win chance (the median moneyline chance, each book's margin removed), read at 09:47 Pacific and about 10 minutes before tip-off. Used only to judge the app's forecasts; no book names or prices are kept. Written by a GitHub job (tools/cloud/odds.py).",
   "file": "data/markets/odds_lines.csv",
+  "updated": null
+ },
+ {
+  "id": "trade_dates",
+  "title": "When players can be traded",
+  "description": "Players who signed this offseason and cannot be traded until Dec 15 or Jan 15 under the league's rules, from Hoops Rumors' lists of Aug 4, 2026 (hoopsrumors.com; the Dec 15 list via Yardbarker), checked against NBA.com box scores: 81 of 87 on the listed team, 6 had not played yet. Trade deadline: Thursday, Feb 11, 2027, 3:00 pm ET (Yardbarker; NBC Sports).",
+  "file": "data/trade_dates.csv",
+  "updated": "2026-11-17T22:00:00Z"
+ },
+ {
+  "id": "trade_reports",
+  "title": "Trade reports with a named source (Hoops Rumors)",
+  "description": "One row per team per paragraph that talks about a trade and names its reporter, from Hoops Rumors' public feeds: date, players, status read from the wording, reporter, and links to the original source and the post. No article text; paragraphs with no named reporter are left out. Written by a GitHub job (tools/cloud/rumors.py).",
+  "file": "data/trades/reports.csv",
   "updated": null
  }
 ]

@@ -169,6 +169,9 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
   #scorecard .lk-table.lk-stack td:first-child { grid-column: 1 / -1; justify-content: flex-start; text-align: left; color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
   #scorecard .lk-table.lk-stack td:first-child::before { content: none; }
 }
+.lk-chart .lk-ref-strong { stroke: var(--color-fg-muted); stroke-dasharray: none; stroke-width: 1.5; }
+.lk-chart .lk-hov-ring { fill: none; stroke: var(--color-fg-muted); stroke-width: 1.5; }
+#lk-trade-reports a { color: var(--color-fg); }
 .lk-h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: var(--cds-gap-md) 0 var(--cds-gap-xs); }
 #lk-watch tbody tr, #lk-conf tbody tr { cursor: pointer; }
 #around .lk-tablewrap { max-height: none; }
@@ -395,6 +398,53 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
         </table>
       </div>
       <p class="lk-note" id="lk-conf-note"></p>
+    </details>
+  </section>
+  <section class="lk-card" id="trades">
+    <h2 id="lk-trade-title">Trade watch</h2>
+    <p class="lk-note">What is known about the focus team’s trades, most solid first: official moves on NBA.com’s rosters, dates set by the league’s rules, and reports that name their reporter (from Hoops Rumors, linking the original source). Unsourced talk is left out.</p>
+    <h3 class="lk-h3">Quick read</h3>
+    <ul class="lk-quick" id="lk-trade-quick"></ul>
+    <div class="lk-charts">
+      <figure class="lk-fig lk-fig-wide">
+        <figcaption><p class="lk-fig-t" id="lk-tl-t">The road to the trade deadline</p><p class="lk-fig-s" id="lk-tl-s"></p></figcaption>
+        <div class="lk-legend" aria-hidden="true"><span><i class="lk-k-dot lk-k-accent"></i>Official move, or a report that led to one</span><span><i class="lk-k-dot lk-k-watch"></i>Report with a named source</span><span><i class="lk-k-ref"></i>League dates</span></div>
+        <div class="lk-chartwrap"><svg class="lk-chart" id="lk-tlchart" role="img" aria-label="Timeline to the trade deadline"></svg></div>
+      </figure>
+    </div>
+    <details class="lk-details" id="lk-trade-details">
+      <summary>Details <span>every report, official moves, when players can be traded, and reporters’ records</span></summary>
+      <h3 class="lk-h3">Reports with a named source</h3>
+      <div class="lk-tablewrap">
+        <table class="lk-table lk-stack" id="lk-trade-reports">
+          <thead><tr><th class="lk-left">Date</th><th class="lk-left">Status</th><th class="lk-left">Players</th><th class="lk-left">Reporter</th><th class="lk-left">Other teams</th><th class="lk-left">What happened</th><th class="lk-left">Links</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="lk-note" id="lk-trade-reports-note"></p>
+      <h3 class="lk-h3">Official moves (NBA.com rosters)</h3>
+      <div class="lk-tablewrap">
+        <table class="lk-table lk-stack" id="lk-trade-moves">
+          <thead><tr><th class="lk-left">First seen</th><th class="lk-left">Player</th><th class="lk-left">Move</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="lk-note" id="lk-trade-moves-note"></p>
+      <h3 class="lk-h3">When players can be traded</h3>
+      <div class="lk-tablewrap">
+        <table class="lk-table lk-stack" id="lk-trade-dates">
+          <thead><tr><th class="lk-left">Player</th><th class="lk-left">Can be traded from</th><th class="lk-left">Why</th><th class="lk-left">Notes</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <h3 class="lk-h3">Reporters’ records, all teams</h3>
+      <div class="lk-tablewrap">
+        <table class="lk-table lk-stack" id="lk-trade-rep">
+          <thead><tr><th class="lk-left">Reporter</th><th>Reports about players</th><th>Led to a move</th><th>No move by the deadline</th><th>Still open</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="lk-note" id="lk-trade-note"></p>
     </details>
   </section>
   <section class="lk-card" id="league">
@@ -1668,6 +1718,29 @@ dash.calc('market_lines', {
       if (!old || (row.kind === 'pretip' && old.kind !== 'pretip') || (row.kind === old.kind && row.read_at > old.read_at)) by.set(k, row);
     }
     return [...by.values()].sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+  },
+});
+
+// ---- Trade watch: reports with a named source, scored against NBA.com's rosters ----
+const TRADE_DEADLINE = '2027-02-11T15:00:00-05:00';  // date: Yardbarker (Aug 5, 2026) and NBC Sports (updated Oct 19, 2026); 3:00 pm ET: Yardbarker
+const TRADE_RANK = { Official: 5, Agreed: 4, Talks: 3, Interest: 2, Denied: 1, Mention: 0 };
+const tradeKey = (s) => String(s || '').normalize('NFKD').replace(/[^\x00-\x7f]/g, '').toLowerCase().replace(/[.'’]/g, '').trim();
+dash.calc('trade_reports_scored', {
+  inputs: ['trade_reports', 'nba_moves'],
+  title: 'Trade reports, checked against NBA.com rosters',
+  description: 'Each report with a named source (tools/cloud/rumors.py) and what became of it: Happened when one of the team’s players it named left the team on NBA.com’s rosters on or after the report’s date (roster_moves.csv); Did not happen once the trade deadline passes without that; Open until then; Not scored when the report named none of the team’s players.',
+  fn: (reports, moves) => {
+    const passed = Date.now() > Date.parse(TRADE_DEADLINE);
+    const away = moves.filter((m) => m.kind === 'moved' || m.kind === 'left');
+    return reports.map((r) => {
+      const players = (r.players || '').split(';').filter(Boolean);
+      const hit = players.map((p) => away.find((m) => tradeKey(m.player) === tradeKey(p) && m.from_team === r.team && m.date >= r.date)).find(Boolean);
+      return {
+        ...r, players, reporters: (r.reporters || '').split(';').filter(Boolean), others: (r.other_teams || '').split(';').filter(Boolean),
+        rank: TRADE_RANK[r.status] ?? 0, outcome: !players.length ? 'Not scored' : hit ? 'Happened' : passed ? 'Did not happen' : 'Open',
+        moved_on: hit ? hit.date : '', moved_to: hit ? hit.to_team : '',
+      };
+    });
   },
 });
 
@@ -3061,6 +3134,213 @@ try {
   try { if (localStorage.getItem('lk-track-details') === 'open') det.open = true; } catch (e) { /* storage unavailable */ }
   det.addEventListener('toggle', () => { try { localStorage.setItem('lk-track-details', det.open ? 'open' : 'closed'); } catch (e) { /* storage unavailable */ } });
 })();
+
+// ---- Trade watch card: a quick read, a timeline to the deadline, and the details (reports, moves, dates, reporters) ----
+// Most solid first: official moves (NBA.com rosters, roster_moves.csv), dates set by the league's rules (trade_dates.csv),
+// then reports that name their reporter (trade_reports_scored). Unsourced talk never reaches the data.
+// Uses the chart helpers in watch_render.js (wEl, wTip, wInteract, wEmpty, wTextW, wShort).
+const TR_ROWS = ['Roster move', 'Official', 'Agreed', 'Talks', 'Interest', 'Denied'];  // Mention (a trade named with none of these) is in Details only
+const trDate = (d) => new Date(d + 'T12:00:00Z');
+const trDays = (a, b) => Math.round((Date.parse(b + 'T12:00:00Z') - Date.parse(a + 'T12:00:00Z')) / 864e5);
+const trShift = (d, k) => { const x = trDate(d); x.setUTCDate(x.getUTCDate() + k); return x.toISOString().slice(0, 10); };
+const trMove = (m, F, nm) => (m.kind === 'moved' ? (m.to_team === F ? 'joined from the ' + nm(m.from_team) : 'moved to the ' + nm(m.to_team))
+  : m.kind === 'left' ? 'left the roster' : 'joined the roster');
+
+// Timeline: from five weeks ago to the deadline. Rows: official moves on top, then reports by strength.
+function trChart(svg, d) {
+  const wrap = svg.parentNode, W = Math.max(280, wrap.clientWidth), padL = 78, padR = 14, padT = 40, padB = 24, rowH = 22;
+  const H = padT + rowH * TR_ROWS.length + padB;
+  const t0 = Date.parse(d.start + 'T12:00:00Z'), t1 = Date.parse(d.end + 'T12:00:00Z');
+  const X = (date) => padL + (Date.parse(date + 'T12:00:00Z') - t0) / (t1 - t0) * (W - padL - padR);
+  const Y = (row) => padT + rowH * (TR_ROWS.indexOf(row) + 0.5);
+  svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H); svg.setAttribute('width', W); svg.setAttribute('height', H);
+  svg.replaceChildren();
+  TR_ROWS.forEach((row, i) => {
+    wEl(svg, 'line', { class: 'lk-grid', x1: padL, x2: W - padR, y1: Y(row), y2: Y(row) });
+    wEl(svg, 'text', { x: padL - 8, y: Y(row) + 3.5, 'text-anchor': 'end', class: i === 0 ? 'lk-strong' : '' }, row);
+  });
+  // Month ticks along the bottom
+  const first = trDate(d.start);
+  for (let m = new Date(Date.UTC(first.getUTCFullYear(), first.getUTCMonth() + 1, 1)); m.getTime() <= t1; m.setUTCMonth(m.getUTCMonth() + 1)) {
+    const iso = m.toISOString().slice(0, 10), x = X(iso);
+    wEl(svg, 'line', { class: 'lk-grid', x1: x, x2: x, y1: padT - 4, y2: H - padB });
+    wEl(svg, 'text', { x, y: H - padB + 15, 'text-anchor': 'middle' }, wShort(m).split(' ')[0]);
+  }
+  // Dates that matter, labelled along the top (two staggered lines so close dates do not collide)
+  let lastRight = [-Infinity, -Infinity];
+  d.marks.forEach((mk) => {
+    const x = X(mk.date);
+    wEl(svg, 'line', { class: mk.strong ? 'lk-ref lk-ref-strong' : 'lk-ref', x1: x, x2: x, y1: padT - 6, y2: H - padB });
+    const tw = wTextW(mk.label), anchor = x + tw / 2 > W - padR ? 'end' : x - tw / 2 < padL ? 'start' : 'middle';
+    const left = anchor === 'end' ? x - tw : anchor === 'middle' ? x - tw / 2 : x;
+    const line = left > lastRight[0] + 8 ? 0 : 1;
+    lastRight[line] = left + tw;
+    wEl(svg, 'text', { x, y: 12 + line * 13, 'text-anchor': anchor, class: mk.strong ? 'lk-strong' : '' }, mk.label);
+  });
+  // The items: official moves in the accent color, reports in grey; same day and row step sideways
+  const items = [], used = new Map();
+  const place = (date, row) => { const k = date + '|' + row, n = used.get(k) || 0; used.set(k, n + 1); return X(date) + n * 7; };
+  d.moves.forEach((m) => { if (m.date >= d.start) items.push({ kind: 'move', m, x: place(m.date, 'Roster move'), y: Y('Roster move') }); });
+  d.reports.forEach((r) => { if (r.date >= d.start && TR_ROWS.includes(r.status)) items.push({ kind: 'report', r, x: place(r.date, r.status), y: Y(r.status) }); });
+  items.sort((a, b) => a.x - b.x);
+  items.forEach((it) => {
+    if (it.kind === 'move') {
+      const s = 6;
+      wEl(svg, 'path', { class: 'lk-dot lk-f', d: 'M' + it.x + ',' + (it.y - s) + 'L' + (it.x + s) + ',' + it.y + 'L' + it.x + ',' + (it.y + s) + 'L' + (it.x - s) + ',' + it.y + 'Z' });
+    } else wEl(svg, 'circle', { class: 'lk-dot' + (it.r.outcome === 'Happened' ? ' lk-f' : ''), cx: it.x, cy: it.y, r: 4.5 });
+  });
+  if (!items.length) wEl(svg, 'text', { x: (padL + W - padR) / 2, y: Y('Talks') + 4, 'text-anchor': 'middle', class: 'lk-small' }, 'No moves or named reports in this window yet');
+  const tip = wTip(wrap), ring = wEl(svg, 'circle', { class: 'lk-hov-ring', r: 9, visibility: 'hidden' });
+  if (items.length) {
+    wInteract(svg, items.length, items.length - 1, (i) => {
+      const it = items[i];
+      ring.setAttribute('cx', it.x); ring.setAttribute('cy', it.y); ring.setAttribute('visibility', 'visible');
+      if (it.kind === 'move') {
+        tip.show(it.x, it.y, wShort(trDate(it.m.date)) + ': official move', [{ value: it.m.player, label: trMove(it.m, d.F, d.nm), key: 'accent' }]);
+      } else {
+        const r = it.r;
+        tip.show(it.x, it.y, wShort(trDate(r.date)) + ': ' + r.status + (r.players.length ? ', ' + r.players.join(', ') : ''), [
+          { value: r.reporters.join(', '), label: 'named source', key: 'watch' },
+          { value: r.outcome, label: r.outcome === 'Happened' ? 'moved ' + wShort(trDate(r.moved_on)) + (r.moved_to ? ' to the ' + d.nm(r.moved_to) : '') : r.others.length ? 'also named: ' + r.others.map(d.nm).join(', ') : '' },
+        ]);
+      }
+    }, () => { ring.setAttribute('visibility', 'hidden'); tip.hide(); }, (e) => {
+      const b = svg.getBoundingClientRect(), px = (e.clientX - b.left) * W / b.width, py = (e.clientY - b.top) * H / b.height;
+      let best = -1, bd = 400;
+      items.forEach((it, i) => { const dd = (it.x - px) ** 2 + (it.y - py) ** 2; if (dd < bd) { bd = dd; best = i; } });
+      return best < 0 ? null : best;
+    });
+  }
+  svg.setAttribute('aria-label', 'Timeline to the trade deadline: ' + d.marks.map((m) => m.label).join('; ') + '. ' + d.moves.length + ' official moves and ' + d.reports.length + ' named reports shown.');
+}
+
+let trData = null;
+function trDraw() { const s = document.getElementById('lk-tlchart'); if (s && trData) trChart(s, trData); }
+
+function trLinks(tr, links) {
+  const td = document.createElement('td'); td.className = 'lk-left';
+  links.filter(([, href]) => href).forEach(([label, href], i) => {
+    if (i) td.appendChild(document.createTextNode(' · '));
+    const a = document.createElement('a'); a.href = href; a.textContent = label; a.target = '_blank'; a.rel = 'noopener noreferrer'; td.appendChild(a);
+  });
+  tr.appendChild(td);
+}
+
+function renderTrades() {
+  if (!document.getElementById('lk-trade-quick')) return;
+  const p = P(), F = p.focus;
+  const t = dash.data('teams'), names = new Map(t.status === 'ok' ? t.data.map((r) => [r.team, r.name]) : []);
+  const nm = (x) => names.get(x) || x, fn = nm(F);
+  document.getElementById('lk-trade-title').textContent = 'Trade watch: ' + fn;
+  const today = etToday(), dl = TRADE_DEADLINE.slice(0, 10), left = trDays(today, dl);
+  const dd = dash.data('trade_dates'), dates = dd.status === 'ok' ? dd.data.filter((r) => r.team === F) : [];
+  const sc = dash.data('trade_reports_scored'), all = sc.status === 'ok' ? sc.data : [];
+  const reps = all.filter((r) => r.team === F).sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : b.rank - a.rank));
+  const mv = dash.data('nba_moves'), movesKnown = mv.status === 'ok' && mv.message !== 'not on file yet';
+  const moves = movesKnown ? mv.data.filter((m) => m.from_team === F || m.to_team === F).sort((a, b) => (a.date < b.date ? 1 : -1)) : [];
+  const tr = dash.data('trade_reports'), repsKnown = tr.status === 'ok' && tr.message !== 'not on file yet';
+
+  // Quick read
+  const items = [];
+  items.push({ lead: 'Deadline:', text: left > 0 ? 'Thursday, Feb 11, 3:00 pm ET: ' + left + ' day' + (left > 1 ? 's' : '') + ' away.'
+    : left === 0 ? 'today, 3:00 pm ET.' : 'passed on Feb 11. Reports still open are now marked as not having happened.' });
+  const waiting = new Map();
+  dates.filter((r) => r.not_before > today).forEach((r) => { if (!waiting.has(r.not_before)) waiting.set(r.not_before, []); waiting.get(r.not_before).push(r.player); });
+  if (waiting.size) {
+    const parts = [...waiting.keys()].sort().map((d) => wList(waiting.get(d)) + ' until ' + wShort(trDate(d)));
+    items.push({ lead: 'Can’t be traded yet:', text: parts.join('; ') + '. League rules for players signed this offseason, so trades involving them can only happen between those dates and the deadline.' });
+  } else if (dates.length) items.push({ lead: 'Trade dates:', text: 'every ' + fn + ' player on the league’s restricted lists can be traded now.' });
+  if (!movesKnown) items.push({ lead: 'Official moves:', text: 'the roster comparison starts with the PC’s next update; from then on, every change to NBA.com’s rosters shows here.' });
+  else {
+    const recent = moves.filter((m) => m.date >= trShift(today, -30));
+    items.push({ lead: 'Official moves:', text: recent.length ? recent.slice(0, 3).map((m) => wShort(trDate(m.date)) + ', ' + m.player + ' ' + trMove(m, F, nm)).join('; ') + (recent.length > 3 ? '; ' + (recent.length - 3) + ' more in Details.' : '.') : 'none on NBA.com’s rosters in the last 30 days.' });
+  }
+  if (!repsKnown) items.push({ lead: 'Reports:', text: 'none on file yet; the first arrive with the trade-reports job’s first read.' });
+  else {
+    // Strongest first, and only reports that name the team's own players: a team named in passing is not news about it
+    const recent = reps.filter((r) => r.date >= trShift(today, -21) && r.status !== 'Mention');
+    const mine = recent.filter((r) => r.players.length);
+    const top = mine.slice().sort((a, b) => b.rank - a.rank || (a.date < b.date ? 1 : -1)).slice(0, 3);
+    items.push({ lead: 'Reports, last 3 weeks:', text: !recent.length ? 'none with a named source. Unsourced talk is left out on purpose.'
+      : recent.length + ' with a named source, ' + (mine.length ? mine.length + ' naming ' + fn + ' players. Strongest: ' + top.map((r) => r.status + ': ' + wList(r.players)
+        + (r.others.length ? ', with the ' + wList(r.others.map(nm)) + ' named' : '') + ' (' + r.reporters[0] + ', ' + wShort(trDate(r.date)) + ')').join('; ') + '.'
+        : 'none naming ' + fn + ' players; the others mention the team in passing (Details).') });
+    const scored = reps.filter((r) => r.outcome !== 'Not scored');
+    if (scored.length) {
+      const k = (o) => scored.filter((r) => r.outcome === o).length;
+      items.push({ lead: 'How solid:', text: 'of ' + scored.length + ' reports naming ' + fn + ' players, ' + k('Happened') + ' led to a move, ' + k('Open') + ' are still open' + (k('Did not happen') ? ' and ' + k('Did not happen') + ' did not happen' : '') + '. Status comes from each report’s wording, automatically: the source link in Details has the full story.' });
+    }
+  }
+  wQuick(document.getElementById('lk-trade-quick'), items);
+
+  // Timeline
+  const marks = [{ date: today, label: 'Today' }];
+  [...new Set(dates.map((r) => r.not_before))].sort().forEach((d) => {
+    const n = dates.filter((r) => r.not_before === d);
+    if (d > trShift(today, -35)) marks.push({ date: d, label: wShort(trDate(d)) + ': ' + (n.length === 1 ? n[0].player.split(' ').slice(-1)[0] : n.length + ' players') + ' eligible' });
+  });
+  marks.push({ date: dl, label: 'Deadline ' + wShort(trDate(dl)), strong: true });
+  marks.sort((a, b) => (a.date < b.date ? -1 : 1));
+  const start = trShift(today, -35) < '2026-10-20' ? '2026-10-20' : trShift(today, -35), end = trShift(dl > today ? dl : today, 3);
+  trData = { start, end, marks, moves, reports: reps, F, nm };
+  const ttl = (id, s) => { const el = document.getElementById(id); if (el) el.textContent = s; };
+  ttl('lk-tl-t', left > 0 ? 'The road to the Feb 11 deadline: ' + left + ' days, ' + reps.filter((r) => r.date >= start && r.status !== 'Mention').length + ' named reports in the last five weeks' : 'The trade deadline has passed');
+  ttl('lk-tl-s', 'Top row: official moves on NBA.com’s rosters. Below: reports that name their reporter, placed by how strong the wording is; a report about a player who then moved is in the highlight color. Dashed lines: dates set by the league’s rules.');
+  trDraw();
+
+  // Details: reports
+  const rb = document.querySelector('#lk-trade-reports tbody'); rb.replaceChildren();
+  reps.slice(0, 60).forEach((r) => {
+    const row = document.createElement('tr');
+    cell(row, wShort(trDate(r.date)), 'lk-left'); cell(row, r.status, 'lk-left'); cell(row, r.players.join(', ') || 'the team', 'lk-left');
+    cell(row, r.reporters.join(', '), 'lk-left'); cell(row, r.others.map(nm).join(', ') || '—', 'lk-left');
+    cell(row, r.outcome === 'Happened' ? 'Moved ' + wShort(trDate(r.moved_on)) + (r.moved_to ? ' to the ' + nm(r.moved_to) : '') : r.outcome, 'lk-left');
+    trLinks(row, [['Source', r.source_url !== r.post_url ? r.source_url : ''], ['Hoops Rumors', r.post_url]]);
+    rb.appendChild(row);
+  });
+  document.getElementById('lk-trade-reports-note').textContent = !repsKnown ? 'No reports on file yet.' : reps.length ? (reps.length > 60 ? 'The newest 60 of ' + reps.length + '. ' : '') + 'Each row links the original source (when the post links one) and the Hoops Rumors post it came from.'
+    : 'No reports with a named source about the ' + fn + ' on file yet.';
+  // Details: official moves
+  const mb = document.querySelector('#lk-trade-moves tbody'); mb.replaceChildren();
+  moves.forEach((m) => { const row = document.createElement('tr'); cell(row, wShort(trDate(m.date)), 'lk-left'); cell(row, m.player, 'lk-left'); cell(row, trMove(m, F, nm) + (m.how_acquired ? ' (' + m.how_acquired + ')' : ''), 'lk-left'); mb.appendChild(row); });
+  document.getElementById('lk-trade-moves-note').textContent = movesKnown ? (moves.length ? 'Dated the day the change first showed on NBA.com’s rosters, which the PC reads every morning and after each night’s games.' : 'No changes to the ' + wPoss(fn) + ' roster since the comparison began.') : 'Starts with the PC’s next update.';
+  // Details: trade dates
+  const db = document.querySelector('#lk-trade-dates tbody'); db.replaceChildren();
+  dates.slice().sort((a, b) => (a.not_before < b.not_before ? -1 : a.not_before > b.not_before ? 1 : a.player < b.player ? -1 : 1)).forEach((r) => {
+    const row = document.createElement('tr');
+    cell(row, r.player, 'lk-left'); cell(row, wShort(trDate(r.not_before)) + (r.not_before <= today ? ' (now)' : ''), 'lk-left'); cell(row, r.rule, 'lk-left lk-wrap');
+    cell(row, [r.veto === 'yes' ? 'can veto a trade' : '', r.non_guaranteed === 'yes' ? 'contract not fully guaranteed' : ''].filter(Boolean).join('; ') || '—', 'lk-left');
+    db.appendChild(row);
+  });
+  // Details: reporters' records, league-wide
+  const by = new Map();
+  all.filter((r) => r.outcome !== 'Not scored' && r.status !== 'Mention' && r.status !== 'Denied').forEach((r) => r.reporters.forEach((n) => {
+    if (!by.has(n)) by.set(n, { n: 0, hap: 0, no: 0, open: 0 });
+    const s = by.get(n); s.n++; if (r.outcome === 'Happened') s.hap++; else if (r.outcome === 'Did not happen') s.no++; else s.open++;
+  }));
+  const pb = document.querySelector('#lk-trade-rep tbody'); pb.replaceChildren();
+  [...by.entries()].sort((a, b) => b[1].n - a[1].n || (a[0] < b[0] ? -1 : 1)).slice(0, 15).forEach(([n, s]) => {
+    const row = document.createElement('tr');
+    cell(row, n, 'lk-left'); cell(row, String(s.n)); cell(row, String(s.hap)); cell(row, String(s.no)); cell(row, String(s.open));
+    pb.appendChild(row);
+  });
+  document.getElementById('lk-trade-note').textContent = 'Reports come from Hoops Rumors’ public feeds, which name and link the original reporter; a paragraph with no named reporter is left out. '
+    + 'Status is read from each report’s wording (Official, Agreed, Talks, Interest; Denied when the team says a player is not available; Mention otherwise), so it is automatic and can be wrong: the links are there to check. '
+    + 'Reporters’ records count every team’s reports about named players (not Denied or Mention): a report led to a move when that player left the team on NBA.com’s rosters on or after its date; at the deadline the rest become no move. '
+    + 'Trade dates: Hoops Rumors’ lists of Aug 4, 2026, checked against NBA.com box scores (81 of 87 players on the listed team; 6 had not played yet). Deadline: Thursday, Feb 11, 2027, 3:00 pm ET.';
+  ['lk-trade-reports', 'lk-trade-moves', 'lk-trade-dates', 'lk-trade-rep'].forEach((id) => phoneLayout(document.getElementById(id)));
+}
+dash.onData(renderTrades);
+try {
+  let lastTRW = 0;
+  new ResizeObserver((ents) => { const wd = Math.round(ents[0].contentRect.width); if (wd && wd !== lastTRW) { lastTRW = wd; requestAnimationFrame(trDraw); } })
+    .observe(document.querySelector('#trades .lk-charts'));
+} catch (e) { /* older browsers: the chart keeps the width it was drawn at */ }
+(() => {
+  const det = document.getElementById('lk-trade-details');
+  try { if (localStorage.getItem('lk-trade-details') === 'open') det.open = true; } catch (e) { /* storage unavailable */ }
+  det.addEventListener('toggle', () => { try { localStorage.setItem('lk-trade-details', det.open ? 'open' : 'closed'); } catch (e) { /* storage unavailable */ } });
+})();
 let SOURCES = null;
 const renderSources = () => {
   if (!SOURCES) return;
@@ -3074,6 +3354,10 @@ const renderSources = () => {
     const u = document.createElement('span'); u.className = 'lk-src-date';
     u.dataset.src = s.id;
     if (s.id === 'nba_injuries') u.textContent = injLabel ? ' Report of ' + injLabel + '.' : ' Not on file yet: arrives with the PC’s next run.';
+    else if (s.id === 'trade_reports') {
+      const tr = dash.data('trade_reports'), last = tr.status === 'ok' ? tr.data.map((r) => r.seen_at).filter(Boolean).sort().pop() : null;
+      u.textContent = last ? ' Newest report found ' + fmt(last) + '.' : ' None on file yet.';
+    }
     else if (s.id === 'markets') {
       const mk = dash.data('markets'), last = mk.status === 'ok' ? mk.data.map((r) => r.read_at).filter(Boolean).sort().pop() : null;
       u.textContent = last ? ' Last read ' + fmt(last.replace(/Z$/, ':00Z')) + '.' : ' No lines yet: the first arrive with the odds job’s first read.';
@@ -3095,7 +3379,7 @@ const loadAll = async () => {
   window.NBA_MANIFEST = m && m.updated ? m : null;
   const have = new Set(Object.keys((m && m.league) || {}));
   // The injury report is always requested: the build seeds an empty file, and the live watcher can write it before the next full run lists it
-  const files = Object.fromEntries(Object.entries(FILES).filter(([id]) => !OPTIONAL.includes(id) || have.has(id) || id === 'nba_injuries' || id === 'markets'));
+  const files = Object.fromEntries(Object.entries(FILES).filter(([id]) => !OPTIONAL.includes(id) || have.has(id) || id === 'nba_injuries' || id === 'markets' || id === 'trade_reports'));
   loadLive();
   return dashLoad(files, OPTIONAL);
 };
@@ -3117,9 +3401,10 @@ const FILES = {
   player_games: 'data/player_games.csv', spotlight_notes: 'data/spotlight_notes.csv', player_prior: 'data/player_prior.csv',
   nba_results: 'data/nba/league_results.csv', nba_box: 'data/nba/league_box.csv', nba_player_games: 'data/nba/league_player_games.csv',
   nba_quarters: 'data/nba/league_quarters.csv', nba_inactive: 'data/nba/league_inactive.csv', nba_injuries: 'data/nba/injuries.csv',
-  markets: 'data/markets/odds_lines.csv',
+  markets: 'data/markets/odds_lines.csv', trade_dates: 'data/trade_dates.csv', trade_reports: 'data/trades/reports.csv',
+  nba_moves: 'data/nba/roster_moves.csv',
 };
-const OPTIONAL = ['nba_results', 'nba_box', 'nba_player_games', 'nba_quarters', 'nba_inactive', 'nba_injuries', 'markets'];
+const OPTIONAL = ['nba_results', 'nba_box', 'nba_player_games', 'nba_quarters', 'nba_inactive', 'nba_injuries', 'markets', 'trade_reports', 'nba_moves'];
 loadAll();
 // ---- Live card: data/nba/live.json, written during games by tools/nba/live.py on the PC ----
 // Live win chance (Proposed): the pre-game projection for the minutes left plus the current margin,

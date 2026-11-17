@@ -73,7 +73,7 @@ STATUS_RULES = [  # strongest first
     ("Agreed", re.compile(r"\b(agreed to (?:a |terms on a )?(?:trade|deal)|(?:have|has) agreed to (?:send|trade|acquire)|are trading|will trade|(?:trade|deal) (?:is|has been) (?:agreed|struck|in place|done)|finaliz\w+ (?:a |the )?(?:trade|deal))", re.I)),
     ("Denied", re.compile(r"\b(not (?:actively )?(?:shopping|looking to (?:trade|move|deal))|no (?:plans|intention|interest) (?:to|in) (?:trade|trading|move|moving|deal|dealing)|(?:isn't|is not|aren't|are not|won't|will not|isn’t|aren’t|won’t) (?:expected to be |going to be |likely to be )?(?:traded|moved|available|dealt)|off the table|untouchable|not interested in (?:trading|moving|dealing))", re.I)),
     ("Talks", re.compile(r"\b(talks?|discussions?|discussed|negotiat\w+|engaged|conversations?|explor\w+|made (?:an |a )?(?:offer|pitch|proposal)|offered|offering|proposals?|proposed|framework)\b", re.I)),
-    ("Interest", re.compile(r"\b(interest|interested|eye(?:ing|d)?|monitor\w*|keeping tabs|target\w*|covet\w*|inquir\w+|kick(?:ed|ing) the tires|checked in|calls? (?:on|about)|shopp\w+|on the (?:trade )?block|available|dangl\w+|pursu\w+|in the mix)\b", re.I)),
+    ("Interest", re.compile(r"\b(interest|interested|eye(?:ing|d)?|monitor\w*|keeping tabs|target\w*|covet\w*|inquir\w+|kick(?:ed|ing) the tires|checked in|calls? (?:on|about)|shopp\w+|on the (?:trade )?block|(?:made|make|makes|making) (?:\w+ )?available|available (?:in|via) (?:a )?trades?|dangl\w+|pursu\w+|in the mix)\b", re.I)),
 ]
 KNOWN_REPORTERS = [
     "Shams Charania", "Marc Stein", "Jake Fischer", "Chris Haynes", "Brian Windhorst", "Tim Bontemps", "Bobby Marks",
@@ -92,6 +92,18 @@ ATTRIBUTION = [
     re.compile(rf"({NAME})\s+and\s+({NAME})\s+(?:report|reported|write|wrote|hear|confirm|confirmed)\b"),
     re.compile(rf"({NAME})\s+{VERB}\b"),
 ]
+# Words that start a sentence or name an outlet, stripped from the front of a captured name ("While Sam Amick", "ESPN Kris Rhim")
+LEAD_WORDS = {"As", "While", "But", "And", "When", "After", "Before", "Per", "If", "Though", "Although", "Still", "Also", "Meanwhile",
+              "However", "With", "Without", "Despite", "Since", "Then", "Now", "Yet", "So", "The", "A", "An", "In", "On", "At", "For",
+              "From", "To", "By", "Of", "Via", "According", "ESPN", "NBA", "Yahoo", "HoopsHype", "Athletic", "SI", "CBS", "NBC", "Fox",
+              "FOX", "TNT", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+              "November", "December"}
+# A captured "name" with one of these words in it is an award, outlet or place, not a person
+NOT_NAME_WORDS = {"Player", "Year", "Rookie", "Coach", "Executive", "Award", "Conference", "Team", "League", "Draft", "Cup", "Season",
+                  "Game", "Post", "News", "Times", "Daily", "Tribune", "Herald", "Journal", "Globe", "Register", "Chronicle", "Press",
+                  "Report", "Sports", "Network", "Radio", "Line", "Insider", "Notes", "Rumors", "Trade", "Free", "Agent", "Week",
+                  "Month", "Defensive", "Offensive", "Most", "Valuable", "Improved", "Sixth", "Man", "Clutch", "Summer", "City",
+                  "State", "York", "Angeles", "Orleans", "Antonio", "Bay", "Lake", "Center", "Arena", "Day"}
 NOT_PEOPLE = {"Hoops Rumors", "Trade Candidate", "Western Conference", "Eastern Conference", "Los Angeles", "New York", "San Antonio",
               "Golden State", "Oklahoma City", "New Orleans", "Salt Lake", "The Athletic", "The Stein Line", "Bleacher Report",
               "Free Agent", "Trade Deadline", "Second Round", "First Round", "Hall Of Fame", "Most Improved", "Sixth Man", "Player Of"}
@@ -167,6 +179,23 @@ def player_index(root=ROOT):
     return idx
 
 
+def clean_name(name):
+    """A reporter's name from a captured phrase, or None: outlet prefixes and sentence starters removed, awards,
+    outlets and places refused, and a word ending a sentence ("Amick.") or a possessive ("Acuff's") refused."""
+    name = re.sub(r"^\S+(?:'s|’s)\s+", "", name.strip(" ."))
+    toks = name.split()
+    while toks and toks[0].rstrip(".") in LEAD_WORDS:
+        toks = toks[1:]
+    if len(toks) < 2:
+        return None
+    for t in toks:
+        if t in NOT_NAME_WORDS or t.endswith(("'s", "’s")):
+            return None
+        if t.endswith(".") and not re.fullmatch(r"(?:[A-Z]\.)+|Jr\.|Sr\.", t):
+            return None
+    return " ".join(toks)
+
+
 def reporters_in(text, players):
     """Named reporters in a paragraph: known insiders, plus names in attribution phrases that are not players or teams."""
     found = [n for n in KNOWN_REPORTERS if n in text]
@@ -181,8 +210,8 @@ def reporters_in(text, players):
             else:
                 cands = [g for g in m.groups() if g]
             for name in cands:
-                name = re.sub(r"^\S+(?:'s|’s)\s+", "", name.strip(" ."))  # "HoopsHype's Michael Scotto": the outlet is not the name
-                if len(name.split()) < 2:
+                name = clean_name(name)
+                if not name:
                     continue
                 if name in NOT_PEOPLE or plain(name) in pl or any(w in nicknames for w in name.split()) or name.split()[0] in ("The", "A", "An"):
                     continue
@@ -278,10 +307,14 @@ def write_atomic(path, text):
 
 
 def merge(old, new):
-    """Keep every report already on file (first seen wins); add the new ones; newest first."""
-    have = {r["id"] for r in old}
-    rows = old + [r for r in new if r["id"] not in have and not have.add(r["id"])]
-    return sorted(rows, key=lambda r: (r["date"], r["id"]), reverse=True)
+    """Reports already on file stay; one read again is replaced by today's reading of it (so better rules apply to
+    whatever is still in the feeds) but keeps the time it was first seen. Newest first."""
+    by = {r["id"]: r for r in old}
+    for r in new:
+        if r["id"] in by:
+            r = {**r, "seen_at": by[r["id"]]["seen_at"]}
+        by[r["id"]] = r
+    return sorted(by.values(), key=lambda r: (r["date"], r["id"]), reverse=True)
 
 
 def run(all_teams=False, opener=urllib.request.urlopen, robots=None, sleep=time.sleep, log=print, root=ROOT):
@@ -304,7 +337,7 @@ def run(all_teams=False, opener=urllib.request.urlopen, robots=None, sleep=time.
             failed.append(f"{url.replace(SITE, '')}: {type(e).__name__}: {str(e)[:80]}")
     old = read_rows(root / REPORTS.relative_to(ROOT))
     rows = merge(old, found)
-    new = len(rows) - len(old)
+    new = len({r["id"] for r in rows} - {r["id"] for r in old})
     buf = io.StringIO(newline="")
     w = csv.DictWriter(buf, fieldnames=COLS, lineterminator="\n")
     w.writeheader()
