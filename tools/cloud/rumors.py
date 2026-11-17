@@ -73,8 +73,13 @@ STATUS_RULES = [  # strongest first
     ("Agreed", re.compile(r"\b(agreed to (?:a |terms on a )?(?:trade|deal)|(?:have|has) agreed to (?:send|trade|acquire)|are trading|will trade|(?:trade|deal) (?:is|has been) (?:agreed|struck|in place|done)|finaliz\w+ (?:a |the )?(?:trade|deal))", re.I)),
     ("Denied", re.compile(r"\b(not (?:actively )?(?:shopping|looking to (?:trade|move|deal))|no (?:plans|intention|interest) (?:to|in) (?:trade|trading|move|moving|deal|dealing)|(?:isn't|is not|aren't|are not|won't|will not|isn’t|aren’t|won’t) (?:expected to be |going to be |likely to be )?(?:traded|moved|available|dealt)|off the table|untouchable|not interested in (?:trading|moving|dealing))", re.I)),
     ("Talks", re.compile(r"\b(talks?|discussions?|discussed|negotiat\w+|engaged|conversations?|explor\w+|made (?:an |a )?(?:offer|pitch|proposal)|offered|offering|proposals?|proposed|framework)\b", re.I)),
-    ("Interest", re.compile(r"\b(interest|interested|eye(?:ing|d)?|monitor\w*|keeping tabs|target\w*|covet\w*|inquir\w+|kick(?:ed|ing) the tires|checked in|calls? (?:on|about)|shopp\w+|on the (?:trade )?block|(?:made|make|makes|making) (?:\w+ )?available|available (?:in|via) (?:a )?trades?|dangl\w+|pursu\w+|in the mix)\b", re.I)),
+    ("Interest", re.compile(r"\b(interest(?:ed)? in|(?:have|has|had|showed|showing|registered|expressed) (?:some |real |serious )?interest|eyeing|eyed|keeping tabs|"
+                            r"trade targets?|potential targets?|covet\w*|inquir\w+|kick(?:ed|ing) the tires|checked in (?:on|about|with)|fielded calls|"
+                            r"calls? (?:on|about)|shopp\w+|on the (?:trade )?block|(?:made|make|makes|making) (?:\w+ )?available|available (?:in|via) (?:a )?trades?|"
+                            r"dangl\w+|pursu\w+|in the mix)\b", re.I)),
 ]
+# One team's move for another team's player, for paragraphs with no trade word ("the Lakers have interest in Jarrett Allen")
+MOVE = re.compile(r"\b(acquir\w+|land(?:ing)?|pry(?:ing)?|deal|swap\w*|sen(?:d|ds|ding|t)|interest(?:ed)? in|eyeing|targets?|targeting|pursu\w+|inquir\w+|offer\w*|proposals?)\b", re.I)
 KNOWN_REPORTERS = [
     "Shams Charania", "Marc Stein", "Jake Fischer", "Chris Haynes", "Brian Windhorst", "Tim Bontemps", "Bobby Marks",
     "Michael Scotto", "Sam Amick", "Fred Katz", "Kelly Iko", "Dan Woike", "Jovan Buha", "Dave McMenamin", "Ramona Shelburne",
@@ -103,7 +108,9 @@ NOT_NAME_WORDS = {"Player", "Year", "Rookie", "Coach", "Executive", "Award", "Co
                   "Game", "Post", "News", "Times", "Daily", "Tribune", "Herald", "Journal", "Globe", "Register", "Chronicle", "Press",
                   "Report", "Sports", "Network", "Radio", "Line", "Insider", "Notes", "Rumors", "Trade", "Free", "Agent", "Week",
                   "Month", "Defensive", "Offensive", "Most", "Valuable", "Improved", "Sixth", "Man", "Clutch", "Summer", "City",
-                  "State", "York", "Angeles", "Orleans", "Antonio", "Bay", "Lake", "Center", "Arena", "Day"}
+                  "State", "York", "Angeles", "Orleans", "Antonio", "Bay", "Lake", "Center", "Arena", "Day", "Inquirer", "Gazette",
+                  "Courier", "Observer", "Dispatch", "Bee", "Examiner", "Enquirer", "Sentinel", "Constitution", "Dealer", "Republic",
+                  "Review", "Tribune-Review", "Star-Tribune", "Courant", "Advocate", "Oklahoman", "Statesman", "Telegraph"}
 NOT_PEOPLE = {"Hoops Rumors", "Trade Candidate", "Western Conference", "Eastern Conference", "Los Angeles", "New York", "San Antonio",
               "Golden State", "Oklahoma City", "New Orleans", "Salt Lake", "The Athletic", "The Stein Line", "Bleacher Report",
               "Free Agent", "Trade Deadline", "Second Round", "First Round", "Hall Of Fame", "Most Improved", "Sixth Man", "Player Of"}
@@ -268,7 +275,7 @@ def parse_feed(xml_text, players, seen_at):
             named = teams_in(text, players)
             status = status_of(text)
             # A trade paragraph: trade wording, or one team's interest in or talks about another team's player
-            cross = len(named) >= 2 and any(named.values()) and status in ("Interest", "Talks", "Agreed")
+            cross = len(named) >= 2 and any(named.values()) and status in ("Interest", "Talks", "Agreed") and MOVE.search(text)
             if not (TRADE.search(text) or cross):
                 continue
             reps = reporters_in(text, players)

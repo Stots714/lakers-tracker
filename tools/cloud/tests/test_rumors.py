@@ -76,6 +76,15 @@ class Parsing(unittest.TestCase):
         body = ("<p>Austin Reaves is available to play against the Bucks after his heel bruise, Dave McMenamin of ESPN reports.</p>")
         self.assertEqual(rows_of([("Injury Notes", "https://www.hoopsrumors.com/x.html", "Tue, 17 Nov 2026 14:02:00 +0000", body)]), [])
 
+    def test_injury_note_with_eye_and_agreed_is_not_a_trade(self):  # a real false positive from the first read
+        body = ("<p>Guard Collin Sexton is day-to-day after getting stitches over his eye, and Austin Reaves is also considered "
+                "day-to-day with a bruised left heel after coming down awkwardly in Wednesday's game against the Bucks. X-rays were "
+                "negative, and he and the team agreed that more imaging wasn't needed, Dave McMenamin of ESPN reports.</p>")
+        self.assertEqual(rows_of([("Injury Notes", "https://www.hoopsrumors.com/x.html", "Sat, 14 Nov 2026 05:01:06 +0000", body)]), [])
+
+    def test_outlet_is_not_a_reporter(self):
+        self.assertNotIn("Philadelphia Inquirer", rumors.reporters_in("The 76ers explored a trade, Keith Pompey of the Philadelphia Inquirer reports.", PLAYERS))
+
     def test_before_the_season_is_skipped(self):
         self.assertEqual(rows_of([OLD]), [])
 
