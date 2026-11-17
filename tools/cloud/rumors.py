@@ -72,7 +72,9 @@ STATUS_RULES = [  # strongest first
     # Trade words required: "agreed to a deal" and "officially signed" are usually contracts
     ("Official", re.compile(r"\b(officially (?:acquired|traded|completed|sent|announced (?:a|the) trade)|(?:have|has) (?:completed|finalized|announced) (?:a|the|their) trade|"
                             r"trade (?:is|was|has been) (?:now )?(?:official|completed|finalized)|announced (?:that )?(?:they|the team) (?:have|has) (?:acquired|traded))", re.I)),
-    ("Agreed", re.compile(r"\b(agreed (?:to|on) (?:a |the |terms on a )?trade|(?:have|has) agreed to (?:send|trade|acquire|move)|are trading|will trade|"
+    # "are trading X to the Y" is how insiders announce a deal; a bare "will trade" is usually a question ("whether they will trade him")
+    ("Agreed", re.compile(r"\b(agreed (?:to|on) (?:a |the |terms on a )?trade|(?:have|has) agreed to (?:send|trade|acquire|move)|"
+                          r"(?:are|is) (?:trading|sending) [\w .'’-]{2,40}? to the|is being traded to|"
                           r"trade (?:is|has been) (?:agreed|struck|in place|done)|finaliz\w+ (?:a |the )?trade)", re.I)),
     ("Denied", re.compile(r"\b(not (?:actively )?(?:shopping|looking to (?:trade|move|deal))|no (?:plans|intention|interest) (?:to|in) (?:trade|trading|move|moving|deal|dealing)|(?:isn't|is not|aren't|are not|won't|will not|isn’t|aren’t|won’t) (?:expected to be |going to be |likely to be )?(?:traded|moved|available|dealt)|off the table|untouchable|not interested in (?:trading|moving|dealing))", re.I)),
     ("Talks", re.compile(r"\b(talks?|discussions?|discussed|negotiat\w+|engaged|conversations?|explor\w+|made (?:an |a )?(?:offer|pitch|proposal)|offered|offering|proposals?|proposed|framework)\b", re.I)),

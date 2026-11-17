@@ -90,6 +90,9 @@ class Parsing(unittest.TestCase):
         self.assertNotEqual(rumors.status_of("The Knicks officially signed the guard, who was acquired in a trade last year, Jake Fischer reports."), "Official")
         self.assertEqual(rumors.status_of("The Kings have agreed to a trade sending Nique Clifford to the Thunder."), "Agreed")
         self.assertEqual(rumors.status_of("The Thunder officially acquired Nique Clifford from the Kings."), "Official")
+        # a real false positive: a column asking whether a trade will happen
+        self.assertNotEqual(rumors.status_of("Troy Renck considers whether the Nuggets will trade him before the February 11 deadline."), "Agreed")
+        self.assertEqual(rumors.status_of("The Kings are trading Nique Clifford to the Thunder for two second-round picks."), "Agreed")
 
     def test_same_report_in_two_posts_is_one_row(self):
         a = ("Atlantic Notes", "https://www.hoopsrumors.com/a.html", "Mon, 16 Nov 2026 20:00:00 +0000",
