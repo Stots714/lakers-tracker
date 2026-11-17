@@ -5,7 +5,8 @@ servers, so the tracker cannot fetch these itself. Plain Python plus requests: n
 whose unsigned compiled files Windows Smart App Control can block.
 
 League-wide, for all 30 teams (see league.py): league_results.csv, league_box.csv,
-league_player_games.csv, league_quarters.csv, league_inactive.csv. The site reads these.
+league_player_games.csv, league_quarters.csv, league_inactive.csv, league_rosters.csv and roster_moves.csv
+(official moves: changes between one day's rosters and the next). The site reads these.
 
 For the chosen teams it also writes these CSV files to data/nba/:
   games_<TEAM>.csv            one row per game: game id, date, matchup, result, team box totals
@@ -65,6 +66,7 @@ SEASON = "2026-27"
 SEASON_TYPE = "Regular Season"
 PAUSE = 1.5      # seconds between requests, to stay polite
 TIMEOUT = 60     # seconds per request
+ROSTER_EVERY = 10 * 3600  # read all 30 rosters at most this often (30 requests): the morning and after-the-games runs
 RETRIES = 3      # attempts per request; waits 5, 15, 45 seconds between them
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -364,6 +366,17 @@ def run(a):
             for n in league_notes:
                 log("CHECK " + n)
 
+        def roster_step():
+            """Every team's roster, once per ROSTER_EVERY: changes since the last complete read are official moves."""
+            path = OUT / "league_rosters.csv"
+            if path.exists() and time.time() - path.stat().st_mtime < ROSTER_EVERY:
+                return 0, {"skipped": f"read less than {ROSTER_EVERY // 3600} hours ago"}
+            n, extra = league.update_rosters(fetch, SEASON, save, OUT, dt.date.today().isoformat())
+            for m in rows.read(OUT / "roster_moves.csv")[-n:] if n else []:
+                log(f"  move: {m['player']} {m['kind']} {m['from_team']}>{m['to_team']}".rstrip(">"))
+            return n, extra
+        step("league rosters and moves", roster_step, "moves")
+
     def injury_report():
         if injuries is None:
             raise RuntimeError(f"pypdf is not installed ({INJURY_IMPORT_ERROR})")
@@ -407,7 +420,7 @@ def run(a):
     ok = sum(s["ok"] for s in status.values())
     files = {"nba_results": "league_results.csv", "nba_box": "league_box.csv", "nba_player_games": "league_player_games.csv",
              "nba_quarters": "league_quarters.csv", "nba_inactive": "league_inactive.csv", "nba_extras": "league_extras.csv",
-             "nba_injuries": "injuries.csv"}
+             "nba_injuries": "injuries.csv", "nba_rosters": "league_rosters.csv", "nba_moves": "roster_moves.csv"}
     manifest = {
         "updated": dt.datetime.now().astimezone().isoformat(timespec="seconds"),
         "season": SEASON, "teams": teams, "nba_api": version("nba_api"),

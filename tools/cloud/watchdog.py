@@ -9,6 +9,7 @@ FAIL (the run fails, so GitHub emails the repo owner):
   - no update has published for 26 hours (data/nba/manifest.json "updated")
   - yesterday had games but the live watcher published nothing during them (no change to live.json)
   - the odds job (once set up) did not read today's lines, or reported an error
+  - the trade-reports job has not published its daily status for 30 hours
 WARN (shown on the run page, no email): one game missing a score, or an update step that reported a problem.
 Off-season (no games within 7 days either side of today): nothing to check.
 
@@ -136,6 +137,20 @@ def check_odds(status, rows, today_et, now):
     return [(OK, "Odds read", f"read {when.astimezone(PT):%H:%M} Pacific" + (f"; {left} credits left this month" if left is not None else ""))]
 
 
+def check_rumors(status, now):
+    if status is None:
+        return [(OK, "Trade reports", "not set up yet")]
+    when = dt.datetime.fromisoformat(status["updated"]) if status.get("updated") else None
+    age_h = (now - when).total_seconds() / 3600 if when else None
+    if age_h is None or age_h > 30:
+        return [(FAIL, "Trade reports", "the daily read of the Hoops Rumors feeds has not published for 30 hours")]
+    if not status.get("ok"):
+        return [(WARN, "Trade reports", "no feed could be read on the last run")]
+    failed = status.get("failed") or []
+    return [((WARN if failed else OK), "Trade reports", f"{status.get('reports', 0)} reports on file; last read {age_h:.0f} hours ago"
+             + (f"; {len(failed)} feed(s) not read, e.g. {failed[0]}" if failed else ""))]
+
+
 def run(root=ROOT, now=None, fetch=live_commits):
     now = now or dt.datetime.now(dt.timezone.utc)
     today_et = now.astimezone(ET).date()
@@ -148,8 +163,10 @@ def run(root=ROOT, now=None, fetch=live_commits):
     manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else None
     odds_path = root / "data/markets/odds_status.json"
     odds = json.loads(odds_path.read_text(encoding="utf-8")) if odds_path.exists() else None
+    rumors_path = root / "data/trades/status.json"
+    rumors = json.loads(rumors_path.read_text(encoding="utf-8")) if rumors_path.exists() else None
     return (check_results(rows, today_et) + check_manifest(manifest, now)
-            + check_live(rows, today_et, fetch) + check_odds(odds, rows, today_et, now))
+            + check_live(rows, today_et, fetch) + check_odds(odds, rows, today_et, now) + check_rumors(rumors, now))
 
 
 def report(results, summary=None):

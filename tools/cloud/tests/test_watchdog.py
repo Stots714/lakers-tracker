@@ -102,5 +102,22 @@ class Watchdog(unittest.TestCase):
         self.assertEqual(levels(Repo(GOOD, odds=odds).run(now=early))["Odds read"], w.OK)
 
 
+    def test_rumors_not_set_up(self):
+        self.assertEqual(levels(Repo(GOOD).run())["Trade reports"], w.OK)
+
+    def test_rumors_stale_fails(self):
+        r = Repo(GOOD)
+        (r.root / "data/trades").mkdir(parents=True)
+        (r.root / "data/trades/status.json").write_text(json.dumps({"updated": (NOW - dt.timedelta(hours=40)).isoformat(), "ok": True}), encoding="utf-8")
+        self.assertEqual(levels(r.run())["Trade reports"], w.FAIL)
+
+    def test_rumors_partly_read_warns(self):
+        r = Repo(GOOD)
+        (r.root / "data/trades").mkdir(parents=True)
+        (r.root / "data/trades/status.json").write_text(json.dumps({"updated": (NOW - dt.timedelta(hours=3)).isoformat(), "ok": True,
+                                                                     "failed": ["/utah-jazz/feed: HTTPError"], "reports": 40}), encoding="utf-8")
+        self.assertEqual(levels(r.run())["Trade reports"], w.WARN)
+
+
 if __name__ == "__main__":
     unittest.main()

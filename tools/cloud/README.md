@@ -9,6 +9,7 @@ permissions it needs. None can be started by a pull request, which keeps forks a
 | Reach test | by hand | Shows which data sources GitHub's machines can reach | nothing |
 | Watchdog | daily 11:23 Pacific (12:23 in summer) | Fails, so GitHub emails you, when yesterday's scores, a recent update or the live watcher's game-night updates did not publish, or today's odds read failed | nothing |
 | Odds | daily 09:47 Pacific, and before each group of tip-offs (started by the live watcher) | One consensus line per game from The Odds API | `data/markets/` |
+| Trade reports | main feed every 2 hours; all 30 team feeds daily at 07:33 Pacific | Trade reports with a named source from Hoops Rumors' feeds: date, team, players, status, reporter, link | `data/trades/` |
 
 The NBA.com jobs stay on the PC: stats.nba.com does not answer most cloud addresses.
 
@@ -30,6 +31,19 @@ No book names, prices or links. The Odds API's terms allow showing odds in an ap
 data as files, and this repo is public. `odds_status.json` records the last read, its result and credits left.
 
 A pre-tip read is skipped when fewer than 30 credits are left, so the morning reads last the month.
+
+## Trade reports: what is kept, and how reliable it is
+
+`data/trades/reports.csv` holds one row per team per paragraph that talks about a trade and names its reporter
+("according to Shams Charania of ESPN"): date, team, that team's players named, other teams named, status, the
+reporter(s), the link to the original source, and the Hoops Rumors post and headline. Never article text.
+Paragraphs with no named reporter are left out: unsourced talk, opinion and trade ideas never reach the site.
+
+Status comes from the paragraph's wording (Official, Agreed, Denied, Talks, Interest, Mention), so it is automatic and
+can be wrong; the link is always there to check. The site scores each report against NBA.com's rosters
+(`data/nba/roster_moves.csv`, written by the PC): a player who changes teams after a report was about him makes it
+"happened"; at the trade deadline the rest become "did not happen". Over a season that gives each reporter a record.
+The job reads robots.txt and skips anything it disallows, waits 1.5 seconds between requests, and names itself.
 
 ## Tests
 

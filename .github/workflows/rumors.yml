@@ -1,0 +1,52 @@
+name: Trade reports
+
+# Trade reports with a named source from Hoops Rumors' public feeds (tools/cloud/rumors.py): short records with
+# links to the original reporter, never article text. Writes only data/trades/, which the PC never touches.
+
+on:
+  schedule:
+    - cron: '13 */2 * * *'   # the main feed, every two hours
+    - cron: '33 15 * * *'    # 07:33 Pacific (08:33 in summer): all 30 team feeds too, as a daily backstop
+  workflow_dispatch:
+    inputs:
+      all_teams:
+        description: 'Also read all 30 team feeds'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trades
+  cancel-in-progress: false
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      ALL_TEAMS: ${{ github.event.schedule == '33 15 * * *' || inputs.all_teams == true }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - name: Read the feeds
+        run: |
+          if [ "$ALL_TEAMS" = "true" ]; then python3 tools/cloud/rumors.py --all-teams; else python3 tools/cloud/rumors.py; fi
+      - name: Publish
+        if: always()
+        run: |
+          if [ ! -d data/trades ]; then echo "Nothing to publish."; exit 0; fi
+          # Publish when there are new reports; the status alone goes up once a day (for the watchdog)
+          if git diff --quiet -- data/trades/reports.csv && git ls-files --error-unmatch data/trades/reports.csv >/dev/null 2>&1 && [ "$ALL_TEAMS" != "true" ]; then
+            echo "No new reports."; exit 0
+          fi
+          git add data/trades
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          N=$(python3 -c "import json; print(json.load(open('data/trades/status.json'))['new_reports'])")
+          git -c user.name=Stots714 -c user.email=Stots714@users.noreply.github.com commit -q -m "Trade reports: $N new"
+          for attempt in 1 2 3; do
+            if git pull -q --rebase origin main && git push -q origin HEAD:main; then echo "Published."; exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 15
+          done
+          echo "Could not push after 3 tries."; exit 1

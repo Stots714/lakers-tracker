@@ -10,6 +10,9 @@ until then the version already on file is kept, or the game waits for the next r
   league_quarters.csv       points per quarter for each team in each game (fetched once per game)
   league_inactive.csv       players NBA.com listed inactive for each game (fetched once per game)
   league_extras.csv         per team per game: team turnovers, paint, second-chance, fast-break, off-turnover and bench points, lead changes
+  league_rosters.csv        every team's roster as NBA.com lists it now (once a day)
+  roster_moves.csv          official moves: a player on another team's roster (moved), on no roster (left), or new (joined),
+                            dated the day the change first showed on NBA.com's rosters
 
 Team turnovers: NBA.com's team game logs count only player turnovers. Box-score analysis (Basketball-Reference,
 the four factors) counts team turnovers too, so league_box.csv adds them from the game summary: tov = players + team.
@@ -19,7 +22,7 @@ Plain Python only (see rows.py for why there is no pandas).
 """
 import datetime as _dt
 
-from nba_api.stats.endpoints import boxscoresummaryv3, leaguegamefinder, playergamelogs, scheduleleaguev2
+from nba_api.stats.endpoints import boxscoresummaryv3, commonteamroster, leaguegamefinder, playergamelogs, scheduleleaguev2
 from nba_api.stats.static import teams as static_teams
 
 from rows import from_dataset, read
@@ -401,3 +404,63 @@ def checks(root, results, box, pgames, out_dir):
         notes.append(f"NBA Cup games: {len(cup)} played, average winning margin {sum(cup) / len(cup):.1f} points, "
                      f"against {sum(other) / len(other):.1f} in the other {len(other)} games.")
     return notes
+
+
+# ---- Rosters and official moves ----
+ROSTER_COLS = ["team", "player_id", "player", "num", "position", "how_acquired"]
+MOVE_COLS = ["date", "player_id", "player", "kind", "from_team", "to_team", "how_acquired"]
+MIN_ROSTER = 10  # a roster read with fewer players is treated as a bad answer, not as players leaving
+
+
+def rosters(fetch, season, teams=None):
+    """Every team's current roster from NBA.com (CommonTeamRoster). Returns (rows, failed): all or nothing, so a
+    team whose roster could not be read never looks like its players left (the caller keeps the old file)."""
+    teams = teams or sorted((t["abbreviation"], t["id"]) for t in static_teams.get_teams())
+    out, failed = [], []
+    for abbr, tid in teams:
+        try:
+            got, _ = from_dataset(fetch(commonteamroster.CommonTeamRoster, team_id=tid, season=season).common_team_roster)
+            got = [{"team": abbr, "player_id": str(r.get("PLAYER_ID")), "player": r.get("PLAYER") or "", "num": r.get("NUM") or "",
+                    "position": r.get("POSITION") or "", "how_acquired": r.get("HOW_ACQUIRED") or ""} for r in got if r.get("PLAYER_ID")]
+            if len(got) < MIN_ROSTER:
+                raise ValueError(f"only {len(got)} players listed")
+            out += got
+        except Exception as e:  # one bad team: no comparison today
+            failed.append(f"{abbr} ({type(e).__name__}: {str(e)[:80]})")
+    return out, failed
+
+
+def roster_moves(old, new, date):
+    """Official moves between yesterday's and today's rosters (both complete): moved, left or joined."""
+    if not old:
+        return []  # first run: nothing to compare with
+    o = {r["player_id"]: r for r in old}
+    n = {r["player_id"]: r for r in new}
+    moves = []
+    for pid, r in n.items():
+        if pid not in o:
+            moves.append({"date": date, "player_id": pid, "player": r["player"], "kind": "joined", "from_team": "", "to_team": r["team"], "how_acquired": r["how_acquired"]})
+        elif o[pid]["team"] != r["team"]:
+            moves.append({"date": date, "player_id": pid, "player": r["player"], "kind": "moved", "from_team": o[pid]["team"], "to_team": r["team"], "how_acquired": r["how_acquired"]})
+    for pid, r in o.items():
+        if pid not in n:
+            moves.append({"date": date, "player_id": pid, "player": r["player"], "kind": "left", "from_team": r["team"], "to_team": "", "how_acquired": ""})
+    return sorted(moves, key=lambda m: (m["kind"], m["player"]))
+
+
+def update_rosters(fetch, season, save, out_dir, date, teams=None):
+    """Read every roster, record the changes since the last complete read, and save both files.
+    Returns (moves found, extra) for the run's step log; raises when any team could not be read (files unchanged)."""
+    new, failed = rosters(fetch, season, teams)
+    if failed:
+        raise RuntimeError(f"{len(failed)} team roster(s) could not be read, so today's rosters were not compared "
+                           f"(tried again next run): {'; '.join(failed[:4])}")
+    old = read(out_dir / "league_rosters.csv")
+    moves = roster_moves(old, new, date)
+    history = read(out_dir / "roster_moves.csv")
+    seen = {(m["player_id"], m["kind"], m["to_team"], m["from_team"], m["date"]) for m in history}
+    history += [m for m in moves if (m["player_id"], m["kind"], m["to_team"], m["from_team"], m["date"]) not in seen]
+    save(history, "roster_moves.csv", MOVE_COLS)
+    save(new, "league_rosters.csv", ROSTER_COLS)
+    return len(moves), {"players": len(new), "first_read": not old}
+

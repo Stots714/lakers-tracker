@@ -57,6 +57,8 @@ The live win chance (Proposed) starts from the pre-game projection for the minut
 | `matchups/<GAME_ID>.csv` | Who guarded whom in each game |
 | `pbp/<GAME_ID>.csv` | Play-by-play for each game |
 | `live.json` | During games: score, clock, team stats so far, top scorers and margin history for each game (live.py) |
+| `league_rosters.csv` | Every team's roster as NBA.com lists it (read at most every 10 hours, all 30 teams or none) |
+| `roster_moves.csv` | Official moves: a player on another team's roster (moved), on none (left) or new (joined), dated the day it first showed |
 | `manifest.json` | When it ran, which steps worked, row counts, check results |
 
 ## Checks it runs
