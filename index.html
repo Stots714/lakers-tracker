@@ -1723,7 +1723,7 @@ dash.calc('market_lines', {
 
 // ---- Trade watch: reports with a named source, scored against NBA.com's rosters ----
 const TRADE_DEADLINE = '2027-02-11T15:00:00-05:00';  // date: Yardbarker (Aug 5, 2026) and NBC Sports (updated Oct 19, 2026); 3:00 pm ET: Yardbarker
-const TRADE_RANK = { Official: 5, Agreed: 4, Talks: 3, Interest: 2, Denied: 1, Mention: 0 };
+const TRADE_RANK = { Official: 6, Agreed: 5, Requested: 4, Talks: 3, Interest: 2, Denied: 1, Mention: 0 };
 const tradeKey = (s) => String(s || '').normalize('NFKD').replace(/[^\x00-\x7f]/g, '').toLowerCase().replace(/[.'’]/g, '').trim();
 dash.calc('trade_reports_scored', {
   inputs: ['trade_reports', 'nba_moves'],
@@ -3139,7 +3139,7 @@ try {
 // Most solid first: official moves (NBA.com rosters, roster_moves.csv), dates set by the league's rules (trade_dates.csv),
 // then reports that name their reporter (trade_reports_scored). Unsourced talk never reaches the data.
 // Uses the chart helpers in watch_render.js (wEl, wTip, wInteract, wEmpty, wTextW, wShort).
-const TR_ROWS = ['Roster move', 'Official', 'Agreed', 'Talks', 'Interest', 'Denied'];  // Mention (a trade named with none of these) is in Details only
+const TR_ROWS = ['Roster move', 'Official', 'Agreed', 'Requested', 'Talks', 'Interest', 'Denied'];  // Mention (a trade named with none of these) is in Details only
 const trDate = (d) => new Date(d + 'T12:00:00Z');
 const trDays = (a, b) => Math.round((Date.parse(b + 'T12:00:00Z') - Date.parse(a + 'T12:00:00Z')) / 864e5);
 const trShift = (d, k) => { const x = trDate(d); x.setUTCDate(x.getUTCDate() + k); return x.toISOString().slice(0, 10); };
@@ -3325,7 +3325,7 @@ function renderTrades() {
     pb.appendChild(row);
   });
   document.getElementById('lk-trade-note').textContent = 'Reports come from Hoops Rumors’ public feeds, which name and link the original reporter; a paragraph with no named reporter is left out. '
-    + 'Status is read from each report’s wording (Official, Agreed, Talks, Interest; Denied when the team says a player is not available; Mention otherwise), so it is automatic and can be wrong: the links are there to check. '
+    + 'Status is read from each report’s wording (Official, Agreed, Requested when the player has asked out, Talks, Interest; Denied when the team says a player is not available; Mention otherwise), so it is automatic and can be wrong: the links are there to check. '
     + 'Reporters’ records count every team’s reports about named players (not Denied or Mention): a report led to a move when that player left the team on NBA.com’s rosters on or after its date; at the deadline the rest become no move. '
     + 'Trade dates: Hoops Rumors’ lists of Aug 4, 2026, checked against NBA.com box scores (81 of 87 players on the listed team; 6 had not played yet). Deadline: Thursday, Feb 11, 2027, 3:00 pm ET.';
   ['lk-trade-reports', 'lk-trade-moves', 'lk-trade-dates', 'lk-trade-rep'].forEach((id) => phoneLayout(document.getElementById(id)));

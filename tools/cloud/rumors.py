@@ -13,6 +13,7 @@ Status comes from the paragraph's wording, strongest first (automatic, so the li
   Official  the trade is done or announced
   Agreed    the teams have agreed
   Denied    the team says it is not trading the player, or he is not available
+  Requested the player has asked to be traded
   Talks     discussions, offers, negotiations
   Interest  interest, monitoring, inquiries, shopping a player
   Mention   a trade is mentioned with none of the above
@@ -77,6 +78,7 @@ STATUS_RULES = [  # strongest first
                           r"(?:are|is) (?:trading|sending) [\w .'’-]{2,40}? to the|is being traded to|"
                           r"trade (?:is|has been) (?:agreed|struck|in place|done)|finaliz\w+ (?:a |the )?trade)", re.I)),
     ("Denied", re.compile(r"\b(not (?:actively )?(?:shopping|looking to (?:trade|move|deal))|no (?:plans|intention|interest) (?:to|in) (?:trade|trading|move|moving|deal|dealing)|(?:isn't|is not|aren't|are not|won't|will not|isn’t|aren’t|won’t) (?:expected to be |going to be |likely to be )?(?:traded|moved|available|dealt)|off the table|untouchable|not interested in (?:trading|moving|dealing))", re.I)),
+    ("Requested", re.compile(r"\b(request\w* (?:a |to be )?trade\w*|trade request|asked (?:to be traded|for a trade)|wants? out|wants? to be (?:traded|moved))", re.I)),
     ("Talks", re.compile(r"\b(talks?|discussions?|discussed|negotiat\w+|engaged|conversations?|explor\w+|made (?:an |a )?(?:offer|pitch|proposal)|offered|offering|proposals?|proposed|framework)\b", re.I)),
     ("Interest", re.compile(r"\b(interest(?:ed)? in|(?:have|has|had|showed|showing|registered|expressed) (?:some |real |serious )?interest|eyeing|eyed|keeping tabs|"
                             r"trade targets?|potential targets?|covet\w*|inquir\w+|kick(?:ed|ing) the tires|checked in (?:on|about|with)|fielded calls|"

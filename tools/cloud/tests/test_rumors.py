@@ -103,6 +103,10 @@ class Parsing(unittest.TestCase):
         self.assertEqual(sorted(r["team"] for r in rows), ["LAL", "PHI"])
         self.assertEqual({r["post_url"] for r in rows}, {"https://www.hoopsrumors.com/a.html"})
 
+    def test_trade_request(self):
+        self.assertEqual(rumors.status_of("Dejounte Murray has requested a trade from the Pelicans, Shams Charania reports."), "Requested")
+        self.assertEqual(rumors.status_of("The Pelicans confirmed Murray's trade request."), "Requested")
+
     def test_before_the_season_is_skipped(self):
         self.assertEqual(rows_of([OLD]), [])
 
