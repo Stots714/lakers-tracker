@@ -85,6 +85,21 @@ class Parsing(unittest.TestCase):
     def test_outlet_is_not_a_reporter(self):
         self.assertNotIn("Philadelphia Inquirer", rumors.reporters_in("The 76ers explored a trade, Keith Pompey of the Philadelphia Inquirer reports.", PLAYERS))
 
+    def test_contract_wording_is_not_a_trade_agreement(self):
+        self.assertNotEqual(rumors.status_of("Jamal Murray agreed to a four-year deal, which makes a trade less likely, Troy Renck reports."), "Agreed")
+        self.assertNotEqual(rumors.status_of("The Knicks officially signed the guard, who was acquired in a trade last year, Jake Fischer reports."), "Official")
+        self.assertEqual(rumors.status_of("The Kings have agreed to a trade sending Nique Clifford to the Thunder."), "Agreed")
+        self.assertEqual(rumors.status_of("The Thunder officially acquired Nique Clifford from the Kings."), "Official")
+
+    def test_same_report_in_two_posts_is_one_row(self):
+        a = ("Atlantic Notes", "https://www.hoopsrumors.com/a.html", "Mon, 16 Nov 2026 20:00:00 +0000",
+             "<p>The Sixers have interest in Collin Sexton, Gina Mizell of the Philadelphia Inquirer reports.</p>")
+        b = ("Sexton Rumors", "https://www.hoopsrumors.com/b.html", "Mon, 16 Nov 2026 22:00:00 +0000",
+             "<p>As Gina Mizell of the Philadelphia Inquirer reports, the Sixers have interest in Collin Sexton.</p>")
+        rows = rumors.merge([], rows_of([a, b]))
+        self.assertEqual(sorted(r["team"] for r in rows), ["LAL", "PHI"])
+        self.assertEqual({r["post_url"] for r in rows}, {"https://www.hoopsrumors.com/a.html"})
+
     def test_before_the_season_is_skipped(self):
         self.assertEqual(rows_of([OLD]), [])
 

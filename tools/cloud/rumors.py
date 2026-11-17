@@ -69,8 +69,11 @@ TEAMS = {  # abbreviation: (feed slug, names used in posts)
 TRADE = re.compile(r"\b(trades?|traded|trading|trade[- ]deadline|acquir\w+|acquisition|swap\w*|shopp\w+|on the (?:trade )?block|dangl\w+|"
                    r"deal (?:for|involving|that would send)|sen(?:d|ds|ding|t) \w+(?: \w+)? to)\b", re.I)
 STATUS_RULES = [  # strongest first
-    ("Official", re.compile(r"\b(officially|(?:have|has) (?:completed|finalized|announced) (?:a|the|their) (?:trade|deal)|trade (?:is|was) (?:now )?official|announced (?:that )?(?:they|the team) (?:have|has) (?:acquired|traded))", re.I)),
-    ("Agreed", re.compile(r"\b(agreed to (?:a |terms on a )?(?:trade|deal)|(?:have|has) agreed to (?:send|trade|acquire)|are trading|will trade|(?:trade|deal) (?:is|has been) (?:agreed|struck|in place|done)|finaliz\w+ (?:a |the )?(?:trade|deal))", re.I)),
+    # Trade words required: "agreed to a deal" and "officially signed" are usually contracts
+    ("Official", re.compile(r"\b(officially (?:acquired|traded|completed|sent|announced (?:a|the) trade)|(?:have|has) (?:completed|finalized|announced) (?:a|the|their) trade|"
+                            r"trade (?:is|was|has been) (?:now )?(?:official|completed|finalized)|announced (?:that )?(?:they|the team) (?:have|has) (?:acquired|traded))", re.I)),
+    ("Agreed", re.compile(r"\b(agreed (?:to|on) (?:a |the |terms on a )?trade|(?:have|has) agreed to (?:send|trade|acquire|move)|are trading|will trade|"
+                          r"trade (?:is|has been) (?:agreed|struck|in place|done)|finaliz\w+ (?:a |the )?trade)", re.I)),
     ("Denied", re.compile(r"\b(not (?:actively )?(?:shopping|looking to (?:trade|move|deal))|no (?:plans|intention|interest) (?:to|in) (?:trade|trading|move|moving|deal|dealing)|(?:isn't|is not|aren't|are not|won't|will not|isn’t|aren’t|won’t) (?:expected to be |going to be |likely to be )?(?:traded|moved|available|dealt)|off the table|untouchable|not interested in (?:trading|moving|dealing))", re.I)),
     ("Talks", re.compile(r"\b(talks?|discussions?|discussed|negotiat\w+|engaged|conversations?|explor\w+|made (?:an |a )?(?:offer|pitch|proposal)|offered|offering|proposals?|proposed|framework)\b", re.I)),
     ("Interest", re.compile(r"\b(interest(?:ed)? in|(?:have|has|had|showed|showing|registered|expressed) (?:some |real |serious )?interest|eyeing|eyed|keeping tabs|"
@@ -283,8 +286,10 @@ def parse_feed(xml_text, players, seen_at):
                 continue  # no named source: left out
             for team, pl in named.items():
                 others = [t for t in named if t != team]
+                # One report, however many posts repeat it: same day, team, players, status and reporters
+                sig = "|".join([date, team, ";".join(sorted(pl)), status, ";".join(sorted(reps))])
                 rows.append({
-                    "id": hashlib.sha1(f"{link}#{k}|{team}".encode()).hexdigest()[:12], "date": date, "team": team,
+                    "id": hashlib.sha1(sig.encode()).hexdigest()[:12], "date": date, "team": team,
                     "players": ";".join(pl), "other_teams": ";".join(others), "status": status, "reporters": ";".join(reps),
                     "source_url": outside_link(links) or link, "post_url": link, "headline": title, "seen_at": seen_at,
                 })
@@ -314,13 +319,11 @@ def write_atomic(path, text):
 
 
 def merge(old, new):
-    """Reports already on file stay; one read again is replaced by today's reading of it (so better rules apply to
-    whatever is still in the feeds) but keeps the time it was first seen. Newest first."""
+    """Reports already on file stay, with the first post that carried them and the time they were first seen;
+    a report read again from another post is the same report. Newest first."""
     by = {r["id"]: r for r in old}
     for r in new:
-        if r["id"] in by:
-            r = {**r, "seen_at": by[r["id"]]["seen_at"]}
-        by[r["id"]] = r
+        by.setdefault(r["id"], r)
     return sorted(by.values(), key=lambda r: (r["date"], r["id"]), reverse=True)
 
 
