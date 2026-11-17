@@ -103,6 +103,17 @@ class Parsing(unittest.TestCase):
         self.assertEqual(sorted(r["team"] for r in rows), ["LAL", "PHI"])
         self.assertEqual({r["post_url"] for r in rows}, {"https://www.hoopsrumors.com/a.html"})
 
+    def test_player_is_named_for_his_team_on_the_report_date(self):
+        root = Path(tempfile.mkdtemp()); self.addCleanup(shutil.rmtree, root, True)
+        (root / "data/nba").mkdir(parents=True)
+        (root / "data/nba/league_player_games.csv").write_text(
+            "date,team,opp,player\n2026-11-02,SAC,LAL,Nique Clifford\n2026-11-06,SAC,DEN,Nique Clifford\n2026-11-10,OKC,SAC,Nique Clifford\n", encoding="utf-8")
+        players = rumors.Players(root)
+        item = ("Kings Trade Clifford", "https://www.hoopsrumors.com/c.html", "Sun, 08 Nov 2026 20:47:52 +0000",
+                "<p>The Kings are trading Nique Clifford to the Thunder for two second-round picks, sources tell Shams Charania of ESPN.</p>")
+        rows = rumors.parse_feed(feed([item]), players, "now")
+        self.assertEqual({(r["team"], r["players"]) for r in rows}, {("SAC", "Nique Clifford"), ("OKC", "")})
+
     def test_trade_request(self):
         self.assertEqual(rumors.status_of("Dejounte Murray has requested a trade from the Pelicans, Shams Charania reports."), "Requested")
         self.assertEqual(rumors.status_of("The Pelicans confirmed Murray's trade request."), "Requested")

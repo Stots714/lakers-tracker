@@ -24,8 +24,20 @@ Start-Transcript -Path (Join-Path $Here 'last_live_ps.log') | Out-Null
 # This repository always commits as the GitHub handle, whatever name the PC uses elsewhere
 git config user.name 'Stots714'
 git config user.email 'Stots714@users.noreply.github.com'
+# A PC that just woke up can take a minute or two to get back online (on Nov 17 the morning run stopped at once with
+# "Could not resolve host: github.com"): wait up to 10 minutes for GitHub before giving up
+function Wait-GitHub([int]$Minutes = 10) {
+  $until = (Get-Date).AddMinutes($Minutes)
+  while ($true) {
+    try { [void][System.Net.Dns]::GetHostAddresses('github.com'); return $true } catch { }
+    if ((Get-Date) -ge $until) { return $false }
+    Write-Host 'No network yet (github.com not found); trying again in 30 seconds.'
+    Start-Sleep -Seconds 30
+  }
+}
 # A run interrupted mid-rebase leaves the folder unable to pull: undo it first
 if ((Test-Path (Join-Path $Repo '.git\rebase-merge')) -or (Test-Path (Join-Path $Repo '.git\rebase-apply'))) { git rebase --abort }
+if (-not (Wait-GitHub)) { Write-Host 'No network for 10 minutes; the watcher starts anyway and keeps trying.' -ForegroundColor Yellow }
 git pull --ff-only
 $Py = Join-Path $Here '.venv\Scripts\python.exe'
 if (-not (Test-Path $Py)) {

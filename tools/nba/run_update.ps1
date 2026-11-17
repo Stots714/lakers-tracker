@@ -27,12 +27,28 @@ function Stop-Run([string]$Message) {
   exit 1
 }
 function Step([string]$Text) { Write-Host ''; Write-Host "== $Text" -ForegroundColor Cyan }
+# A PC that just woke up can take a minute or two to get back online (on Nov 17 the morning run stopped at once with
+# "Could not resolve host: github.com"): wait up to 10 minutes for GitHub before giving up
+function Wait-GitHub([int]$Minutes = 10) {
+  $until = (Get-Date).AddMinutes($Minutes)
+  while ($true) {
+    try { [void][System.Net.Dns]::GetHostAddresses('github.com'); return $true } catch { }
+    if ((Get-Date) -ge $until) { return $false }
+    Write-Host 'No network yet (github.com not found); trying again in 30 seconds.'
+    Start-Sleep -Seconds 30
+  }
+}
+
 
 Step "Updating the repository ($Repo)"
 # A run interrupted mid-rebase leaves the folder unable to pull: undo it first
 if ((Test-Path (Join-Path $Repo '.git\rebase-merge')) -or (Test-Path (Join-Path $Repo '.git\rebase-apply'))) { git rebase --abort }
+$Online = Wait-GitHub
 git pull --ff-only
-if ($LASTEXITCODE -ne 0) { Stop-Run 'git pull failed. Commit or discard local changes in this folder, then run again.' }
+if ($LASTEXITCODE -ne 0) {
+  if (-not $Online) { Stop-Run 'No network: github.com could not be reached for 10 minutes. The next scheduled run tries again.' }
+  Stop-Run 'git pull failed (the message above says why). If it mentions local changes, commit or discard them in this folder, then run again.'
+}
 
 # ---- Python: find a working Python 3.10+, installing it for this user if there is none ----
 function Find-Python {

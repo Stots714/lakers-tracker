@@ -173,24 +173,39 @@ def blocks_of(html_text):
     return p.close()
 
 
+class Players:
+    """Which team each player was on at a given date, so a report from before a trade names the team he was on then.
+    From the season's box scores (the team of his latest game on or before the date, else his first game), with
+    NBA.com's current rosters for players who have not played yet."""
+
+    def __init__(self, root=ROOT):
+        self.games, self.roster = {}, {}
+        games = root / "data/nba/league_player_games.csv"
+        if games.exists():
+            with games.open(encoding="utf-8", newline="") as f:
+                for r in csv.DictReader(f):
+                    self.games.setdefault(r["player"], set()).add((r["date"], r["team"]))
+            self.games = {p: sorted(v) for p, v in self.games.items()}
+        rost = root / "data/nba/league_rosters.csv"
+        if rost.exists():
+            with rost.open(encoding="utf-8", newline="") as f:
+                self.roster = {r["player"]: r["team"] for r in csv.DictReader(f)}
+        self._at = {}
+
+    def at(self, date):
+        """{player: team} as of a date (cached per date)."""
+        if date not in self._at:
+            out = dict(self.roster)
+            for p, seq in self.games.items():
+                before = [t for d, t in seq if d <= date]
+                out[p] = before[-1] if before else seq[0][1]
+            self._at[date] = out
+        return self._at[date]
+
+
 def player_index(root=ROOT):
-    """Each player's current team: NBA.com's rosters when the PC has written them, else the latest game played."""
-    idx = {}
-    rost = root / "data/nba/league_rosters.csv"
-    if rost.exists():
-        with rost.open(encoding="utf-8", newline="") as f:
-            for r in csv.DictReader(f):
-                idx[r["player"]] = r["team"]
-        return idx
-    games = root / "data/nba/league_player_games.csv"
-    if games.exists():
-        with games.open(encoding="utf-8", newline="") as f:
-            latest = {}
-            for r in csv.DictReader(f):
-                if r["player"] not in latest or r["date"] >= latest[r["player"]][0]:
-                    latest[r["player"]] = (r["date"], r["team"])
-        idx = {p: t for p, (_, t) in latest.items()}
-    return idx
+    """Each player's team today (kept for callers that need no date)."""
+    return Players(root).at("9999-12-31")
 
 
 def clean_name(name):
@@ -263,7 +278,7 @@ def outside_link(links):
 
 
 def parse_feed(xml_text, players, seen_at):
-    """Report rows from one RSS feed."""
+    """Report rows from one RSS feed. players: a Players (team as of each post's date) or a plain {player: team}."""
     rows = []
     root = ET.fromstring(xml_text)
     ns = {"content": "http://purl.org/rss/1.0/modules/content/"}
@@ -278,14 +293,15 @@ def parse_feed(xml_text, players, seen_at):
         if date < SEASON_START:
             continue
         body = item.findtext("content:encoded", namespaces=ns) or item.findtext("description") or ""
+        on = players.at(date) if hasattr(players, "at") else players
         for k, (text, links) in enumerate(blocks_of(body)):
-            named = teams_in(text, players)
+            named = teams_in(text, on)
             status = status_of(text)
             # A trade paragraph: trade wording, or one team's interest in or talks about another team's player
             cross = len(named) >= 2 and any(named.values()) and status in ("Interest", "Talks", "Agreed") and MOVE.search(text)
             if not (TRADE.search(text) or cross):
                 continue
-            reps = reporters_in(text, players)
+            reps = reporters_in(text, on)
             if not reps:
                 continue  # no named source: left out
             for team, pl in named.items():
@@ -340,7 +356,7 @@ def run(all_teams=False, opener=urllib.request.urlopen, robots=None, sleep=time.
         except Exception:
             robots = None  # no robots.txt answer: read only the feeds, as a reader's feed app would
     feeds = [SITE + "/feed"] + ([f"{SITE}/{slug}/feed" for slug, _ in TEAMS.values()] if all_teams else [])
-    players = player_index(root)
+    players = Players(root)
     found, failed = [], []
     for i, url in enumerate(feeds):
         if i:

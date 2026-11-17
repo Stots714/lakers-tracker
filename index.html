@@ -422,10 +422,10 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
         </table>
       </div>
       <p class="lk-note" id="lk-trade-reports-note"></p>
-      <h3 class="lk-h3">Official moves (NBA.com rosters)</h3>
+      <h3 class="lk-h3">Official moves</h3>
       <div class="lk-tablewrap">
         <table class="lk-table lk-stack" id="lk-trade-moves">
-          <thead><tr><th class="lk-left">First seen</th><th class="lk-left">Player</th><th class="lk-left">Move</th></tr></thead>
+          <thead><tr><th class="lk-left">First seen</th><th class="lk-left">Player</th><th class="lk-left">Move</th><th class="lk-left">Seen on</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
@@ -1725,20 +1725,42 @@ dash.calc('market_lines', {
 const TRADE_DEADLINE = '2027-02-11T15:00:00-05:00';  // date: Yardbarker (Aug 5, 2026) and NBC Sports (updated Oct 19, 2026); 3:00 pm ET: Yardbarker
 const TRADE_RANK = { Official: 6, Agreed: 5, Requested: 4, Talks: 3, Interest: 2, Denied: 1, Mention: 0 };
 const tradeKey = (s) => String(s || '').normalize('NFKD').replace(/[^\x00-\x7f]/g, '').toLowerCase().replace(/[.'’]/g, '').trim();
+// Official moves: NBA.com roster changes (written by the PC) plus each player's first game for a new team in the box
+// scores, which also covers moves made before the roster comparison began
+dash.calc('team_moves', {
+  inputs: ['nba_moves', 'nba_player_games'],
+  title: 'Official moves: NBA.com rosters and box scores',
+  description: 'Players who changed teams: from changes between one day’s NBA.com rosters and the next (roster_moves.csv), and from the box scores (a player’s first game for a new team; also covers the time before the roster comparison began). Dated the day each showed.',
+  fn: (moves, pg) => {
+    const out = moves.map((m) => ({ ...m, via: 'rosters' }));
+    const seq = new Map();
+    for (const r of pg) { if (!r.player || !r.team || !r.date) continue; if (!seq.has(r.player)) seq.set(r.player, []); seq.get(r.player).push([r.date, r.team]); }
+    for (const [pl, list] of seq) {
+      list.sort((a, b) => (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0));
+      for (let i = 1; i < list.length; i++) {
+        if (list[i][1] === list[i - 1][1]) continue;
+        const dup = out.some((m) => m.kind === 'moved' && m.to_team === list[i][1] && tradeKey(m.player) === tradeKey(pl));
+        if (!dup) out.push({ date: list[i][0], player_id: '', player: pl, kind: 'moved', from_team: list[i - 1][1], to_team: list[i][1], how_acquired: '', via: 'box scores' });
+      }
+    }
+    return out.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+  },
+});
+
 dash.calc('trade_reports_scored', {
-  inputs: ['trade_reports', 'nba_moves'],
-  title: 'Trade reports, checked against NBA.com rosters',
-  description: 'Each report with a named source (tools/cloud/rumors.py) and what became of it: Happened when one of the team’s players it named left the team on NBA.com’s rosters on or after the report’s date (roster_moves.csv); Did not happen once the trade deadline passes without that; Open until then; Not scored when the report named none of the team’s players.',
+  inputs: ['trade_reports', 'team_moves'],
+  title: 'Trade reports, checked against official moves',
+  description: 'Each report with a named source (tools/cloud/rumors.py) and what became of it: Happened when a player it named changed teams, to or from the report’s team, on or after the report’s date (NBA.com rosters or box scores); Did not happen once the trade deadline passes without that; Open until then; Not scored when the report named none of the team’s players.',
   fn: (reports, moves) => {
     const passed = Date.now() > Date.parse(TRADE_DEADLINE);
     const away = moves.filter((m) => m.kind === 'moved' || m.kind === 'left');
     return reports.map((r) => {
       const players = (r.players || '').split(';').filter(Boolean);
-      const hit = players.map((p) => away.find((m) => tradeKey(m.player) === tradeKey(p) && m.from_team === r.team && m.date >= r.date)).find(Boolean);
+      const hit = players.map((p) => away.find((m) => tradeKey(m.player) === tradeKey(p) && (m.from_team === r.team || m.to_team === r.team) && m.date >= r.date)).find(Boolean);
       return {
         ...r, players, reporters: (r.reporters || '').split(';').filter(Boolean), others: (r.other_teams || '').split(';').filter(Boolean),
         rank: TRADE_RANK[r.status] ?? 0, outcome: !players.length ? 'Not scored' : hit ? 'Happened' : passed ? 'Did not happen' : 'Open',
-        moved_on: hit ? hit.date : '', moved_to: hit ? hit.to_team : '',
+        moved_on: hit ? hit.date : '', moved_to: hit ? (hit.to_team === r.team ? '' : hit.to_team) : '',
       };
     });
   },
@@ -3166,16 +3188,23 @@ function trChart(svg, d) {
     wEl(svg, 'line', { class: 'lk-grid', x1: x, x2: x, y1: padT - 4, y2: H - padB });
     wEl(svg, 'text', { x, y: H - padB + 15, 'text-anchor': 'middle' }, wShort(m).split(' ')[0]);
   }
-  // Dates that matter, labelled along the top (two staggered lines so close dates do not collide)
-  let lastRight = [-Infinity, -Infinity];
+  // Dates that matter, labelled along the top: two lines; a label that fits on neither is shortened to its date, or
+  // left to the tooltip-free table below when even that would collide
+  const taken = [[], []];  // label spans already placed on each line
+  const fit = (x, s) => {
+    const tw = wTextW(s), anchor = x + tw / 2 > W - padR ? 'end' : x - tw / 2 < padL ? 'start' : 'middle';
+    const left = anchor === 'end' ? x - tw : anchor === 'middle' ? x - tw / 2 : x;
+    const line = [0, 1].find((k) => taken[k].every(([a, b]) => left > b + 8 || left + tw < a - 8));
+    return line === undefined ? null : { anchor, left, tw, line };
+  };
   d.marks.forEach((mk) => {
     const x = X(mk.date);
     wEl(svg, 'line', { class: mk.strong ? 'lk-ref lk-ref-strong' : 'lk-ref', x1: x, x2: x, y1: padT - 6, y2: H - padB });
-    const tw = wTextW(mk.label), anchor = x + tw / 2 > W - padR ? 'end' : x - tw / 2 < padL ? 'start' : 'middle';
-    const left = anchor === 'end' ? x - tw : anchor === 'middle' ? x - tw / 2 : x;
-    const line = left > lastRight[0] + 8 ? 0 : 1;
-    lastRight[line] = left + tw;
-    wEl(svg, 'text', { x, y: 12 + line * 13, 'text-anchor': anchor, class: mk.strong ? 'lk-strong' : '' }, mk.label);
+    let label = mk.label, f = fit(x, label);
+    if (!f && mk.short) { label = mk.short; f = fit(x, label); }
+    if (!f) return;
+    taken[f.line].push([f.left, f.left + f.tw]);
+    wEl(svg, 'text', { x, y: 12 + f.line * 13, 'text-anchor': f.anchor, class: mk.strong ? 'lk-strong' : '' }, label);
   });
   // The items: official moves in the accent color, reports in grey; same day and row step sideways
   const items = [], used = new Map();
@@ -3196,7 +3225,7 @@ function trChart(svg, d) {
       const it = items[i];
       ring.setAttribute('cx', it.x); ring.setAttribute('cy', it.y); ring.setAttribute('visibility', 'visible');
       if (it.kind === 'move') {
-        tip.show(it.x, it.y, wShort(trDate(it.m.date)) + ': official move', [{ value: it.m.player, label: trMove(it.m, d.F, d.nm), key: 'accent' }]);
+        tip.show(it.x, it.y, wShort(trDate(it.m.date)) + ': official move' + (it.m.via === 'rosters' ? ' (NBA.com rosters)' : ' (first game for the new team)'), [{ value: it.m.player, label: trMove(it.m, d.F, d.nm), key: 'accent' }]);
       } else {
         const r = it.r;
         tip.show(it.x, it.y, wShort(trDate(r.date)) + ': ' + r.status + (r.players.length ? ', ' + r.players.join(', ') : ''), [
@@ -3236,8 +3265,9 @@ function renderTrades() {
   const dd = dash.data('trade_dates'), dates = dd.status === 'ok' ? dd.data.filter((r) => r.team === F) : [];
   const sc = dash.data('trade_reports_scored'), all = sc.status === 'ok' ? sc.data : [];
   const reps = all.filter((r) => r.team === F).sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : b.rank - a.rank));
-  const mv = dash.data('nba_moves'), movesKnown = mv.status === 'ok' && mv.message !== 'not on file yet';
-  const moves = movesKnown ? mv.data.filter((m) => m.from_team === F || m.to_team === F).sort((a, b) => (a.date < b.date ? 1 : -1)) : [];
+  const rm = dash.data('nba_moves'), rostersKnown = rm.status === 'ok' && rm.message !== 'not on file yet';
+  const mv = dash.data('team_moves'), movesKnown = mv.status === 'ok';
+  const moves = movesKnown ? mv.data.filter((m) => m.from_team === F || m.to_team === F) : [];
   const tr = dash.data('trade_reports'), repsKnown = tr.status === 'ok' && tr.message !== 'not on file yet';
 
   // Quick read
@@ -3250,10 +3280,10 @@ function renderTrades() {
     const parts = [...waiting.keys()].sort().map((d) => wList(waiting.get(d)) + ' until ' + wShort(trDate(d)));
     items.push({ lead: 'Can’t be traded yet:', text: parts.join('; ') + '. League rules for players signed this offseason, so trades involving them can only happen between those dates and the deadline.' });
   } else if (dates.length) items.push({ lead: 'Trade dates:', text: 'every ' + fn + ' player on the league’s restricted lists can be traded now.' });
-  if (!movesKnown) items.push({ lead: 'Official moves:', text: 'the roster comparison starts with the PC’s next update; from then on, every change to NBA.com’s rosters shows here.' });
-  else {
+  if (movesKnown) {
     const recent = moves.filter((m) => m.date >= trShift(today, -30));
-    items.push({ lead: 'Official moves:', text: recent.length ? recent.slice(0, 3).map((m) => wShort(trDate(m.date)) + ', ' + m.player + ' ' + trMove(m, F, nm)).join('; ') + (recent.length > 3 ? '; ' + (recent.length - 3) + ' more in Details.' : '.') : 'none on NBA.com’s rosters in the last 30 days.' });
+    items.push({ lead: 'Official moves:', text: (recent.length ? recent.slice(0, 3).map((m) => wShort(trDate(m.date)) + ', ' + m.player + ' ' + trMove(m, F, nm)).join('; ') + (recent.length > 3 ? '; ' + (recent.length - 3) + ' more in Details.' : '.') : 'none in the last 30 days.')
+      + (rostersKnown ? '' : ' For now from the box scores (a player’s first game for a new team); the PC’s daily NBA.com roster comparison adds signings and waivers once it runs.') });
   }
   if (!repsKnown) items.push({ lead: 'Reports:', text: 'none on file yet; the first arrive with the trade-reports job’s first read.' });
   else {
@@ -3268,7 +3298,8 @@ function renderTrades() {
     const scored = reps.filter((r) => r.outcome !== 'Not scored');
     if (scored.length) {
       const k = (o) => scored.filter((r) => r.outcome === o).length;
-      items.push({ lead: 'How solid:', text: 'of ' + scored.length + ' reports naming ' + fn + ' players, ' + k('Happened') + ' led to a move, ' + k('Open') + ' are still open' + (k('Did not happen') ? ' and ' + k('Did not happen') + ' did not happen' : '') + '. Status comes from each report’s wording, automatically: the source link in Details has the full story.' });
+      items.push({ lead: 'How solid:', text: 'of ' + scored.length + ' report' + (scored.length > 1 ? 's' : '') + ' naming ' + fn + ' players, ' + k('Happened') + ' led to a move and ' + k('Open') + ' ' + (k('Open') === 1 ? 'is' : 'are') + ' still open'
+        + (k('Did not happen') ? '; ' + k('Did not happen') + ' did not happen' : '') + '. Status comes from each report’s wording, automatically: the source link in Details has the full story.' });
     }
   }
   wQuick(document.getElementById('lk-trade-quick'), items);
@@ -3277,10 +3308,10 @@ function renderTrades() {
   const marks = [{ date: today, label: 'Today' }];
   [...new Set(dates.map((r) => r.not_before))].sort().forEach((d) => {
     const n = dates.filter((r) => r.not_before === d);
-    if (d > trShift(today, -35)) marks.push({ date: d, label: wShort(trDate(d)) + ': ' + (n.length === 1 ? n[0].player.split(' ').slice(-1)[0] : n.length + ' players') + ' eligible' });
+    if (d > trShift(today, -35)) marks.push({ date: d, label: wShort(trDate(d)) + ': ' + (n.length === 1 ? n[0].player.split(' ').slice(-1)[0] : n.length + ' players') + ' eligible', short: wShort(trDate(d)) });
   });
-  marks.push({ date: dl, label: 'Deadline ' + wShort(trDate(dl)), strong: true });
-  marks.sort((a, b) => (a.date < b.date ? -1 : 1));
+  marks.push({ date: dl, label: 'Deadline ' + wShort(trDate(dl)), short: 'Deadline', strong: true });
+  marks.sort((a, b) => (a.strong ? -1 : b.strong ? 1 : a.date < b.date ? -1 : 1));  // the deadline is placed first, so it is never the label dropped
   const start = trShift(today, -35) < '2026-10-20' ? '2026-10-20' : trShift(today, -35), end = trShift(dl > today ? dl : today, 3);
   trData = { start, end, marks, moves, reports: reps, F, nm };
   const ttl = (id, s) => { const el = document.getElementById(id); if (el) el.textContent = s; };
@@ -3302,8 +3333,14 @@ function renderTrades() {
     : 'No reports with a named source about the ' + fn + ' on file yet.';
   // Details: official moves
   const mb = document.querySelector('#lk-trade-moves tbody'); mb.replaceChildren();
-  moves.forEach((m) => { const row = document.createElement('tr'); cell(row, wShort(trDate(m.date)), 'lk-left'); cell(row, m.player, 'lk-left'); cell(row, trMove(m, F, nm) + (m.how_acquired ? ' (' + m.how_acquired + ')' : ''), 'lk-left'); mb.appendChild(row); });
-  document.getElementById('lk-trade-moves-note').textContent = movesKnown ? (moves.length ? 'Dated the day the change first showed on NBA.com’s rosters, which the PC reads every morning and after each night’s games.' : 'No changes to the ' + wPoss(fn) + ' roster since the comparison began.') : 'Starts with the PC’s next update.';
+  moves.forEach((m) => {
+    const row = document.createElement('tr');
+    cell(row, wShort(trDate(m.date)), 'lk-left'); cell(row, m.player, 'lk-left'); cell(row, trMove(m, F, nm) + (m.how_acquired ? ' (' + m.how_acquired + ')' : ''), 'lk-left');
+    cell(row, m.via === 'rosters' ? 'NBA.com rosters' : 'Box scores: first game for the new team', 'lk-left');
+    mb.appendChild(row);
+  });
+  document.getElementById('lk-trade-moves-note').textContent = (moves.length ? 'Each move is dated the day it first showed: on NBA.com’s rosters, which the PC reads every morning and after each night’s games, or in the box scores, the player’s first game for his new team. ' : 'No moves for the ' + fn + ' this season. ')
+    + (rostersKnown ? '' : 'The roster comparison, which also catches signings and waivers, starts with the PC’s next update.');
   // Details: trade dates
   const db = document.querySelector('#lk-trade-dates tbody'); db.replaceChildren();
   dates.slice().sort((a, b) => (a.not_before < b.not_before ? -1 : a.not_before > b.not_before ? 1 : a.player < b.player ? -1 : 1)).forEach((r) => {

@@ -84,6 +84,7 @@ The live win chance (Proposed) starts from the pre-game projection for the minut
 - "waiting: matchups - 1 recent game(s) not on NBA.com yet": normal right after a game. NBA.com fills in some per-game detail (who guarded whom, game summaries) later than the score. Nothing is saved for that game, so the next run asks again. If a game is still missing after 2 days, the step shows as failed instead, because that is a real gap.
 - No live updates during a game: see `tools\nba\last_live.log`. Start the watcher by hand with `Start-ScheduledTask -TaskName 'Lakers tracker - live games'`; it picks up a game already in progress.
 - "git pull failed": you have unsaved changes in the folder. Commit or discard them, then run again.
+- "No network: github.com could not be reached": the PC was offline (often just after waking from sleep). The script now waits up to 10 minutes for the network before stopping, and the next run catches up.
 - "Another update is already running": normal if the live watcher's after-game update and the morning update overlap; the running one finishes the job.
 - "Publishing failed": see `tools\nba\git_failures.log` for git's own message. The data is saved on the PC and goes up with the next successful run.
 - "waiting: league results - 1 recent game(s) not on NBA.com yet": a game NBA.com shows as final whose box score is not posted yet; the log names it. The next run, or the watcher's catch-up, publishes it.
