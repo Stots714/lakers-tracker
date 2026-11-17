@@ -43,7 +43,9 @@ jobs:
           git add data/trades
           if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
           N=$(python3 -c "import json; print(json.load(open('data/trades/status.json'))['new_reports'])")
-          git -c user.name=Stots714 -c user.email=Stots714@users.noreply.github.com commit -q -m "Trade reports: $N new"
+          # The identity is also needed when the pull below rebases this commit onto a newer one from the PC
+          git config user.name Stots714; git config user.email Stots714@users.noreply.github.com
+          git commit -q -m "Trade reports: $N new"
           for attempt in 1 2 3; do
             if git pull -q --rebase origin main && git push -q origin HEAD:main; then echo "Published."; exit 0; fi
             git rebase --abort 2>/dev/null || true
