@@ -137,5 +137,12 @@
   "file": "data/nba/injuries.csv",
   "updated": null,
   "nba": true
+ },
+ {
+  "id": "markets",
+  "title": "Betting-market lines (The Odds API)",
+  "description": "One consensus line per game from US sportsbooks: the market's expected home margin (the median spread) and the home team's win chance (the median moneyline chance, each book's margin removed), read at 09:47 Pacific and about 10 minutes before tip-off. Used only to judge the app's forecasts; no book names or prices are kept. Written by a GitHub job (tools/cloud/odds.py).",
+  "file": "data/markets/odds_lines.csv",
+  "updated": null
  }
 ]
