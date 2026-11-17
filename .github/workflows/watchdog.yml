@@ -1,0 +1,30 @@
+name: Watchdog
+
+# Daily check that the PC's jobs published: yesterday's scores, a recent update, live updates on game nights,
+# and (once set up) today's odds read. A failed run makes GitHub email you; the run page lists what is missing.
+# Reads only: commits nothing, uses no secrets beyond the read-only token GitHub gives every run.
+
+on:
+  schedule:
+    - cron: '23 19 * * *'   # 11:23 Pacific in winter, 12:23 in summer: after the 09:40 update and the 09:47 odds read
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: watchdog
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check what the PC published
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 tools/cloud/watchdog.py
