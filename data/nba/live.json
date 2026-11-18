@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:56:30-08:00",
+ "updated": "2026-11-17T22:03:37-08:00",
  "board_date": "2026-11-17",
  "games": [
   {
@@ -502,93 +502,93 @@
    "game_id": "0022600256",
    "tip_utc": "2026-11-18T04:00:00Z",
    "status": 2,
-   "status_text": "Q3 2:08",
+   "status_text": "END Q3",
    "period": 3,
-   "clock": "2:08",
+   "clock": "0:00",
    "home": {
     "team": "LAL",
-    "score": 74,
+    "score": 81,
     "periods": [
      30,
      29,
-     15,
+     22,
      0
     ],
     "stats": {
-     "fgm": 29,
-     "fga": 66,
-     "fg3m": 11,
-     "fg3a": 30,
-     "ftm": 5,
-     "fta": 13,
+     "fgm": 31,
+     "fga": 71,
+     "fg3m": 12,
+     "fg3a": 34,
+     "ftm": 7,
+     "fta": 15,
      "oreb": 16,
      "dreb": 19,
      "tov": 10,
      "pf": 12,
      "ast": 11,
-     "stl": 4,
+     "stl": 5,
      "blk": 1,
-     "pts_paint": 32,
-     "pts_second_chance": 13,
-     "pts_fast_break": 14,
-     "pts_off_tov": 13,
-     "pts_bench": 9,
+     "pts_paint": 34,
+     "pts_second_chance": 15,
+     "pts_fast_break": 17,
+     "pts_off_tov": 16,
+     "pts_bench": 14,
      "biggest_lead": 2,
      "lead_changes": 7
     },
     "leaders": [
      {
       "name": "Luka Dončić",
-      "pts": 27,
+      "pts": 29,
       "reb": 2,
       "ast": 5,
-      "min": "28:18"
+      "min": "30:26"
      },
      {
       "name": "Quentin Grimes",
       "pts": 24,
       "reb": 4,
       "ast": 1,
-      "min": "24:28"
+      "min": "24:33"
      },
      {
-      "name": "Matisse Thybulle",
-      "pts": 6,
-      "reb": 4,
-      "ast": 0,
-      "min": "17:30"
+      "name": "Collin Sexton",
+      "pts": 7,
+      "reb": 2,
+      "ast": 1,
+      "min": "12:56"
      }
     ]
    },
    "away": {
     "team": "CHA",
-    "score": 87,
+    "score": 94,
     "periods": [
      34,
      32,
-     21,
+     28,
      0
     ],
     "stats": {
-     "fgm": 31,
-     "fga": 60,
+     "fgm": 33,
+     "fga": 64,
      "fg3m": 15,
-     "fg3a": 38,
-     "ftm": 10,
-     "fta": 11,
-     "oreb": 7,
-     "dreb": 23,
-     "tov": 7,
-     "pf": 16,
+     "fg3a": 39,
+     "ftm": 13,
+     "fta": 14,
+     "oreb": 9,
+     "dreb": 25,
+     "tov": 9,
+     "pf": 17,
      "ast": 19,
      "stl": 6,
      "blk": 2,
-     "pts_paint": 28,
-     "pts_second_chance": 11,
+     "pts_paint": 32,
+     "pts_second_chance": 13,
      "pts_fast_break": 9,
      "pts_off_tov": 8,
      "pts_bench": 21,
-     "biggest_lead": 13,
+     "biggest_lead": 18,
      "lead_changes": 7
     },
     "leaders": [
@@ -602,22 +602,26 @@
      {
       "name": "Naz Reid",
       "pts": 19,
-      "reb": 8,
+      "reb": 9,
       "ast": 4,
-      "min": "27:24"
+      "min": "28:08"
      },
      {
-      "name": "Grant Williams",
-      "pts": 10,
-      "reb": 2,
-      "ast": 0,
-      "min": "16:53"
+      "name": "Coby White",
+      "pts": 13,
+      "reb": 1,
+      "ast": 3,
+      "min": "19:26"
      }
     ]
    },
    "history": [
     {
      "t": 33.9,
+     "m": -13
+    },
+    {
+     "t": 36.0,
      "m": -13
     }
    ]
