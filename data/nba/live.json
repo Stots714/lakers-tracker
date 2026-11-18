@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:03:37-08:00",
+ "updated": "2026-11-17T22:10:42-08:00",
  "board_date": "2026-11-17",
  "games": [
   {
@@ -502,37 +502,37 @@
    "game_id": "0022600256",
    "tip_utc": "2026-11-18T04:00:00Z",
    "status": 2,
-   "status_text": "END Q3",
-   "period": 3,
-   "clock": "0:00",
+   "status_text": "Q4 10:29",
+   "period": 4,
+   "clock": "10:29",
    "home": {
     "team": "LAL",
-    "score": 81,
+    "score": 87,
     "periods": [
      30,
      29,
      22,
-     0
+     6
     ],
     "stats": {
-     "fgm": 31,
-     "fga": 71,
+     "fgm": 33,
+     "fga": 73,
      "fg3m": 12,
      "fg3a": 34,
-     "ftm": 7,
-     "fta": 15,
-     "oreb": 16,
+     "ftm": 9,
+     "fta": 19,
+     "oreb": 17,
      "dreb": 19,
-     "tov": 10,
-     "pf": 12,
-     "ast": 11,
+     "tov": 11,
+     "pf": 13,
+     "ast": 14,
      "stl": 5,
      "blk": 1,
-     "pts_paint": 34,
-     "pts_second_chance": 15,
+     "pts_paint": 38,
+     "pts_second_chance": 16,
      "pts_fast_break": 17,
-     "pts_off_tov": 16,
-     "pts_bench": 14,
+     "pts_off_tov": 18,
+     "pts_bench": 18,
      "biggest_lead": 2,
      "lead_changes": 7
     },
@@ -546,48 +546,48 @@
      },
      {
       "name": "Quentin Grimes",
-      "pts": 24,
-      "reb": 4,
-      "ast": 1,
-      "min": "24:33"
+      "pts": 26,
+      "reb": 5,
+      "ast": 2,
+      "min": "26:04"
      },
      {
       "name": "Collin Sexton",
-      "pts": 7,
+      "pts": 8,
       "reb": 2,
-      "ast": 1,
-      "min": "12:56"
+      "ast": 2,
+      "min": "14:27"
      }
     ]
    },
    "away": {
     "team": "CHA",
-    "score": 94,
+    "score": 97,
     "periods": [
      34,
      32,
      28,
-     0
+     3
     ],
     "stats": {
-     "fgm": 33,
-     "fga": 64,
-     "fg3m": 15,
-     "fg3a": 39,
+     "fgm": 34,
+     "fga": 65,
+     "fg3m": 16,
+     "fg3a": 40,
      "ftm": 13,
      "fta": 14,
      "oreb": 9,
      "dreb": 25,
-     "tov": 9,
-     "pf": 17,
-     "ast": 19,
-     "stl": 6,
+     "tov": 11,
+     "pf": 20,
+     "ast": 20,
+     "stl": 7,
      "blk": 2,
      "pts_paint": 32,
      "pts_second_chance": 13,
      "pts_fast_break": 9,
-     "pts_off_tov": 8,
-     "pts_bench": 21,
+     "pts_off_tov": 11,
+     "pts_bench": 24,
      "biggest_lead": 18,
      "lead_changes": 7
     },
@@ -595,9 +595,9 @@
      {
       "name": "Brandon Miller",
       "pts": 26,
-      "reb": 0,
+      "reb": 1,
       "ast": 3,
-      "min": "22:26"
+      "min": "23:57"
      },
      {
       "name": "Naz Reid",
@@ -610,8 +610,8 @@
       "name": "Coby White",
       "pts": 13,
       "reb": 1,
-      "ast": 3,
-      "min": "19:26"
+      "ast": 4,
+      "min": "20:50"
      }
     ]
    },
@@ -623,6 +623,10 @@
     {
      "t": 36.0,
      "m": -13
+    },
+    {
+     "t": 37.5,
+     "m": -10
     }
    ]
   }
