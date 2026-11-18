@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:10:42-08:00",
+ "updated": "2026-11-18T05:27:29-08:00",
  "board_date": "2026-11-17",
  "games": [
   {
@@ -501,117 +501,119 @@
   {
    "game_id": "0022600256",
    "tip_utc": "2026-11-18T04:00:00Z",
-   "status": 2,
-   "status_text": "Q4 10:29",
-   "period": 4,
-   "clock": "10:29",
+   "status": 3,
+   "status_text": "Final",
+   "period": 5,
+   "clock": "0:00",
    "home": {
     "team": "LAL",
-    "score": 87,
+    "score": 118,
     "periods": [
      30,
      29,
      22,
-     6
+     30,
+     7
     ],
     "stats": {
-     "fgm": 33,
-     "fga": 73,
-     "fg3m": 12,
-     "fg3a": 34,
-     "ftm": 9,
-     "fta": 19,
-     "oreb": 17,
-     "dreb": 19,
-     "tov": 11,
-     "pf": 13,
-     "ast": 14,
-     "stl": 5,
-     "blk": 1,
-     "pts_paint": 38,
-     "pts_second_chance": 16,
-     "pts_fast_break": 17,
-     "pts_off_tov": 18,
-     "pts_bench": 18,
-     "biggest_lead": 2,
-     "lead_changes": 7
+     "fgm": 41,
+     "fga": 99,
+     "fg3m": 18,
+     "fg3a": 50,
+     "ftm": 18,
+     "fta": 29,
+     "oreb": 19,
+     "dreb": 31,
+     "tov": 14,
+     "pf": 20,
+     "ast": 21,
+     "stl": 8,
+     "blk": 3,
+     "pts_paint": 42,
+     "pts_second_chance": 19,
+     "pts_fast_break": 27,
+     "pts_off_tov": 28,
+     "pts_bench": 20,
+     "biggest_lead": 4,
+     "lead_changes": 8
     },
     "leaders": [
      {
-      "name": "Luka Dončić",
-      "pts": 29,
-      "reb": 2,
-      "ast": 5,
-      "min": "30:26"
+      "name": "Quentin Grimes",
+      "pts": 47,
+      "reb": 6,
+      "ast": 3,
+      "min": "41:33"
      },
      {
-      "name": "Quentin Grimes",
-      "pts": 26,
-      "reb": 5,
-      "ast": 2,
-      "min": "26:04"
+      "name": "Luka Dončić",
+      "pts": 36,
+      "reb": 7,
+      "ast": 7,
+      "min": "42:20"
      },
      {
       "name": "Collin Sexton",
-      "pts": 8,
-      "reb": 2,
-      "ast": 2,
-      "min": "14:27"
+      "pts": 10,
+      "reb": 4,
+      "ast": 3,
+      "min": "25:12"
      }
     ]
    },
    "away": {
     "team": "CHA",
-    "score": 97,
+    "score": 114,
     "periods": [
      34,
      32,
      28,
+     17,
      3
     ],
     "stats": {
-     "fgm": 34,
-     "fga": 65,
-     "fg3m": 16,
-     "fg3a": 40,
-     "ftm": 13,
-     "fta": 14,
-     "oreb": 9,
-     "dreb": 25,
-     "tov": 11,
-     "pf": 20,
-     "ast": 20,
-     "stl": 7,
-     "blk": 2,
-     "pts_paint": 32,
-     "pts_second_chance": 13,
+     "fgm": 40,
+     "fga": 87,
+     "fg3m": 18,
+     "fg3a": 54,
+     "ftm": 16,
+     "fta": 20,
+     "oreb": 12,
+     "dreb": 39,
+     "tov": 20,
+     "pf": 27,
+     "ast": 24,
+     "stl": 8,
+     "blk": 4,
+     "pts_paint": 40,
+     "pts_second_chance": 14,
      "pts_fast_break": 9,
      "pts_off_tov": 11,
-     "pts_bench": 24,
+     "pts_bench": 27,
      "biggest_lead": 18,
-     "lead_changes": 7
+     "lead_changes": 8
     },
     "leaders": [
      {
       "name": "Brandon Miller",
-      "pts": 26,
-      "reb": 1,
-      "ast": 3,
-      "min": "23:57"
+      "pts": 28,
+      "reb": 2,
+      "ast": 4,
+      "min": "32:23"
      },
      {
       "name": "Naz Reid",
-      "pts": 19,
-      "reb": 9,
+      "pts": 23,
+      "reb": 11,
       "ast": 4,
-      "min": "28:08"
+      "min": "41:30"
      },
      {
       "name": "Coby White",
-      "pts": 13,
-      "reb": 1,
+      "pts": 19,
+      "reb": 3,
       "ast": 4,
-      "min": "20:50"
+      "min": "25:34"
      }
     ]
    },
@@ -627,6 +629,10 @@
     {
      "t": 37.5,
      "m": -10
+    },
+    {
+     "t": 53.0,
+     "m": 4
     }
    ]
   }
