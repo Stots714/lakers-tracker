@@ -1,0 +1,571 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600256,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (11:13 PM EST),period,start,1,0,1
+0022600256,4,PT12M00.00S,1,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Jump Ball Looney vs. Diabate: Tip to Grimes,Jump Ball,,1,0,2
+0022600256,7,PT11M47.00S,1,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,Miller S.FOUL (P1.T1) (Z.Zarba),Foul,Shooting,1,0,3
+0022600256,9,PT11M47.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,MISS Doncic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,4
+0022600256,10,PT11M47.00S,1,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,0,0,5
+0022600256,11,PT11M47.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,MISS Doncic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,6
+0022600256,12,PT11M47.00S,1,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,7
+0022600256,13,PT11M29.00S,1,1610612766,CHA,1629684,Williams,G. Williams,233,11,0,Missed,1,,,0,v,MISS Williams 3PT Jump Shot,Missed Shot,Jump Shot,1,3,8
+0022600256,14,PT11M29.00S,1,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,0,0,9
+0022600256,16,PT11M22.00S,1,1610612766,CHA,1629684,Williams,G. Williams,-149,219,26,Missed,1,,,0,v,MISS Williams 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,10
+0022600256,17,PT11M22.00S,1,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,11
+0022600256,18,PT11M11.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,132,242,28,Missed,1,,,0,h,MISS Doncic 28' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,12
+0022600256,19,PT11M11.00S,1,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,13
+0022600256,20,PT11M06.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,17,33,4,Missed,1,,,0,h,MISS Doncic 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,14
+0022600256,21,PT11M06.00S,1,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,15
+0022600256,22,PT11M05.00S,1,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,Made,1,2,0,2,h,Looney Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,16
+0022600256,23,PT10M47.00S,1,1610612766,CHA,1629684,Williams,G. Williams,-16,16,2,Made,1,2,2,4,v,Williams 2' Cutting Layup Shot (2 PTS) (Reid 1 AST),Made Shot,Cutting Layup Shot,1,2,17
+0022600256,25,PT10M27.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,-124,230,26,Missed,1,,,0,h,MISS Doncic 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,18
+0022600256,26,PT10M27.00S,1,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,19
+0022600256,27,PT10M14.00S,1,1610612766,CHA,1641706,Miller,B. Miller,-78,82,11,Made,1,2,4,6,v,Miller 11' Pullup Jump Shot (2 PTS) (White 1 AST),Made Shot,Pullup Jump shot,1,2,20
+0022600256,29,PT09M47.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,46,10,5,Missed,1,,,0,h,MISS Doncic 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,21
+0022600256,30,PT09M47.00S,1,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,White REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,22
+0022600256,31,PT09M40.00S,1,1610612766,CHA,1629675,Reid,N. Reid,-67,257,27,Made,1,2,7,9,v,Reid 27' 3PT Running Jump Shot (3 PTS) (White 2 AST),Made Shot,Running Jump Shot,1,3,23
+0022600256,33,PT09M18.00S,1,1610612747,LAL,1629656,Grimes,Q. Grimes,16,37,4,Made,1,4,7,11,h,Grimes 4' Driving Bank Hook Shot (2 PTS) (LaRavia 1 AST),Made Shot,Driving Bank Hook Shot,1,2,24
+0022600256,34,PT09M10.00S,1,1610612766,CHA,1629675,Reid,N. Reid,42,31,5,Made,1,4,9,13,v,Reid 5' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,25
+0022600256,35,PT08M59.00S,1,1610612747,LAL,1631222,LaRavia,J. LaRavia,20,28,3,Made,1,6,9,15,h,LaRavia 3' Cutting Layup Shot (2 PTS) (Doncic 1 AST),Made Shot,Cutting Layup Shot,1,2,26
+0022600256,37,PT08M51.00S,1,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,White Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,27
+0022600256,37,PT08M51.00S,1,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,Thybulle STEAL (1 STL),,,1,0,28
+0022600256,39,PT08M47.00S,1,1610612747,LAL,1631222,LaRavia,J. LaRavia,-6,11,1,Made,1,8,9,17,h,LaRavia 1' Running Reverse Layup (4 PTS) (Grimes 1 AST),Made Shot,Running Reverse Layup Shot,1,2,29
+0022600256,41,PT08M22.00S,1,1610612766,CHA,1629684,Williams,G. Williams,-162,52,17,Missed,1,,,0,v,MISS Williams 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,30
+0022600256,42,PT08M22.00S,1,1610612766,CHA,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,31
+0022600256,43,PT08M15.00S,1,1610612766,CHA,1629684,Williams,G. Williams,233,13,0,Missed,1,,,0,v,MISS Williams 3PT Jump Shot,Missed Shot,Jump Shot,1,3,32
+0022600256,44,PT08M15.00S,1,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,Thybulle REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,33
+0022600256,45,PT08M07.00S,1,1610612747,LAL,1629680,Thybulle,M. Thybulle,131,233,27,Missed,1,,,0,h,MISS Thybulle 27' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,34
+0022600256,46,PT08M07.00S,1,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,35
+0022600256,47,PT07M55.00S,1,1610612766,CHA,1641706,Miller,B. Miller,-237,27,24,Missed,1,,,0,v,MISS Miller 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,36
+0022600256,48,PT07M55.00S,1,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,37
+0022600256,49,PT07M49.00S,1,1610612766,CHA,1629684,Williams,G. Williams,-186,195,27,Missed,1,,,0,v,MISS Williams 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,38
+0022600256,50,PT07M49.00S,1,1610612747,LAL,1631222,LaRavia,J. LaRavia,0,0,0,,0,,,0,h,LaRavia REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,39
+0022600256,51,PT07M37.00S,1,1610612747,LAL,1629656,Grimes,Q. Grimes,-29,18,3,Missed,1,,,0,h,MISS Grimes 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,40
+0022600256,52,PT07M37.00S,1,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,41
+0022600256,53,PT07M30.00S,1,1610612766,CHA,1641706,Miller,B. Miller,-230,33,0,Made,1,8,12,20,v,Miller 3PT Running Jump Shot (5 PTS) (Reid 2 AST),Made Shot,Running Jump Shot,1,3,42
+0022600256,55,PT07M29.00S,1,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,43
+0022600256,59,PT07M29.00S,1,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,SUB: Williams FOR Looney,Substitution,,0,0,44
+0022600256,60,PT07M29.00S,1,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,SUB: Vanderbilt FOR Grimes,Substitution,,0,0,45
+0022600256,62,PT07M29.00S,1,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,SUB: James FOR White,Substitution,,0,0,46
+0022600256,63,PT07M13.00S,1,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,269,27,Made,1,11,12,23,h,Thybulle 27' 3PT Jump Shot (3 PTS) (Doncic 2 AST),Made Shot,Jump Shot,1,3,47
+0022600256,65,PT06M55.00S,1,1610612766,CHA,1629675,Reid,N. Reid,136,12,14,Made,1,11,14,25,v,Reid 14' Turnaround Hook Shot (7 PTS),Made Shot,Turnaround Hook Shot,1,2,48
+0022600256,66,PT06M38.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,-120,34,12,Made,1,13,14,27,h,Doncic 12' Fadeaway Jumper (2 PTS) (LaRavia 2 AST),Made Shot,Fadeaway Jump Shot,1,2,49
+0022600256,68,PT06M20.00S,1,1610612747,LAL,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,Williams P.FOUL (P1.T1) (J.Sterling),Foul,Personal,1,0,50
+0022600256,71,PT06M20.00S,1,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,SUB: Grimes FOR Thybulle,Substitution,,0,0,51
+0022600256,73,PT06M20.00S,1,1610612766,CHA,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,SUB: O'Neale FOR Williams,Substitution,,0,0,52
+0022600256,74,PT06M11.00S,1,1610612766,CHA,1641706,Miller,B. Miller,47,101,11,Missed,1,,,0,v,MISS Miller 11' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,53
+0022600256,75,PT06M11.00S,1,1610612747,LAL,1631222,LaRavia,J. LaRavia,0,0,0,,0,,,0,h,LaRavia REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,54
+0022600256,76,PT05M58.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,44,265,27,Missed,1,,,0,h,MISS Doncic 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,55
+0022600256,77,PT05M58.00S,1,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,Vanderbilt REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,56
+0022600256,78,PT05M56.00S,1,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,Made,1,15,14,29,h,Vanderbilt Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,57
+0022600256,79,PT05M51.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic P.FOUL (P1.T2) (N.Buchert),Foul,Personal,1,0,58
+0022600256,82,PT05M51.00S,1,1610612747,LAL,1631222,LaRavia,J. LaRavia,0,0,0,,0,,,0,h,SUB: Mamukelashvili FOR LaRavia,Substitution,,0,0,59
+0022600256,83,PT05M44.00S,1,1610612747,LAL,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,Williams S.FOUL (P2.T3) (N.Buchert),Foul,Shooting,1,0,60
+0022600256,85,PT05M44.00S,1,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,15,15,30,v,Miller Free Throw 1 of 3 (6 PTS),Free Throw,Free Throw 1 of 3,1,0,61
+0022600256,86,PT05M44.00S,1,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,15,16,31,v,Miller Free Throw 2 of 3 (7 PTS),Free Throw,Free Throw 2 of 3,1,0,62
+0022600256,89,PT05M44.00S,1,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,SUB: Kalkbrenner FOR Diabate,Substitution,,0,0,63
+0022600256,87,PT05M44.00S,1,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,15,17,32,v,Miller Free Throw 3 of 3 (8 PTS),Free Throw,Free Throw 3 of 3,1,0,64
+0022600256,90,PT05M31.00S,1,1610612747,LAL,1629656,Grimes,Q. Grimes,-11,268,27,Made,1,18,17,35,h,Grimes 27' 3PT Jump Shot (5 PTS) (Doncic 3 AST),Made Shot,Jump Shot,1,3,65
+0022600256,94,PT05M19.00S,1,1610612766,CHA,1641706,Miller,B. Miller,235,35,24,Made,1,18,20,38,v,Miller 24' 3PT Jump Shot (11 PTS) (James 1 AST),Made Shot,Jump Shot,1,3,66
+0022600256,96,PT05M04.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,68,111,13,Made,1,20,20,40,h,Doncic 13' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,67
+0022600256,97,PT04M52.00S,1,1610612766,CHA,1629675,Reid,N. Reid,-44,66,8,Made,1,20,22,42,v,Reid 8' Driving Floating Jump Shot (9 PTS) (James 2 AST),Made Shot,Driving Floating Jump Shot,1,2,68
+0022600256,98,PT04M39.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,39,251,25,Missed,1,,,0,h,MISS Doncic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,69
+0022600256,99,PT04M39.00S,1,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,0,0,70
+0022600256,102,PT04M37.00S,1,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,Grimes Step Out of Bounds Turnover (P1.T1),Turnover,Step Out of Bounds Turnover,1,0,71
+0022600256,103,PT04M27.00S,1,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,Grimes P.FOUL (P1.T4) (Z.Zarba),Foul,Personal,1,0,72
+0022600256,105,PT04M21.00S,1,1610612766,CHA,1641706,Miller,B. Miller,-182,194,27,Missed,1,,,0,v,MISS Miller 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,73
+0022600256,106,PT04M21.00S,1,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,,0,,,0,v,Kalkbrenner REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,74
+0022600256,107,PT04M19.00S,1,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,Made,1,20,24,44,v,Kalkbrenner Tip Dunk Shot (2 PTS),Made Shot,Tip Dunk Shot,1,2,75
+0022600256,108,PT04M07.00S,1,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,Miller P.FOUL (P2.T2) (J.Sterling),Foul,Personal,1,0,76
+0022600256,111,PT04M07.00S,1,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,SUB: Salaun FOR Miller,Substitution,,0,0,77
+0022600256,112,PT03M57.00S,1,1610612747,LAL,1629656,Grimes,Q. Grimes,93,263,28,Made,1,23,24,47,h,Grimes 28' 3PT Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,3,78
+0022600256,113,PT03M46.00S,1,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,79
+0022600256,115,PT03M46.00S,1,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,SUB: Sexton FOR Grimes,Substitution,,0,0,80
+0022600256,116,PT03M33.00S,1,1610612766,CHA,1629675,Reid,N. Reid,3,266,27,Made,1,23,27,50,v,Reid 27' 3PT Step Back Jump Shot (12 PTS),Made Shot,Step Back Jump shot,1,3,81
+0022600256,117,PT03M09.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,-5,168,17,Missed,1,,,0,h,MISS Doncic 17' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,82
+0022600256,118,PT03M09.00S,1,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,0,0,0,,0,,,0,h,Mamukelashvili REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,83
+0022600256,119,PT03M05.00S,1,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,-185,196,27,Missed,1,,,0,h,MISS Mamukelashvili 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,84
+0022600256,120,PT03M05.00S,1,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,Vanderbilt REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,85
+0022600256,121,PT02M58.00S,1,1610612747,LAL,1629012,Sexton,C. Sexton,220,147,26,Missed,1,,,0,h,MISS Sexton 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,86
+0022600256,122,PT02M58.00S,1,1610612766,CHA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,87
+0022600256,123,PT02M46.00S,1,1610612766,CHA,1626220,O'Neale,R. O'Neale,-12,271,27,Missed,1,,,0,v,MISS O'Neale 27' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,88
+0022600256,124,PT02M46.00S,1,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,Vanderbilt REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,89
+0022600256,125,PT02M27.00S,1,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,-191,179,26,Missed,1,,,0,h,MISS Mamukelashvili 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,90
+0022600256,126,PT02M27.00S,1,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,,0,,,0,v,Kalkbrenner REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,91
+0022600256,127,PT02M15.00S,1,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,Vanderbilt S.FOUL (P1.PN) (N.Buchert),Foul,Shooting,1,0,92
+0022600256,129,PT02M15.00S,1,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,,0,23,28,51,v,Kalkbrenner Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,93
+0022600256,132,PT02M15.00S,1,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,SUB: Cooper FOR Vanderbilt,Substitution,,0,0,94
+0022600256,130,PT02M15.00S,1,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,,0,23,29,52,v,Kalkbrenner Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,95
+0022600256,133,PT02M05.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,84,258,27,Made,1,26,29,55,h,Doncic 27' 3PT Step Back Jump Shot (7 PTS),Made Shot,Step Back Jump shot,1,3,96
+0022600256,134,PT01M56.00S,1,1610612766,CHA,1626220,O'Neale,R. O'Neale,99,252,27,Made,1,26,32,58,v,O'Neale 27' 3PT Jump Shot (3 PTS) (James 3 AST),Made Shot,Jump Shot,1,3,97
+0022600256,136,PT01M43.00S,1,1610612747,LAL,1629012,Sexton,C. Sexton,41,37,6,Made,1,28,32,60,h,Sexton 6' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,98
+0022600256,137,PT01M30.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic P.FOUL (P2.PN) (Z.Zarba),Foul,Personal,1,0,99
+0022600256,139,PT01M30.00S,1,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,28,33,61,v,Reid Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,100
+0022600256,142,PT01M30.00S,1,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,,0,,,0,v,SUB: Diabate FOR Kalkbrenner,Substitution,,0,0,101
+0022600256,140,PT01M30.00S,1,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,28,34,62,v,Reid Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,102
+0022600256,143,PT01M26.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic Out of Bounds - Bad Pass Turnover Turnover (P1.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,103
+0022600256,144,PT01M19.00S,1,1610612766,CHA,1626220,O'Neale,R. O'Neale,143,244,28,Missed,1,,,0,v,MISS O'Neale 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,104
+0022600256,145,PT01M19.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,105
+0022600256,146,PT01M09.00S,1,1610612747,LAL,1629029,Dončić,L. Dončić,-94,263,28,Missed,1,,,0,h,MISS Doncic 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,106
+0022600256,147,PT01M09.00S,1,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,107
+0022600256,148,PT00M58.50S,1,1610612766,CHA,1642275,Salaün,T. Salaün,0,0,0,,0,,,0,v,Salaun P.FOUL (P1.T3) (J.Sterling),Foul,Personal,1,0,108
+0022600256,150,PT00M54.40S,1,1610612747,LAL,1629029,Dončić,L. Dončić,-59,37,7,Made,1,30,34,64,h,Doncic 7' Turnaround Jump Shot (9 PTS) (Sexton 1 AST),Made Shot,Turnaround Jump Shot,1,2,109
+0022600256,151,PT00M33.40S,1,1610612766,CHA,1629675,Reid,N. Reid,-41,58,7,Missed,1,,,0,v,MISS Reid 7' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,110
+0022600256,152,PT00M33.40S,1,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,Cooper REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,111
+0022600256,153,PT00M22.30S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic OFF.Foul (P3) (N.Buchert),Foul,Offensive,1,0,112
+0022600256,155,PT00M22.30S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic Offensive Foul Turnover (P2.T3),Turnover,Offensive Foul Turnover,1,0,113
+0022600256,157,PT00M22.30S,1,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,114
+0022600256,158,PT00M22.30S,1,0,,0,,,0,0,0,,0,30,34,64,,Instant Replay1st Period (11:40 PM EST),Instant Replay,Coach Challenge Ruling Stands,0,0,115
+0022600256,160,PT00M22.30S,1,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,SUB: Thybulle FOR Doncic,Substitution,,0,0,116
+0022600256,164,PT00M22.30S,1,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,SUB: Williams FOR James,Substitution,,0,0,117
+0022600256,165,PT00M22.30S,1,1610612766,CHA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Anderson FOR O'Neale,Substitution,,0,0,118
+0022600256,166,PT00M22.30S,1,1610612766,CHA,1642275,Salaün,T. Salaün,0,0,0,,0,,,0,v,SUB: White FOR Salaun,Substitution,,0,0,119
+0022600256,167,PT00M01.80S,1,1610612766,CHA,1629632,White,C. White,-38,82,9,Missed,1,,,0,v,MISS White 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,120
+0022600256,167,PT00M01.80S,1,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,Thybulle BLOCK (1 BLK),,,1,2,121
+0022600256,168,PT00M01.80S,1,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,Thybulle REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,122
+0022600256,170,PT00M00.00S,1,0,,0,,,0,0,0,,0,30,34,64,,End of 1st Period (11:43 PM EST),period,end,1,0,123
+0022600256,177,PT12M00.00S,2,0,,0,,,0,0,0,,0,30,34,64,,Start of 2nd Period (11:47 PM EST),period,start,1,0,124
+0022600256,178,PT11M45.00S,2,1610612766,CHA,1643515,Anderson,C. Anderson,173,198,26,Missed,1,,,0,v,MISS Anderson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,125
+0022600256,179,PT11M45.00S,2,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,126
+0022600256,180,PT11M37.00S,2,1610612747,LAL,1629012,Sexton,C. Sexton,37,27,5,Missed,1,,,0,h,MISS Sexton 5' Running Layup,Missed Shot,Running Layup Shot,1,2,127
+0022600256,180,PT11M37.00S,2,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate BLOCK (1 BLK),,,1,2,128
+0022600256,181,PT11M37.00S,2,1610612766,CHA,1642275,Salaün,T. Salaün,0,0,0,,0,,,0,v,Salaun REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,129
+0022600256,183,PT11M21.00S,2,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate OFF.Foul (P1) (Z.Zarba),Foul,Offensive,1,0,130
+0022600256,185,PT11M21.00S,2,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate Offensive Foul Turnover (P1.T2),Turnover,Offensive Foul Turnover,1,0,131
+0022600256,186,PT11M10.00S,2,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,232,43,24,Missed,1,,,0,h,MISS Mamukelashvili 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,132
+0022600256,187,PT11M10.00S,2,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,133
+0022600256,188,PT10M50.00S,2,1610612766,CHA,1629684,Williams,G. Williams,-141,225,27,Missed,1,,,0,v,MISS Williams 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,134
+0022600256,189,PT10M50.00S,2,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,Grimes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,135
+0022600256,190,PT10M41.00S,2,1610612747,LAL,1629656,Grimes,Q. Grimes,-187,175,26,Made,1,33,34,67,h,Grimes 26' 3PT Running Pull-Up Jump Shot (11 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,136
+0022600256,218,PT10M32.00S,2,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,White Lost Ball Turnover (P2.T3),Turnover,Lost Ball,1,0,137
+0022600256,218,PT10M32.00S,2,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,0,0,0,,0,,,0,h,Mamukelashvili STEAL (1 STL),,,1,0,138
+0022600256,193,PT10M19.00S,2,1610612747,LAL,1629656,Grimes,Q. Grimes,-208,146,25,Made,1,36,34,70,h,Grimes 25' 3PT Pullup Jump Shot (14 PTS),Made Shot,Pullup Jump shot,1,3,139
+0022600256,194,PT10M17.00S,2,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,140
+0022600256,196,PT10M17.00S,2,1610612766,CHA,1642275,Salaün,T. Salaün,0,0,0,,0,,,0,v,SUB: Miller FOR Salaun,Substitution,,0,0,141
+0022600256,197,PT10M07.00S,2,1610612766,CHA,1629632,White,C. White,-173,223,28,Made,1,36,37,73,v,White 28' 3PT Jump Shot (3 PTS) (Miller 1 AST),Made Shot,Jump Shot,1,3,142
+0022600256,199,PT09M45.00S,2,1610612747,LAL,1629656,Grimes,Q. Grimes,-131,226,26,Missed,1,,,0,h,MISS Grimes 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,143
+0022600256,200,PT09M45.00S,2,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,0,0,144
+0022600256,202,PT09M38.00S,2,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,86,18,9,Missed,1,,,0,h,MISS Mamukelashvili 9' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,145
+0022600256,203,PT09M38.00S,2,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,Cooper REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,146
+0022600256,204,PT09M31.00S,2,1610612747,LAL,1642876,Thiero,A. Thiero,-236,-8,24,Missed,1,,,0,h,MISS Thiero 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,147
+0022600256,205,PT09M31.00S,2,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,0,0,148
+0022600256,206,PT09M29.00S,2,1610612766,CHA,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams L.B.FOUL (P1.T1) (Z.Zarba),Foul,Loose Ball,1,0,149
+0022600256,208,PT09M15.00S,2,1610612747,LAL,1642876,Thiero,A. Thiero,-51,79,9,Missed,1,,,0,h,MISS Thiero 9' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,150
+0022600256,209,PT09M15.00S,2,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,151
+0022600256,211,PT09M04.00S,2,1610612766,CHA,1629684,Williams,G. Williams,0,64,6,Made,1,36,39,75,v,Williams 6' Pullup Jump Shot (4 PTS) (Anderson 1 AST),Made Shot,Pullup Jump shot,1,2,152
+0022600256,212,PT08M52.00S,2,1610612747,LAL,1629012,Sexton,C. Sexton,-24,36,4,Missed,1,,,0,h,MISS Sexton 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,153
+0022600256,213,PT08M52.00S,2,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,154
+0022600256,214,PT08M44.00S,2,1610612766,CHA,1629632,White,C. White,17,274,27,Made,1,36,42,78,v,White 27' 3PT Jump Shot (6 PTS) (Miller 2 AST),Made Shot,Jump Shot,1,3,155
+0022600256,216,PT08M42.00S,2,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,156
+0022600256,222,PT08M42.00S,2,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,0,0,0,,0,,,0,h,SUB: Looney FOR Mamukelashvili,Substitution,,0,0,157
+0022600256,223,PT08M42.00S,2,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,SUB: Thybulle FOR Cooper,Substitution,,0,0,158
+0022600256,225,PT08M42.00S,2,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,SUB: Kalkbrenner FOR Diabate,Substitution,,0,0,159
+0022600256,226,PT08M32.00S,2,1610612747,LAL,1629012,Sexton,C. Sexton,-57,124,14,Made,1,38,42,80,h,Sexton 14' Pullup Jump Shot (4 PTS) (Thiero 1 AST),Made Shot,Pullup Jump shot,1,2,160
+0022600256,228,PT08M20.00S,2,1610612766,CHA,1629684,Williams,G. Williams,-230,7,0,Made,1,38,45,83,v,Williams 3PT Jump Shot (7 PTS) (Miller 3 AST),Made Shot,Jump Shot,1,3,161
+0022600256,230,PT08M08.00S,2,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton Lost Ball Turnover (P1.T4),Turnover,Lost Ball,1,0,162
+0022600256,230,PT08M08.00S,2,1610612766,CHA,1643515,Anderson,C. Anderson,0,0,0,,0,,,0,v,Anderson STEAL (1 STL),,,1,0,163
+0022600256,232,PT07M50.00S,2,1610612766,CHA,1629632,White,C. White,5,150,15,Missed,1,,,0,v,MISS White 15' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,164
+0022600256,233,PT07M50.00S,2,1610612766,CHA,1643515,Anderson,C. Anderson,0,0,0,,0,,,0,v,Anderson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,165
+0022600256,234,PT07M48.00S,2,1610612766,CHA,1643515,Anderson,C. Anderson,0,0,0,Made,1,38,47,85,v,Anderson Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,166
+0022600256,235,PT07M36.00S,2,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,Grimes Lost Ball Turnover (P2.T5),Turnover,Lost Ball,1,0,167
+0022600256,235,PT07M36.00S,2,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,White STEAL (1 STL),,,1,0,168
+0022600256,237,PT07M15.00S,2,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,6,17,2,Made,1,38,49,87,v,Kalkbrenner 2' Dunk (6 PTS) (Anderson 2 AST),Made Shot,Dunk Shot,1,2,169
+0022600256,239,PT06M57.00S,2,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton Bad Pass Turnover (P2.T6),Turnover,Bad Pass,1,0,170
+0022600256,239,PT06M57.00S,2,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,,0,,,0,v,Kalkbrenner STEAL (1 STL),,,1,0,171
+0022600256,244,PT06M52.00S,2,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,SUB: Doncic FOR Sexton,Substitution,,0,0,172
+0022600256,246,PT06M52.00S,2,1610612766,CHA,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,SUB: O'Neale FOR Williams,Substitution,,0,0,173
+0022600256,242,PT06M52.00S,2,1610612747,LAL,1642876,Thiero,A. Thiero,0,0,0,,0,,,0,h,Jump Ball Thiero vs. White: Tip to Looney,Jump Ball,,1,0,174
+0022600256,249,PT06M50.00S,2,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,White Lost Ball Turnover (P3.T4),Turnover,Lost Ball,1,0,175
+0022600256,249,PT06M50.00S,2,1610612747,LAL,1642876,Thiero,A. Thiero,0,0,0,,0,,,0,h,Thiero STEAL (1 STL),,,1,0,176
+0022600256,251,PT06M43.00S,2,1610612747,LAL,1629680,Thybulle,M. Thybulle,12,265,27,Made,1,41,49,90,h,Thybulle 27' 3PT Running Jump Shot (6 PTS) (Doncic 4 AST),Made Shot,Running Jump Shot,1,3,177
+0022600256,253,PT06M21.00S,2,1610612766,CHA,1641706,Miller,B. Miller,237,15,24,Made,1,41,52,93,v,Miller 24' 3PT Pullup Jump Shot (14 PTS) (Anderson 3 AST),Made Shot,Pullup Jump shot,1,3,178
+0022600256,255,PT05M58.00S,2,1610612747,LAL,1629680,Thybulle,M. Thybulle,-150,214,26,Missed,1,,,0,h,MISS Thybulle 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,179
+0022600256,256,PT05M58.00S,2,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,Grimes REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,180
+0022600256,257,PT05M50.00S,2,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,Grimes Bad Pass Turnover (P3.T7),Turnover,Bad Pass,1,0,181
+0022600256,257,PT05M50.00S,2,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,White STEAL (2 STL),,,1,0,182
+0022600256,259,PT05M45.00S,2,1610612766,CHA,1626220,O'Neale,R. O'Neale,-226,2,0,Missed,1,,,0,v,MISS O'Neale 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,183
+0022600256,260,PT05M45.00S,2,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,Thybulle REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,184
+0022600256,261,PT05M32.00S,2,1610612766,CHA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale P.FOUL (P1.T2) (Z.Zarba),Foul,Personal,1,0,185
+0022600256,265,PT05M32.00S,2,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,SUB: LaRavia FOR Grimes,Substitution,,0,0,186
+0022600256,266,PT05M32.00S,2,1610612747,LAL,1642876,Thiero,A. Thiero,0,0,0,,0,,,0,h,SUB: Mamukelashvili FOR Thiero,Substitution,,0,0,187
+0022600256,270,PT05M32.00S,2,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,,0,,,0,v,SUB: Diabate FOR Kalkbrenner,Substitution,,0,0,188
+0022600256,271,PT05M32.00S,2,1610612766,CHA,1643515,Anderson,C. Anderson,0,0,0,,0,,,0,v,SUB: Reid FOR Anderson,Substitution,,0,0,189
+0022600256,272,PT05M32.00S,2,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,SUB: James FOR White,Substitution,,0,0,190
+0022600256,273,PT05M24.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,37,111,12,Made,1,43,52,95,h,Doncic 12' Driving Floating Jump Shot (12 PTS),Made Shot,Driving Floating Jump Shot,1,2,191
+0022600256,274,PT05M24.00S,2,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate S.FOUL (P2.T3) (N.Buchert),Foul,Shooting,1,0,192
+0022600256,276,PT05M24.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,44,52,96,h,Doncic Free Throw 1 of 1 (12 PTS),Free Throw,Free Throw 1 of 1,1,0,193
+0022600256,277,PT05M09.00S,2,1610612766,CHA,1641706,Miller,B. Miller,-44,286,29,Made,1,44,55,99,v,Miller 29' 3PT Pullup Jump Shot (17 PTS),Made Shot,Pullup Jump shot,1,3,194
+0022600256,278,PT04M56.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,42,85,9,Missed,1,,,0,h,MISS Doncic 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,195
+0022600256,279,PT04M56.00S,2,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,196
+0022600256,281,PT04M38.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,226,87,24,Missed,1,,,0,h,MISS Doncic 24' 3PT Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,3,197
+0022600256,282,PT04M38.00S,2,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,198
+0022600256,285,PT04M25.00S,2,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,SUB: Vanderbilt FOR Looney,Substitution,,0,0,199
+0022600256,286,PT04M19.00S,2,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate Bad Pass Turnover (P2.T5),Turnover,Bad Pass,1,0,200
+0022600256,286,PT04M19.00S,2,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,Thybulle STEAL (2 STL),,,1,0,201
+0022600256,288,PT04M06.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,198,202,28,Made,1,47,55,102,h,Doncic 28' 3PT Jump Shot (15 PTS),Made Shot,Jump Shot,1,3,202
+0022600256,289,PT03M47.00S,2,1610612766,CHA,1641706,Miller,B. Miller,-33,65,7,Made,1,47,57,104,v,Miller 7' Driving Floating Jump Shot (19 PTS),Made Shot,Driving Floating Jump Shot,1,2,203
+0022600256,290,PT03M36.00S,2,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James P.FOUL (P1.T4) (J.Sterling),Foul,Personal,1,0,204
+0022600256,292,PT03M36.00S,2,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,205
+0022600256,293,PT03M36.00S,2,0,,0,,,0,0,0,,0,47,57,104,,Instant Replay2nd Period (12:07 AM EST),Instant Replay,Coach Challenge Ruling Stands,0,0,206
+0022600256,294,PT03M24.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic Lost Ball Turnover (P3.T8),Turnover,Lost Ball,1,0,207
+0022600256,294,PT03M24.00S,2,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid STEAL (1 STL),,,1,0,208
+0022600256,297,PT03M04.00S,2,1610612766,CHA,1641706,Miller,B. Miller,-88,314,33,Missed,1,,,0,v,MISS Miller 33' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,209
+0022600256,298,PT03M04.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,210
+0022600256,299,PT02M57.00S,2,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid S.FOUL (P1.PN) (J.Sterling),Foul,Shooting,1,0,211
+0022600256,301,PT02M57.00S,2,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,0,0,0,,0,48,57,105,h,Mamukelashvili Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,212
+0022600256,304,PT02M57.00S,2,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,SUB: Grimes FOR Thybulle,Substitution,,0,0,213
+0022600256,306,PT02M57.00S,2,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,SUB: Anderson FOR Miller,Substitution,,0,0,214
+0022600256,302,PT02M57.00S,2,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,0,0,0,,0,,,0,h,MISS Mamukelashvili Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,215
+0022600256,307,PT02M57.00S,2,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,Vanderbilt REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,216
+0022600256,308,PT02M50.00S,2,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,-6,55,6,Missed,1,,,0,h,MISS Mamukelashvili 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,217
+0022600256,309,PT02M50.00S,2,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,Vanderbilt REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,218
+0022600256,310,PT02M47.00S,2,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,Made,1,50,57,107,h,Vanderbilt Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,219
+0022600256,311,PT02M32.00S,2,1610612766,CHA,1629675,Reid,N. Reid,66,136,15,Made,1,50,59,109,v,Reid 15' Step Back Jump Shot (16 PTS),Made Shot,Step Back Jump shot,1,2,220
+0022600256,312,PT02M15.00S,2,1610612747,LAL,1629029,Dončić,L. Dončić,-72,77,11,Made,1,52,59,111,h,Doncic 11' Driving Floating Bank Jump Shot (17 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,221
+0022600256,313,PT02M03.00S,2,1610612766,CHA,1626220,O'Neale,R. O'Neale,231,107,25,Made,1,52,62,114,v,O'Neale 25' 3PT Jump Shot (6 PTS) (Reid 3 AST),Made Shot,Jump Shot,1,3,222
+0022600256,315,PT01M33.00S,2,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,38,39,5,Missed,1,,,0,h,MISS Mamukelashvili 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,223
+0022600256,316,PT01M33.00S,2,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,224
+0022600256,317,PT01M23.00S,2,1610612766,CHA,1642883,James,S. James,234,35,24,Missed,1,,,0,v,MISS James 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,225
+0022600256,318,PT01M23.00S,2,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,0,0,0,,0,,,0,h,Mamukelashvili REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,226
+0022600256,319,PT01M15.00S,2,1610612747,LAL,1629656,Grimes,Q. Grimes,-30,41,5,Made,1,54,62,116,h,Grimes 5' Running Pull-Up Jump Shot (16 PTS) (Mamukelashvili 1 AST),Made Shot,Running Pull-Up Jump Shot,1,2,227
+0022600256,321,PT00M53.20S,2,1610612766,CHA,1643515,Anderson,C. Anderson,-38,285,29,Missed,1,,,0,v,MISS Anderson 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,228
+0022600256,322,PT00M53.20S,2,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,0,0,0,,0,,,0,h,Mamukelashvili REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,229
+0022600256,323,PT00M40.20S,2,1610612747,LAL,1631222,LaRavia,J. LaRavia,-3,107,11,Missed,1,,,0,h,MISS LaRavia 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,230
+0022600256,324,PT00M40.20S,2,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,Vanderbilt REBOUND (Off:5 Def:1),Rebound,Unknown,1,0,231
+0022600256,325,PT00M38.00S,2,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,Missed,1,,,0,h,MISS Vanderbilt Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,232
+0022600256,326,PT00M38.00S,2,1610612747,LAL,1631222,LaRavia,J. LaRavia,0,0,0,,0,,,0,h,LaRavia REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,233
+0022600256,327,PT00M34.20S,2,1610612747,LAL,1629029,Dončić,L. Dončić,-206,153,26,Made,1,57,62,119,h,Doncic 26' 3PT Step Back Jump Shot (20 PTS),Made Shot,Step Back Jump shot,1,3,234
+0022600256,328,PT00M13.60S,2,1610612766,CHA,1629675,Reid,N. Reid,-49,285,29,Made,1,57,65,122,v,Reid 29' 3PT Pullup Jump Shot (19 PTS),Made Shot,Pullup Jump shot,1,3,235
+0022600256,329,PT00M08.30S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic OFF.Foul (P4) (J.Sterling),Foul,Offensive,1,0,236
+0022600256,331,PT00M08.30S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic Offensive Foul Turnover (P4.T9),Turnover,Offensive Foul Turnover,1,0,237
+0022600256,332,PT00M08.30S,2,0,,200755,Redick,J. Redick,0,0,0,,0,,,0,,Jonathan Redick Foul:T.FOUL (Z.Zarba),Foul,Technical,1,0,238
+0022600256,333,PT00M08.30S,2,1610612766,CHA,1626220,O'Neale,R. O'Neale,0,0,0,,0,57,66,123,v,O'Neale Free Throw Technical (7 PTS),Free Throw,Free Throw Technical,1,0,239
+0022600256,336,PT00M08.30S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,SUB: Williams FOR Doncic,Substitution,,0,0,240
+0022600256,337,PT00M08.30S,2,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,0,0,0,,0,,,0,h,SUB: Thybulle FOR Mamukelashvili,Substitution,,0,0,241
+0022600256,339,PT00M08.30S,2,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,SUB: Williams FOR James,Substitution,,0,0,242
+0022600256,340,PT00M04.70S,2,1610612766,CHA,1643515,Anderson,C. Anderson,0,0,0,,0,,,0,v,Anderson Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,243
+0022600256,342,PT00M04.70S,2,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,SUB: Doncic FOR Vanderbilt,Substitution,,0,0,244
+0022600256,344,PT00M04.70S,2,1610612766,CHA,1643515,Anderson,C. Anderson,0,0,0,,0,,,0,v,SUB: James FOR Anderson,Substitution,,0,0,245
+0022600256,345,PT00M01.50S,2,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James P.FOUL (P2.PN) (J.Sterling),Foul,Personal,1,0,246
+0022600256,347,PT00M01.50S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,58,66,124,h,Doncic Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,1,0,247
+0022600256,348,PT00M01.50S,2,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,59,66,125,h,Doncic Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,1,0,248
+0022600256,349,PT00M00.00S,2,0,,0,,,0,0,0,,0,59,66,125,,End of 2nd Period (12:17 AM EST),period,end,1,0,249
+0022600256,356,PT12M00.00S,3,0,,0,,,0,0,0,,0,59,66,125,,Start of 3rd Period (12:33 AM EST),period,start,1,0,250
+0022600256,357,PT11M39.00S,3,1610612766,CHA,1641706,Miller,B. Miller,154,239,28,Missed,1,,,0,v,MISS Miller 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,251
+0022600256,358,PT11M39.00S,3,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,Grimes REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,252
+0022600256,359,PT11M25.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,-1,103,10,Missed,1,,,0,h,MISS Doncic 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,253
+0022600256,360,PT11M25.00S,3,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,254
+0022600256,361,PT11M11.00S,3,1610612747,LAL,1629656,Grimes,Q. Grimes,-109,266,29,Missed,1,,,0,h,MISS Grimes 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,255
+0022600256,362,PT11M11.00S,3,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,256
+0022600256,363,PT10M51.00S,3,1610612766,CHA,1641706,Miller,B. Miller,234,105,26,Missed,1,,,0,v,MISS Miller 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,257
+0022600256,364,PT10M51.00S,3,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,258
+0022600256,365,PT10M39.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,-116,254,28,Missed,1,,,0,h,MISS Doncic 28' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,259
+0022600256,366,PT10M39.00S,3,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,260
+0022600256,367,PT10M33.00S,3,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,Thybulle S.FOUL (P1.T1) (J.Sterling),Foul,Shooting,1,0,261
+0022600256,369,PT10M33.00S,3,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,59,67,126,v,Diabate Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,262
+0022600256,370,PT10M33.00S,3,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,MISS Diabate Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,263
+0022600256,371,PT10M33.00S,3,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,Grimes REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,264
+0022600256,372,PT10M18.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,55,59,8,Missed,1,,,0,h,MISS Doncic 8' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,265
+0022600256,372,PT10M18.00S,3,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid BLOCK (1 BLK),,,1,2,266
+0022600256,373,PT10M18.00S,3,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:5 Def:2),Rebound,Unknown,1,0,267
+0022600256,374,PT10M12.00S,3,1610612747,LAL,1626172,Looney,K. Looney,0,39,4,Made,1,61,67,128,h,Looney 4' Hook Shot (4 PTS),Made Shot,Hook Shot,1,2,268
+0022600256,375,PT10M01.00S,3,1610612766,CHA,1629632,White,C. White,130,277,31,Missed,1,,,0,v,MISS White 31' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,269
+0022600256,376,PT10M01.00S,3,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,270
+0022600256,377,PT09M46.00S,3,1610612766,CHA,1641706,Miller,B. Miller,42,57,7,Made,1,61,69,130,v,Miller 7' Driving Hook Shot (21 PTS) (White 3 AST),Made Shot,Driving Hook Shot,1,2,271
+0022600256,379,PT09M34.00S,3,1610612747,LAL,1631222,LaRavia,J. LaRavia,0,0,0,,0,,,0,h,LaRavia Lost Ball Turnover (P1.T10),Turnover,Lost Ball,1,0,272
+0022600256,379,PT09M34.00S,3,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,White STEAL (3 STL),,,1,0,273
+0022600256,381,PT09M31.00S,3,1610612766,CHA,1631217,Diabaté,M. Diabaté,-6,1,1,Made,1,61,71,132,v,Diabate 1' Running Dunk (3 PTS) (Reid 4 AST),Made Shot,Running Dunk Shot,1,2,274
+0022600256,383,PT09M16.00S,3,1610612747,LAL,1629656,Grimes,Q. Grimes,17,20,3,Made,1,63,71,134,h,Grimes 3' Driving Layup (18 PTS),Made Shot,Driving Layup Shot,1,2,275
+0022600256,385,PT09M16.00S,3,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate S.FOUL (P3.T1) (J.Sterling),Foul,Shooting,1,0,276
+0022600256,390,PT09M16.00S,3,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,SUB: Kalkbrenner FOR Diabate,Substitution,,0,0,277
+0022600256,388,PT09M16.00S,3,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,64,71,135,h,Grimes Free Throw 1 of 1 (19 PTS),Free Throw,Free Throw 1 of 1,1,0,278
+0022600256,391,PT09M08.00S,3,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,Miller Backcourt Turnover (P1.T7),Turnover,Backcourt Turnover,0,0,279
+0022600256,392,PT09M03.00S,3,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,White P.FOUL (P1.T2) (Z.Zarba),Foul,Personal,1,0,280
+0022600256,394,PT08M54.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,-82,151,17,Missed,1,,,0,h,MISS Doncic 17' Jump Shot,Missed Shot,Jump Shot,1,2,281
+0022600256,395,PT08M54.00S,3,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,282
+0022600256,396,PT08M45.00S,3,1610612766,CHA,1629632,White,C. White,-236,-9,24,Missed,1,,,0,v,MISS White 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,283
+0022600256,397,PT08M45.00S,3,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,Thybulle REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,284
+0022600256,398,PT08M38.00S,3,1610612747,LAL,1629656,Grimes,Q. Grimes,-138,238,28,Made,1,67,71,138,h,Grimes 28' 3PT Running Pull-Up Jump Shot (22 PTS) (Doncic 5 AST),Made Shot,Running Pull-Up Jump Shot,1,3,285
+0022600256,400,PT08M16.00S,3,1610612766,CHA,1629632,White,C. White,-53,125,14,Made,1,67,73,140,v,White 14' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,286
+0022600256,401,PT08M04.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,-108,132,17,Made,1,69,73,142,h,Doncic 17' Step Back Jump Shot (24 PTS),Made Shot,Step Back Jump shot,1,2,287
+0022600256,402,PT07M45.00S,3,1610612766,CHA,1641706,Miller,B. Miller,-188,195,27,Made,1,69,76,145,v,Miller 27' 3PT Pullup Jump Shot (24 PTS),Made Shot,Pullup Jump shot,1,3,288
+0022600256,403,PT07M23.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,-107,242,26,Made,1,72,76,148,h,Doncic 26' 3PT Step Back Jump Shot (27 PTS),Made Shot,Step Back Jump shot,1,3,289
+0022600256,404,PT07M04.00S,3,1610612766,CHA,1629684,Williams,G. Williams,-171,198,26,Made,1,72,79,151,v,Williams 26' 3PT Jump Shot (10 PTS) (Kalkbrenner 1 AST),Made Shot,Jump Shot,1,3,290
+0022600256,406,PT06M37.00S,3,1610612747,LAL,1629656,Grimes,Q. Grimes,22,63,7,Missed,1,,,0,h,MISS Grimes 7' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,291
+0022600256,407,PT06M37.00S,3,1610612766,CHA,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,292
+0022600256,408,PT06M29.00S,3,1610612766,CHA,1629632,White,C. White,-192,176,26,Missed,1,,,0,v,MISS White 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,293
+0022600256,409,PT06M29.00S,3,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,1,0,294
+0022600256,410,PT06M26.00S,3,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,,0,,,0,v,Kalkbrenner L.B.FOUL (P1.T3) (J.Sterling),Foul,Loose Ball,1,0,295
+0022600256,412,PT06M26.00S,3,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,296
+0022600256,415,PT06M26.00S,3,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,SUB: Vanderbilt FOR Thybulle,Substitution,,0,0,297
+0022600256,416,PT06M26.00S,3,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,SUB: Williams FOR Looney,Substitution,,0,0,298
+0022600256,419,PT06M26.00S,3,1610612766,CHA,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,SUB: Anderson FOR Williams,Substitution,,0,0,299
+0022600256,420,PT06M26.00S,3,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,SUB: James FOR White,Substitution,,0,0,300
+0022600256,421,PT06M08.00S,3,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,,0,,,0,v,Kalkbrenner S.FOUL (P2.T4) (J.Sterling),Foul,Shooting,1,0,301
+0022600256,423,PT06M08.00S,3,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,MISS Vanderbilt Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,302
+0022600256,424,PT06M08.00S,3,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,0,0,303
+0022600256,425,PT06M08.00S,3,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,MISS Vanderbilt Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,304
+0022600256,426,PT06M08.00S,3,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,,0,,,0,v,Kalkbrenner REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,305
+0022600256,427,PT05M47.00S,3,1610612766,CHA,1642883,James,S. James,-28,19,3,Made,1,72,81,153,v,James 3' Driving Reverse Layup (2 PTS) (Anderson 4 AST),Made Shot,Driving Reverse Layup Shot,1,2,306
+0022600256,429,PT05M47.00S,3,1610612747,LAL,1631222,LaRavia,J. LaRavia,0,0,0,,0,,,0,h,LaRavia S.FOUL (P1.T2) (J.Sterling),Foul,Shooting,1,0,307
+0022600256,433,PT05M47.00S,3,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,,0,,,0,v,SUB: Diabate FOR Kalkbrenner,Substitution,,0,0,308
+0022600256,431,PT05M47.00S,3,1610612766,CHA,1642883,James,S. James,0,0,0,,0,72,82,154,v,James Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,309
+0022600256,434,PT05M25.00S,3,1610612747,LAL,1631222,LaRavia,J. LaRavia,-110,239,26,Missed,1,,,0,h,MISS LaRavia 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,310
+0022600256,435,PT05M25.00S,3,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,311
+0022600256,436,PT05M11.00S,3,1610612766,CHA,1643515,Anderson,C. Anderson,26,36,4,Missed,1,,,0,v,MISS Anderson 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,312
+0022600256,437,PT05M11.00S,3,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,1,0,313
+0022600256,438,PT05M11.00S,3,1610612747,LAL,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,Williams L.B.FOUL (P3.T3) (N.Buchert),Foul,Loose Ball,1,0,314
+0022600256,441,PT05M11.00S,3,1610612747,LAL,1631222,LaRavia,J. LaRavia,0,0,0,,0,,,0,h,SUB: Mamukelashvili FOR LaRavia,Substitution,,0,0,315
+0022600256,442,PT05M00.00S,3,1610612766,CHA,1641706,Miller,B. Miller,86,107,14,Made,1,72,84,156,v,Miller 14' Turnaround Jump Shot (26 PTS),Made Shot,Turnaround Jump Shot,1,2,316
+0022600256,443,PT04M47.00S,3,1610612747,LAL,1629656,Grimes,Q. Grimes,2,35,4,Made,1,74,84,158,h,Grimes 4' Driving Finger Roll Layup (24 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,317
+0022600256,444,PT04M47.00S,3,1610612766,CHA,1643515,Anderson,C. Anderson,0,0,0,,0,,,0,v,Anderson S.FOUL (P1.PN) (N.Buchert),Foul,Shooting,1,0,318
+0022600256,448,PT04M47.00S,3,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,SUB: O'Neale FOR Miller,Substitution,,0,0,319
+0022600256,446,PT04M47.00S,3,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,MISS Grimes Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,320
+0022600256,449,PT04M47.00S,3,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,321
+0022600256,450,PT04M29.00S,3,1610612766,CHA,1642883,James,S. James,-165,205,26,Missed,1,,,0,v,MISS James 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,322
+0022600256,451,PT04M29.00S,3,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,323
+0022600256,452,PT04M15.00S,3,1610612766,CHA,1629675,Reid,N. Reid,-8,266,27,Missed,1,,,0,v,MISS Reid 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,324
+0022600256,453,PT04M15.00S,3,1610612747,LAL,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,325
+0022600256,457,PT04M02.00S,3,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,SUB: Sexton FOR Grimes,Substitution,,0,0,326
+0022600256,458,PT03M54.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,-139,223,26,Missed,1,,,0,h,MISS Doncic 26' 3PT Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,3,327
+0022600256,459,PT03M54.00S,3,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,Vanderbilt REBOUND (Off:6 Def:1),Rebound,Unknown,1,0,328
+0022600256,460,PT03M42.00S,3,1610612747,LAL,1630533,Williams,Z. Williams,237,35,24,Missed,1,,,0,h,MISS Williams 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,329
+0022600256,461,PT03M42.00S,3,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,330
+0022600256,462,PT03M19.00S,3,1610612766,CHA,1643515,Anderson,C. Anderson,238,40,24,Missed,1,,,0,v,MISS Anderson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,331
+0022600256,463,PT03M19.00S,3,1610612766,CHA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,332
+0022600256,464,PT03M08.00S,3,1610612766,CHA,1643515,Anderson,C. Anderson,204,154,26,Made,1,74,87,161,v,Anderson 26' 3PT Jump Shot (5 PTS) (James 4 AST),Made Shot,Jump Shot,1,3,333
+0022600256,466,PT02M42.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,3,66,7,Missed,1,,,0,h,MISS Doncic 7' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,334
+0022600256,467,PT02M42.00S,3,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:2 Def:10),Rebound,Unknown,1,0,335
+0022600256,468,PT02M33.00S,3,1610612766,CHA,1643515,Anderson,C. Anderson,208,151,26,Missed,1,,,0,v,MISS Anderson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,336
+0022600256,469,PT02M33.00S,3,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,0,0,337
+0022600256,471,PT02M31.00S,3,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,338
+0022600256,473,PT02M31.00S,3,1610612747,LAL,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,h,SUB: Cooper FOR Vanderbilt,Substitution,,0,0,339
+0022600256,475,PT02M31.00S,3,1610612766,CHA,1643515,Anderson,C. Anderson,0,0,0,,0,,,0,v,SUB: White FOR Anderson,Substitution,,0,0,340
+0022600256,476,PT02M25.00S,3,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid P.FOUL (P2.PN) (Z.Zarba),Foul,Personal,1,0,341
+0022600256,478,PT02M25.00S,3,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,MISS Cooper Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,342
+0022600256,479,PT02M25.00S,3,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,1,0,343
+0022600256,480,PT02M25.00S,3,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,MISS Cooper Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,344
+0022600256,481,PT02M25.00S,3,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,345
+0022600256,482,PT02M08.00S,3,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton S.FOUL (P1.T4) (N.Buchert),Foul,Shooting,1,0,346
+0022600256,484,PT02M08.00S,3,1610612766,CHA,1629632,White,C. White,0,0,0,,0,74,88,162,v,White Free Throw 1 of 3 (9 PTS),Free Throw,Free Throw 1 of 3,1,0,347
+0022600256,485,PT02M08.00S,3,1610612766,CHA,1629632,White,C. White,0,0,0,,0,74,89,163,v,White Free Throw 2 of 3 (10 PTS),Free Throw,Free Throw 2 of 3,1,0,348
+0022600256,486,PT02M08.00S,3,1610612766,CHA,1629632,White,C. White,0,0,0,,0,74,90,164,v,White Free Throw 3 of 3 (11 PTS),Free Throw,Free Throw 3 of 3,1,0,349
+0022600256,487,PT01M58.00S,3,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,-144,233,27,Missed,1,,,0,h,MISS Mamukelashvili 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,350
+0022600256,488,PT01M58.00S,3,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,351
+0022600256,489,PT01M44.00S,3,1610612766,CHA,1629632,White,C. White,-6,111,11,Made,1,74,92,166,v,White 11' Step Back Jump Shot (13 PTS),Made Shot,Step Back Jump shot,1,2,352
+0022600256,490,PT01M25.00S,3,1610612747,LAL,1629029,Dončić,L. Dončić,-180,200,27,Missed,1,,,0,h,MISS Doncic 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,353
+0022600256,491,PT01M25.00S,3,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,0,0,354
+0022600256,492,PT01M24.00S,3,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James L.B.FOUL (P3.PN) (N.Buchert),Foul,Loose Ball,1,0,355
+0022600256,494,PT01M24.00S,3,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,75,92,167,h,Cooper Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,356
+0022600256,497,PT01M24.00S,3,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: Williams FOR Reid,Substitution,,0,0,357
+0022600256,495,PT01M24.00S,3,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,76,92,168,h,Cooper Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,358
+0022600256,498,PT01M03.00S,3,1610612766,CHA,1629684,Williams,G. Williams,131,63,15,Missed,1,,,0,v,MISS Williams 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,359
+0022600256,499,PT01M03.00S,3,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,360
+0022600256,500,PT00M58.70S,3,1610612766,CHA,1631217,Diabaté,M. Diabaté,-3,14,1,Made,1,76,94,170,v,Diabate 1' Putback Layup (5 PTS),Made Shot,Putback Layup Shot,1,2,361
+0022600256,501,PT00M45.70S,3,1610612747,LAL,1629029,Dončić,L. Dončić,-42,82,9,Made,1,78,94,172,h,Doncic 9' Driving Floating Bank Jump Shot (29 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,362
+0022600256,502,PT00M32.90S,3,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,White Bad Pass Turnover (P4.T8),Turnover,Bad Pass,1,0,363
+0022600256,502,PT00M32.90S,3,1610612747,LAL,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,Williams STEAL (1 STL),,,1,0,364
+0022600256,504,PT00M29.30S,3,1610612747,LAL,1629012,Sexton,C. Sexton,-118,215,25,Made,1,81,94,175,h,Sexton 25' 3PT Running Pull-Up Jump Shot (7 PTS) (Cooper 1 AST),Made Shot,Running Pull-Up Jump Shot,1,3,365
+0022600256,505,PT00M12.40S,3,1610612766,CHA,1629632,White,C. White,137,226,26,Missed,1,,,0,v,MISS White 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,366
+0022600256,506,PT00M12.40S,3,1610612766,CHA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,367
+0022600256,508,PT00M05.10S,3,1610612766,CHA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale Backcourt Turnover (P1.T9),Turnover,Backcourt Turnover,1,0,368
+0022600256,510,PT00M05.10S,3,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,SUB: Grimes FOR Cooper,Substitution,,0,0,369
+0022600256,511,PT00M01.20S,3,1610612747,LAL,1629029,Dončić,L. Dončić,-55,347,35,Missed,1,,,0,h,MISS Doncic 35' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,370
+0022600256,512,PT00M01.20S,3,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,1,0,371
+0022600256,513,PT00M00.00S,3,0,,0,,,0,0,0,,0,81,94,175,,End of 3rd Period (1:01 AM EST),period,end,1,0,372
+0022600256,520,PT12M00.00S,4,0,,0,,,0,0,0,,0,81,94,175,,Start of 4th Period (1:05 AM EST),period,start,1,0,373
+0022600256,521,PT11M50.00S,4,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,White S.FOUL (P2.T1) (Z.Zarba),Foul,Shooting,1,0,374
+0022600256,523,PT11M50.00S,4,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,82,94,176,h,Sexton Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,375
+0022600256,524,PT11M50.00S,4,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,MISS Sexton Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,376
+0022600256,525,PT11M50.00S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,Grimes REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,377
+0022600256,526,PT11M38.00S,4,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,Miller S.FOUL (P3.T2) (N.Buchert),Foul,Shooting,1,0,378
+0022600256,529,PT11M38.00S,4,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,83,94,177,h,Cooper Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,379
+0022600256,530,PT11M38.00S,4,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,MISS Cooper Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,380
+0022600256,531,PT11M38.00S,4,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,Miller REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,381
+0022600256,532,PT11M26.00S,4,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton P.FOUL (P2.T1) (Z.Zarba),Foul,Personal,1,0,382
+0022600256,534,PT11M25.00S,4,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,Miller Backcourt Turnover (P2.T10),Turnover,Backcourt Turnover,1,0,383
+0022600256,535,PT11M15.00S,4,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,0,0,0,,0,,,0,h,Mamukelashvili Lost Ball Turnover (P1.T11),Turnover,Lost Ball,1,0,384
+0022600256,535,PT11M15.00S,4,1610612766,CHA,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams STEAL (1 STL),,,1,0,385
+0022600256,537,PT11M00.00S,4,1610612766,CHA,1626220,O'Neale,R. O'Neale,232,53,24,Made,1,83,97,180,v,O'Neale 24' 3PT Jump Shot (10 PTS) (White 4 AST),Made Shot,Jump Shot,1,3,386
+0022600256,539,PT10M48.00S,4,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,0,9,1,Made,1,85,97,182,h,Mamukelashvili 1' Cutting Dunk Shot (3 PTS) (Grimes 2 AST),Made Shot,Cutting Dunk Shot,1,2,387
+0022600256,541,PT10M36.00S,4,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,Miller OFF.Foul (P4) (Z.Zarba),Foul,Offensive,1,0,388
+0022600256,543,PT10M36.00S,4,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,Miller Offensive Foul Turnover (P3.T11),Turnover,Offensive Foul Turnover,1,0,389
+0022600256,545,PT10M36.00S,4,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,SUB: James FOR White,Substitution,,0,0,390
+0022600256,546,PT10M30.00S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,5,8,1,Made,1,87,97,184,h,Grimes 1' Cutting Dunk Shot (26 PTS) (Sexton 2 AST),Made Shot,Cutting Dunk Shot,1,2,391
+0022600256,548,PT10M29.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,392
+0022600256,549,PT10M06.00S,4,1610612766,CHA,1641706,Miller,B. Miller,73,25,8,Made,1,87,99,186,v,Miller 8' Driving Floating Bank Jump Shot (28 PTS) (O'Neale 1 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,393
+0022600256,550,PT09M49.00S,4,1610612747,LAL,1629012,Sexton,C. Sexton,231,35,0,Missed,1,,,0,h,MISS Sexton 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,394
+0022600256,551,PT09M49.00S,4,1610612766,CHA,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,395
+0022600256,552,PT09M36.00S,4,1610612766,CHA,1629684,Williams,G. Williams,229,17,0,Missed,1,,,0,v,MISS Williams 3PT Jump Shot,Missed Shot,Jump Shot,1,3,396
+0022600256,553,PT09M36.00S,4,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,Cooper REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,397
+0022600256,555,PT09M27.00S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,101,250,27,Made,1,90,99,189,h,Grimes 27' 3PT Running Jump Shot (29 PTS) (Mamukelashvili 2 AST),Made Shot,Running Jump Shot,1,3,398
+0022600256,557,PT09M08.00S,4,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,,0,,,0,v,Kalkbrenner Lost Ball Turnover (P1.T12),Turnover,Lost Ball,1,0,399
+0022600256,557,PT09M08.00S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,Grimes STEAL (1 STL),,,1,0,400
+0022600256,559,PT09M04.00S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,-138,251,29,Made,1,93,99,192,h,Grimes 29' 3PT Running Pull-Up Jump Shot (32 PTS) (Williams 1 AST),Made Shot,Running Pull-Up Jump Shot,1,3,401
+0022600256,561,PT08M42.00S,4,1610612747,LAL,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,Williams P.FOUL (P4.T2) (Z.Zarba),Foul,Personal,1,0,402
+0022600256,564,PT08M42.00S,4,1610612747,LAL,1630572,Mamukelashvili,S. Mamukelashvili,0,0,0,,0,,,0,h,SUB: Thybulle FOR Mamukelashvili,Substitution,,0,0,403
+0022600256,567,PT08M42.00S,4,1610612766,CHA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Reid FOR O'Neale,Substitution,,0,0,404
+0022600256,568,PT08M42.00S,4,1610612766,CHA,1641750,Kalkbrenner,R. Kalkbrenner,0,0,0,,0,,,0,v,SUB: Diabate FOR Kalkbrenner,Substitution,,0,0,405
+0022600256,569,PT08M37.00S,4,1610612766,CHA,1629684,Williams,G. Williams,10,13,2,Made,1,93,101,194,v,Williams 2' Reverse Layup (12 PTS) (Diabate 1 AST),Made Shot,Reverse Layup Shot,1,2,406
+0022600256,571,PT08M25.00S,4,1610612747,LAL,1643721,Cooper,C. Cooper,25,19,3,Missed,1,,,0,h,MISS Cooper 3' Dunk,Missed Shot,Dunk Shot,1,2,407
+0022600256,571,PT08M25.00S,4,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,Miller BLOCK (1 BLK),,,1,2,408
+0022600256,572,PT08M25.00S,4,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:3 Def:11),Rebound,Unknown,1,0,409
+0022600256,574,PT08M11.00S,4,1610612766,CHA,1641706,Miller,B. Miller,-210,174,27,Missed,1,,,0,v,MISS Miller 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,410
+0022600256,575,PT08M11.00S,4,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,411
+0022600256,576,PT08M05.00S,4,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,Cooper S.FOUL (P1.T3) (N.Buchert),Foul,Shooting,1,0,412
+0022600256,578,PT08M05.00S,4,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,93,102,195,v,Reid Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,413
+0022600256,581,PT08M05.00S,4,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,SUB: O'Neale FOR Miller,Substitution,,0,0,414
+0022600256,579,PT08M05.00S,4,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,MISS Reid Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,415
+0022600256,582,PT08M05.00S,4,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,Thybulle REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,416
+0022600256,583,PT07M48.00S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,-22,290,29,Made,1,96,102,198,h,Grimes 29' 3PT Pullup Jump Shot (35 PTS) (Sexton 3 AST),Made Shot,Pullup Jump shot,1,3,417
+0022600256,584,PT07M28.00S,4,1610612766,CHA,1626220,O'Neale,R. O'Neale,-213,148,26,Missed,1,,,0,v,MISS O'Neale 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,418
+0022600256,585,PT07M28.00S,4,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,419
+0022600256,586,PT07M25.00S,4,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James Traveling Turnover (P1.T13),Turnover,Traveling,1,0,420
+0022600256,588,PT07M25.00S,4,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,SUB: Looney FOR Cooper,Substitution,,0,0,421
+0022600256,589,PT07M19.00S,4,1610612747,LAL,1629012,Sexton,C. Sexton,77,257,27,Missed,1,,,0,h,MISS Sexton 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,422
+0022600256,590,PT07M19.00S,4,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,423
+0022600256,591,PT07M00.00S,4,1610612766,CHA,1629675,Reid,N. Reid,89,288,30,Missed,1,,,0,v,MISS Reid 30' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,424
+0022600256,592,PT07M00.00S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,h,Grimes REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,425
+0022600256,593,PT06M54.00S,4,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid S.FOUL (P3.T3) (N.Buchert),Foul,Shooting,1,0,426
+0022600256,595,PT06M54.00S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,97,102,199,h,Grimes Free Throw 1 of 2 (36 PTS),Free Throw,Free Throw 1 of 2,1,0,427
+0022600256,598,PT06M54.00S,4,1610612747,LAL,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,SUB: Doncic FOR Williams,Substitution,,0,0,428
+0022600256,596,PT06M54.00S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,98,102,200,h,Grimes Free Throw 2 of 2 (37 PTS),Free Throw,Free Throw 2 of 2,1,0,429
+0022600256,599,PT06M30.00S,4,1610612766,CHA,1629675,Reid,N. Reid,115,267,29,Missed,1,,,0,v,MISS Reid 29' 3PT Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,3,430
+0022600256,600,PT06M30.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,0,0,431
+0022600256,601,PT06M30.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Turnover: Shot Clock (T#14),Turnover,Shot Clock Turnover,0,0,432
+0022600256,602,PT06M13.00S,4,1610612747,LAL,1629012,Sexton,C. Sexton,-231,16,0,Missed,1,,,0,h,MISS Sexton 3PT Jump Shot,Missed Shot,Jump Shot,1,3,433
+0022600256,603,PT06M13.00S,4,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,434
+0022600256,604,PT06M02.00S,4,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,Thybulle P.FOUL (P2.T4) (N.Buchert),Foul,Personal,1,0,435
+0022600256,607,PT06M02.00S,4,1610612766,CHA,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,SUB: Miller FOR Williams,Substitution,,0,0,436
+0022600256,608,PT05M50.00S,4,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James Traveling Turnover (P2.T15),Turnover,Traveling,1,0,437
+0022600256,609,PT05M44.00S,4,1610612747,LAL,1626172,Looney,K. Looney,10,57,6,Missed,1,,,0,h,MISS Looney 6' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,438
+0022600256,610,PT05M44.00S,4,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:3 Def:12),Rebound,Unknown,1,0,439
+0022600256,611,PT05M22.00S,4,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,Miller Traveling Turnover (P4.T16),Turnover,Traveling,1,0,440
+0022600256,612,PT05M11.00S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,30,6,3,Missed,1,,,0,h,MISS Grimes 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,441
+0022600256,613,PT05M11.00S,4,1610612766,CHA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,442
+0022600256,614,PT04M51.00S,4,1610612766,CHA,1626220,O'Neale,R. O'Neale,-123,262,29,Missed,1,,,0,v,MISS O'Neale 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,443
+0022600256,615,PT04M51.00S,4,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:5 Def:3),Rebound,Unknown,1,0,444
+0022600256,618,PT04M45.00S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,445
+0022600256,621,PT04M45.00S,4,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,SUB: Williams FOR Sexton,Substitution,,0,0,446
+0022600256,622,PT04M45.00S,4,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,SUB: Cooper FOR Looney,Substitution,,0,0,447
+0022600256,624,PT04M45.00S,4,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,SUB: White FOR James,Substitution,,0,0,448
+0022600256,625,PT04M28.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,71,17,7,Missed,1,,,0,h,MISS Doncic 7' Turnaround Bank Shot,Missed Shot,Turnaround Bank shot,1,2,449
+0022600256,626,PT04M28.00S,4,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,Cooper REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,450
+0022600256,627,PT04M24.00S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,53,270,28,Made,1,101,102,203,h,Grimes 28' 3PT Jump Shot (40 PTS) (Cooper 2 AST),Made Shot,Jump Shot,1,3,451
+0022600256,629,PT04M05.00S,4,1610612766,CHA,1641706,Miller,B. Miller,22,80,8,Missed,1,,,0,v,MISS Miller 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,452
+0022600256,630,PT04M05.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,453
+0022600256,631,PT03M45.00S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,117,248,27,Missed,1,,,0,h,MISS Grimes 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,454
+0022600256,632,PT03M45.00S,4,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,White REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,455
+0022600256,633,PT03M24.00S,4,1610612766,CHA,1629632,White,C. White,-2,115,12,Made,1,101,104,205,v,White 12' Pullup Jump Shot (15 PTS),Made Shot,Pullup Jump shot,1,2,456
+0022600256,634,PT03M16.00S,4,1610612766,CHA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale P.FOUL (P2.T4) (Z.Zarba),Foul,Personal,1,0,457
+0022600256,636,PT03M05.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,-3,289,29,Made,1,104,104,208,h,Doncic 29' 3PT Jump Shot (32 PTS) (Grimes 3 AST),Made Shot,Jump Shot,1,3,458
+0022600256,638,PT02M43.00S,4,1610612766,CHA,1626220,O'Neale,R. O'Neale,246,-3,25,Made,1,104,107,211,v,O'Neale 25' 3PT Jump Shot (13 PTS) (Miller 4 AST),Made Shot,Jump Shot,1,3,459
+0022600256,640,PT02M28.00S,4,1610612747,LAL,1629680,Thybulle,M. Thybulle,236,79,25,Missed,1,,,0,h,MISS Thybulle 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,460
+0022600256,641,PT02M28.00S,4,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,White REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,461
+0022600256,642,PT02M06.00S,4,1610612766,CHA,1641706,Miller,B. Miller,-165,206,26,Missed,1,,,0,v,MISS Miller 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,462
+0022600256,642,PT02M06.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic BLOCK (1 BLK),,,1,3,463
+0022600256,643,PT02M06.00S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,0,0,464
+0022600256,646,PT01M42.00S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,-9,38,4,Missed,1,,,0,h,MISS Grimes 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,465
+0022600256,647,PT01M42.00S,4,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,466
+0022600256,648,PT01M22.00S,4,1610612766,CHA,1629675,Reid,N. Reid,-31,58,7,Missed,1,,,0,v,MISS Reid 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,467
+0022600256,649,PT01M22.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,468
+0022600256,650,PT01M08.00S,4,1610612766,CHA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale P.FOUL (P3.PN) (Z.Zarba),Foul,Personal,1,0,469
+0022600256,652,PT01M08.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,105,107,212,h,Doncic Free Throw 1 of 2 (33 PTS),Free Throw,Free Throw 1 of 2,1,0,470
+0022600256,653,PT01M08.00S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,106,107,213,h,Doncic Free Throw 2 of 2 (34 PTS),Free Throw,Free Throw 2 of 2,1,0,471
+0022600256,654,PT00M50.90S,4,1610612766,CHA,1629632,White,C. White,66,32,7,Made,1,106,109,215,v,White 7' Fadeaway Jumper (17 PTS),Made Shot,Fadeaway Jump Shot,1,2,472
+0022600256,655,PT00M36.90S,4,1610612747,LAL,1629029,Dončić,L. Dončić,-112,240,26,Missed,1,,,0,h,MISS Doncic 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,473
+0022600256,656,PT00M36.90S,4,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,Miller REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,474
+0022600256,657,PT00M33.10S,4,1610612747,LAL,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,Williams Personal Take Foul (P5.PN) (N.Buchert),Foul,Personal Take,1,0,475
+0022600256,659,PT00M33.10S,4,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,MISS White Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,476
+0022600256,660,PT00M33.10S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Normal Rebound,0,0,477
+0022600256,663,PT00M33.10S,4,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,SUB: Looney FOR Thybulle,Substitution,,0,0,478
+0022600256,661,PT00M33.10S,4,1610612766,CHA,1629632,White,C. White,0,0,0,,0,106,110,216,v,White Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,479
+0022600256,664,PT00M33.10S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,480
+0022600256,666,PT00M33.10S,4,1610612747,LAL,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,SUB: Thybulle FOR Looney,Substitution,,0,0,481
+0022600256,669,PT00M33.10S,4,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,SUB: James FOR White,Substitution,,0,0,482
+0022600256,670,PT00M33.10S,4,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: Williams FOR Reid,Substitution,,0,0,483
+0022600256,671,PT00M31.30S,4,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,Thybulle Out of Bounds - Bad Pass Turnover Turnover (P1.T12),Turnover,Out of Bounds - Bad Pass Turnover,1,0,484
+0022600256,673,PT00M31.30S,4,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,SUB: LaRavia FOR Cooper,Substitution,,0,0,485
+0022600256,676,PT00M31.30S,4,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,SUB: White FOR James,Substitution,,0,0,486
+0022600256,677,PT00M31.30S,4,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,SUB: Reid FOR Diabate,Substitution,,0,0,487
+0022600256,678,PT00M27.10S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,488
+0022600256,679,PT00M27.10S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,489
+0022600256,681,PT00M23.60S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Jump Ball Doncic vs. Miller: Tip to LaRavia,Jump Ball,,1,0,490
+0022600256,704,PT00M20.80S,4,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,Miller Lost Ball Turnover (P5.T17),Turnover,Lost Ball,0,0,491
+0022600256,704,PT00M20.80S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic STEAL (1 STL),,,0,0,492
+0022600256,686,PT00M14.80S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,5,35,4,Made,1,108,110,218,h,Grimes 4' Driving Layup (42 PTS) (Doncic 6 AST),Made Shot,Driving Layup Shot,1,2,493
+0022600256,688,PT00M12.10S,4,1610612747,LAL,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,Williams Personal Take Foul (P6.PN) (J.Sterling),Foul,Personal Take,1,0,494
+0022600256,692,PT00M12.10S,4,1610612747,LAL,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,SUB: Sexton FOR Williams,Substitution,,0,0,495
+0022600256,690,PT00M12.10S,4,1610612766,CHA,1629632,White,C. White,0,0,0,,0,108,111,219,v,White Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,1,0,496
+0022600256,695,PT00M12.10S,4,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,MISS White Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,497
+0022600256,696,PT00M12.10S,4,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,498
+0022600256,699,PT00M02.40S,4,1610612747,LAL,1629656,Grimes,Q. Grimes,213,156,26,Made,1,111,111,222,h,Grimes 26' 3PT Jump Shot (45 PTS) (Doncic 7 AST),Made Shot,Jump Shot,1,3,499
+0022600256,703,PT00M00.00S,4,0,,0,,,0,0,0,,0,111,111,222,,End of 4th Period (1:40 AM EST),period,end,1,0,500
+0022600256,706,PT05M00.00S,5,0,,0,,,0,0,0,,0,111,111,222,,Start of 1st OT (1:43 AM EST),period,start,1,0,501
+0022600256,712,PT05M00.00S,5,1610612747,LAL,1631222,LaRavia,J. LaRavia,0,0,0,,0,,,0,h,SUB: Cooper FOR LaRavia,Substitution,,0,0,502
+0022600256,715,PT05M00.00S,5,1610612766,CHA,1641706,Miller,B. Miller,0,0,0,,0,,,0,v,SUB: James FOR Miller,Substitution,,0,0,503
+0022600256,716,PT05M00.00S,5,1610612766,CHA,1629632,White,C. White,0,0,0,,0,,,0,v,SUB: Diabate FOR White,Substitution,,0,0,504
+0022600256,708,PT05M00.00S,5,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,Jump Ball Cooper vs. Diabate: Tip to Doncic,Jump Ball,,1,0,505
+0022600256,717,PT04M42.00S,5,1610612747,LAL,1629656,Grimes,Q. Grimes,195,182,27,Missed,1,,,0,h,MISS Grimes 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,506
+0022600256,718,PT04M42.00S,5,1610612766,CHA,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,507
+0022600256,719,PT04M24.00S,5,1610612766,CHA,1629675,Reid,N. Reid,109,272,29,Made,1,111,114,225,v,Reid 29' 3PT Pullup Jump Shot (23 PTS) (Diabate 2 AST),Made Shot,Pullup Jump shot,1,3,508
+0022600256,720,PT04M05.00S,5,1610612747,LAL,1629029,Dončić,L. Dončić,26,47,5,Missed,1,,,0,h,MISS Doncic 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,509
+0022600256,721,PT04M05.00S,5,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,510
+0022600256,722,PT03M52.00S,5,1610612766,CHA,1629675,Reid,N. Reid,16,283,28,Missed,1,,,0,v,MISS Reid 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,511
+0022600256,723,PT03M52.00S,5,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,512
+0022600256,724,PT03M45.00S,5,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James S.FOUL (P4.T1) (J.Sterling),Foul,Shooting,1,0,513
+0022600256,726,PT03M45.00S,5,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,112,114,226,h,Sexton Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,514
+0022600256,730,PT03M45.00S,5,1610612747,LAL,1643721,Cooper,C. Cooper,0,0,0,,0,,,0,h,SUB: LaRavia FOR Cooper,Substitution,,0,0,515
+0022600256,728,PT03M45.00S,5,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,113,114,227,h,Sexton Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,516
+0022600256,731,PT03M35.00S,5,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,Thybulle P.FOUL (P3.T1) (N.Buchert),Foul,Personal,1,0,517
+0022600256,733,PT03M35.00S,5,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Turnover: 5 Second Violation (T#18),Turnover,5 Second Violation,0,0,518
+0022600256,734,PT03M15.00S,5,1610612747,LAL,1629029,Dončić,L. Dončić,43,60,7,Made,1,115,114,229,h,Doncic 7' Fadeaway Jumper (36 PTS),Made Shot,Fadeaway Jump Shot,1,2,519
+0022600256,735,PT03M04.00S,5,1610612766,CHA,1629684,Williams,G. Williams,-175,220,28,Missed,1,,,0,v,MISS Williams 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,520
+0022600256,736,PT03M04.00S,5,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,521
+0022600256,737,PT02M46.00S,5,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic Bad Pass Turnover (P5.T13),Turnover,Bad Pass,1,0,522
+0022600256,737,PT02M46.00S,5,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid STEAL (2 STL),,,1,0,523
+0022600256,739,PT02M37.00S,5,1610612766,CHA,1629675,Reid,N. Reid,152,56,16,Missed,1,,,0,v,MISS Reid 16' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,524
+0022600256,740,PT02M37.00S,5,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,525
+0022600256,741,PT02M20.00S,5,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James Violation:Kicked Ball (Z.Zarba),Violation,Kicked Ball,0,0,526
+0022600256,742,PT02M07.00S,5,1610612747,LAL,1629012,Sexton,C. Sexton,-73,24,8,Missed,1,,,0,h,MISS Sexton 8' Jump Shot,Missed Shot,Jump Shot,1,2,527
+0022600256,742,PT02M07.00S,5,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid BLOCK (2 BLK),,,1,2,528
+0022600256,743,PT02M07.00S,5,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,0,0,529
+0022600256,746,PT02M06.00S,5,1610612747,LAL,1631222,LaRavia,J. LaRavia,-137,7,14,Missed,1,,,0,h,MISS LaRavia 14' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,530
+0022600256,747,PT02M06.00S,5,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,0,0,531
+0022600256,748,PT02M06.00S,5,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Turnover: Shot Clock (T#14),Turnover,Shot Clock Turnover,0,0,532
+0022600256,749,PT01M50.00S,5,1610612766,CHA,1629675,Reid,N. Reid,-5,51,5,Missed,1,,,0,v,MISS Reid 5' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,533
+0022600256,750,PT01M50.00S,5,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,534
+0022600256,754,PT01M29.00S,5,1610612747,LAL,1629012,Sexton,C. Sexton,235,-15,24,Missed,1,,,0,h,MISS Sexton 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,535
+0022600256,755,PT01M29.00S,5,1610612747,LAL,1631222,LaRavia,J. LaRavia,0,0,0,,0,,,0,h,LaRavia REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,536
+0022600256,756,PT01M22.00S,5,1610612747,LAL,1629680,Thybulle,M. Thybulle,-177,208,27,Missed,1,,,0,h,MISS Thybulle 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,537
+0022600256,757,PT01M22.00S,5,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,538
+0022600256,759,PT01M02.00S,5,1610612766,CHA,1629675,Reid,N. Reid,-233,17,0,Missed,1,,,0,v,MISS Reid 3PT Jump Shot,Missed Shot,Jump Shot,1,3,539
+0022600256,759,PT01M02.00S,5,1610612747,LAL,1631222,LaRavia,J. LaRavia,0,0,0,,0,,,0,h,LaRavia BLOCK (1 BLK),,,1,3,540
+0022600256,760,PT01M02.00S,5,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate REBOUND (Off:4 Def:12),Rebound,Unknown,1,0,541
+0022600256,762,PT00M55.10S,5,1610612766,CHA,1629675,Reid,N. Reid,-237,16,24,Missed,1,,,0,v,MISS Reid 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,542
+0022600256,763,PT00M55.10S,5,1610612747,LAL,1631222,LaRavia,J. LaRavia,0,0,0,,0,,,0,h,LaRavia REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,543
+0022600256,764,PT00M41.90S,5,1610612747,LAL,1629012,Sexton,C. Sexton,-192,174,26,Missed,1,,,0,h,MISS Sexton 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,544
+0022600256,765,PT00M41.90S,5,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,545
+0022600256,766,PT00M33.40S,5,1610612747,LAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,Doncic P.FOUL (P5.T2) (N.Buchert),Foul,Personal,1,0,546
+0022600256,770,PT00M18.00S,5,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.8 Short 0),Timeout,Regular,0,0,547
+0022600256,773,PT00M18.00S,5,1610612766,CHA,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: Anderson FOR Reid,Substitution,,0,0,548
+0022600256,774,PT00M18.00S,5,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,SUB: McNeeley FOR Diabate,Substitution,,0,0,549
+0022600256,775,PT00M17.40S,5,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James Out of Bounds - Bad Pass Turnover Turnover (P3.T19),Turnover,Out of Bounds - Bad Pass Turnover,1,0,550
+0022600256,776,PT00M17.40S,5,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 7 Short 0),Timeout,Regular,0,0,551
+0022600256,778,PT00M17.40S,5,1610612766,CHA,1642862,McNeeley,L. McNeeley,0,0,0,,0,,,0,v,SUB: Diabate FOR McNeeley,Substitution,,0,0,552
+0022600256,779,PT00M13.70S,5,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,James Personal Take Foul (P5.T2) (N.Buchert),Foul,Personal Take,1,0,553
+0022600256,781,PT00M11.50S,5,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,Diabate Personal Take Foul (P4.PN) (Z.Zarba),Foul,Personal Take,1,0,554
+0022600256,783,PT00M11.50S,5,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,116,114,230,h,Grimes Free Throw 1 of 2 (46 PTS),Free Throw,Free Throw 1 of 2,1,0,555
+0022600256,786,PT00M11.50S,5,1610612766,CHA,1643515,Anderson,C. Anderson,0,0,0,,0,,,0,v,SUB: Kalkbrenner FOR Anderson,Substitution,,0,0,556
+0022600256,784,PT00M11.50S,5,1610612747,LAL,1629656,Grimes,Q. Grimes,0,0,0,,0,117,114,231,h,Grimes Free Throw 2 of 2 (47 PTS),Free Throw,Free Throw 2 of 2,1,0,557
+0022600256,787,PT00M11.50S,5,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.9 Short 0),Timeout,Regular,0,0,558
+0022600256,789,PT00M11.50S,5,1610612747,LAL,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,SUB: Vanderbilt FOR Sexton,Substitution,,0,0,559
+0022600256,792,PT00M11.50S,5,1610612766,CHA,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,v,SUB: Anderson FOR Diabate,Substitution,,0,0,560
+0022600256,793,PT00M11.50S,5,1610612766,CHA,1642883,James,S. James,0,0,0,,0,,,0,v,SUB: McNeeley FOR James,Substitution,,0,0,561
+0022600256,794,PT00M08.80S,5,1610612766,CHA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale Bad Pass Turnover (P2.T20),Turnover,Bad Pass,1,0,562
+0022600256,794,PT00M08.80S,5,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,Thybulle STEAL (3 STL),,,1,0,563
+0022600256,796,PT00M08.80S,5,1610612766,CHA,1642862,McNeeley,L. McNeeley,0,0,0,,0,,,0,v,McNeeley Personal Take Foul (P1.PN) (Z.Zarba),Foul,Personal Take,1,0,564
+0022600256,798,PT00M08.80S,5,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,h,MISS Thybulle Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,565
+0022600256,799,PT00M08.80S,5,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,0,0,566
+0022600256,800,PT00M08.80S,5,1610612747,LAL,1629680,Thybulle,M. Thybulle,0,0,0,,0,118,114,232,h,Thybulle Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,567
+0022600256,801,PT00M02.20S,5,1610612766,CHA,1642862,McNeeley,L. McNeeley,-234,5,0,Missed,1,,,0,v,MISS McNeeley 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,568
+0022600256,802,PT00M02.20S,5,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,0,0,569
+0022600256,803,PT00M00.00S,5,0,,0,,,0,0,0,,0,118,114,232,,End of 1st OT (2:02 AM EST),period,end,1,0,570
