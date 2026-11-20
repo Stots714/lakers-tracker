@@ -1,638 +1,500 @@
 {
- "updated": "2026-11-18T05:27:29-08:00",
- "board_date": "2026-11-17",
+ "updated": "2026-11-19T17:23:52-08:00",
+ "board_date": "2026-11-19",
  "games": [
   {
-   "game_id": "0022600253",
-   "tip_utc": "2026-11-18T00:30:00Z",
-   "status": 3,
-   "status_text": "Final",
-   "period": 4,
-   "clock": "0:00",
+   "game_id": "0022600270",
+   "tip_utc": "2026-11-20T01:00:00Z",
+   "status": 2,
+   "status_text": "Q1 6:00",
+   "period": 1,
+   "clock": "6:00",
    "home": {
-    "team": "TOR",
-    "score": 102,
+    "team": "MEM",
+    "score": 19,
     "periods": [
-     29,
-     21,
-     33,
-     19
+     19,
+     0,
+     0,
+     0
     ],
     "stats": {
-     "fgm": 39,
-     "fga": 78,
-     "fg3m": 14,
-     "fg3a": 35,
-     "ftm": 10,
-     "fta": 18,
-     "oreb": 5,
-     "dreb": 18,
-     "tov": 6,
-     "pf": 20,
-     "ast": 27,
-     "stl": 5,
-     "blk": 6,
-     "pts_paint": 44,
-     "pts_second_chance": 11,
-     "pts_fast_break": 16,
-     "pts_off_tov": 22,
-     "pts_bench": 13,
-     "biggest_lead": 13,
-     "lead_changes": 10
+     "fgm": 7,
+     "fga": 11,
+     "fg3m": 2,
+     "fg3a": 4,
+     "ftm": 3,
+     "fta": 3,
+     "oreb": 0,
+     "dreb": 3,
+     "tov": 1,
+     "pf": 2,
+     "ast": 6,
+     "stl": 2,
+     "blk": 1,
+     "pts_paint": 10,
+     "pts_second_chance": 0,
+     "pts_fast_break": 4,
+     "pts_off_tov": 8,
+     "pts_bench": 0,
+     "biggest_lead": 9,
+     "lead_changes": 0
     },
     "leaders": [
      {
-      "name": "Ja'Kobe Walter",
-      "pts": 25,
-      "reb": 1,
-      "ast": 2,
-      "min": "33:18"
+      "name": "Cameron Boozer",
+      "pts": 7,
+      "reb": 0,
+      "ast": 1,
+      "min": "6:00"
      },
      {
-      "name": "RJ Barrett",
-      "pts": 22,
-      "reb": 5,
-      "ast": 5,
-      "min": "38:41"
+      "name": "Jaylen Wells",
+      "pts": 5,
+      "reb": 3,
+      "ast": 0,
+      "min": "6:00"
      },
      {
-      "name": "Scottie Barnes",
-      "pts": 20,
-      "reb": 4,
+      "name": "Cedric Coward",
+      "pts": 5,
+      "reb": 0,
       "ast": 2,
-      "min": "34:06"
+      "min": "4:46"
      }
     ]
    },
    "away": {
-    "team": "NYK",
-    "score": 111,
+    "team": "GSW",
+    "score": 11,
     "periods": [
-     23,
-     31,
-     26,
-     31
+     11,
+     0,
+     0,
+     0
     ],
     "stats": {
-     "fgm": 41,
-     "fga": 78,
-     "fg3m": 12,
-     "fg3a": 35,
-     "ftm": 17,
-     "fta": 19,
-     "oreb": 12,
-     "dreb": 32,
-     "tov": 13,
-     "pf": 20,
-     "ast": 25,
-     "stl": 3,
-     "blk": 4,
-     "pts_paint": 54,
-     "pts_second_chance": 15,
-     "pts_fast_break": 7,
-     "pts_off_tov": 11,
-     "pts_bench": 26,
-     "biggest_lead": 9,
-     "lead_changes": 10
+     "fgm": 4,
+     "fga": 9,
+     "fg3m": 0,
+     "fg3a": 3,
+     "ftm": 3,
+     "fta": 3,
+     "oreb": 1,
+     "dreb": 4,
+     "tov": 5,
+     "pf": 2,
+     "ast": 2,
+     "stl": 0,
+     "blk": 1,
+     "pts_paint": 8,
+     "pts_second_chance": 2,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 2,
+     "biggest_lead": 0,
+     "lead_changes": 0
     },
     "leaders": [
      {
-      "name": "Jalen Brunson",
-      "pts": 31,
-      "reb": 5,
-      "ast": 5,
-      "min": "34:26"
-     },
-     {
-      "name": "Mikal Bridges",
-      "pts": 17,
-      "reb": 5,
-      "ast": 1,
-      "min": "30:02"
-     },
-     {
-      "name": "OG Anunoby",
-      "pts": 16,
-      "reb": 4,
+      "name": "Charles Bassey",
+      "pts": 7,
+      "reb": 3,
       "ast": 0,
-      "min": "35:48"
+      "min": "4:46"
+     },
+     {
+      "name": "Brandin Podziemski",
+      "pts": 2,
+      "reb": 0,
+      "ast": 0,
+      "min": "5:11"
+     },
+     {
+      "name": "Will Richard",
+      "pts": 2,
+      "reb": 0,
+      "ast": 0,
+      "min": "2:02"
      }
     ]
    },
    "history": [
     {
-     "t": 48.0,
-     "m": -9
+     "t": 6.0,
+     "m": 8
     }
    ]
   },
   {
-   "game_id": "0022600254",
-   "tip_utc": "2026-11-18T01:00:00Z",
-   "status": 3,
-   "status_text": "Final",
-   "period": 4,
-   "clock": "0:00",
+   "game_id": "0022600271",
+   "tip_utc": "2026-11-20T01:00:00Z",
+   "status": 2,
+   "status_text": "Q1 4:40",
+   "period": 1,
+   "clock": "4:40",
    "home": {
-    "team": "MIN",
-    "score": 106,
+    "team": "MIL",
+    "score": 17,
     "periods": [
-     29,
-     20,
-     30,
-     27
+     17,
+     0,
+     0,
+     0
     ],
     "stats": {
-     "fgm": 38,
-     "fga": 82,
-     "fg3m": 18,
-     "fg3a": 40,
-     "ftm": 12,
-     "fta": 24,
-     "oreb": 8,
-     "dreb": 38,
-     "tov": 21,
-     "pf": 24,
-     "ast": 22,
-     "stl": 9,
-     "blk": 6,
-     "pts_paint": 36,
-     "pts_second_chance": 20,
-     "pts_fast_break": 7,
-     "pts_off_tov": 18,
-     "pts_bench": 36,
-     "biggest_lead": 12,
-     "lead_changes": 14
+     "fgm": 6,
+     "fga": 13,
+     "fg3m": 3,
+     "fg3a": 6,
+     "ftm": 2,
+     "fta": 5,
+     "oreb": 4,
+     "dreb": 8,
+     "tov": 3,
+     "pf": 0,
+     "ast": 4,
+     "stl": 1,
+     "blk": 0,
+     "pts_paint": 4,
+     "pts_second_chance": 2,
+     "pts_fast_break": 2,
+     "pts_off_tov": 0,
+     "pts_bench": 3,
+     "biggest_lead": 5,
+     "lead_changes": 5
     },
     "leaders": [
      {
-      "name": "Ayo Dosunmu",
-      "pts": 30,
-      "reb": 4,
-      "ast": 5,
-      "min": "39:17"
+      "name": "Nate Ament",
+      "pts": 7,
+      "reb": 3,
+      "ast": 0,
+      "min": "6:22"
      },
      {
-      "name": "Jaden McDaniels",
-      "pts": 22,
-      "reb": 5,
-      "ast": 4,
-      "min": "36:47"
+      "name": "Tyler Herro",
+      "pts": 4,
+      "reb": 2,
+      "ast": 1,
+      "min": "7:19"
      },
      {
-      "name": "LaMelo Ball",
-      "pts": 18,
-      "reb": 9,
-      "ast": 2,
-      "min": "30:51"
+      "name": "Jaime Jaquez Jr.",
+      "pts": 3,
+      "reb": 0,
+      "ast": 0,
+      "min": "0:57"
      }
     ]
    },
    "away": {
     "team": "POR",
-    "score": 105,
+    "score": 12,
     "periods": [
-     17,
-     31,
-     31,
-     26
+     12,
+     0,
+     0,
+     0
     ],
     "stats": {
-     "fgm": 38,
-     "fga": 96,
-     "fg3m": 16,
-     "fg3a": 44,
-     "ftm": 13,
-     "fta": 20,
-     "oreb": 14,
-     "dreb": 32,
-     "tov": 17,
-     "pf": 24,
-     "ast": 23,
-     "stl": 9,
-     "blk": 4,
-     "pts_paint": 42,
-     "pts_second_chance": 9,
-     "pts_fast_break": 8,
-     "pts_off_tov": 29,
-     "pts_bench": 44,
-     "biggest_lead": 8,
-     "lead_changes": 14
+     "fgm": 5,
+     "fga": 14,
+     "fg3m": 2,
+     "fg3a": 11,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 1,
+     "dreb": 3,
+     "tov": 1,
+     "pf": 2,
+     "ast": 4,
+     "stl": 3,
+     "blk": 0,
+     "pts_paint": 6,
+     "pts_second_chance": 0,
+     "pts_fast_break": 2,
+     "pts_off_tov": 7,
+     "pts_bench": 0,
+     "biggest_lead": 2,
+     "lead_changes": 5
     },
     "leaders": [
      {
-      "name": "Damian Lillard",
-      "pts": 25,
-      "reb": 3,
-      "ast": 5,
-      "min": "31:27"
+      "name": "Sidy Cissoko",
+      "pts": 5,
+      "reb": 0,
+      "ast": 0,
+      "min": "6:22"
      },
      {
-      "name": "Jrue Holiday",
-      "pts": 23,
-      "reb": 5,
-      "ast": 6,
-      "min": "30:53"
+      "name": "Damian Lillard",
+      "pts": 5,
+      "reb": 0,
+      "ast": 0,
+      "min": "7:19"
      },
      {
       "name": "Donovan Clingan",
-      "pts": 12,
-      "reb": 12,
-      "ast": 5,
-      "min": "32:26"
+      "pts": 2,
+      "reb": 2,
+      "ast": 1,
+      "min": "6:22"
      }
     ]
    },
    "history": [
     {
-     "t": 48.0,
+     "t": 7.3,
+     "m": 5
+    }
+   ]
+  },
+  {
+   "game_id": "0022600272",
+   "tip_utc": "2026-11-20T01:00:00Z",
+   "status": 2,
+   "status_text": "Q1 5:03",
+   "period": 1,
+   "clock": "5:03",
+   "home": {
+    "team": "MIN",
+    "score": 17,
+    "periods": [
+     17,
+     0,
+     0,
+     0
+    ],
+    "stats": {
+     "fgm": 7,
+     "fga": 14,
+     "fg3m": 2,
+     "fg3a": 5,
+     "ftm": 1,
+     "fta": 1,
+     "oreb": 1,
+     "dreb": 2,
+     "tov": 0,
+     "pf": 1,
+     "ast": 2,
+     "stl": 2,
+     "blk": 0,
+     "pts_paint": 10,
+     "pts_second_chance": 0,
+     "pts_fast_break": 5,
+     "pts_off_tov": 6,
+     "pts_bench": 0,
+     "biggest_lead": 5,
+     "lead_changes": 2
+    },
+    "leaders": [
+     {
+      "name": "LaMelo Ball",
+      "pts": 9,
+      "reb": 2,
+      "ast": 1,
+      "min": "6:51"
+     },
+     {
+      "name": "Jonathan Kuminga",
+      "pts": 3,
+      "reb": 0,
+      "ast": 0,
+      "min": "6:51"
+     },
+     {
+      "name": "Ayo Dosunmu",
+      "pts": 3,
+      "reb": 1,
+      "ast": 1,
+      "min": "5:50"
+     }
+    ]
+   },
+   "away": {
+    "team": "NYK",
+    "score": 16,
+    "periods": [
+     16,
+     0,
+     0,
+     0
+    ],
+    "stats": {
+     "fgm": 7,
+     "fga": 9,
+     "fg3m": 2,
+     "fg3a": 2,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 6,
+     "tov": 4,
+     "pf": 2,
+     "ast": 4,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 10,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 2,
+     "biggest_lead": 7,
+     "lead_changes": 2
+    },
+    "leaders": [
+     {
+      "name": "Karl-Anthony Towns",
+      "pts": 7,
+      "reb": 3,
+      "ast": 0,
+      "min": "5:50"
+     },
+     {
+      "name": "OG Anunoby",
+      "pts": 5,
+      "reb": 1,
+      "ast": 0,
+      "min": "5:50"
+     },
+     {
+      "name": "Mikal Bridges",
+      "pts": 2,
+      "reb": 0,
+      "ast": 0,
+      "min": "5:50"
+     }
+    ]
+   },
+   "history": [
+    {
+     "t": 7.0,
      "m": 1
     }
    ]
   },
   {
-   "game_id": "0022600255",
-   "tip_utc": "2026-11-18T01:00:00Z",
-   "status": 3,
-   "status_text": "Final",
-   "period": 4,
-   "clock": "0:00",
+   "game_id": "0022600273",
+   "tip_utc": "2026-11-20T01:00:00Z",
+   "status": 2,
+   "status_text": "Q1 4:15",
+   "period": 1,
+   "clock": "4:15",
    "home": {
     "team": "SAS",
-    "score": 93,
+    "score": 16,
     "periods": [
-     33,
-     21,
-     18,
-     21
+     16,
+     0,
+     0,
+     0
     ],
     "stats": {
-     "fgm": 37,
-     "fga": 89,
-     "fg3m": 9,
-     "fg3a": 40,
-     "ftm": 10,
-     "fta": 14,
-     "oreb": 15,
-     "dreb": 28,
-     "tov": 15,
-     "pf": 14,
-     "ast": 25,
-     "stl": 4,
-     "blk": 4,
-     "pts_paint": 44,
-     "pts_second_chance": 20,
-     "pts_fast_break": 15,
-     "pts_off_tov": 14,
-     "pts_bench": 20,
-     "biggest_lead": 14,
-     "lead_changes": 3
+     "fgm": 6,
+     "fga": 11,
+     "fg3m": 2,
+     "fg3a": 5,
+     "ftm": 2,
+     "fta": 2,
+     "oreb": 1,
+     "dreb": 5,
+     "tov": 5,
+     "pf": 1,
+     "ast": 5,
+     "stl": 2,
+     "blk": 1,
+     "pts_paint": 4,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 2,
+     "pts_bench": 2,
+     "biggest_lead": 1,
+     "lead_changes": 2
     },
     "leaders": [
      {
       "name": "Victor Wembanyama",
-      "pts": 25,
-      "reb": 18,
-      "ast": 4,
-      "min": "33:49"
-     },
-     {
-      "name": "Dylan Harper",
-      "pts": 20,
-      "reb": 4,
-      "ast": 2,
-      "min": "34:32"
-     },
-     {
-      "name": "Julian Champagnie",
-      "pts": 14,
-      "reb": 6,
+      "pts": 7,
+      "reb": 2,
       "ast": 0,
-      "min": "29:42"
+      "min": "5:47"
+     },
+     {
+      "name": "Stephon Castle",
+      "pts": 5,
+      "reb": 3,
+      "ast": 2,
+      "min": "7:45"
+     },
+     {
+      "name": "De'Aaron Fox",
+      "pts": 2,
+      "reb": 1,
+      "ast": 0,
+      "min": "3:55"
      }
     ]
    },
    "away": {
-    "team": "DET",
-    "score": 105,
-    "periods": [
-     26,
-     29,
-     23,
-     27
-    ],
-    "stats": {
-     "fgm": 45,
-     "fga": 91,
-     "fg3m": 6,
-     "fg3a": 25,
-     "ftm": 9,
-     "fta": 12,
-     "oreb": 13,
-     "dreb": 30,
-     "tov": 11,
-     "pf": 19,
-     "ast": 31,
-     "stl": 10,
-     "blk": 3,
-     "pts_paint": 60,
-     "pts_second_chance": 9,
-     "pts_fast_break": 24,
-     "pts_off_tov": 22,
-     "pts_bench": 19,
-     "biggest_lead": 12,
-     "lead_changes": 3
-    },
-    "leaders": [
-     {
-      "name": "Cade Cunningham",
-      "pts": 27,
-      "reb": 5,
-      "ast": 6,
-      "min": "37:30"
-     },
-     {
-      "name": "Daniss Jenkins",
-      "pts": 25,
-      "reb": 5,
-      "ast": 5,
-      "min": "38:15"
-     },
-     {
-      "name": "Ausar Thompson",
-      "pts": 14,
-      "reb": 9,
-      "ast": 12,
-      "min": "28:32"
-     }
-    ]
-   },
-   "history": [
-    {
-     "t": 48.0,
-     "m": -12
-    }
-   ]
-  },
-  {
-   "game_id": "0022600257",
-   "tip_utc": "2026-11-18T03:30:00Z",
-   "status": 3,
-   "status_text": "Final",
-   "period": 4,
-   "clock": "0:00",
-   "home": {
     "team": "LAC",
-    "score": 107,
+    "score": 16,
     "periods": [
-     29,
-     33,
-     24,
-     21
+     16,
+     0,
+     0,
+     0
     ],
     "stats": {
-     "fgm": 36,
-     "fga": 83,
-     "fg3m": 14,
-     "fg3a": 37,
-     "ftm": 21,
-     "fta": 27,
-     "oreb": 10,
-     "dreb": 21,
-     "tov": 11,
-     "pf": 17,
-     "ast": 21,
-     "stl": 11,
-     "blk": 7,
-     "pts_paint": 36,
-     "pts_second_chance": 15,
-     "pts_fast_break": 18,
-     "pts_off_tov": 22,
-     "pts_bench": 37,
-     "biggest_lead": 7,
-     "lead_changes": 14
+     "fgm": 7,
+     "fga": 14,
+     "fg3m": 2,
+     "fg3a": 6,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 1,
+     "dreb": 4,
+     "tov": 3,
+     "pf": 3,
+     "ast": 4,
+     "stl": 4,
+     "blk": 0,
+     "pts_paint": 10,
+     "pts_second_chance": 0,
+     "pts_fast_break": 3,
+     "pts_off_tov": 2,
+     "pts_bench": 0,
+     "biggest_lead": 5,
+     "lead_changes": 2
     },
     "leaders": [
      {
-      "name": "Brook Lopez",
-      "pts": 23,
-      "reb": 6,
-      "ast": 2,
-      "min": "23:19"
+      "name": "Max Strus",
+      "pts": 6,
+      "reb": 1,
+      "ast": 0,
+      "min": "7:45"
      },
      {
       "name": "Rui Hachimura",
-      "pts": 20,
-      "reb": 5,
+      "pts": 4,
+      "reb": 2,
       "ast": 1,
-      "min": "27:14"
+      "min": "7:45"
      },
      {
       "name": "Darius Garland",
-      "pts": 20,
-      "reb": 3,
-      "ast": 7,
-      "min": "30:22"
-     }
-    ]
-   },
-   "away": {
-    "team": "UTA",
-    "score": 132,
-    "periods": [
-     35,
-     23,
-     30,
-     44
-    ],
-    "stats": {
-     "fgm": 49,
-     "fga": 84,
-     "fg3m": 20,
-     "fg3a": 38,
-     "ftm": 14,
-     "fta": 18,
-     "oreb": 8,
-     "dreb": 38,
-     "tov": 16,
-     "pf": 20,
-     "ast": 35,
-     "stl": 7,
-     "blk": 4,
-     "pts_paint": 48,
-     "pts_second_chance": 14,
-     "pts_fast_break": 3,
-     "pts_off_tov": 16,
-     "pts_bench": 60,
-     "biggest_lead": 26,
-     "lead_changes": 14
-    },
-    "leaders": [
-     {
-      "name": "Brice Sensabaugh",
-      "pts": 40,
-      "reb": 11,
-      "ast": 5,
-      "min": "34:40"
-     },
-     {
-      "name": "Keyonte George",
-      "pts": 30,
-      "reb": 2,
-      "ast": 11,
-      "min": "35:06"
-     },
-     {
-      "name": "Mo Bamba",
-      "pts": 15,
-      "reb": 10,
-      "ast": 3,
-      "min": "30:48"
+      "pts": 4,
+      "reb": 0,
+      "ast": 0,
+      "min": "7:45"
      }
     ]
    },
    "history": [
     {
-     "t": 48.0,
-     "m": -25
-    }
-   ]
-  },
-  {
-   "game_id": "0022600256",
-   "tip_utc": "2026-11-18T04:00:00Z",
-   "status": 3,
-   "status_text": "Final",
-   "period": 5,
-   "clock": "0:00",
-   "home": {
-    "team": "LAL",
-    "score": 118,
-    "periods": [
-     30,
-     29,
-     22,
-     30,
-     7
-    ],
-    "stats": {
-     "fgm": 41,
-     "fga": 99,
-     "fg3m": 18,
-     "fg3a": 50,
-     "ftm": 18,
-     "fta": 29,
-     "oreb": 19,
-     "dreb": 31,
-     "tov": 14,
-     "pf": 20,
-     "ast": 21,
-     "stl": 8,
-     "blk": 3,
-     "pts_paint": 42,
-     "pts_second_chance": 19,
-     "pts_fast_break": 27,
-     "pts_off_tov": 28,
-     "pts_bench": 20,
-     "biggest_lead": 4,
-     "lead_changes": 8
-    },
-    "leaders": [
-     {
-      "name": "Quentin Grimes",
-      "pts": 47,
-      "reb": 6,
-      "ast": 3,
-      "min": "41:33"
-     },
-     {
-      "name": "Luka Dončić",
-      "pts": 36,
-      "reb": 7,
-      "ast": 7,
-      "min": "42:20"
-     },
-     {
-      "name": "Collin Sexton",
-      "pts": 10,
-      "reb": 4,
-      "ast": 3,
-      "min": "25:12"
-     }
-    ]
-   },
-   "away": {
-    "team": "CHA",
-    "score": 114,
-    "periods": [
-     34,
-     32,
-     28,
-     17,
-     3
-    ],
-    "stats": {
-     "fgm": 40,
-     "fga": 87,
-     "fg3m": 18,
-     "fg3a": 54,
-     "ftm": 16,
-     "fta": 20,
-     "oreb": 12,
-     "dreb": 39,
-     "tov": 20,
-     "pf": 27,
-     "ast": 24,
-     "stl": 8,
-     "blk": 4,
-     "pts_paint": 40,
-     "pts_second_chance": 14,
-     "pts_fast_break": 9,
-     "pts_off_tov": 11,
-     "pts_bench": 27,
-     "biggest_lead": 18,
-     "lead_changes": 8
-    },
-    "leaders": [
-     {
-      "name": "Brandon Miller",
-      "pts": 28,
-      "reb": 2,
-      "ast": 4,
-      "min": "32:23"
-     },
-     {
-      "name": "Naz Reid",
-      "pts": 23,
-      "reb": 11,
-      "ast": 4,
-      "min": "41:30"
-     },
-     {
-      "name": "Coby White",
-      "pts": 19,
-      "reb": 3,
-      "ast": 4,
-      "min": "25:34"
-     }
-    ]
-   },
-   "history": [
-    {
-     "t": 33.9,
-     "m": -13
-    },
-    {
-     "t": 36.0,
-     "m": -13
-    },
-    {
-     "t": 37.5,
-     "m": -10
-    },
-    {
-     "t": 53.0,
-     "m": 4
+     "t": 7.8,
+     "m": 0
     }
    ]
   }
