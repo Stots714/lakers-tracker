@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-19T19:25:41-08:00",
+ "updated": "2026-11-19T19:32:48-08:00",
  "board_date": "2026-11-19",
  "games": [
   {
    "game_id": "0022600270",
    "tip_utc": "2026-11-20T01:00:00Z",
-   "status": 2,
-   "status_text": "Q4 :46.4",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "0:46",
+   "clock": "0:00",
    "home": {
     "team": "MEM",
     "score": 126,
@@ -20,14 +20,14 @@
     ],
     "stats": {
      "fgm": 47,
-     "fga": 89,
+     "fga": 90,
      "fg3m": 15,
-     "fg3a": 34,
+     "fg3a": 35,
      "ftm": 17,
      "fta": 17,
-     "oreb": 15,
+     "oreb": 16,
      "dreb": 25,
-     "tov": 17,
+     "tov": 18,
      "pf": 29,
      "ast": 34,
      "stl": 9,
@@ -66,20 +66,20 @@
    },
    "away": {
     "team": "GSW",
-    "score": 96,
+    "score": 98,
     "periods": [
      24,
      23,
      26,
-     23
+     25
     ],
     "stats": {
      "fgm": 33,
      "fga": 80,
      "fg3m": 5,
      "fg3a": 29,
-     "ftm": 25,
-     "fta": 30,
+     "ftm": 27,
+     "fta": 32,
      "oreb": 18,
      "dreb": 22,
      "tov": 22,
@@ -89,9 +89,9 @@
      "blk": 7,
      "pts_paint": 54,
      "pts_second_chance": 25,
-     "pts_fast_break": 5,
+     "pts_fast_break": 7,
      "pts_off_tov": 19,
-     "pts_bench": 37,
+     "pts_bench": 39,
      "biggest_lead": 0,
      "lead_changes": 0
     },
@@ -114,8 +114,8 @@
       "name": "Will Richard",
       "pts": 15,
       "reb": 5,
-      "ast": 1,
-      "min": "25:51"
+      "ast": 0,
+      "min": "26:37"
      }
     ]
    },
@@ -139,16 +139,20 @@
     {
      "t": 47.2,
      "m": 30
+    },
+    {
+     "t": 48.0,
+     "m": 28
     }
    ]
   },
   {
    "game_id": "0022600271",
    "tip_utc": "2026-11-20T01:00:00Z",
-   "status": 2,
-   "status_text": "Q4 1:45",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "1:45",
+   "clock": "0:00",
    "home": {
     "team": "MIL",
     "score": 114,
@@ -160,15 +164,15 @@
     ],
     "stats": {
      "fgm": 40,
-     "fga": 88,
+     "fga": 91,
      "fg3m": 16,
-     "fg3a": 40,
+     "fg3a": 41,
      "ftm": 18,
      "fta": 26,
      "oreb": 12,
-     "dreb": 22,
-     "tov": 16,
-     "pf": 23,
+     "dreb": 23,
+     "tov": 17,
+     "pf": 25,
      "ast": 21,
      "stl": 14,
      "blk": 1,
@@ -186,46 +190,46 @@
       "pts": 19,
       "reb": 4,
       "ast": 3,
-      "min": "28:58"
+      "min": "30:48"
      },
      {
       "name": "Nate Ament",
       "pts": 18,
       "reb": 9,
       "ast": 0,
-      "min": "33:30"
+      "min": "35:20"
      },
      {
       "name": "Kasparas Jakučionis",
       "pts": 18,
-      "reb": 2,
+      "reb": 3,
       "ast": 2,
-      "min": "20:12"
+      "min": "22:02"
      }
     ]
    },
    "away": {
     "team": "POR",
-    "score": 120,
+    "score": 124,
     "periods": [
      24,
      36,
      36,
-     24
+     28
     ],
     "stats": {
      "fgm": 41,
-     "fga": 76,
+     "fga": 77,
      "fg3m": 17,
-     "fg3a": 42,
-     "ftm": 21,
-     "fta": 27,
+     "fg3a": 43,
+     "ftm": 25,
+     "fta": 32,
      "oreb": 9,
-     "dreb": 33,
-     "tov": 21,
+     "dreb": 36,
+     "tov": 22,
      "pf": 24,
      "ast": 22,
-     "stl": 11,
+     "stl": 12,
      "blk": 5,
      "pts_paint": 42,
      "pts_second_chance": 8,
@@ -238,24 +242,24 @@
     "leaders": [
      {
       "name": "Damian Lillard",
-      "pts": 31,
-      "reb": 5,
+      "pts": 33,
+      "reb": 6,
       "ast": 0,
-      "min": "32:49"
+      "min": "34:39"
      },
      {
       "name": "Scoot Henderson",
       "pts": 27,
       "reb": 7,
       "ast": 3,
-      "min": "33:13"
+      "min": "35:03"
      },
      {
       "name": "Jrue Holiday",
       "pts": 22,
       "reb": 2,
       "ast": 7,
-      "min": "28:47"
+      "min": "30:37"
      }
     ]
    },
@@ -279,6 +283,10 @@
     {
      "t": 46.2,
      "m": -6
+    },
+    {
+     "t": 48.0,
+     "m": -10
     }
    ]
   },
@@ -425,34 +433,34 @@
   {
    "game_id": "0022600273",
    "tip_utc": "2026-11-20T01:00:00Z",
-   "status": 2,
-   "status_text": "Q4 1:41",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "1:41",
+   "clock": "0:00",
    "home": {
     "team": "SAS",
-    "score": 120,
+    "score": 124,
     "periods": [
      24,
      33,
      35,
-     28
+     32
     ],
     "stats": {
-     "fgm": 44,
-     "fga": 85,
+     "fgm": 46,
+     "fga": 87,
      "fg3m": 11,
      "fg3a": 31,
      "ftm": 21,
      "fta": 23,
      "oreb": 7,
-     "dreb": 28,
-     "tov": 20,
+     "dreb": 29,
+     "tov": 21,
      "pf": 16,
-     "ast": 35,
-     "stl": 14,
+     "ast": 37,
+     "stl": 15,
      "blk": 2,
-     "pts_paint": 50,
+     "pts_paint": 54,
      "pts_second_chance": 14,
      "pts_fast_break": 19,
      "pts_off_tov": 28,
@@ -463,17 +471,17 @@
     "leaders": [
      {
       "name": "Victor Wembanyama",
-      "pts": 30,
+      "pts": 32,
       "reb": 11,
       "ast": 3,
-      "min": "30:54"
+      "min": "32:37"
      },
      {
       "name": "Stephon Castle",
       "pts": 21,
       "reb": 6,
-      "ast": 10,
-      "min": "31:12"
+      "ast": 12,
+      "min": "32:55"
      },
      {
       "name": "Julian Champagnie",
@@ -495,14 +503,14 @@
     ],
     "stats": {
      "fgm": 40,
-     "fga": 80,
+     "fga": 81,
      "fg3m": 17,
-     "fg3a": 41,
+     "fg3a": 42,
      "ftm": 15,
      "fta": 17,
      "oreb": 7,
      "dreb": 27,
-     "tov": 21,
+     "tov": 22,
      "pf": 25,
      "ast": 24,
      "stl": 11,
@@ -521,21 +529,21 @@
       "pts": 23,
       "reb": 3,
       "ast": 4,
-      "min": "26:12"
+      "min": "26:55"
      },
      {
       "name": "Darius Garland",
       "pts": 23,
       "reb": 0,
       "ast": 5,
-      "min": "34:32"
+      "min": "35:15"
      },
      {
       "name": "Max Strus",
       "pts": 18,
       "reb": 5,
       "ast": 4,
-      "min": "31:12"
+      "min": "31:55"
      }
     ]
    },
@@ -559,6 +567,10 @@
     {
      "t": 46.3,
      "m": 8
+    },
+    {
+     "t": 48.0,
+     "m": 12
     }
    ]
   }
