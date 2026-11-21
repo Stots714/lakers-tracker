@@ -1,42 +1,42 @@
 {
- "updated": "2026-11-21T10:20:44-08:00",
+ "updated": "2026-11-21T10:27:50-08:00",
  "board_date": "2026-11-21",
  "games": [
   {
    "game_id": "0022600274",
    "tip_utc": "2026-11-21T18:00:00Z",
    "status": 2,
-   "status_text": "Q1 6:07",
+   "status_text": "Q1 2:46",
    "period": 1,
-   "clock": "6:07",
+   "clock": "2:46",
    "home": {
     "team": "PHI",
-    "score": 11,
+    "score": 20,
     "periods": [
-     11,
+     20,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 5,
-     "fga": 12,
-     "fg3m": 1,
-     "fg3a": 3,
+     "fgm": 9,
+     "fga": 20,
+     "fg3m": 2,
+     "fg3a": 6,
      "ftm": 0,
      "fta": 0,
-     "oreb": 0,
-     "dreb": 5,
+     "oreb": 1,
+     "dreb": 9,
      "tov": 0,
      "pf": 2,
-     "ast": 4,
+     "ast": 7,
      "stl": 0,
      "blk": 1,
-     "pts_paint": 8,
+     "pts_paint": 14,
      "pts_second_chance": 0,
      "pts_fast_break": 2,
      "pts_off_tov": 0,
-     "pts_bench": 0,
+     "pts_bench": 5,
      "biggest_lead": 4,
      "lead_changes": 3
     },
@@ -44,50 +44,50 @@
      {
       "name": "LeBron James",
       "pts": 4,
-      "reb": 2,
+      "reb": 3,
       "ast": 1,
-      "min": "5:51"
+      "min": "8:31"
+     },
+     {
+      "name": "VJ Edgecombe",
+      "pts": 4,
+      "reb": 0,
+      "ast": 2,
+      "min": "9:09"
      },
      {
       "name": "Kentavious Caldwell-Pope",
       "pts": 3,
       "reb": 0,
       "ast": 0,
-      "min": "5:51"
-     },
-     {
-      "name": "VJ Edgecombe",
-      "pts": 2,
-      "reb": 0,
-      "ast": 1,
-      "min": "5:51"
+      "min": "8:31"
      }
     ]
    },
    "away": {
     "team": "MIL",
-    "score": 15,
+    "score": 21,
     "periods": [
-     15,
+     21,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 5,
-     "fga": 13,
+     "fgm": 8,
+     "fga": 20,
      "fg3m": 3,
-     "fg3a": 7,
+     "fg3a": 9,
      "ftm": 2,
      "fta": 2,
      "oreb": 3,
-     "dreb": 7,
+     "dreb": 9,
      "tov": 0,
      "pf": 0,
-     "ast": 3,
+     "ast": 5,
      "stl": 0,
      "blk": 2,
-     "pts_paint": 4,
+     "pts_paint": 10,
      "pts_second_chance": 4,
      "pts_fast_break": 3,
      "pts_off_tov": 0,
@@ -98,24 +98,24 @@
     "leaders": [
      {
       "name": "Tyler Herro",
-      "pts": 8,
+      "pts": 10,
       "reb": 3,
       "ast": 1,
-      "min": "5:51"
-     },
-     {
-      "name": "Kyle Kuzma",
-      "pts": 3,
-      "reb": 3,
-      "ast": 0,
-      "min": "5:51"
+      "min": "9:09"
      },
      {
       "name": "Jaime Jaquez Jr.",
-      "pts": 2,
+      "pts": 4,
       "reb": 0,
       "ast": 1,
-      "min": "5:51"
+      "min": "8:31"
+     },
+     {
+      "name": "Ryan Rollins",
+      "pts": 4,
+      "reb": 4,
+      "ast": 0,
+      "min": "8:31"
      }
     ]
    },
@@ -123,6 +123,10 @@
     {
      "t": 5.9,
      "m": -4
+    },
+    {
+     "t": 9.2,
+     "m": -1
     }
    ]
   },
