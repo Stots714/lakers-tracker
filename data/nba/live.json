@@ -1,35 +1,130 @@
 {
- "updated": "2026-11-21T09:16:32-08:00",
+ "updated": "2026-11-21T10:20:44-08:00",
  "board_date": "2026-11-21",
  "games": [
   {
    "game_id": "0022600274",
    "tip_utc": "2026-11-21T18:00:00Z",
-   "status": 1,
-   "status_text": "1:00 pm ET",
-   "period": 0,
-   "clock": "",
+   "status": 2,
+   "status_text": "Q1 6:07",
+   "period": 1,
+   "clock": "6:07",
    "home": {
     "team": "PHI",
-    "score": 0,
+    "score": 11,
     "periods": [
-     0,
+     11,
      0,
      0,
      0
+    ],
+    "stats": {
+     "fgm": 5,
+     "fga": 12,
+     "fg3m": 1,
+     "fg3a": 3,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 5,
+     "tov": 0,
+     "pf": 2,
+     "ast": 4,
+     "stl": 0,
+     "blk": 1,
+     "pts_paint": 8,
+     "pts_second_chance": 0,
+     "pts_fast_break": 2,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 4,
+     "lead_changes": 3
+    },
+    "leaders": [
+     {
+      "name": "LeBron James",
+      "pts": 4,
+      "reb": 2,
+      "ast": 1,
+      "min": "5:51"
+     },
+     {
+      "name": "Kentavious Caldwell-Pope",
+      "pts": 3,
+      "reb": 0,
+      "ast": 0,
+      "min": "5:51"
+     },
+     {
+      "name": "VJ Edgecombe",
+      "pts": 2,
+      "reb": 0,
+      "ast": 1,
+      "min": "5:51"
+     }
     ]
    },
    "away": {
     "team": "MIL",
-    "score": 0,
+    "score": 15,
     "periods": [
-     0,
+     15,
      0,
      0,
      0
+    ],
+    "stats": {
+     "fgm": 5,
+     "fga": 13,
+     "fg3m": 3,
+     "fg3a": 7,
+     "ftm": 2,
+     "fta": 2,
+     "oreb": 3,
+     "dreb": 7,
+     "tov": 0,
+     "pf": 0,
+     "ast": 3,
+     "stl": 0,
+     "blk": 2,
+     "pts_paint": 4,
+     "pts_second_chance": 4,
+     "pts_fast_break": 3,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 7,
+     "lead_changes": 3
+    },
+    "leaders": [
+     {
+      "name": "Tyler Herro",
+      "pts": 8,
+      "reb": 3,
+      "ast": 1,
+      "min": "5:51"
+     },
+     {
+      "name": "Kyle Kuzma",
+      "pts": 3,
+      "reb": 3,
+      "ast": 0,
+      "min": "5:51"
+     },
+     {
+      "name": "Jaime Jaquez Jr.",
+      "pts": 2,
+      "reb": 0,
+      "ast": 1,
+      "min": "5:51"
+     }
     ]
    },
-   "history": []
+   "history": [
+    {
+     "t": 5.9,
+     "m": -4
+    }
+   ]
   },
   {
    "game_id": "0022600275",
