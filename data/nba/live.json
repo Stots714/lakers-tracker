@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:23:51-08:00",
+ "updated": "2026-11-20T21:30:58-08:00",
  "board_date": "2026-11-20",
  "games": [
   {
@@ -906,88 +906,88 @@
    "game_id": "0022600050",
    "tip_utc": "2026-11-21T03:00:00Z",
    "status": 2,
-   "status_text": "Q4 3:20",
+   "status_text": "Q4 1:33",
    "period": 4,
-   "clock": "3:20",
+   "clock": "1:33",
    "home": {
     "team": "DEN",
-    "score": 117,
+    "score": 124,
     "periods": [
      31,
      31,
      37,
-     18
+     25
     ],
     "stats": {
-     "fgm": 43,
-     "fga": 80,
+     "fgm": 45,
+     "fga": 82,
      "fg3m": 13,
      "fg3a": 30,
-     "ftm": 18,
-     "fta": 20,
+     "ftm": 21,
+     "fta": 23,
      "oreb": 5,
-     "dreb": 26,
+     "dreb": 27,
      "tov": 9,
-     "pf": 24,
-     "ast": 34,
-     "stl": 8,
+     "pf": 25,
+     "ast": 35,
+     "stl": 9,
      "blk": 4,
-     "pts_paint": 48,
+     "pts_paint": 50,
      "pts_second_chance": 11,
      "pts_fast_break": 15,
-     "pts_off_tov": 21,
+     "pts_off_tov": 23,
      "pts_bench": 37,
-     "biggest_lead": 5,
+     "biggest_lead": 7,
      "lead_changes": 32
     },
     "leaders": [
      {
       "name": "Nikola Jokić",
-      "pts": 21,
+      "pts": 24,
       "reb": 5,
-      "ast": 9,
-      "min": "34:21"
+      "ast": 10,
+      "min": "36:08"
+     },
+     {
+      "name": "Christian Braun",
+      "pts": 19,
+      "reb": 4,
+      "ast": 3,
+      "min": "29:49"
      },
      {
       "name": "Cameron Johnson",
       "pts": 17,
       "reb": 3,
       "ast": 6,
-      "min": "25:10"
-     },
-     {
-      "name": "Christian Braun",
-      "pts": 17,
-      "reb": 4,
-      "ast": 3,
-      "min": "28:02"
+      "min": "26:57"
      }
     ]
    },
    "away": {
     "team": "HOU",
-    "score": 115,
+    "score": 119,
     "periods": [
      33,
      27,
      42,
-     13
+     17
     ],
     "stats": {
-     "fgm": 42,
-     "fga": 76,
+     "fgm": 44,
+     "fga": 78,
      "fg3m": 8,
      "fg3a": 24,
      "ftm": 23,
-     "fta": 33,
+     "fta": 35,
      "oreb": 9,
      "dreb": 30,
-     "tov": 15,
-     "pf": 19,
-     "ast": 28,
+     "tov": 16,
+     "pf": 21,
+     "ast": 30,
      "stl": 5,
      "blk": 4,
-     "pts_paint": 58,
+     "pts_paint": 62,
      "pts_second_chance": 12,
      "pts_fast_break": 6,
      "pts_off_tov": 13,
@@ -998,24 +998,24 @@
     "leaders": [
      {
       "name": "Alperen Sengun",
-      "pts": 26,
+      "pts": 28,
       "reb": 11,
-      "ast": 9,
-      "min": "32:43"
+      "ast": 10,
+      "min": "34:30"
      },
      {
       "name": "Amen Thompson",
       "pts": 22,
       "reb": 6,
       "ast": 0,
-      "min": "23:05"
+      "min": "24:52"
      },
      {
       "name": "Fred VanVleet",
       "pts": 22,
       "reb": 1,
-      "ast": 8,
-      "min": "29:24"
+      "ast": 9,
+      "min": "31:11"
      }
     ]
    },
@@ -1055,6 +1055,10 @@
     {
      "t": 44.7,
      "m": 2
+    },
+    {
+     "t": 46.5,
+     "m": 5
     }
    ]
   },
