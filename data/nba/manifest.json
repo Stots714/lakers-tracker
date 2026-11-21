@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-20T22:04:07-08:00",
+ "updated": "2026-11-21T08:06:31-08:00",
  "season": "2026-27",
  "teams": [
   "LAL",
-  "SAC"
+  "UTA"
  ],
  "nba_api": "1.12.0",
  "league": {
@@ -24,15 +24,15 @@
   },
   "league team box scores": {
    "ok": true,
-   "team-games": 468
+   "team-games": 470
   },
   "league player games": {
    "ok": true,
-   "player lines": 5250
+   "player lines": 5270
   },
   "league results": {
    "ok": true,
-   "final games": 234,
+   "final games": 235,
    "pending": 0,
    "pending_games": [],
    "kept_games": [],
@@ -40,11 +40,11 @@
   },
   "league quarter scores, inactive lists and game extras": {
    "ok": true,
-   "new games": 14
+   "new games": 6
   },
   "league team turnovers": {
    "ok": true,
-   "team-games": 468
+   "team-games": 470
   },
   "league rosters and moves": {
    "ok": true,
@@ -54,7 +54,7 @@
   },
   "injury report": {
    "ok": true,
-   "players listed": 67
+   "players listed": 68
   },
   "LAL games": {
    "ok": true,
@@ -74,11 +74,11 @@
   },
   "LAL 5-man lineups": {
    "ok": true,
-   "rows": 165
+   "rows": 171
   },
   "LAL 2-man lineups": {
    "ok": true,
-   "rows": 120
+   "rows": 121
   },
   "LAL shots": {
    "ok": true,
@@ -92,59 +92,58 @@
    "ok": true,
    "rows": 18
   },
-  "SAC games": {
+  "UTA games": {
    "ok": true,
-   "rows": 15
+   "rows": 17
   },
-  "SAC player games": {
+  "UTA player games": {
    "ok": true,
-   "rows": 157
+   "rows": 186
   },
-  "SAC player games advanced": {
+  "UTA player games advanced": {
    "ok": true,
-   "rows": 157
+   "rows": 186
   },
-  "SAC on/off": {
+  "UTA on/off": {
    "ok": true,
-   "rows": 33
+   "rows": 34
   },
-  "SAC 5-man lineups": {
+  "UTA 5-man lineups": {
    "ok": true,
-   "rows": 189
+   "rows": 203
   },
-  "SAC 2-man lineups": {
+  "UTA 2-man lineups": {
    "ok": true,
-   "rows": 97
+   "rows": 86
   },
-  "SAC shots": {
+  "UTA shots": {
    "ok": true,
-   "rows": 1295
+   "rows": 1463
   },
-  "SAC shots against": {
+  "UTA shots against": {
    "ok": true,
-   "rows": 1274
+   "rows": 1490
   },
-  "SAC hustle": {
+  "UTA hustle": {
    "ok": true,
-   "rows": 15
+   "rows": 14
   },
   "matchups": {
    "ok": true,
-   "new games": 0,
-   "pending": 1
+   "new games": 16
   },
   "play-by-play": {
    "ok": true,
-   "new games": 1
+   "new games": 15
   }
  },
  "checks": [
   "Scores: 68 games in both files, 0 differ; 0 hand-checked games not found on NBA.com by date and teams.",
   "Lakers box scores: 10 team-games compared, 4 numbers differ [('2026-10-21', 'GSW', 'tov', '15', 16), ('2026-10-23', 'LAC', 'tov', '25', 26), ('2026-10-25', 'UTA', 'dreb', '31', 32), ('2026-10-25', 'UTA', 'tov', '19', 17)].",
-  "Player points add up to team points in 468 of 468 team-games.",
-  "Turnovers (players + team) match NBA.com's game totals in 466 of 468 team-games: [('2026-10-30', 'CHA'), ('2026-11-09', 'CHA')].",
+  "Player points add up to team points in 470 of 470 team-games.",
+  "Turnovers (players + team) match NBA.com's game totals in 467 of 470 team-games: [('2026-10-30', 'CHA'), ('2026-11-09', 'CHA'), ('2026-11-20', 'PHX')].",
   "Lakers quarter scores: 10 compared, 0 differ.",
-  "NBA Cup games: 36 played, average winning margin 12.7 points, against 13.3 in the other 198 games.",
+  "NBA Cup games: 37 played, average winning margin 12.6 points, against 13.3 in the other 198 games.",
   "Lakers scores checked against results.csv: 5 games, 0 mismatches ",
   "Oct 21 Doncic-Lendeborg rows (ABC7 reported Doncic 1 of 6 against Lendeborg):\n  familyNameOff | familyNameDef | matchupMinutes | partialPossessions | playerPoints | matchupFieldGoalsMade | matchupFieldGoalsAttempted\n  Dončić | Lendeborg | 3:03 | 18.5 | 9 | 1 | 5\n  Lendeborg | Dončić | 2:56 | 14.7 | 2 | 1 | 2"
  ],

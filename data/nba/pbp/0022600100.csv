@@ -1,0 +1,522 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600100,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (9:44 PM EST),period,start,1,0,1
+0022600100,4,PT12M00.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jump Ball Jackson Jr. vs. Missi: Tip to Markkanen,Jump Ball,,1,0,2
+0022600100,7,PT11M45.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,239,-19,24,Missed,1,,,0,h,MISS Bailey 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,3
+0022600100,8,PT11M45.00S,1,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0022600100,9,PT11M32.00S,1,1610612740,NOP,1630530,Murphy III,T. Murphy III,-37,28,5,Missed,1,,,0,v,MISS Murphy III 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,5
+0022600100,10,PT11M32.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,6
+0022600100,11,PT11M17.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,-50,13,5,Made,1,2,0,2,h,Bailey 5' Turnaround Hook Shot (2 PTS) (Markkanen 1 AST),Made Shot,Turnaround Hook Shot,1,2,7
+0022600100,13,PT10M55.00S,1,1610612740,NOP,1642274,Missi,Y. Missi,-19,9,2,Made,1,2,2,4,v,Missi 2' Dunk (2 PTS) (Murphy III 1 AST),Made Shot,Dunk Shot,1,2,8
+0022600100,15,PT10M35.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,54,36,6,Missed,1,,,0,h,MISS Jackson Jr. 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,9
+0022600100,15,PT10M35.00S,1,1610612740,NOP,1642274,Missi,Y. Missi,0,0,0,,0,,,0,v,Missi BLOCK (1 BLK),,,1,2,10
+0022600100,16,PT10M35.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,11
+0022600100,17,PT10M32.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,Made,1,4,2,6,h,Peterson Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,12
+0022600100,19,PT10M14.00S,1,1610612740,NOP,1642847,Fears,J. Fears,11,87,9,Missed,1,,,0,v,MISS Fears 9' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,13
+0022600100,20,PT10M14.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,14
+0022600100,21,PT10M03.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,153,199,25,Missed,1,,,0,h,MISS Bailey 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,15
+0022600100,22,PT10M03.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,16
+0022600100,23,PT09M53.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,-104,220,24,Missed,1,,,0,h,MISS Peterson 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,17
+0022600100,24,PT09M53.00S,1,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,18
+0022600100,25,PT09M36.00S,1,1610612740,NOP,1642847,Fears,J. Fears,-45,19,5,Made,1,4,4,8,v,Fears 5' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,19
+0022600100,26,PT09M23.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,14,254,25,Made,1,7,4,11,h,Jackson Jr. 25' 3PT Jump Shot (3 PTS) (George 1 AST),Made Shot,Jump Shot,1,3,20
+0022600100,28,PT09M12.00S,1,1610612740,NOP,1629627,Williamson,Z. Williamson,-58,19,6,Made,1,7,6,13,v,Williamson 6' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,21
+0022600100,29,PT08M59.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,54,100,11,Made,1,9,6,15,h,Markkanen 11' Floating Jump Shot (2 PTS) (George 2 AST),Made Shot,Floating Jump shot,1,2,22
+0022600100,31,PT08M37.00S,1,1610612740,NOP,1642847,Fears,J. Fears,170,166,24,Missed,1,,,0,v,MISS Fears 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,23
+0022600100,32,PT08M37.00S,1,1610612740,NOP,1642274,Missi,Y. Missi,0,0,0,,0,,,0,v,Missi REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,24
+0022600100,33,PT08M31.00S,1,1610612740,NOP,1629627,Williamson,Z. Williamson,-33,19,4,Made,1,9,8,17,v,Williamson 4' Alley Oop Dunk (4 PTS) (Murphy III 2 AST),Made Shot,Alley Oop Dunk Shot,1,2,25
+0022600100,35,PT08M09.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,8,18,2,Made,1,11,8,19,h,Jackson Jr. 2' Driving Dunk (5 PTS) (George 3 AST),Made Shot,Driving Dunk Shot,1,2,26
+0022600100,36,PT07M59.00S,1,1610612740,NOP,1630530,Murphy III,T. Murphy III,7,269,27,Missed,1,,,0,v,MISS Murphy III 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,27
+0022600100,37,PT07M59.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,28
+0022600100,38,PT07M48.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,-5,84,8,Made,1,13,8,21,h,Peterson 8' Jump Shot (4 PTS) (George 4 AST),Made Shot,Jump Shot,1,2,29
+0022600100,40,PT07M34.00S,1,1610612740,NOP,1627749,Murray,D. Murray,230,53,24,Missed,1,,,0,v,MISS Murray 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,30
+0022600100,41,PT07M34.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,31
+0022600100,42,PT07M24.00S,1,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,Murphy III P.FOUL (P1.T1) (J.Capers),Foul,Personal,1,0,32
+0022600100,44,PT07M17.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,-215,136,25,Missed,1,,,0,h,MISS Jackson Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,33
+0022600100,45,PT07M17.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,34
+0022600100,46,PT07M14.00S,1,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson P.FOUL (P1.T2) (R.Acosta),Foul,Personal,1,0,35
+0022600100,48,PT07M00.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,63,31,7,Missed,1,,,0,h,MISS Jackson Jr. 7' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,36
+0022600100,49,PT07M00.00S,1,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,Murphy III REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,37
+0022600100,50,PT06M51.00S,1,1610612740,NOP,1642274,Missi,Y. Missi,2,45,5,Made,1,13,10,23,v,Missi 5' Dunk (4 PTS),Made Shot,Dunk Shot,1,2,38
+0022600100,51,PT06M36.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,195,173,26,Missed,1,,,0,h,MISS Jackson Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,39
+0022600100,52,PT06M36.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,40
+0022600100,53,PT06M32.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,12,256,26,Made,1,16,10,26,h,Markkanen 26' 3PT Jump Shot (5 PTS) (Bailey 1 AST),Made Shot,Jump Shot,1,3,41
+0022600100,55,PT06M09.00S,1,1610612740,NOP,1630530,Murphy III,T. Murphy III,-27,8,3,Made,1,16,12,28,v,Murphy III 3' Alley Oop Dunk (2 PTS) (Williamson 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,42
+0022600100,57,PT06M07.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,43
+0022600100,61,PT06M07.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,SUB: Filipowski FOR Jackson Jr.,Substitution,,0,0,44
+0022600100,62,PT06M07.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Hayes FOR Markkanen,Substitution,,0,0,45
+0022600100,65,PT06M07.00S,1,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,SUB: Poole FOR Murray,Substitution,,0,0,46
+0022600100,66,PT06M07.00S,1,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,SUB: Jones FOR Williamson,Substitution,,0,0,47
+0022600100,67,PT05M58.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,-29,23,4,Made,1,18,12,30,h,Hayes 4' Cutting Layup Shot (2 PTS) (George 5 AST),Made Shot,Cutting Layup Shot,1,2,48
+0022600100,69,PT05M44.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes P.FOUL (P1.T1) (R.Acosta),Foul,Personal,1,0,49
+0022600100,72,PT05M44.00S,1,1610612740,NOP,1642274,Missi,Y. Missi,0,0,0,,0,,,0,v,SUB: Queen FOR Missi,Substitution,,0,0,50
+0022600100,73,PT05M32.00S,1,1610612740,NOP,1642852,Queen,D. Queen,235,0,24,Missed,1,,,0,v,MISS Queen 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,51
+0022600100,74,PT05M32.00S,1,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,Filipowski REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,52
+0022600100,75,PT05M16.00S,1,1610612762,UTA,1641718,George,K. George,30,4,3,Made,1,20,12,32,h,George 3' Driving Reverse Layup (2 PTS) (Hayes 1 AST),Made Shot,Driving Reverse Layup Shot,1,2,53
+0022600100,76,PT05M09.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey S.FOUL (P1.T2) (J.Capers),Foul,Shooting,1,0,54
+0022600100,78,PT05M09.00S,1,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,20,13,33,v,Poole Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,55
+0022600100,81,PT05M09.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,SUB: Collier FOR Peterson,Substitution,,0,0,56
+0022600100,79,PT05M09.00S,1,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,20,14,34,v,Poole Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,57
+0022600100,82,PT04M48.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,58
+0022600100,82,PT04M48.00S,1,1610612740,NOP,1642847,Fears,J. Fears,0,0,0,,0,,,0,v,Fears STEAL (1 STL),,,1,0,59
+0022600100,87,PT04M43.00S,1,1610612740,NOP,1629673,Poole,J. Poole,-100,235,26,Missed,1,,,0,v,MISS Poole 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,60
+0022600100,88,PT04M43.00S,1,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Rebound,Rebound,Unknown,1,0,61
+0022600100,92,PT04M33.00S,1,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,Murphy III Step Out of Bounds Turnover (P1.T1),Turnover,Step Out of Bounds Turnover,1,0,62
+0022600100,93,PT04M20.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,-30,31,4,Made,1,22,14,36,h,Hayes 4' Dunk (4 PTS) (George 6 AST),Made Shot,Dunk Shot,1,2,63
+0022600100,95,PT04M08.00S,1,1610612740,NOP,1642847,Fears,J. Fears,232,45,24,Made,1,22,17,39,v,Fears 24' 3PT Jump Shot (5 PTS) (Queen 1 AST),Made Shot,Jump Shot,1,3,64
+0022600100,97,PT03M52.00S,1,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,Filipowski Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,65
+0022600100,97,PT03M52.00S,1,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen STEAL (1 STL),,,1,0,66
+0022600100,99,PT03M46.00S,1,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,67
+0022600100,99,PT03M46.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George STEAL (1 STL),,,1,0,68
+0022600100,101,PT03M41.00S,1,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,Poole P.FOUL (P1.T3) (J.Capers),Foul,Personal,1,0,69
+0022600100,105,PT03M41.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,SUB: Mykhailiuk FOR Bailey,Substitution,,0,0,70
+0022600100,106,PT03M41.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,SUB: Sensabaugh FOR George,Substitution,,0,0,71
+0022600100,109,PT03M41.00S,1,1610612740,NOP,1642847,Fears,J. Fears,0,0,0,,0,,,0,v,SUB: Bey FOR Fears,Substitution,,0,0,72
+0022600100,110,PT03M41.00S,1,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,SUB: Mathurin FOR Murphy III,Substitution,,0,0,73
+0022600100,111,PT03M36.00S,1,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,v,Jones P.FOUL (P1.T4) (R.Acosta),Foul,Personal,1,0,74
+0022600100,113,PT03M27.00S,1,1610612740,NOP,1630180,Bey,S. Bey,0,0,0,,0,,,0,v,Bey P.FOUL (P1.PN) (L.Wood),Foul,Personal,1,0,75
+0022600100,115,PT03M27.00S,1,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,23,17,40,h,Collier Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,76
+0022600100,116,PT03M27.00S,1,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,MISS Collier Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,77
+0022600100,117,PT03M27.00S,1,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,78
+0022600100,118,PT03M08.00S,1,1610612740,NOP,1631097,Mathurin,B. Mathurin,-57,145,16,Missed,1,,,0,v,MISS Mathurin 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,79
+0022600100,119,PT03M08.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,80
+0022600100,120,PT02M56.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,-31,94,10,Made,1,25,17,42,h,Mykhailiuk 10' Fadeaway Jumper (2 PTS) (Collier 1 AST),Made Shot,Fadeaway Jump Shot,1,2,81
+0022600100,122,PT02M34.00S,1,1610612740,NOP,1642852,Queen,D. Queen,-56,27,6,Made,1,25,19,44,v,Queen 6' Turnaround Hook Shot (2 PTS),Made Shot,Turnaround Hook Shot,1,2,82
+0022600100,123,PT02M23.00S,1,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen S.FOUL (P1.PN) (R.Acosta),Foul,Shooting,1,0,83
+0022600100,125,PT02M23.00S,1,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,84
+0022600100,126,PT02M23.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,26,19,45,h,Hayes Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,85
+0022600100,129,PT02M23.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,27,19,46,h,Hayes Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,86
+0022600100,130,PT02M13.00S,1,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier P.FOUL (P1.T3) (L.Wood),Foul,Personal,1,0,87
+0022600100,134,PT02M13.00S,1,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,SUB: Jackson Jr. FOR Filipowski,Substitution,,0,0,88
+0022600100,135,PT02M13.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Markkanen FOR Hayes,Substitution,,0,0,89
+0022600100,136,PT02M08.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh S.FOUL (P1.T4) (L.Wood),Foul,Shooting,1,0,90
+0022600100,138,PT02M08.00S,1,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,27,20,47,v,Poole Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,91
+0022600100,141,PT02M08.00S,1,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,v,SUB: Williamson FOR Jones,Substitution,,0,0,92
+0022600100,139,PT02M08.00S,1,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,27,21,48,v,Poole Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,93
+0022600100,142,PT01M51.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,-11,50,5,Missed,1,,,0,h,MISS Jackson Jr. 5' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,94
+0022600100,143,PT01M51.00S,1,1610612740,NOP,1631097,Mathurin,B. Mathurin,0,0,0,,0,,,0,v,Mathurin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,95
+0022600100,144,PT01M35.00S,1,1610612740,NOP,1629673,Poole,J. Poole,-19,288,29,Made,1,27,24,51,v,Poole 29' 3PT Step Back Jump Shot (7 PTS),Made Shot,Step Back Jump shot,1,3,96
+0022600100,145,PT01M21.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,97
+0022600100,145,PT01M21.00S,1,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson STEAL (1 STL),,,1,0,98
+0022600100,148,PT01M14.00S,1,1610612740,NOP,1630180,Bey,S. Bey,0,0,0,,0,,,0,v,Bey Offensive Goaltending Turnover (P1.T3),Turnover,Offensive Goaltending,1,0,99
+0022600100,149,PT01M06.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-231,112,26,Missed,1,,,0,h,MISS Sensabaugh 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,100
+0022600100,150,PT01M06.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,101
+0022600100,151,PT00M59.00S,1,1610612762,UTA,1642268,Collier,I. Collier,-38,27,5,Made,1,29,24,53,h,Collier 5' Driving Floating Bank Jump Shot (3 PTS) (Jackson Jr. 1 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,102
+0022600100,152,PT00M51.70S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh P.FOUL (P2.PN) (R.Acosta),Foul,Personal,1,0,103
+0022600100,154,PT00M51.70S,1,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,29,25,54,v,Poole Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,104
+0022600100,155,PT00M51.70S,1,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,29,26,55,v,Poole Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,105
+0022600100,156,PT00M32.10S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,-17,27,3,Made,1,31,26,57,h,Jackson Jr. 3' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,106
+0022600100,157,PT00M11.90S,1,1610612740,NOP,1629673,Poole,J. Poole,-200,219,30,Missed,1,,,0,v,MISS Poole 30' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,107
+0022600100,158,PT00M11.90S,1,1610612740,NOP,1630180,Bey,S. Bey,0,0,0,,0,,,0,v,Bey REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,108
+0022600100,159,PT00M03.30S,1,1610612740,NOP,1630180,Bey,S. Bey,-122,47,13,Made,1,31,28,59,v,Bey 13' Turnaround Jump Shot (2 PTS),Made Shot,Turnaround Jump Shot,1,2,109
+0022600100,160,PT00M00.00S,1,0,,0,,,0,0,0,,0,31,28,59,,End of 1st Period (10:10 PM EST),period,end,1,0,110
+0022600100,165,PT12M00.00S,2,0,,0,,,0,0,0,,0,31,28,59,,Start of 2nd Period (10:13 PM EST),period,start,0,0,111
+0022600100,166,PT11M40.00S,2,1610612740,NOP,1630180,Bey,S. Bey,-81,73,11,Made,1,31,30,61,v,Bey 11' Turnaround Jump Shot (4 PTS),Made Shot,Turnaround Jump Shot,1,2,112
+0022600100,168,PT11M20.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,-231,105,25,Made,1,34,30,64,h,Markkanen 25' 3PT Jump Shot (8 PTS) (Collier 2 AST),Made Shot,Jump Shot,1,3,113
+0022600100,170,PT11M04.00S,2,1610612740,NOP,1642852,Queen,D. Queen,31,44,5,Missed,1,,,0,v,MISS Queen 5' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,114
+0022600100,170,PT11M04.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh BLOCK (1 BLK),,,1,2,115
+0022600100,171,PT11M04.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,116
+0022600100,172,PT11M00.00S,2,1610612740,NOP,1631097,Mathurin,B. Mathurin,0,0,0,,0,,,0,v,Mathurin S.FOUL (P1.T1) (R.Acosta),Foul,Shooting,1,0,117
+0022600100,174,PT11M00.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,35,30,65,h,Mykhailiuk Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,118
+0022600100,175,PT11M00.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,MISS Mykhailiuk Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,119
+0022600100,176,PT11M00.00S,2,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,120
+0022600100,177,PT10M43.00S,2,1610612740,NOP,1631097,Mathurin,B. Mathurin,142,207,25,Missed,1,,,0,v,MISS Mathurin 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,121
+0022600100,178,PT10M43.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,122
+0022600100,179,PT10M38.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,38,26,5,Made,1,37,30,67,h,Sensabaugh 5' Running Dunk (2 PTS) (Mykhailiuk 1 AST),Made Shot,Running Dunk Shot,1,2,123
+0022600100,181,PT10M25.00S,2,1610612740,NOP,1627749,Murray,D. Murray,95,166,19,Missed,1,,,0,v,MISS Murray 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,124
+0022600100,182,PT10M25.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,125
+0022600100,183,PT10M15.00S,2,1610612762,UTA,1642268,Collier,I. Collier,-142,236,28,Missed,1,,,0,h,MISS Collier 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,126
+0022600100,184,PT10M15.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,127
+0022600100,185,PT10M09.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,Missed,1,,,0,h,MISS Sensabaugh Putback Layup,Missed Shot,Putback Layup Shot,1,2,128
+0022600100,185,PT10M09.00S,2,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen BLOCK (1 BLK),,,1,2,129
+0022600100,186,PT10M09.00S,2,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,130
+0022600100,188,PT10M04.00S,2,1610612740,NOP,1630180,Bey,S. Bey,-170,200,26,Missed,1,,,0,v,MISS Bey 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,131
+0022600100,189,PT10M04.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,132
+0022600100,190,PT09M53.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,-238,39,24,Missed,1,,,0,h,MISS Markkanen 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,133
+0022600100,191,PT09M53.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,134
+0022600100,192,PT09M48.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,-240,-9,24,Missed,1,,,0,h,MISS Markkanen 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,135
+0022600100,193,PT09M48.00S,2,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Rebound,Rebound,Unknown,0,0,136
+0022600100,194,PT09M34.00S,2,1610612740,NOP,1642852,Queen,D. Queen,-10,32,3,Missed,1,,,0,v,MISS Queen 3' Cutting Dunk Shot,Missed Shot,Cutting Dunk Shot,1,2,137
+0022600100,194,PT09M34.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes BLOCK (1 BLK),,,1,2,138
+0022600100,195,PT09M34.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,139
+0022600100,197,PT09M27.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,241,16,24,Made,1,40,30,70,h,Sensabaugh 24' 3PT Jump Shot (5 PTS) (Collier 3 AST),Made Shot,Jump Shot,1,3,140
+0022600100,199,PT09M25.00S,2,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,141
+0022600100,201,PT09M25.00S,2,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,SUB: Missi FOR Queen,Substitution,,0,0,142
+0022600100,202,PT09M10.00S,2,1610612740,NOP,1642274,Missi,Y. Missi,32,50,6,Made,1,40,32,72,v,Missi 6' Driving Hook Shot (6 PTS) (Murray 1 AST),Made Shot,Driving Hook Shot,1,2,143
+0022600100,204,PT08M54.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,31,5,3,Made,1,42,32,74,h,Hayes 3' Alley Oop Dunk (8 PTS) (Sensabaugh 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,144
+0022600100,206,PT08M35.00S,2,1610612740,NOP,1630180,Bey,S. Bey,-192,187,27,Made,1,42,35,77,v,Bey 27' 3PT Jump Shot (7 PTS) (Murray 2 AST),Made Shot,Jump Shot,1,3,145
+0022600100,208,PT08M22.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,-199,159,25,Made,1,45,35,80,h,Markkanen 25' 3PT Jump Shot (11 PTS) (Collier 4 AST),Made Shot,Jump Shot,1,3,146
+0022600100,210,PT08M08.00S,2,1610612740,NOP,1629627,Williamson,Z. Williamson,30,28,4,Made,1,45,37,82,v,Williamson 4' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,147
+0022600100,211,PT08M07.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,148
+0022600100,216,PT08M07.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,SUB: George FOR Collier,Substitution,,0,0,149
+0022600100,217,PT08M07.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,SUB: Peterson FOR Sensabaugh,Substitution,,0,0,150
+0022600100,218,PT08M07.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Jackson Jr. FOR Markkanen,Substitution,,0,0,151
+0022600100,220,PT08M07.00S,2,1610612740,NOP,1631097,Mathurin,B. Mathurin,0,0,0,,0,,,0,v,SUB: Jones FOR Mathurin,Substitution,,0,0,152
+0022600100,221,PT07M56.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,235,-30,24,Missed,1,,,0,h,MISS Mykhailiuk 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,153
+0022600100,222,PT07M56.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,0,0,154
+0022600100,224,PT07M40.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,-82,26,9,Missed,1,,,0,h,MISS Mykhailiuk 9' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,155
+0022600100,225,PT07M40.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,156
+0022600100,226,PT07M37.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,Missed,1,,,0,h,MISS Peterson Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,157
+0022600100,227,PT07M37.00S,2,1610612740,NOP,1630180,Bey,S. Bey,0,0,0,,0,,,0,v,Bey REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,158
+0022600100,228,PT07M28.00S,2,1610612740,NOP,1630180,Bey,S. Bey,43,253,26,Made,1,45,40,85,v,Bey 26' 3PT Jump Shot (10 PTS) (Williamson 2 AST),Made Shot,Jump Shot,1,3,159
+0022600100,230,PT07M14.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,-57,137,15,Missed,1,,,0,h,MISS Peterson 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,160
+0022600100,230,PT07M14.00S,2,1610612740,NOP,1630180,Bey,S. Bey,0,0,0,,0,,,0,v,Bey BLOCK (1 BLK),,,1,2,161
+0022600100,231,PT07M14.00S,2,1610612740,NOP,1630180,Bey,S. Bey,0,0,0,,0,,,0,v,Bey REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,162
+0022600100,233,PT06M55.00S,2,1610612740,NOP,1630180,Bey,S. Bey,13,72,7,Missed,1,,,0,v,MISS Bey 7' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,163
+0022600100,234,PT06M55.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,164
+0022600100,236,PT06M40.00S,2,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson S.FOUL (P2.T2) (R.Acosta),Foul,Shooting,1,0,165
+0022600100,238,PT06M40.00S,2,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,46,40,86,h,Jackson Jr. Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,166
+0022600100,242,PT06M40.00S,2,1610612740,NOP,1630180,Bey,S. Bey,0,0,0,,0,,,0,v,SUB: Murphy III FOR Bey,Substitution,,0,0,167
+0022600100,240,PT06M40.00S,2,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,47,40,87,h,Jackson Jr. Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,168
+0022600100,243,PT06M30.00S,2,1610612740,NOP,1629627,Williamson,Z. Williamson,-26,45,5,Missed,1,,,0,v,MISS Williamson 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,169
+0022600100,243,PT06M30.00S,2,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. BLOCK (1 BLK),,,1,2,170
+0022600100,244,PT06M30.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,171
+0022600100,246,PT06M26.00S,2,1610612762,UTA,1641718,George,K. George,125,229,26,Made,1,50,40,90,h,George 26' 3PT Running Jump Shot (5 PTS),Made Shot,Running Jump Shot,1,3,172
+0022600100,247,PT06M24.00S,2,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,173
+0022600100,248,PT06M24.00S,2,0,,202427,,,0,0,0,,0,,,0,,Jamahl Mosley Foul:T.FOUL (R.Acosta),Foul,Technical,1,0,174
+0022600100,251,PT06M24.00S,2,1610612740,NOP,1642274,Missi,Y. Missi,0,0,0,,0,,,0,v,SUB: Queen FOR Missi,Substitution,,0,0,175
+0022600100,249,PT06M24.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,51,40,91,h,George Free Throw Technical (6 PTS),Free Throw,Free Throw Technical,1,0,176
+0022600100,252,PT06M09.00S,2,1610612740,NOP,1630530,Murphy III,T. Murphy III,-67,251,26,Made,1,51,43,94,v,Murphy III 26' 3PT Jump Shot (5 PTS) (Murray 3 AST),Made Shot,Jump Shot,1,3,177
+0022600100,254,PT05M55.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George Step Out of Bounds Turnover (P1.T4),Turnover,Step Out of Bounds Turnover,1,0,178
+0022600100,256,PT05M55.00S,2,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,SUB: Fears FOR Williamson,Substitution,,0,0,179
+0022600100,258,PT05M38.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes S.FOUL (P2.T1) (L.Wood),Foul,Shooting,1,0,180
+0022600100,260,PT05M38.00S,2,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,51,44,95,v,Queen Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,181
+0022600100,263,PT05M38.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Markkanen FOR Hayes,Substitution,,0,0,182
+0022600100,265,PT05M38.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Bailey FOR Mykhailiuk,Substitution,,0,0,183
+0022600100,261,PT05M38.00S,2,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,MISS Queen Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,184
+0022600100,266,PT05M38.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,185
+0022600100,267,PT05M27.00S,2,1610612762,UTA,1641718,George,K. George,100,234,25,Missed,1,,,0,h,MISS George 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,186
+0022600100,268,PT05M27.00S,2,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,Murphy III REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,187
+0022600100,269,PT05M14.00S,2,1610612740,NOP,1642852,Queen,D. Queen,-33,19,4,Made,1,51,46,97,v,Queen 4' Layup (5 PTS) (Fears 1 AST),Made Shot,Layup Shot,1,2,188
+0022600100,271,PT04M49.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,61,5,6,Made,1,53,46,99,h,Peterson 6' Jump Shot (6 PTS) (Jackson Jr. 2 AST),Made Shot,Jump Shot,1,2,189
+0022600100,273,PT04M49.00S,2,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen Violation:Defensive Goaltending (J.Capers),Violation,Defensive Goaltending,0,0,190
+0022600100,274,PT04M39.00S,2,1610612740,NOP,1627749,Murray,D. Murray,-119,50,13,Missed,1,,,0,v,MISS Murray 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,191
+0022600100,275,PT04M39.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,192
+0022600100,276,PT04M26.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George Bad Pass Turnover (P2.T5),Turnover,Bad Pass,1,0,193
+0022600100,276,PT04M26.00S,2,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,Murphy III STEAL (1 STL),,,1,0,194
+0022600100,278,PT04M15.00S,2,1610612740,NOP,1642847,Fears,J. Fears,-76,29,8,Missed,1,,,0,v,MISS Fears 8' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,195
+0022600100,279,PT04M15.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,196
+0022600100,280,PT04M08.00S,2,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,Murphy III S.FOUL (P2.T3) (L.Wood),Foul,Shooting,1,0,197
+0022600100,282,PT04M08.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,54,46,100,h,George Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,198
+0022600100,285,PT04M08.00S,2,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,SUB: Poole FOR Murray,Substitution,,0,0,199
+0022600100,283,PT04M08.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,MISS George Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,200
+0022600100,286,PT04M08.00S,2,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,201
+0022600100,287,PT03M55.00S,2,1610612740,NOP,1630530,Murphy III,T. Murphy III,68,73,10,Made,1,54,48,102,v,Murphy III 10' Step Back Jump Shot (7 PTS) (Queen 2 AST),Made Shot,Step Back Jump shot,1,2,202
+0022600100,289,PT03M45.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,-7,97,10,Missed,1,,,0,h,MISS Peterson 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,203
+0022600100,290,PT03M45.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,204
+0022600100,291,PT03M41.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,Made,1,56,48,104,h,Peterson Tip Layup Shot (8 PTS),Made Shot,Tip Layup Shot,1,2,205
+0022600100,292,PT03M21.00S,2,1610612740,NOP,1630530,Murphy III,T. Murphy III,-76,22,8,Made,1,56,50,106,v,Murphy III 8' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,206
+0022600100,293,PT03M05.00S,2,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,55,127,14,Made,1,58,50,108,h,Jackson Jr. 14' Floating Jump Shot (11 PTS) (George 7 AST),Made Shot,Floating Jump shot,1,2,207
+0022600100,295,PT02M47.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson P.FOUL (P1.T2) (J.Capers),Foul,Personal,1,0,208
+0022600100,297,PT02M40.00S,2,1610612740,NOP,1642852,Queen,D. Queen,47,33,6,Missed,1,,,0,v,MISS Queen 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,209
+0022600100,297,PT02M40.00S,2,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. BLOCK (2 BLK),,,1,2,210
+0022600100,298,PT02M40.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,211
+0022600100,300,PT02M27.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,212
+0022600100,302,PT02M27.00S,2,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,v,SUB: Williamson FOR Jones,Substitution,,0,0,213
+0022600100,303,PT02M27.00S,2,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. OFF.Foul (P1) (R.Acosta),Foul,Offensive,1,0,214
+0022600100,305,PT02M27.00S,2,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,215
+0022600100,306,PT02M11.00S,2,1610612740,NOP,1642847,Fears,J. Fears,239,-2,24,Missed,1,,,0,v,MISS Fears 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,216
+0022600100,307,PT02M11.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,217
+0022600100,310,PT01M49.00S,2,1610612762,UTA,1641718,George,K. George,103,55,12,Made,1,60,50,110,h,George 12' Driving Floating Bank Jump Shot (9 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,218
+0022600100,311,PT01M33.00S,2,1610612740,NOP,1630530,Murphy III,T. Murphy III,-35,250,25,Missed,1,,,0,v,MISS Murphy III 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,219
+0022600100,312,PT01M33.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,220
+0022600100,313,PT01M25.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,35,-3,4,Made,1,62,50,112,h,Peterson 4' Running Dunk (10 PTS) (Bailey 2 AST),Made Shot,Running Dunk Shot,1,2,221
+0022600100,315,PT01M05.00S,2,1610612740,NOP,1629627,Williamson,Z. Williamson,-42,44,6,Missed,1,,,0,v,MISS Williamson 6' Layup,Missed Shot,Layup Shot,1,2,222
+0022600100,316,PT01M05.00S,2,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,223
+0022600100,317,PT01M03.00S,2,1610612740,NOP,1629627,Williamson,Z. Williamson,-8,20,2,Made,1,62,52,114,v,Williamson 2' Putback Layup (8 PTS),Made Shot,Putback Layup Shot,1,2,224
+0022600100,318,PT00M49.20S,2,1610612762,UTA,1642846,Bailey,A. Bailey,239,37,24,Missed,1,,,0,h,MISS Bailey 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,225
+0022600100,319,PT00M49.20S,2,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,226
+0022600100,320,PT00M39.60S,2,1610612740,NOP,1629673,Poole,J. Poole,37,40,5,Missed,1,,,0,v,MISS Poole 5' Running Layup,Missed Shot,Running Layup Shot,1,2,227
+0022600100,321,PT00M39.60S,2,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,228
+0022600100,324,PT00M32.20S,2,1610612762,UTA,1641718,George,K. George,-13,249,25,Missed,1,,,0,h,MISS George 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,229
+0022600100,324,PT00M32.20S,2,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,Poole BLOCK (1 BLK),,,1,3,230
+0022600100,325,PT00M32.20S,2,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,Poole REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,231
+0022600100,327,PT00M09.10S,2,1610612740,NOP,1629627,Williamson,Z. Williamson,-174,204,27,Missed,1,,,0,v,MISS Williamson 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,232
+0022600100,328,PT00M09.10S,2,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,Murphy III REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,233
+0022600100,329,PT00M02.30S,2,1610612740,NOP,1629673,Poole,J. Poole,184,186,26,Missed,1,,,0,v,MISS Poole 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,234
+0022600100,330,PT00M02.30S,2,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,235
+0022600100,331,PT00M00.00S,2,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,Missed,1,,,0,v,MISS Queen Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,236
+0022600100,332,PT00M00.00S,2,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Rebound,Rebound,Unknown,0,0,237
+0022600100,333,PT00M00.00S,2,0,,0,,,0,0,0,,0,62,52,114,,End of 2nd Period (10:41 PM EST),period,end,1,0,238
+0022600100,335,PT12M00.00S,3,0,,0,,,0,0,0,,0,62,52,114,,Start of 3rd Period (10:56 PM EST),period,start,0,0,239
+0022600100,338,PT11M54.00S,3,1610612740,NOP,1627749,Murray,D. Murray,-103,239,26,Missed,1,,,0,v,MISS Murray 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,240
+0022600100,339,PT11M54.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,241
+0022600100,340,PT11M37.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,-240,-3,24,Missed,1,,,0,h,MISS Markkanen 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,242
+0022600100,341,PT11M37.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,243
+0022600100,342,PT11M34.00S,3,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,Murphy III S.FOUL (P3.T1) (R.Acosta),Foul,Shooting,1,0,244
+0022600100,344,PT11M34.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,63,52,115,h,Jackson Jr. Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,245
+0022600100,345,PT11M34.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,64,52,116,h,Jackson Jr. Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,246
+0022600100,346,PT11M12.00S,3,1610612740,NOP,1642847,Fears,J. Fears,60,268,27,Missed,1,,,0,v,MISS Fears 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,247
+0022600100,347,PT11M12.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,248
+0022600100,348,PT11M03.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,-149,232,28,Made,1,67,52,119,h,Markkanen 28' 3PT Jump Shot (14 PTS) (Jackson Jr. 3 AST),Made Shot,Jump Shot,1,3,249
+0022600100,350,PT10M53.00S,3,1610612740,NOP,1642847,Fears,J. Fears,37,13,4,Made,1,67,54,121,v,Fears 4' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,250
+0022600100,351,PT10M47.00S,3,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen S.FOUL (P2.T2) (L.Wood),Foul,Shooting,1,0,251
+0022600100,353,PT10M47.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,MISS Bailey Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,252
+0022600100,354,PT10M47.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Normal Rebound,1,0,253
+0022600100,355,PT10M47.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,68,54,122,h,Bailey Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,254
+0022600100,356,PT10M35.00S,3,1610612740,NOP,1630530,Murphy III,T. Murphy III,-75,264,27,Missed,1,,,0,v,MISS Murphy III 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,255
+0022600100,357,PT10M35.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,256
+0022600100,358,PT10M18.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,-35,27,4,Missed,1,,,0,h,MISS Bailey 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,257
+0022600100,359,PT10M18.00S,3,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,258
+0022600100,360,PT10M14.00S,3,1610612740,NOP,1629627,Williamson,Z. Williamson,-34,17,4,Made,1,68,56,124,v,Williamson 4' Running Alley Oop Dunk Shot (10 PTS) (Murray 4 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,259
+0022600100,362,PT09M59.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,211,161,27,Missed,1,,,0,h,MISS Markkanen 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,260
+0022600100,363,PT09M59.00S,3,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,261
+0022600100,364,PT09M51.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson S.FOUL (P2.T1) (J.Capers),Foul,Shooting,1,0,262
+0022600100,366,PT09M51.00S,3,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,68,57,125,v,Murray Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,263
+0022600100,367,PT09M51.00S,3,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,68,58,126,v,Murray Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,264
+0022600100,368,PT09M40.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,26,20,3,Missed,1,,,0,h,MISS Markkanen 3' Alley Oop Layup,Missed Shot,Alley Oop Layup shot,1,2,265
+0022600100,369,PT09M40.00S,3,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,Murphy III REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,266
+0022600100,370,PT09M37.00S,3,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,Murphy III Out of Bounds - Bad Pass Turnover Turnover (P2.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,267
+0022600100,371,PT09M26.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,-113,225,25,Missed,1,,,0,h,MISS Bailey 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,268
+0022600100,372,PT09M26.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,269
+0022600100,373,PT09M18.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,232,3,0,Made,1,71,58,129,h,Peterson 3PT Jump Shot (13 PTS) (George 8 AST),Made Shot,Jump Shot,1,3,270
+0022600100,375,PT09M16.00S,3,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,271
+0022600100,376,PT09M03.00S,3,1610612740,NOP,1627749,Murray,D. Murray,-13,30,3,Made,1,71,60,131,v,Murray 3' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,272
+0022600100,378,PT08M36.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,148,203,25,Missed,1,,,0,h,MISS Bailey 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,273
+0022600100,379,PT08M36.00S,3,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,Murphy III REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,274
+0022600100,380,PT08M23.00S,3,1610612740,NOP,1627749,Murray,D. Murray,-79,149,17,Made,1,71,62,133,v,Murray 17' Step Back Jump Shot (6 PTS),Made Shot,Step Back Jump shot,1,2,275
+0022600100,381,PT08M10.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. Bad Pass Turnover (P2.T7),Turnover,Bad Pass,1,0,276
+0022600100,381,PT08M10.00S,3,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray STEAL (1 STL),,,1,0,277
+0022600100,383,PT08M05.00S,3,1610612740,NOP,1627749,Murray,D. Murray,33,17,4,Missed,1,,,0,v,MISS Murray 4' Running Layup,Missed Shot,Running Layup Shot,1,2,278
+0022600100,384,PT08M05.00S,3,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,279
+0022600100,385,PT08M03.00S,3,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,Made,1,71,64,135,v,Murray Putback Layup (8 PTS),Made Shot,Putback Layup Shot,1,2,280
+0022600100,386,PT07M48.00S,3,1610612762,UTA,1641718,George,K. George,-210,152,26,Made,1,74,64,138,h,George 26' 3PT Jump Shot (12 PTS) (Markkanen 2 AST),Made Shot,Jump Shot,1,3,281
+0022600100,388,PT07M39.00S,3,1610612740,NOP,1629627,Williamson,Z. Williamson,37,27,5,Made,1,74,66,140,v,Williamson 5' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,282
+0022600100,389,PT07M25.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,-89,31,9,Missed,1,,,0,h,MISS Peterson 9' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,283
+0022600100,390,PT07M25.00S,3,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,284
+0022600100,391,PT07M08.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. S.FOUL (P2.T2) (L.Wood),Foul,Shooting,1,0,285
+0022600100,393,PT07M08.00S,3,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,74,67,141,v,Queen Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,286
+0022600100,394,PT07M08.00S,3,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,74,68,142,v,Queen Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,287
+0022600100,395,PT06M54.00S,3,1610612762,UTA,1641718,George,K. George,-135,217,26,Missed,1,,,0,h,MISS George 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,288
+0022600100,396,PT06M54.00S,3,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,289
+0022600100,397,PT06M37.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson S.FOUL (P3.T3) (J.Capers),Foul,Shooting,1,0,290
+0022600100,399,PT06M37.00S,3,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,MISS Williamson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,291
+0022600100,400,PT06M37.00S,3,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Rebound,Rebound,Normal Rebound,0,0,292
+0022600100,403,PT06M37.00S,3,1610612740,NOP,1642847,Fears,J. Fears,0,0,0,,0,,,0,v,SUB: Poole FOR Fears,Substitution,,0,0,293
+0022600100,401,PT06M37.00S,3,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,74,69,143,v,Williamson Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,294
+0022600100,404,PT06M27.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,33,42,5,Missed,1,,,0,h,MISS Jackson Jr. 5' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,295
+0022600100,404,PT06M27.00S,3,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen BLOCK (2 BLK),,,1,2,296
+0022600100,405,PT06M27.00S,3,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,Murphy III REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,297
+0022600100,407,PT06M19.00S,3,1610612740,NOP,1627749,Murray,D. Murray,7,31,3,Made,1,74,71,145,v,Murray 3' Driving Finger Roll Layup (10 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,298
+0022600100,408,PT06M09.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George Bad Pass Turnover (P3.T8),Turnover,Bad Pass,1,0,299
+0022600100,408,PT06M09.00S,3,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,Poole STEAL (1 STL),,,1,0,300
+0022600100,410,PT06M04.00S,3,1610612740,NOP,1629627,Williamson,Z. Williamson,-27,9,3,Made,1,74,73,147,v,Williamson 3' Running Dunk (15 PTS) (Murphy III 3 AST),Made Shot,Running Dunk Shot,1,2,301
+0022600100,412,PT06M02.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,302
+0022600100,415,PT06M02.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,SUB: Hayes FOR Jackson Jr.,Substitution,,0,0,303
+0022600100,416,PT06M02.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Filipowski FOR Markkanen,Substitution,,0,0,304
+0022600100,417,PT06M02.00S,3,0,,0,,,0,0,0,,0,74,73,147,,Instant Replay3rd Period (11:09 PM EST),Instant Replay,Replay Center,0,0,305
+0022600100,418,PT05M54.00S,3,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,Filipowski Bad Pass Turnover (P2.T9),Turnover,Bad Pass,1,0,306
+0022600100,418,PT05M54.00S,3,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray STEAL (2 STL),,,1,0,307
+0022600100,420,PT05M49.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George P.FOUL (P1.T4) (R.Acosta),Foul,Personal,1,0,308
+0022600100,422,PT05M49.00S,3,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,Poole T.FOUL (P1.T2) (R.Acosta),Foul,Technical,1,0,309
+0022600100,423,PT05M49.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,MISS George Free Throw Technical,Free Throw,Free Throw Technical,1,0,310
+0022600100,424,PT05M49.00S,3,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Rebound,Rebound,Normal Rebound,0,0,311
+0022600100,426,PT05M49.00S,3,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,SUB: Matkovic FOR Queen,Substitution,,0,0,312
+0022600100,427,PT05M48.00S,3,1610612740,NOP,1627749,Murray,D. Murray,-11,10,1,Made,1,74,75,149,v,Murray 1' Reverse Layup (12 PTS) (Poole 1 AST),Made Shot,Reverse Layup Shot,1,2,313
+0022600100,429,PT05M34.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George Bad Pass Turnover (P4.T10),Turnover,Bad Pass,1,0,314
+0022600100,429,PT05M34.00S,3,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,Poole STEAL (2 STL),,,1,0,315
+0022600100,431,PT05M31.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey P.FOUL (P2.PN) (L.Wood),Foul,Personal,1,0,316
+0022600100,433,PT05M31.00S,3,1610612740,NOP,1631255,Matković,K. Matković,0,0,0,,0,74,76,150,v,Matkovic Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,317
+0022600100,434,PT05M31.00S,3,1610612740,NOP,1631255,Matković,K. Matković,0,0,0,,0,,,0,v,MISS Matkovic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,318
+0022600100,435,PT05M31.00S,3,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,319
+0022600100,436,PT05M14.00S,3,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,Poole P.FOUL (P2.T3) (J.Capers),Foul,Personal,1,0,320
+0022600100,439,PT05M14.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,SUB: Collier FOR Peterson,Substitution,,0,0,321
+0022600100,440,PT05M03.00S,3,1610612762,UTA,1642271,Filipowski,K. Filipowski,-71,41,8,Missed,1,,,0,h,MISS Filipowski 8' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,322
+0022600100,441,PT05M03.00S,3,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,323
+0022600100,442,PT05M01.00S,3,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson Out of Bounds Lost Ball Turnover (P1.T5),Turnover,Out of Bounds Lost Ball Turnover,1,0,324
+0022600100,443,PT04M55.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,-245,-17,25,Made,1,77,76,153,h,Bailey 25' 3PT Jump Shot (6 PTS) (George 9 AST),Made Shot,Jump Shot,1,3,325
+0022600100,445,PT04M35.00S,3,1610612740,NOP,1627749,Murray,D. Murray,-4,34,3,Missed,1,,,0,v,MISS Murray 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,326
+0022600100,446,PT04M35.00S,3,1610612740,NOP,1631255,Matković,K. Matković,0,0,0,,0,,,0,v,Matkovic REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,327
+0022600100,447,PT04M32.00S,3,1610612740,NOP,1631255,Matković,K. Matković,0,0,0,Made,1,77,78,155,v,Matkovic Tip Layup Shot (3 PTS),Made Shot,Tip Layup Shot,1,2,328
+0022600100,448,PT04M15.00S,3,1610612762,UTA,1641718,George,K. George,50,38,6,Missed,1,,,0,h,MISS George 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,329
+0022600100,449,PT04M15.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,330
+0022600100,450,PT04M15.00S,3,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray L.B.FOUL (P1.T4) (R.Acosta),Foul,Loose Ball,1,0,331
+0022600100,454,PT04M15.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,SUB: Mykhailiuk FOR George,Substitution,,0,0,332
+0022600100,455,PT04M15.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,SUB: Sensabaugh FOR Bailey,Substitution,,0,0,333
+0022600100,456,PT04M02.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh Bad Pass Turnover (P1.T11),Turnover,Bad Pass,1,0,334
+0022600100,456,PT04M02.00S,3,1610612740,NOP,1631255,Matković,K. Matković,0,0,0,,0,,,0,v,Matkovic STEAL (1 STL),,,1,0,335
+0022600100,458,PT03M58.00S,3,1610612740,NOP,1631255,Matković,K. Matković,37,3,4,Made,1,77,80,157,v,Matkovic 4' Running Alley Oop Dunk Shot (5 PTS) (Murray 5 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,336
+0022600100,460,PT03M47.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,150,210,26,Made,1,80,80,160,h,Sensabaugh 26' 3PT Jump Shot (8 PTS) (Collier 5 AST),Made Shot,Jump Shot,1,3,337
+0022600100,462,PT03M33.00S,3,1610612740,NOP,1630530,Murphy III,T. Murphy III,-167,101,20,Missed,1,,,0,v,MISS Murphy III 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,338
+0022600100,463,PT03M33.00S,3,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,339
+0022600100,464,PT03M26.00S,3,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier Lost Ball Turnover (P1.T12),Turnover,Lost Ball,1,0,340
+0022600100,464,PT03M26.00S,3,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray STEAL (3 STL),,,1,0,341
+0022600100,508,PT03M26.00S,3,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,342
+0022600100,469,PT03M22.00S,3,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,SUB: Jones FOR Williamson,Substitution,,0,0,343
+0022600100,470,PT03M22.00S,3,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,SUB: Bey FOR Murphy III,Substitution,,0,0,344
+0022600100,471,PT03M22.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Coach Challenge (Full 4 Short 0),Timeout,Coach Challenge,0,0,345
+0022600100,472,PT03M22.00S,3,0,,0,,,0,0,0,,0,80,80,160,,Instant Replay3rd Period (11:18 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,346
+0022600100,474,PT03M22.00S,3,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,SUB: Mathurin FOR Murray,Substitution,,0,0,347
+0022600100,475,PT03M11.00S,3,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,90,229,25,Missed,1,,,0,h,MISS Mykhailiuk 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,348
+0022600100,476,PT03M11.00S,3,1610612740,NOP,1631255,Matković,K. Matković,0,0,0,,0,,,0,v,Matkovic REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,349
+0022600100,477,PT02M49.00S,3,1610612740,NOP,1630529,Jones,H. Jones,-149,197,25,Made,1,80,83,163,v,Jones 25' 3PT Jump Shot (3 PTS) (Matkovic 1 AST),Made Shot,Jump Shot,1,3,350
+0022600100,479,PT02M36.00S,3,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier Bad Pass Turnover (P2.T13),Turnover,Bad Pass,1,0,351
+0022600100,479,PT02M36.00S,3,1610612740,NOP,1631255,Matković,K. Matković,0,0,0,,0,,,0,v,Matkovic STEAL (2 STL),,,1,0,352
+0022600100,481,PT02M31.00S,3,1610612740,NOP,1631097,Mathurin,B. Mathurin,0,0,0,,0,,,0,v,Mathurin Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,353
+0022600100,481,PT02M31.00S,3,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,Filipowski STEAL (1 STL),,,1,0,354
+0022600100,483,PT02M25.00S,3,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,Filipowski Lost Ball Turnover (P3.T14),Turnover,Lost Ball,1,0,355
+0022600100,483,PT02M25.00S,3,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,Poole STEAL (3 STL),,,1,0,356
+0022600100,485,PT02M21.00S,3,1610612740,NOP,1631097,Mathurin,B. Mathurin,0,0,0,,0,,,0,v,Mathurin Offensive Charge Foul (P2) (R.Acosta),Foul,Offensive Charge,1,0,357
+0022600100,487,PT02M21.00S,3,1610612740,NOP,1631097,Mathurin,B. Mathurin,0,0,0,,0,,,0,v,Mathurin Offensive Foul Turnover (P2.T8),Turnover,Offensive Foul Turnover,1,0,358
+0022600100,490,PT02M21.00S,3,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Jackson Jr. FOR Hayes,Substitution,,0,0,359
+0022600100,491,PT02M21.00S,3,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,SUB: Markkanen FOR Filipowski,Substitution,,0,0,360
+0022600100,492,PT02M11.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,-37,256,26,Missed,1,,,0,h,MISS Markkanen 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,361
+0022600100,493,PT02M11.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,362
+0022600100,494,PT02M06.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,6,48,5,Missed,1,,,0,h,MISS Jackson Jr. 5' Layup,Missed Shot,Layup Shot,1,2,363
+0022600100,495,PT02M06.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,364
+0022600100,496,PT02M03.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,-11,14,2,Made,1,82,83,165,h,Jackson Jr. 2' Putback Layup (15 PTS),Made Shot,Putback Layup Shot,1,2,365
+0022600100,498,PT01M55.00S,3,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk P.FOUL (P1.PN) (R.Acosta),Foul,Personal,1,0,366
+0022600100,500,PT01M55.00S,3,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,MISS Poole Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,367
+0022600100,501,PT01M55.00S,3,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Rebound,Rebound,Normal Rebound,1,0,368
+0022600100,502,PT01M55.00S,3,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,82,84,166,v,Poole Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,369
+0022600100,503,PT01M43.00S,3,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,Poole S.FOUL (P3.PN) (R.Acosta),Foul,Shooting,1,0,370
+0022600100,505,PT01M43.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,MISS Jackson Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,371
+0022600100,506,PT01M43.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Normal Rebound,0,0,372
+0022600100,507,PT01M43.00S,3,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,MISS Jackson Jr. Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,373
+0022600100,509,PT01M43.00S,3,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,v,Jones REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,374
+0022600100,510,PT01M31.00S,3,1610612740,NOP,1629673,Poole,J. Poole,-163,198,26,Missed,1,,,0,v,MISS Poole 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,375
+0022600100,511,PT01M31.00S,3,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Rebound,Rebound,Unknown,1,0,376
+0022600100,513,PT01M18.00S,3,1610612740,NOP,1629673,Poole,J. Poole,0,57,6,Missed,1,,,0,v,MISS Poole 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,377
+0022600100,514,PT01M18.00S,3,1610612740,NOP,1631255,Matković,K. Matković,0,0,0,,0,,,0,v,Matkovic REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,378
+0022600100,515,PT01M15.00S,3,1610612740,NOP,1631255,Matković,K. Matković,0,0,0,Made,1,82,86,168,v,Matkovic Putback Layup (7 PTS),Made Shot,Putback Layup Shot,1,2,379
+0022600100,516,PT01M08.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,-31,8,3,Missed,1,,,0,h,MISS Markkanen 3' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,380
+0022600100,517,PT01M08.00S,3,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,Poole REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,381
+0022600100,518,PT00M56.10S,3,1610612740,NOP,1631097,Mathurin,B. Mathurin,32,14,3,Missed,1,,,0,v,MISS Mathurin 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,382
+0022600100,519,PT00M56.10S,3,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,383
+0022600100,520,PT00M49.00S,3,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,v,Jones S.FOUL (P2.PN) (J.Capers),Foul,Shooting,1,0,384
+0022600100,522,PT00M49.00S,3,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,83,86,169,h,Collier Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,385
+0022600100,523,PT00M49.00S,3,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,84,86,170,h,Collier Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,386
+0022600100,524,PT00M32.20S,3,1610612740,NOP,1630180,Bey,S. Bey,77,127,15,Made,1,84,88,172,v,Bey 15' Fadeaway Jumper (12 PTS) (Poole 2 AST),Made Shot,Fadeaway Jump Shot,1,2,387
+0022600100,526,PT00M16.30S,3,1610612762,UTA,1642268,Collier,I. Collier,-57,39,7,Made,1,86,88,174,h,Collier 7' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,388
+0022600100,527,PT00M02.80S,3,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk S.FOUL (P2.PN) (L.Wood),Foul,Shooting,1,0,389
+0022600100,529,PT00M02.80S,3,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,86,89,175,v,Poole Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,390
+0022600100,530,PT00M02.80S,3,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,86,90,176,v,Poole Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,391
+0022600100,531,PT00M00.20S,3,0,,0,,,0,0,0,,0,,,0,h,JAZZ Heave,Heave,Team Field Goal Attempt,0,0,392
+0022600100,532,PT00M00.20S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,0,0,393
+0022600100,533,PT00M00.00S,3,0,,0,,,0,0,0,,0,86,90,176,,End of 3rd Period (11:28 PM EST),period,end,1,0,394
+0022600100,536,PT12M00.00S,4,0,,0,,,0,0,0,,0,86,90,176,,Start of 4th Period (11:30 PM EST),period,start,0,0,395
+0022600100,537,PT11M42.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,47,270,27,Missed,1,,,0,h,MISS Sensabaugh 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,396
+0022600100,538,PT11M42.00S,4,1610612740,NOP,1631255,Matković,K. Matković,0,0,0,,0,,,0,v,Matkovic REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,397
+0022600100,539,PT11M26.00S,4,1610612740,NOP,1630180,Bey,S. Bey,0,0,0,,0,,,0,v,Bey Lost Ball Turnover (P2.T9),Turnover,Lost Ball,1,0,398
+0022600100,539,PT11M26.00S,4,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen STEAL (1 STL),,,1,0,399
+0022600100,541,PT11M15.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,38,16,4,Made,1,88,90,178,h,Hayes 4' Layup (11 PTS) (Collier 6 AST),Made Shot,Layup Shot,1,2,400
+0022600100,543,PT11M15.00S,4,1610612740,NOP,1631255,Matković,K. Matković,0,0,0,,0,,,0,v,Matkovic S.FOUL (P1.T1) (J.Capers),Foul,Shooting,1,0,401
+0022600100,545,PT11M15.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,89,90,179,h,Hayes Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,1,0,402
+0022600100,546,PT11M01.00S,4,1610612740,NOP,1630180,Bey,S. Bey,-176,74,19,Made,1,89,92,181,v,Bey 19' Jump Shot (14 PTS),Made Shot,Jump Shot,1,2,403
+0022600100,548,PT10M54.00S,4,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,Poole P.FOUL (P4.T2) (R.Acosta),Foul,Personal,1,0,404
+0022600100,550,PT10M51.00S,4,1610612740,NOP,1631097,Mathurin,B. Mathurin,0,0,0,,0,,,0,v,Mathurin P.FOUL (P3.T3) (R.Acosta),Foul,Personal,1,0,405
+0022600100,552,PT10M45.00S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk Out of Bounds - Bad Pass Turnover Turnover (P1.T15),Turnover,Out of Bounds - Bad Pass Turnover,1,0,406
+0022600100,553,PT10M40.00S,4,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier P.FOUL (P2.T1) (L.Wood),Foul,Personal,1,0,407
+0022600100,555,PT10M33.00S,4,1610612740,NOP,1630180,Bey,S. Bey,-121,58,13,Missed,1,,,0,v,MISS Bey 13' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,408
+0022600100,556,PT10M33.00S,4,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Rebound,Rebound,Unknown,1,0,409
+0022600100,559,PT10M31.00S,4,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier L.B.FOUL (P3.T2) (R.Acosta),Foul,Loose Ball,1,0,410
+0022600100,561,PT10M21.00S,4,1610612740,NOP,1630529,Jones,H. Jones,231,5,0,Missed,1,,,0,v,MISS Jones 3PT Jump Shot,Missed Shot,Jump Shot,1,3,411
+0022600100,562,PT10M21.00S,4,1610612740,NOP,1631097,Mathurin,B. Mathurin,0,0,0,,0,,,0,v,Mathurin REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,412
+0022600100,563,PT10M18.00S,4,1610612740,NOP,1631097,Mathurin,B. Mathurin,0,0,0,Made,1,89,94,183,v,Mathurin Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,413
+0022600100,564,PT10M05.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,48,27,6,Made,1,91,94,185,h,Hayes 6' Alley Oop Dunk (13 PTS) (Collier 7 AST),Made Shot,Alley Oop Dunk Shot,1,2,414
+0022600100,566,PT09M52.00S,4,1610612740,NOP,1629673,Poole,J. Poole,-95,127,16,Missed,1,,,0,v,MISS Poole 16' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,415
+0022600100,567,PT09M52.00S,4,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,416
+0022600100,568,PT09M42.00S,4,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,Poole S.FOUL (P5.T4) (L.Wood),Foul,Shooting,1,0,417
+0022600100,570,PT09M42.00S,4,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,MISS Collier Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,418
+0022600100,571,PT09M42.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Normal Rebound,1,0,419
+0022600100,574,PT09M42.00S,4,1610612740,NOP,1629673,Poole,J. Poole,0,0,0,,0,,,0,v,SUB: Fears FOR Poole,Substitution,,0,0,420
+0022600100,572,PT09M42.00S,4,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,92,94,186,h,Collier Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,421
+0022600100,575,PT09M27.00S,4,1610612740,NOP,1631097,Mathurin,B. Mathurin,-35,16,4,Made,1,92,96,188,v,Mathurin 4' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,422
+0022600100,576,PT09M15.00S,4,1610612762,UTA,1642268,Collier,I. Collier,-25,20,3,Made,1,94,96,190,h,Collier 3' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,423
+0022600100,577,PT08M56.00S,4,1610612740,NOP,1630180,Bey,S. Bey,-205,149,25,Made,1,94,99,193,v,Bey 25' 3PT Pullup Jump Shot (17 PTS),Made Shot,Pullup Jump shot,1,3,424
+0022600100,578,PT08M42.00S,4,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,v,Jones P.FOUL (P3.PN) (J.Capers),Foul,Personal,1,0,425
+0022600100,580,PT08M42.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,95,99,194,h,Sensabaugh Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,426
+0022600100,583,PT08M42.00S,4,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Jackson Jr. FOR Markkanen,Substitution,,0,0,427
+0022600100,585,PT08M42.00S,4,1610612740,NOP,1631255,Matković,K. Matković,0,0,0,,0,,,0,v,SUB: Queen FOR Matkovic,Substitution,,0,0,428
+0022600100,581,PT08M42.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,96,99,195,h,Sensabaugh Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,429
+0022600100,586,PT08M31.00S,4,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen OFF.Foul (P3) (R.Acosta),Foul,Offensive,1,0,430
+0022600100,588,PT08M31.00S,4,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen Offensive Foul Turnover (P2.T10),Turnover,Offensive Foul Turnover,1,0,431
+0022600100,589,PT08M21.00S,4,1610612762,UTA,1642268,Collier,I. Collier,-84,14,9,Missed,1,,,0,h,MISS Collier 9' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,432
+0022600100,590,PT08M21.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,0,0,433
+0022600100,592,PT08M14.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,31,65,7,Made,1,98,99,197,h,Hayes 7' Alley Oop Dunk (15 PTS) (Sensabaugh 2 AST),Made Shot,Alley Oop Dunk Shot,1,2,434
+0022600100,594,PT08M14.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes HANGING.TECH.FOUL (P2.T2) (J.Capers),Foul,Hanging Technical,1,0,435
+0022600100,595,PT08M14.00S,4,1610612740,NOP,1630180,Bey,S. Bey,0,0,0,,0,98,100,198,v,Bey Free Throw 1 of 1 (18 PTS),Free Throw,Free Throw 1 of 1,0,0,436
+0022600100,598,PT08M14.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,SUB: George FOR Sensabaugh,Substitution,,0,0,437
+0022600100,599,PT08M14.00S,4,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,SUB: Peterson FOR Collier,Substitution,,0,0,438
+0022600100,600,PT07M58.00S,4,1610612740,NOP,1642847,Fears,J. Fears,0,0,0,,0,,,0,v,Fears Bad Pass Turnover (P1.T11),Turnover,Bad Pass,1,0,439
+0022600100,600,PT07M58.00S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk STEAL (1 STL),,,1,0,440
+0022600100,602,PT07M50.00S,4,1610612740,NOP,1642847,Fears,J. Fears,0,0,0,,0,,,0,v,Fears P.FOUL (P1.PN) (R.Acosta),Foul,Personal,1,0,441
+0022600100,604,PT07M50.00S,4,1610612762,UTA,1641718,George,K. George,0,0,0,,0,99,100,199,h,George Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,442
+0022600100,611,PT07M50.00S,4,1610612740,NOP,1631097,Mathurin,B. Mathurin,0,0,0,,0,,,0,v,SUB: Williamson FOR Mathurin,Substitution,,0,0,443
+0022600100,612,PT07M50.00S,4,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,v,SUB: Murray FOR Jones,Substitution,,0,0,444
+0022600100,613,PT07M50.00S,4,1610612740,NOP,1630180,Bey,S. Bey,0,0,0,,0,,,0,v,SUB: Murphy III FOR Bey,Substitution,,0,0,445
+0022600100,607,PT07M50.00S,4,1610612762,UTA,1641718,George,K. George,0,0,0,,0,100,100,200,h,George Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,446
+0022600100,614,PT07M36.00S,4,1610612740,NOP,1642847,Fears,J. Fears,107,117,16,Missed,1,,,0,v,MISS Fears 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,447
+0022600100,615,PT07M36.00S,4,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,448
+0022600100,616,PT07M24.00S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson S.FOUL (P3.PN) (J.Capers),Foul,Shooting,1,0,449
+0022600100,618,PT07M24.00S,4,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,101,100,201,h,Jackson Jr. Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,450
+0022600100,619,PT07M24.00S,4,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,102,100,202,h,Jackson Jr. Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,451
+0022600100,620,PT07M08.00S,4,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray OFF.Foul (P2) (J.Capers),Foul,Offensive,1,0,452
+0022600100,622,PT07M08.00S,4,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray Offensive Foul Turnover (P2.T12),Turnover,Offensive Foul Turnover,1,0,453
+0022600100,623,PT06M56.00S,4,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,-10,98,10,Made,1,104,100,204,h,Jackson Jr. 10' Floating Jump Shot (19 PTS) (Peterson 1 AST),Made Shot,Floating Jump shot,1,2,454
+0022600100,625,PT06M44.00S,4,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George P.FOUL (P2.T3) (L.Wood),Foul,Personal,1,0,455
+0022600100,627,PT06M44.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,456
+0022600100,628,PT06M42.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes S.FOUL (P3.T4) (R.Acosta),Foul,Shooting,1,0,457
+0022600100,630,PT06M42.00S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,104,101,205,v,Williamson Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,458
+0022600100,631,PT06M42.00S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,104,102,206,v,Williamson Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,459
+0022600100,632,PT06M30.00S,4,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George Bad Pass Turnover (P5.T16),Turnover,Bad Pass,1,0,460
+0022600100,632,PT06M30.00S,4,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen STEAL (2 STL),,,1,0,461
+0022600100,634,PT06M25.00S,4,1610612740,NOP,1642847,Fears,J. Fears,0,0,0,,0,,,0,v,Fears OFF.Foul (P2) (J.Capers),Foul,Offensive,1,0,462
+0022600100,636,PT06M25.00S,4,1610612740,NOP,1642847,Fears,J. Fears,0,0,0,,0,,,0,v,Fears Offensive Foul Turnover (P2.T13),Turnover,Offensive Foul Turnover,1,0,463
+0022600100,637,PT06M15.00S,4,1610612762,UTA,1641718,George,K. George,-92,227,24,Made,1,107,102,209,h,George 24' 3PT Pullup Jump Shot (17 PTS),Made Shot,Pullup Jump shot,1,3,464
+0022600100,638,PT05M47.00S,4,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray Out of Bounds - Bad Pass Turnover Turnover (P3.T14),Turnover,Out of Bounds - Bad Pass Turnover,1,0,465
+0022600100,639,PT05M35.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,27,55,6,Made,1,109,102,211,h,Hayes 6' Floating Jump Shot (17 PTS) (George 10 AST),Made Shot,Floating Jump shot,1,2,466
+0022600100,641,PT05M35.00S,4,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,467
+0022600100,643,PT05M35.00S,4,1610612740,NOP,1642847,Fears,J. Fears,0,0,0,,0,,,0,v,SUB: Bey FOR Fears,Substitution,,0,0,468
+0022600100,644,PT05M22.00S,4,1610612740,NOP,1642852,Queen,D. Queen,40,7,4,Made,1,109,104,213,v,Queen 4' Hook Bank Shot (9 PTS),Made Shot,Hook Bank Shot,1,2,469
+0022600100,645,PT04M58.00S,4,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. Lost Ball Turnover (P3.T17),Turnover,Lost Ball,1,0,470
+0022600100,645,PT04M58.00S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson STEAL (2 STL),,,1,0,471
+0022600100,647,PT04M54.00S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,-7,32,3,Missed,1,,,0,v,MISS Williamson 3' Running Layup,Missed Shot,Running Layup Shot,1,2,472
+0022600100,647,PT04M54.00S,4,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. BLOCK (3 BLK),,,1,2,473
+0022600100,648,PT04M54.00S,4,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Rebound,Rebound,Unknown,1,0,474
+0022600100,652,PT04M54.00S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Markkanen FOR Mykhailiuk,Substitution,,0,0,475
+0022600100,653,PT04M47.00S,4,1610612740,NOP,1627749,Murray,D. Murray,-108,105,15,Missed,1,,,0,v,MISS Murray 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,476
+0022600100,654,PT04M47.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,477
+0022600100,655,PT04M34.00S,4,1610612762,UTA,1641718,George,K. George,71,28,8,Made,1,111,104,215,h,George 8' Driving Floating Bank Jump Shot (19 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,478
+0022600100,656,PT04M15.00S,4,1610612740,NOP,1642852,Queen,D. Queen,-172,189,26,Made,1,111,107,218,v,Queen 26' 3PT Jump Shot (12 PTS) (Bey 1 AST),Made Shot,Jump Shot,1,3,479
+0022600100,658,PT03M59.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,-46,93,10,Missed,1,,,0,h,MISS Peterson 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,480
+0022600100,659,PT03M59.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,481
+0022600100,660,PT03M56.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,Missed,1,,,0,h,MISS Hayes Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,482
+0022600100,661,PT03M56.00S,4,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,483
+0022600100,662,PT03M47.00S,4,1610612740,NOP,1627749,Murray,D. Murray,-21,37,4,Made,1,111,109,220,v,Murray 4' Driving Reverse Layup (14 PTS),Made Shot,Driving Reverse Layup Shot,1,2,484
+0022600100,663,PT03M33.00S,4,1610612762,UTA,1628374,Markkanen,L. Markkanen,19,52,6,Made,1,113,109,222,h,Markkanen 6' Cutting Dunk Shot (16 PTS) (Hayes 2 AST),Made Shot,Cutting Dunk Shot,1,2,485
+0022600100,665,PT03M14.00S,4,1610612740,NOP,1630180,Bey,S. Bey,-79,77,11,Made,1,113,111,224,v,Bey 11' Turnaround Jump Shot (20 PTS) (Murray 6 AST),Made Shot,Turnaround Jump Shot,1,2,486
+0022600100,667,PT02M56.00S,4,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,237,-29,24,Made,1,116,111,227,h,Jackson Jr. 24' 3PT Jump Shot (22 PTS) (Markkanen 3 AST),Made Shot,Jump Shot,1,3,487
+0022600100,669,PT02M38.00S,4,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. S.FOUL (P3.PN) (R.Acosta),Foul,Shooting,1,0,488
+0022600100,671,PT02M38.00S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,116,112,228,v,Williamson Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,489
+0022600100,672,PT02M38.00S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,116,113,229,v,Williamson Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,490
+0022600100,673,PT02M30.00S,4,1610612762,UTA,1641718,George,K. George,51,162,17,Missed,1,,,0,h,MISS George 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,491
+0022600100,674,PT02M30.00S,4,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,Queen REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,492
+0022600100,678,PT02M15.00S,4,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. P.FOUL (P4.PN) (R.Acosta),Foul,Personal,1,0,493
+0022600100,676,PT02M15.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,494
+0022600100,677,PT02M15.00S,4,0,,0,,,0,0,0,,0,116,113,229,,Instant Replay4th Period (11:56 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,495
+0022600100,680,PT02M15.00S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,116,114,230,v,Williamson Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,496
+0022600100,681,PT02M15.00S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,116,115,231,v,Williamson Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,1,0,497
+0022600100,682,PT02M06.00S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson P.FOUL (P4.PN) (J.Capers),Foul,Personal,1,0,498
+0022600100,684,PT02M06.00S,4,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,117,115,232,h,Jackson Jr. Free Throw 1 of 2 (23 PTS),Free Throw,Free Throw 1 of 2,1,0,499
+0022600100,685,PT02M06.00S,4,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,118,115,233,h,Jackson Jr. Free Throw 2 of 2 (24 PTS),Free Throw,Free Throw 2 of 2,1,0,500
+0022600100,686,PT01M52.00S,4,1610612740,NOP,1630180,Bey,S. Bey,-159,203,26,Missed,1,,,0,v,MISS Bey 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,501
+0022600100,687,PT01M52.00S,4,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,502
+0022600100,688,PT01M35.00S,4,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George Lost Ball Turnover (P6.T18),Turnover,Lost Ball,1,0,503
+0022600100,688,PT01M35.00S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson STEAL (3 STL),,,1,0,504
+0022600100,690,PT01M32.00S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,-42,22,5,Made,1,118,117,235,v,Williamson 5' Running Dunk (23 PTS),Made Shot,Running Dunk Shot,1,2,505
+0022600100,691,PT01M11.00S,4,1610612762,UTA,1641718,George,K. George,178,179,25,Missed,1,,,0,h,MISS George 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,506
+0022600100,692,PT01M11.00S,4,1610612740,NOP,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,507
+0022600100,693,PT01M01.00S,4,1610612740,NOP,1627749,Murray,D. Murray,-11,11,2,Made,1,118,119,237,v,Murray 2' Driving Reverse Layup (16 PTS),Made Shot,Driving Reverse Layup Shot,1,2,508
+0022600100,694,PT00M50.50S,4,1610612740,NOP,1630530,Murphy III,T. Murphy III,0,0,0,,0,,,0,v,Murphy III S.FOUL (P4.PN) (L.Wood),Foul,Shooting,1,0,509
+0022600100,696,PT00M50.50S,4,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,119,119,238,h,Peterson Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,510
+0022600100,697,PT00M50.50S,4,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,120,119,239,h,Peterson Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,511
+0022600100,701,PT00M35.90S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson Offensive Charge Foul (P5) (J.Capers),Foul,Offensive Charge,1,0,512
+0022600100,703,PT00M35.90S,4,1610612740,NOP,1629627,Williamson,Z. Williamson,0,0,0,,0,,,0,v,Williamson Offensive Foul Turnover (P2.T15),Turnover,Offensive Foul Turnover,1,0,513
+0022600100,704,PT00M35.90S,4,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,514
+0022600100,705,PT00M35.90S,4,0,,0,,,0,0,0,,0,120,119,239,,Instant Replay4th Period (12:04 AM EST),Instant Replay,Coach Challenge Support Ruling,0,0,515
+0022600100,709,PT00M35.90S,4,1610612740,NOP,1642852,Queen,D. Queen,0,0,0,,0,,,0,v,SUB: Jones FOR Queen,Substitution,,0,0,516
+0022600100,706,PT00M14.30S,4,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,-101,94,14,Missed,1,,,0,h,MISS Jackson Jr. 14' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,517
+0022600100,707,PT00M14.30S,4,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Rebound,Rebound,Unknown,1,0,518
+0022600100,710,PT00M01.40S,4,1610612740,NOP,1627749,Murray,D. Murray,-161,112,20,Missed,1,,,0,v,MISS Murray 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,519
+0022600100,711,PT00M01.40S,4,0,,1610612740,,,0,0,0,,0,,,0,v,Pelicans Rebound,Rebound,Unknown,0,0,520
+0022600100,712,PT00M00.00S,4,0,,0,,,0,0,0,,0,120,119,239,,End of 4th Period (12:06 AM EST),period,end,1,0,521

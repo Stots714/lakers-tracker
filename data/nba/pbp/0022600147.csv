@@ -1,0 +1,549 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600147,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (3:12 PM EST),period,start,1,0,1
+0022600147,4,PT12M00.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Jump Ball Hayes vs. Clingan: Tip to Lillard,Jump Ball,,1,0,2
+0022600147,7,PT11M47.00S,1,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,3
+0022600147,7,PT11M47.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes STEAL (1 STL),,,1,0,4
+0022600147,9,PT11M41.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,-7,51,5,Missed,1,,,0,h,MISS Hayes 5' Running Layup,Missed Shot,Running Layup Shot,1,2,5
+0022600147,10,PT11M41.00S,1,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,6
+0022600147,11,PT11M34.00S,1,1610612757,POR,1630703,Henderson,S. Henderson,-243,5,24,Missed,1,,,0,v,MISS Henderson 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,7
+0022600147,12,PT11M34.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,8
+0022600147,13,PT11M29.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,9
+0022600147,13,PT11M29.00S,1,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,Henderson STEAL (1 STL),,,1,0,10
+0022600147,15,PT11M24.00S,1,1610612757,POR,1641739,Camara,T. Camara,238,16,24,Missed,1,,,0,v,MISS Camara 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,11
+0022600147,16,PT11M24.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0022600147,17,PT11M10.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,66,62,9,Missed,1,,,0,h,MISS Peterson 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,13
+0022600147,18,PT11M10.00S,1,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,Avdija REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,14
+0022600147,19,PT11M02.00S,1,1610612757,POR,1630166,Avdija,D. Avdija,-3,28,3,Missed,1,,,0,v,MISS Avdija 3' Running Layup,Missed Shot,Running Layup Shot,1,2,15
+0022600147,19,PT11M02.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen BLOCK (1 BLK),,,1,2,16
+0022600147,20,PT11M02.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,17
+0022600147,21,PT10M50.00S,1,1610612762,UTA,1641718,George,K. George,100,247,27,Missed,1,,,0,h,MISS George 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,18
+0022600147,22,PT10M50.00S,1,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Unknown,1,0,19
+0022600147,24,PT10M36.00S,1,1610612757,POR,203081,Lillard,D. Lillard,173,130,22,Made,1,0,2,2,v,Lillard 22' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,20
+0022600147,26,PT10M15.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,-40,80,9,Missed,1,,,0,h,MISS Peterson 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,21
+0022600147,27,PT10M15.00S,1,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,Camara REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,22
+0022600147,28,PT10M03.00S,1,1610612757,POR,1630703,Henderson,S. Henderson,-74,87,11,Missed,1,,,0,v,MISS Henderson 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,23
+0022600147,29,PT10M03.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,24
+0022600147,30,PT09M50.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,105,227,25,Made,1,3,2,5,h,Peterson 25' 3PT Jump Shot (3 PTS) (Bailey 1 AST),Made Shot,Jump Shot,1,3,25
+0022600147,32,PT09M36.00S,1,1610612757,POR,203081,Lillard,D. Lillard,-207,166,27,Made,1,3,5,8,v,Lillard 27' 3PT Jump Shot (5 PTS) (Avdija 1 AST),Made Shot,Jump Shot,1,3,26
+0022600147,34,PT09M18.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,116,195,23,Missed,1,,,0,h,MISS Bailey 23' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,27
+0022600147,35,PT09M18.00S,1,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,28
+0022600147,36,PT09M10.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen S.FOUL (P1.T1) (B.Haskill),Foul,Shooting,1,0,29
+0022600147,38,PT09M10.00S,1,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,MISS Avdija Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,30
+0022600147,39,PT09M10.00S,1,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Normal Rebound,0,0,31
+0022600147,40,PT09M10.00S,1,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,3,6,9,v,Avdija Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,32
+0022600147,41,PT08M54.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,-108,113,16,Made,1,5,6,11,h,Bailey 16' Pullup Jump Shot (2 PTS) (Hayes 1 AST),Made Shot,Pullup Jump shot,1,2,33
+0022600147,43,PT08M36.00S,1,1610612757,POR,1630166,Avdija,D. Avdija,235,12,24,Missed,1,,,0,v,MISS Avdija 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,34
+0022600147,44,PT08M36.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,35
+0022600147,45,PT08M30.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,-45,35,6,Made,1,7,6,13,h,Bailey 6' Running Dunk (4 PTS) (George 1 AST),Made Shot,Running Dunk Shot,1,2,36
+0022600147,47,PT08M18.00S,1,1610612757,POR,1641739,Camara,T. Camara,135,208,25,Missed,1,,,0,v,MISS Camara 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,37
+0022600147,48,PT08M18.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,38
+0022600147,49,PT08M06.00S,1,1610612762,UTA,1641718,George,K. George,-34,153,16,Missed,1,,,0,h,MISS George 16' Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,2,39
+0022600147,50,PT08M06.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,40
+0022600147,51,PT08M03.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,Missed,1,,,0,h,MISS Hayes Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,41
+0022600147,52,PT08M03.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,42
+0022600147,53,PT07M59.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,-42,263,27,Missed,1,,,0,h,MISS Markkanen 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,43
+0022600147,54,PT07M59.00S,1,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Unknown,0,0,44
+0022600147,56,PT07M47.00S,1,1610612757,POR,203081,Lillard,D. Lillard,-108,230,25,Missed,1,,,0,v,MISS Lillard 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,45
+0022600147,56,PT07M47.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson BLOCK (1 BLK),,,1,3,46
+0022600147,57,PT07M47.00S,1,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,47
+0022600147,59,PT07M42.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey S.FOUL (P1.T2) (T.Maddox),Foul,Shooting,1,0,48
+0022600147,61,PT07M42.00S,1,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,7,7,14,v,Avdija Free Throw 1 of 2 (2 PTS),Free Throw,Free Throw 1 of 2,1,0,49
+0022600147,62,PT07M42.00S,1,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,7,8,15,v,Avdija Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,50
+0022600147,63,PT07M26.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,-169,237,29,Missed,1,,,0,h,MISS Markkanen 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,51
+0022600147,64,PT07M26.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,0,0,52
+0022600147,66,PT07M20.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,-37,22,4,Missed,1,,,0,h,MISS Hayes 4' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,53
+0022600147,67,PT07M20.00S,1,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,Avdija REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,54
+0022600147,68,PT07M10.00S,1,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,Avdija Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,55
+0022600147,68,PT07M10.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes STEAL (2 STL),,,1,0,56
+0022600147,70,PT06M57.00S,1,1610612762,UTA,1641718,George,K. George,243,2,24,Missed,1,,,0,h,MISS George 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,57
+0022600147,71,PT06M57.00S,1,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,58
+0022600147,72,PT06M42.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey S.FOUL (P2.T3) (T.Maddox),Foul,Shooting,1,0,59
+0022600147,75,PT06M42.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,60
+0022600147,77,PT06M42.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,SUB: Collier FOR Peterson,Substitution,,0,0,61
+0022600147,79,PT06M42.00S,1,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,SUB: Holiday FOR Henderson,Substitution,,0,0,62
+0022600147,74,PT06M42.00S,1,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,7,9,16,v,Lillard Free Throw 1 of 3 (6 PTS),Free Throw,Free Throw 1 of 3,1,0,63
+0022600147,80,PT06M42.00S,1,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,7,10,17,v,Lillard Free Throw 2 of 3 (7 PTS),Free Throw,Free Throw 2 of 3,1,0,64
+0022600147,81,PT06M42.00S,1,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,7,11,18,v,Lillard Free Throw 3 of 3 (8 PTS),Free Throw,Free Throw 3 of 3,1,0,65
+0022600147,82,PT06M29.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes Out of Bounds - Bad Pass Turnover Turnover (P2.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,66
+0022600147,83,PT06M16.00S,1,1610612757,POR,201950,Holiday,J. Holiday,-168,182,25,Missed,1,,,0,v,MISS Holiday 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,67
+0022600147,84,PT06M16.00S,1,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,68
+0022600147,85,PT06M07.00S,1,1610612757,POR,203081,Lillard,D. Lillard,-175,166,24,Made,1,7,14,21,v,Lillard 24' 3PT Step Back Jump Shot (11 PTS),Made Shot,Step Back Jump shot,1,3,69
+0022600147,86,PT05M44.00S,1,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan P.FOUL (P1.T1) (T.Maddox),Foul,Personal,1,0,70
+0022600147,90,PT05M44.00S,1,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Bamba FOR Hayes,Substitution,,0,0,71
+0022600147,91,PT05M44.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Okogie FOR Markkanen,Substitution,,0,0,72
+0022600147,93,PT05M44.00S,1,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,SUB: Cissoko FOR Lillard,Substitution,,0,0,73
+0022600147,94,PT05M34.00S,1,1610612762,UTA,1641718,George,K. George,98,74,12,Missed,1,,,0,h,MISS George 12' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,74
+0022600147,95,PT05M34.00S,1,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,75
+0022600147,96,PT05M24.00S,1,1610612757,POR,201950,Holiday,J. Holiday,-122,40,13,Made,1,7,16,23,v,Holiday 13' Step Back Jump Shot (2 PTS),Made Shot,Step Back Jump shot,1,2,76
+0022600147,97,PT05M04.00S,1,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,Cissoko P.FOUL (P1.T2) (T.Maddox),Foul,Personal,1,0,77
+0022600147,100,PT05M04.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,SUB: Mykhailiuk FOR Bailey,Substitution,,0,0,78
+0022600147,102,PT05M04.00S,1,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,SUB: Williams III FOR Clingan,Substitution,,0,0,79
+0022600147,103,PT04M57.00S,1,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,80
+0022600147,103,PT04M57.00S,1,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday STEAL (1 STL),,,1,0,81
+0022600147,105,PT04M51.00S,1,1610612757,POR,1630166,Avdija,D. Avdija,7,29,3,Made,1,7,18,25,v,Avdija 3' Running Layup (5 PTS) (Holiday 1 AST),Made Shot,Running Layup Shot,1,2,82
+0022600147,107,PT04M29.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George OFF.Foul (P1) (B.Haskill),Foul,Offensive,1,0,83
+0022600147,109,PT04M29.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,84
+0022600147,110,PT04M09.00S,1,1610612757,POR,1630166,Avdija,D. Avdija,201,141,25,Made,1,7,21,28,v,Avdija 25' 3PT Step Back Jump Shot (8 PTS) (Williams III 1 AST),Made Shot,Step Back Jump shot,1,3,85
+0022600147,112,PT03M50.00S,1,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,Avdija P.FOUL (P1.T3) (B.Haskill),Foul,Personal,1,0,86
+0022600147,116,PT03M50.00S,1,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,SUB: Henderson FOR Avdija,Substitution,,0,0,87
+0022600147,117,PT03M50.00S,1,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,SUB: Krejci FOR Camara,Substitution,,0,0,88
+0022600147,118,PT03M40.00S,1,1610612762,UTA,1641718,George,K. George,79,137,16,Missed,1,,,0,h,MISS George 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,89
+0022600147,119,PT03M40.00S,1,1610612757,POR,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,90
+0022600147,120,PT03M29.00S,1,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie S.FOUL (P1.T4) (T.Maddox),Foul,Shooting,1,0,91
+0022600147,122,PT03M29.00S,1,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,7,22,29,v,Holiday Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,92
+0022600147,125,PT03M29.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,SUB: Peterson FOR George,Substitution,,0,0,93
+0022600147,123,PT03M29.00S,1,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,7,23,30,v,Holiday Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,94
+0022600147,126,PT03M10.00S,1,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,95
+0022600147,126,PT03M10.00S,1,1610612757,POR,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III STEAL (1 STL),,,1,0,96
+0022600147,128,PT02M58.00S,1,1610612757,POR,1630249,Krejčí,V. Krejčí,75,254,26,Missed,1,,,0,v,MISS Krejci 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,97
+0022600147,129,PT02M58.00S,1,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,98
+0022600147,130,PT02M50.00S,1,1610612762,UTA,1642268,Collier,I. Collier,35,26,4,Missed,1,,,0,h,MISS Collier 4' Running Layup,Missed Shot,Running Layup Shot,1,2,99
+0022600147,130,PT02M50.00S,1,1610612757,POR,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III BLOCK (1 BLK),,,1,2,100
+0022600147,131,PT02M50.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,101
+0022600147,132,PT02M48.00S,1,1610612757,POR,1630249,Krejčí,V. Krejčí,0,0,0,,0,,,0,v,Krejci S.FOUL (P1.T4) (B.Haskill),Foul,Shooting,1,0,102
+0022600147,135,PT02M48.00S,1,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,103
+0022600147,137,PT02M48.00S,1,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,SUB: Sensabaugh FOR Collier,Substitution,,0,0,104
+0022600147,134,PT02M48.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,8,23,31,h,Bamba Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,105
+0022600147,138,PT02M48.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,9,23,32,h,Bamba Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,106
+0022600147,139,PT02M32.00S,1,1610612757,POR,1630703,Henderson,S. Henderson,76,32,8,Missed,1,,,0,v,MISS Henderson 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,107
+0022600147,140,PT02M32.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,108
+0022600147,141,PT02M20.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,-197,183,27,Made,1,12,23,35,h,Mykhailiuk 27' 3PT Jump Shot (3 PTS) (Peterson 1 AST),Made Shot,Jump Shot,1,3,109
+0022600147,143,PT01M57.00S,1,1610612757,POR,1629057,Williams III,R. Williams III,-119,52,13,Missed,1,,,0,v,MISS Williams III 13' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,110
+0022600147,144,PT01M57.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,111
+0022600147,145,PT01M38.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,26,17,3,Made,1,14,23,37,h,Bamba 3' Layup (4 PTS) (Mykhailiuk 1 AST),Made Shot,Layup Shot,1,2,112
+0022600147,147,PT01M18.00S,1,1610612757,POR,1630249,Krejčí,V. Krejčí,172,179,25,Missed,1,,,0,v,MISS Krejci 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,113
+0022600147,148,PT01M18.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,114
+0022600147,149,PT01M11.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,115
+0022600147,149,PT01M11.00S,1,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,Henderson STEAL (2 STL),,,1,0,116
+0022600147,151,PT01M08.00S,1,1610612757,POR,1630703,Henderson,S. Henderson,-7,27,3,Made,1,14,25,39,v,Henderson 3' Driving Dunk (2 PTS),Made Shot,Driving Dunk Shot,1,2,117
+0022600147,152,PT00M54.80S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,168,209,27,Made,1,17,25,42,h,Sensabaugh 27' 3PT Jump Shot (3 PTS) (Peterson 2 AST),Made Shot,Jump Shot,1,3,118
+0022600147,154,PT00M34.90S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh S.FOUL (P1.PN) (B.Haskill),Foul,Shooting,1,0,119
+0022600147,156,PT00M34.90S,1,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,17,26,43,v,Henderson Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,120
+0022600147,157,PT00M34.90S,1,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,17,27,44,v,Henderson Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,121
+0022600147,159,PT00M34.70S,1,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,SUB: Markkanen FOR Okogie,Substitution,,0,0,122
+0022600147,162,PT00M34.70S,1,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,SUB: Lillard FOR Cissoko,Substitution,,0,0,123
+0022600147,163,PT00M34.70S,1,1610612757,POR,1630249,Krejčí,V. Krejčí,0,0,0,,0,,,0,v,SUB: Avdija FOR Krejci,Substitution,,0,0,124
+0022600147,164,PT00M24.30S,1,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,Henderson S.FOUL (P1.PN) (B.Haskill),Foul,Shooting,1,0,125
+0022600147,166,PT00M24.30S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,18,27,45,h,Peterson Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,126
+0022600147,170,PT00M24.30S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,SUB: Okogie FOR Sensabaugh,Substitution,,0,0,127
+0022600147,171,PT00M24.30S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Green FOR Markkanen,Substitution,,0,0,128
+0022600147,167,PT00M24.30S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,MISS Peterson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,129
+0022600147,172,PT00M24.30S,1,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,Avdija REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,130
+0022600147,173,PT00M00.40S,1,1610612757,POR,1630703,Henderson,S. Henderson,245,-41,25,Missed,1,,,0,v,MISS Henderson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,131
+0022600147,174,PT00M00.40S,1,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Unknown,1,0,132
+0022600147,175,PT00M00.30S,1,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Turnover: Shot Clock (T#3),Turnover,Shot Clock Turnover,1,0,133
+0022600147,176,PT00M00.00S,1,0,,0,,,0,0,0,,0,,,0,h,JAZZ Heave,Heave,Team Field Goal Attempt,0,0,134
+0022600147,177,PT00M00.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,135
+0022600147,178,PT00M00.00S,1,0,,0,,,0,0,0,,0,18,27,45,,End of 1st Period (3:38 PM EST),period,end,1,0,136
+0022600147,191,PT12M00.00S,2,0,,0,,,0,0,0,,0,18,27,45,,Start of 2nd Period (3:41 PM EST),period,start,0,0,137
+0022600147,192,PT11M51.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,-249,-11,25,Missed,1,,,0,h,MISS Markkanen 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,138
+0022600147,193,PT11M51.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,139
+0022600147,194,PT11M49.00S,2,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan L.B.FOUL (P2.T1) (B.Haskill),Foul,Loose Ball,1,0,140
+0022600147,196,PT11M41.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,115,59,13,Missed,1,,,0,h,MISS Sensabaugh 13' Fadeaway Bank Shot,Missed Shot,Fadeaway Bank shot,1,2,141
+0022600147,197,PT11M41.00S,2,1610612757,POR,1630249,Krejčí,V. Krejčí,0,0,0,,0,,,0,v,Krejci REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,142
+0022600147,198,PT11M28.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen S.FOUL (P2.T1) (B.Haskill),Foul,Shooting,1,0,143
+0022600147,200,PT11M28.00S,2,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,MISS Lillard Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,144
+0022600147,201,PT11M28.00S,2,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Normal Rebound,0,0,145
+0022600147,202,PT11M28.00S,2,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,18,28,46,v,Lillard Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,146
+0022600147,203,PT11M16.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,39,251,25,Missed,1,,,0,h,MISS Peterson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,147
+0022600147,204,PT11M16.00S,2,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,148
+0022600147,205,PT11M05.00S,2,1610612757,POR,1630249,Krejčí,V. Krejčí,235,-17,24,Made,1,18,31,49,v,Krejci 24' 3PT Jump Shot (3 PTS) (Lillard 1 AST),Made Shot,Jump Shot,1,3,149
+0022600147,207,PT10M51.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,-172,190,26,Missed,1,,,0,h,MISS Mykhailiuk 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,150
+0022600147,208,PT10M51.00S,2,1610612757,POR,1630249,Krejčí,V. Krejčí,0,0,0,,0,,,0,v,Krejci REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,151
+0022600147,209,PT10M40.00S,2,1610612757,POR,1641739,Camara,T. Camara,-177,175,25,Made,1,18,34,52,v,Camara 25' 3PT Jump Shot (3 PTS) (Avdija 2 AST),Made Shot,Jump Shot,1,3,152
+0022600147,211,PT10M28.00S,2,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan S.FOUL (P3.T2) (T.Maddox),Foul,Shooting,1,0,153
+0022600147,213,PT10M28.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,MISS Hayes Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,154
+0022600147,214,PT10M28.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Normal Rebound,1,0,155
+0022600147,217,PT10M28.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,SUB: Green FOR Sensabaugh,Substitution,,0,0,156
+0022600147,219,PT10M28.00S,2,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,SUB: Williams III FOR Clingan,Substitution,,0,0,157
+0022600147,215,PT10M28.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,19,34,53,h,Hayes Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,158
+0022600147,220,PT10M12.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes S.FOUL (P1.T2) (J.Goldenberg),Foul,Shooting,1,0,159
+0022600147,222,PT10M12.00S,2,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,19,35,54,v,Avdija Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,160
+0022600147,223,PT10M12.00S,2,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,19,36,55,v,Avdija Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,161
+0022600147,224,PT10M00.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen Lost Ball Turnover (P1.T7),Turnover,Lost Ball,1,0,162
+0022600147,224,PT10M00.00S,2,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,Camara STEAL (1 STL),,,1,0,163
+0022600147,226,PT09M51.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk S.FOUL (P1.T3) (B.Haskill),Foul,Shooting,1,0,164
+0022600147,228,PT09M51.00S,2,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,19,37,56,v,Avdija Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,165
+0022600147,229,PT09M51.00S,2,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,19,38,57,v,Avdija Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,166
+0022600147,230,PT09M30.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,36,4,Made,1,21,38,59,h,Hayes 4' Cutting Dunk Shot (3 PTS) (Mykhailiuk 2 AST),Made Shot,Cutting Dunk Shot,1,2,167
+0022600147,232,PT09M11.00S,2,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,Avdija Bad Pass Turnover (P2.T4),Turnover,Bad Pass,1,0,168
+0022600147,232,PT09M11.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson STEAL (1 STL),,,1,0,169
+0022600147,234,PT09M07.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,-13,52,5,Made,1,23,38,61,h,Peterson 5' Running Pull-Up Jump Shot (6 PTS),Made Shot,Running Pull-Up Jump Shot,1,2,170
+0022600147,235,PT08M49.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson S.FOUL (P1.T4) (T.Maddox),Foul,Shooting,1,0,171
+0022600147,237,PT08M49.00S,2,1610612757,POR,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,MISS Williams III Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,172
+0022600147,239,PT08M49.00S,2,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Normal Rebound,1,0,173
+0022600147,243,PT08M49.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Collier FOR Mykhailiuk,Substitution,,0,0,174
+0022600147,244,PT08M49.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,SUB: Bailey FOR Peterson,Substitution,,0,0,175
+0022600147,245,PT08M49.00S,2,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,SUB: George FOR Green,Substitution,,0,0,176
+0022600147,247,PT08M49.00S,2,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,SUB: Henderson FOR Lillard,Substitution,,0,0,177
+0022600147,238,PT08M49.00S,2,1610612757,POR,1629057,Williams III,R. Williams III,0,0,0,,0,23,39,62,v,Williams III Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,178
+0022600147,248,PT08M35.00S,2,1610612762,UTA,1642268,Collier,I. Collier,-59,70,9,Made,1,25,39,64,h,Collier 9' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,179
+0022600147,249,PT08M19.00S,2,1610612757,POR,1630703,Henderson,S. Henderson,68,52,9,Made,1,25,41,66,v,Henderson 9' Driving Floating Bank Jump Shot (6 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,180
+0022600147,250,PT07M58.00S,2,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,Henderson S.FOUL (P2.T3) (T.Maddox),Foul,Shooting,1,0,181
+0022600147,252,PT07M58.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,26,41,67,h,Collier Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,182
+0022600147,256,PT07M58.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Bamba FOR Markkanen,Substitution,,0,0,183
+0022600147,257,PT07M58.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Okogie FOR Hayes,Substitution,,0,0,184
+0022600147,259,PT07M58.00S,2,1610612757,POR,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,SUB: Hansen FOR Williams III,Substitution,,0,0,185
+0022600147,253,PT07M58.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,MISS Collier Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,186
+0022600147,260,PT07M58.00S,2,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,Avdija REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,187
+0022600147,261,PT07M50.00S,2,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,Camara Out of Bounds - Bad Pass Turnover Turnover (P1.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,188
+0022600147,262,PT07M26.00S,2,1610612762,UTA,1642268,Collier,I. Collier,79,125,15,Missed,1,,,0,h,MISS Collier 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,189
+0022600147,263,PT07M26.00S,2,1610612757,POR,1642905,Yang,Y. Hansen,0,0,0,,0,,,0,v,Hansen REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,190
+0022600147,264,PT07M13.00S,2,1610612757,POR,1642905,Yang,Y. Hansen,0,0,0,,0,,,0,v,Hansen OFF.Foul (P1) (B.Haskill),Foul,Offensive,1,0,191
+0022600147,266,PT07M13.00S,2,1610612757,POR,1642905,Yang,Y. Hansen,0,0,0,,0,,,0,v,Hansen Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,192
+0022600147,268,PT07M13.00S,2,1610612757,POR,1630249,Krejčí,V. Krejčí,0,0,0,,0,,,0,v,SUB: Holiday FOR Krejci,Substitution,,0,0,193
+0022600147,269,PT07M05.00S,2,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,Camara P.FOUL (P1.T4) (B.Haskill),Foul,Personal,1,0,194
+0022600147,271,PT07M03.00S,2,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,Camara L.B.FOUL (P2.PN) (B.Haskill),Foul,Loose Ball,1,0,195
+0022600147,274,PT07M03.00S,2,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,196
+0022600147,275,PT07M03.00S,2,0,,0,,,0,0,0,,0,26,41,67,,Instant Replay2nd Period (3:53 PM EST),Instant Replay,Coach Challenge Ruling Stands,0,0,197
+0022600147,277,PT07M03.00S,2,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,SUB: Cissoko FOR Camara,Substitution,,0,0,198
+0022600147,273,PT07M03.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,27,41,68,h,George Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,199
+0022600147,278,PT07M03.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,28,41,69,h,George Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,200
+0022600147,280,PT06M47.00S,2,1610612757,POR,1630703,Henderson,S. Henderson,164,190,25,Made,1,28,44,72,v,Henderson 25' 3PT Jump Shot (9 PTS) (Holiday 2 AST),Made Shot,Jump Shot,1,3,201
+0022600147,282,PT06M29.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,105,234,26,Missed,1,,,0,h,MISS Bailey 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,202
+0022600147,283,PT06M29.00S,2,1610612757,POR,1642905,Yang,Y. Hansen,0,0,0,,0,,,0,v,Hansen REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,203
+0022600147,287,PT06M16.00S,2,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,Henderson Out of Bounds Lost Ball Turnover (P1.T7),Turnover,Out of Bounds Lost Ball Turnover,1,0,204
+0022600147,285,PT06M16.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,205
+0022600147,286,PT06M16.00S,2,0,,0,,,0,0,0,,0,28,44,72,,Instant Replay2nd Period (3:58 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,206
+0022600147,288,PT05M51.00S,2,1610612762,UTA,1641718,George,K. George,-166,235,29,Missed,1,,,0,h,MISS George 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,207
+0022600147,289,PT05M51.00S,2,1610612757,POR,1642905,Yang,Y. Hansen,0,0,0,,0,,,0,v,Hansen REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,208
+0022600147,290,PT05M41.00S,2,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,Cissoko Bad Pass Turnover (P1.T8),Turnover,Bad Pass,1,0,209
+0022600147,290,PT05M41.00S,2,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba STEAL (1 STL),,,1,0,210
+0022600147,292,PT05M30.00S,2,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday P.FOUL (P1.PN) (B.Haskill),Foul,Personal,1,0,211
+0022600147,294,PT05M30.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,29,44,73,h,Collier Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,212
+0022600147,298,PT05M30.00S,2,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,SUB: Markkanen FOR Bamba,Substitution,,0,0,213
+0022600147,299,PT05M30.00S,2,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,SUB: Hayes FOR Okogie,Substitution,,0,0,214
+0022600147,302,PT05M30.00S,2,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,SUB: Lillard FOR Avdija,Substitution,,0,0,215
+0022600147,303,PT05M30.00S,2,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,SUB: Camara FOR Cissoko,Substitution,,0,0,216
+0022600147,295,PT05M30.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,MISS Collier Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,217
+0022600147,304,PT05M30.00S,2,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,218
+0022600147,305,PT05M16.00S,2,1610612757,POR,203081,Lillard,D. Lillard,-57,14,6,Missed,1,,,0,v,MISS Lillard 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,219
+0022600147,306,PT05M16.00S,2,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Unknown,1,0,220
+0022600147,309,PT05M13.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,SUB: Peterson FOR Collier,Substitution,,0,0,221
+0022600147,310,PT05M09.00S,2,1610612757,POR,203081,Lillard,D. Lillard,101,229,25,Missed,1,,,0,v,MISS Lillard 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,222
+0022600147,311,PT05M09.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,223
+0022600147,312,PT04M53.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes OFF.Foul (P2) (J.Goldenberg),Foul,Offensive,1,0,224
+0022600147,314,PT04M53.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes Offensive Foul Turnover (P3.T8),Turnover,Offensive Foul Turnover,1,0,225
+0022600147,315,PT04M41.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes S.FOUL (P3.PN) (J.Goldenberg),Foul,Shooting,1,0,226
+0022600147,317,PT04M41.00S,2,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,29,45,74,v,Camara Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,227
+0022600147,320,PT04M41.00S,2,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Mykhailiuk FOR Hayes,Substitution,,0,0,228
+0022600147,318,PT04M41.00S,2,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,29,46,75,v,Camara Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,229
+0022600147,321,PT04M20.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,-107,232,26,Made,1,32,46,78,h,Peterson 26' 3PT Jump Shot (9 PTS) (George 2 AST),Made Shot,Jump Shot,1,3,230
+0022600147,323,PT04M09.00S,2,1610612757,POR,201950,Holiday,J. Holiday,58,42,7,Made,1,32,48,80,v,Holiday 7' Driving Floating Bank Jump Shot (6 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,231
+0022600147,324,PT04M01.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,-206,211,29,Missed,1,,,0,h,MISS Peterson 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,232
+0022600147,325,PT04M01.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,233
+0022600147,326,PT03M51.00S,2,1610612762,UTA,1641718,George,K. George,204,32,21,Made,1,34,48,82,h,George 21' Jump Shot (4 PTS) (Mykhailiuk 3 AST),Made Shot,Jump Shot,1,2,234
+0022600147,328,PT03M33.00S,2,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard Bad Pass Turnover (P2.T9),Turnover,Bad Pass,1,0,235
+0022600147,328,PT03M33.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen STEAL (1 STL),,,1,0,236
+0022600147,330,PT03M25.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,-140,201,24,Missed,1,,,0,h,MISS Markkanen 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,237
+0022600147,331,PT03M25.00S,2,1610612757,POR,1642905,Yang,Y. Hansen,0,0,0,,0,,,0,v,Hansen REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,238
+0022600147,332,PT03M12.00S,2,1610612757,POR,1642905,Yang,Y. Hansen,49,40,6,Missed,1,,,0,v,MISS Hansen 6' Driving Layup,Missed Shot,Driving Layup Shot,0,2,239
+0022600147,332,PT03M12.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey BLOCK (1 BLK),,,0,2,240
+0022600147,333,PT03M12.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:0 Def:2),Rebound,Unknown,0,0,241
+0022600147,337,PT03M11.00S,2,1610612757,POR,1642905,Yang,Y. Hansen,0,0,0,,0,,,0,v,SUB: Cissoko FOR Hansen,Substitution,,0,0,242
+0022600147,338,PT02M56.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,24,14,3,Made,1,36,48,84,h,Peterson 3' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,243
+0022600147,339,PT02M48.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George P.FOUL (P2.PN) (B.Haskill),Foul,Personal,1,0,244
+0022600147,341,PT02M48.00S,2,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,36,49,85,v,Holiday Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,245
+0022600147,342,PT02M48.00S,2,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,36,50,86,v,Holiday Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,246
+0022600147,343,PT02M48.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Turnover: 5 Second Violation (T#9),Turnover,5 Second Violation,1,0,247
+0022600147,345,PT02M48.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,SUB: Collier FOR George,Substitution,,0,0,248
+0022600147,347,PT02M48.00S,2,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,SUB: Avdija FOR Henderson,Substitution,,0,0,249
+0022600147,348,PT02M44.00S,2,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,250
+0022600147,348,PT02M44.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey STEAL (1 STL),,,1,0,251
+0022600147,350,PT02M41.00S,2,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,Avdija S.FOUL (P2.PN) (B.Haskill),Foul,Shooting,1,0,252
+0022600147,352,PT02M41.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,MISS Markkanen Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,253
+0022600147,353,PT02M41.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Normal Rebound,0,0,254
+0022600147,356,PT02M41.00S,2,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,SUB: Williams III FOR Cissoko,Substitution,,0,0,255
+0022600147,354,PT02M41.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,37,50,87,h,Markkanen Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,256
+0022600147,357,PT02M26.00S,2,1610612757,POR,1629057,Williams III,R. Williams III,-2,20,2,Made,1,37,52,89,v,Williams III 2' Cutting Dunk Shot (3 PTS) (Lillard 2 AST),Made Shot,Cutting Dunk Shot,1,2,257
+0022600147,359,PT02M09.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,118,237,26,Missed,1,,,0,h,MISS Markkanen 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,258
+0022600147,360,PT02M09.00S,2,1610612757,POR,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,259
+0022600147,361,PT01M45.00S,2,1610612757,POR,203081,Lillard,D. Lillard,12,129,13,Missed,1,,,0,v,MISS Lillard 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,260
+0022600147,362,PT01M45.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,261
+0022600147,363,PT01M39.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,229,21,0,Missed,1,,,0,h,MISS Mykhailiuk 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,262
+0022600147,364,PT01M39.00S,2,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,263
+0022600147,365,PT01M29.00S,2,1610612757,POR,203081,Lillard,D. Lillard,16,32,4,Missed,1,,,0,v,MISS Lillard 4' Running Layup,Missed Shot,Running Layup Shot,1,2,264
+0022600147,365,PT01M29.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey BLOCK (2 BLK),,,1,2,265
+0022600147,366,PT01M29.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,266
+0022600147,368,PT01M24.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,-216,209,30,Made,1,40,52,92,h,Markkanen 30' 3PT Running Jump Shot (4 PTS) (Collier 1 AST),Made Shot,Running Jump Shot,1,3,267
+0022600147,370,PT01M07.00S,2,1610612757,POR,1630166,Avdija,D. Avdija,-32,39,5,Made,1,40,54,94,v,Avdija 5' Driving Layup (14 PTS),Made Shot,Driving Layup Shot,1,2,268
+0022600147,371,PT00M52.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,-240,34,24,Missed,1,,,0,h,MISS Mykhailiuk 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,269
+0022600147,372,PT00M52.00S,2,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,270
+0022600147,373,PT00M41.20S,2,1610612757,POR,1630166,Avdija,D. Avdija,-55,81,10,Made,1,40,56,96,v,Avdija 10' Driving Floating Jump Shot (17 PTS) (Holiday 3 AST),Made Shot,Driving Floating Jump Shot,1,2,271
+0022600147,375,PT00M41.20S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk S.FOUL (P2.PN) (T.Maddox),Foul,Shooting,1,0,272
+0022600147,379,PT00M41.20S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,SUB: George FOR Collier,Substitution,,0,0,273
+0022600147,381,PT00M41.20S,2,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,SUB: Henderson FOR Lillard,Substitution,,0,0,274
+0022600147,383,PT00M41.20S,2,1610612757,POR,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,SUB: Cissoko FOR Williams III,Substitution,,0,0,275
+0022600147,377,PT00M41.20S,2,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,40,57,97,v,Avdija Free Throw 1 of 1 (17 PTS),Free Throw,Free Throw 1 of 1,1,0,276
+0022600147,384,PT00M36.10S,2,1610612762,UTA,1642846,Bailey,A. Bailey,-240,16,24,Missed,1,,,0,h,MISS Bailey 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,277
+0022600147,385,PT00M36.10S,2,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,Cissoko REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,278
+0022600147,386,PT00M15.30S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson S.FOUL (P2.PN) (J.Goldenberg),Foul,Shooting,1,0,279
+0022600147,388,PT00M15.30S,2,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,40,58,98,v,Avdija Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,280
+0022600147,391,PT00M15.30S,2,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,SUB: Youngblood FOR Camara,Substitution,,0,0,281
+0022600147,389,PT00M15.30S,2,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,40,59,99,v,Avdija Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,282
+0022600147,392,PT00M05.00S,2,1610612757,POR,1642959,Youngblood,C. Youngblood,0,0,0,,0,,,0,v,Youngblood S.FOUL (P1.PN) (J.Goldenberg),Foul,Shooting,1,0,283
+0022600147,394,PT00M05.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,41,59,100,h,George Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,284
+0022600147,398,PT00M05.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,SUB: Green FOR Peterson,Substitution,,0,0,285
+0022600147,399,PT00M05.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Okogie FOR Mykhailiuk,Substitution,,0,0,286
+0022600147,402,PT00M05.00S,2,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,SUB: Lillard FOR Cissoko,Substitution,,0,0,287
+0022600147,403,PT00M05.00S,2,1610612757,POR,1642959,Youngblood,C. Youngblood,0,0,0,,0,,,0,v,SUB: Williams III FOR Youngblood,Substitution,,0,0,288
+0022600147,395,PT00M05.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,42,59,101,h,George Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,289
+0022600147,404,PT00M00.00S,2,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,Henderson Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,290
+0022600147,404,PT00M00.00S,2,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen STEAL (2 STL),,,1,0,291
+0022600147,406,PT00M00.00S,2,0,,0,,,0,0,0,,0,42,59,101,,End of 2nd Period (4:15 PM EST),period,end,1,0,292
+0022600147,415,PT12M00.00S,3,0,,0,,,0,0,0,,0,42,59,101,,Start of 3rd Period (4:30 PM EST),period,start,0,0,293
+0022600147,416,PT11M38.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,-177,170,25,Missed,1,,,0,h,MISS Markkanen 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,294
+0022600147,417,PT11M38.00S,3,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,Camara REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,295
+0022600147,418,PT11M29.00S,3,1610612757,POR,203081,Lillard,D. Lillard,174,216,28,Missed,1,,,0,v,MISS Lillard 28' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,296
+0022600147,419,PT11M29.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,297
+0022600147,420,PT11M24.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,298
+0022600147,420,PT11M24.00S,3,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,Henderson STEAL (3 STL),,,1,0,299
+0022600147,479,PT11M08.00S,3,1610612757,POR,1642270,Clingan,D. Clingan,-24,14,3,Missed,1,,,0,v,MISS Clingan 3' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,300
+0022600147,479,PT11M08.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen BLOCK (2 BLK),,,1,2,301
+0022600147,481,PT11M08.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,302
+0022600147,424,PT10M59.00S,3,1610612762,UTA,1641718,George,K. George,-244,-21,24,Missed,1,,,0,h,MISS George 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,303
+0022600147,425,PT10M59.00S,3,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,Camara REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,304
+0022600147,426,PT10M43.00S,3,1610612757,POR,1630166,Avdija,D. Avdija,-7,121,12,Missed,1,,,0,v,MISS Avdija 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,305
+0022600147,427,PT10M43.00S,3,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,306
+0022600147,428,PT10M39.00S,3,1610612757,POR,1641739,Camara,T. Camara,-239,29,24,Missed,1,,,0,v,MISS Camara 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,307
+0022600147,429,PT10M39.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,308
+0022600147,430,PT10M23.00S,3,1610612762,UTA,1629637,Hayes,J. Hayes,-21,98,10,Missed,1,,,0,h,MISS Hayes 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,309
+0022600147,430,PT10M23.00S,3,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan BLOCK (1 BLK),,,1,2,310
+0022600147,431,PT10M23.00S,3,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,Avdija REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,311
+0022600147,433,PT10M16.00S,3,1610612757,POR,1630703,Henderson,S. Henderson,139,208,25,Missed,1,,,0,v,MISS Henderson 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,312
+0022600147,434,PT10M16.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,313
+0022600147,435,PT10M06.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen OFF.Foul (P3) (J.Goldenberg),Foul,Offensive,1,0,314
+0022600147,437,PT10M06.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen Offensive Foul Turnover (P2.T11),Turnover,Offensive Foul Turnover,1,0,315
+0022600147,438,PT09M56.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George P.FOUL (P3.T1) (B.Haskill),Foul,Personal,1,0,316
+0022600147,440,PT09M51.00S,3,1610612757,POR,1641739,Camara,T. Camara,-212,142,26,Made,1,42,62,104,v,Camara 26' 3PT Jump Shot (8 PTS) (Lillard 3 AST),Made Shot,Jump Shot,1,3,317
+0022600147,442,PT09M38.00S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard P.FOUL (P1.T1) (T.Maddox),Foul,Personal,1,0,318
+0022600147,444,PT09M30.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,-241,107,26,Missed,1,,,0,h,MISS Peterson 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,319
+0022600147,445,PT09M30.00S,3,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,320
+0022600147,446,PT09M21.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,247,-8,25,Missed,1,,,0,h,MISS Markkanen 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,321
+0022600147,447,PT09M21.00S,3,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:4 Def:0),Rebound,Unknown,1,0,322
+0022600147,448,PT09M20.00S,3,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan S.FOUL (P4.T2) (T.Maddox),Foul,Shooting,1,0,323
+0022600147,450,PT09M20.00S,3,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,43,62,105,h,Hayes Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,324
+0022600147,451,PT09M20.00S,3,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,44,62,106,h,Hayes Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,325
+0022600147,452,PT09M02.00S,3,1610612757,POR,1642270,Clingan,D. Clingan,-196,174,26,Missed,1,,,0,v,MISS Clingan 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,326
+0022600147,453,PT09M02.00S,3,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,Henderson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,327
+0022600147,454,PT08M56.00S,3,1610612757,POR,1641739,Camara,T. Camara,227,7,0,Made,1,44,65,109,v,Camara 3PT Jump Shot (11 PTS) (Henderson 1 AST),Made Shot,Jump Shot,1,3,328
+0022600147,456,PT08M29.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,-111,145,18,Missed,1,,,0,h,MISS Markkanen 18' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,329
+0022600147,457,PT08M29.00S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,330
+0022600147,458,PT08M22.00S,3,1610612757,POR,203081,Lillard,D. Lillard,-143,287,32,Made,1,44,68,112,v,Lillard 32' 3PT Running Pull-Up Jump Shot (15 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,331
+0022600147,459,PT08M06.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,117,70,14,Made,1,46,68,114,h,Peterson 14' Fadeaway Jumper (13 PTS),Made Shot,Fadeaway Jump Shot,1,2,332
+0022600147,460,PT07M50.00S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard Bad Pass Turnover (P3.T12),Turnover,Bad Pass,1,0,333
+0022600147,460,PT07M50.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George STEAL (1 STL),,,1,0,334
+0022600147,462,PT07M44.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,58,33,7,Missed,1,,,0,h,MISS Markkanen 7' Running Alley Oop Layup Shot,Missed Shot,Running Alley Oop Layup Shot,1,2,335
+0022600147,463,PT07M44.00S,3,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,Camara REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,336
+0022600147,466,PT07M37.00S,3,1610612757,POR,203081,Lillard,D. Lillard,161,192,25,Missed,1,,,0,v,MISS Lillard 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,337
+0022600147,467,PT07M37.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,338
+0022600147,468,PT07M37.00S,3,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,Camara L.B.FOUL (P3.T3) (T.Maddox),Foul,Loose Ball,1,0,339
+0022600147,471,PT07M37.00S,3,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,SUB: Williams III FOR Clingan,Substitution,,0,0,340
+0022600147,472,PT07M24.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson Bad Pass Turnover (P2.T12),Turnover,Bad Pass,1,0,341
+0022600147,472,PT07M24.00S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard STEAL (1 STL),,,1,0,342
+0022600147,474,PT07M20.00S,3,1610612757,POR,1641739,Camara,T. Camara,237,19,24,Missed,1,,,0,v,MISS Camara 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,343
+0022600147,475,PT07M20.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,344
+0022600147,476,PT07M02.00S,3,1610612762,UTA,1629637,Hayes,J. Hayes,59,29,7,Made,1,48,68,116,h,Hayes 7' Alley Oop Dunk (7 PTS) (Markkanen 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,345
+0022600147,478,PT07M02.00S,3,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,346
+0022600147,482,PT06M54.00S,3,1610612757,POR,1630703,Henderson,S. Henderson,-87,84,12,Missed,1,,,0,v,MISS Henderson 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,347
+0022600147,483,PT06M54.00S,3,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,348
+0022600147,484,PT06M41.00S,3,1610612762,UTA,1629637,Hayes,J. Hayes,25,71,8,Missed,1,,,0,h,MISS Hayes 8' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,349
+0022600147,485,PT06M41.00S,3,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,Henderson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,350
+0022600147,486,PT06M22.00S,3,1610612757,POR,203081,Lillard,D. Lillard,-190,153,24,Missed,1,,,0,v,MISS Lillard 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,351
+0022600147,487,PT06M22.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,352
+0022600147,488,PT06M06.00S,3,1610612762,UTA,1641718,George,K. George,84,129,15,Made,1,50,68,118,h,George 15' Pullup Jump Shot (8 PTS) (Hayes 2 AST),Made Shot,Pullup Jump shot,1,2,353
+0022600147,490,PT05M51.00S,3,1610612757,POR,1630166,Avdija,D. Avdija,31,15,3,Made,1,50,70,120,v,Avdija 3' Driving Layup (21 PTS),Made Shot,Driving Layup Shot,1,2,354
+0022600147,491,PT05M39.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,138,60,15,Missed,1,,,0,h,MISS Peterson 15' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,355
+0022600147,492,PT05M39.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,356
+0022600147,493,PT05M29.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George Lost Ball Turnover (P2.T13),Turnover,Lost Ball,1,0,357
+0022600147,493,PT05M29.00S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard STEAL (2 STL),,,1,0,358
+0022600147,495,PT05M25.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson S.FOUL (P3.T2) (T.Maddox),Foul,Shooting,1,0,359
+0022600147,497,PT05M25.00S,3,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,MISS Avdija Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,360
+0022600147,498,PT05M25.00S,3,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Normal Rebound,0,0,361
+0022600147,503,PT05M25.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,SUB: Bamba FOR George,Substitution,,0,0,362
+0022600147,504,PT05M25.00S,3,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Collier FOR Hayes,Substitution,,0,0,363
+0022600147,505,PT05M25.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Okogie FOR Markkanen,Substitution,,0,0,364
+0022600147,509,PT05M25.00S,3,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,SUB: Krejci FOR Henderson,Substitution,,0,0,365
+0022600147,510,PT05M25.00S,3,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,SUB: Holiday FOR Camara,Substitution,,0,0,366
+0022600147,511,PT05M25.00S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,SUB: Cissoko FOR Lillard,Substitution,,0,0,367
+0022600147,499,PT05M25.00S,3,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,MISS Avdija Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,368
+0022600147,512,PT05M25.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,369
+0022600147,513,PT05M12.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,370
+0022600147,513,PT05M12.00S,3,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,Cissoko STEAL (1 STL),,,1,0,371
+0022600147,515,PT05M09.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson S.FOUL (P4.T3) (J.Goldenberg),Foul,Shooting,1,0,372
+0022600147,517,PT05M09.00S,3,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,50,71,121,v,Cissoko Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,373
+0022600147,520,PT05M09.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,SUB: Mykhailiuk FOR Peterson,Substitution,,0,0,374
+0022600147,518,PT05M09.00S,3,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,MISS Cissoko Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,375
+0022600147,521,PT05M09.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba REBOUND (Off:1 Def:3),Rebound,Unknown,0,0,376
+0022600147,522,PT04M59.00S,3,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier Bad Pass Turnover (P2.T15),Turnover,Bad Pass,1,0,377
+0022600147,522,PT04M59.00S,3,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,Avdija STEAL (1 STL),,,1,0,378
+0022600147,524,PT04M55.00S,3,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,Avdija Bad Pass Turnover (P3.T13),Turnover,Bad Pass,1,0,379
+0022600147,524,PT04M55.00S,3,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier STEAL (1 STL),,,1,0,380
+0022600147,526,PT04M45.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey Bad Pass Turnover (P2.T16),Turnover,Bad Pass,1,0,381
+0022600147,526,PT04M45.00S,3,1610612757,POR,1630249,Krejčí,V. Krejčí,0,0,0,,0,,,0,v,Krejci STEAL (1 STL),,,1,0,382
+0022600147,528,PT04M37.00S,3,1610612757,POR,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III OFF.Foul (P1) (T.Maddox),Foul,Offensive,1,0,383
+0022600147,530,PT04M37.00S,3,1610612757,POR,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III Offensive Foul Turnover (P1.T14),Turnover,Offensive Foul Turnover,1,0,384
+0022600147,531,PT04M37.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,385
+0022600147,532,PT04M28.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,191,157,25,Missed,1,,,0,h,MISS Bailey 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,386
+0022600147,533,PT04M28.00S,3,1610612757,POR,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,387
+0022600147,534,PT04M08.00S,3,1610612757,POR,201950,Holiday,J. Holiday,76,244,26,Made,1,50,74,124,v,Holiday 26' 3PT Pullup Jump Shot (11 PTS),Made Shot,Pullup Jump shot,1,3,388
+0022600147,535,PT03M38.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,27,4,3,Made,1,52,74,126,h,Bamba 3' Cutting Dunk Shot (6 PTS) (Collier 2 AST),Made Shot,Cutting Dunk Shot,1,2,389
+0022600147,537,PT03M22.00S,3,1610612757,POR,1630166,Avdija,D. Avdija,-136,216,26,Made,1,52,77,129,v,Avdija 26' 3PT Step Back Jump Shot (24 PTS),Made Shot,Step Back Jump shot,1,3,390
+0022600147,538,PT03M07.00S,3,1610612757,POR,1630249,Krejčí,V. Krejčí,0,0,0,,0,,,0,v,Krejci P.FOUL (P2.T4) (J.Goldenberg),Foul,Personal,1,0,391
+0022600147,542,PT03M07.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,SUB: Markkanen FOR Bailey,Substitution,,0,0,392
+0022600147,543,PT03M07.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,SUB: Sensabaugh FOR Bamba,Substitution,,0,0,393
+0022600147,546,PT03M07.00S,3,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,SUB: Henderson FOR Avdija,Substitution,,0,0,394
+0022600147,547,PT03M07.00S,3,1610612757,POR,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,SUB: Camara FOR Williams III,Substitution,,0,0,395
+0022600147,548,PT03M07.00S,3,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday Violation:Kicked Ball (T.Maddox),Violation,Kicked Ball,0,0,396
+0022600147,549,PT03M05.00S,3,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday P.FOUL (P2.PN) (J.Goldenberg),Foul,Personal,1,0,397
+0022600147,551,PT03M05.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,53,77,130,h,Markkanen Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,398
+0022600147,552,PT03M05.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,54,77,131,h,Markkanen Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,399
+0022600147,553,PT02M54.00S,3,1610612757,POR,1630249,Krejčí,V. Krejčí,160,203,26,Missed,1,,,0,v,MISS Krejci 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,400
+0022600147,554,PT02M54.00S,3,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,401
+0022600147,555,PT02M44.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,221,110,25,Made,1,57,77,134,h,Markkanen 25' 3PT Jump Shot (9 PTS) (Collier 3 AST),Made Shot,Jump Shot,1,3,402
+0022600147,557,PT02M19.00S,3,1610612757,POR,201950,Holiday,J. Holiday,-228,121,26,Made,1,57,80,137,v,Holiday 26' 3PT Jump Shot (14 PTS) (Krejci 1 AST),Made Shot,Jump Shot,1,3,403
+0022600147,559,PT02M05.00S,3,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,Cissoko S.FOUL (P2.PN) (T.Maddox),Foul,Shooting,1,0,404
+0022600147,561,PT02M05.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,58,80,138,h,Markkanen Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,405
+0022600147,562,PT02M05.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,59,80,139,h,Markkanen Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,406
+0022600147,563,PT01M52.00S,3,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,Henderson Lost Ball Turnover (P3.T15),Turnover,Lost Ball,1,0,407
+0022600147,563,PT01M52.00S,3,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier STEAL (2 STL),,,1,0,408
+0022600147,565,PT01M46.00S,3,1610612762,UTA,1629006,Okogie,J. Okogie,-195,164,25,Missed,1,,,0,h,MISS Okogie 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,409
+0022600147,566,PT01M46.00S,3,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,410
+0022600147,567,PT01M32.00S,3,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie P.FOUL (P2.T4) (J.Goldenberg),Foul,Personal,1,0,411
+0022600147,570,PT01M32.00S,3,1610612757,POR,1630249,Krejčí,V. Krejčí,0,0,0,,0,,,0,v,SUB: Lillard FOR Krejci,Substitution,,0,0,412
+0022600147,571,PT01M24.00S,3,1610612757,POR,203081,Lillard,D. Lillard,21,11,2,Made,1,59,82,141,v,Lillard 2' Driving Layup (17 PTS),Made Shot,Driving Layup Shot,1,2,413
+0022600147,572,PT01M12.00S,3,1610612762,UTA,1628374,Markkanen,L. Markkanen,-170,186,25,Missed,1,,,0,h,MISS Markkanen 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,414
+0022600147,573,PT01M12.00S,3,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,Cissoko REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,415
+0022600147,574,PT01M03.00S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard OFF.Foul (P2) (J.Goldenberg),Foul,Offensive,1,0,416
+0022600147,576,PT01M03.00S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard Offensive Foul Turnover (P4.T16),Turnover,Offensive Foul Turnover,1,0,417
+0022600147,578,PT01M03.00S,3,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,SUB: Avdija FOR Cissoko,Substitution,,0,0,418
+0022600147,579,PT00M47.20S,3,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,-243,0,24,Made,1,62,82,144,h,Mykhailiuk 24' 3PT Pullup Jump Shot (6 PTS) (Collier 4 AST),Made Shot,Pullup Jump shot,1,3,419
+0022600147,581,PT00M34.60S,3,1610612757,POR,203081,Lillard,D. Lillard,-12,73,7,Made,1,62,84,146,v,Lillard 7' Driving Floating Jump Shot (20 PTS),Made Shot,Driving Floating Jump Shot,1,2,420
+0022600147,582,PT00M34.60S,3,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk S.FOUL (P3.PN) (T.Maddox),Foul,Shooting,1,0,421
+0022600147,586,PT00M34.60S,3,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,SUB: Cissoko FOR Avdija,Substitution,,0,0,422
+0022600147,584,PT00M34.60S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,62,85,147,v,Lillard Free Throw 1 of 1 (20 PTS),Free Throw,Free Throw 1 of 1,1,0,423
+0022600147,587,PT00M28.90S,3,1610612762,UTA,1642268,Collier,I. Collier,33,37,5,Made,1,64,85,149,h,Collier 5' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,424
+0022600147,588,PT00M11.10S,3,1610612757,POR,203081,Lillard,D. Lillard,112,232,26,Missed,1,,,0,v,MISS Lillard 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,425
+0022600147,589,PT00M11.10S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,426
+0022600147,590,PT00M06.10S,3,1610612757,POR,1641739,Camara,T. Camara,-124,221,25,Made,1,64,88,152,v,Camara 25' 3PT Jump Shot (14 PTS) (Lillard 4 AST),Made Shot,Jump Shot,1,3,427
+0022600147,592,PT00M02.40S,3,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier Step Out of Bounds Turnover (P3.T17),Turnover,Step Out of Bounds Turnover,1,0,428
+0022600147,614,PT00M02.40S,3,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,SUB: Avdija FOR Cissoko,Substitution,,0,0,429
+0022600147,593,PT00M00.00S,3,1610612757,POR,1630166,Avdija,D. Avdija,95,237,26,Missed,1,,,0,v,MISS Avdija 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,430
+0022600147,594,PT00M00.00S,3,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Unknown,1,0,431
+0022600147,595,PT00M00.00S,3,0,,0,,,0,0,0,,0,64,88,152,,End of 3rd Period (4:57 PM EST),period,end,1,0,432
+0022600147,608,PT12M00.00S,4,0,,0,,,0,0,0,,0,64,88,152,,Start of 4th Period (5:00 PM EST),period,start,0,0,433
+0022600147,609,PT11M45.00S,4,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen S.FOUL (P4.T1) (T.Maddox),Foul,Shooting,1,0,434
+0022600147,611,PT11M45.00S,4,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,64,89,153,v,Clingan Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,435
+0022600147,612,PT11M45.00S,4,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,64,90,154,v,Clingan Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,436
+0022600147,615,PT11M28.00S,4,1610612762,UTA,1641718,George,K. George,-95,116,15,Missed,1,,,0,h,MISS George 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,437
+0022600147,615,PT11M28.00S,4,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard BLOCK (1 BLK),,,1,2,438
+0022600147,616,PT11M28.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,439
+0022600147,619,PT11M22.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,-96,130,16,Missed,1,,,0,h,MISS Peterson 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,440
+0022600147,620,PT11M22.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,441
+0022600147,622,PT11M19.00S,4,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George Bad Pass Turnover (P3.T18),Turnover,Bad Pass,1,0,442
+0022600147,622,PT11M19.00S,4,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,Camara STEAL (2 STL),,,1,0,443
+0022600147,624,PT11M09.00S,4,1610612757,POR,203081,Lillard,D. Lillard,-72,11,7,Missed,1,,,0,v,MISS Lillard 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,444
+0022600147,625,PT11M09.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,445
+0022600147,626,PT11M08.00S,4,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan L.B.FOUL (P5.T1) (B.Haskill),Foul,Loose Ball,1,0,446
+0022600147,628,PT11M01.00S,4,1610612762,UTA,1628374,Markkanen,L. Markkanen,140,208,25,Missed,1,,,0,h,MISS Markkanen 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,447
+0022600147,629,PT11M01.00S,4,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,448
+0022600147,630,PT10M45.00S,4,1610612757,POR,1641739,Camara,T. Camara,-243,-6,24,Missed,1,,,0,v,MISS Camara 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,449
+0022600147,631,PT10M45.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,450
+0022600147,632,PT10M37.00S,4,1610612762,UTA,1628374,Markkanen,L. Markkanen,46,52,7,Made,1,66,90,156,h,Markkanen 7' Running Dunk (13 PTS) (Sensabaugh 1 AST),Made Shot,Running Dunk Shot,1,2,451
+0022600147,634,PT10M21.00S,4,1610612757,POR,1630166,Avdija,D. Avdija,-16,117,12,Missed,1,,,0,v,MISS Avdija 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,452
+0022600147,635,PT10M21.00S,4,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,Clingan REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,453
+0022600147,636,PT10M18.00S,4,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,Made,1,66,92,158,v,Clingan Tip Dunk Shot (4 PTS),Made Shot,Tip Dunk Shot,1,2,454
+0022600147,637,PT10M09.00S,4,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,Avdija S.FOUL (P3.T2) (J.Goldenberg),Foul,Shooting,1,0,455
+0022600147,641,PT10M09.00S,4,1610612757,POR,1642270,Clingan,D. Clingan,0,0,0,,0,,,0,v,SUB: Cissoko FOR Clingan,Substitution,,0,0,456
+0022600147,639,PT10M09.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,67,92,159,h,Sensabaugh Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,457
+0022600147,642,PT10M09.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,68,92,160,h,Sensabaugh Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,458
+0022600147,643,PT09M54.00S,4,1610612757,POR,1630166,Avdija,D. Avdija,31,31,4,Missed,1,,,0,v,MISS Avdija 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,459
+0022600147,643,PT09M54.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey BLOCK (3 BLK),,,1,2,460
+0022600147,644,PT09M54.00S,4,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,461
+0022600147,646,PT09M39.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,235,-13,24,Missed,1,,,0,h,MISS Sensabaugh 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,462
+0022600147,647,PT09M39.00S,4,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,463
+0022600147,648,PT09M16.00S,4,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen S.FOUL (P5.T2) (J.Goldenberg),Foul,Shooting,1,0,464
+0022600147,650,PT09M16.00S,4,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,68,93,161,v,Lillard Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,1,0,465
+0022600147,653,PT09M16.00S,4,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Hayes FOR Markkanen,Substitution,,0,0,466
+0022600147,656,PT09M16.00S,4,1610612757,POR,1630166,Avdija,D. Avdija,0,0,0,,0,,,0,v,SUB: Henderson FOR Avdija,Substitution,,0,0,467
+0022600147,657,PT09M16.00S,4,1610612757,POR,1641739,Camara,T. Camara,0,0,0,,0,,,0,v,SUB: Holiday FOR Camara,Substitution,,0,0,468
+0022600147,651,PT09M16.00S,4,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,68,94,162,v,Lillard Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,0,0,469
+0022600147,658,PT09M09.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,23,253,25,Missed,1,,,0,h,MISS Peterson 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,470
+0022600147,659,PT09M09.00S,4,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,471
+0022600147,660,PT08M59.00S,4,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,Lillard Bad Pass Turnover (P5.T17),Turnover,Bad Pass,1,0,472
+0022600147,660,PT08M59.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey STEAL (2 STL),,,1,0,473
+0022600147,662,PT08M56.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,0,48,5,Made,1,70,94,164,h,Bailey 5' Running Dunk (6 PTS),Made Shot,Running Dunk Shot,1,2,474
+0022600147,663,PT08M30.00S,4,1610612757,POR,203081,Lillard,D. Lillard,-145,200,25,Missed,1,,,0,v,MISS Lillard 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,475
+0022600147,664,PT08M30.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,476
+0022600147,667,PT08M27.00S,4,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,v,SUB: Hansen FOR Lillard,Substitution,,0,0,477
+0022600147,668,PT08M17.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson Out of Bounds - Bad Pass Turnover Turnover (P3.T19),Turnover,Out of Bounds - Bad Pass Turnover,1,0,478
+0022600147,669,PT07M55.00S,4,1610612757,POR,201950,Holiday,J. Holiday,-31,262,26,Missed,1,,,0,v,MISS Holiday 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,479
+0022600147,670,PT07M55.00S,4,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,480
+0022600147,671,PT07M41.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-52,87,10,Made,1,72,94,166,h,Sensabaugh 10' Driving Floating Jump Shot (7 PTS) (Peterson 3 AST),Made Shot,Driving Floating Jump Shot,1,2,481
+0022600147,673,PT07M22.00S,4,1610612757,POR,1630249,Krejčí,V. Krejčí,-28,16,3,Made,1,72,96,168,v,Krejci 3' Driving Layup (5 PTS) (Hansen 1 AST),Made Shot,Driving Layup Shot,1,2,482
+0022600147,674,PT07M11.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,111,49,12,Missed,1,,,0,h,MISS Sensabaugh 12' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,483
+0022600147,675,PT07M11.00S,4,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,Cissoko REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,484
+0022600147,676,PT07M00.00S,4,1610612757,POR,1642905,Yang,Y. Hansen,30,26,4,Missed,1,,,0,v,MISS Hansen 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,485
+0022600147,676,PT07M00.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes BLOCK (1 BLK),,,1,2,486
+0022600147,677,PT07M00.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,487
+0022600147,679,PT06M54.00S,4,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,Cissoko S.FOUL (P3.T3) (J.Goldenberg),Foul,Shooting,1,0,488
+0022600147,682,PT06M54.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,489
+0022600147,681,PT06M54.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,73,96,169,h,Sensabaugh Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,490
+0022600147,683,PT06M54.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,74,96,170,h,Sensabaugh Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,491
+0022600147,684,PT06M46.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes S.FOUL (P4.T3) (J.Goldenberg),Foul,Shooting,1,0,492
+0022600147,686,PT06M46.00S,4,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,MISS Henderson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,493
+0022600147,687,PT06M46.00S,4,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Normal Rebound,1,0,494
+0022600147,690,PT06M46.00S,4,1610612762,UTA,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Markkanen FOR Hayes,Substitution,,0,0,495
+0022600147,688,PT06M46.00S,4,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,74,97,171,v,Henderson Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,496
+0022600147,691,PT06M34.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,179,189,26,Made,1,77,97,174,h,Bailey 26' 3PT Jump Shot (9 PTS) (Peterson 4 AST),Made Shot,Jump Shot,1,3,497
+0022600147,693,PT06M21.00S,4,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen S.FOUL (P6.T4) (T.Maddox),Foul,Shooting,1,0,498
+0022600147,697,PT06M21.00S,4,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Filipowski FOR Markkanen,Substitution,,0,0,499
+0022600147,695,PT06M21.00S,4,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,77,98,175,v,Henderson Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,500
+0022600147,700,PT06M21.00S,4,1610612757,POR,201950,Holiday,J. Holiday,0,0,0,,0,,,0,v,SUB: Youngblood FOR Holiday,Substitution,,0,0,501
+0022600147,698,PT06M21.00S,4,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,77,99,176,v,Henderson Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,502
+0022600147,701,PT06M00.00S,4,1610612762,UTA,1642271,Filipowski,K. Filipowski,-35,27,4,Made,1,79,99,178,h,Filipowski 4' Driving Layup (2 PTS) (George 3 AST),Made Shot,Driving Layup Shot,1,2,503
+0022600147,703,PT05M43.00S,4,1610612757,POR,1642959,Youngblood,C. Youngblood,-85,235,25,Missed,1,,,0,v,MISS Youngblood 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,504
+0022600147,704,PT05M43.00S,4,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,Henderson REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,505
+0022600147,705,PT05M35.00S,4,1610612757,POR,1630703,Henderson,S. Henderson,31,11,3,Missed,1,,,0,v,MISS Henderson 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,506
+0022600147,706,PT05M35.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,507
+0022600147,707,PT05M26.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,-198,160,25,Made,1,82,99,181,h,Peterson 25' 3PT Jump Shot (16 PTS) (George 4 AST),Made Shot,Jump Shot,1,3,508
+0022600147,712,PT05M06.00S,4,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,SUB: Collier FOR George,Substitution,,0,0,509
+0022600147,710,PT05M06.00S,4,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,Jump Ball Filipowski vs. Henderson: Tip to Bailey,Jump Ball,,0,0,510
+0022600147,715,PT05M05.00S,4,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,Henderson Lost Ball Turnover (P4.T18),Turnover,Lost Ball,1,0,511
+0022600147,715,PT05M05.00S,4,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,Filipowski STEAL (1 STL),,,1,0,512
+0022600147,717,PT04M56.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey Bad Pass Turnover (P3.T20),Turnover,Bad Pass,1,0,513
+0022600147,717,PT04M56.00S,4,1610612757,POR,1642905,Yang,Y. Hansen,0,0,0,,0,,,0,v,Hansen STEAL (1 STL),,,1,0,514
+0022600147,719,PT04M36.00S,4,1610612757,POR,1630703,Henderson,S. Henderson,-13,37,4,Made,1,82,101,183,v,Henderson 4' Driving Floating Jump Shot (14 PTS),Made Shot,Driving Floating Jump Shot,1,2,515
+0022600147,720,PT04M21.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,210,133,25,Missed,1,,,0,h,MISS Bailey 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,516
+0022600147,721,PT04M21.00S,4,1610612757,POR,1630249,Krejčí,V. Krejčí,0,0,0,,0,,,0,v,Krejci REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,517
+0022600147,722,PT04M02.00S,4,1610612757,POR,1642905,Yang,Y. Hansen,93,232,25,Made,1,82,104,186,v,Hansen 25' 3PT Jump Shot (3 PTS) (Cissoko 1 AST),Made Shot,Jump Shot,1,3,518
+0022600147,723,PT03M50.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,-166,193,25,Missed,1,,,0,h,MISS Peterson 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,519
+0022600147,724,PT03M50.00S,4,1610612757,POR,1642905,Yang,Y. Hansen,0,0,0,,0,,,0,v,Hansen REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,520
+0022600147,726,PT03M49.00S,4,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,521
+0022600147,730,PT03M49.00S,4,1610612757,POR,1631321,Cissoko,S. Cissoko,0,0,0,,0,,,0,v,SUB: Potter FOR Cissoko,Substitution,,0,0,522
+0022600147,731,PT03M49.00S,4,1610612757,POR,1630703,Henderson,S. Henderson,0,0,0,,0,,,0,v,SUB: Carlson FOR Henderson,Substitution,,0,0,523
+0022600147,732,PT03M34.00S,4,1610612757,POR,1642959,Youngblood,C. Youngblood,147,204,25,Made,1,82,107,189,v,Youngblood 25' 3PT Pullup Jump Shot (3 PTS) (Krejci 2 AST),Made Shot,Pullup Jump shot,1,3,524
+0022600147,733,PT03M13.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,-109,230,25,Missed,1,,,0,h,MISS Bailey 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,525
+0022600147,734,PT03M13.00S,4,1610612757,POR,1642382,Carlson,B. Carlson,0,0,0,,0,,,0,v,Carlson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,526
+0022600147,735,PT02M48.00S,4,1610612757,POR,1630249,Krejčí,V. Krejčí,-174,110,21,Missed,1,,,0,v,MISS Krejci 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,527
+0022600147,736,PT02M48.00S,4,1610612757,POR,1642382,Carlson,B. Carlson,0,0,0,,0,,,0,v,Carlson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,528
+0022600147,737,PT02M41.00S,4,1610612757,POR,1642905,Yang,Y. Hansen,-95,231,25,Made,1,82,110,192,v,Hansen 25' 3PT Jump Shot (6 PTS) (Carlson 1 AST),Made Shot,Jump Shot,1,3,529
+0022600147,739,PT02M28.00S,4,1610612757,POR,1642959,Youngblood,C. Youngblood,0,0,0,,0,,,0,v,Youngblood P.FOUL (P2.T4) (J.Goldenberg),Foul,Personal,1,0,530
+0022600147,741,PT02M23.00S,4,1610612762,UTA,1642268,Collier,I. Collier,16,15,2,Made,1,84,110,194,h,Collier 2' Cutting Layup Shot (8 PTS) (Filipowski 1 AST),Made Shot,Cutting Layup Shot,1,2,531
+0022600147,743,PT02M02.00S,4,1610612757,POR,1642959,Youngblood,C. Youngblood,-144,212,26,Missed,1,,,0,v,MISS Youngblood 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,532
+0022600147,744,PT02M02.00S,4,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Unknown,0,0,533
+0022600147,746,PT01M58.00S,4,1610612757,POR,1642905,Yang,Y. Hansen,-181,166,25,Missed,1,,,0,v,MISS Hansen 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,534
+0022600147,747,PT01M58.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,535
+0022600147,749,PT01M46.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,174,187,26,Made,1,87,110,197,h,Sensabaugh 26' 3PT Pullup Jump Shot (12 PTS) (Filipowski 2 AST),Made Shot,Pullup Jump shot,1,3,536
+0022600147,751,PT01M23.00S,4,1610612757,POR,1642382,Carlson,B. Carlson,237,34,24,Missed,1,,,0,v,MISS Carlson 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,537
+0022600147,752,PT01M23.00S,4,1610612757,POR,1630695,Potter,M. Potter,0,0,0,,0,,,0,v,Potter REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,538
+0022600147,753,PT01M20.00S,4,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,Filipowski S.FOUL (P1.PN) (T.Maddox),Foul,Shooting,1,0,539
+0022600147,755,PT01M20.00S,4,1610612757,POR,1630695,Potter,M. Potter,0,0,0,,0,87,111,198,v,Potter Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,540
+0022600147,756,PT01M20.00S,4,1610612757,POR,1630695,Potter,M. Potter,0,0,0,,0,87,112,199,v,Potter Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,541
+0022600147,757,PT01M07.00S,4,1610612762,UTA,1642271,Filipowski,K. Filipowski,53,263,27,Made,1,90,112,202,h,Filipowski 27' 3PT Jump Shot (5 PTS) (Sensabaugh 2 AST),Made Shot,Jump Shot,1,3,542
+0022600147,759,PT00M48.50S,4,1610612757,POR,1642959,Youngblood,C. Youngblood,93,222,24,Missed,1,,,0,v,MISS Youngblood 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,543
+0022600147,760,PT00M48.50S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,0,0,544
+0022600147,762,PT00M40.90S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,137,225,26,Missed,1,,,0,h,MISS Sensabaugh 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,545
+0022600147,763,PT00M40.90S,4,1610612757,POR,1630249,Krejčí,V. Krejčí,0,0,0,,0,,,0,v,Krejci REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,546
+0022600147,764,PT00M14.90S,4,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Turnover: Shot Clock (T#19),Turnover,Shot Clock Turnover,1,0,547
+0022600147,766,PT00M00.00S,4,0,,0,,,0,0,0,,0,90,112,202,,End of 4th Period (5:27 PM EST),period,end,1,0,548

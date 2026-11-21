@@ -1,0 +1,517 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600126,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (9:12 PM EST),period,start,1,0,1
+0022600126,4,PT12M00.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jump Ball Jackson Jr. vs. Edey: Tip to Jerome,Jump Ball,,1,0,2
+0022600126,7,PT11M50.00S,1,1610612763,MEM,1642907,Coward,C. Coward,84,233,25,Made,1,0,3,3,v,Coward 25' 3PT Step Back Jump Shot (3 PTS) (Boozer 1 AST),Made Shot,Step Back Jump shot,1,3,3
+0022600126,9,PT11M29.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,-6,56,6,Made,1,2,3,5,h,Jackson Jr. 6' Driving Hook Shot (2 PTS),Made Shot,Driving Hook Shot,1,2,4
+0022600126,11,PT11M15.00S,1,1610612763,MEM,1642907,Coward,C. Coward,109,27,11,Missed,1,,,0,v,MISS Coward 11' Jump Shot,Missed Shot,Jump Shot,1,2,5
+0022600126,12,PT11M15.00S,1,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,Edey REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,6
+0022600126,13,PT11M08.00S,1,1610612763,MEM,1642907,Coward,C. Coward,58,69,9,Made,1,2,5,7,v,Coward 9' Floating Jump Shot (5 PTS) (Edey 1 AST),Made Shot,Floating Jump shot,1,2,7
+0022600126,16,PT10M41.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,-71,241,25,Missed,1,,,0,h,MISS Peterson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,8
+0022600126,17,PT10M41.00S,1,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,Edey REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,9
+0022600126,18,PT10M28.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,102,219,24,Missed,1,,,0,v,MISS Boozer 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,10
+0022600126,19,PT10M28.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,11
+0022600126,20,PT10M14.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,-37,8,4,Made,1,4,5,9,h,Jackson Jr. 4' Driving Layup (5 PTS) (George 1 AST),Made Shot,Driving Layup Shot,1,2,12
+0022600126,22,PT10M14.00S,1,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,Edey S.FOUL (P1.T1) (S.Foster),Foul,Shooting,1,0,13
+0022600126,24,PT10M14.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,5,5,10,h,Jackson Jr. Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,14
+0022600126,25,PT09M57.00S,1,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,Edey 3 Second Violation Turnover (P1.T1),Turnover,3 Second Violation,1,0,15
+0022600126,26,PT09M37.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,-12,0,1,Missed,1,,,0,h,MISS Markkanen 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,16
+0022600126,26,PT09M37.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer BLOCK (1 BLK),,,1,2,17
+0022600126,27,PT09M37.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,18
+0022600126,29,PT09M33.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Turnover: Shot Clock (T#1),Turnover,Shot Clock Turnover,1,0,19
+0022600126,30,PT09M18.00S,1,1610612763,MEM,1642377,Wells,J. Wells,-92,8,9,Made,1,5,7,12,v,Wells 9' Turnaround Jump Shot (2 PTS) (Boozer 2 AST),Made Shot,Turnaround Jump Shot,1,2,20
+0022600126,32,PT09M01.00S,1,1610612762,UTA,1641718,George,K. George,55,27,6,Made,1,7,7,14,h,George 6' Driving Layup (2 PTS) (Peterson 1 AST),Made Shot,Driving Layup Shot,1,2,21
+0022600126,34,PT08M51.00S,1,1610612763,MEM,1629660,Jerome,T. Jerome,15,120,12,Missed,1,,,0,v,MISS Jerome 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,22
+0022600126,35,PT08M51.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,23
+0022600126,38,PT08M41.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,35,31,5,Missed,1,,,0,h,MISS Peterson 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,24
+0022600126,38,PT08M41.00S,1,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,Edey BLOCK (1 BLK),,,1,2,25
+0022600126,39,PT08M41.00S,1,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,26
+0022600126,41,PT08M33.00S,1,1610612763,MEM,1629660,Jerome,T. Jerome,75,71,10,Missed,1,,,0,v,MISS Jerome 10' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,27
+0022600126,42,PT08M33.00S,1,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,1,0,28
+0022600126,45,PT08M31.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,SUB: Collier FOR George,Substitution,,0,0,29
+0022600126,46,PT08M18.00S,1,1610612763,MEM,1629660,Jerome,T. Jerome,-39,13,4,Missed,1,,,0,v,MISS Jerome 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,30
+0022600126,47,PT08M18.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,31
+0022600126,48,PT08M11.00S,1,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Shooting,Foul,Shooting,1,0,32
+0022600126,50,PT08M11.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,8,7,15,h,Markkanen Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,33
+0022600126,51,PT08M11.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,9,7,16,h,Markkanen Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,34
+0022600126,52,PT07M55.00S,1,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Shooting,Foul,Shooting,1,0,35
+0022600126,54,PT07M55.00S,1,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,9,8,17,v,Edey Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,36
+0022600126,56,PT07M55.00S,1,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,9,9,18,v,Edey Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,37
+0022600126,57,PT07M43.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,147,211,26,Missed,1,,,0,h,MISS Markkanen 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,38
+0022600126,58,PT07M43.00S,1,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,0,0,39
+0022600126,59,PT07M41.00S,1,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier L.B.FOUL (P2.T2) (K.Lane),Foul,Loose Ball,1,0,40
+0022600126,64,PT07M41.00S,1,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,SUB: Spencer FOR Coward,Substitution,,0,0,41
+0022600126,65,PT07M41.00S,1,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,SUB: Jackson FOR Edey,Substitution,,0,0,42
+0022600126,66,PT07M41.00S,1,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,SUB: Stewart FOR Jerome,Substitution,,0,0,43
+0022600126,67,PT07M33.00S,1,1610612763,MEM,1641713,Jackson,G. Jackson,124,232,26,Missed,1,,,0,v,MISS Jackson 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,44
+0022600126,68,PT07M33.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,45
+0022600126,69,PT07M13.00S,1,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Personal,Foul,Personal,1,0,46
+0022600126,72,PT07M13.00S,1,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,SUB: George FOR Collier,Substitution,,0,0,47
+0022600126,73,PT07M10.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,31,10,3,Made,1,11,9,20,h,Bailey 3' Cutting Layup Shot (2 PTS) (George 2 AST),Made Shot,Cutting Layup Shot,1,2,48
+0022600126,75,PT07M00.00S,1,1610612763,MEM,1641713,Jackson,G. Jackson,34,37,5,Missed,1,,,0,v,MISS Jackson 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,49
+0022600126,76,PT07M00.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,50
+0022600126,77,PT06M51.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,-187,211,28,Missed,1,,,0,h,MISS Jackson Jr. 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,51
+0022600126,78,PT06M51.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,52
+0022600126,79,PT06M45.00S,1,1610612762,UTA,1641718,George,K. George,20,139,14,Made,1,13,9,22,h,George 14' Pullup Jump Shot (4 PTS) (Bailey 1 AST),Made Shot,Pullup Jump shot,1,2,53
+0022600126,81,PT06M43.00S,1,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,54
+0022600126,82,PT06M34.00S,1,1610612763,MEM,1642377,Wells,J. Wells,233,21,0,Missed,1,,,0,v,MISS Wells 3PT Jump Shot,Missed Shot,Jump Shot,1,3,55
+0022600126,83,PT06M34.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,56
+0022600126,84,PT06M21.00S,1,1610612762,UTA,1641718,George,K. George,-222,117,25,Missed,1,,,0,h,MISS George 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,57
+0022600126,85,PT06M21.00S,1,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,Spencer REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,58
+0022600126,86,PT06M13.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,35,35,5,Made,1,13,11,24,v,Boozer 5' Running Layup (2 PTS) (Spencer 1 AST),Made Shot,Running Layup Shot,1,2,59
+0022600126,87,PT05M58.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer P.FOUL (P1.T4) (S.Foster),Foul,Personal,1,0,60
+0022600126,90,PT05M58.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,SUB: Filipowski FOR Jackson Jr.,Substitution,,0,0,61
+0022600126,96,PT05M58.00S,1,1610612762,UTA,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Okogie FOR Markkanen,Substitution,,0,0,62
+0022600126,93,PT05M58.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,SUB: Coward FOR Boozer,Substitution,,0,0,63
+0022600126,94,PT05M58.00S,1,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,SUB: Grant FOR Wells,Substitution,,0,0,64
+0022600126,97,PT05M51.00S,1,1610612762,UTA,1642271,Filipowski,K. Filipowski,50,255,26,Missed,1,,,0,h,MISS Filipowski 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,65
+0022600126,98,PT05M51.00S,1,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,66
+0022600126,99,PT05M44.00S,1,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward OFF.Foul (P2) (S.Foster),Foul,Offensive,1,0,67
+0022600126,101,PT05M44.00S,1,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward Offensive Foul Turnover (P1.T2),Turnover,Offensive Foul Turnover,1,0,68
+0022600126,102,PT05M30.00S,1,1610612762,UTA,1642271,Filipowski,K. Filipowski,35,33,5,Missed,1,,,0,h,MISS Filipowski 5' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,69
+0022600126,103,PT05M30.00S,1,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,70
+0022600126,104,PT05M22.00S,1,1610612763,MEM,1641713,Jackson,G. Jackson,-42,34,5,Missed,1,,,0,v,MISS Jackson 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,71
+0022600126,105,PT05M22.00S,1,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,Filipowski REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,72
+0022600126,106,PT05M07.00S,1,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,Spencer S.FOUL (P1.PN) (S.Foster),Foul,Shooting,1,0,73
+0022600126,108,PT05M07.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,14,11,25,h,George Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,74
+0022600126,112,PT05M07.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,SUB: Collier FOR Peterson,Substitution,,0,0,75
+0022600126,110,PT05M07.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,15,11,26,h,George Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,76
+0022600126,113,PT04M53.00S,1,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,Filipowski S.FOUL (P1.T3) (S.Foster),Foul,Shooting,1,0,77
+0022600126,115,PT04M53.00S,1,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,15,12,27,v,Grant Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,78
+0022600126,116,PT04M53.00S,1,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,15,13,28,v,Grant Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,79
+0022600126,117,PT04M40.00S,1,1610612762,UTA,1641718,George,K. George,-129,129,18,Made,1,17,13,30,h,George 18' Step Back Jump Shot (8 PTS) (Collier 1 AST),Made Shot,Step Back Jump shot,1,2,80
+0022600126,119,PT04M28.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George P.FOUL (P1.T4) (K.Lane),Foul,Personal,1,0,81
+0022600126,121,PT04M20.00S,1,1610612763,MEM,1642907,Coward,C. Coward,10,49,5,Made,1,17,15,32,v,Coward 5' Driving Dunk (7 PTS) (Spencer 2 AST),Made Shot,Driving Dunk Shot,1,2,82
+0022600126,123,PT04M08.00S,1,1610612762,UTA,1642268,Collier,I. Collier,-1,59,6,Missed,1,,,0,h,MISS Collier 6' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,83
+0022600126,124,PT04M08.00S,1,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,Spencer REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,84
+0022600126,125,PT03M56.00S,1,1610612763,MEM,1642285,Spencer,C. Spencer,-153,200,25,Made,1,17,18,35,v,Spencer 25' 3PT Running Pull-Up Jump Shot (3 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,85
+0022600126,126,PT03M39.00S,1,1610612762,UTA,1629006,Okogie,J. Okogie,241,137,28,Missed,1,,,0,h,MISS Okogie 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,86
+0022600126,127,PT03M39.00S,1,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,87
+0022600126,128,PT03M30.00S,1,1610612763,MEM,1641713,Jackson,G. Jackson,-16,43,5,Made,1,17,20,37,v,Jackson 5' Driving Dunk (2 PTS),Made Shot,Driving Dunk Shot,1,2,88
+0022600126,130,PT03M29.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 1 Short 0),Timeout,Regular,1,0,89
+0022600126,133,PT03M29.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,SUB: Mykhailiuk FOR Bailey,Substitution,,0,0,90
+0022600126,134,PT03M29.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,SUB: Sensabaugh FOR George,Substitution,,0,0,91
+0022600126,136,PT03M29.00S,1,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,SUB: Post FOR Stewart,Substitution,,0,0,92
+0022600126,137,PT03M12.00S,1,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,Filipowski Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,93
+0022600126,137,PT03M12.00S,1,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward STEAL (1 STL),,,1,0,94
+0022600126,139,PT02M54.00S,1,1610612763,MEM,203924,Grant,J. Grant,81,16,8,Missed,1,,,0,v,MISS Grant 8' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,95
+0022600126,140,PT02M54.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,96
+0022600126,141,PT02M41.00S,1,1610612762,UTA,1629006,Okogie,J. Okogie,-93,229,25,Missed,1,,,0,h,MISS Okogie 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,97
+0022600126,142,PT02M41.00S,1,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,98
+0022600126,143,PT02M37.00S,1,1610612762,UTA,1642271,Filipowski,K. Filipowski,3,52,5,Missed,1,,,0,h,MISS Filipowski 5' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,99
+0022600126,144,PT02M37.00S,1,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,100
+0022600126,145,PT02M26.00S,1,1610612763,MEM,1642366,Post,Q. Post,-183,198,27,Made,1,17,23,40,v,Post 27' 3PT Jump Shot (3 PTS) (Spencer 3 AST),Made Shot,Jump Shot,1,3,101
+0022600126,147,PT02M13.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,-232,-8,0,Missed,1,,,0,h,MISS Mykhailiuk 3PT Jump Shot,Missed Shot,Jump Shot,1,3,102
+0022600126,148,PT02M13.00S,1,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,,,0,v,Post REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,103
+0022600126,149,PT01M54.00S,1,1610612763,MEM,1642366,Post,Q. Post,232,45,24,Missed,1,,,0,v,MISS Post 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,104
+0022600126,150,PT01M54.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,105
+0022600126,151,PT01M45.00S,1,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant P.FOUL (P1.PN) (K.Lane),Foul,Personal,1,0,106
+0022600126,153,PT01M45.00S,1,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,MISS Collier Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,107
+0022600126,154,PT01M45.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Normal Rebound,0,0,108
+0022600126,157,PT01M45.00S,1,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,SUB: Jackson Jr. FOR Filipowski,Substitution,,0,0,109
+0022600126,161,PT01M45.00S,1,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,SUB: Pippen Jr. FOR Spencer,Substitution,,0,0,110
+0022600126,162,PT01M45.00S,1,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,SUB: Jerome FOR Jackson,Substitution,,0,0,111
+0022600126,163,PT01M45.00S,1,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,SUB: Boozer FOR Coward,Substitution,,0,0,112
+0022600126,155,PT01M45.00S,1,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,18,23,41,h,Collier Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,113
+0022600126,164,PT01M31.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,103,246,27,Missed,1,,,0,v,MISS Boozer 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,114
+0022600126,165,PT01M31.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,115
+0022600126,167,PT01M14.00S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,-53,12,5,Missed,1,,,0,h,MISS Jackson Jr. 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,116
+0022600126,168,PT01M14.00S,1,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,,,0,v,Post REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,117
+0022600126,169,PT01M01.00S,1,1610612763,MEM,1643409,Boozer,C. Boozer,105,18,11,Made,1,18,25,43,v,Boozer 11' Turnaround Jump Shot (4 PTS),Made Shot,Turnaround Jump Shot,1,2,118
+0022600126,170,PT00M45.50S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,82,243,26,Made,1,21,25,46,h,Sensabaugh 26' 3PT Jump Shot (3 PTS) (Collier 2 AST),Made Shot,Jump Shot,1,3,119
+0022600126,172,PT00M28.30S,1,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,220,132,26,Made,1,21,28,49,v,Pippen Jr. 26' 3PT Jump Shot (3 PTS) (Jerome 1 AST),Made Shot,Jump Shot,1,3,120
+0022600126,174,PT00M11.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,121
+0022600126,174,PT00M11.00S,1,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome STEAL (1 STL),,,1,0,122
+0022600126,176,PT00M03.00S,1,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,-34,69,8,Missed,1,,,0,v,MISS Pippen Jr. 8' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,123
+0022600126,177,PT00M03.00S,1,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,Pippen Jr. REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,124
+0022600126,178,PT00M01.30S,1,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. S.FOUL (P1.PN) (N.Cearley),Foul,Shooting,1,0,125
+0022600126,180,PT00M01.30S,1,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,21,29,50,v,Pippen Jr. Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,126
+0022600126,183,PT00M01.30S,1,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,SUB: Wells FOR Jerome,Substitution,,0,0,127
+0022600126,181,PT00M01.30S,1,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,21,30,51,v,Pippen Jr. Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,128
+0022600126,184,PT00M00.00S,1,0,,0,,,0,0,0,,0,,,0,h,JAZZ Heave,Heave,Team Field Goal Attempt,0,0,129
+0022600126,185,PT00M00.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,0,0,130
+0022600126,186,PT00M00.00S,1,0,,0,,,0,0,0,,0,21,30,51,,End of 1st Period (9:40 PM EST),period,end,1,0,131
+0022600126,197,PT12M00.00S,2,0,,0,,,0,0,0,,0,21,30,51,,Start of 2nd Period (9:43 PM EST),period,start,1,0,132
+0022600126,198,PT11M46.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,-148,208,26,Made,1,24,30,54,h,Peterson 26' 3PT Jump Shot (3 PTS) (Jackson Jr. 1 AST),Made Shot,Jump Shot,1,3,133
+0022600126,200,PT11M34.00S,2,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,37,51,6,Made,1,24,32,56,v,Pippen Jr. 6' Driving Layup (7 PTS) (Jerome 2 AST),Made Shot,Driving Layup Shot,1,2,134
+0022600126,205,PT11M34.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,135
+0022600126,206,PT11M34.00S,2,0,,0,,,0,0,0,,0,24,32,56,,Instant Replay2nd Period (9:44 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,136
+0022600126,207,PT11M29.00S,2,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,Edey S.FOUL (P2.T1) (S.Foster),Foul,Shooting,1,0,137
+0022600126,209,PT11M29.00S,2,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,MISS Jackson Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,138
+0022600126,210,PT11M29.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Normal Rebound,0,0,139
+0022600126,211,PT11M29.00S,2,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,25,32,57,h,Jackson Jr. Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,140
+0022600126,212,PT11M12.00S,2,1610612763,MEM,1641713,Jackson,G. Jackson,-22,29,4,Made,1,25,34,59,v,Jackson 4' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,141
+0022600126,213,PT11M01.00S,2,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,-151,212,26,Missed,1,,,0,h,MISS Jackson Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,142
+0022600126,214,PT11M01.00S,2,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,1,0,143
+0022600126,216,PT10M41.00S,2,1610612763,MEM,203924,Grant,J. Grant,-223,8,0,Made,1,25,37,62,v,Grant 3PT Jump Shot (5 PTS) (Pippen Jr. 1 AST),Made Shot,Jump Shot,1,3,144
+0022600126,218,PT10M26.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,-45,24,5,Missed,1,,,0,h,MISS Peterson 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,145
+0022600126,219,PT10M26.00S,2,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,146
+0022600126,220,PT10M17.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk S.FOUL (P1.T1) (N.Cearley),Foul,Shooting,1,0,147
+0022600126,222,PT10M17.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,25,38,63,v,Jerome Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,148
+0022600126,226,PT10M17.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Green FOR Mykhailiuk,Substitution,,0,0,149
+0022600126,227,PT10M17.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,SUB: George FOR Sensabaugh,Substitution,,0,0,150
+0022600126,223,PT10M17.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,25,39,64,v,Jerome Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,151
+0022600126,228,PT10M04.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,63,28,7,Made,1,27,39,66,h,Peterson 7' Driving Layup (6 PTS) (Jackson Jr. 2 AST),Made Shot,Driving Layup Shot,1,2,152
+0022600126,229,PT10M04.00S,2,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,Jackson S.FOUL (P1.T2) (N.Cearley),Foul,Shooting,1,0,153
+0022600126,233,PT10M04.00S,2,1610612762,UTA,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,SUB: Bamba FOR Jackson Jr.,Substitution,,0,0,154
+0022600126,231,PT10M04.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,28,39,67,h,Peterson Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,155
+0022600126,235,PT09M44.00S,2,1610612763,MEM,203924,Grant,J. Grant,-43,13,4,Made,1,28,41,69,v,Grant 4' Driving Layup (7 PTS) (Jackson 1 AST),Made Shot,Driving Layup Shot,1,2,156
+0022600126,237,PT09M25.00S,2,1610612762,UTA,1641718,George,K. George,-101,108,15,Made,1,30,41,71,h,George 15' Pullup Jump Shot (10 PTS) (Peterson 2 AST),Made Shot,Pullup Jump shot,1,2,157
+0022600126,239,PT09M10.00S,2,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,Jackson Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,158
+0022600126,239,PT09M10.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson STEAL (1 STL),,,1,0,159
+0022600126,241,PT09M05.00S,2,1610612762,UTA,1630182,Green,J. Green,-242,0,24,Missed,1,,,0,h,MISS Green 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,160
+0022600126,242,PT09M05.00S,2,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,Pippen Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,161
+0022600126,243,PT08M55.00S,2,1610612763,MEM,203924,Grant,J. Grant,126,247,28,Made,1,30,44,74,v,Grant 28' 3PT Jump Shot (10 PTS) (Jerome 3 AST),Made Shot,Jump Shot,1,3,162
+0022600126,245,PT08M55.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson S.FOUL (P1.T2) (S.Foster),Foul,Shooting,1,0,163
+0022600126,247,PT08M55.00S,2,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,MISS Grant Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,164
+0022600126,248,PT08M55.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,0,0,165
+0022600126,249,PT08M54.00S,2,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,Edey L.B.FOUL (P3.T3) (N.Cearley),Foul,Loose Ball,1,0,166
+0022600126,251,PT08M35.00S,2,1610612762,UTA,1641718,George,K. George,-50,169,18,Missed,1,,,0,h,MISS George 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,167
+0022600126,252,PT08M35.00S,2,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,1,0,168
+0022600126,255,PT08M34.00S,2,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,SUB: Stewart FOR Edey,Substitution,,0,0,169
+0022600126,256,PT08M21.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,-69,42,8,Missed,1,,,0,v,MISS Jerome 8' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,170
+0022600126,257,PT08M21.00S,2,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,171
+0022600126,258,PT08M10.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,105,148,18,Missed,1,,,0,h,MISS Peterson 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,172
+0022600126,259,PT08M10.00S,2,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,173
+0022600126,262,PT08M00.00S,2,1610612763,MEM,1641713,Jackson,G. Jackson,-129,221,26,Missed,1,,,0,v,MISS Jackson 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,174
+0022600126,263,PT08M00.00S,2,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,175
+0022600126,264,PT07M50.00S,2,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,Filipowski Lost Ball Turnover (P2.T4),Turnover,Lost Ball,1,0,176
+0022600126,264,PT07M50.00S,2,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,Pippen Jr. STEAL (1 STL),,,1,0,177
+0022600126,266,PT07M46.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George S.FOUL (P2.T3) (N.Cearley),Foul,Shooting,1,0,178
+0022600126,268,PT07M46.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,MISS Jerome Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,179
+0022600126,269,PT07M46.00S,2,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Normal Rebound,1,0,180
+0022600126,273,PT07M46.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,SUB: Collier FOR Peterson,Substitution,,0,0,181
+0022600126,274,PT07M46.00S,2,1610612762,UTA,1642271,Filipowski,K. Filipowski,0,0,0,,0,,,0,h,SUB: Bailey FOR Filipowski,Substitution,,0,0,182
+0022600126,276,PT07M46.00S,2,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,SUB: Boozer FOR Jackson,Substitution,,0,0,183
+0022600126,270,PT07M46.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,30,45,75,v,Jerome Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,184
+0022600126,277,PT07M32.00S,2,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,Pippen Jr. S.FOUL (P1.T4) (S.Foster),Foul,Shooting,1,0,185
+0022600126,279,PT07M32.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,31,45,76,h,George Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,186
+0022600126,282,PT07M32.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,SUB: Spencer FOR Jerome,Substitution,,0,0,187
+0022600126,280,PT07M32.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,MISS George Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,188
+0022600126,283,PT07M32.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George REBOUND (Off:1 Def:1),Rebound,Unknown,0,0,189
+0022600126,284,PT07M28.00S,2,1610612762,UTA,1641718,George,K. George,59,80,10,Missed,1,,,0,h,MISS George 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,190
+0022600126,285,PT07M28.00S,2,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,191
+0022600126,286,PT07M21.00S,2,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,30,29,4,Missed,1,,,0,v,MISS Pippen Jr. 4' Running Layup,Missed Shot,Running Layup Shot,1,2,192
+0022600126,287,PT07M21.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,193
+0022600126,288,PT07M10.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George Traveling Turnover (P1.T5),Turnover,Traveling,1,0,194
+0022600126,289,PT06M59.00S,2,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,-237,99,26,Missed,1,,,0,v,MISS Pippen Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,195
+0022600126,290,PT06M59.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,196
+0022600126,291,PT06M38.00S,2,1610612762,UTA,1628964,Bamba,M. Bamba,31,16,3,Made,1,33,45,78,h,Bamba 3' Layup (2 PTS) (Green 1 AST),Made Shot,Layup Shot,1,2,197
+0022600126,293,PT06M25.00S,2,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,225,145,27,Missed,1,,,0,v,MISS Pippen Jr. 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,198
+0022600126,294,PT06M25.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,0,0,199
+0022600126,298,PT06M23.00S,2,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,SUB: Wells FOR Pippen Jr.,Substitution,,0,0,200
+0022600126,299,PT06M23.00S,2,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,SUB: Coward FOR Grant,Substitution,,0,0,201
+0022600126,300,PT06M15.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,-126,237,27,Made,1,36,45,81,h,Bailey 27' 3PT Jump Shot (5 PTS) (Collier 3 AST),Made Shot,Jump Shot,1,3,202
+0022600126,302,PT05M59.00S,2,1610612763,MEM,1642285,Spencer,C. Spencer,-42,76,9,Missed,1,,,0,v,MISS Spencer 9' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,203
+0022600126,302,PT05M59.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey BLOCK (1 BLK),,,1,2,204
+0022600126,303,PT05M59.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,205
+0022600126,305,PT05M55.00S,2,1610612762,UTA,1642268,Collier,I. Collier,29,5,3,Made,1,38,45,83,h,Collier 3' Running Reverse Layup (3 PTS),Made Shot,Running Reverse Layup Shot,1,2,206
+0022600126,306,PT05M54.00S,2,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,207
+0022600126,307,PT05M41.00S,2,1610612763,MEM,1630191,Stewart,I. Stewart,-18,34,4,Made,1,38,47,85,v,Stewart 4' Layup (2 PTS) (Boozer 3 AST),Made Shot,Layup Shot,1,2,208
+0022600126,309,PT05M20.00S,2,1610612762,UTA,1642268,Collier,I. Collier,101,222,24,Missed,1,,,0,h,MISS Collier 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,209
+0022600126,310,PT05M20.00S,2,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,210
+0022600126,311,PT05M06.00S,2,1610612763,MEM,1643409,Boozer,C. Boozer,-51,43,7,Made,1,38,49,87,v,Boozer 7' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,211
+0022600126,312,PT04M56.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey Traveling Turnover (P1.T6),Turnover,Traveling,1,0,212
+0022600126,313,PT04M46.00S,2,1610612763,MEM,1642377,Wells,J. Wells,-37,51,6,Missed,1,,,0,v,MISS Wells 6' Hook Shot,Missed Shot,Hook Shot,1,2,213
+0022600126,314,PT04M46.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,214
+0022600126,315,PT04M32.00S,2,1610612762,UTA,1641718,George,K. George,47,16,5,Made,1,40,49,89,h,George 5' Driving Layup (13 PTS),Made Shot,Driving Layup Shot,1,2,215
+0022600126,316,PT04M20.00S,2,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward OFF.Foul (P3) (N.Cearley),Foul,Offensive,1,0,216
+0022600126,318,PT04M20.00S,2,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward Offensive Foul Turnover (P2.T4),Turnover,Offensive Foul Turnover,1,0,217
+0022600126,319,PT04M02.00S,2,1610612762,UTA,1642268,Collier,I. Collier,-3,61,6,Missed,1,,,0,h,MISS Collier 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,218
+0022600126,320,PT04M02.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,219
+0022600126,321,PT03M53.00S,2,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells S.FOUL (P1.PN) (N.Cearley),Foul,Shooting,1,0,220
+0022600126,323,PT03M53.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,41,49,90,h,George Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,221
+0022600126,327,PT03M53.00S,2,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,SUB: Post FOR Stewart,Substitution,,0,0,222
+0022600126,328,PT03M53.00S,2,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,SUB: Jerome FOR Spencer,Substitution,,0,0,223
+0022600126,324,PT03M53.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,42,49,91,h,George Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,224
+0022600126,329,PT03M37.00S,2,1610612763,MEM,1643409,Boozer,C. Boozer,62,261,27,Made,1,42,52,94,v,Boozer 27' 3PT Jump Shot (9 PTS) (Jerome 4 AST),Made Shot,Jump Shot,1,3,225
+0022600126,332,PT03M20.00S,2,1610612762,UTA,1641718,George,K. George,117,151,19,Made,1,44,52,96,h,George 19' Pullup Jump Shot (17 PTS) (Bamba 1 AST),Made Shot,Pullup Jump shot,1,2,226
+0022600126,334,PT03M04.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,-128,217,25,Made,1,44,55,99,v,Jerome 25' 3PT Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,3,227
+0022600126,335,PT02M53.00S,2,1610612762,UTA,1642268,Collier,I. Collier,6,52,5,Made,1,46,55,101,h,Collier 5' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,228
+0022600126,336,PT02M53.00S,2,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward S.FOUL (P4.PN) (K.Lane),Foul,Shooting,1,0,229
+0022600126,340,PT02M53.00S,2,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,SUB: Grant FOR Coward,Substitution,,0,0,230
+0022600126,338,PT02M53.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,MISS Collier Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,231
+0022600126,341,PT02M53.00S,2,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,232
+0022600126,342,PT02M42.00S,2,1610612763,MEM,1642377,Wells,J. Wells,188,161,25,Made,1,46,58,104,v,Wells 25' 3PT Jump Shot (5 PTS) (Jerome 5 AST),Made Shot,Jump Shot,1,3,233
+0022600126,344,PT02M31.00S,2,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,Green Out of Bounds Lost Ball Turnover (P1.T7),Turnover,Out of Bounds Lost Ball Turnover,1,0,234
+0022600126,345,PT02M19.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,-184,165,25,Missed,1,,,0,v,MISS Jerome 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,235
+0022600126,346,PT02M19.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,236
+0022600126,347,PT02M03.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George OFF.Foul (P3) (S.Foster),Foul,Offensive,1,0,237
+0022600126,349,PT02M03.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George Offensive Foul Turnover (P2.T8),Turnover,Offensive Foul Turnover,1,0,238
+0022600126,350,PT01M52.00S,2,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,,,0,v,Post OFF.Foul (P1) (N.Cearley),Foul,Offensive,1,0,239
+0022600126,352,PT01M52.00S,2,1610612763,MEM,1642366,Post,Q. Post,0,0,0,,0,,,0,v,Post Offensive Foul Turnover (P1.T5),Turnover,Offensive Foul Turnover,1,0,240
+0022600126,353,PT01M39.00S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome S.FOUL (P1.PN) (N.Cearley),Foul,Shooting,1,0,241
+0022600126,355,PT01M39.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,MISS Collier Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,242
+0022600126,356,PT01M39.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Normal Rebound,0,0,243
+0022600126,359,PT01M39.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,SUB: Okogie FOR George,Substitution,,0,0,244
+0022600126,357,PT01M39.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,47,58,105,h,Collier Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,245
+0022600126,360,PT01M27.00S,2,1610612763,MEM,1643409,Boozer,C. Boozer,123,212,25,Missed,1,,,0,v,MISS Boozer 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,246
+0022600126,361,PT01M27.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,247
+0022600126,362,PT01M04.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,-57,245,25,Made,1,50,58,108,h,Bailey 25' 3PT Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,3,248
+0022600126,363,PT00M49.70S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome OFF.Foul (P2) (N.Cearley),Foul,Offensive,1,0,249
+0022600126,365,PT00M49.70S,2,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,250
+0022600126,366,PT00M33.70S,2,1610612762,UTA,1628964,Bamba,M. Bamba,-26,15,3,Made,1,52,58,110,h,Bamba 3' Dunk (4 PTS) (Collier 4 AST),Made Shot,Dunk Shot,1,2,251
+0022600126,368,PT00M24.00S,2,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,Green P.FOUL (P1.T4) (S.Foster),Foul,Personal,1,0,252
+0022600126,370,PT00M13.60S,2,1610612763,MEM,1642377,Wells,J. Wells,233,86,25,Missed,1,,,0,v,MISS Wells 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,253
+0022600126,370,PT00M13.60S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey BLOCK (2 BLK),,,1,3,254
+0022600126,371,PT00M13.60S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,255
+0022600126,373,PT00M00.90S,2,1610612762,UTA,1642268,Collier,I. Collier,-121,85,15,Missed,1,,,0,h,MISS Collier 15' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,256
+0022600126,374,PT00M00.90S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,257
+0022600126,377,PT00M00.00S,2,0,,0,,,0,0,0,,0,52,58,110,,End of 2nd Period (10:14 PM EST),period,end,1,0,258
+0022600126,386,PT12M00.00S,3,0,,0,,,0,0,0,,0,52,58,110,,Start of 3rd Period (10:30 PM EST),period,start,1,0,259
+0022600126,387,PT11M42.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,-39,64,7,Missed,1,,,0,h,MISS Peterson 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,260
+0022600126,388,PT11M42.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,261
+0022600126,389,PT11M39.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,Made,1,54,58,112,h,Bamba Tip Layup Shot (6 PTS),Made Shot,Tip Layup Shot,1,2,262
+0022600126,390,PT11M25.00S,3,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,Edey OFF.Foul (P4) (S.Foster),Foul,Offensive,1,0,263
+0022600126,392,PT11M25.00S,3,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,Edey Offensive Foul Turnover (P2.T7),Turnover,Offensive Foul Turnover,1,0,264
+0022600126,393,PT11M13.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,6,71,7,Missed,1,,,0,h,MISS Peterson 7' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,265
+0022600126,394,PT11M13.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,266
+0022600126,395,PT11M03.00S,3,1610612763,MEM,1629660,Jerome,T. Jerome,-32,248,25,Missed,1,,,0,v,MISS Jerome 25' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,267
+0022600126,396,PT11M03.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,268
+0022600126,397,PT10M49.00S,3,1610612762,UTA,1641718,George,K. George,-62,177,19,Made,1,56,58,114,h,George 19' Step Back Jump Shot (20 PTS),Made Shot,Step Back Jump shot,1,2,269
+0022600126,399,PT10M49.00S,3,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells S.FOUL (P2.T1) (K.Lane),Foul,Shooting,1,0,270
+0022600126,401,PT10M49.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,57,58,115,h,George Free Throw 1 of 1 (20 PTS),Free Throw,Free Throw 1 of 1,1,0,271
+0022600126,402,PT10M32.00S,3,1610612763,MEM,1642907,Coward,C. Coward,232,79,25,Made,1,57,61,118,v,Coward 25' 3PT Jump Shot (10 PTS) (Jerome 6 AST),Made Shot,Jump Shot,1,3,272
+0022600126,404,PT10M17.00S,3,1610612762,UTA,1630182,Green,J. Green,-232,2,0,Missed,1,,,0,h,MISS Green 3PT Jump Shot,Missed Shot,Jump Shot,1,3,273
+0022600126,405,PT10M17.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,274
+0022600126,406,PT10M10.00S,3,1610612763,MEM,1642907,Coward,C. Coward,-37,21,4,Missed,1,,,0,v,MISS Coward 4' Running Layup,Missed Shot,Running Layup Shot,1,2,275
+0022600126,406,PT10M10.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey BLOCK (3 BLK),,,1,2,276
+0022600126,407,PT10M10.00S,3,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,1,0,277
+0022600126,410,PT10M10.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George AWAY.FROM.PLAY.FOUL (P4.T1) (K.Lane),Foul,Away From Play,1,0,278
+0022600126,412,PT10M10.00S,3,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,57,62,119,v,Jerome Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,1,0,279
+0022600126,413,PT10M01.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,-120,34,12,Missed,1,,,0,v,MISS Boozer 12' Driving Layup,Missed Shot,Driving Layup Shot,1,2,280
+0022600126,413,PT10M01.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba BLOCK (1 BLK),,,1,2,281
+0022600126,414,PT10M01.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,282
+0022600126,416,PT09M50.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,-58,192,20,Missed,1,,,0,h,MISS Peterson 20' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,283
+0022600126,417,PT09M50.00S,3,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,284
+0022600126,418,PT09M38.00S,3,1610612763,MEM,1641744,Edey,Z. Edey,30,83,9,Missed,1,,,0,v,MISS Edey 9' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,285
+0022600126,418,PT09M38.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba BLOCK (2 BLK),,,1,2,286
+0022600126,419,PT09M38.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,287
+0022600126,421,PT09M33.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,40,4,Made,1,59,62,121,h,Peterson 4' Running Layup (8 PTS),Made Shot,Running Layup Shot,1,2,288
+0022600126,422,PT09M19.00S,3,1610612763,MEM,1629660,Jerome,T. Jerome,-21,145,15,Missed,1,,,0,v,MISS Jerome 15' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,289
+0022600126,423,PT09M19.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,290
+0022600126,424,PT09M18.00S,3,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,Edey L.B.FOUL (P5.T2) (K.Lane),Foul,Loose Ball,1,0,291
+0022600126,427,PT09M18.00S,3,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,SUB: Stewart FOR Edey,Substitution,,0,0,292
+0022600126,565,PT09M04.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,42,7,4,Missed,1,,,0,h,MISS Bamba 4' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,293
+0022600126,566,PT09M04.00S,3,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,294
+0022600126,430,PT08M57.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey S.FOUL (P1.T2) (S.Foster),Foul,Shooting,1,0,295
+0022600126,432,PT08M57.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,59,63,122,v,Boozer Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,296
+0022600126,433,PT08M57.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,59,64,123,v,Boozer Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,297
+0022600126,434,PT08M44.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,-226,24,0,Missed,1,,,0,h,MISS Bailey 3PT Jump Shot,Missed Shot,Jump Shot,1,3,298
+0022600126,435,PT08M44.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,299
+0022600126,436,PT08M36.00S,3,1610612763,MEM,1630191,Stewart,I. Stewart,34,21,4,Made,1,59,66,125,v,Stewart 4' Running Layup (4 PTS) (Coward 1 AST),Made Shot,Running Layup Shot,1,2,300
+0022600126,438,PT08M24.00S,3,1610612762,UTA,1641718,George,K. George,-81,72,11,Missed,1,,,0,h,MISS George 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,301
+0022600126,439,PT08M24.00S,3,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,302
+0022600126,440,PT08M16.00S,3,1610612763,MEM,1642377,Wells,J. Wells,-16,11,2,Made,1,59,68,127,v,Wells 2' Running Reverse Layup (7 PTS),Made Shot,Running Reverse Layup Shot,1,2,303
+0022600126,441,PT08M01.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,-169,192,26,Made,1,62,68,130,h,Peterson 26' 3PT Step Back Jump Shot (11 PTS),Made Shot,Step Back Jump shot,1,3,304
+0022600126,442,PT07M45.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey S.FOUL (P2.T3) (N.Cearley),Foul,Shooting,1,0,305
+0022600126,444,PT07M45.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,62,69,131,v,Boozer Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,306
+0022600126,448,PT07M45.00S,3,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,SUB: Jackson FOR Jerome,Substitution,,0,0,307
+0022600126,449,PT07M45.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,SUB: Spencer FOR Coward,Substitution,,0,0,308
+0022600126,445,PT07M45.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,62,70,132,v,Boozer Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,309
+0022600126,450,PT07M28.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,238,34,24,Made,1,65,70,135,h,Bailey 24' 3PT Jump Shot (11 PTS) (George 3 AST),Made Shot,Jump Shot,1,3,310
+0022600126,452,PT07M12.00S,3,1610612763,MEM,1642377,Wells,J. Wells,218,140,26,Missed,1,,,0,v,MISS Wells 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,311
+0022600126,453,PT07M12.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,312
+0022600126,454,PT07M04.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,237,26,24,Missed,1,,,0,h,MISS Peterson 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,313
+0022600126,455,PT07M04.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,314
+0022600126,456,PT06M58.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer Offensive Charge Foul (P2) (S.Foster),Foul,Offensive Charge,1,0,315
+0022600126,458,PT06M58.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer Offensive Foul Turnover (P1.T8),Turnover,Offensive Foul Turnover,1,0,316
+0022600126,459,PT06M58.00S,3,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,317
+0022600126,460,PT06M58.00S,3,0,,0,,,0,0,0,,0,65,70,135,,Instant Replay3rd Period (10:39 PM EST),Instant Replay,Coach Challenge Support Ruling,0,0,318
+0022600126,463,PT06M58.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,SUB: Collier FOR George,Substitution,,0,0,319
+0022600126,464,PT06M58.00S,3,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,SUB: Okogie FOR Green,Substitution,,0,0,320
+0022600126,465,PT06M49.00S,3,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie Lost Ball Turnover (P1.T9),Turnover,Lost Ball,1,0,321
+0022600126,465,PT06M49.00S,3,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,Jackson STEAL (1 STL),,,1,0,322
+0022600126,467,PT06M46.00S,3,1610612763,MEM,1642377,Wells,J. Wells,19,9,2,Made,1,65,72,137,v,Wells 2' Running Dunk (9 PTS) (Jackson 2 AST),Made Shot,Running Dunk Shot,1,2,323
+0022600126,469,PT06M28.00S,3,1610612762,UTA,1629006,Okogie,J. Okogie,225,19,0,Missed,1,,,0,h,MISS Okogie 3PT Jump Shot,Missed Shot,Jump Shot,1,3,324
+0022600126,470,PT06M28.00S,3,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,Spencer REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,325
+0022600126,471,PT06M09.00S,3,1610612763,MEM,1630191,Stewart,I. Stewart,-39,35,5,Missed,1,,,0,v,MISS Stewart 5' Hook Shot,Missed Shot,Hook Shot,1,2,326
+0022600126,471,PT06M09.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba BLOCK (3 BLK),,,1,2,327
+0022600126,472,PT06M09.00S,3,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,328
+0022600126,473,PT06M06.00S,3,1610612763,MEM,1630191,Stewart,I. Stewart,-45,46,6,Missed,1,,,0,v,MISS Stewart 6' Putback Layup,Missed Shot,Putback Layup Shot,1,2,329
+0022600126,474,PT06M06.00S,3,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,Spencer REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,330
+0022600126,475,PT06M01.00S,3,1610612763,MEM,1642285,Spencer,C. Spencer,-8,64,6,Made,1,65,74,139,v,Spencer 6' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,331
+0022600126,476,PT05M47.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,-94,85,13,Missed,1,,,0,h,MISS Peterson 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,332
+0022600126,477,PT05M47.00S,3,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,333
+0022600126,478,PT05M41.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,178,202,27,Missed,1,,,0,v,MISS Boozer 27' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,334
+0022600126,479,PT05M41.00S,3,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,335
+0022600126,480,PT05M30.00S,3,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,Spencer S.FOUL (P2.T3) (S.Foster),Foul,Shooting,1,0,336
+0022600126,482,PT05M30.00S,3,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,66,74,140,h,Collier Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,337
+0022600126,485,PT05M30.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,SUB: Bradley FOR Bamba,Substitution,,0,0,338
+0022600126,487,PT05M30.00S,3,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,SUB: Grant FOR Boozer,Substitution,,0,0,339
+0022600126,483,PT05M30.00S,3,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,MISS Collier Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,340
+0022600126,488,PT05M30.00S,3,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,0,0,341
+0022600126,490,PT05M12.00S,3,1610612763,MEM,1641713,Jackson,G. Jackson,19,254,25,Missed,1,,,0,v,MISS Jackson 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,342
+0022600126,491,PT05M12.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,343
+0022600126,492,PT04M47.00S,3,1610612762,UTA,1642268,Collier,I. Collier,-125,217,25,Missed,1,,,0,h,MISS Collier 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,344
+0022600126,493,PT04M47.00S,3,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,345
+0022600126,494,PT04M42.00S,3,1610612762,UTA,1642268,Collier,I. Collier,-23,29,4,Missed,1,,,0,h,MISS Collier 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,346
+0022600126,494,PT04M42.00S,3,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant BLOCK (1 BLK),,,1,2,347
+0022600126,495,PT04M42.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,348
+0022600126,499,PT04M41.00S,3,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,SUB: Post FOR Stewart,Substitution,,0,0,349
+0022600126,500,PT04M41.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,350
+0022600126,502,PT04M41.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,SUB: Sensabaugh FOR Peterson,Substitution,,0,0,351
+0022600126,504,PT04M41.00S,3,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,SUB: Coward FOR Wells,Substitution,,0,0,352
+0022600126,505,PT04M39.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,h,Bradley OFF.Foul (P1) (S.Foster),Foul,Offensive,1,0,353
+0022600126,507,PT04M39.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,h,Bradley Offensive Foul Turnover (P1.T10),Turnover,Offensive Foul Turnover,1,0,354
+0022600126,509,PT04M39.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,SUB: Mykhailiuk FOR Bailey,Substitution,,0,0,355
+0022600126,510,PT04M29.00S,3,1610612763,MEM,1642366,Post,Q. Post,11,26,3,Made,1,66,76,142,v,Post 3' Cutting Dunk Shot (5 PTS) (Coward 2 AST),Made Shot,Cutting Dunk Shot,1,2,356
+0022600126,512,PT04M18.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,58,78,10,Made,1,68,76,144,h,Sensabaugh 10' Driving Floating Jump Shot (5 PTS) (Collier 5 AST),Made Shot,Driving Floating Jump Shot,1,2,357
+0022600126,514,PT03M55.00S,3,1610612763,MEM,1642907,Coward,C. Coward,76,42,9,Missed,1,,,0,v,MISS Coward 9' Turnaround Fadeaway Bank Jump Shot,Missed Shot,Turnaround Fadeaway Bank Jump Shot,1,2,358
+0022600126,515,PT03M55.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,359
+0022600126,516,PT03M51.00S,3,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,Jackson P.FOUL (P2.T4) (N.Cearley),Foul,Personal,1,0,360
+0022600126,519,PT03M51.00S,3,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,SUB: Pippen Jr. FOR Jackson,Substitution,,0,0,361
+0022600126,520,PT03M45.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh OFF.Foul (P1) (K.Lane),Foul,Offensive,1,0,362
+0022600126,522,PT03M45.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,Sensabaugh Offensive Foul Turnover (P2.T11),Turnover,Offensive Foul Turnover,1,0,363
+0022600126,523,PT03M22.00S,3,1610612763,MEM,1642366,Post,Q. Post,77,10,8,Made,1,68,78,146,v,Post 8' Driving Hook Shot (7 PTS),Made Shot,Driving Hook Shot,1,2,364
+0022600126,524,PT03M05.00S,3,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,138,229,27,Missed,1,,,0,h,MISS Mykhailiuk 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,365
+0022600126,525,PT03M05.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,366
+0022600126,526,PT02M53.00S,3,1610612763,MEM,203924,Grant,J. Grant,177,191,26,Missed,1,,,0,v,MISS Grant 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,367
+0022600126,527,PT02M53.00S,3,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,Collier REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,368
+0022600126,528,PT02M46.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-240,48,24,Made,1,71,78,149,h,Sensabaugh 24' 3PT Running Jump Shot (8 PTS) (Collier 6 AST),Made Shot,Running Jump Shot,1,3,369
+0022600126,530,PT02M34.00S,3,1610612763,MEM,1642366,Post,Q. Post,-136,206,25,Made,1,71,81,152,v,Post 25' 3PT Jump Shot (10 PTS) (Spencer 4 AST),Made Shot,Jump Shot,1,3,370
+0022600126,532,PT02M16.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-55,126,14,Missed,1,,,0,h,MISS Sensabaugh 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,371
+0022600126,533,PT02M16.00S,3,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,372
+0022600126,534,PT02M02.00S,3,1610612763,MEM,1642285,Spencer,C. Spencer,123,219,25,Made,1,71,84,155,v,Spencer 25' 3PT Jump Shot (8 PTS) (Post 1 AST),Made Shot,Jump Shot,1,3,373
+0022600126,536,PT01M46.00S,3,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,37,18,4,Missed,1,,,0,h,MISS Mykhailiuk 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,374
+0022600126,537,PT01M46.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,h,Bradley REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,375
+0022600126,538,PT01M44.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,Missed,1,,,0,h,MISS Bradley Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,376
+0022600126,539,PT01M44.00S,3,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,Spencer REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,377
+0022600126,540,PT01M40.00S,3,1610612763,MEM,1642907,Coward,C. Coward,-228,105,25,Made,1,71,87,158,v,Coward 25' 3PT Running Jump Shot (13 PTS) (Spencer 5 AST),Made Shot,Running Jump Shot,1,3,378
+0022600126,542,PT01M23.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-169,189,25,Made,1,74,87,161,h,Sensabaugh 25' 3PT Jump Shot (11 PTS) (Collier 7 AST),Made Shot,Jump Shot,1,3,379
+0022600126,544,PT01M10.00S,3,1610612763,MEM,1642285,Spencer,C. Spencer,-91,285,30,Missed,1,,,0,v,MISS Spencer 30' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,380
+0022600126,545,PT01M10.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,381
+0022600126,548,PT01M07.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,h,SUB: Green FOR Sensabaugh,Substitution,,0,0,382
+0022600126,550,PT01M07.00S,3,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,SUB: Jerome FOR Spencer,Substitution,,0,0,383
+0022600126,551,PT00M56.20S,3,1610612762,UTA,1628396,Bradley,T. Bradley,-35,17,4,Made,1,76,87,163,h,Bradley 4' Dunk (2 PTS) (Collier 8 AST),Made Shot,Dunk Shot,1,2,384
+0022600126,553,PT00M40.30S,3,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,385
+0022600126,553,PT00M40.30S,3,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,Green STEAL (1 STL),,,1,0,386
+0022600126,555,PT00M35.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,h,Bradley OFF.Foul (P2) (S.Foster),Foul,Offensive,1,0,387
+0022600126,557,PT00M35.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,h,Bradley Offensive Foul Turnover (P2.T12),Turnover,Offensive Foul Turnover,1,0,388
+0022600126,558,PT00M14.90S,3,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,389
+0022600126,559,PT00M13.80S,3,1610612763,MEM,1642366,Post,Q. Post,-12,52,5,Made,1,76,89,165,v,Post 5' Alley Oop Layup (12 PTS) (Jerome 7 AST),Made Shot,Alley Oop Layup shot,1,2,390
+0022600126,561,PT00M00.00S,3,1610612762,UTA,1642268,Collier,I. Collier,-240,68,25,Missed,1,,,0,h,MISS Collier 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,391
+0022600126,562,PT00M00.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,392
+0022600126,563,PT00M00.00S,3,0,,0,,,0,0,0,,0,76,89,165,,End of 3rd Period (10:57 PM EST),period,end,1,0,393
+0022600126,577,PT12M00.00S,4,0,,0,,,0,0,0,,0,76,89,165,,Start of 4th Period (11:00 PM EST),period,start,0,0,394
+0022600126,578,PT11M37.00S,4,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,Pippen Jr. Traveling Turnover (P1.T10),Turnover,Traveling,1,0,395
+0022600126,579,PT11M24.00S,4,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,Green Lost Ball Turnover (P2.T13),Turnover,Lost Ball,1,0,396
+0022600126,579,PT11M24.00S,4,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,Pippen Jr. STEAL (2 STL),,,1,0,397
+0022600126,581,PT11M16.00S,4,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,66,73,10,Missed,1,,,0,v,MISS Pippen Jr. 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,398
+0022600126,582,PT11M16.00S,4,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,399
+0022600126,583,PT11M10.00S,4,1610612762,UTA,1630182,Green,J. Green,-25,21,3,Made,1,78,89,167,h,Green 3' Running Layup (3 PTS),Made Shot,Running Layup Shot,1,2,400
+0022600126,584,PT11M10.00S,4,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,Jackson Violation:Defensive Goaltending (S.Foster),Violation,Defensive Goaltending,0,0,401
+0022600126,585,PT11M10.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome S.FOUL (P3.T1) (S.Foster),Foul,Shooting,1,0,402
+0022600126,587,PT11M10.00S,4,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,79,89,168,h,Green Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,403
+0022600126,588,PT10M59.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,30,167,17,Missed,1,,,0,v,MISS Jerome 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,404
+0022600126,589,PT10M59.00S,4,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,405
+0022600126,590,PT10M48.00S,4,1610612762,UTA,1628964,Bamba,M. Bamba,27,10,3,Made,1,81,89,170,h,Bamba 3' Alley Oop Dunk (8 PTS) (George 4 AST),Made Shot,Alley Oop Dunk Shot,1,2,406
+0022600126,592,PT10M31.00S,4,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,Green P.FOUL (P2.T1) (N.Cearley),Foul,Personal,1,0,407
+0022600126,594,PT10M31.00S,4,0,,0,,,0,0,0,,0,81,89,170,,Instant Replay4th Period (11:02 PM EST),Instant Replay,Support Ruling,0,0,408
+0022600126,597,PT10M31.00S,4,1610612763,MEM,1630590,Pippen Jr.,S. Pippen Jr.,0,0,0,,0,,,0,v,SUB: Wells FOR Pippen Jr.,Substitution,,0,0,409
+0022600126,598,PT10M31.00S,4,1610612763,MEM,1641713,Jackson,G. Jackson,0,0,0,,0,,,0,v,SUB: Coward FOR Jackson,Substitution,,0,0,410
+0022600126,599,PT10M23.00S,4,1610612763,MEM,203924,Grant,J. Grant,-81,242,26,Made,1,81,92,173,v,Grant 26' 3PT Jump Shot (13 PTS) (Jerome 8 AST),Made Shot,Jump Shot,1,3,411
+0022600126,601,PT10M03.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,-240,-13,24,Missed,1,,,0,h,MISS Bailey 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,412
+0022600126,602,PT10M03.00S,4,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,Edey REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,413
+0022600126,603,PT09M57.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,-116,222,25,Missed,1,,,0,v,MISS Jerome 25' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,414
+0022600126,604,PT09M57.00S,4,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,415
+0022600126,605,PT09M39.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,29,8,3,Made,1,83,92,175,h,Bailey 3' Reverse Layup (13 PTS) (George 5 AST),Made Shot,Reverse Layup Shot,1,2,416
+0022600126,607,PT09M26.00S,4,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,Edey Bad Pass Turnover (P3.T11),Turnover,Bad Pass,1,0,417
+0022600126,607,PT09M26.00S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk STEAL (1 STL),,,1,0,418
+0022600126,609,PT09M22.00S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,-5,23,2,Missed,1,,,0,h,MISS Mykhailiuk 2' Running Layup,Missed Shot,Running Layup Shot,1,2,419
+0022600126,609,PT09M22.00S,4,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,Edey BLOCK (2 BLK),,,1,2,420
+0022600126,610,PT09M22.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,1,0,421
+0022600126,612,PT09M22.00S,4,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Violation: Delay of game Violation,Violation,Delay Of Game,0,0,422
+0022600126,614,PT09M15.00S,4,1610612762,UTA,1641718,George,K. George,32,83,9,Made,1,85,92,177,h,George 9' Pullup Jump Shot (23 PTS),Made Shot,Pullup Jump shot,1,2,423
+0022600126,615,PT09M15.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,Jerome S.FOUL (P4.T2) (K.Lane),Foul,Shooting,1,0,424
+0022600126,617,PT09M15.00S,4,1610612762,UTA,1641718,George,K. George,0,0,0,,0,86,92,178,h,George Free Throw 1 of 1 (23 PTS),Free Throw,Free Throw 1 of 1,1,0,425
+0022600126,618,PT08M56.00S,4,1610612763,MEM,1642907,Coward,C. Coward,-7,85,9,Missed,1,,,0,v,MISS Coward 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,426
+0022600126,619,PT08M56.00S,4,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,Grant REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,427
+0022600126,620,PT08M48.00S,4,1610612763,MEM,1642377,Wells,J. Wells,-241,61,25,Made,1,86,95,181,v,Wells 25' 3PT Jump Shot (12 PTS) (Coward 3 AST),Made Shot,Jump Shot,1,3,428
+0022600126,622,PT08M28.00S,4,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba Out of Bounds - Bad Pass Turnover Turnover (P1.T14),Turnover,Out of Bounds - Bad Pass Turnover,1,0,429
+0022600126,625,PT08M28.00S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Okogie FOR Mykhailiuk,Substitution,,0,0,430
+0022600126,627,PT08M28.00S,4,1610612763,MEM,203924,Grant,J. Grant,0,0,0,,0,,,0,v,SUB: Boozer FOR Grant,Substitution,,0,0,431
+0022600126,628,PT08M18.00S,4,1610612763,MEM,1642907,Coward,C. Coward,81,245,26,Made,1,86,98,184,v,Coward 26' 3PT Jump Shot (16 PTS) (Boozer 4 AST),Made Shot,Jump Shot,1,3,432
+0022600126,630,PT08M03.00S,4,1610612762,UTA,1630182,Green,J. Green,234,-9,0,Made,1,89,98,187,h,Green 3PT Jump Shot (6 PTS) (George 6 AST),Made Shot,Jump Shot,1,3,433
+0022600126,632,PT07M46.00S,4,1610612763,MEM,1642907,Coward,C. Coward,63,98,12,Missed,1,,,0,v,MISS Coward 12' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,434
+0022600126,632,PT07M46.00S,4,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba BLOCK (4 BLK),,,1,2,435
+0022600126,633,PT07M46.00S,4,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,436
+0022600126,635,PT07M39.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,-233,-17,0,Missed,1,,,0,h,MISS Bailey 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,437
+0022600126,636,PT07M39.00S,4,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,438
+0022600126,637,PT07M34.00S,4,1610612762,UTA,1641718,George,K. George,70,258,27,Missed,1,,,0,h,MISS George 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,439
+0022600126,638,PT07M34.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,440
+0022600126,639,PT07M32.00S,4,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward S.FOUL (P5.T3) (S.Foster),Foul,Shooting,1,0,441
+0022600126,641,PT07M32.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,90,98,188,h,Bailey Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,442
+0022600126,644,PT07M32.00S,4,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,SUB: Peterson FOR Green,Substitution,,0,0,443
+0022600126,647,PT07M32.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,,,0,v,SUB: Stewart FOR Jerome,Substitution,,0,0,444
+0022600126,648,PT07M32.00S,4,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,,,0,v,SUB: Spencer FOR Edey,Substitution,,0,0,445
+0022600126,642,PT07M32.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,91,98,189,h,Bailey Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,446
+0022600126,649,PT07M22.00S,4,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart OFF.Foul (P2) (N.Cearley),Foul,Offensive,1,0,447
+0022600126,651,PT07M22.00S,4,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,Stewart Offensive Foul Turnover (P1.T12),Turnover,Offensive Foul Turnover,1,0,448
+0022600126,652,PT07M08.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,114,40,12,Missed,1,,,0,h,MISS Bailey 12' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,449
+0022600126,653,PT07M08.00S,4,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,450
+0022600126,654,PT06M53.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,-105,27,11,Missed,1,,,0,v,MISS Boozer 11' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,451
+0022600126,655,PT06M53.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,Bailey REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,452
+0022600126,656,PT06M38.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,-58,43,7,Missed,1,,,0,h,MISS Peterson 7' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,453
+0022600126,657,PT06M38.00S,4,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,454
+0022600126,658,PT06M35.00S,4,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,Made,1,93,98,191,h,Bamba Putback Layup (10 PTS),Made Shot,Putback Layup Shot,1,2,455
+0022600126,659,PT06M18.00S,4,1610612763,MEM,1642907,Coward,C. Coward,35,74,8,Missed,1,,,0,v,MISS Coward 8' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,456
+0022600126,660,PT06M18.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,457
+0022600126,661,PT06M11.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,39,55,7,Missed,1,,,0,h,MISS Okogie 7' Running Finger Roll Layup,Missed Shot,Running Finger Roll Layup Shot,1,2,458
+0022600126,662,PT06M11.00S,4,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,459
+0022600126,663,PT05M50.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,-64,42,8,Missed,1,,,0,v,MISS Boozer 8' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,460
+0022600126,664,PT05M50.00S,4,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,461
+0022600126,665,PT05M40.00S,4,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells P.FOUL (P3.T4) (S.Foster),Foul,Personal,1,0,462
+0022600126,667,PT05M40.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,463
+0022600126,670,PT05M40.00S,4,1610612763,MEM,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,v,SUB: Jerome FOR Stewart,Substitution,,0,0,464
+0022600126,671,PT05M40.00S,4,1610612763,MEM,1642285,Spencer,C. Spencer,0,0,0,,0,,,0,v,SUB: Edey FOR Spencer,Substitution,,0,0,465
+0022600126,672,PT05M31.00S,4,1610612762,UTA,1628964,Bamba,M. Bamba,37,42,6,Made,1,95,98,193,h,Bamba 6' Dunk (12 PTS) (Bailey 2 AST),Made Shot,Dunk Shot,1,2,466
+0022600126,674,PT05M16.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,-37,29,5,Made,1,95,100,195,v,Jerome 5' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,467
+0022600126,675,PT05M03.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,58,251,26,Made,1,98,100,198,h,Peterson 26' 3PT Pullup Jump Shot (14 PTS),Made Shot,Pullup Jump shot,1,3,468
+0022600126,676,PT04M36.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,-233,101,25,Missed,1,,,0,v,MISS Boozer 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,469
+0022600126,677,PT04M36.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,470
+0022600126,678,PT04M18.00S,4,1610612762,UTA,1641718,George,K. George,-89,86,12,Missed,1,,,0,h,MISS George 12' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,471
+0022600126,679,PT04M18.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,472
+0022600126,680,PT03M55.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,58,246,25,Missed,1,,,0,v,MISS Jerome 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,473
+0022600126,681,PT03M55.00S,4,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,474
+0022600126,682,PT03M49.00S,4,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,h,Bamba S.FOUL (P1.T2) (S.Foster),Foul,Shooting,1,0,475
+0022600126,684,PT03M49.00S,4,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,98,101,199,v,Edey Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,476
+0022600126,687,PT03M49.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,SUB: Green FOR Bailey,Substitution,,0,0,477
+0022600126,685,PT03M49.00S,4,1610612763,MEM,1641744,Edey,Z. Edey,0,0,0,,0,98,102,200,v,Edey Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,478
+0022600126,688,PT03M37.00S,4,1610612762,UTA,1641718,George,K. George,-78,113,14,Made,1,100,102,202,h,George 14' Driving Floating Jump Shot (26 PTS) (Peterson 3 AST),Made Shot,Driving Floating Jump Shot,1,2,479
+0022600126,690,PT03M37.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer S.FOUL (P3.PN) (S.Foster),Foul,Shooting,1,0,480
+0022600126,692,PT03M37.00S,4,1610612762,UTA,1641718,George,K. George,0,0,0,,0,101,102,203,h,George Free Throw 1 of 1 (26 PTS),Free Throw,Free Throw 1 of 1,1,0,481
+0022600126,693,PT03M20.00S,4,1610612763,MEM,1641744,Edey,Z. Edey,26,23,3,Missed,1,,,0,v,MISS Edey 3' Layup,Missed Shot,Layup Shot,1,2,482
+0022600126,693,PT03M20.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie BLOCK (1 BLK),,,1,2,483
+0022600126,694,PT03M20.00S,4,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Rebound,Rebound,Unknown,1,0,484
+0022600126,697,PT03M20.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Jump Ball Okogie vs. Edey: Tip to Jerome,Jump Ball,,1,0,485
+0022600126,700,PT03M19.00S,4,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,486
+0022600126,701,PT03M13.00S,4,0,,1610612763,,,0,0,0,,0,,,0,v,Grizzlies Turnover: Shot Clock (T#13),Turnover,Shot Clock Turnover,1,0,487
+0022600126,702,PT02M55.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,-41,104,11,Missed,1,,,0,h,MISS Peterson 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,488
+0022600126,703,PT02M55.00S,4,1610612763,MEM,1642907,Coward,C. Coward,0,0,0,,0,,,0,v,Coward REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,489
+0022600126,704,PT02M44.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,77,146,17,Made,1,101,104,205,v,Jerome 17' Driving Floating Jump Shot (11 PTS),Made Shot,Driving Floating Jump Shot,1,2,490
+0022600126,705,PT02M27.00S,4,1610612762,UTA,1641718,George,K. George,90,254,27,Missed,1,,,0,h,MISS George 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,491
+0022600126,706,PT02M27.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,492
+0022600126,709,PT02M19.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,SUB: Bailey FOR Okogie,Substitution,,0,0,493
+0022600126,710,PT02M15.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,126,103,16,Made,1,101,106,207,v,Jerome 16' Pullup Jump Shot (13 PTS) (Edey 2 AST),Made Shot,Pullup Jump shot,1,2,494
+0022600126,711,PT01M55.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,-45,87,10,Made,1,103,106,209,h,Bailey 10' Pullup Jump Shot (17 PTS) (Peterson 4 AST),Made Shot,Pullup Jump shot,1,2,495
+0022600126,712,PT01M33.00S,4,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,Green P.FOUL (P3.T3) (K.Lane),Foul,Personal,1,0,496
+0022600126,715,PT01M25.00S,4,1610612763,MEM,1629660,Jerome,T. Jerome,-150,208,26,Missed,1,,,0,v,MISS Jerome 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,497
+0022600126,716,PT01M25.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,498
+0022600126,717,PT01M11.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,-105,17,11,Missed,1,,,0,h,MISS Peterson 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,499
+0022600126,718,PT01M11.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,500
+0022600126,719,PT01M01.00S,4,1610612762,UTA,1628964,Bamba,M. Bamba,-18,23,3,Made,1,105,106,211,h,Bamba 3' Dunk (14 PTS) (Bailey 3 AST),Made Shot,Dunk Shot,1,2,501
+0022600126,721,PT00M41.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson S.FOUL (P2.PN) (K.Lane),Foul,Shooting,1,0,502
+0022600126,723,PT00M41.00S,4,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,105,107,212,v,Wells Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,503
+0022600126,724,PT00M41.00S,4,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,105,108,213,v,Wells Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,504
+0022600126,725,PT00M30.40S,4,1610612762,UTA,1641718,George,K. George,10,128,13,Missed,1,,,0,h,MISS George 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,505
+0022600126,726,PT00M30.40S,4,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,h,Peterson REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,506
+0022600126,727,PT00M21.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,-69,82,11,Missed,1,,,0,h,MISS Peterson 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,507
+0022600126,728,PT00M21.00S,4,1610612763,MEM,1643409,Boozer,C. Boozer,0,0,0,,0,,,0,v,Boozer REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,508
+0022600126,729,PT00M11.60S,4,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,Green P.FOUL (P4.PN) (K.Lane),Foul,Personal,1,0,509
+0022600126,731,PT00M11.60S,4,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,105,109,214,v,Jerome Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,510
+0022600126,732,PT00M11.60S,4,1610612763,MEM,1629660,Jerome,T. Jerome,0,0,0,,0,105,110,215,v,Jerome Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,511
+0022600126,733,PT00M11.60S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,512
+0022600126,735,PT00M11.60S,4,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,h,SUB: Sensabaugh FOR Green,Substitution,,0,0,513
+0022600126,736,PT00M09.20S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,234,6,0,Missed,1,,,0,h,MISS Sensabaugh 3PT Jump Shot,Missed Shot,Jump Shot,1,3,514
+0022600126,737,PT00M09.20S,4,1610612763,MEM,1642377,Wells,J. Wells,0,0,0,,0,,,0,v,Wells REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,515
+0022600126,739,PT00M00.00S,4,0,,0,,,0,0,0,,0,105,110,215,,End of 4th Period (11:31 PM EST),period,end,1,0,516

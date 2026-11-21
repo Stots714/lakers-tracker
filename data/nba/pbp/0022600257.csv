@@ -1,0 +1,474 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600257,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (10:41 PM EST),period,start,1,0,1
+0022600257,4,PT12M00.00S,1,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Jump Ball Lopez vs. Bamba: Tip to Jones Jr.,Jump Ball,,1,0,2
+0022600257,7,PT11M41.00S,1,1610612746,LAC,201572,Lopez,B. Lopez,-58,252,26,Missed,1,,,0,h,MISS Lopez 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,3
+0022600257,8,PT11M41.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,v,George REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0022600257,9,PT11M25.00S,1,1610612762,UTA,1630182,Green,J. Green,-51,78,9,Made,1,0,2,2,v,Green 9' Turnaround Jump Shot (2 PTS),Made Shot,Turnaround Jump Shot,1,2,5
+0022600257,11,PT11M09.00S,1,1610612746,LAC,1629636,Garland,D. Garland,46,54,7,Made,1,2,2,4,h,Garland 7' Driving Floating Jump Shot (2 PTS) (Jones Jr. 1 AST),Made Shot,Driving Floating Jump Shot,1,2,6
+0022600257,13,PT10M47.00S,1,1610612762,UTA,1641718,George,K. George,-55,97,11,Missed,1,,,0,v,MISS George 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,7
+0022600257,13,PT10M47.00S,1,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn BLOCK (1 BLK),,,1,2,8
+0022600257,14,PT10M47.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,9
+0022600257,17,PT10M41.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,-48,106,12,Made,1,2,4,6,v,Peterson 12' Pullup Jump Shot (3 PTS) (Bamba 1 AST),Made Shot,Pullup Jump shot,1,2,10
+0022600257,19,PT10M41.00S,1,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,Garland S.FOUL (P1.T1) (J.Williams),Foul,Shooting,1,0,11
+0022600257,21,PT10M41.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,2,5,7,v,Peterson Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,12
+0022600257,22,PT10M30.00S,1,1610612746,LAC,1629636,Garland,D. Garland,96,168,19,Made,1,4,5,9,h,Garland 19' Pullup Jump Shot (4 PTS) (Lopez 1 AST),Made Shot,Pullup Jump shot,1,2,13
+0022600257,24,PT10M11.00S,1,1610612762,UTA,1641718,George,K. George,-55,148,16,Missed,1,,,0,v,MISS George 16' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,14
+0022600257,25,PT10M11.00S,1,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0022600257,26,PT09M56.00S,1,1610612746,LAC,1627739,Dunn,K. Dunn,24,9,3,Made,1,6,5,11,h,Dunn 3' Cutting Layup Shot (2 PTS) (Lopez 2 AST),Made Shot,Cutting Layup Shot,1,2,16
+0022600257,28,PT09M39.00S,1,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,17
+0022600257,29,PT09M30.00S,1,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green S.FOUL (P1.T1) (A.Abazi),Foul,Shooting,1,0,18
+0022600257,31,PT09M30.00S,1,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,7,5,12,h,Garland Free Throw 1 of 3 (5 PTS),Free Throw,Free Throw 1 of 3,1,0,19
+0022600257,32,PT09M30.00S,1,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,8,5,13,h,Garland Free Throw 2 of 3 (6 PTS),Free Throw,Free Throw 2 of 3,1,0,20
+0022600257,33,PT09M30.00S,1,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,9,5,14,h,Garland Free Throw 3 of 3 (7 PTS),Free Throw,Free Throw 3 of 3,1,0,21
+0022600257,34,PT09M09.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,-40,40,6,Missed,1,,,0,v,MISS Peterson 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,22
+0022600257,35,PT09M09.00S,1,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,Garland REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,23
+0022600257,36,PT09M03.00S,1,1610612746,LAC,1629060,Hachimura,R. Hachimura,-127,210,25,Made,1,12,5,17,h,Hachimura 25' 3PT Running Pull-Up Jump Shot (3 PTS) (Garland 1 AST),Made Shot,Running Pull-Up Jump Shot,1,3,24
+0022600257,38,PT08M43.00S,1,1610612762,UTA,1641718,George,K. George,146,206,25,Missed,1,,,0,v,MISS George 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,25
+0022600257,39,PT08M43.00S,1,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,Hachimura REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,26
+0022600257,40,PT08M33.00S,1,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,27
+0022600257,40,PT08M33.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,v,Bailey STEAL (1 STL),,,1,0,28
+0022600257,42,PT08M22.00S,1,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,Garland Violation:Kicked Ball (J.Williams),Violation,Kicked Ball,0,0,29
+0022600257,43,PT08M12.00S,1,1610612762,UTA,1641718,George,K. George,90,252,27,Made,1,12,8,20,v,George 27' 3PT Jump Shot (3 PTS),Made Shot,Jump Shot,1,3,30
+0022600257,44,PT07M48.00S,1,1610612746,LAC,201572,Lopez,B. Lopez,24,77,8,Missed,1,,,0,h,MISS Lopez 8' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,31
+0022600257,45,PT07M48.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,v,Bailey REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,32
+0022600257,46,PT07M40.00S,1,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn P.FOUL (P1.T2) (A.Abazi),Foul,Personal,1,0,33
+0022600257,49,PT07M40.00S,1,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,v,SUB: Sensabaugh FOR Green,Substitution,,0,0,34
+0022600257,50,PT07M29.00S,1,1610612762,UTA,1641718,George,K. George,70,242,25,Made,1,12,11,23,v,George 25' 3PT Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,3,35
+0022600257,51,PT07M12.00S,1,1610612746,LAC,1629636,Garland,D. Garland,31,24,4,Missed,1,,,0,h,MISS Garland 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,36
+0022600257,52,PT07M12.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,37
+0022600257,53,PT07M00.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,-26,75,8,Missed,1,,,0,v,MISS Peterson 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,38
+0022600257,54,PT07M00.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,Peterson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,39
+0022600257,55,PT06M59.00S,1,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,Hachimura S.FOUL (P1.T3) (J.Williams),Foul,Shooting,1,0,40
+0022600257,57,PT06M59.00S,1,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,41
+0022600257,58,PT06M59.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,MISS Peterson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,42
+0022600257,59,PT06M59.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Normal Rebound,0,0,43
+0022600257,60,PT06M59.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,12,12,24,v,Peterson Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,44
+0022600257,61,PT06M49.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba S.FOUL (P1.T2) (J.Williams),Foul,Shooting,1,0,45
+0022600257,63,PT06M49.00S,1,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,0,0,0,,0,13,12,25,h,Jones Jr. Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,46
+0022600257,64,PT06M49.00S,1,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,0,0,0,,0,,,0,h,MISS Jones Jr. Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,47
+0022600257,65,PT06M49.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,48
+0022600257,67,PT06M26.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,18,85,9,Made,1,13,14,27,v,Sensabaugh 9' Driving Floating Jump Shot (2 PTS) (Bailey 1 AST),Made Shot,Driving Floating Jump Shot,1,2,49
+0022600257,69,PT06M16.00S,1,1610612746,LAC,1627739,Dunn,K. Dunn,169,203,26,Missed,1,,,0,h,MISS Dunn 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,50
+0022600257,70,PT06M16.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,Peterson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,51
+0022600257,71,PT06M05.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-3,277,28,Missed,1,,,0,v,MISS Sensabaugh 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,52
+0022600257,72,PT06M05.00S,1,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,53
+0022600257,73,PT05M57.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh S.FOUL (P1.T3) (A.Nagy),Foul,Shooting,1,0,54
+0022600257,75,PT05M57.00S,1,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,14,14,28,h,Hachimura Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,55
+0022600257,78,PT05M57.00S,1,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,SUB: Mykhailiuk FOR Peterson,Substitution,,0,0,56
+0022600257,76,PT05M57.00S,1,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,MISS Hachimura Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,57
+0022600257,79,PT05M57.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,58
+0022600257,80,PT05M33.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,226,27,0,Made,1,14,17,31,v,Bailey 3PT Pullup Jump Shot (3 PTS) (George 1 AST),Made Shot,Pullup Jump shot,1,3,59
+0022600257,82,PT05M23.00S,1,1610612746,LAC,201572,Lopez,B. Lopez,151,222,27,Missed,1,,,0,h,MISS Lopez 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,60
+0022600257,83,PT05M23.00S,1,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,61
+0022600257,84,PT05M16.00S,1,1610612746,LAC,1627739,Dunn,K. Dunn,-9,32,3,Missed,1,,,0,h,MISS Dunn 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,62
+0022600257,84,PT05M16.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,v,George BLOCK (1 BLK),,,1,2,63
+0022600257,85,PT05M16.00S,1,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,64
+0022600257,87,PT05M11.00S,1,1610612746,LAC,201572,Lopez,B. Lopez,13,13,2,Made,1,16,17,33,h,Lopez 2' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,65
+0022600257,88,PT04M55.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,110,90,14,Made,1,16,19,35,v,Sensabaugh 14' Step Back Jump Shot (4 PTS) (George 2 AST),Made Shot,Step Back Jump shot,1,2,66
+0022600257,90,PT04M44.00S,1,1610612746,LAC,1629636,Garland,D. Garland,-16,260,26,Made,1,19,19,38,h,Garland 26' 3PT Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,3,67
+0022600257,91,PT04M44.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,v,Bailey S.FOUL (P1.T4) (A.Abazi),Foul,Shooting,1,0,68
+0022600257,94,PT04M44.00S,1,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,SUB: Strus FOR Dunn,Substitution,,0,0,69
+0022600257,95,PT04M44.00S,1,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,20,19,39,h,Garland Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,1,0,70
+0022600257,96,PT04M30.00S,1,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,Hachimura S.FOUL (P2.T4) (A.Abazi),Foul,Shooting,1,0,71
+0022600257,98,PT04M30.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,20,20,40,v,Bamba Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,72
+0022600257,102,PT04M30.00S,1,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,SUB: Wagler FOR Lopez,Substitution,,0,0,73
+0022600257,103,PT04M30.00S,1,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,SUB: Jackson FOR Hachimura,Substitution,,0,0,74
+0022600257,105,PT04M30.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,v,SUB: Okogie FOR Bailey,Substitution,,0,0,75
+0022600257,99,PT04M30.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,20,21,41,v,Bamba Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,76
+0022600257,106,PT04M20.00S,1,1610612746,LAC,1629636,Garland,D. Garland,-147,197,25,Missed,1,,,0,h,MISS Garland 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,77
+0022600257,107,PT04M20.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,78
+0022600257,108,PT04M06.00S,1,1610612762,UTA,1629006,Okogie,J. Okogie,229,33,0,Missed,1,,,0,v,MISS Okogie 3PT Jump Shot,Missed Shot,Jump Shot,1,3,79
+0022600257,109,PT04M06.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,80
+0022600257,110,PT04M02.00S,1,1610612762,UTA,1629006,Okogie,J. Okogie,232,8,0,Missed,1,,,0,v,MISS Okogie 3PT Jump Shot,Missed Shot,Jump Shot,1,3,81
+0022600257,111,PT04M02.00S,1,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,82
+0022600257,112,PT03M52.00S,1,1610612746,LAC,1629636,Garland,D. Garland,-63,68,9,Made,1,22,21,43,h,Garland 9' Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,2,83
+0022600257,113,PT03M33.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,-2,3,0,Made,1,22,23,45,v,Bamba Alley Oop Dunk (4 PTS) (George 3 AST),Made Shot,Alley Oop Dunk Shot,1,2,84
+0022600257,115,PT03M15.00S,1,1610612746,LAC,1643413,Wagler,K. Wagler,72,192,21,Made,1,24,23,47,h,Wagler 21' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,85
+0022600257,116,PT02M55.00S,1,1610612762,UTA,1641718,George,K. George,-1,57,6,Made,1,24,25,49,v,George 6' Floating Jump Shot (8 PTS),Made Shot,Floating Jump shot,1,2,86
+0022600257,117,PT02M31.00S,1,1610612746,LAC,1629636,Garland,D. Garland,21,16,3,Missed,1,,,0,h,MISS Garland 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,87
+0022600257,118,PT02M31.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,88
+0022600257,119,PT02M23.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-233,0,0,Made,1,24,28,52,v,Sensabaugh 3PT Jump Shot (7 PTS) (George 4 AST),Made Shot,Jump Shot,1,3,89
+0022600257,121,PT02M06.00S,1,1610612746,LAC,1643413,Wagler,K. Wagler,-43,247,25,Missed,1,,,0,h,MISS Wagler 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,90
+0022600257,122,PT02M06.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,91
+0022600257,123,PT01M51.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,87,-33,9,Made,1,24,30,54,v,Mykhailiuk 9' Driving Floating Jump Shot (2 PTS) (George 5 AST),Made Shot,Driving Floating Jump Shot,1,2,92
+0022600257,125,PT01M38.00S,1,1610612746,LAC,1629622,Strus,M. Strus,201,217,30,Made,1,27,30,57,h,Strus 30' 3PT Jump Shot (3 PTS) (Garland 2 AST),Made Shot,Jump Shot,1,3,93
+0022600257,127,PT01M36.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,94
+0022600257,130,PT01M36.00S,1,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,SUB: Sanders FOR Garland,Substitution,,1,0,95
+0022600257,131,PT01M36.00S,1,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,0,0,0,,0,,,0,h,SUB: Dick FOR Jones Jr.,Substitution,,0,0,96
+0022600257,134,PT01M36.00S,1,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,SUB: Bradley FOR Bamba,Substitution,,0,0,97
+0022600257,135,PT01M36.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,v,SUB: Peterson FOR George,Substitution,,0,0,98
+0022600257,136,PT01M19.00S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,79,245,26,Made,1,27,33,60,v,Sensabaugh 26' 3PT Jump Shot (10 PTS),Made Shot,Jump Shot,1,3,99
+0022600257,137,PT01M02.00S,1,1610612746,LAC,1629622,Strus,M. Strus,-53,248,25,Missed,1,,,0,h,MISS Strus 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,100
+0022600257,138,PT01M02.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,Mykhailiuk REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,101
+0022600257,139,PT00M49.60S,1,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-64,80,10,Made,1,27,35,62,v,Sensabaugh 10' Turnaround Jump Shot (12 PTS),Made Shot,Turnaround Jump Shot,1,2,102
+0022600257,141,PT00M40.00S,1,1610612746,LAC,1630543,Jackson,I. Jackson,-12,10,2,Made,1,29,35,64,h,Jackson 2' Alley Oop Dunk (2 PTS) (Sanders 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,103
+0022600257,143,PT00M31.70S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,226,-19,0,Missed,1,,,0,v,MISS Mykhailiuk 3PT Jump Shot,Missed Shot,Jump Shot,1,3,104
+0022600257,143,PT00M31.70S,1,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,h,Jackson BLOCK (1 BLK),,,1,3,105
+0022600257,144,PT00M31.70S,1,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,106
+0022600257,147,PT00M06.00S,1,1610612746,LAC,1630543,Jackson,I. Jackson,17,67,7,Missed,1,,,0,h,MISS Jackson 7' Hook Shot,Missed Shot,Hook Shot,1,2,107
+0022600257,148,PT00M06.00S,1,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,108
+0022600257,149,PT00M01.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,Mykhailiuk Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,109
+0022600257,149,PT00M01.00S,1,1610612746,LAC,1629622,Strus,M. Strus,0,0,0,,0,,,0,h,Strus STEAL (1 STL),,,1,0,110
+0022600257,151,PT00M00.10S,1,0,,0,,,0,0,0,,0,,,0,h,CLIPPERS Heave,Heave,Team Field Goal Attempt,0,0,111
+0022600257,152,PT00M00.10S,1,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,112
+0022600257,153,PT00M00.00S,1,0,,0,,,0,0,0,,0,29,35,64,,End of 1st Period (11:06 PM EST),period,end,1,0,113
+0022600257,154,PT12M00.00S,2,0,,0,,,0,0,0,,0,29,35,64,,Start of 2nd Period (11:09 PM EST),period,start,0,0,114
+0022600257,155,PT11M45.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-72,252,26,Missed,1,,,0,v,MISS Sensabaugh 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,115
+0022600257,156,PT11M45.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,Peterson REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,116
+0022600257,157,PT11M37.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,116,217,25,Made,1,29,38,67,v,Mykhailiuk 25' 3PT Pullup Jump Shot (5 PTS) (Sensabaugh 1 AST),Made Shot,Pullup Jump shot,1,3,117
+0022600257,159,PT11M22.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,Mykhailiuk P.FOUL (P1.T1) (A.Nagy),Foul,Personal,1,0,118
+0022600257,161,PT11M11.00S,2,1610612746,LAC,1641711,Dick,G. Dick,29,24,4,Missed,1,,,0,h,MISS Dick 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,119
+0022600257,162,PT11M11.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,120
+0022600257,163,PT11M01.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,-215,129,25,Made,1,29,41,70,v,Mykhailiuk 25' 3PT Jump Shot (8 PTS) (Sensabaugh 2 AST),Made Shot,Jump Shot,1,3,121
+0022600257,165,PT10M46.00S,2,1610612746,LAC,1642920,Sanders,K. Sanders,242,47,25,Missed,1,,,0,h,MISS Sanders 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,122
+0022600257,166,PT10M46.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,123
+0022600257,167,PT10M32.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-59,57,8,Missed,1,,,0,v,MISS Sensabaugh 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,124
+0022600257,168,PT10M32.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,125
+0022600257,169,PT10M31.00S,2,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,h,Jackson L.B.FOUL (P1.T1) (A.Nagy),Foul,Loose Ball,1,0,126
+0022600257,171,PT10M22.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,Peterson Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,127
+0022600257,171,PT10M22.00S,2,1610612746,LAC,1642920,Sanders,K. Sanders,0,0,0,,0,,,0,h,Sanders STEAL (1 STL),,,1,0,128
+0022600257,173,PT10M18.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh S.FOUL (P2.T2) (A.Nagy),Foul,Shooting,1,0,129
+0022600257,175,PT10M18.00S,2,1610612746,LAC,1643413,Wagler,K. Wagler,0,0,0,,0,30,41,71,h,Wagler Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,130
+0022600257,176,PT10M18.00S,2,1610612746,LAC,1643413,Wagler,K. Wagler,0,0,0,,0,31,41,72,h,Wagler Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,131
+0022600257,177,PT09M55.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,18,23,3,Missed,1,,,0,v,MISS Peterson 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,132
+0022600257,178,PT09M55.00S,2,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,133
+0022600257,179,PT09M49.00S,2,1610612746,LAC,1642920,Sanders,K. Sanders,236,68,25,Missed,1,,,0,h,MISS Sanders 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,134
+0022600257,180,PT09M49.00S,2,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,135
+0022600257,181,PT09M42.00S,2,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,Made,1,33,41,74,h,Jackson Putback Dunk (4 PTS),Made Shot,Putback Dunk Shot,1,2,136
+0022600257,182,PT09M42.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,137
+0022600257,185,PT09M42.00S,2,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,SUB: George FOR Okogie,Substitution,,0,0,138
+0022600257,186,PT09M42.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,SUB: Bailey FOR Sensabaugh,Substitution,,0,0,139
+0022600257,187,PT09M22.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,v,George OFF.Foul (P1) (A.Nagy),Foul,Offensive,1,0,140
+0022600257,189,PT09M22.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,v,George Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,141
+0022600257,190,PT09M07.00S,2,1610612746,LAC,1630543,Jackson,I. Jackson,-14,21,3,Made,1,35,41,76,h,Jackson 3' Alley Oop Dunk (6 PTS) (Strus 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,142
+0022600257,192,PT08M52.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,222,5,0,Missed,1,,,0,v,MISS Peterson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,143
+0022600257,193,PT08M52.00S,2,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,144
+0022600257,194,PT08M42.00S,2,1610612746,LAC,1642920,Sanders,K. Sanders,71,141,16,Missed,1,,,0,h,MISS Sanders 16' Jump Shot,Missed Shot,Jump Shot,1,2,145
+0022600257,195,PT08M42.00S,2,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,146
+0022600257,196,PT08M28.00S,2,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,h,Jackson S.FOUL (P2.T2) (A.Nagy),Foul,Shooting,1,0,147
+0022600257,198,PT08M28.00S,2,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,MISS Bradley Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,148
+0022600257,199,PT08M28.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Normal Rebound,0,0,149
+0022600257,200,PT08M28.00S,2,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,35,42,77,v,Bradley Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,150
+0022600257,201,PT08M16.00S,2,1610612746,LAC,1629622,Strus,M. Strus,-105,231,25,Missed,1,,,0,h,MISS Strus 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,151
+0022600257,202,PT08M16.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,Mykhailiuk REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,152
+0022600257,203,PT08M03.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,227,23,0,Missed,1,,,0,v,MISS Bailey 3PT Jump Shot,Missed Shot,Jump Shot,1,3,153
+0022600257,204,PT08M03.00S,2,1610612746,LAC,1643413,Wagler,K. Wagler,0,0,0,,0,,,0,h,Wagler REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,154
+0022600257,205,PT07M52.00S,2,1610612746,LAC,1643413,Wagler,K. Wagler,14,48,5,Made,1,37,42,79,h,Wagler 5' Driving Finger Roll Layup (6 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,155
+0022600257,206,PT07M38.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,18,48,5,Made,1,37,44,81,v,Bailey 5' Driving Floating Jump Shot (5 PTS) (George 6 AST),Made Shot,Driving Floating Jump Shot,1,2,156
+0022600257,208,PT07M18.00S,2,1610612746,LAC,1629622,Strus,M. Strus,36,24,4,Missed,1,,,0,h,MISS Strus 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,157
+0022600257,209,PT07M18.00S,2,1610612746,LAC,1642920,Sanders,K. Sanders,0,0,0,,0,,,0,h,Sanders REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,158
+0022600257,210,PT07M11.00S,2,1610612746,LAC,1643413,Wagler,K. Wagler,-59,267,27,Made,1,40,44,84,h,Wagler 27' 3PT Jump Shot (9 PTS) (Sanders 2 AST),Made Shot,Jump Shot,1,3,159
+0022600257,212,PT06M53.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,-184,187,26,Made,1,40,47,87,v,Peterson 26' 3PT Jump Shot (7 PTS) (George 7 AST),Made Shot,Jump Shot,1,3,160
+0022600257,214,PT06M31.00S,2,1610612746,LAC,1642920,Sanders,K. Sanders,0,0,0,,0,,,0,h,Sanders Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,161
+0022600257,214,PT06M31.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,Peterson STEAL (1 STL),,,1,0,162
+0022600257,216,PT06M25.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,-24,33,4,Missed,1,,,0,v,MISS Peterson 4' Running Layup,Missed Shot,Running Layup Shot,1,2,163
+0022600257,217,PT06M25.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,164
+0022600257,224,PT06M24.00S,2,1610612746,LAC,1643413,Wagler,K. Wagler,0,0,0,,0,,,0,h,SUB: Jones Jr. FOR Wagler,Substitution,,0,0,165
+0022600257,225,PT06M24.00S,2,1610612746,LAC,1642920,Sanders,K. Sanders,0,0,0,,0,,,0,h,SUB: Dunn FOR Sanders,Substitution,,0,0,166
+0022600257,226,PT06M24.00S,2,1610612746,LAC,1641711,Dick,G. Dick,0,0,0,,0,,,0,h,SUB: Garland FOR Dick,Substitution,,0,0,167
+0022600257,227,PT06M24.00S,2,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,h,SUB: Lopez FOR Jackson,Substitution,,0,0,168
+0022600257,228,PT06M24.00S,2,1610612746,LAC,1629622,Strus,M. Strus,0,0,0,,0,,,0,h,SUB: Hachimura FOR Strus,Substitution,,0,0,169
+0022600257,232,PT06M24.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,SUB: Green FOR Mykhailiuk,Substitution,,0,0,170
+0022600257,233,PT06M24.00S,2,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,SUB: Sensabaugh FOR Bradley,Substitution,,0,0,171
+0022600257,234,PT06M24.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,SUB: Bamba FOR Peterson,Substitution,,0,0,172
+0022600257,235,PT06M21.00S,2,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green Lost Ball Turnover (P2.T5),Turnover,Lost Ball,1,0,173
+0022600257,235,PT06M21.00S,2,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,Garland STEAL (1 STL),,,1,0,174
+0022600257,237,PT06M17.00S,2,1610612746,LAC,1629060,Hachimura,R. Hachimura,-5,16,2,Made,1,42,47,89,h,Hachimura 2' Running Dunk (6 PTS) (Garland 3 AST),Made Shot,Running Dunk Shot,1,2,175
+0022600257,239,PT06M17.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,176
+0022600257,240,PT05M57.00S,2,1610612762,UTA,1628964,Bamba,M. Bamba,-137,215,25,Missed,1,,,0,v,MISS Bamba 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,177
+0022600257,241,PT05M57.00S,2,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,Hachimura REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,178
+0022600257,242,PT05M48.00S,2,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn Out of Bounds - Bad Pass Turnover Turnover (P1.T3),Turnover,Out of Bounds - Bad Pass Turnover,1,0,179
+0022600257,243,PT05M31.00S,2,1610612762,UTA,1630182,Green,J. Green,224,17,0,Made,1,42,50,92,v,Green 3PT Jump Shot (5 PTS) (George 8 AST),Made Shot,Jump Shot,1,3,180
+0022600257,245,PT05M14.00S,2,1610612746,LAC,1629060,Hachimura,R. Hachimura,-211,133,25,Made,1,45,50,95,h,Hachimura 25' 3PT Jump Shot (9 PTS) (Dunn 1 AST),Made Shot,Jump Shot,1,3,181
+0022600257,247,PT04M52.00S,2,1610612762,UTA,1641718,George,K. George,-4,125,13,Missed,1,,,0,v,MISS George 13' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,182
+0022600257,248,PT04M52.00S,2,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,Garland REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,183
+0022600257,249,PT04M37.00S,2,1610612746,LAC,1629636,Garland,D. Garland,36,94,10,Missed,1,,,0,h,MISS Garland 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,184
+0022600257,250,PT04M37.00S,2,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,1,0,185
+0022600257,252,PT04M32.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,v,Bailey S.FOUL (P2.T3) (A.Abazi),Foul,Shooting,1,0,186
+0022600257,254,PT04M32.00S,2,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,MISS Hachimura Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,187
+0022600257,255,PT04M32.00S,2,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,188
+0022600257,256,PT04M32.00S,2,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,46,50,96,h,Hachimura Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,189
+0022600257,257,PT04M07.00S,2,1610612762,UTA,1630182,Green,J. Green,37,20,4,Missed,1,,,0,v,MISS Green 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,190
+0022600257,257,PT04M07.00S,2,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,0,0,0,,0,,,0,h,Jones Jr. BLOCK (1 BLK),,,1,2,191
+0022600257,258,PT04M07.00S,2,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,0,0,0,,0,,,0,h,Jones Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,192
+0022600257,260,PT03M58.00S,2,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,-93,231,25,Missed,1,,,0,h,MISS Jones Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,193
+0022600257,261,PT03M58.00S,2,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,194
+0022600257,262,PT03M35.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,-229,31,0,Missed,1,,,0,v,MISS Bailey 3PT Jump Shot,Missed Shot,Jump Shot,1,3,195
+0022600257,263,PT03M35.00S,2,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,196
+0022600257,264,PT03M21.00S,2,1610612746,LAC,1629060,Hachimura,R. Hachimura,85,57,10,Missed,1,,,0,h,MISS Hachimura 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,197
+0022600257,265,PT03M21.00S,2,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,198
+0022600257,266,PT03M20.00S,2,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,Garland Non-Unsportsmanlike Tech Foul - Flopping (P1.T2) (J.Williams),Foul,Flopping,1,0,199
+0022600257,267,PT03M20.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,46,51,97,v,George Free Throw Technical (9 PTS),Free Throw,Free Throw Technical,1,0,200
+0022600257,270,PT03M20.00S,2,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,v,SUB: Mykhailiuk FOR Green,Substitution,,0,0,201
+0022600257,271,PT03M20.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,v,SUB: Peterson FOR Bailey,Substitution,,0,0,202
+0022600257,272,PT03M07.00S,2,1610612762,UTA,1628964,Bamba,M. Bamba,18,10,2,Made,1,46,53,99,v,Bamba 2' Alley Oop Layup (6 PTS) (Sensabaugh 3 AST),Made Shot,Alley Oop Layup shot,1,2,203
+0022600257,274,PT02M53.00S,2,1610612746,LAC,1627739,Dunn,K. Dunn,23,13,3,Missed,1,,,0,h,MISS Dunn 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,204
+0022600257,274,PT02M53.00S,2,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba BLOCK (1 BLK),,,1,2,205
+0022600257,275,PT02M53.00S,2,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,206
+0022600257,277,PT02M45.00S,2,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez S.FOUL (P1.T3) (A.Abazi),Foul,Shooting,1,0,207
+0022600257,279,PT02M45.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,46,54,100,v,Peterson Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,208
+0022600257,280,PT02M45.00S,2,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,46,55,101,v,Peterson Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,209
+0022600257,281,PT02M36.00S,2,1610612746,LAC,1629636,Garland,D. Garland,33,25,4,Missed,1,,,0,h,MISS Garland 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,210
+0022600257,281,PT02M36.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,v,George BLOCK (2 BLK),,,1,2,211
+0022600257,282,PT02M36.00S,2,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,212
+0022600257,284,PT02M34.00S,2,1610612746,LAC,201572,Lopez,B. Lopez,25,18,3,Made,1,48,55,103,h,Lopez 3' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,213
+0022600257,285,PT02M34.00S,2,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba S.FOUL (P2.T4) (J.Williams),Foul,Shooting,1,0,214
+0022600257,287,PT02M34.00S,2,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,49,55,104,h,Lopez Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,215
+0022600257,288,PT02M16.00S,2,1610612762,UTA,1641718,George,K. George,21,277,28,Made,1,49,58,107,v,George 28' 3PT Pullup Jump Shot (12 PTS) (Mykhailiuk 1 AST),Made Shot,Pullup Jump shot,1,3,216
+0022600257,290,PT02M05.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,Mykhailiuk P.FOUL (P2.PN) (J.Williams),Foul,Personal,1,0,217
+0022600257,292,PT02M05.00S,2,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,50,58,108,h,Garland Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,218
+0022600257,293,PT02M05.00S,2,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,51,58,109,h,Garland Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,219
+0022600257,294,PT01M54.00S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,79,53,10,Missed,1,,,0,v,MISS Sensabaugh 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,220
+0022600257,295,PT01M54.00S,2,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,221
+0022600257,296,PT01M34.00S,2,1610612746,LAC,1629636,Garland,D. Garland,-42,248,25,Made,1,54,58,112,h,Garland 25' 3PT Step Back Jump Shot (18 PTS),Made Shot,Step Back Jump shot,1,3,222
+0022600257,297,PT01M11.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,v,George Bad Pass Turnover (P2.T6),Turnover,Bad Pass,1,0,223
+0022600257,297,PT01M11.00S,2,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,Hachimura STEAL (1 STL),,,1,0,224
+0022600257,299,PT01M06.00S,2,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,26,23,3,Made,1,56,58,114,h,Jones Jr. 3' Running Layup (3 PTS) (Dunn 2 AST),Made Shot,Running Layup Shot,1,2,225
+0022600257,301,PT00M44.50S,2,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh Lost Ball Turnover (P1.T7),Turnover,Lost Ball,1,0,226
+0022600257,301,PT00M44.50S,2,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn STEAL (1 STL),,,1,0,227
+0022600257,303,PT00M39.10S,2,1610612746,LAC,1629060,Hachimura,R. Hachimura,-151,192,24,Made,1,59,58,117,h,Hachimura 24' 3PT Running Jump Shot (13 PTS) (Dunn 3 AST),Made Shot,Running Jump Shot,1,3,228
+0022600257,305,PT00M29.70S,2,1610612762,UTA,1643408,Peterson,D. Peterson,21,263,26,Missed,1,,,0,v,MISS Peterson 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,229
+0022600257,306,PT00M29.70S,2,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,Hachimura REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,230
+0022600257,307,PT00M08.10S,2,1610612746,LAC,201572,Lopez,B. Lopez,171,212,27,Made,1,62,58,120,h,Lopez 27' 3PT Jump Shot (8 PTS) (Garland 4 AST),Made Shot,Jump Shot,1,3,231
+0022600257,309,PT00M00.50S,2,1610612762,UTA,1641718,George,K. George,-115,235,26,Missed,1,,,0,v,MISS George 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,232
+0022600257,310,PT00M00.50S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,233
+0022600257,311,PT00M00.00S,2,0,,0,,,0,0,0,,0,62,58,120,,End of 2nd Period (11:35 PM EST),period,end,1,0,234
+0022600257,316,PT12M00.00S,3,0,,0,,,0,0,0,,0,62,58,120,,Start of 3rd Period (11:50 PM EST),period,start,0,0,235
+0022600257,317,PT11M39.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,-24,17,3,Made,1,62,60,122,v,Bamba 3' Driving Layup (8 PTS) (George 9 AST),Made Shot,Driving Layup Shot,1,2,236
+0022600257,319,PT11M24.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,105,86,14,Made,1,64,60,124,h,Lopez 14' Jump Shot (10 PTS),Made Shot,Jump Shot,1,2,237
+0022600257,321,PT11M00.00S,3,1610612762,UTA,1641718,George,K. George,211,150,26,Made,1,64,63,127,v,George 26' 3PT Jump Shot (15 PTS) (Bailey 2 AST),Made Shot,Jump Shot,1,3,238
+0022600257,323,PT10M42.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,-148,230,27,Missed,1,,,0,h,MISS Lopez 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,239
+0022600257,324,PT10M42.00S,3,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,240
+0022600257,325,PT10M25.00S,3,1610612762,UTA,1630182,Green,J. Green,50,27,6,Made,1,64,65,129,v,Green 6' Driving Layup (7 PTS) (Bamba 2 AST),Made Shot,Driving Layup Shot,1,2,241
+0022600257,327,PT10M03.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,37,109,12,Made,1,66,65,131,h,Lopez 12' Jump Shot (12 PTS) (Dunn 4 AST),Made Shot,Jump Shot,1,2,242
+0022600257,329,PT09M37.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,-234,80,25,Made,1,66,68,134,v,Peterson 25' 3PT Jump Shot (12 PTS) (George 10 AST),Made Shot,Jump Shot,1,3,243
+0022600257,331,PT09M23.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,28,21,4,Missed,1,,,0,h,MISS Lopez 4' Layup,Missed Shot,Layup Shot,1,2,244
+0022600257,332,PT09M23.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,Peterson REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,245
+0022600257,333,PT09M12.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,Peterson Lost Ball Turnover (P2.T8),Turnover,Lost Ball,1,0,246
+0022600257,333,PT09M12.00S,3,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn STEAL (2 STL),,,1,0,247
+0022600257,335,PT09M07.00S,3,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,2,7,1,Missed,1,,,0,h,MISS Jones Jr. 1' Running Layup,Missed Shot,Running Layup Shot,1,2,248
+0022600257,336,PT09M07.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,v,George REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,249
+0022600257,337,PT08M51.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,16,7,2,Made,1,66,70,136,v,Bamba 2' Finger Roll Layup (10 PTS) (Bailey 3 AST),Made Shot,Finger Roll Layup Shot,1,2,250
+0022600257,339,PT08M34.00S,3,1610612746,LAC,1629636,Garland,D. Garland,-4,121,12,Missed,1,,,0,h,MISS Garland 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,251
+0022600257,340,PT08M34.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,252
+0022600257,341,PT08M19.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,-121,216,25,Made,1,66,73,139,v,Bamba 25' 3PT Jump Shot (13 PTS) (Bailey 4 AST),Made Shot,Jump Shot,1,3,253
+0022600257,343,PT08M17.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,254
+0022600257,344,PT08M05.00S,3,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn Out of Bounds - Bad Pass Turnover Turnover (P2.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,255
+0022600257,345,PT07M54.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,-226,3,0,Missed,1,,,0,v,MISS Bailey 3PT Jump Shot,Missed Shot,Jump Shot,1,3,256
+0022600257,346,PT07M54.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,257
+0022600257,347,PT07M43.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba S.FOUL (P3.T1) (J.Williams),Foul,Shooting,1,0,258
+0022600257,349,PT07M43.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,67,73,140,h,Lopez Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,259
+0022600257,350,PT07M43.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,68,73,141,h,Lopez Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,260
+0022600257,351,PT07M31.00S,3,1610612762,UTA,1630182,Green,J. Green,132,13,13,Made,1,68,75,143,v,Green 13' Pullup Jump Shot (9 PTS) (Bamba 3 AST),Made Shot,Pullup Jump shot,1,2,261
+0022600257,353,PT07M21.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,136,229,27,Made,1,71,75,146,h,Lopez 27' 3PT Jump Shot (17 PTS) (Garland 5 AST),Made Shot,Jump Shot,1,3,262
+0022600257,355,PT07M03.00S,3,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn P.FOUL (P2.T1) (A.Nagy),Foul,Personal,1,0,263
+0022600257,357,PT07M00.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,22,8,2,Missed,1,,,0,v,MISS Bailey 2' Layup,Missed Shot,Layup Shot,1,2,264
+0022600257,357,PT07M00.00S,3,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,Hachimura BLOCK (1 BLK),,,1,2,265
+0022600257,358,PT07M00.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,266
+0022600257,360,PT06M55.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,-1,3,0,Made,1,71,77,148,v,Bamba Putback Dunk (15 PTS),Made Shot,Putback Dunk Shot,1,2,267
+0022600257,361,PT06M49.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,-213,170,27,Made,1,74,77,151,h,Lopez 27' 3PT Jump Shot (20 PTS) (Hachimura 1 AST),Made Shot,Jump Shot,1,3,268
+0022600257,363,PT06M24.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,v,Bailey Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,269
+0022600257,363,PT06M24.00S,3,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn STEAL (3 STL),,,1,0,270
+0022600257,365,PT06M18.00S,3,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green S.FOUL (P2.T2) (A.Nagy),Foul,Shooting,1,0,271
+0022600257,367,PT06M18.00S,3,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,0,0,0,,0,,,0,h,MISS Jones Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,272
+0022600257,368,PT06M18.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,273
+0022600257,371,PT06M18.00S,3,1610612762,UTA,1630182,Green,J. Green,0,0,0,,0,,,0,v,SUB: Sensabaugh FOR Green,Substitution,,0,0,274
+0022600257,369,PT06M18.00S,3,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,0,0,0,,0,75,77,152,h,Jones Jr. Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,275
+0022600257,372,PT06M12.00S,3,1610612762,UTA,1641718,George,K. George,34,25,4,Made,1,75,79,154,v,George 4' Driving Layup (17 PTS),Made Shot,Driving Layup Shot,1,2,276
+0022600257,373,PT06M12.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez S.FOUL (P2.T2) (A.Nagy),Foul,Shooting,1,0,277
+0022600257,377,PT06M12.00S,3,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,SUB: Mykhailiuk FOR Peterson,Substitution,,0,0,278
+0022600257,375,PT06M12.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,75,80,155,v,George Free Throw 1 of 1 (18 PTS),Free Throw,Free Throw 1 of 1,1,0,279
+0022600257,378,PT05M59.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,-141,241,28,Missed,1,,,0,h,MISS Lopez 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,280
+0022600257,379,PT05M59.00S,3,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,281
+0022600257,380,PT05M56.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,-161,185,25,Made,1,78,80,158,h,Lopez 25' 3PT Jump Shot (23 PTS) (Dunn 5 AST),Made Shot,Jump Shot,1,3,282
+0022600257,382,PT05M36.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,67,66,9,Missed,1,,,0,v,MISS Bailey 9' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,283
+0022600257,383,PT05M36.00S,3,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,Hachimura REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,284
+0022600257,384,PT05M28.00S,3,1610612746,LAC,1629060,Hachimura,R. Hachimura,-22,11,2,Made,1,80,80,160,h,Hachimura 2' Running Layup (15 PTS),Made Shot,Running Layup Shot,1,2,285
+0022600257,385,PT05M15.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-232,5,0,Made,1,80,83,163,v,Sensabaugh 3PT Jump Shot (15 PTS) (George 11 AST),Made Shot,Jump Shot,1,3,286
+0022600257,387,PT04M59.00S,3,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,Garland Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,287
+0022600257,387,PT04M59.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,v,Bailey STEAL (2 STL),,,1,0,288
+0022600257,389,PT04M55.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,-21,3,2,Missed,1,,,0,v,MISS Bailey 2' Running Layup,Missed Shot,Running Layup Shot,1,2,289
+0022600257,389,PT04M55.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez BLOCK (1 BLK),,,1,2,290
+0022600257,390,PT04M55.00S,3,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,Garland REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,291
+0022600257,392,PT04M47.00S,3,1610612746,LAC,1627739,Dunn,K. Dunn,226,0,0,Missed,1,,,0,h,MISS Dunn 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,292
+0022600257,393,PT04M47.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,293
+0022600257,394,PT04M28.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba Lost Ball Turnover (P1.T10),Turnover,Lost Ball,1,0,294
+0022600257,394,PT04M28.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez STEAL (1 STL),,,1,0,295
+0022600257,396,PT04M26.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,v,George S.FOUL (P2.T3) (A.Nagy),Foul,Shooting,1,0,296
+0022600257,398,PT04M26.00S,3,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,0,0,0,,0,,,0,h,MISS Jones Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,297
+0022600257,399,PT04M26.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,298
+0022600257,403,PT04M26.00S,3,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,SUB: Jackson FOR Dunn,Substitution,,0,0,299
+0022600257,404,PT04M26.00S,3,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,SUB: Strus FOR Lopez,Substitution,,0,0,300
+0022600257,407,PT04M26.00S,3,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,v,SUB: Bradley FOR Bailey,Substitution,,0,0,301
+0022600257,408,PT04M26.00S,3,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,SUB: Okogie FOR Bamba,Substitution,,0,0,302
+0022600257,400,PT04M26.00S,3,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,0,0,0,,0,81,83,164,h,Jones Jr. Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,303
+0022600257,409,PT04M03.00S,3,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,Garland S.FOUL (P2.T3) (A.Abazi),Foul,Shooting,1,0,304
+0022600257,412,PT04M03.00S,3,0,,0,,,0,0,0,,0,81,83,164,,Instant Replay3rd Period (12:06 AM EST),Instant Replay,Ruling Stands,0,0,305
+0022600257,413,PT04M03.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,306
+0022600257,414,PT04M03.00S,3,0,,0,,,0,0,0,,0,81,83,164,,Instant Replay3rd Period (12:06 AM EST),Instant Replay,Coach Challenge Ruling Stands,0,0,307
+0022600257,416,PT04M03.00S,3,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,0,0,0,,0,,,0,h,SUB: Wagler FOR Jones Jr.,Substitution,,0,0,308
+0022600257,411,PT04M03.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,81,84,165,v,George Free Throw 1 of 3 (19 PTS),Free Throw,Free Throw 1 of 3,1,0,309
+0022600257,417,PT04M03.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,81,85,166,v,George Free Throw 2 of 3 (20 PTS),Free Throw,Free Throw 2 of 3,1,0,310
+0022600257,418,PT04M03.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,81,86,167,v,George Free Throw 3 of 3 (21 PTS),Free Throw,Free Throw 3 of 3,1,0,311
+0022600257,419,PT03M49.00S,3,1610612746,LAC,1629636,Garland,D. Garland,95,74,12,Missed,1,,,0,h,MISS Garland 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,312
+0022600257,420,PT03M49.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,313
+0022600257,421,PT03M36.00S,3,1610612762,UTA,1641718,George,K. George,-87,3,9,Made,1,81,88,169,v,George 9' Fadeaway Jumper (23 PTS),Made Shot,Fadeaway Jump Shot,1,2,314
+0022600257,422,PT03M26.00S,3,1610612746,LAC,1629060,Hachimura,R. Hachimura,10,10,1,Made,1,83,88,171,h,Hachimura 1' Cutting Dunk Shot (17 PTS) (Garland 6 AST),Made Shot,Cutting Dunk Shot,1,2,315
+0022600257,424,PT03M16.00S,3,1610612762,UTA,1641718,George,K. George,-120,221,25,Missed,1,,,0,v,MISS George 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,316
+0022600257,425,PT03M16.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,317
+0022600257,427,PT02M58.00S,3,1610612746,LAC,1643413,Wagler,K. Wagler,77,80,11,Missed,1,,,0,h,MISS Wagler 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,318
+0022600257,428,PT02M58.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,319
+0022600257,429,PT02M37.00S,3,1610612762,UTA,1641718,George,K. George,-62,245,25,Missed,1,,,0,v,MISS George 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,320
+0022600257,430,PT02M37.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,321
+0022600257,431,PT02M32.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,11,31,3,Missed,1,,,0,v,MISS Bradley 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,322
+0022600257,431,PT02M32.00S,3,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,Garland BLOCK (1 BLK),,,1,2,323
+0022600257,432,PT02M32.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,324
+0022600257,434,PT02M27.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,52,26,6,Missed,1,,,0,v,MISS Bradley 6' Hook Bank Shot,Missed Shot,Hook Bank Shot,1,2,325
+0022600257,435,PT02M27.00S,3,1610612746,LAC,1629622,Strus,M. Strus,0,0,0,,0,,,0,h,Strus REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,326
+0022600257,436,PT02M22.00S,3,1610612746,LAC,1629060,Hachimura,R. Hachimura,-19,11,2,Missed,1,,,0,h,MISS Hachimura 2' Running Layup,Missed Shot,Running Layup Shot,1,2,327
+0022600257,436,PT02M22.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh BLOCK (1 BLK),,,1,2,328
+0022600257,437,PT02M22.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,329
+0022600257,439,PT02M17.00S,3,1610612746,LAC,1629622,Strus,M. Strus,0,0,0,,0,,,0,h,Strus P.FOUL (P2.PN) (J.Williams),Foul,Personal,1,0,330
+0022600257,443,PT02M17.00S,3,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,SUB: Sanders FOR Garland,Substitution,,0,0,331
+0022600257,444,PT02M17.00S,3,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,SUB: Dick FOR Hachimura,Substitution,,0,0,332
+0022600257,445,PT02M17.00S,3,1610612746,LAC,1629622,Strus,M. Strus,0,0,0,,0,,,0,h,Strus AWAY.FROM.PLAY.FOUL (P2.PN) (A.Abazi),Foul,Away From Play,1,0,333
+0022600257,447,PT02M17.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,MISS Sensabaugh Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,334
+0022600257,448,PT02M17.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Normal Rebound,0,0,335
+0022600257,450,PT02M17.00S,3,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,v,SUB: Peterson FOR George,Substitution,,0,0,336
+0022600257,451,PT02M10.00S,3,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie OFF.Foul (P1) (J.Williams),Foul,Offensive,1,0,337
+0022600257,453,PT02M10.00S,3,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie Offensive Foul Turnover (P1.T11),Turnover,Offensive Foul Turnover,1,0,338
+0022600257,454,PT01M56.00S,3,1610612746,LAC,1642920,Sanders,K. Sanders,-172,192,26,Missed,1,,,0,h,MISS Sanders 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,339
+0022600257,455,PT01M56.00S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,340
+0022600257,456,PT01M31.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley Lost Ball Turnover (P1.T12),Turnover,Lost Ball,1,0,341
+0022600257,456,PT01M31.00S,3,1610612746,LAC,1629622,Strus,M. Strus,0,0,0,,0,,,0,h,Strus STEAL (2 STL),,,1,0,342
+0022600257,458,PT01M28.00S,3,1610612746,LAC,1643413,Wagler,K. Wagler,0,0,0,,0,,,0,h,Wagler Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,343
+0022600257,458,PT01M28.00S,3,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,Mykhailiuk STEAL (1 STL),,,1,0,344
+0022600257,460,PT01M17.00S,3,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,-232,6,0,Missed,1,,,0,v,MISS Mykhailiuk 3PT Jump Shot,Missed Shot,Jump Shot,1,3,345
+0022600257,461,PT01M17.00S,3,1610612746,LAC,1629622,Strus,M. Strus,0,0,0,,0,,,0,h,Strus REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,346
+0022600257,462,PT00M57.90S,3,1610612746,LAC,1643413,Wagler,K. Wagler,89,145,17,Missed,1,,,0,h,MISS Wagler 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,347
+0022600257,463,PT00M57.90S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,348
+0022600257,464,PT00M45.20S,3,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh Bad Pass Turnover (P2.T13),Turnover,Bad Pass,1,0,349
+0022600257,464,PT00M45.20S,3,1610612746,LAC,1629622,Strus,M. Strus,0,0,0,,0,,,0,h,Strus STEAL (3 STL),,,1,0,350
+0022600257,466,PT00M40.20S,3,1610612746,LAC,1641711,Dick,G. Dick,29,7,3,Missed,1,,,0,h,MISS Dick 3' Running Layup,Missed Shot,Running Layup Shot,1,2,351
+0022600257,467,PT00M40.20S,3,1610612746,LAC,1643413,Wagler,K. Wagler,0,0,0,,0,,,0,h,Wagler REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,352
+0022600257,468,PT00M37.20S,3,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,Mykhailiuk S.FOUL (P3.T4) (J.Williams),Foul,Shooting,1,0,353
+0022600257,470,PT00M37.20S,3,1610612746,LAC,1643413,Wagler,K. Wagler,0,0,0,,0,,,0,h,MISS Wagler Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,354
+0022600257,471,PT00M37.20S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,355
+0022600257,472,PT00M37.20S,3,1610612746,LAC,1643413,Wagler,K. Wagler,0,0,0,,0,84,88,172,h,Wagler Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,356
+0022600257,473,PT00M13.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley OFF.Foul (P1) (J.Williams),Foul,Offensive,1,0,357
+0022600257,475,PT00M13.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley Offensive Foul Turnover (P2.T14),Turnover,Offensive Foul Turnover,1,0,358
+0022600257,476,PT00M01.70S,3,1610612746,LAC,1642920,Sanders,K. Sanders,-71,170,18,Made,1,86,88,174,h,Sanders 18' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,359
+0022600257,477,PT00M00.70S,3,0,,0,,,0,0,0,,0,,,0,v,JAZZ Heave,Heave,Team Field Goal Attempt,0,0,360
+0022600257,478,PT00M00.70S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,361
+0022600257,479,PT00M00.00S,3,0,,0,,,0,0,0,,0,86,88,174,,End of 3rd Period (12:20 AM EST),period,end,1,0,362
+0022600257,480,PT12M00.00S,4,0,,0,,,0,0,0,,0,86,88,174,,Start of 4th Period (12:23 AM EST),period,start,1,0,363
+0022600257,481,PT11M47.00S,4,1610612746,LAC,1643413,Wagler,K. Wagler,14,13,2,Made,1,88,88,176,h,Wagler 2' Layup (13 PTS),Made Shot,Layup Shot,1,2,364
+0022600257,482,PT11M47.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie S.FOUL (P2.T1) (A.Abazi),Foul,Shooting,1,0,365
+0022600257,484,PT11M47.00S,4,1610612746,LAC,1643413,Wagler,K. Wagler,0,0,0,,0,89,88,177,h,Wagler Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,1,0,366
+0022600257,485,PT11M26.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,20,88,9,Made,1,89,90,179,v,Okogie 9' Fadeaway Jumper (2 PTS) (Peterson 1 AST),Made Shot,Fadeaway Jump Shot,1,2,367
+0022600257,487,PT11M02.00S,4,1610612746,LAC,1630543,Jackson,I. Jackson,129,97,16,Missed,1,,,0,h,MISS Jackson 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,368
+0022600257,488,PT11M02.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,Peterson REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,369
+0022600257,489,PT10M53.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,237,52,24,Made,1,89,93,182,v,Sensabaugh 24' 3PT Running Jump Shot (18 PTS) (Okogie 1 AST),Made Shot,Running Jump Shot,1,3,370
+0022600257,491,PT10M38.00S,4,1610612746,LAC,1643413,Wagler,K. Wagler,-21,10,2,Made,1,91,93,184,h,Wagler 2' Driving Layup (15 PTS),Made Shot,Driving Layup Shot,1,2,371
+0022600257,492,PT10M24.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,4,117,12,Made,1,91,95,186,v,Sensabaugh 12' Pullup Jump Shot (20 PTS) (Bradley 1 AST),Made Shot,Pullup Jump shot,1,2,372
+0022600257,494,PT10M20.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Violation: Delay of game Violation,Violation,Delay Of Game,0,0,373
+0022600257,495,PT10M01.00S,4,1610612746,LAC,1629622,Strus,M. Strus,178,183,26,Missed,1,,,0,h,MISS Strus 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,374
+0022600257,496,PT10M01.00S,4,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,375
+0022600257,497,PT09M49.00S,4,1610612762,UTA,1628396,Bradley,T. Bradley,22,13,3,Made,1,91,97,188,v,Bradley 3' Driving Layup (3 PTS) (Okogie 2 AST),Made Shot,Driving Layup Shot,1,2,376
+0022600257,499,PT09M37.00S,4,1610612746,LAC,1630543,Jackson,I. Jackson,-25,11,3,Made,1,93,97,190,h,Jackson 3' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,377
+0022600257,500,PT09M23.00S,4,1610612746,LAC,1641711,Dick,G. Dick,0,0,0,,0,,,0,h,Dick P.FOUL (P1.T1) (A.Abazi),Foul,Personal,1,0,378
+0022600257,502,PT09M16.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-107,233,26,Made,1,93,100,193,v,Sensabaugh 26' 3PT Jump Shot (23 PTS) (Mykhailiuk 2 AST),Made Shot,Jump Shot,1,3,379
+0022600257,504,PT09M14.00S,4,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,380
+0022600257,505,PT09M06.00S,4,1610612746,LAC,1642920,Sanders,K. Sanders,0,0,0,,0,,,0,h,Sanders OFF.Foul (P1) (J.Williams),Foul,Offensive,1,0,381
+0022600257,507,PT09M06.00S,4,1610612746,LAC,1642920,Sanders,K. Sanders,0,0,0,,0,,,0,h,Sanders Offensive Foul Turnover (P2.T7),Turnover,Offensive Foul Turnover,1,0,382
+0022600257,509,PT09M06.00S,4,1610612746,LAC,1641711,Dick,G. Dick,0,0,0,,0,,,0,h,SUB: Dunn FOR Dick,Substitution,,0,0,383
+0022600257,510,PT08M51.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,237,29,24,Made,1,93,103,196,v,Sensabaugh 24' 3PT Jump Shot (26 PTS) (Peterson 2 AST),Made Shot,Jump Shot,1,3,384
+0022600257,512,PT08M36.00S,4,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,h,Jackson OFF.Foul (P3) (A.Abazi),Foul,Offensive,1,0,385
+0022600257,514,PT08M36.00S,4,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,h,Jackson Offensive Foul Turnover (P1.T8),Turnover,Offensive Foul Turnover,1,0,386
+0022600257,515,PT08M27.00S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,-22,9,2,Missed,1,,,0,v,MISS Mykhailiuk 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,387
+0022600257,515,PT08M27.00S,4,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,h,Jackson BLOCK (2 BLK),,,1,2,388
+0022600257,516,PT08M27.00S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,Mykhailiuk REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,389
+0022600257,518,PT08M21.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,-231,3,0,Made,1,93,106,199,v,Okogie 3PT Jump Shot (5 PTS) (Mykhailiuk 3 AST),Made Shot,Jump Shot,1,3,390
+0022600257,520,PT08M08.00S,4,1610612746,LAC,1643413,Wagler,K. Wagler,-185,221,29,Missed,1,,,0,h,MISS Wagler 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,391
+0022600257,521,PT08M08.00S,4,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,392
+0022600257,522,PT07M59.00S,4,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley Violation:Kicked Ball (J.Williams),Violation,Kicked Ball,0,0,393
+0022600257,527,PT07M59.00S,4,1610612746,LAC,1643413,Wagler,K. Wagler,0,0,0,,0,,,0,h,SUB: Jones Jr. FOR Wagler,Substitution,,0,0,394
+0022600257,528,PT07M59.00S,4,1610612746,LAC,1642920,Sanders,K. Sanders,0,0,0,,0,,,0,h,SUB: Garland FOR Sanders,Substitution,,0,0,395
+0022600257,529,PT07M59.00S,4,1610612746,LAC,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,h,SUB: Lopez FOR Jackson,Substitution,,0,0,396
+0022600257,530,PT07M59.00S,4,1610612746,LAC,1629622,Strus,M. Strus,0,0,0,,0,,,0,h,SUB: Hachimura FOR Strus,Substitution,,0,0,397
+0022600257,532,PT07M59.00S,4,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,SUB: Bamba FOR Bradley,Substitution,,0,0,398
+0022600257,533,PT07M53.00S,4,1610612746,LAC,201572,Lopez,B. Lopez,76,243,25,Missed,1,,,0,h,MISS Lopez 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,399
+0022600257,534,PT07M53.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,400
+0022600257,535,PT07M40.00S,4,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,0,0,0,,0,,,0,h,Jones Jr. S.FOUL (P1.T2) (A.Nagy),Foul,Shooting,1,0,401
+0022600257,537,PT07M40.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,MISS Peterson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,402
+0022600257,538,PT07M40.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Normal Rebound,0,0,403
+0022600257,539,PT07M40.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,93,107,200,v,Peterson Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,404
+0022600257,540,PT07M23.00S,4,1610612746,LAC,1629636,Garland,D. Garland,-27,65,7,Missed,1,,,0,h,MISS Garland 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,405
+0022600257,541,PT07M23.00S,4,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,406
+0022600257,542,PT07M18.00S,4,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,Missed,1,,,0,h,MISS Lopez Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,407
+0022600257,543,PT07M18.00S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,Mykhailiuk REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,408
+0022600257,544,PT07M08.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,69,40,8,Missed,1,,,0,v,MISS Peterson 8' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,409
+0022600257,545,PT07M08.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,410
+0022600257,546,PT07M04.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,Made,1,93,109,202,v,Okogie Tip Dunk Shot (7 PTS),Made Shot,Tip Dunk Shot,1,2,411
+0022600257,547,PT06M57.00S,4,1610612746,LAC,1629636,Garland,D. Garland,84,241,26,Missed,1,,,0,h,MISS Garland 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,412
+0022600257,548,PT06M57.00S,4,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,413
+0022600257,549,PT06M50.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh P.FOUL (P3.T2) (A.Abazi),Foul,Personal,1,0,414
+0022600257,552,PT06M50.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,SUB: George FOR Peterson,Substitution,,0,0,415
+0022600257,553,PT06M38.00S,4,1610612746,LAC,1629060,Hachimura,R. Hachimura,-3,172,17,Missed,1,,,0,h,MISS Hachimura 17' Jump Shot,Missed Shot,Jump Shot,1,2,416
+0022600257,554,PT06M38.00S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,Mykhailiuk REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,417
+0022600257,555,PT06M16.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-232,5,0,Missed,1,,,0,v,MISS Sensabaugh 3PT Jump Shot,Missed Shot,Jump Shot,1,3,418
+0022600257,556,PT06M16.00S,4,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,Hachimura REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,419
+0022600257,557,PT06M09.00S,4,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,Hachimura Lost Ball Turnover (P1.T9),Turnover,Lost Ball,1,0,420
+0022600257,557,PT06M09.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie STEAL (1 STL),,,1,0,421
+0022600257,559,PT06M08.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-11,3,1,Made,1,93,111,204,v,Sensabaugh 1' Dunk (28 PTS) (Okogie 3 AST),Made Shot,Dunk Shot,1,2,422
+0022600257,561,PT06M08.00S,4,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,423
+0022600257,563,PT06M08.00S,4,1610612746,LAC,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,SUB: Strus FOR Lopez,Substitution,,0,0,424
+0022600257,564,PT05M53.00S,4,1610612746,LAC,1629622,Strus,M. Strus,-190,187,27,Missed,1,,,0,h,MISS Strus 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,425
+0022600257,565,PT05M53.00S,4,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,426
+0022600257,567,PT05M29.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,26,10,3,Made,1,93,113,206,v,Okogie 3' Layup (9 PTS),Made Shot,Layup Shot,1,2,427
+0022600257,568,PT05M18.00S,4,1610612746,LAC,1629060,Hachimura,R. Hachimura,-69,239,25,Made,1,96,113,209,h,Hachimura 25' 3PT Jump Shot (20 PTS) (Garland 7 AST),Made Shot,Jump Shot,1,3,428
+0022600257,570,PT05M04.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-226,-8,0,Made,1,96,116,212,v,Sensabaugh 3PT Jump Shot (31 PTS) (Okogie 4 AST),Made Shot,Jump Shot,1,3,429
+0022600257,572,PT04M52.00S,4,1610612746,LAC,1629636,Garland,D. Garland,-126,223,26,Missed,1,,,0,h,MISS Garland 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,430
+0022600257,573,PT04M52.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,431
+0022600257,574,PT04M33.00S,4,1610612762,UTA,1641718,George,K. George,26,8,3,Made,1,96,118,214,v,George 3' Driving Layup (25 PTS) (Sensabaugh 4 AST),Made Shot,Driving Layup Shot,1,2,432
+0022600257,576,PT04M22.00S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,Mykhailiuk S.FOUL (P4.T3) (A.Abazi),Foul,Shooting,1,0,433
+0022600257,578,PT04M22.00S,4,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,97,118,215,h,Garland Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,1,0,434
+0022600257,580,PT04M22.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,435
+0022600257,585,PT04M22.00S,4,1610612746,LAC,1627884,Jones Jr.,D. Jones Jr.,0,0,0,,0,,,0,h,SUB: Sanders FOR Jones Jr.,Substitution,,0,0,436
+0022600257,586,PT04M22.00S,4,1610612746,LAC,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,SUB: Martinelli FOR Dunn,Substitution,,0,0,437
+0022600257,587,PT04M22.00S,4,1610612746,LAC,1629060,Hachimura,R. Hachimura,0,0,0,,0,,,0,h,SUB: Miller FOR Hachimura,Substitution,,0,0,438
+0022600257,588,PT04M22.00S,4,1610612746,LAC,1629622,Strus,M. Strus,0,0,0,,0,,,0,h,SUB: Christie FOR Strus,Substitution,,0,0,439
+0022600257,579,PT04M22.00S,4,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,98,118,216,h,Garland Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,1,0,440
+0022600257,589,PT04M08.00S,4,1610612762,UTA,1641718,George,K. George,46,27,5,Made,1,98,120,218,v,George 5' Driving Layup (27 PTS) (Sensabaugh 5 AST),Made Shot,Driving Layup Shot,1,2,441
+0022600257,591,PT04M08.00S,4,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,Garland S.FOUL (P3.T3) (J.Williams),Foul,Shooting,1,0,442
+0022600257,594,PT04M08.00S,4,1610612746,LAC,1629636,Garland,D. Garland,0,0,0,,0,,,0,h,SUB: Dick FOR Garland,Substitution,,0,0,443
+0022600257,595,PT04M08.00S,4,1610612762,UTA,1641718,George,K. George,0,0,0,,0,98,121,219,v,George Free Throw 1 of 1 (28 PTS),Free Throw,Free Throw 1 of 1,1,0,444
+0022600257,596,PT03M54.00S,4,1610612746,LAC,1642353,Christie,C. Christie,-237,30,24,Made,1,101,121,222,h,Christie 24' 3PT Jump Shot (3 PTS) (Sanders 3 AST),Made Shot,Jump Shot,1,3,445
+0022600257,598,PT03M31.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,34,22,4,Made,1,101,123,224,v,Sensabaugh 4' Driving Layup (33 PTS) (Mykhailiuk 4 AST),Made Shot,Driving Layup Shot,1,2,446
+0022600257,600,PT03M17.00S,4,1610612746,LAC,1642394,Miller,B. Miller,-183,195,27,Made,1,104,123,227,h,Miller 27' 3PT Jump Shot (3 PTS) (Dick 1 AST),Made Shot,Jump Shot,1,3,447
+0022600257,602,PT02M53.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,107,82,13,Made,1,104,125,229,v,Sensabaugh 13' Turnaround Fadeaway (35 PTS),Made Shot,Turnaround Fadeaway shot,1,2,448
+0022600257,603,PT02M44.00S,4,1610612746,LAC,1642353,Christie,C. Christie,-11,261,26,Missed,1,,,0,h,MISS Christie 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,449
+0022600257,604,PT02M44.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,450
+0022600257,605,PT02M27.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,-66,258,27,Made,1,104,128,232,v,Sensabaugh 27' 3PT Pullup Jump Shot (38 PTS),Made Shot,Pullup Jump shot,1,3,451
+0022600257,606,PT02M11.00S,4,1610612746,LAC,1642394,Miller,B. Miller,0,0,0,,0,,,0,h,Miller Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,452
+0022600257,606,PT02M11.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie STEAL (2 STL),,,1,0,453
+0022600257,608,PT01M58.00S,4,1610612762,UTA,1641718,George,K. George,21,18,3,Made,1,104,130,234,v,George 3' Driving Layup (30 PTS),Made Shot,Driving Layup Shot,1,2,454
+0022600257,609,PT01M48.00S,4,1610612746,LAC,1642394,Miller,B. Miller,-142,221,26,Missed,1,,,0,h,MISS Miller 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,455
+0022600257,610,PT01M48.00S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,Mykhailiuk REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,456
+0022600257,615,PT01M33.00S,4,1610612762,UTA,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,SUB: Bradley FOR Bamba,Substitution,,0,0,457
+0022600257,616,PT01M33.00S,4,1610612762,UTA,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,SUB: Peterson FOR Okogie,Substitution,,0,0,458
+0022600257,617,PT01M33.00S,4,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,v,SUB: Bailey FOR George,Substitution,,0,0,459
+0022600257,618,PT01M25.00S,4,1610612762,UTA,1643408,Peterson,D. Peterson,0,0,0,,0,,,0,v,Peterson Lost Ball Turnover (P3.T15),Turnover,Lost Ball,1,0,460
+0022600257,618,PT01M25.00S,4,1610612746,LAC,1642920,Sanders,K. Sanders,0,0,0,,0,,,0,h,Sanders STEAL (2 STL),,,1,0,461
+0022600257,620,PT01M23.00S,4,1610612746,LAC,1642920,Sanders,K. Sanders,20,29,4,Made,1,106,130,236,h,Sanders 4' Running Layup (5 PTS),Made Shot,Running Layup Shot,1,2,462
+0022600257,621,PT01M23.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,0,0,,0,,,0,v,Sensabaugh S.FOUL (P4.T4) (A.Abazi),Foul,Shooting,1,0,463
+0022600257,623,PT01M23.00S,4,1610612746,LAC,1642920,Sanders,K. Sanders,0,0,0,,0,107,130,237,h,Sanders Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,464
+0022600257,624,PT01M10.00S,4,1610612762,UTA,1641729,Sensabaugh,B. Sensabaugh,0,25,3,Made,1,107,132,239,v,Sensabaugh 3' Driving Finger Roll Layup (40 PTS) (Mykhailiuk 5 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,465
+0022600257,626,PT01M02.00S,4,1610612746,LAC,1642394,Miller,B. Miller,0,0,0,,0,,,0,h,Miller Lost Ball Turnover (P2.T11),Turnover,Lost Ball,1,0,466
+0022600257,626,PT01M02.00S,4,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,v,Bailey STEAL (3 STL),,,1,0,467
+0022600257,628,PT00M39.30S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,79,237,25,Missed,1,,,0,v,MISS Mykhailiuk 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,468
+0022600257,629,PT00M39.30S,4,1610612746,LAC,1643568,Martinelli,N. Martinelli,0,0,0,,0,,,0,h,Martinelli REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,469
+0022600257,630,PT00M31.70S,4,1610612746,LAC,1642353,Christie,C. Christie,-92,242,26,Missed,1,,,0,h,MISS Christie 26' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,470
+0022600257,631,PT00M31.70S,4,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,v,Mykhailiuk REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,471
+0022600257,632,PT00M05.90S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Turnover: Shot Clock (T#16),Turnover,Shot Clock Turnover,1,0,472
+0022600257,633,PT00M00.00S,4,0,,0,,,0,0,0,,0,107,132,239,,End of 4th Period (12:49 AM EST),period,end,1,0,473
