@@ -1,122 +1,32 @@
 {
- "updated": "2026-11-21T11:23:24-08:00",
+ "updated": "2026-11-21T11:41:31-08:00",
  "board_date": "2026-11-21",
  "games": [
   {
    "game_id": "0022600274",
    "tip_utc": "2026-11-21T18:00:00Z",
    "status": 2,
-   "status_text": "Q3 10:03",
+   "status_text": "3rd Qtr             ",
    "period": 3,
-   "clock": "10:03",
+   "clock": "11:02",
    "home": {
     "team": "PHI",
-    "score": 63,
+    "score": 60,
     "periods": [
      29,
      31,
-     3,
+     0,
      0
-    ],
-    "stats": {
-     "fgm": 23,
-     "fga": 49,
-     "fg3m": 3,
-     "fg3a": 16,
-     "ftm": 14,
-     "fta": 16,
-     "oreb": 3,
-     "dreb": 19,
-     "tov": 1,
-     "pf": 7,
-     "ast": 17,
-     "stl": 3,
-     "blk": 2,
-     "pts_paint": 38,
-     "pts_second_chance": 2,
-     "pts_fast_break": 11,
-     "pts_off_tov": 7,
-     "pts_bench": 21,
-     "biggest_lead": 4,
-     "lead_changes": 13
-    },
-    "leaders": [
-     {
-      "name": "Tyrese Maxey",
-      "pts": 12,
-      "reb": 3,
-      "ast": 2,
-      "min": "19:16"
-     },
-     {
-      "name": "Joel Embiid",
-      "pts": 10,
-      "reb": 9,
-      "ast": 5,
-      "min": "17:47"
-     },
-     {
-      "name": "LeBron James",
-      "pts": 8,
-      "reb": 4,
-      "ast": 3,
-      "min": "19:21"
-     }
     ]
    },
    "away": {
     "team": "MIL",
-    "score": 68,
+    "score": 63,
     "periods": [
      30,
      29,
-     9,
+     4,
      0
-    ],
-    "stats": {
-     "fgm": 26,
-     "fga": 58,
-     "fg3m": 7,
-     "fg3a": 21,
-     "ftm": 9,
-     "fta": 9,
-     "oreb": 10,
-     "dreb": 20,
-     "tov": 3,
-     "pf": 10,
-     "ast": 14,
-     "stl": 1,
-     "blk": 5,
-     "pts_paint": 38,
-     "pts_second_chance": 12,
-     "pts_fast_break": 10,
-     "pts_off_tov": 3,
-     "pts_bench": 17,
-     "biggest_lead": 7,
-     "lead_changes": 13
-    },
-    "leaders": [
-     {
-      "name": "Tyler Herro",
-      "pts": 22,
-      "reb": 7,
-      "ast": 4,
-      "min": "19:38"
-     },
-     {
-      "name": "Kyle Kuzma",
-      "pts": 12,
-      "reb": 4,
-      "ast": 0,
-      "min": "19:20"
-     },
-     {
-      "name": "Jaime Jaquez Jr.",
-      "pts": 9,
-      "reb": 0,
-      "ast": 1,
-      "min": "17:09"
-     }
     ]
    },
    "history": [
