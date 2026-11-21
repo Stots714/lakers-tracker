@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:12:52-08:00",
+ "updated": "2026-11-20T20:19:56-08:00",
  "board_date": "2026-11-20",
  "games": [
   {
@@ -750,34 +750,34 @@
    "game_id": "0022600049",
    "tip_utc": "2026-11-21T02:30:00Z",
    "status": 2,
-   "status_text": "Q3 5:05",
+   "status_text": "Q3 2:55",
    "period": 3,
-   "clock": "5:05",
+   "clock": "2:55",
    "home": {
     "team": "UTA",
-    "score": 68,
+    "score": 70,
     "periods": [
      23,
      26,
-     19,
+     21,
      0
     ],
     "stats": {
      "fgm": 24,
-     "fga": 55,
+     "fga": 56,
      "fg3m": 7,
-     "fg3a": 27,
-     "ftm": 13,
-     "fta": 22,
+     "fg3a": 28,
+     "ftm": 15,
+     "fta": 25,
      "oreb": 12,
-     "dreb": 22,
-     "tov": 10,
-     "pf": 13,
+     "dreb": 24,
+     "tov": 13,
+     "pf": 17,
      "ast": 15,
      "stl": 4,
      "blk": 3,
      "pts_paint": 32,
-     "pts_second_chance": 15,
+     "pts_second_chance": 17,
      "pts_fast_break": 8,
      "pts_off_tov": 5,
      "pts_bench": 16,
@@ -790,7 +790,7 @@
       "pts": 14,
       "reb": 9,
       "ast": 7,
-      "min": "21:42"
+      "min": "22:35"
      },
      {
       "name": "Jaxson Hayes",
@@ -804,37 +804,37 @@
       "pts": 12,
       "reb": 1,
       "ast": 4,
-      "min": "23:02"
+      "min": "24:19"
      }
     ]
    },
    "away": {
     "team": "PHX",
-    "score": 79,
+    "score": 83,
     "periods": [
      26,
      35,
-     18,
+     22,
      0
     ],
     "stats": {
      "fgm": 31,
-     "fga": 65,
+     "fga": 66,
      "fg3m": 7,
      "fg3a": 21,
-     "ftm": 10,
-     "fta": 12,
+     "ftm": 14,
+     "fta": 18,
      "oreb": 10,
-     "dreb": 23,
+     "dreb": 24,
      "tov": 6,
-     "pf": 17,
+     "pf": 18,
      "ast": 21,
      "stl": 4,
      "blk": 2,
      "pts_paint": 36,
      "pts_second_chance": 12,
      "pts_fast_break": 15,
-     "pts_off_tov": 17,
+     "pts_off_tov": 19,
      "pts_bench": 29,
      "biggest_lead": 16,
      "lead_changes": 2
@@ -850,16 +850,16 @@
      {
       "name": "Miles Bridges",
       "pts": 16,
-      "reb": 7,
-      "ast": 4,
-      "min": "18:05"
+      "reb": 8,
+      "ast": 3,
+      "min": "18:18"
      },
      {
-      "name": "Collin Gillespie",
-      "pts": 11,
-      "reb": 3,
-      "ast": 4,
-      "min": "13:44"
+      "name": "Devin Booker",
+      "pts": 13,
+      "reb": 0,
+      "ast": 2,
+      "min": "27:44"
      }
     ]
    },
@@ -871,6 +871,10 @@
     {
      "t": 30.9,
      "m": -11
+    },
+    {
+     "t": 33.1,
+     "m": -13
     }
    ]
   },
@@ -878,21 +882,21 @@
    "game_id": "0022600050",
    "tip_utc": "2026-11-21T03:00:00Z",
    "status": 2,
-   "status_text": "Q2 :21.0",
+   "status_text": "Half",
    "period": 2,
-   "clock": "0:21",
+   "clock": "0:00",
    "home": {
     "team": "DEN",
-    "score": 60,
+    "score": 62,
     "periods": [
      31,
-     29,
+     31,
      0,
      0
     ],
     "stats": {
-     "fgm": 21,
-     "fga": 44,
+     "fgm": 22,
+     "fga": 45,
      "fg3m": 9,
      "fg3a": 22,
      "ftm": 9,
@@ -900,11 +904,11 @@
      "oreb": 3,
      "dreb": 10,
      "tov": 4,
-     "pf": 12,
-     "ast": 18,
+     "pf": 13,
+     "ast": 19,
      "stl": 8,
      "blk": 1,
-     "pts_paint": 18,
+     "pts_paint": 20,
      "pts_second_chance": 6,
      "pts_fast_break": 8,
      "pts_off_tov": 19,
@@ -918,48 +922,48 @@
       "pts": 12,
       "reb": 1,
       "ast": 0,
-      "min": "13:55"
+      "min": "14:16"
      },
      {
       "name": "Cameron Johnson",
       "pts": 9,
       "reb": 1,
       "ast": 4,
-      "min": "15:35"
+      "min": "15:56"
      },
      {
-      "name": "DeMar DeRozan",
+      "name": "Aaron Gordon",
       "pts": 9,
-      "reb": 0,
+      "reb": 1,
       "ast": 1,
-      "min": "10:28"
+      "min": "15:51"
      }
     ]
    },
    "away": {
     "team": "HOU",
-    "score": 57,
+    "score": 60,
     "periods": [
      33,
-     24,
+     27,
      0,
      0
     ],
     "stats": {
-     "fgm": 20,
-     "fga": 36,
+     "fgm": 21,
+     "fga": 37,
      "fg3m": 5,
      "fg3a": 15,
-     "ftm": 12,
-     "fta": 15,
+     "ftm": 13,
+     "fta": 16,
      "oreb": 4,
      "dreb": 18,
      "tov": 14,
      "pf": 9,
-     "ast": 15,
+     "ast": 16,
      "stl": 3,
      "blk": 2,
-     "pts_paint": 28,
+     "pts_paint": 30,
      "pts_second_chance": 7,
      "pts_fast_break": 4,
      "pts_off_tov": 5,
@@ -970,24 +974,24 @@
     "leaders": [
      {
       "name": "Alperen Sengun",
-      "pts": 13,
+      "pts": 16,
       "reb": 5,
       "ast": 5,
-      "min": "16:11"
+      "min": "16:32"
      },
      {
       "name": "Jabari Smith Jr.",
       "pts": 10,
       "reb": 2,
       "ast": 2,
-      "min": "14:29"
+      "min": "14:50"
      },
      {
       "name": "Amen Thompson",
       "pts": 10,
       "reb": 4,
       "ast": 0,
-      "min": "10:35"
+      "min": "10:43"
      }
     ]
    },
@@ -999,6 +1003,10 @@
     {
      "t": 23.6,
      "m": 3
+    },
+    {
+     "t": 24.0,
+     "m": 2
     }
    ]
   },
@@ -1100,7 +1108,7 @@
       "name": "Domantas Sabonis",
       "pts": 15,
       "reb": 8,
-      "ast": 1,
+      "ast": 0,
       "min": "20:08"
      },
      {
@@ -1114,7 +1122,7 @@
       "name": "Darius Acuff Jr.",
       "pts": 12,
       "reb": 0,
-      "ast": 6,
+      "ast": 7,
       "min": "16:09"
      }
     ]
