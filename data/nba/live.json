@@ -1,121 +1,121 @@
 {
- "updated": "2026-11-21T10:27:50-08:00",
+ "updated": "2026-11-21T11:12:36-08:00",
  "board_date": "2026-11-21",
  "games": [
   {
    "game_id": "0022600274",
    "tip_utc": "2026-11-21T18:00:00Z",
    "status": 2,
-   "status_text": "Q1 2:46",
-   "period": 1,
-   "clock": "2:46",
+   "status_text": "Half",
+   "period": 2,
+   "clock": "0:00",
    "home": {
     "team": "PHI",
-    "score": 20,
+    "score": 60,
     "periods": [
-     20,
-     0,
+     29,
+     31,
      0,
      0
     ],
     "stats": {
-     "fgm": 9,
-     "fga": 20,
-     "fg3m": 2,
-     "fg3a": 6,
-     "ftm": 0,
-     "fta": 0,
-     "oreb": 1,
-     "dreb": 9,
-     "tov": 0,
-     "pf": 2,
-     "ast": 7,
-     "stl": 0,
-     "blk": 1,
-     "pts_paint": 14,
-     "pts_second_chance": 0,
-     "pts_fast_break": 2,
-     "pts_off_tov": 0,
-     "pts_bench": 5,
+     "fgm": 22,
+     "fga": 46,
+     "fg3m": 3,
+     "fg3a": 16,
+     "ftm": 13,
+     "fta": 14,
+     "oreb": 3,
+     "dreb": 19,
+     "tov": 1,
+     "pf": 6,
+     "ast": 16,
+     "stl": 3,
+     "blk": 2,
+     "pts_paint": 36,
+     "pts_second_chance": 2,
+     "pts_fast_break": 11,
+     "pts_off_tov": 7,
+     "pts_bench": 21,
      "biggest_lead": 4,
-     "lead_changes": 3
+     "lead_changes": 12
     },
     "leaders": [
      {
-      "name": "LeBron James",
-      "pts": 4,
+      "name": "Tyrese Maxey",
+      "pts": 11,
       "reb": 3,
-      "ast": 1,
-      "min": "8:31"
-     },
-     {
-      "name": "VJ Edgecombe",
-      "pts": 4,
-      "reb": 0,
       "ast": 2,
-      "min": "9:09"
+      "min": "17:19"
      },
      {
-      "name": "Kentavious Caldwell-Pope",
-      "pts": 3,
+      "name": "Joel Embiid",
+      "pts": 10,
+      "reb": 9,
+      "ast": 5,
+      "min": "15:50"
+     },
+     {
+      "name": "Anfernee Simons",
+      "pts": 8,
       "reb": 0,
       "ast": 0,
-      "min": "8:31"
+      "min": "15:34"
      }
     ]
    },
    "away": {
     "team": "MIL",
-    "score": 21,
+    "score": 59,
     "periods": [
-     21,
-     0,
+     30,
+     29,
      0,
      0
     ],
     "stats": {
-     "fgm": 8,
-     "fga": 20,
-     "fg3m": 3,
-     "fg3a": 9,
-     "ftm": 2,
-     "fta": 2,
-     "oreb": 3,
-     "dreb": 9,
-     "tov": 0,
-     "pf": 0,
-     "ast": 5,
-     "stl": 0,
-     "blk": 2,
-     "pts_paint": 10,
-     "pts_second_chance": 4,
-     "pts_fast_break": 3,
-     "pts_off_tov": 0,
-     "pts_bench": 0,
+     "fgm": 23,
+     "fga": 54,
+     "fg3m": 6,
+     "fg3a": 19,
+     "ftm": 7,
+     "fta": 7,
+     "oreb": 9,
+     "dreb": 19,
+     "tov": 3,
+     "pf": 8,
+     "ast": 13,
+     "stl": 1,
+     "blk": 4,
+     "pts_paint": 34,
+     "pts_second_chance": 10,
+     "pts_fast_break": 8,
+     "pts_off_tov": 3,
+     "pts_bench": 17,
      "biggest_lead": 7,
-     "lead_changes": 3
+     "lead_changes": 12
     },
     "leaders": [
      {
       "name": "Tyler Herro",
-      "pts": 10,
-      "reb": 3,
-      "ast": 1,
-      "min": "9:09"
+      "pts": 20,
+      "reb": 6,
+      "ast": 3,
+      "min": "17:41"
      },
      {
-      "name": "Jaime Jaquez Jr.",
-      "pts": 4,
-      "reb": 0,
-      "ast": 1,
-      "min": "8:31"
-     },
-     {
-      "name": "Ryan Rollins",
-      "pts": 4,
+      "name": "Kyle Kuzma",
+      "pts": 12,
       "reb": 4,
       "ast": 0,
-      "min": "8:31"
+      "min": "17:23"
+     },
+     {
+      "name": "Brayden Burries",
+      "pts": 9,
+      "reb": 1,
+      "ast": 0,
+      "min": "9:45"
      }
     ]
    },
@@ -127,6 +127,10 @@
     {
      "t": 9.2,
      "m": -1
+    },
+    {
+     "t": 24.0,
+     "m": 1
     }
    ]
   },
