@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:49:15-08:00",
+ "updated": "2026-11-20T22:04:07-08:00",
  "season": "2026-27",
  "teams": [
   "LAL",
@@ -24,51 +24,49 @@
   },
   "league team box scores": {
    "ok": true,
-   "team-games": 452
+   "team-games": 468
   },
   "league player games": {
    "ok": true,
-   "player lines": 5044
+   "player lines": 5250
   },
   "league results": {
    "ok": true,
-   "final games": 226,
+   "final games": 234,
    "pending": 0,
    "pending_games": [],
    "kept_games": [],
-   "line_notes": [
-    "POR@MIL (2026-11-19): no player lines for MIL",
-    "LAC@SAS (2026-11-19): no player lines for LAC"
-   ]
+   "line_notes": []
   },
   "league quarter scores, inactive lists and game extras": {
    "ok": true,
-   "new games": 10
+   "new games": 14
   },
   "league team turnovers": {
    "ok": true,
-   "team-games": 452
+   "team-games": 468
   },
   "league rosters and moves": {
    "ok": true,
    "moves": 0,
-   "skipped": "read less than 10 hours ago"
+   "players": 525,
+   "first_read": false
   },
   "injury report": {
    "ok": true,
-   "players listed": 134
+   "players listed": 67
   },
   "LAL games": {
    "ok": true,
-   "rows": 16
+   "rows": 17
   },
   "LAL player games": {
    "ok": true,
-   "rows": 181
+   "rows": 191
   },
   "LAL player games advanced": {
    "ok": true,
-   "rows": 181
+   "rows": 191
   },
   "LAL on/off": {
    "ok": true,
@@ -84,11 +82,11 @@
   },
   "LAL shots": {
    "ok": true,
-   "rows": 1361
+   "rows": 1439
   },
   "LAL shots against": {
    "ok": true,
-   "rows": 1370
+   "rows": 1460
   },
   "LAL hustle": {
    "ok": true,
@@ -96,15 +94,15 @@
   },
   "SAC games": {
    "ok": true,
-   "rows": 14
+   "rows": 15
   },
   "SAC player games": {
    "ok": true,
-   "rows": 148
+   "rows": 157
   },
   "SAC player games advanced": {
    "ok": true,
-   "rows": 148
+   "rows": 157
   },
   "SAC on/off": {
    "ok": true,
@@ -120,11 +118,11 @@
   },
   "SAC shots": {
    "ok": true,
-   "rows": 1205
+   "rows": 1295
   },
   "SAC shots against": {
    "ok": true,
-   "rows": 1196
+   "rows": 1274
   },
   "SAC hustle": {
    "ok": true,
@@ -132,20 +130,21 @@
   },
   "matchups": {
    "ok": true,
-   "new games": 0
+   "new games": 0,
+   "pending": 1
   },
   "play-by-play": {
    "ok": true,
-   "new games": 0
+   "new games": 1
   }
  },
  "checks": [
   "Scores: 68 games in both files, 0 differ; 0 hand-checked games not found on NBA.com by date and teams.",
   "Lakers box scores: 10 team-games compared, 4 numbers differ [('2026-10-21', 'GSW', 'tov', '15', 16), ('2026-10-23', 'LAC', 'tov', '25', 26), ('2026-10-25', 'UTA', 'dreb', '31', 32), ('2026-10-25', 'UTA', 'tov', '19', 17)].",
-  "Player points add up to team points in 448 of 448 team-games.",
-  "Turnovers (players + team) match NBA.com's game totals in 450 of 452 team-games: [('2026-10-30', 'CHA'), ('2026-11-09', 'CHA')].",
+  "Player points add up to team points in 468 of 468 team-games.",
+  "Turnovers (players + team) match NBA.com's game totals in 466 of 468 team-games: [('2026-10-30', 'CHA'), ('2026-11-09', 'CHA')].",
   "Lakers quarter scores: 10 compared, 0 differ.",
-  "NBA Cup games: 28 played, average winning margin 14.5 points, against 13.3 in the other 198 games.",
+  "NBA Cup games: 36 played, average winning margin 12.7 points, against 13.3 in the other 198 games.",
   "Lakers scores checked against results.csv: 5 games, 0 mismatches ",
   "Oct 21 Doncic-Lendeborg rows (ABC7 reported Doncic 1 of 6 against Lendeborg):\n  familyNameOff | familyNameDef | matchupMinutes | partialPossessions | playerPoints | matchupFieldGoalsMade | matchupFieldGoalsAttempted\n  Dončić | Lendeborg | 3:03 | 18.5 | 9 | 1 | 5\n  Lendeborg | Dončić | 2:56 | 14.7 | 2 | 1 | 2"
  ],
