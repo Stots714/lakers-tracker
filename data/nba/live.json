@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:12:24-08:00",
+ "updated": "2026-11-20T21:23:51-08:00",
  "board_date": "2026-11-20",
  "games": [
   {
@@ -906,116 +906,116 @@
    "game_id": "0022600050",
    "tip_utc": "2026-11-21T03:00:00Z",
    "status": 2,
-   "status_text": "Q4 7:01",
+   "status_text": "Q4 3:20",
    "period": 4,
-   "clock": "7:01",
+   "clock": "3:20",
    "home": {
     "team": "DEN",
-    "score": 108,
+    "score": 117,
     "periods": [
      31,
      31,
      37,
-     9
+     18
     ],
     "stats": {
-     "fgm": 41,
-     "fga": 77,
+     "fgm": 43,
+     "fga": 80,
      "fg3m": 13,
      "fg3a": 30,
-     "ftm": 13,
-     "fta": 15,
+     "ftm": 18,
+     "fta": 20,
      "oreb": 5,
-     "dreb": 23,
-     "tov": 8,
+     "dreb": 26,
+     "tov": 9,
      "pf": 24,
-     "ast": 32,
+     "ast": 34,
      "stl": 8,
      "blk": 4,
-     "pts_paint": 46,
+     "pts_paint": 48,
      "pts_second_chance": 11,
      "pts_fast_break": 15,
      "pts_off_tov": 21,
-     "pts_bench": 35,
+     "pts_bench": 37,
      "biggest_lead": 5,
-     "lead_changes": 31
+     "lead_changes": 32
     },
     "leaders": [
      {
       "name": "Nikola Jokić",
-      "pts": 20,
-      "reb": 4,
-      "ast": 7,
-      "min": "30:40"
+      "pts": 21,
+      "reb": 5,
+      "ast": 9,
+      "min": "34:21"
+     },
+     {
+      "name": "Cameron Johnson",
+      "pts": 17,
+      "reb": 3,
+      "ast": 6,
+      "min": "25:10"
      },
      {
       "name": "Christian Braun",
       "pts": 17,
       "reb": 4,
       "ast": 3,
-      "min": "25:49"
-     },
-     {
-      "name": "Cameron Johnson",
-      "pts": 15,
-      "reb": 2,
-      "ast": 6,
-      "min": "23:30"
+      "min": "28:02"
      }
     ]
    },
    "away": {
     "team": "HOU",
-    "score": 109,
+    "score": 115,
     "periods": [
      33,
      27,
      42,
-     7
+     13
     ],
     "stats": {
-     "fgm": 39,
-     "fga": 69,
+     "fgm": 42,
+     "fga": 76,
      "fg3m": 8,
-     "fg3a": 22,
+     "fg3a": 24,
      "ftm": 23,
-     "fta": 32,
-     "oreb": 8,
-     "dreb": 29,
+     "fta": 33,
+     "oreb": 9,
+     "dreb": 30,
      "tov": 15,
-     "pf": 15,
-     "ast": 27,
+     "pf": 19,
+     "ast": 28,
      "stl": 5,
      "blk": 4,
-     "pts_paint": 54,
-     "pts_second_chance": 10,
+     "pts_paint": 58,
+     "pts_second_chance": 12,
      "pts_fast_break": 6,
-     "pts_off_tov": 11,
+     "pts_off_tov": 13,
      "pts_bench": 12,
      "biggest_lead": 5,
-     "lead_changes": 31
+     "lead_changes": 32
     },
     "leaders": [
      {
       "name": "Alperen Sengun",
       "pts": 26,
-      "reb": 10,
+      "reb": 11,
       "ast": 9,
-      "min": "31:03"
+      "min": "32:43"
+     },
+     {
+      "name": "Amen Thompson",
+      "pts": 22,
+      "reb": 6,
+      "ast": 0,
+      "min": "23:05"
      },
      {
       "name": "Fred VanVleet",
-      "pts": 20,
+      "pts": 22,
       "reb": 1,
-      "ast": 7,
-      "min": "25:43"
-     },
-     {
-      "name": "Jabari Smith Jr.",
-      "pts": 19,
-      "reb": 4,
-      "ast": 2,
-      "min": "27:23"
+      "ast": 8,
+      "min": "29:24"
      }
     ]
    },
@@ -1051,43 +1051,47 @@
     {
      "t": 41.0,
      "m": -1
+    },
+    {
+     "t": 44.7,
+     "m": 2
     }
    ]
   },
   {
    "game_id": "0022600051",
    "tip_utc": "2026-11-21T03:00:00Z",
-   "status": 2,
-   "status_text": "Q4 2:19",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "2:19",
+   "clock": "0:00",
    "home": {
     "team": "LAL",
-    "score": 101,
+    "score": 106,
     "periods": [
      28,
      26,
      28,
-     19
+     24
     ],
     "stats": {
-     "fgm": 38,
-     "fga": 76,
-     "fg3m": 10,
-     "fg3a": 34,
-     "ftm": 15,
-     "fta": 18,
+     "fgm": 39,
+     "fga": 78,
+     "fg3m": 11,
+     "fg3a": 36,
+     "ftm": 17,
+     "fta": 22,
      "oreb": 9,
-     "dreb": 24,
-     "tov": 14,
-     "pf": 14,
-     "ast": 26,
+     "dreb": 26,
+     "tov": 15,
+     "pf": 16,
+     "ast": 27,
      "stl": 8,
      "blk": 5,
      "pts_paint": 54,
      "pts_second_chance": 15,
      "pts_fast_break": 12,
-     "pts_off_tov": 17,
+     "pts_off_tov": 20,
      "pts_bench": 34,
      "biggest_lead": 8,
      "lead_changes": 10
@@ -1098,51 +1102,51 @@
       "pts": 25,
       "reb": 4,
       "ast": 8,
-      "min": "33:47"
+      "min": "36:06"
      },
      {
       "name": "Walker Kessler",
       "pts": 15,
-      "reb": 6,
+      "reb": 7,
       "ast": 2,
-      "min": "27:58"
+      "min": "30:06"
      },
      {
       "name": "Matisse Thybulle",
       "pts": 14,
       "reb": 1,
-      "ast": 0,
-      "min": "25:01"
+      "ast": 1,
+      "min": "27:20"
      }
     ]
    },
    "away": {
     "team": "SAC",
-    "score": 101,
+    "score": 104,
     "periods": [
      28,
      34,
      22,
-     17
+     20
     ],
     "stats": {
-     "fgm": 40,
-     "fga": 87,
+     "fgm": 41,
+     "fga": 90,
      "fg3m": 13,
-     "fg3a": 35,
-     "ftm": 8,
-     "fta": 10,
+     "fg3a": 37,
+     "ftm": 9,
+     "fta": 12,
      "oreb": 16,
-     "dreb": 26,
-     "tov": 16,
-     "pf": 18,
-     "ast": 27,
+     "dreb": 28,
+     "tov": 17,
+     "pf": 20,
+     "ast": 28,
      "stl": 6,
      "blk": 4,
-     "pts_paint": 48,
+     "pts_paint": 50,
      "pts_second_chance": 19,
      "pts_fast_break": 13,
-     "pts_off_tov": 24,
+     "pts_off_tov": 25,
      "pts_bench": 5,
      "biggest_lead": 11,
      "lead_changes": 10
@@ -1150,24 +1154,24 @@
     "leaders": [
      {
       "name": "De'Andre Hunter",
-      "pts": 28,
-      "reb": 5,
+      "pts": 30,
+      "reb": 6,
       "ast": 2,
-      "min": "34:39"
+      "min": "36:58"
      },
      {
       "name": "Domantas Sabonis",
       "pts": 19,
       "reb": 16,
       "ast": 1,
-      "min": "36:05"
+      "min": "38:24"
      },
      {
       "name": "Zach LaVine",
-      "pts": 18,
-      "reb": 6,
+      "pts": 19,
+      "reb": 7,
       "ast": 4,
-      "min": "36:35"
+      "min": "38:54"
      }
     ]
    },
@@ -1203,6 +1207,10 @@
     {
      "t": 45.7,
      "m": 0
+    },
+    {
+     "t": 48.0,
+     "m": 2
     }
    ]
   }
