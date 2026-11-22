@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:51:11-08:00",
+ "updated": "2026-11-21T20:58:28-08:00",
  "board_date": "2026-11-21",
  "games": [
   {
@@ -642,92 +642,92 @@
    "game_id": "0022600279",
    "tip_utc": "2026-11-22T03:00:00Z",
    "status": 2,
-   "status_text": "Q3 2:02",
-   "period": 3,
-   "clock": "2:02",
+   "status_text": "Q4 12:00",
+   "period": 4,
+   "clock": "12:00",
    "home": {
     "team": "SAC",
-    "score": 66,
+    "score": 75,
     "periods": [
      25,
      16,
-     25,
+     34,
      0
     ],
     "stats": {
-     "fgm": 22,
-     "fga": 54,
-     "fg3m": 4,
-     "fg3a": 15,
-     "ftm": 18,
-     "fta": 24,
+     "fgm": 25,
+     "fga": 58,
+     "fg3m": 5,
+     "fg3a": 17,
+     "ftm": 20,
+     "fta": 26,
      "oreb": 9,
-     "dreb": 31,
+     "dreb": 33,
      "tov": 16,
-     "pf": 14,
-     "ast": 12,
+     "pf": 15,
+     "ast": 14,
      "stl": 3,
-     "blk": 2,
-     "pts_paint": 32,
+     "blk": 3,
+     "pts_paint": 34,
      "pts_second_chance": 7,
      "pts_fast_break": 15,
      "pts_off_tov": 10,
      "pts_bench": 13,
-     "biggest_lead": 4,
+     "biggest_lead": 8,
      "lead_changes": 5
     },
     "leaders": [
      {
       "name": "De'Andre Hunter",
-      "pts": 17,
+      "pts": 20,
       "reb": 6,
       "ast": 2,
-      "min": "29:01"
+      "min": "31:03"
+     },
+     {
+      "name": "Domantas Sabonis",
+      "pts": 14,
+      "reb": 14,
+      "ast": 4,
+      "min": "24:04"
      },
      {
       "name": "Darius Acuff Jr.",
       "pts": 12,
-      "reb": 5,
-      "ast": 5,
-      "min": "27:56"
-     },
-     {
-      "name": "Domantas Sabonis",
-      "pts": 10,
-      "reb": 13,
-      "ast": 4,
-      "min": "22:02"
+      "reb": 6,
+      "ast": 7,
+      "min": "29:58"
      }
     ]
    },
    "away": {
     "team": "BOS",
-    "score": 63,
+    "score": 67,
     "periods": [
      27,
      27,
-     9,
+     13,
      0
     ],
     "stats": {
-     "fgm": 22,
-     "fga": 74,
+     "fgm": 24,
+     "fga": 78,
      "fg3m": 9,
      "fg3a": 46,
      "ftm": 10,
-     "fta": 15,
+     "fta": 16,
      "oreb": 16,
-     "dreb": 22,
+     "dreb": 23,
      "tov": 8,
-     "pf": 20,
-     "ast": 15,
+     "pf": 22,
+     "ast": 16,
      "stl": 7,
-     "blk": 3,
-     "pts_paint": 26,
+     "blk": 4,
+     "pts_paint": 30,
      "pts_second_chance": 18,
      "pts_fast_break": 10,
      "pts_off_tov": 14,
-     "pts_bench": 18,
+     "pts_bench": 20,
      "biggest_lead": 13,
      "lead_changes": 5
     },
@@ -737,7 +737,7 @@
       "pts": 14,
       "reb": 4,
       "ast": 2,
-      "min": "22:29"
+      "min": "24:31"
      },
      {
       "name": "Paul George",
@@ -751,7 +751,7 @@
       "pts": 9,
       "reb": 6,
       "ast": 0,
-      "min": "22:28"
+      "min": "23:19"
      }
     ]
    },
@@ -775,6 +775,10 @@
     {
      "t": 34.0,
      "m": 3
+    },
+    {
+     "t": 36.0,
+     "m": 8
     }
    ]
   }
