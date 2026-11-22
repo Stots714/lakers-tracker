@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T21:05:34-08:00",
+ "updated": "2026-11-21T21:12:40-08:00",
  "board_date": "2026-11-21",
  "games": [
   {
@@ -642,27 +642,27 @@
    "game_id": "0022600279",
    "tip_utc": "2026-11-22T03:00:00Z",
    "status": 2,
-   "status_text": "Q4 9:48",
+   "status_text": "Q4 7:52",
    "period": 4,
-   "clock": "9:48",
+   "clock": "7:52",
    "home": {
     "team": "SAC",
-    "score": 76,
+    "score": 80,
     "periods": [
      25,
      16,
      35,
-     0
+     4
     ],
     "stats": {
-     "fgm": 25,
-     "fga": 60,
-     "fg3m": 5,
-     "fg3a": 19,
-     "ftm": 21,
-     "fta": 27,
+     "fgm": 26,
+     "fga": 63,
+     "fg3m": 6,
+     "fg3a": 21,
+     "ftm": 22,
+     "fta": 28,
      "oreb": 9,
-     "dreb": 34,
+     "dreb": 35,
      "tov": 17,
      "pf": 17,
      "ast": 14,
@@ -674,7 +674,7 @@
      "pts_off_tov": 10,
      "pts_bench": 13,
      "biggest_lead": 9,
-     "lead_changes": 5
+     "lead_changes": 7
     },
     "leaders": [
      {
@@ -682,7 +682,7 @@
       "pts": 20,
       "reb": 6,
       "ast": 2,
-      "min": "31:03"
+      "min": "32:58"
      },
      {
       "name": "Domantas Sabonis",
@@ -692,34 +692,34 @@
       "min": "26:16"
      },
      {
-      "name": "Darius Acuff Jr.",
-      "pts": 12,
-      "reb": 6,
-      "ast": 7,
-      "min": "29:58"
+      "name": "Zach LaVine",
+      "pts": 13,
+      "reb": 3,
+      "ast": 0,
+      "min": "21:53"
      }
     ]
    },
    "away": {
     "team": "BOS",
-    "score": 75,
+    "score": 77,
     "periods": [
      27,
      27,
      13,
-     8
+     10
     ],
     "stats": {
-     "fgm": 27,
-     "fga": 83,
+     "fgm": 28,
+     "fga": 85,
      "fg3m": 10,
-     "fg3a": 49,
+     "fg3a": 50,
      "ftm": 11,
      "fta": 17,
      "oreb": 17,
-     "dreb": 24,
-     "tov": 8,
-     "pf": 22,
+     "dreb": 26,
+     "tov": 9,
+     "pf": 24,
      "ast": 19,
      "stl": 7,
      "blk": 4,
@@ -729,15 +729,15 @@
      "pts_off_tov": 16,
      "pts_bench": 26,
      "biggest_lead": 13,
-     "lead_changes": 5
+     "lead_changes": 7
     },
     "leaders": [
      {
       "name": "Paul George",
-      "pts": 14,
+      "pts": 16,
       "reb": 5,
       "ast": 5,
-      "min": "27:19"
+      "min": "29:14"
      },
      {
       "name": "Sam Hauser",
@@ -749,9 +749,9 @@
      {
       "name": "Mike Conley",
       "pts": 13,
-      "reb": 0,
+      "reb": 2,
       "ast": 2,
-      "min": "8:38"
+      "min": "10:33"
      }
     ]
    },
@@ -783,6 +783,10 @@
     {
      "t": 38.2,
      "m": 1
+    },
+    {
+     "t": 40.1,
+     "m": 3
     }
    ]
   }
