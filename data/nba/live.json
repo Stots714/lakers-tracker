@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:44:05-08:00",
+ "updated": "2026-11-21T20:51:11-08:00",
  "board_date": "2026-11-21",
  "games": [
   {
@@ -642,102 +642,102 @@
    "game_id": "0022600279",
    "tip_utc": "2026-11-22T03:00:00Z",
    "status": 2,
-   "status_text": "Q3 4:59",
+   "status_text": "Q3 2:02",
    "period": 3,
-   "clock": "4:59",
+   "clock": "2:02",
    "home": {
     "team": "SAC",
-    "score": 60,
+    "score": 66,
     "periods": [
      25,
      16,
-     19,
+     25,
      0
     ],
     "stats": {
-     "fgm": 21,
-     "fga": 50,
-     "fg3m": 3,
-     "fg3a": 13,
-     "ftm": 15,
-     "fta": 20,
-     "oreb": 8,
-     "dreb": 27,
-     "tov": 14,
-     "pf": 12,
+     "fgm": 22,
+     "fga": 54,
+     "fg3m": 4,
+     "fg3a": 15,
+     "ftm": 18,
+     "fta": 24,
+     "oreb": 9,
+     "dreb": 31,
+     "tov": 16,
+     "pf": 14,
      "ast": 12,
      "stl": 3,
      "blk": 2,
      "pts_paint": 32,
      "pts_second_chance": 7,
      "pts_fast_break": 15,
-     "pts_off_tov": 8,
+     "pts_off_tov": 10,
      "pts_bench": 13,
      "biggest_lead": 4,
-     "lead_changes": 4
+     "lead_changes": 5
     },
     "leaders": [
      {
       "name": "De'Andre Hunter",
-      "pts": 15,
+      "pts": 17,
       "reb": 6,
-      "ast": 1,
-      "min": "26:04"
+      "ast": 2,
+      "min": "29:01"
+     },
+     {
+      "name": "Darius Acuff Jr.",
+      "pts": 12,
+      "reb": 5,
+      "ast": 5,
+      "min": "27:56"
      },
      {
       "name": "Domantas Sabonis",
       "pts": 10,
-      "reb": 8,
+      "reb": 13,
       "ast": 4,
-      "min": "19:05"
-     },
-     {
-      "name": "Darius Acuff Jr.",
-      "pts": 8,
-      "reb": 5,
-      "ast": 5,
-      "min": "24:59"
+      "min": "22:02"
      }
     ]
    },
    "away": {
     "team": "BOS",
-    "score": 60,
+    "score": 63,
     "periods": [
      27,
      27,
-     6,
+     9,
      0
     ],
     "stats": {
-     "fgm": 21,
-     "fga": 66,
+     "fgm": 22,
+     "fga": 74,
      "fg3m": 9,
-     "fg3a": 41,
-     "ftm": 9,
-     "fta": 13,
-     "oreb": 14,
-     "dreb": 20,
-     "tov": 7,
-     "pf": 18,
-     "ast": 14,
+     "fg3a": 46,
+     "ftm": 10,
+     "fta": 15,
+     "oreb": 16,
+     "dreb": 22,
+     "tov": 8,
+     "pf": 20,
+     "ast": 15,
      "stl": 7,
      "blk": 3,
-     "pts_paint": 24,
-     "pts_second_chance": 15,
+     "pts_paint": 26,
+     "pts_second_chance": 18,
      "pts_fast_break": 10,
      "pts_off_tov": 14,
-     "pts_bench": 15,
+     "pts_bench": 18,
      "biggest_lead": 13,
-     "lead_changes": 4
+     "lead_changes": 5
     },
     "leaders": [
      {
       "name": "Sam Hauser",
       "pts": 14,
-      "reb": 3,
-      "ast": 1,
-      "min": "19:32"
+      "reb": 4,
+      "ast": 2,
+      "min": "22:29"
      },
      {
       "name": "Paul George",
@@ -751,7 +751,7 @@
       "pts": 9,
       "reb": 6,
       "ast": 0,
-      "min": "21:03"
+      "min": "22:28"
      }
     ]
    },
@@ -771,6 +771,10 @@
     {
      "t": 31.0,
      "m": 0
+    },
+    {
+     "t": 34.0,
+     "m": 3
     }
    ]
   }
