@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T21:19:46-08:00",
+ "updated": "2026-11-21T22:04:14-08:00",
  "board_date": "2026-11-21",
  "games": [
   {
@@ -641,117 +641,117 @@
   {
    "game_id": "0022600279",
    "tip_utc": "2026-11-22T03:00:00Z",
-   "status": 2,
-   "status_text": "Q4 3:43",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "3:43",
+   "clock": "0:00",
    "home": {
     "team": "SAC",
-    "score": 86,
+    "score": 97,
     "periods": [
      25,
      16,
      35,
-     10
+     21
     ],
     "stats": {
-     "fgm": 29,
-     "fga": 71,
-     "fg3m": 6,
-     "fg3a": 25,
-     "ftm": 22,
-     "fta": 28,
-     "oreb": 10,
-     "dreb": 37,
-     "tov": 19,
-     "pf": 19,
+     "fgm": 32,
+     "fga": 78,
+     "fg3m": 7,
+     "fg3a": 26,
+     "ftm": 26,
+     "fta": 32,
+     "oreb": 12,
+     "dreb": 40,
+     "tov": 20,
+     "pf": 23,
      "ast": 16,
-     "stl": 5,
-     "blk": 4,
-     "pts_paint": 38,
-     "pts_second_chance": 9,
+     "stl": 4,
+     "blk": 5,
+     "pts_paint": 40,
+     "pts_second_chance": 11,
      "pts_fast_break": 17,
-     "pts_off_tov": 10,
+     "pts_off_tov": 12,
      "pts_bench": 13,
      "biggest_lead": 9,
-     "lead_changes": 8
+     "lead_changes": 15
     },
     "leaders": [
+     {
+      "name": "Darius Acuff Jr.",
+      "pts": 21,
+      "reb": 6,
+      "ast": 8,
+      "min": "39:41"
+     },
      {
       "name": "De'Andre Hunter",
       "pts": 20,
       "reb": 6,
       "ast": 2,
-      "min": "37:04"
-     },
-     {
-      "name": "Domantas Sabonis",
-      "pts": 15,
-      "reb": 15,
-      "ast": 4,
-      "min": "28:46"
+      "min": "40:51"
      },
      {
       "name": "Keegan Murray",
-      "pts": 13,
-      "reb": 9,
+      "pts": 15,
+      "reb": 12,
       "ast": 0,
-      "min": "35:51"
+      "min": "39:38"
      }
     ]
    },
    "away": {
     "team": "BOS",
-    "score": 89,
+    "score": 96,
     "periods": [
      27,
      27,
      13,
-     22
+     29
     ],
     "stats": {
-     "fgm": 32,
-     "fga": 92,
+     "fgm": 34,
+     "fga": 101,
      "fg3m": 13,
-     "fg3a": 54,
-     "ftm": 12,
-     "fta": 19,
-     "oreb": 18,
-     "dreb": 30,
+     "fg3a": 58,
+     "ftm": 15,
+     "fta": 25,
+     "oreb": 20,
+     "dreb": 32,
      "tov": 11,
-     "pf": 24,
+     "pf": 26,
      "ast": 22,
      "stl": 8,
      "blk": 4,
-     "pts_paint": 34,
-     "pts_second_chance": 23,
+     "pts_paint": 36,
+     "pts_second_chance": 28,
      "pts_fast_break": 10,
      "pts_off_tov": 19,
      "pts_bench": 34,
      "biggest_lead": 13,
-     "lead_changes": 8
+     "lead_changes": 15
     },
     "leaders": [
      {
+      "name": "Paul George",
+      "pts": 19,
+      "reb": 8,
+      "ast": 5,
+      "min": "37:07"
+     },
+     {
       "name": "Mike Conley",
       "pts": 19,
-      "reb": 2,
+      "reb": 4,
       "ast": 2,
-      "min": "14:39"
+      "min": "18:16"
      },
      {
-      "name": "Paul George",
-      "pts": 17,
+      "name": "Neemias Queta",
+      "pts": 15,
       "reb": 7,
-      "ast": 5,
-      "min": "33:20"
-     },
-     {
-      "name": "Sam Hauser",
-      "pts": 14,
-      "reb": 6,
-      "ast": 2,
-      "min": "27:26"
+      "ast": 1,
+      "min": "29:36"
      }
     ]
    },
@@ -791,6 +791,10 @@
     {
      "t": 44.3,
      "m": -3
+    },
+    {
+     "t": 48.0,
+     "m": 1
     }
    ]
   }
