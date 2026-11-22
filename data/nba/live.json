@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:16:44-08:00",
+ "updated": "2026-11-21T20:23:51-08:00",
  "board_date": "2026-11-21",
  "games": [
   {
@@ -642,9 +642,9 @@
    "game_id": "0022600279",
    "tip_utc": "2026-11-22T03:00:00Z",
    "status": 2,
-   "status_text": "Half",
-   "period": 2,
-   "clock": "0:00",
+   "status_text": "Q3 11:39",
+   "period": 3,
+   "clock": "11:39",
    "home": {
     "team": "SAC",
     "score": 41,
@@ -663,7 +663,7 @@
      "fta": 12,
      "oreb": 4,
      "dreb": 19,
-     "tov": 10,
+     "tov": 11,
      "pf": 8,
      "ast": 9,
      "stl": 1,
@@ -682,21 +682,21 @@
       "pts": 11,
       "reb": 4,
       "ast": 1,
-      "min": "19:03"
+      "min": "19:24"
      },
      {
       "name": "Keegan Murray",
       "pts": 7,
       "reb": 5,
       "ast": 0,
-      "min": "21:28"
+      "min": "21:49"
      },
      {
       "name": "Domantas Sabonis",
       "pts": 6,
       "reb": 2,
       "ast": 3,
-      "min": "12:04"
+      "min": "12:25"
      }
     ]
    },
@@ -737,27 +737,31 @@
       "pts": 12,
       "reb": 2,
       "ast": 1,
-      "min": "15:26"
+      "min": "15:47"
      },
      {
       "name": "Paul George",
       "pts": 10,
       "reb": 4,
       "ast": 3,
-      "min": "18:36"
+      "min": "18:57"
      },
      {
       "name": "Neemias Queta",
       "pts": 7,
       "reb": 4,
       "ast": 0,
-      "min": "16:17"
+      "min": "16:38"
      }
     ]
    },
    "history": [
     {
      "t": 24.0,
+     "m": -13
+    },
+    {
+     "t": 24.4,
      "m": -13
     }
    ]
