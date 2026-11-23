@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T19:37:16-08:00",
+ "updated": "2026-11-22T19:44:19-08:00",
  "board_date": "2026-11-22",
  "games": [
   {
@@ -1004,94 +1004,94 @@
    "game_id": "0022600286",
    "tip_utc": "2026-11-23T01:30:00Z",
    "status": 2,
-   "status_text": "Q4 4:33",
+   "status_text": "Q4 1:29",
    "period": 4,
-   "clock": "4:33",
+   "clock": "1:29",
    "home": {
     "team": "GSW",
-    "score": 83,
+    "score": 88,
     "periods": [
      27,
      17,
      25,
-     14
+     19
     ],
     "stats": {
-     "fgm": 31,
-     "fga": 76,
-     "fg3m": 13,
-     "fg3a": 42,
+     "fgm": 33,
+     "fga": 82,
+     "fg3m": 14,
+     "fg3a": 44,
      "ftm": 8,
      "fta": 10,
-     "oreb": 17,
+     "oreb": 19,
      "dreb": 24,
      "tov": 17,
-     "pf": 16,
-     "ast": 26,
+     "pf": 18,
+     "ast": 27,
      "stl": 8,
      "blk": 1,
-     "pts_paint": 32,
-     "pts_second_chance": 20,
+     "pts_paint": 34,
+     "pts_second_chance": 22,
      "pts_fast_break": 4,
      "pts_off_tov": 14,
      "pts_bench": 34,
      "biggest_lead": 10,
-     "lead_changes": 3
+     "lead_changes": 4
     },
     "leaders": [
+     {
+      "name": "Brandin Podziemski",
+      "pts": 18,
+      "reb": 7,
+      "ast": 2,
+      "min": "35:59"
+     },
      {
       "name": "Charles Bassey",
       "pts": 13,
       "reb": 9,
       "ast": 3,
-      "min": "22:29"
-     },
-     {
-      "name": "Brandin Podziemski",
-      "pts": 13,
-      "reb": 6,
-      "ast": 2,
-      "min": "32:48"
+      "min": "24:40"
      },
      {
       "name": "Gui Santos",
       "pts": 13,
       "reb": 5,
-      "ast": 2,
-      "min": "18:25"
+      "ast": 3,
+      "min": "21:36"
      }
     ]
    },
    "away": {
     "team": "BOS",
-    "score": 84,
+    "score": 86,
     "periods": [
      20,
      22,
      33,
-     9
+     11
     ],
     "stats": {
-     "fgm": 31,
-     "fga": 75,
+     "fgm": 32,
+     "fga": 80,
      "fg3m": 14,
-     "fg3a": 42,
+     "fg3a": 46,
      "ftm": 8,
      "fta": 10,
-     "oreb": 12,
-     "dreb": 25,
-     "tov": 15,
+     "oreb": 14,
+     "dreb": 26,
+     "tov": 16,
      "pf": 15,
      "ast": 26,
      "stl": 8,
      "blk": 1,
-     "pts_paint": 34,
+     "pts_paint": 36,
      "pts_second_chance": 13,
      "pts_fast_break": 8,
-     "pts_off_tov": 21,
+     "pts_off_tov": 23,
      "pts_bench": 31,
      "biggest_lead": 11,
-     "lead_changes": 3
+     "lead_changes": 4
     },
     "leaders": [
      {
@@ -1099,14 +1099,14 @@
       "pts": 26,
       "reb": 10,
       "ast": 6,
-      "min": "33:23"
+      "min": "36:34"
      },
      {
       "name": "Derrick White",
-      "pts": 12,
+      "pts": 14,
       "reb": 3,
       "ast": 5,
-      "min": "27:21"
+      "min": "30:32"
      },
      {
       "name": "Luka Garza",
@@ -1181,6 +1181,10 @@
     {
      "t": 43.5,
      "m": -1
+    },
+    {
+     "t": 46.5,
+     "m": 2
     }
    ]
   }
