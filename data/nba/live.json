@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:40:55-08:00",
+ "updated": "2026-11-22T18:47:58-08:00",
  "board_date": "2026-11-22",
  "games": [
   {
@@ -804,37 +804,37 @@
    "game_id": "0022600285",
    "tip_utc": "2026-11-23T01:00:00Z",
    "status": 2,
-   "status_text": "Q3 6:11",
+   "status_text": "Q3 4:54",
    "period": 3,
-   "clock": "6:11",
+   "clock": "4:54",
    "home": {
     "team": "NYK",
-    "score": 67,
+    "score": 74,
     "periods": [
      26,
      29,
-     12,
+     19,
      0
     ],
     "stats": {
-     "fgm": 24,
-     "fga": 55,
-     "fg3m": 9,
-     "fg3a": 26,
-     "ftm": 10,
-     "fta": 16,
-     "oreb": 5,
+     "fgm": 26,
+     "fga": 58,
+     "fg3m": 10,
+     "fg3a": 28,
+     "ftm": 12,
+     "fta": 18,
+     "oreb": 6,
      "dreb": 26,
-     "tov": 10,
-     "pf": 15,
-     "ast": 18,
-     "stl": 5,
-     "blk": 2,
-     "pts_paint": 24,
-     "pts_second_chance": 5,
+     "tov": 11,
+     "pf": 17,
+     "ast": 19,
+     "stl": 6,
+     "blk": 3,
+     "pts_paint": 26,
+     "pts_second_chance": 7,
      "pts_fast_break": 10,
-     "pts_off_tov": 7,
-     "pts_bench": 17,
+     "pts_off_tov": 9,
+     "pts_bench": 19,
      "biggest_lead": 12,
      "lead_changes": 11
     },
@@ -847,48 +847,48 @@
       "min": "21:41"
      },
      {
-      "name": "Jalen Brunson",
-      "pts": 14,
-      "reb": 3,
-      "ast": 4,
-      "min": "21:41"
-     },
-     {
       "name": "Landry Shamet",
-      "pts": 14,
+      "pts": 17,
       "reb": 2,
       "ast": 1,
-      "min": "23:40"
+      "min": "23:59"
+     },
+     {
+      "name": "Jalen Brunson",
+      "pts": 16,
+      "reb": 3,
+      "ast": 4,
+      "min": "22:36"
      }
     ]
    },
    "away": {
     "team": "IND",
-    "score": 64,
+    "score": 67,
     "periods": [
      26,
      25,
-     13,
+     16,
      0
     ],
     "stats": {
-     "fgm": 23,
-     "fga": 54,
+     "fgm": 24,
+     "fga": 58,
      "fg3m": 6,
      "fg3a": 18,
-     "ftm": 12,
-     "fta": 14,
-     "oreb": 5,
+     "ftm": 13,
+     "fta": 16,
+     "oreb": 7,
      "dreb": 23,
-     "tov": 6,
-     "pf": 15,
+     "tov": 7,
+     "pf": 16,
      "ast": 14,
      "stl": 3,
      "blk": 2,
-     "pts_paint": 30,
-     "pts_second_chance": 8,
+     "pts_paint": 32,
+     "pts_second_chance": 10,
      "pts_fast_break": 11,
-     "pts_off_tov": 11,
+     "pts_off_tov": 12,
      "pts_bench": 14,
      "biggest_lead": 7,
      "lead_changes": 11
@@ -903,10 +903,10 @@
      },
      {
       "name": "Andrew Nembhard",
-      "pts": 15,
+      "pts": 16,
       "reb": 3,
       "ast": 7,
-      "min": "23:07"
+      "min": "24:21"
      },
      {
       "name": "Kelly Oubre Jr.",
@@ -965,6 +965,10 @@
     {
      "t": 29.8,
      "m": 3
+    },
+    {
+     "t": 31.1,
+     "m": 7
     }
    ]
   },
@@ -1046,7 +1050,7 @@
      "fg3a": 22,
      "ftm": 4,
      "fta": 5,
-     "oreb": 8,
+     "oreb": 7,
      "dreb": 18,
      "tov": 9,
      "pf": 8,
