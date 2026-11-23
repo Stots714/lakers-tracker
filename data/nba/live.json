@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:55:01-08:00",
+ "updated": "2026-11-22T19:02:03-08:00",
  "board_date": "2026-11-22",
  "games": [
   {
@@ -804,84 +804,84 @@
    "game_id": "0022600285",
    "tip_utc": "2026-11-23T01:00:00Z",
    "status": 2,
-   "status_text": "Q3 1:58",
+   "status_text": "END Q3",
    "period": 3,
-   "clock": "1:58",
+   "clock": "0:00",
    "home": {
     "team": "NYK",
-    "score": 78,
+    "score": 89,
     "periods": [
      26,
      29,
-     23,
+     34,
      0
     ],
     "stats": {
-     "fgm": 27,
-     "fga": 63,
-     "fg3m": 10,
-     "fg3a": 30,
-     "ftm": 14,
-     "fta": 20,
+     "fgm": 31,
+     "fga": 68,
+     "fg3m": 12,
+     "fg3a": 33,
+     "ftm": 15,
+     "fta": 21,
      "oreb": 6,
-     "dreb": 30,
+     "dreb": 31,
      "tov": 12,
-     "pf": 19,
-     "ast": 19,
-     "stl": 6,
+     "pf": 21,
+     "ast": 21,
+     "stl": 7,
      "blk": 3,
-     "pts_paint": 28,
+     "pts_paint": 30,
      "pts_second_chance": 7,
-     "pts_fast_break": 10,
-     "pts_off_tov": 9,
-     "pts_bench": 19,
+     "pts_fast_break": 13,
+     "pts_off_tov": 12,
+     "pts_bench": 22,
      "biggest_lead": 12,
      "lead_changes": 11
     },
     "leaders": [
      {
       "name": "Karl-Anthony Towns",
-      "pts": 22,
+      "pts": 30,
       "reb": 11,
       "ast": 3,
-      "min": "23:32"
+      "min": "25:30"
      },
      {
       "name": "Landry Shamet",
       "pts": 17,
       "reb": 2,
-      "ast": 1,
-      "min": "27:01"
+      "ast": 2,
+      "min": "28:59"
      },
      {
       "name": "Jalen Brunson",
       "pts": 16,
       "reb": 3,
       "ast": 4,
-      "min": "22:36"
+      "min": "23:02"
      }
     ]
    },
    "away": {
     "team": "IND",
-    "score": 73,
+    "score": 78,
     "periods": [
      26,
      25,
-     22,
+     27,
      0
     ],
     "stats": {
      "fgm": 26,
-     "fga": 65,
+     "fga": 66,
      "fg3m": 6,
-     "fg3a": 20,
-     "ftm": 15,
-     "fta": 18,
+     "fg3a": 21,
+     "ftm": 20,
+     "fta": 23,
      "oreb": 7,
-     "dreb": 27,
-     "tov": 7,
-     "pf": 17,
+     "dreb": 28,
+     "tov": 8,
+     "pf": 18,
      "ast": 15,
      "stl": 4,
      "blk": 3,
@@ -889,31 +889,31 @@
      "pts_second_chance": 10,
      "pts_fast_break": 15,
      "pts_off_tov": 14,
-     "pts_bench": 20,
+     "pts_bench": 21,
      "biggest_lead": 7,
      "lead_changes": 11
     },
     "leaders": [
      {
       "name": "Pascal Siakam",
-      "pts": 18,
+      "pts": 20,
       "reb": 6,
       "ast": 0,
-      "min": "22:50"
+      "min": "24:10"
      },
      {
       "name": "Andrew Nembhard",
       "pts": 16,
       "reb": 3,
       "ast": 7,
-      "min": "24:21"
+      "min": "25:41"
      },
      {
       "name": "Kelly Oubre Jr.",
-      "pts": 9,
-      "reb": 3,
+      "pts": 11,
+      "reb": 4,
       "ast": 0,
-      "min": "20:13"
+      "min": "21:33"
      }
     ]
    },
@@ -973,6 +973,10 @@
     {
      "t": 34.0,
      "m": 5
+    },
+    {
+     "t": 36.0,
+     "m": 11
     }
    ]
   },
@@ -980,34 +984,34 @@
    "game_id": "0022600286",
    "tip_utc": "2026-11-23T01:30:00Z",
    "status": 2,
-   "status_text": "Q3 10:25",
+   "status_text": "Q3 6:21",
    "period": 3,
-   "clock": "10:25",
+   "clock": "6:21",
    "home": {
     "team": "GSW",
-    "score": 44,
+    "score": 53,
     "periods": [
      27,
      17,
-     0,
+     9,
      0
     ],
     "stats": {
-     "fgm": 15,
-     "fga": 44,
-     "fg3m": 8,
-     "fg3a": 27,
-     "ftm": 6,
-     "fta": 8,
-     "oreb": 8,
-     "dreb": 15,
-     "tov": 8,
-     "pf": 10,
-     "ast": 14,
+     "fgm": 18,
+     "fga": 52,
+     "fg3m": 9,
+     "fg3a": 31,
+     "ftm": 8,
+     "fta": 10,
+     "oreb": 12,
+     "dreb": 19,
+     "tov": 12,
+     "pf": 11,
+     "ast": 16,
      "stl": 5,
      "blk": 1,
-     "pts_paint": 14,
-     "pts_second_chance": 9,
+     "pts_paint": 16,
+     "pts_second_chance": 14,
      "pts_fast_break": 0,
      "pts_off_tov": 5,
      "pts_bench": 13,
@@ -1016,57 +1020,57 @@
     },
     "leaders": [
      {
-      "name": "Draymond Green",
-      "pts": 9,
-      "reb": 3,
-      "ast": 2,
-      "min": "16:09"
+      "name": "Charles Bassey",
+      "pts": 11,
+      "reb": 8,
+      "ast": 3,
+      "min": "19:01"
      },
      {
       "name": "Brandin Podziemski",
-      "pts": 8,
-      "reb": 4,
+      "pts": 10,
+      "reb": 5,
       "ast": 1,
-      "min": "20:15"
+      "min": "23:25"
      },
      {
-      "name": "Charles Bassey",
-      "pts": 7,
-      "reb": 6,
+      "name": "Draymond Green",
+      "pts": 9,
+      "reb": 4,
       "ast": 3,
-      "min": "15:51"
+      "min": "20:08"
      }
     ]
    },
    "away": {
     "team": "BOS",
-    "score": 48,
+    "score": 58,
     "periods": [
      20,
      22,
-     6,
+     16,
      0
     ],
     "stats": {
-     "fgm": 18,
-     "fga": 45,
-     "fg3m": 8,
-     "fg3a": 25,
+     "fgm": 22,
+     "fga": 54,
+     "fg3m": 10,
+     "fg3a": 32,
      "ftm": 4,
      "fta": 5,
-     "oreb": 7,
-     "dreb": 18,
+     "oreb": 8,
+     "dreb": 19,
      "tov": 9,
-     "pf": 8,
-     "ast": 13,
-     "stl": 4,
+     "pf": 9,
+     "ast": 18,
+     "stl": 6,
      "blk": 1,
-     "pts_paint": 20,
+     "pts_paint": 24,
      "pts_second_chance": 5,
-     "pts_fast_break": 6,
-     "pts_off_tov": 12,
+     "pts_fast_break": 8,
+     "pts_off_tov": 17,
      "pts_bench": 23,
-     "biggest_lead": 4,
+     "biggest_lead": 10,
      "lead_changes": 1
     },
     "leaders": [
@@ -1075,21 +1079,21 @@
       "pts": 23,
       "reb": 8,
       "ast": 3,
-      "min": "21:16"
+      "min": "25:15"
+     },
+     {
+      "name": "Derrick White",
+      "pts": 7,
+      "reb": 3,
+      "ast": 4,
+      "min": "20:58"
      },
      {
       "name": "Mike Conley",
       "pts": 6,
-      "reb": 1,
-      "ast": 2,
-      "min": "8:40"
-     },
-     {
-      "name": "Payton Pritchard",
-      "pts": 5,
-      "reb": 0,
-      "ast": 2,
-      "min": "13:31"
+      "reb": 2,
+      "ast": 4,
+      "min": "12:39"
      }
     ]
    },
@@ -1133,6 +1137,10 @@
     {
      "t": 25.6,
      "m": -4
+    },
+    {
+     "t": 29.6,
+     "m": -5
     }
    ]
   }
