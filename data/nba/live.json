@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T19:09:06-08:00",
+ "updated": "2026-11-22T19:16:09-08:00",
  "board_date": "2026-11-22",
  "games": [
   {
@@ -804,30 +804,30 @@
    "game_id": "0022600285",
    "tip_utc": "2026-11-23T01:00:00Z",
    "status": 2,
-   "status_text": "Q4 9:17",
+   "status_text": "Q4 6:47",
    "period": 4,
-   "clock": "9:17",
+   "clock": "6:47",
    "home": {
     "team": "NYK",
-    "score": 92,
+    "score": 98,
     "periods": [
      26,
      29,
      34,
-     3
+     9
     ],
     "stats": {
-     "fgm": 32,
-     "fga": 73,
-     "fg3m": 13,
-     "fg3a": 35,
+     "fgm": 34,
+     "fga": 78,
+     "fg3m": 15,
+     "fg3a": 40,
      "ftm": 15,
      "fta": 21,
      "oreb": 8,
-     "dreb": 32,
-     "tov": 12,
-     "pf": 25,
-     "ast": 22,
+     "dreb": 34,
+     "tov": 13,
+     "pf": 27,
+     "ast": 24,
      "stl": 7,
      "blk": 3,
      "pts_paint": 30,
@@ -847,46 +847,46 @@
       "min": "26:22"
      },
      {
+      "name": "Jalen Brunson",
+      "pts": 19,
+      "reb": 3,
+      "ast": 5,
+      "min": "25:32"
+     },
+     {
       "name": "Landry Shamet",
       "pts": 17,
       "reb": 2,
       "ast": 3,
       "min": "31:42"
-     },
-     {
-      "name": "Jalen Brunson",
-      "pts": 16,
-      "reb": 3,
-      "ast": 4,
-      "min": "23:02"
      }
     ]
    },
    "away": {
     "team": "IND",
-    "score": 84,
+    "score": 87,
     "periods": [
      26,
      25,
      27,
-     6
+     9
     ],
     "stats": {
-     "fgm": 28,
-     "fga": 69,
+     "fgm": 29,
+     "fga": 73,
      "fg3m": 6,
      "fg3a": 21,
-     "ftm": 22,
-     "fta": 26,
+     "ftm": 23,
+     "fta": 27,
      "oreb": 7,
-     "dreb": 30,
-     "tov": 8,
+     "dreb": 33,
+     "tov": 10,
      "pf": 19,
      "ast": 16,
-     "stl": 4,
+     "stl": 5,
      "blk": 3,
-     "pts_paint": 40,
-     "pts_second_chance": 10,
+     "pts_paint": 42,
+     "pts_second_chance": 13,
      "pts_fast_break": 15,
      "pts_off_tov": 14,
      "pts_bench": 21,
@@ -899,21 +899,21 @@
       "pts": 22,
       "reb": 6,
       "ast": 1,
-      "min": "26:53"
+      "min": "29:23"
      },
      {
       "name": "Andrew Nembhard",
       "pts": 16,
-      "reb": 3,
+      "reb": 2,
       "ast": 7,
-      "min": "28:24"
+      "min": "30:54"
      },
      {
       "name": "Kelly Oubre Jr.",
-      "pts": 11,
-      "reb": 4,
+      "pts": 14,
+      "reb": 5,
       "ast": 0,
-      "min": "24:16"
+      "min": "26:46"
      }
     ]
    },
@@ -981,6 +981,10 @@
     {
      "t": 38.7,
      "m": 8
+    },
+    {
+     "t": 41.2,
+     "m": 11
     }
    ]
   },
@@ -988,37 +992,37 @@
    "game_id": "0022600286",
    "tip_utc": "2026-11-23T01:30:00Z",
    "status": 2,
-   "status_text": "Q3 3:52",
+   "status_text": "Q3 :06.3",
    "period": 3,
-   "clock": "3:52",
+   "clock": "0:06",
    "home": {
     "team": "GSW",
-    "score": 58,
+    "score": 66,
     "periods": [
      27,
      17,
-     14,
+     22,
      0
     ],
     "stats": {
-     "fgm": 20,
-     "fga": 55,
+     "fgm": 24,
+     "fga": 63,
      "fg3m": 10,
-     "fg3a": 32,
+     "fg3a": 35,
      "ftm": 8,
      "fta": 10,
-     "oreb": 13,
-     "dreb": 19,
+     "oreb": 14,
+     "dreb": 21,
      "tov": 14,
-     "pf": 13,
-     "ast": 17,
-     "stl": 6,
+     "pf": 15,
+     "ast": 20,
+     "stl": 8,
      "blk": 1,
-     "pts_paint": 18,
-     "pts_second_chance": 16,
-     "pts_fast_break": 0,
-     "pts_off_tov": 8,
-     "pts_bench": 18,
+     "pts_paint": 24,
+     "pts_second_chance": 18,
+     "pts_fast_break": 4,
+     "pts_off_tov": 12,
+     "pts_bench": 26,
      "biggest_lead": 10,
      "lead_changes": 1
     },
@@ -1033,9 +1037,9 @@
      {
       "name": "Brandin Podziemski",
       "pts": 10,
-      "reb": 5,
+      "reb": 6,
       "ast": 1,
-      "min": "23:25"
+      "min": "27:13"
      },
      {
       "name": "Draymond Green",
@@ -1048,42 +1052,49 @@
    },
    "away": {
     "team": "BOS",
-    "score": 64,
+    "score": 75,
     "periods": [
      20,
      22,
-     22,
+     33,
      0
     ],
     "stats": {
-     "fgm": 24,
-     "fga": 59,
-     "fg3m": 12,
-     "fg3a": 36,
-     "ftm": 4,
-     "fta": 5,
+     "fgm": 27,
+     "fga": 63,
+     "fg3m": 13,
+     "fg3a": 38,
+     "ftm": 8,
+     "fta": 10,
      "oreb": 10,
-     "dreb": 19,
-     "tov": 10,
-     "pf": 10,
-     "ast": 20,
+     "dreb": 22,
+     "tov": 12,
+     "pf": 11,
+     "ast": 23,
      "stl": 6,
      "blk": 1,
-     "pts_paint": 24,
+     "pts_paint": 28,
      "pts_second_chance": 11,
      "pts_fast_break": 8,
-     "pts_off_tov": 17,
-     "pts_bench": 23,
-     "biggest_lead": 10,
+     "pts_off_tov": 19,
+     "pts_bench": 31,
+     "biggest_lead": 11,
      "lead_changes": 1
     },
     "leaders": [
      {
       "name": "Jayson Tatum",
-      "pts": 23,
-      "reb": 8,
-      "ast": 3,
-      "min": "27:47"
+      "pts": 26,
+      "reb": 9,
+      "ast": 5,
+      "min": "31:35"
+     },
+     {
+      "name": "Luka Garza",
+      "pts": 10,
+      "reb": 4,
+      "ast": 0,
+      "min": "14:45"
      },
      {
       "name": "Derrick White",
@@ -1091,13 +1102,6 @@
       "reb": 3,
       "ast": 4,
       "min": "21:03"
-     },
-     {
-      "name": "Hugo González",
-      "pts": 6,
-      "reb": 0,
-      "ast": 0,
-      "min": "9:29"
      }
     ]
    },
@@ -1149,6 +1153,10 @@
     {
      "t": 32.1,
      "m": -6
+    },
+    {
+     "t": 35.9,
+     "m": -9
     }
    ]
   }
