@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:50:42-08:00",
+ "updated": "2026-11-24T18:57:45-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
@@ -158,37 +158,37 @@
    "game_id": "0022600053",
    "tip_utc": "2026-11-25T01:00:00Z",
    "status": 2,
-   "status_text": "Q3 3:13",
+   "status_text": "Q3 :11.0",
    "period": 3,
-   "clock": "3:13",
+   "clock": "0:11",
    "home": {
     "team": "WAS",
-    "score": 81,
+    "score": 89,
     "periods": [
      28,
      21,
-     32,
+     40,
      0
     ],
     "stats": {
-     "fgm": 29,
-     "fga": 64,
-     "fg3m": 9,
-     "fg3a": 26,
-     "ftm": 14,
-     "fta": 17,
-     "oreb": 11,
-     "dreb": 20,
-     "tov": 12,
-     "pf": 11,
-     "ast": 18,
+     "fgm": 31,
+     "fga": 69,
+     "fg3m": 11,
+     "fg3a": 30,
+     "ftm": 16,
+     "fta": 19,
+     "oreb": 12,
+     "dreb": 21,
+     "tov": 13,
+     "pf": 15,
+     "ast": 20,
      "stl": 5,
      "blk": 1,
      "pts_paint": 32,
-     "pts_second_chance": 6,
+     "pts_second_chance": 8,
      "pts_fast_break": 10,
-     "pts_off_tov": 13,
-     "pts_bench": 5,
+     "pts_off_tov": 15,
+     "pts_bench": 11,
      "biggest_lead": 2,
      "lead_changes": 1
     },
@@ -198,7 +198,7 @@
       "pts": 27,
       "reb": 12,
       "ast": 1,
-      "min": "28:01"
+      "min": "29:22"
      },
      {
       "name": "Kyshawn George",
@@ -212,38 +212,38 @@
       "pts": 15,
       "reb": 7,
       "ast": 6,
-      "min": "28:07"
+      "min": "29:28"
      }
     ]
    },
    "away": {
     "team": "BOS",
-    "score": 94,
+    "score": 104,
     "periods": [
      34,
      46,
-     14,
+     24,
      0
     ],
     "stats": {
-     "fgm": 35,
-     "fga": 66,
-     "fg3m": 16,
-     "fg3a": 31,
-     "ftm": 8,
-     "fta": 10,
+     "fgm": 38,
+     "fga": 71,
+     "fg3m": 18,
+     "fg3a": 34,
+     "ftm": 10,
+     "fta": 14,
      "oreb": 7,
-     "dreb": 21,
-     "tov": 9,
-     "pf": 19,
+     "dreb": 23,
+     "tov": 10,
+     "pf": 21,
      "ast": 23,
      "stl": 8,
-     "blk": 3,
+     "blk": 4,
      "pts_paint": 36,
-     "pts_second_chance": 8,
-     "pts_fast_break": 10,
+     "pts_second_chance": 11,
+     "pts_fast_break": 13,
      "pts_off_tov": 23,
-     "pts_bench": 13,
+     "pts_bench": 18,
      "biggest_lead": 34,
      "lead_changes": 1
     },
@@ -257,10 +257,10 @@
      },
      {
       "name": "Paul George",
-      "pts": 23,
+      "pts": 28,
       "reb": 4,
       "ast": 7,
-      "min": "24:54"
+      "min": "27:54"
      },
      {
       "name": "Neemias Queta",
@@ -319,6 +319,10 @@
     {
      "t": 32.8,
      "m": -13
+    },
+    {
+     "t": 35.8,
+     "m": -15
     }
    ]
   },
@@ -326,9 +330,9 @@
    "game_id": "0022600054",
    "tip_utc": "2026-11-25T03:00:00Z",
    "status": 1,
-   "status_text": "10:00 pm ET",
+   "status_text": "pregame",
    "period": 0,
-   "clock": "",
+   "clock": "0:00",
    "home": {
     "team": "DEN",
     "score": 0,
@@ -337,7 +341,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "away": {
     "team": "DAL",
@@ -347,7 +374,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "history": []
   }
