@@ -15,7 +15,8 @@ PC's update, with the same columns:
 
 Safety, as on the PC: a final game is kept only when its box score agrees with itself (team points = final score =
 the quarters added up = the players' points added up, and not tied); otherwise it is held back and read again next
-run, and the game's earlier rows, if any, stay. Box scores from the last seven days are read again for late stat
+run, and the game's earlier rows, if any, stay. Games the live scoreboard already shows final are read even
+before the season schedule file marks them final (it lags by an hour or more). Box scores from the last seven days are read again for late stat
 corrections (the first side-by-side run found stats.nba.com carrying corrections that the older box scores here did
 not, e.g. points moved between two players). Every file is written to a temporary file and swapped in.
 
@@ -198,7 +199,9 @@ def write(path, rows, cols):
     os.replace(tmp, path)
 
 
-def run(out, refresh_days=7, injuries=True, opener=urllib.request.urlopen, sleep=time.sleep, now=None, log=print):
+def run(out, refresh_days=7, injuries=True, opener=urllib.request.urlopen, sleep=time.sleep, now=None, log=print, final_ids=()):
+    """final_ids: games the live scoreboard already shows final. The season schedule file marks games final
+    later (the first tick on Nov 24 found it an hour behind), so these are read whatever the schedule says."""
     now = now or dt.datetime.now(dt.timezone.utc)
     today = now.astimezone(EASTERN).date()
     steps = {}
@@ -213,7 +216,8 @@ def run(out, refresh_days=7, injuries=True, opener=urllib.request.urlopen, sleep
         return 1
     old = {f: read(out / f) for f in COLS}
     have = {r["game_id"] for r in old["league_box.csv"]}
-    finals = [g for g in games if g["status"] == 3]
+    hinted = set(final_ids or ())
+    finals = [g for g in games if g["status"] == 3 or g["game_id"] in hinted]
     recent = (today - dt.timedelta(days=refresh_days)).isoformat()
     todo = [g for g in finals if g["game_id"] not in have or g["date"] >= recent]
     fresh, held = {}, []

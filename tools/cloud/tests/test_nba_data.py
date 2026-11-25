@@ -138,6 +138,14 @@ class NbaData(unittest.TestCase):
         m = json.loads((self.out / "manifest.json").read_text())
         self.assertEqual([h["game_id"] for h in m["held_back"]], ["0022600002"])
 
+    def test_game_final_on_the_scoreboard_is_read_before_the_schedule_says_so(self):
+        op = Opener(pages(set(), {"0022600001": game("0022600001")}))
+        self.assertEqual(nd.run(self.out, injuries=False, opener=op, sleep=lambda s: None, now=NOW, log=self.logs.append,
+                                final_ids=["0022600001"]), 0)
+        res = {r["game_id"]: r for r in nd.read(self.out / "league_results.csv")}
+        self.assertEqual((res["0022600001"]["home_pts"], res["0022600001"]["away_pts"]), ("110", "97"))
+        self.assertEqual(res["0022600002"]["home_pts"], "")
+
     def test_old_games_are_not_read_again(self):
         old = {f"00226{i:05d}" for i in range(1, 4)}  # dated Oct 20: older than two days
         op = Opener(pages(old, {g: game(g) for g in old}))

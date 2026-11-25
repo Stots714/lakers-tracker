@@ -96,6 +96,16 @@ class Due(Base):
         self.run_tick(now, [g("0022600300", 3, "2026-11-26T03:30:00Z")])
         self.assertIn("nba_data", self.names())
 
+    def test_final_game_read_passes_the_scoreboard_finals_and_checks_one_day(self):
+        self.config()
+        now = dt.datetime(2026, 11, 26, 6, 30, tzinfo=UTC)
+        self.manifest(now - dt.timedelta(minutes=20))
+        seen = {}
+        steps = self.steps([g("0022600300", 3, "2026-11-26T03:30:00Z"), g("0022600301", 2, "2026-11-26T04:00:00Z")])
+        steps["nba_data"] = lambda out, days, inj, log, final_ids: seen.update(days=days, final_ids=final_ids) or 0
+        tick.run(now=now, root=self.root, log=self.logs.append, steps=steps)
+        self.assertEqual(seen, {"days": 1, "final_ids": ["0022600300"]})
+
     def test_final_game_not_reread_within_15_minutes(self):
         self.config()
         now = dt.datetime(2026, 11, 26, 6, 30, tzinfo=UTC)

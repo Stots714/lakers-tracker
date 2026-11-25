@@ -199,7 +199,11 @@ def run(now=None, root=ROOT, log=print, steps=None):
             return None
         import nba_data
         log(f"game data: {why}")
-        code = (steps.get("nba_data") or nba_data.run)(out, 7, True, log=log)
+        # A final just in: read it (the live scoreboard's word, before the schedule file catches up) and re-check
+        # only the last day; the morning and 6-hourly reads re-check the last 7 days for late stat corrections
+        finals = [g["game_id"] for g in games if g["status"] == 3]
+        days = 1 if why.endswith("not on file") else 7
+        code = (steps.get("nba_data") or nba_data.run)(out, days, True, log=log, final_ids=finals)
         if writer == "pc":
             import compare
             (steps.get("compare") or compare_files)(root, out, compare, log)
