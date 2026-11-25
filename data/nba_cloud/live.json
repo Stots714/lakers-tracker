@@ -1,398 +1,267 @@
 {
- "updated": "2026-11-25T05:40:21+00:00",
- "board_date": "2026-11-24",
+ "updated": "2026-11-25T17:00:32+00:00",
+ "board_date": "2026-11-25",
  "games": [
   {
-   "game_id": "0022600052",
-   "tip_utc": "2026-11-25T00:00:00Z",
-   "status": 3,
-   "status_text": "Final",
-   "period": 4,
-   "clock": "0:00",
+   "game_id": "0022600055",
+   "tip_utc": "2026-11-25T22:00:00Z",
+   "status": 1,
+   "status_text": "5:00 pm ET",
+   "period": 0,
+   "clock": "",
    "home": {
-    "team": "ORL",
-    "score": 86,
+    "team": "PHI",
+    "score": 0,
     "periods": [
-     22,
-     14,
-     25,
-     25
-    ],
-    "stats": {
-     "fgm": 34,
-     "fga": 83,
-     "fg3m": 12,
-     "fg3a": 36,
-     "ftm": 6,
-     "fta": 8,
-     "oreb": 10,
-     "dreb": 31,
-     "tov": 20,
-     "pf": 24,
-     "ast": 22,
-     "stl": 8,
-     "blk": 4,
-     "pts_paint": 38,
-     "pts_second_chance": 9,
-     "pts_fast_break": 9,
-     "pts_off_tov": 24,
-     "pts_bench": 27,
-     "biggest_lead": 7,
-     "lead_changes": 6
-    },
-    "leaders": [
-     {
-      "name": "Desmond Bane",
-      "pts": 21,
-      "reb": 1,
-      "ast": 5,
-      "min": "33:58"
-     },
-     {
-      "name": "Franz Wagner",
-      "pts": 20,
-      "reb": 9,
-      "ast": 6,
-      "min": "37:50"
-     },
-     {
-      "name": "Tristan da Silva",
-      "pts": 16,
-      "reb": 3,
-      "ast": 1,
-      "min": "33:15"
-     }
+     0,
+     0,
+     0,
+     0
     ]
    },
    "away": {
-    "team": "DET",
-    "score": 104,
+    "team": "MIA",
+    "score": 0,
     "periods": [
-     16,
-     32,
-     25,
-     31
-    ],
-    "stats": {
-     "fgm": 39,
-     "fga": 79,
-     "fg3m": 15,
-     "fg3a": 36,
-     "ftm": 11,
-     "fta": 15,
-     "oreb": 8,
-     "dreb": 34,
-     "tov": 16,
-     "pf": 17,
-     "ast": 27,
-     "stl": 12,
-     "blk": 6,
-     "pts_paint": 40,
-     "pts_second_chance": 10,
-     "pts_fast_break": 19,
-     "pts_off_tov": 16,
-     "pts_bench": 37,
-     "biggest_lead": 18,
-     "lead_changes": 6
-    },
-    "leaders": [
-     {
-      "name": "Isaiah Joe",
-      "pts": 21,
-      "reb": 4,
-      "ast": 0,
-      "min": "30:00"
-     },
-     {
-      "name": "Daniss Jenkins",
-      "pts": 15,
-      "reb": 5,
-      "ast": 10,
-      "min": "34:55"
-     },
-     {
-      "name": "Kevin Huerter",
-      "pts": 13,
-      "reb": 6,
-      "ast": 5,
-      "min": "32:27"
-     }
+     0,
+     0,
+     0,
+     0
     ]
    },
-   "history": [
-    {
-     "t": 46.4,
-     "m": -15
-    },
-    {
-     "t": 48.0,
-     "m": -18
-    }
-   ]
+   "history": []
   },
   {
-   "game_id": "0022600053",
-   "tip_utc": "2026-11-25T01:00:00Z",
-   "status": 3,
-   "status_text": "Final",
-   "period": 4,
-   "clock": "0:00",
+   "game_id": "0022600056",
+   "tip_utc": "2026-11-26T00:00:00Z",
+   "status": 1,
+   "status_text": "7:00 pm ET",
+   "period": 0,
+   "clock": "",
    "home": {
-    "team": "WAS",
-    "score": 116,
+    "team": "CHA",
+    "score": 0,
     "periods": [
-     28,
-     21,
-     40,
-     27
-    ],
-    "stats": {
-     "fgm": 41,
-     "fga": 92,
-     "fg3m": 12,
-     "fg3a": 36,
-     "ftm": 22,
-     "fta": 26,
-     "oreb": 14,
-     "dreb": 34,
-     "tov": 14,
-     "pf": 23,
-     "ast": 25,
-     "stl": 5,
-     "blk": 3,
-     "pts_paint": 48,
-     "pts_second_chance": 12,
-     "pts_fast_break": 16,
-     "pts_off_tov": 15,
-     "pts_bench": 15,
-     "biggest_lead": 2,
-     "lead_changes": 1
-    },
-    "leaders": [
-     {
-      "name": "Anthony Davis",
-      "pts": 33,
-      "reb": 13,
-      "ast": 1,
-      "min": "36:38"
-     },
-     {
-      "name": "Kyshawn George",
-      "pts": 24,
-      "reb": 9,
-      "ast": 3,
-      "min": "38:25"
-     },
-     {
-      "name": "AJ Dybantsa",
-      "pts": 20,
-      "reb": 11,
-      "ast": 7,
-      "min": "40:38"
-     }
+     0,
+     0,
+     0,
+     0
     ]
    },
    "away": {
-    "team": "BOS",
-    "score": 131,
+    "team": "CHI",
+    "score": 0,
     "periods": [
-     34,
-     46,
-     24,
-     27
-    ],
-    "stats": {
-     "fgm": 46,
-     "fga": 100,
-     "fg3m": 22,
-     "fg3a": 51,
-     "ftm": 17,
-     "fta": 25,
-     "oreb": 13,
-     "dreb": 33,
-     "tov": 10,
-     "pf": 24,
-     "ast": 30,
-     "stl": 8,
-     "blk": 6,
-     "pts_paint": 44,
-     "pts_second_chance": 15,
-     "pts_fast_break": 15,
-     "pts_off_tov": 23,
-     "pts_bench": 31,
-     "biggest_lead": 34,
-     "lead_changes": 1
-    },
-    "leaders": [
-     {
-      "name": "Jayson Tatum",
-      "pts": 41,
-      "reb": 6,
-      "ast": 8,
-      "min": "37:08"
-     },
-     {
-      "name": "Paul George",
-      "pts": 28,
-      "reb": 4,
-      "ast": 9,
-      "min": "32:55"
-     },
-     {
-      "name": "Neemias Queta",
-      "pts": 21,
-      "reb": 5,
-      "ast": 2,
-      "min": "24:58"
-     }
+     0,
+     0,
+     0,
+     0
     ]
    },
-   "history": [
-    {
-     "t": 24.0,
-     "m": -31
-    },
-    {
-     "t": 48.0,
-     "m": -15
-    }
-   ]
+   "history": []
   },
   {
-   "game_id": "0022600054",
-   "tip_utc": "2026-11-25T03:00:00Z",
-   "status": 3,
-   "status_text": "Final",
-   "period": 4,
-   "clock": "0:00",
+   "game_id": "0022600057",
+   "tip_utc": "2026-11-26T00:30:00Z",
+   "status": 1,
+   "status_text": "7:30 pm ET",
+   "period": 0,
+   "clock": "",
    "home": {
-    "team": "DEN",
-    "score": 101,
+    "team": "NYK",
+    "score": 0,
     "periods": [
-     17,
-     22,
-     38,
-     24
-    ],
-    "stats": {
-     "fgm": 34,
-     "fga": 84,
-     "fg3m": 12,
-     "fg3a": 39,
-     "ftm": 21,
-     "fta": 24,
-     "oreb": 11,
-     "dreb": 29,
-     "tov": 18,
-     "pf": 18,
-     "ast": 22,
-     "stl": 6,
-     "blk": 7,
-     "pts_paint": 38,
-     "pts_second_chance": 20,
-     "pts_fast_break": 7,
-     "pts_off_tov": 12,
-     "pts_bench": 30,
-     "biggest_lead": 5,
-     "lead_changes": 3
-    },
-    "leaders": [
-     {
-      "name": "Jamal Murray",
-      "pts": 20,
-      "reb": 2,
-      "ast": 3,
-      "min": "35:40"
-     },
-     {
-      "name": "Nikola Jokić",
-      "pts": 18,
-      "reb": 11,
-      "ast": 5,
-      "min": "32:30"
-     },
-     {
-      "name": "Cameron Johnson",
-      "pts": 17,
-      "reb": 5,
-      "ast": 3,
-      "min": "33:35"
-     }
+     0,
+     0,
+     0,
+     0
     ]
    },
    "away": {
-    "team": "DAL",
-    "score": 120,
+    "team": "CLE",
+    "score": 0,
     "periods": [
-     24,
-     34,
-     26,
-     36
-    ],
-    "stats": {
-     "fgm": 48,
-     "fga": 99,
-     "fg3m": 11,
-     "fg3a": 38,
-     "ftm": 13,
-     "fta": 20,
-     "oreb": 15,
-     "dreb": 34,
-     "tov": 13,
-     "pf": 17,
-     "ast": 31,
-     "stl": 13,
-     "blk": 7,
-     "pts_paint": 68,
-     "pts_second_chance": 24,
-     "pts_fast_break": 35,
-     "pts_off_tov": 26,
-     "pts_bench": 47,
-     "biggest_lead": 22,
-     "lead_changes": 3
-    },
-    "leaders": [
-     {
-      "name": "Cooper Flagg",
-      "pts": 24,
-      "reb": 6,
-      "ast": 12,
-      "min": "31:27"
-     },
-     {
-      "name": "P.J. Washington",
-      "pts": 14,
-      "reb": 6,
-      "ast": 0,
-      "min": "24:37"
-     },
-     {
-      "name": "Naji Marshall",
-      "pts": 14,
-      "reb": 1,
-      "ast": 2,
-      "min": "22:01"
-     }
+     0,
+     0,
+     0,
+     0
     ]
    },
-   "history": [
-    {
-     "t": 18.7,
-     "m": -11
-    },
-    {
-     "t": 26.9,
-     "m": -13
-    },
-    {
-     "t": 38.6,
-     "m": -14
-    },
-    {
-     "t": 48.0,
-     "m": -19
-    }
-   ]
+   "history": []
+  },
+  {
+   "game_id": "0022600058",
+   "tip_utc": "2026-11-26T00:30:00Z",
+   "status": 1,
+   "status_text": "7:30 pm ET",
+   "period": 0,
+   "clock": "",
+   "home": {
+    "team": "OKC",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "away": {
+    "team": "MIN",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "history": []
+  },
+  {
+   "game_id": "0022600059",
+   "tip_utc": "2026-11-26T01:00:00Z",
+   "status": 1,
+   "status_text": "8:00 pm ET",
+   "period": 0,
+   "clock": "",
+   "home": {
+    "team": "MEM",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "away": {
+    "team": "LAC",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "history": []
+  },
+  {
+   "game_id": "0022600060",
+   "tip_utc": "2026-11-26T01:00:00Z",
+   "status": 1,
+   "status_text": "8:00 pm ET",
+   "period": 0,
+   "clock": "",
+   "home": {
+    "team": "MIL",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "away": {
+    "team": "BKN",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "history": []
+  },
+  {
+   "game_id": "0022600061",
+   "tip_utc": "2026-11-26T01:30:00Z",
+   "status": 1,
+   "status_text": "8:30 pm ET",
+   "period": 0,
+   "clock": "",
+   "home": {
+    "team": "HOU",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "away": {
+    "team": "PHX",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "history": []
+  },
+  {
+   "game_id": "0022600062",
+   "tip_utc": "2026-11-26T03:00:00Z",
+   "status": 1,
+   "status_text": "10:00 pm ET",
+   "period": 0,
+   "clock": "",
+   "home": {
+    "team": "GSW",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "away": {
+    "team": "SAC",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "history": []
+  },
+  {
+   "game_id": "0022600063",
+   "tip_utc": "2026-11-26T03:00:00Z",
+   "status": 1,
+   "status_text": "10:00 pm ET",
+   "period": 0,
+   "clock": "",
+   "home": {
+    "team": "POR",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "away": {
+    "team": "SAS",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "history": []
   }
  ],
  "source": "NBA.com live data via nba_api (cdn.nba.com)"
