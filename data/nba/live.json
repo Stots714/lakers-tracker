@@ -1,107 +1,114 @@
 {
- "updated": "2026-11-24T18:03:06-08:00",
+ "updated": "2026-11-24T18:10:14-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
    "game_id": "0022600052",
    "tip_utc": "2026-11-25T00:00:00Z",
    "status": 2,
-   "status_text": "Q4 6:59",
+   "status_text": "Q4 4:07",
    "period": 4,
-   "clock": "6:59",
+   "clock": "4:07",
    "home": {
     "team": "ORL",
-    "score": 71,
+    "score": 79,
     "periods": [
      22,
      14,
      25,
-     10
+     18
     ],
     "stats": {
-     "fgm": 27,
-     "fga": 70,
+     "fgm": 31,
+     "fga": 75,
      "fg3m": 11,
-     "fg3a": 31,
+     "fg3a": 32,
      "ftm": 6,
      "fta": 8,
      "oreb": 10,
-     "dreb": 28,
+     "dreb": 30,
      "tov": 20,
-     "pf": 20,
-     "ast": 18,
+     "pf": 21,
+     "ast": 20,
      "stl": 8,
-     "blk": 4,
-     "pts_paint": 28,
+     "blk": 5,
+     "pts_paint": 34,
      "pts_second_chance": 9,
      "pts_fast_break": 9,
      "pts_off_tov": 19,
-     "pts_bench": 25,
+     "pts_bench": 27,
      "biggest_lead": 7,
      "lead_changes": 6
     },
     "leaders": [
      {
+      "name": "Franz Wagner",
+      "pts": 18,
+      "reb": 9,
+      "ast": 5,
+      "min": "34:42"
+     },
+     {
       "name": "Desmond Bane",
       "pts": 16,
       "reb": 1,
       "ast": 5,
-      "min": "28:48"
-     },
-     {
-      "name": "Franz Wagner",
-      "pts": 14,
-      "reb": 8,
-      "ast": 4,
-      "min": "31:57"
+      "min": "31:33"
      },
      {
       "name": "Tristan da Silva",
-      "pts": 14,
+      "pts": 16,
       "reb": 3,
       "ast": 1,
-      "min": "27:22"
+      "min": "30:07"
      }
     ]
    },
    "away": {
     "team": "DET",
-    "score": 88,
+    "score": 94,
     "periods": [
      16,
      32,
      25,
-     15
+     21
     ],
     "stats": {
-     "fgm": 35,
-     "fga": 69,
-     "fg3m": 12,
-     "fg3a": 31,
-     "ftm": 6,
-     "fta": 9,
-     "oreb": 6,
-     "dreb": 29,
+     "fgm": 37,
+     "fga": 75,
+     "fg3m": 13,
+     "fg3a": 32,
+     "ftm": 7,
+     "fta": 10,
+     "oreb": 8,
+     "dreb": 30,
      "tov": 14,
      "pf": 15,
-     "ast": 26,
+     "ast": 27,
      "stl": 12,
      "blk": 5,
-     "pts_paint": 38,
-     "pts_second_chance": 6,
+     "pts_paint": 40,
+     "pts_second_chance": 9,
      "pts_fast_break": 19,
      "pts_off_tov": 16,
-     "pts_bench": 36,
+     "pts_bench": 37,
      "biggest_lead": 18,
      "lead_changes": 6
     },
     "leaders": [
      {
+      "name": "Isaiah Joe",
+      "pts": 15,
+      "reb": 4,
+      "ast": 0,
+      "min": "26:52"
+     },
+     {
       "name": "Daniss Jenkins",
       "pts": 15,
       "reb": 4,
-      "ast": 9,
-      "min": "30:14"
+      "ast": 10,
+      "min": "30:41"
      },
      {
       "name": "Kevin Huerter",
@@ -109,13 +116,6 @@
       "reb": 5,
       "ast": 5,
       "min": "30:37"
-     },
-     {
-      "name": "Ronald Holland II",
-      "pts": 13,
-      "reb": 3,
-      "ast": 1,
-      "min": "16:45"
      }
     ]
    },
@@ -143,6 +143,10 @@
     {
      "t": 41.0,
      "m": -17
+    },
+    {
+     "t": 43.9,
+     "m": -15
     }
    ]
   },
@@ -150,33 +154,33 @@
    "game_id": "0022600053",
    "tip_utc": "2026-11-25T01:00:00Z",
    "status": 2,
-   "status_text": "Q2 4:13",
+   "status_text": "Q2 :30.5",
    "period": 2,
-   "clock": "4:13",
+   "clock": "0:30",
    "home": {
     "team": "WAS",
-    "score": 37,
+    "score": 46,
     "periods": [
      28,
-     9,
+     18,
      0,
      0
     ],
     "stats": {
-     "fgm": 14,
-     "fga": 38,
-     "fg3m": 4,
-     "fg3a": 15,
-     "ftm": 5,
-     "fta": 5,
-     "oreb": 7,
-     "dreb": 12,
-     "tov": 10,
-     "pf": 8,
-     "ast": 8,
+     "fgm": 17,
+     "fga": 46,
+     "fg3m": 5,
+     "fg3a": 19,
+     "ftm": 7,
+     "fta": 9,
+     "oreb": 8,
+     "dreb": 13,
+     "tov": 12,
+     "pf": 9,
+     "ast": 9,
      "stl": 5,
      "blk": 1,
-     "pts_paint": 12,
+     "pts_paint": 16,
      "pts_second_chance": 4,
      "pts_fast_break": 7,
      "pts_off_tov": 9,
@@ -190,76 +194,76 @@
       "pts": 14,
       "reb": 3,
       "ast": 1,
-      "min": "15:21"
+      "min": "19:01"
      },
      {
       "name": "Anthony Davis",
-      "pts": 11,
+      "pts": 14,
       "reb": 7,
       "ast": 1,
-      "min": "15:08"
+      "min": "18:48"
      },
      {
       "name": "AJ Dybantsa",
-      "pts": 4,
-      "reb": 5,
+      "pts": 10,
+      "reb": 6,
       "ast": 2,
-      "min": "16:31"
+      "min": "18:54"
      }
     ]
    },
    "away": {
     "team": "BOS",
-    "score": 59,
+    "score": 78,
     "periods": [
      34,
-     25,
+     44,
      0,
      0
     ],
     "stats": {
-     "fgm": 22,
-     "fga": 42,
-     "fg3m": 10,
-     "fg3a": 19,
-     "ftm": 5,
-     "fta": 6,
+     "fgm": 28,
+     "fga": 49,
+     "fg3m": 15,
+     "fg3a": 25,
+     "ftm": 7,
+     "fta": 8,
      "oreb": 6,
-     "dreb": 14,
+     "dreb": 18,
      "tov": 6,
-     "pf": 9,
-     "ast": 17,
-     "stl": 6,
-     "blk": 1,
-     "pts_paint": 24,
+     "pf": 11,
+     "ast": 20,
+     "stl": 8,
+     "blk": 3,
+     "pts_paint": 26,
      "pts_second_chance": 8,
-     "pts_fast_break": 7,
-     "pts_off_tov": 17,
+     "pts_fast_break": 10,
+     "pts_off_tov": 23,
      "pts_bench": 13,
-     "biggest_lead": 23,
+     "biggest_lead": 34,
      "lead_changes": 1
     },
     "leaders": [
      {
       "name": "Jayson Tatum",
-      "pts": 17,
-      "reb": 1,
-      "ast": 5,
-      "min": "13:29"
+      "pts": 28,
+      "reb": 2,
+      "ast": 6,
+      "min": "17:09"
      },
      {
       "name": "Neemias Queta",
-      "pts": 15,
+      "pts": 17,
       "reb": 2,
       "ast": 1,
-      "min": "10:06"
+      "min": "11:42"
      },
      {
       "name": "Paul George",
       "pts": 14,
-      "reb": 2,
-      "ast": 6,
-      "min": "13:31"
+      "reb": 3,
+      "ast": 7,
+      "min": "17:11"
      }
     ]
    },
@@ -287,6 +291,10 @@
     {
      "t": 19.8,
      "m": -22
+    },
+    {
+     "t": 23.5,
+     "m": -32
     }
    ]
   },
