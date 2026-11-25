@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:43:40-08:00",
+ "updated": "2026-11-24T18:50:42-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
@@ -158,61 +158,61 @@
    "game_id": "0022600053",
    "tip_utc": "2026-11-25T01:00:00Z",
    "status": 2,
-   "status_text": "Q3 4:30",
+   "status_text": "Q3 3:13",
    "period": 3,
-   "clock": "4:30",
+   "clock": "3:13",
    "home": {
     "team": "WAS",
-    "score": 74,
+    "score": 81,
     "periods": [
      28,
      21,
-     25,
+     32,
      0
     ],
     "stats": {
-     "fgm": 27,
-     "fga": 61,
+     "fgm": 29,
+     "fga": 64,
      "fg3m": 9,
-     "fg3a": 25,
-     "ftm": 11,
-     "fta": 13,
-     "oreb": 10,
-     "dreb": 19,
+     "fg3a": 26,
+     "ftm": 14,
+     "fta": 17,
+     "oreb": 11,
+     "dreb": 20,
      "tov": 12,
      "pf": 11,
-     "ast": 17,
+     "ast": 18,
      "stl": 5,
      "blk": 1,
-     "pts_paint": 28,
-     "pts_second_chance": 4,
-     "pts_fast_break": 7,
-     "pts_off_tov": 9,
-     "pts_bench": 3,
+     "pts_paint": 32,
+     "pts_second_chance": 6,
+     "pts_fast_break": 10,
+     "pts_off_tov": 13,
+     "pts_bench": 5,
      "biggest_lead": 2,
      "lead_changes": 1
     },
     "leaders": [
      {
       "name": "Anthony Davis",
-      "pts": 25,
-      "reb": 11,
+      "pts": 27,
+      "reb": 12,
       "ast": 1,
-      "min": "26:45"
+      "min": "28:01"
      },
      {
       "name": "Kyshawn George",
       "pts": 20,
       "reb": 5,
       "ast": 1,
-      "min": "26:58"
+      "min": "27:15"
      },
      {
       "name": "AJ Dybantsa",
-      "pts": 12,
+      "pts": 15,
       "reb": 7,
-      "ast": 5,
-      "min": "26:51"
+      "ast": 6,
+      "min": "28:07"
      }
     ]
    },
@@ -227,15 +227,15 @@
     ],
     "stats": {
      "fgm": 35,
-     "fga": 65,
+     "fga": 66,
      "fg3m": 16,
      "fg3a": 31,
      "ftm": 8,
      "fta": 10,
      "oreb": 7,
      "dreb": 21,
-     "tov": 7,
-     "pf": 16,
+     "tov": 9,
+     "pf": 19,
      "ast": 23,
      "stl": 8,
      "blk": 3,
@@ -253,14 +253,14 @@
       "pts": 31,
       "reb": 2,
       "ast": 6,
-      "min": "25:06"
+      "min": "25:58"
      },
      {
       "name": "Paul George",
       "pts": 23,
       "reb": 4,
       "ast": 7,
-      "min": "24:30"
+      "min": "24:54"
      },
      {
       "name": "Neemias Queta",
@@ -315,6 +315,10 @@
     {
      "t": 31.5,
      "m": -20
+    },
+    {
+     "t": 32.8,
+     "m": -13
     }
    ]
   },
