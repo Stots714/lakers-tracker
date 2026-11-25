@@ -1,41 +1,41 @@
 {
- "updated": "2026-11-24T17:41:47-08:00",
+ "updated": "2026-11-24T17:48:52-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
    "game_id": "0022600052",
    "tip_utc": "2026-11-25T00:00:00Z",
    "status": 2,
-   "status_text": "Q3 3:32",
+   "status_text": "Q3 :34.8",
    "period": 3,
-   "clock": "3:32",
+   "clock": "0:35",
    "home": {
     "team": "ORL",
-    "score": 54,
+    "score": 59,
     "periods": [
      22,
      14,
-     18,
+     23,
      0
     ],
     "stats": {
-     "fgm": 21,
-     "fga": 59,
-     "fg3m": 9,
-     "fg3a": 26,
+     "fgm": 23,
+     "fga": 63,
+     "fg3m": 10,
+     "fg3a": 29,
      "ftm": 3,
      "fta": 5,
-     "oreb": 9,
-     "dreb": 23,
-     "tov": 14,
-     "pf": 15,
-     "ast": 13,
-     "stl": 6,
+     "oreb": 10,
+     "dreb": 25,
+     "tov": 16,
+     "pf": 18,
+     "ast": 15,
+     "stl": 7,
      "blk": 4,
-     "pts_paint": 20,
-     "pts_second_chance": 7,
+     "pts_paint": 22,
+     "pts_second_chance": 9,
      "pts_fast_break": 7,
-     "pts_off_tov": 15,
+     "pts_off_tov": 17,
      "pts_bench": 20,
      "biggest_lead": 7,
      "lead_changes": 6
@@ -44,54 +44,54 @@
      {
       "name": "Desmond Bane",
       "pts": 13,
-      "reb": 0,
-      "ast": 2,
-      "min": "20:51"
+      "reb": 1,
+      "ast": 3,
+      "min": "23:12"
      },
      {
       "name": "Franz Wagner",
-      "pts": 10,
+      "pts": 12,
       "reb": 7,
       "ast": 4,
-      "min": "25:38"
+      "min": "26:21"
      },
      {
       "name": "Tristan da Silva",
       "pts": 9,
-      "reb": 0,
-      "ast": 0,
-      "min": "19:24"
+      "reb": 2,
+      "ast": 1,
+      "min": "22:21"
      }
     ]
    },
    "away": {
     "team": "DET",
-    "score": 67,
+    "score": 73,
     "periods": [
      16,
      32,
-     19,
+     25,
      0
     ],
     "stats": {
-     "fgm": 27,
-     "fga": 55,
-     "fg3m": 8,
-     "fg3a": 24,
-     "ftm": 5,
-     "fta": 6,
-     "oreb": 4,
-     "dreb": 26,
-     "tov": 10,
-     "pf": 11,
-     "ast": 20,
-     "stl": 8,
+     "fgm": 29,
+     "fga": 59,
+     "fg3m": 9,
+     "fg3a": 26,
+     "ftm": 6,
+     "fta": 9,
+     "oreb": 5,
+     "dreb": 27,
+     "tov": 12,
+     "pf": 13,
+     "ast": 22,
+     "stl": 9,
      "blk": 5,
      "pts_paint": 32,
      "pts_second_chance": 4,
      "pts_fast_break": 17,
      "pts_off_tov": 14,
-     "pts_bench": 17,
+     "pts_bench": 21,
      "biggest_lead": 18,
      "lead_changes": 6
     },
@@ -112,10 +112,10 @@
      },
      {
       "name": "Isaiah Joe",
-      "pts": 10,
+      "pts": 12,
       "reb": 4,
       "ast": 0,
-      "min": "20:35"
+      "min": "23:32"
      }
     ]
    },
@@ -131,6 +131,10 @@
     {
      "t": 32.5,
      "m": -13
+    },
+    {
+     "t": 35.4,
+     "m": -14
     }
    ]
   },
@@ -138,9 +142,9 @@
    "game_id": "0022600053",
    "tip_utc": "2026-11-25T01:00:00Z",
    "status": 2,
-   "status_text": "END Q1",
-   "period": 1,
-   "clock": "0:00",
+   "status_text": "Q2 10:31",
+   "period": 2,
+   "clock": "10:31",
    "home": {
     "team": "WAS",
     "score": 28,
@@ -152,21 +156,21 @@
     ],
     "stats": {
      "fgm": 12,
-     "fga": 24,
+     "fga": 25,
      "fg3m": 2,
-     "fg3a": 7,
+     "fg3a": 8,
      "ftm": 2,
      "fta": 2,
      "oreb": 2,
      "dreb": 8,
-     "tov": 5,
-     "pf": 5,
+     "tov": 6,
+     "pf": 6,
      "ast": 6,
      "stl": 3,
      "blk": 1,
      "pts_paint": 12,
      "pts_second_chance": 2,
-     "pts_fast_break": 5,
+     "pts_fast_break": 7,
      "pts_off_tov": 7,
      "pts_bench": 3,
      "biggest_lead": 2,
@@ -185,46 +189,46 @@
       "pts": 8,
       "reb": 3,
       "ast": 1,
-      "min": "9:59"
+      "min": "11:28"
      },
      {
       "name": "AJ Dybantsa",
       "pts": 4,
       "reb": 2,
       "ast": 1,
-      "min": "9:41"
+      "min": "11:10"
      }
     ]
    },
    "away": {
     "team": "BOS",
-    "score": 34,
+    "score": 42,
     "periods": [
      34,
-     0,
+     8,
      0,
      0
     ],
     "stats": {
-     "fgm": 13,
-     "fga": 26,
-     "fg3m": 5,
-     "fg3a": 10,
+     "fgm": 16,
+     "fga": 31,
+     "fg3m": 7,
+     "fg3a": 14,
      "ftm": 3,
      "fta": 4,
-     "oreb": 4,
-     "dreb": 8,
+     "oreb": 5,
+     "dreb": 9,
      "tov": 4,
      "pf": 4,
-     "ast": 11,
-     "stl": 3,
+     "ast": 12,
+     "stl": 4,
      "blk": 0,
-     "pts_paint": 16,
-     "pts_second_chance": 3,
+     "pts_paint": 18,
+     "pts_second_chance": 6,
      "pts_fast_break": 4,
-     "pts_off_tov": 12,
-     "pts_bench": 3,
-     "biggest_lead": 12,
+     "pts_off_tov": 15,
+     "pts_bench": 5,
+     "biggest_lead": 14,
      "lead_changes": 1
     },
     "leaders": [
@@ -244,10 +248,10 @@
      },
      {
       "name": "Paul George",
-      "pts": 3,
+      "pts": 9,
       "reb": 0,
-      "ast": 2,
-      "min": "5:44"
+      "ast": 3,
+      "min": "7:13"
      }
     ]
    },
@@ -263,6 +267,10 @@
     {
      "t": 12.0,
      "m": -6
+    },
+    {
+     "t": 13.5,
+     "m": -14
     }
    ]
   },
