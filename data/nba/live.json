@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:50:32-08:00",
+ "updated": "2026-11-24T20:57:35-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
@@ -354,37 +354,37 @@
    "game_id": "0022600054",
    "tip_utc": "2026-11-25T03:00:00Z",
    "status": 2,
-   "status_text": "Q3 1:52",
-   "period": 3,
-   "clock": "1:52",
+   "status_text": "Q4 11:57",
+   "period": 4,
+   "clock": "11:57",
    "home": {
     "team": "DEN",
-    "score": 72,
+    "score": 77,
     "periods": [
      17,
      22,
-     33,
+     38,
      0
     ],
     "stats": {
-     "fgm": 25,
-     "fga": 60,
+     "fgm": 26,
+     "fga": 63,
      "fg3m": 12,
-     "fg3a": 32,
-     "ftm": 10,
-     "fta": 12,
-     "oreb": 7,
-     "dreb": 23,
-     "tov": 12,
+     "fg3a": 33,
+     "ftm": 13,
+     "fta": 15,
+     "oreb": 8,
+     "dreb": 24,
+     "tov": 13,
      "pf": 9,
      "ast": 18,
-     "stl": 3,
-     "blk": 4,
-     "pts_paint": 20,
-     "pts_second_chance": 13,
+     "stl": 4,
+     "blk": 5,
+     "pts_paint": 22,
+     "pts_second_chance": 18,
      "pts_fast_break": 3,
      "pts_off_tov": 8,
-     "pts_bench": 16,
+     "pts_bench": 19,
      "biggest_lead": 5,
      "lead_changes": 3
     },
@@ -397,49 +397,49 @@
       "min": "26:35"
      },
      {
+      "name": "Nikola Jokić",
+      "pts": 15,
+      "reb": 10,
+      "ast": 5,
+      "min": "28:08"
+     },
+     {
       "name": "Christian Braun",
       "pts": 15,
       "reb": 2,
       "ast": 3,
       "min": "24:16"
-     },
-     {
-      "name": "Nikola Jokić",
-      "pts": 13,
-      "reb": 9,
-      "ast": 5,
-      "min": "26:16"
      }
     ]
    },
    "away": {
     "team": "DAL",
-    "score": 80,
+    "score": 84,
     "periods": [
      24,
      34,
-     22,
+     26,
      0
     ],
     "stats": {
-     "fgm": 33,
-     "fga": 73,
+     "fgm": 35,
+     "fga": 76,
      "fg3m": 9,
      "fg3a": 31,
      "ftm": 5,
      "fta": 9,
      "oreb": 10,
-     "dreb": 26,
-     "tov": 8,
-     "pf": 10,
-     "ast": 25,
-     "stl": 9,
+     "dreb": 27,
+     "tov": 9,
+     "pf": 11,
+     "ast": 26,
+     "stl": 10,
      "blk": 4,
-     "pts_paint": 46,
+     "pts_paint": 50,
      "pts_second_chance": 15,
-     "pts_fast_break": 21,
-     "pts_off_tov": 17,
-     "pts_bench": 34,
+     "pts_fast_break": 23,
+     "pts_off_tov": 19,
+     "pts_bench": 38,
      "biggest_lead": 21,
      "lead_changes": 3
     },
@@ -456,7 +456,7 @@
       "pts": 14,
       "reb": 4,
       "ast": 0,
-      "min": "18:33"
+      "min": "20:25"
      },
      {
       "name": "Daniel Gafford",
@@ -515,6 +515,10 @@
     {
      "t": 34.1,
      "m": -8
+    },
+    {
+     "t": 36.0,
+     "m": -7
     }
    ]
   }
