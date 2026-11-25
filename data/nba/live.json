@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:33:00-08:00",
+ "updated": "2026-11-24T19:40:02-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
@@ -157,38 +157,38 @@
   {
    "game_id": "0022600053",
    "tip_utc": "2026-11-25T01:00:00Z",
-   "status": 2,
-   "status_text": "Q4 :50.0",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "0:50",
+   "clock": "0:00",
    "home": {
     "team": "WAS",
-    "score": 114,
+    "score": 116,
     "periods": [
      28,
      21,
      40,
-     25
+     27
     ],
     "stats": {
-     "fgm": 40,
-     "fga": 90,
+     "fgm": 41,
+     "fga": 92,
      "fg3m": 12,
      "fg3a": 36,
      "ftm": 22,
      "fta": 26,
      "oreb": 14,
-     "dreb": 33,
+     "dreb": 34,
      "tov": 14,
      "pf": 23,
-     "ast": 24,
+     "ast": 25,
      "stl": 5,
-     "blk": 2,
-     "pts_paint": 46,
+     "blk": 3,
+     "pts_paint": 48,
      "pts_second_chance": 12,
      "pts_fast_break": 16,
      "pts_off_tov": 15,
-     "pts_bench": 13,
+     "pts_bench": 15,
      "biggest_lead": 2,
      "lead_changes": 1
     },
@@ -218,32 +218,32 @@
    },
    "away": {
     "team": "BOS",
-    "score": 129,
+    "score": 131,
     "periods": [
      34,
      46,
      24,
-     25
+     27
     ],
     "stats": {
-     "fgm": 45,
-     "fga": 95,
+     "fgm": 46,
+     "fga": 100,
      "fg3m": 22,
-     "fg3a": 49,
+     "fg3a": 51,
      "ftm": 17,
      "fta": 25,
-     "oreb": 11,
-     "dreb": 32,
+     "oreb": 13,
+     "dreb": 33,
      "tov": 10,
      "pf": 24,
-     "ast": 29,
+     "ast": 30,
      "stl": 8,
      "blk": 6,
-     "pts_paint": 42,
-     "pts_second_chance": 13,
-     "pts_fast_break": 13,
+     "pts_paint": 44,
+     "pts_second_chance": 15,
+     "pts_fast_break": 15,
      "pts_off_tov": 23,
-     "pts_bench": 29,
+     "pts_bench": 31,
      "biggest_lead": 34,
      "lead_changes": 1
     },
@@ -343,6 +343,10 @@
     {
      "t": 47.2,
      "m": -15
+    },
+    {
+     "t": 48.0,
+     "m": -15
     }
    ]
   },
@@ -350,37 +354,37 @@
    "game_id": "0022600054",
    "tip_utc": "2026-11-25T03:00:00Z",
    "status": 2,
-   "status_text": "Q1 2:56",
+   "status_text": "END Q1",
    "period": 1,
-   "clock": "2:56",
+   "clock": "0:00",
    "home": {
     "team": "DEN",
-    "score": 12,
+    "score": 17,
     "periods": [
-     12,
+     17,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 5,
-     "fga": 15,
-     "fg3m": 1,
-     "fg3a": 7,
+     "fgm": 7,
+     "fga": 21,
+     "fg3m": 2,
+     "fg3a": 10,
      "ftm": 1,
      "fta": 2,
      "oreb": 0,
-     "dreb": 8,
-     "tov": 4,
-     "pf": 2,
-     "ast": 4,
+     "dreb": 11,
+     "tov": 5,
+     "pf": 3,
+     "ast": 6,
      "stl": 2,
      "blk": 1,
-     "pts_paint": 8,
+     "pts_paint": 10,
      "pts_second_chance": 0,
      "pts_fast_break": 2,
      "pts_off_tov": 2,
-     "pts_bench": 0,
+     "pts_bench": 3,
      "biggest_lead": 5,
      "lead_changes": 3
     },
@@ -388,9 +392,9 @@
      {
       "name": "Nikola Jokić",
       "pts": 6,
-      "reb": 3,
-      "ast": 0,
-      "min": "9:02"
+      "reb": 4,
+      "ast": 1,
+      "min": "10:50"
      },
      {
       "name": "Cameron Johnson",
@@ -400,46 +404,53 @@
       "min": "7:01"
      },
      {
-      "name": "Christian Braun",
-      "pts": 2,
-      "reb": 1,
-      "ast": 3,
-      "min": "9:02"
+      "name": "Marvin Bagley III",
+      "pts": 3,
+      "reb": 0,
+      "ast": 0,
+      "min": "1:10"
      }
     ]
    },
    "away": {
     "team": "DAL",
-    "score": 15,
+    "score": 24,
     "periods": [
-     15,
+     24,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 6,
-     "fga": 19,
-     "fg3m": 3,
-     "fg3a": 9,
-     "ftm": 0,
-     "fta": 0,
-     "oreb": 3,
-     "dreb": 10,
-     "tov": 4,
+     "fgm": 9,
+     "fga": 26,
+     "fg3m": 5,
+     "fg3a": 14,
+     "ftm": 1,
+     "fta": 2,
+     "oreb": 2,
+     "dreb": 12,
+     "tov": 5,
      "pf": 3,
-     "ast": 4,
-     "stl": 3,
+     "ast": 7,
+     "stl": 4,
      "blk": 0,
-     "pts_paint": 6,
+     "pts_paint": 8,
      "pts_second_chance": 2,
-     "pts_fast_break": 7,
-     "pts_off_tov": 5,
-     "pts_bench": 6,
-     "biggest_lead": 7,
+     "pts_fast_break": 10,
+     "pts_off_tov": 6,
+     "pts_bench": 14,
+     "biggest_lead": 9,
      "lead_changes": 3
     },
     "leaders": [
+     {
+      "name": "P.J. Washington",
+      "pts": 7,
+      "reb": 2,
+      "ast": 0,
+      "min": "7:18"
+     },
      {
       "name": "Caleb Martin",
       "pts": 6,
@@ -448,18 +459,11 @@
       "min": "7:01"
      },
      {
-      "name": "P.J. Washington",
-      "pts": 4,
-      "reb": 2,
+      "name": "Naji Marshall",
+      "pts": 5,
+      "reb": 0,
       "ast": 0,
-      "min": "4:20"
-     },
-     {
-      "name": "Cooper Flagg",
-      "pts": 3,
-      "reb": 2,
-      "ast": 2,
-      "min": "6:43"
+      "min": "6:28"
      }
     ]
    },
@@ -475,6 +479,10 @@
     {
      "t": 9.1,
      "m": -3
+    },
+    {
+     "t": 12.0,
+     "m": -7
     }
    ]
   }
