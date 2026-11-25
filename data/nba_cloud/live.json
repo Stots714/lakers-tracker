@@ -1,0 +1,284 @@
+{
+ "updated": "2026-11-25T02:14:42+00:00",
+ "board_date": "2026-11-24",
+ "games": [
+  {
+   "game_id": "0022600052",
+   "tip_utc": "2026-11-25T00:00:00Z",
+   "status": 2,
+   "status_text": "Q4 1:38",
+   "period": 4,
+   "clock": "1:38",
+   "home": {
+    "team": "ORL",
+    "score": 86,
+    "periods": [
+     22,
+     14,
+     25,
+     25
+    ],
+    "stats": {
+     "fgm": 34,
+     "fga": 80,
+     "fg3m": 12,
+     "fg3a": 35,
+     "ftm": 6,
+     "fta": 8,
+     "oreb": 10,
+     "dreb": 30,
+     "tov": 20,
+     "pf": 23,
+     "ast": 22,
+     "stl": 8,
+     "blk": 4,
+     "pts_paint": 38,
+     "pts_second_chance": 9,
+     "pts_fast_break": 9,
+     "pts_off_tov": 24,
+     "pts_bench": 27,
+     "biggest_lead": 7,
+     "lead_changes": 6
+    },
+    "leaders": [
+     {
+      "name": "Desmond Bane",
+      "pts": 21,
+      "reb": 1,
+      "ast": 5,
+      "min": "33:58"
+     },
+     {
+      "name": "Franz Wagner",
+      "pts": 20,
+      "reb": 9,
+      "ast": 6,
+      "min": "37:18"
+     },
+     {
+      "name": "Tristan da Silva",
+      "pts": 16,
+      "reb": 3,
+      "ast": 1,
+      "min": "32:43"
+     }
+    ]
+   },
+   "away": {
+    "team": "DET",
+    "score": 101,
+    "periods": [
+     16,
+     32,
+     25,
+     28
+    ],
+    "stats": {
+     "fgm": 39,
+     "fga": 78,
+     "fg3m": 15,
+     "fg3a": 35,
+     "ftm": 8,
+     "fta": 12,
+     "oreb": 8,
+     "dreb": 31,
+     "tov": 16,
+     "pf": 17,
+     "ast": 27,
+     "stl": 12,
+     "blk": 5,
+     "pts_paint": 40,
+     "pts_second_chance": 10,
+     "pts_fast_break": 19,
+     "pts_off_tov": 16,
+     "pts_bench": 37,
+     "biggest_lead": 18,
+     "lead_changes": 6
+    },
+    "leaders": [
+     {
+      "name": "Isaiah Joe",
+      "pts": 21,
+      "reb": 4,
+      "ast": 0,
+      "min": "29:28"
+     },
+     {
+      "name": "Daniss Jenkins",
+      "pts": 15,
+      "reb": 5,
+      "ast": 10,
+      "min": "33:17"
+     },
+     {
+      "name": "Kevin Huerter",
+      "pts": 13,
+      "reb": 5,
+      "ast": 5,
+      "min": "30:49"
+     }
+    ]
+   },
+   "history": [
+    {
+     "t": 46.4,
+     "m": -15
+    }
+   ]
+  },
+  {
+   "game_id": "0022600053",
+   "tip_utc": "2026-11-25T01:00:00Z",
+   "status": 2,
+   "status_text": "Half",
+   "period": 2,
+   "clock": "0:00",
+   "home": {
+    "team": "WAS",
+    "score": 49,
+    "periods": [
+     28,
+     21,
+     0,
+     0
+    ],
+    "stats": {
+     "fgm": 18,
+     "fga": 47,
+     "fg3m": 6,
+     "fg3a": 20,
+     "ftm": 7,
+     "fta": 9,
+     "oreb": 8,
+     "dreb": 14,
+     "tov": 12,
+     "pf": 9,
+     "ast": 10,
+     "stl": 5,
+     "blk": 1,
+     "pts_paint": 16,
+     "pts_second_chance": 4,
+     "pts_fast_break": 7,
+     "pts_off_tov": 9,
+     "pts_bench": 3,
+     "biggest_lead": 2,
+     "lead_changes": 1
+    },
+    "leaders": [
+     {
+      "name": "Kyshawn George",
+      "pts": 17,
+      "reb": 4,
+      "ast": 1,
+      "min": "19:34"
+     },
+     {
+      "name": "Anthony Davis",
+      "pts": 14,
+      "reb": 7,
+      "ast": 1,
+      "min": "19:21"
+     },
+     {
+      "name": "AJ Dybantsa",
+      "pts": 10,
+      "reb": 6,
+      "ast": 3,
+      "min": "19:27"
+     }
+    ]
+   },
+   "away": {
+    "team": "BOS",
+    "score": 80,
+    "periods": [
+     34,
+     46,
+     0,
+     0
+    ],
+    "stats": {
+     "fgm": 29,
+     "fga": 51,
+     "fg3m": 15,
+     "fg3a": 26,
+     "ftm": 7,
+     "fta": 8,
+     "oreb": 6,
+     "dreb": 18,
+     "tov": 6,
+     "pf": 11,
+     "ast": 20,
+     "stl": 8,
+     "blk": 3,
+     "pts_paint": 28,
+     "pts_second_chance": 8,
+     "pts_fast_break": 10,
+     "pts_off_tov": 23,
+     "pts_bench": 13,
+     "biggest_lead": 34,
+     "lead_changes": 1
+    },
+    "leaders": [
+     {
+      "name": "Jayson Tatum",
+      "pts": 28,
+      "reb": 2,
+      "ast": 6,
+      "min": "17:42"
+     },
+     {
+      "name": "Neemias Queta",
+      "pts": 17,
+      "reb": 2,
+      "ast": 1,
+      "min": "11:42"
+     },
+     {
+      "name": "Paul George",
+      "pts": 16,
+      "reb": 3,
+      "ast": 7,
+      "min": "17:44"
+     }
+    ]
+   },
+   "history": [
+    {
+     "t": 24.0,
+     "m": -31
+    }
+   ]
+  },
+  {
+   "game_id": "0022600054",
+   "tip_utc": "2026-11-25T03:00:00Z",
+   "status": 1,
+   "status_text": "10:00 pm ET",
+   "period": 0,
+   "clock": "",
+   "home": {
+    "team": "DEN",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "away": {
+    "team": "DAL",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "history": []
+  }
+ ],
+ "source": "NBA.com live data via nba_api (cdn.nba.com)"
+}
