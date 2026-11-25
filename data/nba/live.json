@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:11:40-08:00",
+ "updated": "2026-11-24T21:18:42-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
@@ -354,9 +354,9 @@
    "game_id": "0022600054",
    "tip_utc": "2026-11-25T03:00:00Z",
    "status": 2,
-   "status_text": "Q4 5:47",
+   "status_text": "Q4 5:14",
    "period": 4,
-   "clock": "5:47",
+   "clock": "5:14",
    "home": {
     "team": "DEN",
     "score": 88,
@@ -368,14 +368,14 @@
     ],
     "stats": {
      "fgm": 31,
-     "fga": 74,
+     "fga": 75,
      "fg3m": 12,
      "fg3a": 36,
      "ftm": 14,
      "fta": 16,
      "oreb": 10,
      "dreb": 25,
-     "tov": 13,
+     "tov": 14,
      "pf": 13,
      "ast": 20,
      "stl": 4,
@@ -394,50 +394,50 @@
       "pts": 17,
       "reb": 2,
       "ast": 3,
-      "min": "32:57"
+      "min": "33:26"
      },
      {
       "name": "Cameron Johnson",
       "pts": 15,
       "reb": 5,
       "ast": 3,
-      "min": "30:58"
+      "min": "31:27"
      },
      {
       "name": "Nikola Jokić",
       "pts": 15,
       "reb": 10,
       "ast": 5,
-      "min": "29:53"
+      "min": "30:22"
      }
     ]
    },
    "away": {
     "team": "DAL",
-    "score": 99,
+    "score": 102,
     "periods": [
      24,
      34,
      26,
-     15
+     18
     ],
     "stats": {
-     "fgm": 42,
-     "fga": 88,
-     "fg3m": 10,
-     "fg3a": 35,
+     "fgm": 43,
+     "fga": 89,
+     "fg3m": 11,
+     "fg3a": 36,
      "ftm": 5,
      "fta": 9,
      "oreb": 12,
-     "dreb": 29,
+     "dreb": 30,
      "tov": 10,
      "pf": 13,
-     "ast": 30,
+     "ast": 31,
      "stl": 10,
-     "blk": 6,
+     "blk": 7,
      "pts_paint": 60,
      "pts_second_chance": 20,
-     "pts_fast_break": 25,
+     "pts_fast_break": 28,
      "pts_off_tov": 19,
      "pts_bench": 44,
      "biggest_lead": 21,
@@ -448,22 +448,22 @@
       "name": "Cooper Flagg",
       "pts": 16,
       "reb": 6,
-      "ast": 11,
-      "min": "28:50"
+      "ast": 12,
+      "min": "29:19"
      },
      {
       "name": "P.J. Washington",
       "pts": 14,
       "reb": 4,
       "ast": 0,
-      "min": "20:39"
+      "min": "21:08"
      },
      {
       "name": "Caleb Martin",
       "pts": 13,
       "reb": 4,
       "ast": 4,
-      "min": "28:08"
+      "min": "28:37"
      }
     ]
    },
@@ -527,6 +527,10 @@
     {
      "t": 42.2,
      "m": -11
+    },
+    {
+     "t": 42.8,
+     "m": -14
     }
    ]
   }
