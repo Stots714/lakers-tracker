@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:57:35-08:00",
+ "updated": "2026-11-24T21:04:37-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
@@ -354,37 +354,37 @@
    "game_id": "0022600054",
    "tip_utc": "2026-11-25T03:00:00Z",
    "status": 2,
-   "status_text": "Q4 11:57",
+   "status_text": "Q4 9:47",
    "period": 4,
-   "clock": "11:57",
+   "clock": "9:47",
    "home": {
     "team": "DEN",
-    "score": 77,
+    "score": 79,
     "periods": [
      17,
      22,
      38,
-     0
+     2
     ],
     "stats": {
-     "fgm": 26,
-     "fga": 63,
+     "fgm": 27,
+     "fga": 66,
      "fg3m": 12,
      "fg3a": 33,
      "ftm": 13,
      "fta": 15,
      "oreb": 8,
      "dreb": 24,
-     "tov": 13,
-     "pf": 9,
-     "ast": 18,
+     "tov": 14,
+     "pf": 11,
+     "ast": 19,
      "stl": 4,
      "blk": 5,
-     "pts_paint": 22,
+     "pts_paint": 24,
      "pts_second_chance": 18,
      "pts_fast_break": 3,
      "pts_off_tov": 8,
-     "pts_bench": 19,
+     "pts_bench": 21,
      "biggest_lead": 5,
      "lead_changes": 3
     },
@@ -394,7 +394,7 @@
       "pts": 15,
       "reb": 4,
       "ast": 3,
-      "min": "26:35"
+      "min": "26:57"
      },
      {
       "name": "Nikola Jokić",
@@ -414,32 +414,32 @@
    },
    "away": {
     "team": "DAL",
-    "score": 84,
+    "score": 90,
     "periods": [
      24,
      34,
      26,
-     0
+     6
     ],
     "stats": {
-     "fgm": 35,
-     "fga": 76,
+     "fgm": 38,
+     "fga": 80,
      "fg3m": 9,
      "fg3a": 31,
      "ftm": 5,
      "fta": 9,
      "oreb": 10,
-     "dreb": 27,
+     "dreb": 29,
      "tov": 9,
-     "pf": 11,
-     "ast": 26,
+     "pf": 12,
+     "ast": 27,
      "stl": 10,
-     "blk": 4,
-     "pts_paint": 50,
+     "blk": 6,
+     "pts_paint": 54,
      "pts_second_chance": 15,
-     "pts_fast_break": 23,
+     "pts_fast_break": 25,
      "pts_off_tov": 19,
-     "pts_bench": 38,
+     "pts_bench": 42,
      "biggest_lead": 21,
      "lead_changes": 3
     },
@@ -519,6 +519,10 @@
     {
      "t": 36.0,
      "m": -7
+    },
+    {
+     "t": 38.2,
+     "m": -11
     }
    ]
   }
