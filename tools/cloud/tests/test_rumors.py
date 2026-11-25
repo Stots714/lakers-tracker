@@ -167,6 +167,17 @@ class Running(unittest.TestCase):
         self.assertEqual(len(rows), 5)
         st = json.loads((self.root / "data/trades/status.json").read_text())
         self.assertEqual(st["new_reports"], 0)
+        self.assertIsNone(st["all_teams_updated"])
+
+    def test_all_teams_time_survives_the_main_feed_reads(self):
+        op = self.opener({rumors.SITE + "/feed": feed([POST])})
+        kw = dict(opener=op, robots=self.AllowAll(), sleep=lambda s: None, log=lambda m: None, root=self.root)
+        rumors.run(all_teams=True, **kw)
+        at = json.loads((self.root / "data/trades/status.json").read_text())["all_teams_updated"]
+        self.assertTrue(at)
+        rumors.run(**kw)
+        st = json.loads((self.root / "data/trades/status.json").read_text())
+        self.assertEqual((st["feeds"], st["all_teams_updated"]), (1, at))
 
     def test_all_teams_reads_every_feed_and_survives_failures(self):
         op = self.opener({rumors.SITE + "/feed": feed([POST]), rumors.SITE + "/los-angeles-lakers/feed": feed([AGREED])})

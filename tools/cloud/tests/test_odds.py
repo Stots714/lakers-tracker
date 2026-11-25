@@ -123,6 +123,14 @@ class Reading(Base):
         self.assertEqual(self.status()["remaining"], 480)
         self.assertTrue(self.status()["ok"])
 
+    def test_each_kinds_last_try_is_kept_across_reads(self):
+        self.run_odds([LAL_CHA])
+        first = self.status()["attempts"]["morning"]
+        self.run_odds([], kind="pretip", now=NOW + dt.timedelta(hours=6))
+        self.assertEqual(self.status()["attempts"], {"morning": first, "pretip": (NOW + dt.timedelta(hours=6)).isoformat(timespec="seconds")})
+        self.run_odds(opener=refusing(401), now=NOW + dt.timedelta(hours=7))
+        self.assertEqual(self.status()["attempts"]["morning"], (NOW + dt.timedelta(hours=7)).isoformat(timespec="seconds"))
+
     def test_no_book_names_or_prices_are_saved(self):
         self.run_odds([LAL_CHA])
         text = odds.LINES.read_text(encoding="utf-8") + odds.STATUS.read_text(encoding="utf-8")

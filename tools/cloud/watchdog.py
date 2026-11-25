@@ -10,6 +10,8 @@ FAIL (the run fails, so GitHub emails the repo owner):
   - yesterday had games but the live watcher published nothing during them (no change to live.json)
   - the odds job (once set up) did not read today's lines, or reported an error
   - the trade-reports job has not published its daily status for 30 hours
+  - the 5-minute tick (once set up) has not started for 30 minutes, or its last 3 runs failed: cron-job.org has
+    stopped starting it (its token may have expired) or the tick itself is broken
 WARN (shown on the run page, no email): one game missing a score, or an update step that reported a problem.
 Off-season (no games within 7 days either side of today): nothing to check.
 
@@ -20,6 +22,7 @@ import datetime as dt
 import json
 import os
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -32,6 +35,7 @@ MANIFEST_MAX_AGE_H = 26      # the morning update runs daily, the after-the-game
 GAP_WINDOW_DAYS = 3          # how far back missing scores are counted
 OFFSEASON_DAYS = 7           # no games this many days either side of today: nothing to check
 ODDS_READ_BY = dt.time(10, 30)  # Pacific: the morning odds read runs at 09:47
+TICK_MAX_GAP_MIN = 30        # cron-job.org starts the tick every 5 minutes
 
 FAIL, WARN, OK = "FAIL", "WARN", "OK"
 
@@ -120,6 +124,42 @@ def check_live(rows, today_et, fetch=live_commits):
     return [(OK, "Live watcher", f"{len(commits)} live updates during {yday.isoformat()}'s games")]
 
 
+def tick_runs(repo=None, token=None):
+    """The tick workflow's latest runs from the GitHub API: a list (empty before its first run), or None if unavailable."""
+    repo = repo or os.environ.get("GITHUB_REPOSITORY")
+    if not repo:
+        return None
+    req = urllib.request.Request(f"https://api.github.com/repos/{repo}/actions/workflows/tick.yml/runs?per_page=5",
+                                 headers={"Accept": "application/vnd.github+json", "User-Agent": "lakers-tracker-watchdog"})
+    token = token if token is not None else os.environ.get("GITHUB_TOKEN")
+    if token:
+        req.add_header("Authorization", f"Bearer {token}")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.load(r).get("workflow_runs") or []
+    except urllib.error.HTTPError as e:
+        return [] if e.code == 404 else None  # 404: the workflow file is not on main yet
+    except Exception:
+        return None
+
+
+def check_tick(runs, now):
+    """The on-time starter: cron-job.org starts tick.yml every 5 minutes through GitHub's API."""
+    if runs is None:
+        return [(WARN, "5-minute tick", "could not ask GitHub for the tick's runs; not checked")]
+    if not runs:
+        return [(OK, "5-minute tick", "not set up yet")]
+    last = dt.datetime.fromisoformat(runs[0]["created_at"].replace("Z", "+00:00"))
+    gap = (now - last).total_seconds() / 60
+    if gap > TICK_MAX_GAP_MIN:
+        return [(FAIL, "5-minute tick", f"last started {gap:.0f} minutes ago (limit {TICK_MAX_GAP_MIN}): check the cron-job.org "
+                 "job's history; a 401 there means the GitHub token expired")]
+    done = [r for r in runs if r.get("status") == "completed"][:3]
+    if len(done) == 3 and all(r.get("conclusion") == "failure" for r in done):
+        return [(FAIL, "5-minute tick", "the last 3 runs failed; the run page shows which step broke")]
+    return [(OK, "5-minute tick", f"last started {gap:.0f} minutes ago")]
+
+
 def check_odds(status, rows, today_et, now):
     """Only once the odds job is set up (data/markets/odds_status.json exists)."""
     if status is None:
@@ -151,7 +191,7 @@ def check_rumors(status, now):
              + (f"; {len(failed)} feed(s) not read, e.g. {failed[0]}" if failed else ""))]
 
 
-def run(root=ROOT, now=None, fetch=live_commits):
+def run(root=ROOT, now=None, fetch=live_commits, ticks=tick_runs):
     now = now or dt.datetime.now(dt.timezone.utc)
     today_et = now.astimezone(ET).date()
     rows = read_csv(root / "data/nba/league_results.csv")
@@ -166,7 +206,8 @@ def run(root=ROOT, now=None, fetch=live_commits):
     rumors_path = root / "data/trades/status.json"
     rumors = json.loads(rumors_path.read_text(encoding="utf-8")) if rumors_path.exists() else None
     return (check_results(rows, today_et) + check_manifest(manifest, now)
-            + check_live(rows, today_et, fetch) + check_odds(odds, rows, today_et, now) + check_rumors(rumors, now))
+            + check_live(rows, today_et, fetch) + check_odds(odds, rows, today_et, now) + check_rumors(rumors, now)
+            + check_tick(ticks(), now))
 
 
 def report(results, summary=None):

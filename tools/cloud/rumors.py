@@ -374,8 +374,14 @@ def run(all_teams=False, opener=urllib.request.urlopen, robots=None, sleep=time.
     w.writerows(rows)
     write_atomic(root / REPORTS.relative_to(ROOT), buf.getvalue())
     ok = len(failed) < len(feeds)
-    write_atomic(root / STATUS.relative_to(ROOT), json.dumps({"updated": now, "ok": ok, "feeds": len(feeds), "failed": failed,
-                                                              "new_reports": new, "reports": len(rows)}, indent=1) + "\n")
+    status_path = root / STATUS.relative_to(ROOT)
+    try:  # when all 30 team feeds were last read, kept across the 2-hourly main-feed reads
+        all_at = json.loads(status_path.read_text(encoding="utf-8")).get("all_teams_updated")
+    except (OSError, ValueError):
+        all_at = None
+    write_atomic(status_path, json.dumps({"updated": now, "ok": ok, "feeds": len(feeds), "failed": failed,
+                                          "new_reports": new, "reports": len(rows),
+                                          "all_teams_updated": now if all_teams else all_at}, indent=1) + "\n")
     log(f"{len(feeds) - len(failed)} of {len(feeds)} feeds read; {new} new reports ({len(rows)} on file)")
     for f in failed:
         log("  not read: " + f)

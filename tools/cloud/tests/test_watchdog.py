@@ -30,8 +30,9 @@ class Repo:
             (root / "data/markets/odds_status.json").write_text(json.dumps(odds), encoding="utf-8")
         self.root = root
 
-    def run(self, commits=("c1", "c2"), now=NOW):
-        return w.run(self.root, now=now, fetch=lambda since, until: None if commits is None else list(commits))
+    def run(self, commits=("c1", "c2"), now=NOW, ticks=()):
+        return w.run(self.root, now=now, fetch=lambda since, until: None if commits is None else list(commits),
+                     ticks=lambda: None if ticks is None else list(ticks))
 
 
 def levels(results):
@@ -117,6 +118,26 @@ class Watchdog(unittest.TestCase):
         (r.root / "data/trades/status.json").write_text(json.dumps({"updated": (NOW - dt.timedelta(hours=3)).isoformat(), "ok": True,
                                                                      "failed": ["/utah-jazz/feed: HTTPError"], "reports": 40}), encoding="utf-8")
         self.assertEqual(levels(r.run())["Trade reports"], w.WARN)
+
+    def tick(self, minutes_ago, conclusion="success", status="completed"):
+        return {"created_at": (NOW - dt.timedelta(minutes=minutes_ago)).astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "status": status, "conclusion": conclusion}
+
+    def test_tick_not_set_up_and_running(self):
+        self.assertEqual(levels(Repo(GOOD).run())["5-minute tick"], w.OK)
+        self.assertEqual(levels(Repo(GOOD).run(ticks=[self.tick(4), self.tick(9)]))["5-minute tick"], w.OK)
+
+    def test_tick_stopped_fails(self):
+        self.assertEqual(levels(Repo(GOOD).run(ticks=[self.tick(45)]))["5-minute tick"], w.FAIL)
+
+    def test_tick_failing_three_times_fails(self):
+        runs = [self.tick(1, None, "in_progress")] + [self.tick(m, "failure") for m in (6, 11, 16)]
+        self.assertEqual(levels(Repo(GOOD).run(ticks=runs))["5-minute tick"], w.FAIL)
+        runs[2] = self.tick(11)
+        self.assertEqual(levels(Repo(GOOD).run(ticks=runs))["5-minute tick"], w.OK)
+
+    def test_tick_unknown_warns(self):
+        self.assertEqual(levels(Repo(GOOD).run(ticks=None))["5-minute tick"], w.WARN)
 
 
 if __name__ == "__main__":

@@ -36,6 +36,7 @@ from pathlib import Path
 from nba_api.live.nba.endpoints import boxscore, scoreboard
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import pipeline  # noqa: E402  (who writes what: data/pipeline.json)
 import rows  # noqa: E402  (atomic file writes)
 from publish import publish  # noqa: E402  (one shared, logged way to push)
 try:
@@ -234,7 +235,7 @@ def ask_for_odds(waiting, asked, now=None, run=subprocess.run, ready=None):
     them, so the site records the closing line. Uses the GitHub CLI (gh) this PC is signed in to, and only
     once the odds job is set up (its status file has arrived). Returns the tip-off times it started a read for."""
     global _gh_missing
-    if _gh_missing or not (ready or ODDS_READY).exists():
+    if _gh_missing or not (ready or ODDS_READY).exists() or pipeline.settings(ROOT)["odds_pretip"] != "pc":
         return []
     now = now or dt.datetime.now(dt.timezone.utc)
     started = []
@@ -333,6 +334,9 @@ def main():
     ap.add_argument("--no-push", action="store_true", help="write live.json only")
     ap.add_argument("--no-final-update", action="store_true", help="when every game is final, exit without the full update")
     a = ap.parse_args()
+    if not pipeline.pc_writes(ROOT):
+        log("--- the GitHub jobs write the live scores now (data/pipeline.json: data_writer is cloud); nothing for this PC to do")
+        return 0
     log("--- live watcher started")
     board_date, board = fetch_board() if a.once else todays_board()
     if board_date is None:

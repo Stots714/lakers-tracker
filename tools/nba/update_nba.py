@@ -54,6 +54,7 @@ from nba_api.stats.static import teams as static_teams
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import league  # noqa: E402  (league-wide files in the tracker's formats)
+import pipeline  # noqa: E402  (who writes what: data/pipeline.json)
 import rows  # noqa: E402  (plain-Python tables; no pandas, see rows.py)
 from lock import RunLock  # noqa: E402  (one update at a time)
 
@@ -295,6 +296,9 @@ def main():
     ap.add_argument("--no-league", action="store_true", help="skip the league-wide files for all 30 teams")
     a = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
+    if not a.check and not pipeline.pc_writes(ROOT):
+        log("--- the GitHub jobs write the NBA data now (data/pipeline.json: data_writer is cloud); nothing for this PC to do")
+        return 0
     log(f"--- run started; nba_api {version('nba_api')}; season {SEASON}")
 
     if a.check:

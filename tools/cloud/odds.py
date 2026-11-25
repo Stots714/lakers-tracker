@@ -174,10 +174,17 @@ def write_status(**status):
     write_atomic(STATUS, json.dumps(status, indent=1) + "\n")
 
 
+def read_status():
+    try:
+        return json.loads(STATUS.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+
+
 def last_remaining():
     try:
-        return int(json.loads(STATUS.read_text(encoding="utf-8")).get("remaining"))
-    except (OSError, ValueError, TypeError):
+        return int(read_status().get("remaining"))
+    except (ValueError, TypeError):
         return None
 
 
@@ -191,18 +198,20 @@ def run(kind, key, now=None, opener=urllib.request.urlopen, log=print):
         log(f"Skipped: {left} credits left, kept for the morning reads.")
         return 0
     stamp = now.astimezone(dt.timezone.utc).isoformat(timespec="seconds")
+    # The last try of each kind, kept across reads, so the 5-minute ticks never repeat a read that found nothing
+    attempts = {**(read_status().get("attempts") or {}), kind: stamp}
     try:
         events, quota = fetch(key, opener)
     except OddsError as e:
         log(f"Not read: {e}")
-        write_status(updated=stamp, ok=False, kind=kind, message=str(e), remaining=left)
+        write_status(updated=stamp, ok=False, kind=kind, message=str(e), remaining=left, attempts=attempts)
         return 1
     rows, skipped = collect(events, read_csv(RESULTS), kind, now)
     write_lines(merge(read_csv(LINES), rows))
     remaining = int(quota["remaining"]) if (quota.get("remaining") or "").strip().isdigit() else None
     note = f"{len(rows)} games read" + (f"; not matched: {'; '.join(skipped[:5])}" if skipped else "")
     write_status(updated=stamp, ok=True, kind=kind, message=note, games=len(rows), remaining=remaining,
-                 used=quota.get("used"))
+                 used=quota.get("used"), attempts=attempts)
     log(f"{kind}: {note}. Credits left: {remaining}")
     return 0
 

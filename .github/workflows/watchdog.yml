@@ -1,7 +1,7 @@
 name: Watchdog
 
 # Daily check that the PC's jobs published: yesterday's scores, a recent update, live updates on game nights,
-# and (once set up) today's odds read. A failed run makes GitHub email you; the run page lists what is missing.
+# (once set up) today's odds read, and that the 5-minute tick is still being started. A failed run makes GitHub email you; the run page lists what is missing.
 # Reads only: commits nothing, uses no secrets beyond the read-only token GitHub gives every run.
 
 on:
@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: read
+  actions: read     # to see when the 5-minute tick last ran
 
 concurrency:
   group: watchdog

@@ -4,3 +4,5 @@ __pycache__/
 tools/nba/.*.lock
 tools/nba/git_failures.log
 data/nba/*.tmp
+.tick_message
+.venv/

@@ -1,0 +1,51 @@
+name: Tick
+
+# One 5-minute tick: live scores, the injury report, game data, betting lines and trade reports, each only when
+# it is due (tools/cloud/tick.py). Started on time by an outside scheduler (cron-job.org) through GitHub's API,
+# because GitHub's own schedule has started jobs 5 to 10 hours late. Nothing here runs on a schedule of its own.
+# data/pipeline.json decides where the NBA files go: data/nba_cloud/ during the side-by-side check, data/nba/
+# once the cloud takes over from the PC.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tick
+  cancel-in-progress: false   # a tick that is still running finishes; at most one more waits behind it
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - name: Set up Python packages (requests, pypdf, nba_api without pandas, as on the PC)
+        run: |
+          python3 -m venv .venv
+          .venv/bin/pip install --quiet --disable-pip-version-check -r tools/nba/requirements.txt
+          .venv/bin/pip install --quiet --disable-pip-version-check --no-deps 'nba_api==1.12.0'
+      - name: Do what is due
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: .venv/bin/python tools/cloud/tick.py
+      - name: Publish
+        if: always()
+        run: |
+          paths="data/nba_cloud data/markets data/trades"
+          writer=$(python3 -c 'import json; print(json.load(open("data/pipeline.json")).get("data_writer"))' 2>/dev/null || echo pc)
+          if [ "$writer" = "cloud" ]; then paths="$paths data/nba"; fi
+          for p in $paths; do if [ -e "$p" ]; then git add "$p"; fi; done
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          msg="$(cat .tick_message 2>/dev/null || echo 'Tick')"
+          # The identity is also needed when the pull below rebases this commit onto a newer one from the PC
+          git config user.name Stots714; git config user.email Stots714@users.noreply.github.com
+          git commit -q -m "$msg"
+          for attempt in 1 2 3; do
+            if git pull -q --rebase origin main && git push -q origin HEAD:main; then echo "Published: $msg"; exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 10
+          done
+          echo "Could not push after 3 tries."; exit 1
