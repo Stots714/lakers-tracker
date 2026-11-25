@@ -1,0 +1,49 @@
+name: NBA data (PC-free)
+
+# The NBA's public data files (cdn.nba.com) instead of stats.nba.com, which does not answer GitHub's machines:
+# schedule, box scores, quarters, inactive players, game extras and the injury report (tools/cloud/nba_data.py).
+# Side-by-side phase: writes data/nba_cloud/ only, and compare.py checks it game by game against the PC's data/nba/.
+# The site keeps reading the PC's files until the two match.
+
+on:
+  schedule:
+    - cron: '41 */3 * * *'   # every three hours (GitHub may start it late; on-time starts come later)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nba-cloud
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - name: Set up the injury-report reader (requests, pypdf, as on the PC)
+        run: |
+          python3 -m venv .venv
+          .venv/bin/pip install --quiet --disable-pip-version-check -r tools/nba/requirements.txt
+      - name: Read the NBA's public data files
+        run: .venv/bin/python tools/cloud/nba_data.py --out data/nba_cloud
+      - name: Compare with the PC's files
+        if: always()
+        run: .venv/bin/python tools/cloud/compare.py --cloud data/nba_cloud --pc data/nba
+      - name: Publish
+        if: always()
+        run: |
+          if [ ! -d data/nba_cloud ]; then echo "Nothing to publish."; exit 0; fi
+          git add data/nba_cloud
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          # The identity is also needed when the pull below rebases this commit onto a newer one from the PC
+          git config user.name Stots714; git config user.email Stots714@users.noreply.github.com
+          git commit -q -m "NBA data (PC-free, side-by-side check)"
+          for attempt in 1 2 3; do
+            if git pull -q --rebase origin main && git push -q origin HEAD:main; then echo "Published."; exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 15
+          done
+          echo "Could not push after 3 tries."; exit 1
