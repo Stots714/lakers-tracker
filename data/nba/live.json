@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:22:20-08:00",
+ "updated": "2026-11-24T20:29:23-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
@@ -354,34 +354,34 @@
    "game_id": "0022600054",
    "tip_utc": "2026-11-25T03:00:00Z",
    "status": 2,
-   "status_text": "Half",
-   "period": 2,
-   "clock": "0:00",
+   "status_text": "Q3 9:03",
+   "period": 3,
+   "clock": "9:03",
    "home": {
     "team": "DEN",
-    "score": 39,
+    "score": 47,
     "periods": [
      17,
      22,
-     0,
+     8,
      0
     ],
     "stats": {
-     "fgm": 16,
-     "fga": 45,
-     "fg3m": 6,
-     "fg3a": 22,
+     "fgm": 19,
+     "fga": 50,
+     "fg3m": 8,
+     "fg3a": 26,
      "ftm": 1,
      "fta": 2,
-     "oreb": 4,
-     "dreb": 17,
-     "tov": 11,
-     "pf": 7,
-     "ast": 11,
+     "oreb": 5,
+     "dreb": 19,
+     "tov": 12,
+     "pf": 8,
+     "ast": 14,
      "stl": 3,
      "blk": 3,
      "pts_paint": 16,
-     "pts_second_chance": 8,
+     "pts_second_chance": 11,
      "pts_fast_break": 2,
      "pts_off_tov": 6,
      "pts_bench": 14,
@@ -390,57 +390,57 @@
     },
     "leaders": [
      {
-      "name": "Nikola Jokić",
-      "pts": 9,
-      "reb": 4,
-      "ast": 3,
-      "min": "16:08"
-     },
-     {
       "name": "Cameron Johnson",
-      "pts": 8,
+      "pts": 11,
       "reb": 2,
       "ast": 2,
-      "min": "17:16"
+      "min": "20:03"
      },
      {
-      "name": "Marvin Bagley III",
-      "pts": 7,
+      "name": "Nikola Jokić",
+      "pts": 9,
+      "reb": 6,
+      "ast": 4,
+      "min": "18:55"
+     },
+     {
+      "name": "Jamal Murray",
+      "pts": 8,
       "reb": 2,
-      "ast": 0,
-      "min": "7:52"
+      "ast": 1,
+      "min": "20:32"
      }
     ]
    },
    "away": {
     "team": "DAL",
-    "score": 58,
+    "score": 62,
     "periods": [
      24,
      34,
-     0,
+     4,
      0
     ],
     "stats": {
-     "fgm": 24,
-     "fga": 53,
+     "fgm": 26,
+     "fga": 58,
      "fg3m": 6,
-     "fg3a": 21,
+     "fg3a": 24,
      "ftm": 4,
      "fta": 7,
      "oreb": 7,
-     "dreb": 22,
+     "dreb": 23,
      "tov": 7,
      "pf": 4,
-     "ast": 16,
+     "ast": 18,
      "stl": 9,
      "blk": 4,
-     "pts_paint": 36,
+     "pts_paint": 40,
      "pts_second_chance": 8,
      "pts_fast_break": 21,
      "pts_off_tov": 17,
      "pts_bench": 28,
-     "biggest_lead": 19,
+     "biggest_lead": 21,
      "lead_changes": 3
     },
     "leaders": [
@@ -453,17 +453,17 @@
      },
      {
       "name": "Cooper Flagg",
-      "pts": 11,
+      "pts": 13,
       "reb": 4,
       "ast": 7,
-      "min": "16:57"
+      "min": "19:44"
      },
      {
       "name": "Caleb Martin",
       "pts": 10,
       "reb": 2,
       "ast": 2,
-      "min": "14:58"
+      "min": "17:45"
      }
     ]
    },
@@ -499,6 +499,10 @@
     {
      "t": 24.0,
      "m": -19
+    },
+    {
+     "t": 26.9,
+     "m": -15
     }
    ]
   }
