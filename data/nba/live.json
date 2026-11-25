@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:43:29-08:00",
+ "updated": "2026-11-24T20:50:32-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
@@ -354,37 +354,37 @@
    "game_id": "0022600054",
    "tip_utc": "2026-11-25T03:00:00Z",
    "status": 2,
-   "status_text": "Q3 4:07",
+   "status_text": "Q3 1:52",
    "period": 3,
-   "clock": "4:07",
+   "clock": "1:52",
    "home": {
     "team": "DEN",
-    "score": 68,
+    "score": 72,
     "periods": [
      17,
      22,
-     29,
+     33,
      0
     ],
     "stats": {
-     "fgm": 24,
-     "fga": 56,
+     "fgm": 25,
+     "fga": 60,
      "fg3m": 12,
-     "fg3a": 30,
-     "ftm": 8,
-     "fta": 10,
-     "oreb": 6,
-     "dreb": 21,
+     "fg3a": 32,
+     "ftm": 10,
+     "fta": 12,
+     "oreb": 7,
+     "dreb": 23,
      "tov": 12,
      "pf": 9,
      "ast": 18,
      "stl": 3,
      "blk": 4,
-     "pts_paint": 18,
+     "pts_paint": 20,
      "pts_second_chance": 13,
      "pts_fast_break": 3,
      "pts_off_tov": 8,
-     "pts_bench": 14,
+     "pts_bench": 16,
      "biggest_lead": 5,
      "lead_changes": 3
     },
@@ -392,76 +392,76 @@
      {
       "name": "Cameron Johnson",
       "pts": 15,
-      "reb": 3,
+      "reb": 4,
       "ast": 3,
-      "min": "25:09"
+      "min": "26:35"
      },
      {
       "name": "Christian Braun",
       "pts": 15,
       "reb": 2,
       "ast": 3,
-      "min": "22:50"
+      "min": "24:16"
      },
      {
       "name": "Nikola Jokić",
       "pts": 13,
-      "reb": 8,
+      "reb": 9,
       "ast": 5,
-      "min": "24:01"
+      "min": "26:16"
      }
     ]
    },
    "away": {
     "team": "DAL",
-    "score": 73,
+    "score": 80,
     "periods": [
      24,
      34,
-     15,
+     22,
      0
     ],
     "stats": {
-     "fgm": 31,
-     "fga": 70,
-     "fg3m": 7,
-     "fg3a": 28,
-     "ftm": 4,
-     "fta": 8,
-     "oreb": 11,
-     "dreb": 24,
+     "fgm": 33,
+     "fga": 73,
+     "fg3m": 9,
+     "fg3a": 31,
+     "ftm": 5,
+     "fta": 9,
+     "oreb": 10,
+     "dreb": 26,
      "tov": 8,
-     "pf": 9,
-     "ast": 22,
+     "pf": 10,
+     "ast": 25,
      "stl": 9,
      "blk": 4,
-     "pts_paint": 48,
+     "pts_paint": 46,
      "pts_second_chance": 15,
      "pts_fast_break": 21,
      "pts_off_tov": 17,
-     "pts_bench": 28,
+     "pts_bench": 34,
      "biggest_lead": 21,
      "lead_changes": 3
     },
     "leaders": [
      {
+      "name": "Cooper Flagg",
+      "pts": 14,
+      "reb": 5,
+      "ast": 11,
+      "min": "27:05"
+     },
+     {
       "name": "P.J. Washington",
       "pts": 14,
       "reb": 4,
       "ast": 0,
-      "min": "16:18"
-     },
-     {
-      "name": "Cooper Flagg",
-      "pts": 13,
-      "reb": 4,
-      "ast": 9,
-      "min": "24:50"
+      "min": "18:33"
      },
      {
       "name": "Daniel Gafford",
       "pts": 11,
-      "reb": 6,
+      "reb": 5,
       "ast": 3,
       "min": "22:09"
      }
@@ -511,6 +511,10 @@
     {
      "t": 31.9,
      "m": -5
+    },
+    {
+     "t": 34.1,
+     "m": -8
     }
    ]
   }
