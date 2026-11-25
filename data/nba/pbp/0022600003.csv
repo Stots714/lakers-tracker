@@ -1,0 +1,569 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600003,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (9:53 PM EST),period,start,1,0,1
+0022600003,4,PT12M00.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Jump Ball Wembanyama vs. Holmgren: Tip to Castle,Jump Ball,,1,0,2
+0022600003,7,PT11M42.00S,1,1610612759,SAS,1630170,Vassell,D. Vassell,244,-4,24,Made,1,3,0,3,h,Vassell 24' 3PT Jump Shot (3 PTS) (Wembanyama 1 AST),Made Shot,Jump Shot,1,3,3
+0022600003,9,PT11M19.00S,1,1610612760,OKC,1631114,Williams,J. Williams,68,21,7,Missed,1,,,0,v,MISS Jal. Williams 7' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,4
+0022600003,10,PT11M19.00S,1,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,1,0,5
+0022600003,12,PT10M55.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,50,177,18,Missed,1,,,0,h,MISS Wembanyama 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,6
+0022600003,13,PT10M55.00S,1,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,1,0,7
+0022600003,14,PT10M54.00S,1,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Turnover: Shot Clock (T#1),Turnover,Shot Clock Turnover,1,0,8
+0022600003,15,PT10M38.00S,1,1610612760,OKC,1641717,Wallace,C. Wallace,-73,32,8,Missed,1,,,0,v,MISS Wallace 8' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,9
+0022600003,16,PT10M38.00S,1,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,1,0,10
+0022600003,18,PT10M21.00S,1,1610612759,SAS,1630170,Vassell,D. Vassell,87,243,26,Missed,1,,,0,h,MISS Vassell 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,11
+0022600003,19,PT10M21.00S,1,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0022600003,20,PT10M11.00S,1,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,-7,10,1,Made,1,3,2,5,v,Hartenstein 1' Layup (2 PTS) (Holmgren 1 AST),Made Shot,Layup Shot,1,2,13
+0022600003,22,PT10M01.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-60,4,6,Missed,1,,,0,h,MISS Wembanyama 6' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,14
+0022600003,23,PT10M01.00S,1,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0022600003,24,PT09M52.00S,1,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-192,177,26,Made,1,3,5,8,v,Gilgeous-Alexander 26' 3PT Step Back Jump Shot (3 PTS) (Wallace 1 AST),Made Shot,Step Back Jump shot,1,3,16
+0022600003,26,PT09M42.00S,1,1610612759,SAS,1642264,Castle,S. Castle,69,250,26,Missed,1,,,0,h,MISS Castle 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,17
+0022600003,27,PT09M42.00S,1,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,18
+0022600003,28,PT09M25.00S,1,1610612760,OKC,1631096,Holmgren,C. Holmgren,244,10,24,Missed,1,,,0,v,MISS Holmgren 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,19
+0022600003,29,PT09M25.00S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,20
+0022600003,30,PT09M15.00S,1,1610612759,SAS,1642264,Castle,S. Castle,-194,157,25,Missed,1,,,0,h,MISS Castle 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,21
+0022600003,31,PT09M15.00S,1,1610612760,OKC,1641717,Wallace,C. Wallace,0,0,0,,0,,,0,v,Wallace REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,22
+0022600003,32,PT08M51.00S,1,1610612760,OKC,1631096,Holmgren,C. Holmgren,13,16,2,Made,1,3,7,10,v,Holmgren 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,23
+0022600003,33,PT08M43.00S,1,1610612759,SAS,1642844,Harper,D. Harper,3,-6,1,Made,1,5,7,12,h,Harper 1' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,24
+0022600003,34,PT08M21.00S,1,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,119,125,17,Missed,1,,,0,v,MISS Gilgeous-Alexander 17' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,25
+0022600003,35,PT08M21.00S,1,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,26
+0022600003,36,PT08M16.00S,1,1610612759,SAS,1642264,Castle,S. Castle,7,-4,1,Made,1,7,7,14,h,Castle 1' Running Layup (3 PTS) (Harper 1 AST),Made Shot,Running Layup Shot,1,2,27
+0022600003,38,PT08M16.00S,1,1610612760,OKC,1641717,Wallace,C. Wallace,0,0,0,,0,,,0,v,Wallace S.FOUL (P1.T1) (B.Forte),Foul,Shooting,1,0,28
+0022600003,40,PT08M16.00S,1,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,8,7,15,h,Castle Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,29
+0022600003,41,PT08M01.00S,1,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-99,114,15,Missed,1,,,0,v,MISS Gilgeous-Alexander 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,30
+0022600003,42,PT08M01.00S,1,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,31
+0022600003,43,PT07M48.00S,1,1610612759,SAS,1642264,Castle,S. Castle,16,18,2,Missed,1,,,0,h,MISS Castle 2' Cutting Dunk Shot,Missed Shot,Cutting Dunk Shot,1,2,32
+0022600003,43,PT07M48.00S,1,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams BLOCK (1 BLK),,,1,2,33
+0022600003,44,PT07M48.00S,1,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,34
+0022600003,46,PT07M42.00S,1,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,Vassell S.FOUL (P1.T1) (B.Taylor),Foul,Shooting,1,0,35
+0022600003,48,PT07M42.00S,1,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,8,8,16,v,Holmgren Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,36
+0022600003,51,PT07M42.00S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,SUB: Champagnie FOR Fox,Substitution,,0,0,37
+0022600003,49,PT07M42.00S,1,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,8,9,17,v,Holmgren Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,38
+0022600003,53,PT07M33.00S,1,1610612759,SAS,1630170,Vassell,D. Vassell,-229,13,0,Missed,1,,,0,h,MISS Vassell 3PT Jump Shot,Missed Shot,Jump Shot,1,3,39
+0022600003,54,PT07M33.00S,1,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,Holmgren REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,40
+0022600003,55,PT07M20.00S,1,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein OFF.Foul (P1) (J.Orr),Foul,Offensive,1,0,41
+0022600003,60,PT07M20.00S,1,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein Offensive Foul Turnover (P1.T1),Turnover,Offensive Foul Turnover,1,0,42
+0022600003,58,PT07M20.00S,1,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Timeout: Coach Challenge (Full 0 Short 0),Timeout,Coach Challenge,0,0,43
+0022600003,59,PT07M20.00S,1,0,,0,,,0,0,0,,0,8,9,17,,Instant Replay1st Period (10:01 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,44
+0022600003,61,PT07M10.00S,1,1610612759,SAS,1630577,Champagnie,J. Champagnie,242,29,24,Made,1,11,9,20,h,Champagnie 24' 3PT Jump Shot (3 PTS) (Harper 2 AST),Made Shot,Jump Shot,1,3,45
+0022600003,65,PT06M47.00S,1,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-49,22,5,Made,1,11,11,22,v,Gilgeous-Alexander 5' Driving Finger Roll Layup (5 PTS) (Jal. Williams 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,46
+0022600003,67,PT06M32.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,47
+0022600003,67,PT06M32.00S,1,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein STEAL (1 STL),,,1,0,48
+0022600003,69,PT06M15.00S,1,1610612760,OKC,1641717,Wallace,C. Wallace,3,123,12,Made,1,11,13,24,v,Wallace 12' Driving Floating Jump Shot (2 PTS) (Hartenstein 1 AST),Made Shot,Driving Floating Jump Shot,1,2,49
+0022600003,71,PT06M01.00S,1,1610612759,SAS,1642844,Harper,D. Harper,-67,158,17,Missed,1,,,0,h,MISS Harper 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,50
+0022600003,72,PT06M01.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,51
+0022600003,73,PT05M55.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,Missed,1,,,0,h,MISS Wembanyama Putback Layup,Missed Shot,Putback Layup Shot,1,2,52
+0022600003,74,PT05M55.00S,1,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,53
+0022600003,75,PT05M45.00S,1,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,-26,105,11,Missed,1,,,0,v,MISS Hartenstein 11' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,54
+0022600003,76,PT05M45.00S,1,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,55
+0022600003,77,PT05M39.00S,1,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein S.FOUL (P2.T2) (B.Taylor),Foul,Shooting,1,0,56
+0022600003,79,PT05M39.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,12,13,25,h,Wembanyama Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,57
+0022600003,82,PT05M39.00S,1,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,SUB: Johnson FOR Castle,Substitution,,0,0,58
+0022600003,86,PT05M39.00S,1,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,SUB: Mara FOR Holmgren,Substitution,,0,0,59
+0022600003,87,PT05M39.00S,1,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,SUB: McCain FOR Hartenstein,Substitution,,0,0,60
+0022600003,88,PT05M39.00S,1,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,SUB: Caruso FOR Jal. Williams,Substitution,,0,0,61
+0022600003,80,PT05M39.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,13,13,26,h,Wembanyama Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,62
+0022600003,89,PT05M28.00S,1,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-126,17,13,Made,1,13,15,28,v,Gilgeous-Alexander 13' Step Back Jump Shot (7 PTS),Made Shot,Step Back Jump shot,1,2,63
+0022600003,90,PT05M17.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,98,240,26,Missed,1,,,0,h,MISS Wembanyama 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,64
+0022600003,91,PT05M17.00S,1,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,Caruso REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,65
+0022600003,92,PT05M03.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama S.FOUL (P1.T2) (B.Forte),Foul,Shooting,1,0,66
+0022600003,94,PT05M03.00S,1,1610612760,OKC,1643530,Mara,A. Mara,0,0,0,,0,,,0,v,MISS Mara Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,67
+0022600003,95,PT05M03.00S,1,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Normal Rebound,0,0,68
+0022600003,98,PT05M03.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,SUB: Kornet FOR Wembanyama,Substitution,,0,0,69
+0022600003,96,PT05M03.00S,1,1610612760,OKC,1643530,Mara,A. Mara,0,0,0,,0,13,16,29,v,Mara Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,70
+0022600003,99,PT04M43.00S,1,1610612759,SAS,1628436,Kornet,L. Kornet,10,-2,1,Made,1,15,16,31,h,Kornet 1' Cutting Dunk Shot (2 PTS) (Harper 3 AST),Made Shot,Cutting Dunk Shot,1,2,71
+0022600003,101,PT04M33.00S,1,1610612760,OKC,1641717,Wallace,C. Wallace,-51,116,13,Made,1,15,18,33,v,Wallace 13' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,72
+0022600003,102,PT04M20.00S,1,1610612759,SAS,1642844,Harper,D. Harper,46,-3,5,Missed,1,,,0,h,MISS Harper 5' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,73
+0022600003,103,PT04M20.00S,1,1610612760,OKC,1641717,Wallace,C. Wallace,0,0,0,,0,,,0,v,Wallace REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,74
+0022600003,104,PT04M14.00S,1,1610612760,OKC,1642272,McCain,J. McCain,241,30,24,Made,1,15,21,36,v,McCain 24' 3PT Running Jump Shot (3 PTS) (Gilgeous-Alexander 1 AST),Made Shot,Running Jump Shot,1,3,75
+0022600003,106,PT04M07.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson Traveling Turnover (P1.T3),Turnover,Traveling,1,0,76
+0022600003,109,PT04M07.00S,1,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,SUB: Fox FOR Harper,Substitution,,0,0,77
+0022600003,110,PT04M07.00S,1,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,SUB: Bryant FOR Vassell,Substitution,,0,0,78
+0022600003,112,PT04M07.00S,1,1610612760,OKC,1641717,Wallace,C. Wallace,0,0,0,,0,,,0,v,SUB: Mitchell FOR Wallace,Substitution,,0,0,79
+0022600003,113,PT03M56.00S,1,1610612760,OKC,1642272,McCain,J. McCain,46,144,15,Made,1,15,23,38,v,McCain 15' Step Back Jump Shot (5 PTS) (Gilgeous-Alexander 2 AST),Made Shot,Step Back Jump shot,1,2,80
+0022600003,115,PT03M44.00S,1,1610612759,SAS,1628368,Fox,D. Fox,6,85,9,Made,1,17,23,40,h,Fox 9' Turnaround Jump Shot (2 PTS),Made Shot,Turnaround Jump Shot,1,2,81
+0022600003,116,PT03M44.00S,1,1610612760,OKC,1642349,Mitchell,A. Mitchell,0,0,0,,0,,,0,v,Mitchell S.FOUL (P1.T3) (J.Orr),Foul,Shooting,1,0,82
+0022600003,118,PT03M44.00S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,MISS Fox Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,83
+0022600003,119,PT03M44.00S,1,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,84
+0022600003,120,PT03M40.00S,1,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,Made,1,19,23,42,h,Champagnie Putback Layup (5 PTS),Made Shot,Putback Layup Shot,1,2,85
+0022600003,121,PT03M24.00S,1,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,86
+0022600003,121,PT03M24.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson STEAL (1 STL),,,1,0,87
+0022600003,123,PT03M15.00S,1,1610612759,SAS,1628436,Kornet,L. Kornet,0,-2,0,Made,1,21,23,44,h,Kornet Alley Oop Dunk (4 PTS) (Johnson 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,88
+0022600003,125,PT03M15.00S,1,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,89
+0022600003,126,PT03M01.00S,1,1610612760,OKC,1642349,Mitchell,A. Mitchell,-128,53,14,Missed,1,,,0,v,MISS Mitchell 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,90
+0022600003,127,PT03M01.00S,1,1610612760,OKC,1643530,Mara,A. Mara,0,0,0,,0,,,0,v,Mara REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,91
+0022600003,128,PT02M53.00S,1,1610612760,OKC,1642349,Mitchell,A. Mitchell,-13,90,9,Missed,1,,,0,v,MISS Mitchell 9' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,92
+0022600003,129,PT02M53.00S,1,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Unknown,1,0,93
+0022600003,131,PT02M48.00S,1,1610612760,OKC,1642272,McCain,J. McCain,-179,202,27,Made,1,21,26,47,v,McCain 27' 3PT Pullup Jump Shot (8 PTS) (Mara 1 AST),Made Shot,Pullup Jump shot,1,3,94
+0022600003,133,PT02M28.00S,1,1610612759,SAS,1642868,Bryant,C. Bryant,-161,186,25,Missed,1,,,0,h,MISS Bryant 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,95
+0022600003,134,PT02M28.00S,1,1610612760,OKC,1642272,McCain,J. McCain,0,0,0,,0,,,0,v,McCain REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,96
+0022600003,135,PT02M18.00S,1,1610612760,OKC,1627936,Caruso,A. Caruso,91,244,26,Made,1,21,29,50,v,Caruso 26' 3PT Jump Shot (3 PTS) (McCain 1 AST),Made Shot,Jump Shot,1,3,97
+0022600003,137,PT01M58.00S,1,1610612759,SAS,1628368,Fox,D. Fox,16,56,6,Made,1,23,29,52,h,Fox 6' Driving Floating Jump Shot (4 PTS) (Bryant 1 AST),Made Shot,Driving Floating Jump Shot,1,2,98
+0022600003,139,PT01M54.00S,1,1610612760,OKC,1643530,Mara,A. Mara,0,0,0,,0,,,0,v,Mara Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,99
+0022600003,139,PT01M54.00S,1,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie STEAL (1 STL),,,1,0,100
+0022600003,141,PT01M48.00S,1,1610612759,SAS,1642868,Bryant,C. Bryant,234,105,26,Missed,1,,,0,h,MISS Bryant 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,101
+0022600003,142,PT01M48.00S,1,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,Caruso REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,102
+0022600003,143,PT01M30.00S,1,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-85,155,18,Made,1,23,31,54,v,Gilgeous-Alexander 18' Pullup Jump Shot (9 PTS),Made Shot,Pullup Jump shot,1,2,103
+0022600003,144,PT01M21.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson Lost Ball Turnover (P2.T4),Turnover,Lost Ball,1,0,104
+0022600003,144,PT01M21.00S,1,1610612760,OKC,1642272,McCain,J. McCain,0,0,0,,0,,,0,v,McCain STEAL (1 STL),,,1,0,105
+0022600003,146,PT01M17.00S,1,1610612760,OKC,1642272,McCain,J. McCain,0,0,0,,0,,,0,v,McCain Lost Ball Turnover (P1.T4),Turnover,Lost Ball,1,0,106
+0022600003,146,PT01M17.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson STEAL (2 STL),,,1,0,107
+0022600003,148,PT01M05.00S,1,1610612759,SAS,1630577,Champagnie,J. Champagnie,15,114,11,Missed,1,,,0,h,MISS Champagnie 11' Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,2,108
+0022600003,148,PT01M05.00S,1,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander BLOCK (1 BLK),,,1,2,109
+0022600003,149,PT01M05.00S,1,1610612760,OKC,1643530,Mara,A. Mara,0,0,0,,0,,,0,v,Mara REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,110
+0022600003,150,PT00M49.00S,1,1610612760,OKC,1627936,Caruso,A. Caruso,160,218,27,Made,1,23,34,57,v,Caruso 27' 3PT Jump Shot (6 PTS) (Gilgeous-Alexander 3 AST),Made Shot,Jump Shot,1,3,111
+0022600003,153,PT00M33.30S,1,1610612759,SAS,1629640,Johnson,K. Johnson,-210,137,25,Made,1,26,34,60,h,Johnson 25' 3PT Jump Shot (3 PTS) (Fox 1 AST),Made Shot,Jump Shot,1,3,112
+0022600003,155,PT00M20.40S,1,1610612760,OKC,1642349,Mitchell,A. Mitchell,-17,17,2,Missed,1,,,0,v,MISS Mitchell 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,113
+0022600003,156,PT00M20.40S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,114
+0022600003,157,PT00M13.00S,1,1610612759,SAS,1642868,Bryant,C. Bryant,-179,175,25,Missed,1,,,0,h,MISS Bryant 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,115
+0022600003,158,PT00M13.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,116
+0022600003,159,PT00M10.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,38,22,4,Missed,1,,,0,h,MISS Johnson 4' Putback Layup,Missed Shot,Putback Layup Shot,1,2,117
+0022600003,159,PT00M10.00S,1,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander BLOCK (2 BLK),,,1,2,118
+0022600003,160,PT00M10.00S,1,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,0,0,119
+0022600003,165,PT00M10.00S,1,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Castle FOR Kornet,Substitution,,0,0,120
+0022600003,166,PT00M10.00S,1,1610612759,SAS,1642868,Bryant,C. Bryant,0,0,0,,0,,,0,h,SUB: Wembanyama FOR Bryant,Substitution,,0,0,121
+0022600003,169,PT00M10.00S,1,1610612760,OKC,1642272,McCain,J. McCain,0,0,0,,0,,,0,v,SUB: Wallace FOR McCain,Substitution,,0,0,122
+0022600003,170,PT00M10.00S,1,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,SUB: K. Williams FOR Caruso,Substitution,,0,0,123
+0022600003,171,PT00M02.80S,1,1610612759,SAS,1642264,Castle,S. Castle,84,134,16,Made,1,28,34,62,h,Castle 16' Pullup Jump Shot (5 PTS) (Wembanyama 2 AST),Made Shot,Pullup Jump shot,1,2,124
+0022600003,172,PT00M00.00S,1,0,,0,,,0,0,0,,0,28,34,62,,End of 1st Period (10:19 PM EST),period,end,1,0,125
+0022600003,182,PT12M00.00S,2,0,,0,,,0,0,0,,0,28,34,62,,Start of 2nd Period (10:23 PM EST),period,start,1,0,126
+0022600003,183,PT11M48.00S,2,1610612760,OKC,1631114,Williams,J. Williams,-49,24,5,Missed,1,,,0,v,MISS Jal. Williams 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,127
+0022600003,183,PT11M48.00S,2,1610612759,SAS,203084,Barnes,H. Barnes,0,0,0,,0,,,0,h,Barnes BLOCK (1 BLK),,,1,2,128
+0022600003,184,PT11M48.00S,2,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,129
+0022600003,186,PT11M32.00S,2,1610612759,SAS,1642264,Castle,S. Castle,35,54,6,Missed,1,,,0,h,MISS Castle 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,130
+0022600003,187,PT11M32.00S,2,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,1,0,131
+0022600003,189,PT11M23.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama Traveling Turnover (P2.T5),Turnover,Traveling,1,0,132
+0022600003,190,PT11M16.00S,2,1610612760,OKC,1631119,Williams,J. Williams,0,0,0,,0,,,0,v,Jay. Williams OFF.Foul (P1) (B.Forte),Foul,Offensive,1,0,133
+0022600003,192,PT11M16.00S,2,1610612760,OKC,1631119,Williams,J. Williams,0,0,0,,0,,,0,v,Jay. Williams Offensive Foul Turnover (P1.T5),Turnover,Offensive Foul Turnover,1,0,134
+0022600003,193,PT11M02.00S,2,1610612759,SAS,1630577,Champagnie,J. Champagnie,118,227,26,Missed,1,,,0,h,MISS Champagnie 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,135
+0022600003,194,PT11M02.00S,2,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Unknown,1,0,136
+0022600003,195,PT11M00.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama L.B.FOUL (P2.T1) (J.Orr),Foul,Loose Ball,1,0,137
+0022600003,197,PT10M49.00S,2,1610612760,OKC,1642349,Mitchell,A. Mitchell,20,28,3,Missed,1,,,0,v,MISS Mitchell 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,138
+0022600003,197,PT10M49.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama BLOCK (1 BLK),,,1,2,139
+0022600003,198,PT10M49.00S,2,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,140
+0022600003,200,PT10M38.00S,2,1610612760,OKC,1629026,Williams,K. Williams,0,0,0,,0,,,0,v,K. Williams P.FOUL (P1.T1) (B.Forte),Foul,Personal,1,0,141
+0022600003,202,PT10M32.00S,2,1610612759,SAS,1642264,Castle,S. Castle,-5,251,25,Missed,1,,,0,h,MISS Castle 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,142
+0022600003,203,PT10M32.00S,2,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,143
+0022600003,204,PT10M26.00S,2,1610612760,OKC,1631119,Williams,J. Williams,20,13,2,Missed,1,,,0,v,MISS Jay. Williams 2' Running Layup,Missed Shot,Running Layup Shot,1,2,144
+0022600003,205,PT10M26.00S,2,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,145
+0022600003,206,PT10M18.00S,2,1610612759,SAS,1642264,Castle,S. Castle,-4,12,1,Missed,1,,,0,h,MISS Castle 1' Running Layup,Missed Shot,Running Layup Shot,1,2,146
+0022600003,207,PT10M18.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,147
+0022600003,208,PT10M15.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,Missed,1,,,0,h,MISS Wembanyama Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,148
+0022600003,209,PT10M15.00S,2,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,149
+0022600003,210,PT10M02.00S,2,1610612760,OKC,1631119,Williams,J. Williams,3,281,28,Made,1,28,37,65,v,Jay. Williams 28' 3PT Jump Shot (3 PTS) (Mitchell 1 AST),Made Shot,Jump Shot,1,3,150
+0022600003,212,PT09M49.00S,2,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,151
+0022600003,212,PT09M49.00S,2,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams STEAL (1 STL),,,1,0,152
+0022600003,214,PT09M30.00S,2,1610612760,OKC,1631114,Williams,J. Williams,-109,68,13,Missed,1,,,0,v,MISS Jal. Williams 13' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,153
+0022600003,215,PT09M30.00S,2,1610612760,OKC,1629026,Williams,K. Williams,0,0,0,,0,,,0,v,K. Williams REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,154
+0022600003,216,PT09M21.00S,2,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox FLAGRANT.FOUL.TYPE1 (P1.T2) (B.Forte),Foul,Flagrant Type 1,1,0,155
+0022600003,219,PT09M21.00S,2,0,,0,,,0,0,0,,0,28,37,65,,Instant Replay2nd Period (10:27 PM EST),Instant Replay,Overturn Ruling,0,0,156
+0022600003,891,PT09M21.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,,"Double Technical - Wembanyama, K. Williams (B.Taylor)",Foul,Double Technical,0,0,157
+0022600003,226,PT09M21.00S,2,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams T.FOUL (P0.T1) (B.Taylor),Foul,Technical,1,0,158
+0022600003,224,PT09M21.00S,2,1610612760,OKC,1631119,Williams,J. Williams,0,0,0,,0,,,0,v,Jay. Williams T.FOUL (P1.T1) (B.Taylor),Foul,Technical,1,0,159
+0022600003,225,PT09M21.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,29,37,66,h,Wembanyama Free Throw Technical (3 PTS),Free Throw,Free Throw Technical,1,0,160
+0022600003,542,PT09M21.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,30,37,67,h,Wembanyama Free Throw Technical (4 PTS),Free Throw,Free Throw Technical,1,0,161
+0022600003,220,PT09M21.00S,2,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,30,38,68,v,Holmgren Free Throw Flagrant 1 of 2 (5 PTS),Free Throw,Free Throw Flagrant 1 of 2,1,0,162
+0022600003,221,PT09M21.00S,2,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,30,39,69,v,Holmgren Free Throw Flagrant 2 of 2 (6 PTS),Free Throw,Free Throw Flagrant 2 of 2,1,0,163
+0022600003,306,PT09M21.00S,2,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,SUB: Harper FOR Fox,Substitution,,0,0,164
+0022600003,228,PT09M02.00S,2,1610612760,OKC,1629026,Williams,K. Williams,-75,234,25,Made,1,30,42,72,v,K. Williams 25' 3PT Jump Shot (3 PTS) (Holmgren 2 AST),Made Shot,Jump Shot,1,3,165
+0022600003,230,PT08M42.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-10,171,17,Missed,1,,,0,h,MISS Wembanyama 17' Jump Shot,Missed Shot,Jump Shot,1,2,166
+0022600003,231,PT08M42.00S,2,1610612760,OKC,1631119,Williams,J. Williams,0,0,0,,0,,,0,v,Jay. Williams REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,167
+0022600003,232,PT08M28.00S,2,1610612760,OKC,1642349,Mitchell,A. Mitchell,-75,80,11,Made,1,30,44,74,v,Mitchell 11' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,168
+0022600003,233,PT08M15.00S,2,1610612759,SAS,1630577,Champagnie,J. Champagnie,-225,-15,0,Missed,1,,,0,h,MISS Champagnie 3PT Jump Shot,Missed Shot,Jump Shot,1,3,169
+0022600003,234,PT08M15.00S,2,1610612760,OKC,1629026,Williams,K. Williams,0,0,0,,0,,,0,v,K. Williams REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,170
+0022600003,235,PT08M09.00S,2,1610612760,OKC,1631114,Williams,J. Williams,16,11,2,Made,1,30,46,76,v,Jal. Williams 2' Running Layup (2 PTS) (Mitchell 2 AST),Made Shot,Running Layup Shot,1,2,171
+0022600003,237,PT08M08.00S,2,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,172
+0022600003,246,PT08M08.00S,2,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,SUB: Johnson FOR Castle,Substitution,,0,0,173
+0022600003,247,PT08M08.00S,2,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,SUB: Vassell FOR Champagnie,Substitution,,0,0,174
+0022600003,250,PT07M50.00S,2,1610612759,SAS,1629640,Johnson,K. Johnson,242,22,24,Missed,1,,,0,h,MISS Johnson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,175
+0022600003,251,PT07M50.00S,2,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,176
+0022600003,252,PT07M36.00S,2,1610612760,OKC,1631114,Williams,J. Williams,240,34,24,Missed,1,,,0,v,MISS Jal. Williams 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,177
+0022600003,253,PT07M36.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,178
+0022600003,254,PT07M28.00S,2,1610612759,SAS,203084,Barnes,H. Barnes,-233,-20,0,Made,1,33,46,79,h,Barnes 3PT Running Jump Shot (3 PTS) (Harper 4 AST),Made Shot,Running Jump Shot,1,3,179
+0022600003,256,PT07M04.00S,2,1610612760,OKC,1631096,Holmgren,C. Holmgren,-48,83,10,Missed,1,,,0,v,MISS Holmgren 10' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,180
+0022600003,256,PT07M04.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama BLOCK (2 BLK),,,1,2,181
+0022600003,257,PT07M04.00S,2,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Unknown,1,0,182
+0022600003,261,PT07M04.00S,2,1610612760,OKC,1629026,Williams,K. Williams,0,0,0,,0,,,0,v,SUB: Caruso FOR K. Williams,Substitution,,0,0,183
+0022600003,262,PT07M00.00S,2,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Turnover: Shot Clock (T#6),Turnover,Shot Clock Turnover,1,0,184
+0022600003,263,PT06M48.00S,2,1610612759,SAS,1642844,Harper,D. Harper,-28,1,3,Missed,1,,,0,h,MISS Harper 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,185
+0022600003,263,PT06M48.00S,2,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,Holmgren BLOCK (1 BLK),,,1,2,186
+0022600003,264,PT06M48.00S,2,1610612760,OKC,1642349,Mitchell,A. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,187
+0022600003,266,PT06M41.00S,2,1610612760,OKC,1631096,Holmgren,C. Holmgren,-40,78,9,Missed,1,,,0,v,MISS Holmgren 9' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,188
+0022600003,266,PT06M41.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama BLOCK (3 BLK),,,1,2,189
+0022600003,267,PT06M41.00S,2,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Unknown,1,0,190
+0022600003,270,PT06M36.00S,2,1610612760,OKC,1631114,Williams,J. Williams,-56,112,13,Missed,1,,,0,v,MISS Jal. Williams 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,191
+0022600003,271,PT06M36.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,192
+0022600003,272,PT06M27.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-23,11,3,Missed,1,,,0,h,MISS Wembanyama 3' Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,2,193
+0022600003,272,PT06M27.00S,2,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,Holmgren BLOCK (2 BLK),,,1,2,194
+0022600003,273,PT06M27.00S,2,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Unknown,1,0,195
+0022600003,276,PT06M14.00S,2,1610612760,OKC,1631114,Williams,J. Williams,-1,102,10,Missed,1,,,0,v,MISS Jal. Williams 10' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,196
+0022600003,277,PT06M14.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,197
+0022600003,278,PT06M03.00S,2,1610612759,SAS,1642844,Harper,D. Harper,103,42,11,Missed,1,,,0,h,MISS Harper 11' Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,2,198
+0022600003,279,PT06M03.00S,2,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,Caruso REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,199
+0022600003,280,PT05M47.00S,2,1610612760,OKC,1631114,Williams,J. Williams,21,259,26,Made,1,33,49,82,v,Jal. Williams 26' 3PT Jump Shot (5 PTS) (Mitchell 3 AST),Made Shot,Jump Shot,1,3,200
+0022600003,282,PT05M27.00S,2,1610612759,SAS,1629640,Johnson,K. Johnson,10,47,5,Missed,1,,,0,h,MISS Johnson 5' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,201
+0022600003,283,PT05M27.00S,2,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Unknown,1,0,202
+0022600003,284,PT05M26.00S,2,1610612759,SAS,203084,Barnes,H. Barnes,0,0,0,,0,,,0,h,Barnes L.B.FOUL (P1.T3) (J.Orr),Foul,Loose Ball,1,0,203
+0022600003,289,PT05M26.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,SUB: Fox FOR Wembanyama,Substitution,,0,0,204
+0022600003,290,PT05M26.00S,2,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,SUB: Champagnie FOR Johnson,Substitution,,0,0,205
+0022600003,291,PT05M26.00S,2,1610612759,SAS,203084,Barnes,H. Barnes,0,0,0,,0,,,0,h,SUB: Kornet FOR Barnes,Substitution,,0,0,206
+0022600003,294,PT05M26.00S,2,1610612760,OKC,1631119,Williams,J. Williams,0,0,0,,0,,,0,v,SUB: McCain FOR Jay. Williams,Substitution,,0,0,207
+0022600003,295,PT05M26.00S,2,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,SUB: Hartenstein FOR Holmgren,Substitution,,0,0,208
+0022600003,296,PT05M12.00S,2,1610612760,OKC,1642272,McCain,J. McCain,0,0,0,,0,,,0,v,McCain OFF.Foul (P1) (B.Taylor),Foul,Offensive,1,0,209
+0022600003,298,PT05M12.00S,2,1610612760,OKC,1642272,McCain,J. McCain,0,0,0,,0,,,0,v,McCain Offensive Foul Turnover (P2.T7),Turnover,Offensive Foul Turnover,1,0,210
+0022600003,300,PT05M12.00S,2,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,SUB: Gilgeous-Alexander FOR Jal. Williams,Substitution,,0,0,211
+0022600003,301,PT04M58.00S,2,1610612759,SAS,1642844,Harper,D. Harper,24,36,4,Missed,1,,,0,h,MISS Harper 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,212
+0022600003,302,PT04M58.00S,2,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,213
+0022600003,303,PT04M48.00S,2,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,83,153,17,Made,1,33,51,84,v,Gilgeous-Alexander 17' Turnaround Jump Shot (11 PTS) (Mitchell 4 AST),Made Shot,Turnaround Jump Shot,1,2,214
+0022600003,304,PT04M45.00S,2,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,215
+0022600003,308,PT04M45.00S,2,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,SUB: Castle FOR Harper,Substitution,,0,0,216
+0022600003,310,PT04M45.00S,2,1610612760,OKC,1642349,Mitchell,A. Mitchell,0,0,0,,0,,,0,v,SUB: Wallace FOR Mitchell,Substitution,,0,0,217
+0022600003,311,PT04M29.00S,2,1610612759,SAS,1628368,Fox,D. Fox,4,80,8,Missed,1,,,0,h,MISS Fox 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,218
+0022600003,312,PT04M29.00S,2,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Unknown,1,0,219
+0022600003,314,PT04M15.00S,2,1610612760,OKC,1627936,Caruso,A. Caruso,21,16,3,Made,1,33,53,86,v,Caruso 3' Cutting Layup Shot (8 PTS) (Hartenstein 2 AST),Made Shot,Cutting Layup Shot,1,2,220
+0022600003,316,PT04M01.00S,2,1610612760,OKC,1641717,Wallace,C. Wallace,0,0,0,,0,,,0,v,Wallace P.FOUL (P2.T2) (J.Orr),Foul,Personal,1,0,221
+0022600003,318,PT03M54.00S,2,1610612759,SAS,1642264,Castle,S. Castle,-236,-7,24,Missed,1,,,0,h,MISS Castle 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,222
+0022600003,319,PT03M54.00S,2,1610612760,OKC,1641717,Wallace,C. Wallace,0,0,0,,0,,,0,v,Wallace REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,223
+0022600003,320,PT03M48.00S,2,1610612760,OKC,1642272,McCain,J. McCain,-201,170,26,Made,1,33,56,89,v,McCain 26' 3PT Running Jump Shot (11 PTS) (Wallace 2 AST),Made Shot,Running Jump Shot,1,3,224
+0022600003,322,PT03M24.00S,2,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle Lost Ball Turnover (P2.T7),Turnover,Lost Ball,1,0,225
+0022600003,322,PT03M24.00S,2,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander STEAL (1 STL),,,1,0,226
+0022600003,324,PT03M19.00S,2,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,14,28,3,Missed,1,,,0,v,MISS Gilgeous-Alexander 3' Running Layup,Missed Shot,Running Layup Shot,1,2,227
+0022600003,324,PT03M19.00S,2,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie BLOCK (1 BLK),,,1,2,228
+0022600003,325,PT03M19.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,Vassell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,229
+0022600003,327,PT03M04.00S,2,1610612759,SAS,1628368,Fox,D. Fox,-234,33,24,Missed,1,,,0,h,MISS Fox 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,230
+0022600003,328,PT03M04.00S,2,1610612760,OKC,1642272,McCain,J. McCain,0,0,0,,0,,,0,v,McCain REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,231
+0022600003,329,PT02M56.00S,2,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-153,209,26,Made,1,33,59,92,v,Gilgeous-Alexander 26' 3PT Step Back Jump Shot (14 PTS),Made Shot,Step Back Jump shot,1,3,232
+0022600003,330,PT02M38.00S,2,1610612759,SAS,1630577,Champagnie,J. Champagnie,167,191,25,Made,1,36,59,95,h,Champagnie 25' 3PT Jump Shot (8 PTS) (Fox 2 AST),Made Shot,Jump Shot,1,3,233
+0022600003,332,PT02M20.00S,2,1610612760,OKC,1642272,McCain,J. McCain,-163,208,26,Missed,1,,,0,v,MISS McCain 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,234
+0022600003,333,PT02M20.00S,2,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,235
+0022600003,334,PT02M15.00S,2,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein S.FOUL (P3.T3) (B.Forte),Foul,Shooting,1,0,236
+0022600003,336,PT02M15.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,37,59,96,h,Vassell Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,237
+0022600003,340,PT02M15.00S,2,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Wembanyama FOR Kornet,Substitution,,0,0,238
+0022600003,341,PT02M15.00S,2,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,SUB: Harper FOR Castle,Substitution,,0,0,239
+0022600003,343,PT02M15.00S,2,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,SUB: Holmgren FOR Hartenstein,Substitution,,0,0,240
+0022600003,337,PT02M15.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,38,59,97,h,Vassell Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,241
+0022600003,344,PT01M58.00S,2,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,134,83,16,Missed,1,,,0,v,MISS Gilgeous-Alexander 16' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,242
+0022600003,345,PT01M58.00S,2,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,243
+0022600003,346,PT01M47.00S,2,1610612759,SAS,1630577,Champagnie,J. Champagnie,-143,200,25,Missed,1,,,0,h,MISS Champagnie 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,244
+0022600003,347,PT01M47.00S,2,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,245
+0022600003,348,PT01M43.00S,2,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,Made,1,40,59,99,h,Harper Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,246
+0022600003,349,PT01M38.00S,2,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie P.FOUL (P1.T4) (B.Forte),Foul,Personal,1,0,247
+0022600003,352,PT01M38.00S,2,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,SUB: Jal. Williams FOR Caruso,Substitution,,0,0,248
+0022600003,353,PT01M31.00S,2,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper S.FOUL (P1.PN) (B.Taylor),Foul,Shooting,1,0,249
+0022600003,355,PT01M31.00S,2,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,40,60,100,v,Holmgren Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,250
+0022600003,358,PT01M31.00S,2,1610612760,OKC,1641717,Wallace,C. Wallace,0,0,0,,0,,,0,v,SUB: Mitchell FOR Wallace,Substitution,,0,0,251
+0022600003,356,PT01M31.00S,2,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,40,61,101,v,Holmgren Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,252
+0022600003,359,PT01M23.00S,2,1610612760,OKC,1642349,Mitchell,A. Mitchell,0,0,0,,0,,,0,v,Mitchell S.FOUL (P2.T4) (B.Taylor),Foul,Shooting,1,0,253
+0022600003,361,PT01M23.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,41,61,102,h,Wembanyama Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,254
+0022600003,362,PT01M23.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,42,61,103,h,Wembanyama Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,255
+0022600003,364,PT00M59.70S,2,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-114,161,20,Made,1,42,63,105,v,Gilgeous-Alexander 20' Pullup Jump Shot (16 PTS),Made Shot,Pullup Jump shot,1,2,256
+0022600003,365,PT00M59.70S,2,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper S.FOUL (P2.PN) (B.Taylor),Foul,Shooting,1,0,257
+0022600003,367,PT00M59.70S,2,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,MISS Gilgeous-Alexander Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,258
+0022600003,368,PT00M59.70S,2,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,Vassell REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,259
+0022600003,372,PT00M49.80S,2,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams P.FOUL (P1.PN) (B.Forte),Foul,Personal,1,0,260
+0022600003,374,PT00M49.80S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,43,63,106,h,Wembanyama Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,261
+0022600003,377,PT00M49.80S,2,1610612760,OKC,1642272,McCain,J. McCain,0,0,0,,0,,,0,v,SUB: Caruso FOR McCain,Substitution,,0,0,262
+0022600003,375,PT00M49.80S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,44,63,107,h,Wembanyama Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,263
+0022600003,378,PT00M35.50S,2,1610612760,OKC,1631096,Holmgren,C. Holmgren,1,10,1,Made,1,44,65,109,v,Holmgren 1' Cutting Dunk Shot (10 PTS) (Gilgeous-Alexander 4 AST),Made Shot,Cutting Dunk Shot,1,2,264
+0022600003,380,PT00M13.30S,2,1610612759,SAS,1630170,Vassell,D. Vassell,-11,-3,1,Missed,1,,,0,h,MISS Vassell 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,265
+0022600003,381,PT00M13.30S,2,1610612760,OKC,1642349,Mitchell,A. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,266
+0022600003,382,PT00M03.20S,2,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-36,265,27,Missed,1,,,0,v,MISS Gilgeous-Alexander 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,267
+0022600003,383,PT00M03.20S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,268
+0022600003,384,PT00M00.00S,2,0,,0,,,0,0,0,,0,,,0,h,SPURS Heave,Heave,Team Field Goal Attempt,0,0,269
+0022600003,385,PT00M00.00S,2,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,1,0,270
+0022600003,386,PT00M00.00S,2,0,,0,,,0,0,0,,0,44,65,109,,End of 2nd Period (10:56 PM EST),period,end,1,0,271
+0022600003,393,PT12M00.00S,3,0,,0,,,0,0,0,,0,44,65,109,,Start of 3rd Period (11:12 PM EST),period,start,1,0,272
+0022600003,394,PT11M42.00S,3,1610612760,OKC,1641717,Wallace,C. Wallace,38,248,25,Missed,1,,,0,v,MISS Wallace 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,273
+0022600003,395,PT11M42.00S,3,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,274
+0022600003,396,PT11M33.00S,3,1610612759,SAS,1642844,Harper,D. Harper,-2,12,1,Made,1,46,65,111,h,Harper 1' Running Layup (6 PTS) (Castle 1 AST),Made Shot,Running Layup Shot,1,2,275
+0022600003,399,PT11M20.00S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,69,242,25,Missed,1,,,0,v,MISS Gilgeous-Alexander 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,276
+0022600003,400,PT11M20.00S,3,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,1,0,277
+0022600003,402,PT11M20.00S,3,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein P.FOUL (P4.T1) (B.Forte),Foul,Personal,1,0,278
+0022600003,404,PT11M15.00S,3,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle OFF.Foul (P1) (B.Forte),Foul,Offensive,1,0,279
+0022600003,406,PT11M15.00S,3,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle Offensive Foul Turnover (P3.T8),Turnover,Offensive Foul Turnover,1,0,280
+0022600003,407,PT11M00.00S,3,1610612760,OKC,1641717,Wallace,C. Wallace,233,17,0,Missed,1,,,0,v,MISS Wallace 3PT Jump Shot,Missed Shot,Jump Shot,1,3,281
+0022600003,408,PT11M00.00S,3,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,282
+0022600003,558,PT10M52.00S,3,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,283
+0022600003,558,PT10M52.00S,3,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox STEAL (1 STL),,,1,0,284
+0022600003,411,PT10M44.00S,3,1610612759,SAS,1642844,Harper,D. Harper,-2,18,2,Made,1,48,65,113,h,Harper 2' Running Layup (8 PTS) (Fox 3 AST),Made Shot,Running Layup Shot,1,2,285
+0022600003,412,PT10M39.00S,3,1610612760,OKC,1631114,Williams,J. Williams,21,47,5,Missed,1,,,0,v,MISS Jal. Williams 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,286
+0022600003,413,PT10M39.00S,3,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,287
+0022600003,414,PT10M31.00S,3,1610612759,SAS,1628368,Fox,D. Fox,35,47,6,Made,1,50,65,115,h,Fox 6' Running Pull-Up Jump Shot (6 PTS),Made Shot,Running Pull-Up Jump Shot,1,2,288
+0022600003,415,PT10M31.00S,3,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,289
+0022600003,418,PT10M31.00S,3,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,SUB: Jay. Williams FOR Hartenstein,Substitution,,0,0,290
+0022600003,419,PT10M07.00S,3,1610612760,OKC,1641717,Wallace,C. Wallace,233,113,26,Missed,1,,,0,v,MISS Wallace 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,291
+0022600003,419,PT10M07.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama BLOCK (4 BLK),,,1,3,292
+0022600003,420,PT10M07.00S,3,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Unknown,1,0,293
+0022600003,422,PT10M06.00S,3,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Turnover: Shot Clock (T#9),Turnover,Shot Clock Turnover,1,0,294
+0022600003,423,PT10M00.00S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander P.FOUL (P1.T2) (B.Forte),Foul,Personal,1,0,295
+0022600003,426,PT09M57.00S,3,1610612759,SAS,1642844,Harper,D. Harper,-20,18,3,Missed,1,,,0,h,MISS Harper 3' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,296
+0022600003,426,PT09M57.00S,3,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,Holmgren BLOCK (3 BLK),,,1,2,297
+0022600003,427,PT09M57.00S,3,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,298
+0022600003,429,PT09M53.00S,3,1610612759,SAS,1642264,Castle,S. Castle,244,6,24,Made,1,53,65,118,h,Castle 24' 3PT Jump Shot (8 PTS) (Fox 4 AST),Made Shot,Jump Shot,1,3,299
+0022600003,431,PT09M37.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,Vassell P.FOUL (P2.T1) (B.Forte),Foul,Personal,1,0,300
+0022600003,433,PT09M26.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,Vassell P.FOUL (P3.T2) (B.Taylor),Foul,Personal,1,0,301
+0022600003,436,PT09M13.00S,3,1610612760,OKC,1631096,Holmgren,C. Holmgren,27,4,3,Missed,1,,,0,v,MISS Holmgren 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,302
+0022600003,437,PT09M13.00S,3,1610612760,OKC,1631119,Williams,J. Williams,0,0,0,,0,,,0,v,Jay. Williams REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,303
+0022600003,438,PT09M09.00S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,131,219,26,Made,1,53,68,121,v,Gilgeous-Alexander 26' 3PT Jump Shot (19 PTS) (Jay. Williams 1 AST),Made Shot,Jump Shot,1,3,304
+0022600003,440,PT08M59.00S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander S.FOUL (P2.T3) (B.Taylor),Foul,Shooting,1,0,305
+0022600003,442,PT08M59.00S,3,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,54,68,122,h,Fox Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,306
+0022600003,443,PT08M59.00S,3,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,55,68,123,h,Fox Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,307
+0022600003,444,PT08M48.00S,3,1610612760,OKC,1641717,Wallace,C. Wallace,0,0,0,,0,,,0,v,Wallace Out of Bounds - Bad Pass Turnover Turnover (P1.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,308
+0022600003,445,PT08M35.00S,3,1610612759,SAS,1642264,Castle,S. Castle,-68,256,26,Made,1,58,68,126,h,Castle 26' 3PT Jump Shot (11 PTS) (Vassell 1 AST),Made Shot,Jump Shot,1,3,309
+0022600003,451,PT08M24.00S,3,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,310
+0022600003,452,PT08M24.00S,3,0,,0,,,0,0,0,,0,58,69,127,,Instant Replay3rd Period (11:24 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,311
+0022600003,453,PT08M24.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,Vassell S.FOUL (P4.T3) (B.Taylor),Foul,Shooting,1,0,312
+0022600003,455,PT08M24.00S,3,1610612760,OKC,1631119,Williams,J. Williams,0,0,0,,0,58,69,127,v,Jay. Williams Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,313
+0022600003,458,PT08M24.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,SUB: Champagnie FOR Vassell,Substitution,,0,0,314
+0022600003,460,PT08M24.00S,3,1610612760,OKC,1641717,Wallace,C. Wallace,0,0,0,,0,,,0,v,SUB: Caruso FOR Wallace,Substitution,,0,0,315
+0022600003,456,PT08M24.00S,3,1610612760,OKC,1631119,Williams,J. Williams,0,0,0,,0,58,70,128,v,Jay. Williams Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,316
+0022600003,461,PT08M11.00S,3,1610612759,SAS,1628368,Fox,D. Fox,-28,64,7,Made,1,60,70,130,h,Fox 7' Driving Floating Jump Shot (10 PTS),Made Shot,Driving Floating Jump Shot,1,2,317
+0022600003,462,PT07M57.00S,3,1610612760,OKC,1631114,Williams,J. Williams,3,-11,1,Made,1,60,72,132,v,Jal. Williams 1' Driving Finger Roll Layup (7 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,318
+0022600003,463,PT07M48.00S,3,1610612759,SAS,1642264,Castle,S. Castle,-70,56,9,Missed,1,,,0,h,MISS Castle 9' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,319
+0022600003,464,PT07M48.00S,3,1610612760,OKC,1631119,Williams,J. Williams,0,0,0,,0,,,0,v,Jay. Williams REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,320
+0022600003,465,PT07M40.00S,3,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle P.FOUL (P2.T4) (B.Taylor),Foul,Personal,1,0,321
+0022600003,468,PT07M23.00S,3,1610612760,OKC,1631114,Williams,J. Williams,-11,-8,1,Made,1,60,74,134,v,Jal. Williams 1' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,322
+0022600003,469,PT07M07.00S,3,1610612759,SAS,1642264,Castle,S. Castle,-161,207,26,Made,1,63,74,137,h,Castle 26' 3PT Step Back Jump Shot (14 PTS),Made Shot,Step Back Jump shot,1,3,323
+0022600003,470,PT06M50.00S,3,1610612760,OKC,1631114,Williams,J. Williams,-99,2,10,Missed,1,,,0,v,MISS Jal. Williams 10' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,324
+0022600003,471,PT06M50.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,325
+0022600003,472,PT06M37.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-75,260,27,Missed,1,,,0,h,MISS Wembanyama 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,326
+0022600003,473,PT06M37.00S,3,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,327
+0022600003,474,PT06M28.00S,3,1610612759,SAS,1628368,Fox,D. Fox,-13,12,2,Made,1,65,74,139,h,Fox 2' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,328
+0022600003,475,PT06M17.00S,3,1610612760,OKC,1631119,Williams,J. Williams,-228,-5,0,Missed,1,,,0,v,MISS Jay. Williams 3PT Jump Shot,Missed Shot,Jump Shot,1,3,329
+0022600003,476,PT06M17.00S,3,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,Holmgren REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,330
+0022600003,477,PT06M10.00S,3,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,Holmgren Lost Ball Turnover (P1.T11),Turnover,Lost Ball,1,0,331
+0022600003,477,PT06M10.00S,3,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie STEAL (2 STL),,,1,0,332
+0022600003,479,PT06M05.00S,3,1610612759,SAS,1642264,Castle,S. Castle,-22,15,3,Made,1,67,74,141,h,Castle 3' Running Layup (16 PTS),Made Shot,Running Layup Shot,1,2,333
+0022600003,480,PT05M57.00S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,58,15,6,Missed,1,,,0,v,MISS Gilgeous-Alexander 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,334
+0022600003,480,PT05M57.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama BLOCK (5 BLK),,,1,2,335
+0022600003,481,PT05M57.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,336
+0022600003,613,PT05M55.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama Bad Pass Turnover (P3.T9),Turnover,Bad Pass,1,0,337
+0022600003,613,PT05M55.00S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander STEAL (2 STL),,,1,0,338
+0022600003,483,PT05M49.00S,3,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie S.FOUL (P2.PN) (J.Orr),Foul,Shooting,1,0,339
+0022600003,485,PT05M49.00S,3,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,67,75,142,v,Holmgren Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,340
+0022600003,489,PT05M49.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,SUB: Kornet FOR Wembanyama,Substitution,,0,0,341
+0022600003,490,PT05M49.00S,3,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,SUB: Johnson FOR Fox,Substitution,,0,0,342
+0022600003,492,PT05M49.00S,3,1610612760,OKC,1631119,Williams,J. Williams,0,0,0,,0,,,0,v,SUB: Mara FOR Jay. Williams,Substitution,,0,0,343
+0022600003,494,PT05M49.00S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,SUB: Mitchell FOR Gilgeous-Alexander,Substitution,,0,0,344
+0022600003,486,PT05M49.00S,3,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,67,76,143,v,Holmgren Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,345
+0022600003,495,PT05M35.00S,3,1610612759,SAS,1642844,Harper,D. Harper,244,32,25,Missed,1,,,0,h,MISS Harper 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,346
+0022600003,496,PT05M35.00S,3,1610612760,OKC,1642349,Mitchell,A. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,347
+0022600003,497,PT05M22.00S,3,1610612760,OKC,1643530,Mara,A. Mara,-47,83,10,Made,1,67,78,145,v,Mara 10' Floating Jump Shot (3 PTS) (Mitchell 5 AST),Made Shot,Floating Jump shot,1,2,348
+0022600003,499,PT05M11.00S,3,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper OFF.Foul (P3) (B.Forte),Foul,Offensive,1,0,349
+0022600003,501,PT05M11.00S,3,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper Offensive Foul Turnover (P1.T10),Turnover,Offensive Foul Turnover,1,0,350
+0022600003,503,PT05M11.00S,3,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,SUB: Bryant FOR Castle,Substitution,,0,0,351
+0022600003,506,PT05M11.00S,3,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,SUB: McCain FOR Holmgren,Substitution,,0,0,352
+0022600003,507,PT05M11.00S,3,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,SUB: Gilgeous-Alexander FOR Jal. Williams,Substitution,,0,0,353
+0022600003,508,PT05M05.00S,3,1610612759,SAS,1642868,Bryant,C. Bryant,0,0,0,,0,,,0,h,Bryant S.FOUL (P1.PN) (B.Taylor),Foul,Shooting,1,0,354
+0022600003,510,PT05M05.00S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,67,79,146,v,Gilgeous-Alexander Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,355
+0022600003,511,PT05M05.00S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,67,80,147,v,Gilgeous-Alexander Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,1,0,356
+0022600003,513,PT04M51.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,-46,30,5,Made,1,69,80,149,h,Johnson 5' Driving Floating Bank Jump Shot (5 PTS) (Harper 5 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,357
+0022600003,515,PT04M51.00S,3,1610612760,OKC,1642349,Mitchell,A. Mitchell,0,0,0,,0,,,0,v,Mitchell S.FOUL (P3.T4) (J.Orr),Foul,Shooting,1,0,358
+0022600003,520,PT04M51.00S,3,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,SUB: Wembanyama FOR Harper,Substitution,,0,0,359
+0022600003,521,PT04M51.00S,3,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Fox FOR Kornet,Substitution,,0,0,360
+0022600003,517,PT04M51.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,70,80,150,h,Johnson Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,361
+0022600003,522,PT04M34.00S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-10,130,13,Made,1,70,82,152,v,Gilgeous-Alexander 13' Driving Floating Jump Shot (23 PTS),Made Shot,Driving Floating Jump Shot,1,2,362
+0022600003,523,PT04M20.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-2,14,1,Missed,1,,,0,h,MISS Wembanyama 1' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,363
+0022600003,523,PT04M20.00S,3,1610612760,OKC,1643530,Mara,A. Mara,0,0,0,,0,,,0,v,Mara BLOCK (1 BLK),,,1,2,364
+0022600003,524,PT04M20.00S,3,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,Caruso REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,365
+0022600003,526,PT04M11.00S,3,1610612760,OKC,1643530,Mara,A. Mara,10,-2,1,Made,1,70,84,154,v,Mara 1' Alley Oop Dunk (5 PTS) (Mitchell 6 AST),Made Shot,Alley Oop Dunk Shot,1,2,366
+0022600003,529,PT03M59.00S,3,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox Bad Pass Turnover (P1.T11),Turnover,Bad Pass,1,0,367
+0022600003,529,PT03M59.00S,3,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,Caruso STEAL (1 STL),,,1,0,368
+0022600003,531,PT03M54.00S,3,1610612760,OKC,1627936,Caruso,A. Caruso,59,19,6,Missed,1,,,0,v,MISS Caruso 6' Running Layup,Missed Shot,Running Layup Shot,1,2,369
+0022600003,531,PT03M54.00S,3,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie BLOCK (2 BLK),,,1,2,370
+0022600003,532,PT03M54.00S,3,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Unknown,1,0,371
+0022600003,534,PT03M53.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson L.B.FOUL (P1.PN) (B.Taylor),Foul,Loose Ball,1,0,372
+0022600003,536,PT03M53.00S,3,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,70,85,155,v,Caruso Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,373
+0022600003,540,PT03M53.00S,3,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,SUB: Vassell FOR Champagnie,Substitution,,0,0,374
+0022600003,541,PT03M53.00S,3,1610612759,SAS,1642868,Bryant,C. Bryant,0,0,0,,0,,,0,h,SUB: Barnes FOR Bryant,Substitution,,0,0,375
+0022600003,537,PT03M53.00S,3,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,MISS Caruso Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,376
+0022600003,543,PT03M53.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,377
+0022600003,544,PT03M33.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-14,15,2,Missed,1,,,0,h,MISS Wembanyama 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,378
+0022600003,545,PT03M33.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,379
+0022600003,546,PT03M30.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,Made,1,72,85,157,h,Johnson Tip Layup Shot (8 PTS),Made Shot,Tip Layup Shot,1,2,380
+0022600003,547,PT03M19.00S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,144,-1,14,Made,1,72,87,159,v,Gilgeous-Alexander 14' Pullup Jump Shot (25 PTS),Made Shot,Pullup Jump shot,1,2,381
+0022600003,548,PT03M08.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-12,273,27,Missed,1,,,0,h,MISS Wembanyama 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,382
+0022600003,549,PT03M08.00S,3,1610612760,OKC,1642349,Mitchell,A. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,383
+0022600003,554,PT02M42.00S,3,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Turnover: Shot Clock (T#12),Turnover,Shot Clock Turnover,1,0,384
+0022600003,553,PT02M41.00S,3,0,,0,,,0,0,0,,0,72,87,159,,Instant Replay3rd Period (11:38 PM EST),Instant Replay,Support Ruling,0,0,385
+0022600003,555,PT02M28.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,-132,32,14,Made,1,74,87,161,h,Vassell 14' Pullup Jump Shot (7 PTS) (Fox 5 AST),Made Shot,Pullup Jump shot,1,2,386
+0022600003,556,PT02M12.00S,3,1610612760,OKC,1642272,McCain,J. McCain,-13,261,26,Made,1,74,90,164,v,McCain 26' 3PT Jump Shot (14 PTS) (Caruso 1 AST),Made Shot,Jump Shot,1,3,387
+0022600003,560,PT01M59.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-110,238,26,Missed,1,,,0,h,MISS Wembanyama 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,388
+0022600003,561,PT01M59.00S,3,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,Caruso REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,389
+0022600003,562,PT01M42.00S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-44,100,11,Missed,1,,,0,v,MISS Gilgeous-Alexander 11' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,390
+0022600003,563,PT01M42.00S,3,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,391
+0022600003,564,PT01M33.00S,3,1610612759,SAS,1628368,Fox,D. Fox,-4,9,1,Made,1,76,90,166,h,Fox 1' Running Layup (14 PTS),Made Shot,Running Layup Shot,1,2,392
+0022600003,565,PT01M17.00S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-9,-5,1,Missed,1,,,0,v,MISS Gilgeous-Alexander 1' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,393
+0022600003,566,PT01M17.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,Vassell REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,394
+0022600003,567,PT01M11.00S,3,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,Caruso S.FOUL (P1.PN) (B.Taylor),Foul,Shooting,1,0,395
+0022600003,569,PT01M11.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,77,90,167,h,Wembanyama Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,396
+0022600003,572,PT01M11.00S,3,1610612759,SAS,203084,Barnes,H. Barnes,0,0,0,,0,,,0,h,SUB: Castle FOR Barnes,Substitution,,0,0,397
+0022600003,574,PT01M11.00S,3,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,SUB: K. Williams FOR Caruso,Substitution,,0,0,398
+0022600003,570,PT01M11.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,78,90,168,h,Wembanyama Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,399
+0022600003,585,PT00M57.10S,3,1610612760,OKC,1643530,Mara,A. Mara,3,13,1,Missed,1,,,0,v,MISS Mara 1' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,400
+0022600003,585,PT00M57.10S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama BLOCK (6 BLK),,,1,2,401
+0022600003,587,PT00M57.10S,3,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Unknown,1,0,402
+0022600003,577,PT00M57.10S,3,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,403
+0022600003,579,PT00M57.10S,3,0,,0,,,0,0,0,,0,78,90,168,,Instant Replay3rd Period (11:44 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,404
+0022600003,580,PT00M49.70S,3,1610612760,OKC,1642349,Mitchell,A. Mitchell,0,0,0,,0,,,0,v,Mitchell Bad Pass Turnover (P1.T13),Turnover,Bad Pass,1,0,405
+0022600003,580,PT00M49.70S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama STEAL (1 STL),,,1,0,406
+0022600003,582,PT00M31.30S,3,1610612760,OKC,1643530,Mara,A. Mara,0,0,0,,0,,,0,v,Mara S.FOUL (P1.PN) (B.Taylor),Foul,Shooting,1,0,407
+0022600003,584,PT00M31.30S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,MISS Wembanyama Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,408
+0022600003,588,PT00M31.30S,3,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Normal Rebound,1,0,409
+0022600003,591,PT00M31.30S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,SUB: Harper FOR Vassell,Substitution,,0,0,410
+0022600003,593,PT00M31.30S,3,1610612760,OKC,1643530,Mara,A. Mara,0,0,0,,0,,,0,v,SUB: Holmgren FOR Mara,Substitution,,0,0,411
+0022600003,589,PT00M31.30S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,MISS Wembanyama Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,412
+0022600003,594,PT00M31.30S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,413
+0022600003,598,PT00M21.10S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,162,201,26,Missed,1,,,0,v,MISS Gilgeous-Alexander 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,414
+0022600003,599,PT00M21.10S,3,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,Holmgren REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,415
+0022600003,600,PT00M10.50S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,46,134,14,Made,1,78,92,170,v,Gilgeous-Alexander 14' Pullup Jump Shot (27 PTS),Made Shot,Pullup Jump shot,1,2,416
+0022600003,601,PT00M10.30S,3,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle S.FOUL (P3.PN) (B.Forte),Foul,Shooting,1,0,417
+0022600003,605,PT00M10.30S,3,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,SUB: Vassell FOR Johnson,Substitution,,0,0,418
+0022600003,608,PT00M10.30S,3,1610612760,OKC,1642349,Mitchell,A. Mitchell,0,0,0,,0,,,0,v,SUB: Jal. Williams FOR Mitchell,Substitution,,0,0,419
+0022600003,609,PT00M10.30S,3,1610612760,OKC,1642272,McCain,J. McCain,0,0,0,,0,,,0,v,SUB: Wallace FOR McCain,Substitution,,0,0,420
+0022600003,603,PT00M10.30S,3,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,78,93,171,v,Gilgeous-Alexander Free Throw 1 of 1 (28 PTS),Free Throw,Free Throw 1 of 1,1,0,421
+0022600003,610,PT00M00.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,4,16,2,Made,1,80,93,173,h,Wembanyama 2' Alley Oop Dunk (12 PTS) (Fox 6 AST),Made Shot,Alley Oop Dunk Shot,1,2,422
+0022600003,612,PT00M00.00S,3,0,,0,,,0,0,0,,0,80,93,173,,End of 3rd Period (11:49 PM EST),period,end,1,0,423
+0022600003,623,PT12M00.00S,4,0,,0,,,0,0,0,,0,80,93,173,,Start of 4th Period (11:53 PM EST),period,start,1,0,424
+0022600003,624,PT11M48.00S,4,1610612759,SAS,1642844,Harper,D. Harper,11,85,9,Made,1,82,93,175,h,Harper 9' Turnaround Jump Shot (10 PTS) (Wembanyama 3 AST),Made Shot,Turnaround Jump Shot,1,2,425
+0022600003,626,PT11M31.00S,4,1610612760,OKC,1631114,Williams,J. Williams,-119,-5,12,Made,1,82,95,177,v,Jal. Williams 12' Driving Floating Jump Shot (11 PTS),Made Shot,Driving Floating Jump Shot,1,2,426
+0022600003,627,PT11M19.00S,4,1610612759,SAS,1630170,Vassell,D. Vassell,130,231,27,Missed,1,,,0,h,MISS Vassell 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,427
+0022600003,628,PT11M19.00S,4,1610612760,OKC,1642349,Mitchell,A. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,428
+0022600003,629,PT11M05.00S,4,1610612760,OKC,1642349,Mitchell,A. Mitchell,4,60,6,Missed,1,,,0,v,MISS Mitchell 6' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,429
+0022600003,630,PT11M05.00S,4,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,430
+0022600003,631,PT10M58.00S,4,1610612759,SAS,1642264,Castle,S. Castle,24,103,11,Made,1,84,95,179,h,Castle 11' Running Pull-Up Jump Shot (18 PTS),Made Shot,Running Pull-Up Jump Shot,1,2,431
+0022600003,632,PT10M52.00S,4,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper Personal Take Foul (P4.T1) (B.Forte),Foul,Personal Take,1,0,432
+0022600003,635,PT10M52.00S,4,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,SUB: Champagnie FOR Harper,Substitution,,0,0,433
+0022600003,636,PT10M34.00S,4,1610612760,OKC,1642349,Mitchell,A. Mitchell,-172,185,25,Missed,1,,,0,v,MISS Mitchell 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,434
+0022600003,637,PT10M34.00S,4,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,435
+0022600003,638,PT10M24.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,6,19,2,Made,1,86,95,181,h,Johnson 2' Driving Finger Roll Layup (10 PTS) (Champagnie 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,436
+0022600003,639,PT10M01.00S,4,1610612760,OKC,1631114,Williams,J. Williams,101,146,18,Missed,1,,,0,v,MISS Jal. Williams 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,437
+0022600003,640,PT10M01.00S,4,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:2 Def:10),Rebound,Unknown,1,0,438
+0022600003,641,PT09M39.00S,4,1610612759,SAS,1642264,Castle,S. Castle,246,42,25,Missed,1,,,0,h,MISS Castle 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,439
+0022600003,642,PT09M39.00S,4,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,Holmgren REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,440
+0022600003,643,PT09M32.00S,4,1610612760,OKC,1631119,Williams,J. Williams,-230,61,24,Missed,1,,,0,v,MISS Jay. Williams 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,441
+0022600003,644,PT09M32.00S,4,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:2 Def:11),Rebound,Unknown,1,0,442
+0022600003,645,PT09M24.00S,4,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams P.FOUL (P2.T1) (B.Forte),Foul,Personal,1,0,443
+0022600003,648,PT09M24.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,SUB: Harper FOR Johnson,Substitution,,0,0,444
+0022600003,649,PT09M18.00S,4,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama OFF.Foul (P3) (B.Taylor),Foul,Offensive,1,0,445
+0022600003,651,PT09M18.00S,4,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama Offensive Foul Turnover (P4.T12),Turnover,Offensive Foul Turnover,1,0,446
+0022600003,653,PT09M18.00S,4,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,SUB: Wallace FOR Caruso,Substitution,,0,0,447
+0022600003,654,PT09M05.00S,4,1610612760,OKC,1631114,Williams,J. Williams,-12,1,1,Missed,1,,,0,v,MISS Jal. Williams 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,448
+0022600003,655,PT09M05.00S,4,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,449
+0022600003,656,PT09M01.00S,4,1610612759,SAS,1642844,Harper,D. Harper,-173,201,27,Missed,1,,,0,h,MISS Harper 27' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,450
+0022600003,657,PT09M01.00S,4,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,451
+0022600003,658,PT08M53.00S,4,1610612759,SAS,1630577,Champagnie,J. Champagnie,-232,1,0,Missed,1,,,0,h,MISS Champagnie 3PT Jump Shot,Missed Shot,Jump Shot,1,3,452
+0022600003,659,PT08M53.00S,4,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Unknown,1,0,453
+0022600003,661,PT08M41.00S,4,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie P.FOUL (P3.T2) (J.Orr),Foul,Personal,1,0,454
+0022600003,665,PT08M41.00S,4,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,SUB: Kornet FOR Castle,Substitution,,0,0,455
+0022600003,666,PT08M41.00S,4,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,SUB: Fox FOR Wembanyama,Substitution,,0,0,456
+0022600003,668,PT08M41.00S,4,1610612760,OKC,1631119,Williams,J. Williams,0,0,0,,0,,,0,v,SUB: Hartenstein FOR Jay. Williams,Substitution,,0,0,457
+0022600003,669,PT08M28.00S,4,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,-1,137,14,Missed,1,,,0,v,MISS Hartenstein 14' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,458
+0022600003,670,PT08M28.00S,4,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,Holmgren REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,459
+0022600003,671,PT08M22.00S,4,1610612760,OKC,1631096,Holmgren,C. Holmgren,-8,-16,2,Missed,1,,,0,v,MISS Holmgren 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,460
+0022600003,671,PT08M22.00S,4,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet BLOCK (1 BLK),,,1,2,461
+0022600003,672,PT08M22.00S,4,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,462
+0022600003,674,PT08M18.00S,4,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams S.FOUL (P3.T2) (J.Orr),Foul,Shooting,1,0,463
+0022600003,676,PT08M18.00S,4,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,87,95,182,h,Harper Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,464
+0022600003,680,PT08M18.00S,4,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,SUB: Gilgeous-Alexander FOR Holmgren,Substitution,,0,0,465
+0022600003,681,PT08M18.00S,4,1610612760,OKC,1642349,Mitchell,A. Mitchell,0,0,0,,0,,,0,v,SUB: McCain FOR Mitchell,Substitution,,0,0,466
+0022600003,677,PT08M18.00S,4,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,88,95,183,h,Harper Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,467
+0022600003,683,PT08M08.00S,4,1610612760,OKC,1642272,McCain,J. McCain,41,263,27,Made,1,88,98,186,v,McCain 27' 3PT Jump Shot (17 PTS) (Jal. Williams 2 AST),Made Shot,Jump Shot,1,3,468
+0022600003,685,PT07M49.00S,4,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox Bad Pass Turnover (P2.T13),Turnover,Bad Pass,1,0,469
+0022600003,685,PT07M49.00S,4,1610612760,OKC,1641717,Wallace,C. Wallace,0,0,0,,0,,,0,v,Wallace STEAL (1 STL),,,1,0,470
+0022600003,687,PT07M45.00S,4,1610612760,OKC,1641717,Wallace,C. Wallace,14,4,1,Made,1,88,100,188,v,Wallace 1' Running Dunk (6 PTS),Made Shot,Running Dunk Shot,1,2,471
+0022600003,688,PT07M36.00S,4,1610612759,SAS,1630170,Vassell,D. Vassell,-48,88,10,Missed,1,,,0,h,MISS Vassell 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,472
+0022600003,689,PT07M36.00S,4,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,473
+0022600003,690,PT07M25.00S,4,1610612760,OKC,1631114,Williams,J. Williams,-19,-7,2,Missed,1,,,0,v,MISS Jal. Williams 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,474
+0022600003,691,PT07M25.00S,4,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,475
+0022600003,692,PT07M19.00S,4,1610612759,SAS,1642844,Harper,D. Harper,0,20,2,Made,1,90,100,190,h,Harper 2' Running Layup (14 PTS),Made Shot,Running Layup Shot,1,2,476
+0022600003,693,PT07M05.00S,4,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-130,0,13,Missed,1,,,0,v,MISS Gilgeous-Alexander 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,477
+0022600003,693,PT07M05.00S,4,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie BLOCK (3 BLK),,,1,2,478
+0022600003,694,PT07M05.00S,4,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,479
+0022600003,696,PT07M00.00S,4,1610612760,OKC,1641717,Wallace,C. Wallace,-217,156,27,Missed,1,,,0,v,MISS Wallace 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,480
+0022600003,697,PT07M00.00S,4,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,481
+0022600003,698,PT06M57.00S,4,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-71,121,14,Made,1,90,102,192,v,Gilgeous-Alexander 14' Jump Shot (30 PTS),Made Shot,Jump Shot,1,2,482
+0022600003,699,PT06M57.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,483
+0022600003,700,PT06M37.00S,4,1610612759,SAS,1628368,Fox,D. Fox,-95,248,27,Missed,1,,,0,h,MISS Fox 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,484
+0022600003,701,PT06M37.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,1,0,485
+0022600003,702,PT06M36.00S,4,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein L.B.FOUL (P5.T3) (B.Taylor),Foul,Loose Ball,1,0,486
+0022600003,705,PT06M36.00S,4,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,SUB: Jay. Williams FOR Hartenstein,Substitution,,0,0,487
+0022600003,706,PT06M26.00S,4,1610612759,SAS,1630170,Vassell,D. Vassell,-4,80,8,Missed,1,,,0,h,MISS Vassell 8' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,488
+0022600003,707,PT06M26.00S,4,1610612760,OKC,1631119,Williams,J. Williams,0,0,0,,0,,,0,v,Jay. Williams REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,489
+0022600003,708,PT06M16.00S,4,1610612760,OKC,1631119,Williams,J. Williams,232,118,26,Missed,1,,,0,v,MISS Jay. Williams 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,490
+0022600003,709,PT06M16.00S,4,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,491
+0022600003,710,PT05M58.00S,4,1610612759,SAS,1642844,Harper,D. Harper,16,14,2,Made,1,92,102,194,h,Harper 2' Driving Layup (16 PTS),Made Shot,Driving Layup Shot,1,2,492
+0022600003,712,PT05M40.00S,4,1610612760,OKC,1631119,Williams,J. Williams,-89,234,25,Missed,1,,,0,v,MISS Jay. Williams 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,493
+0022600003,713,PT05M40.00S,4,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,494
+0022600003,714,PT05M25.00S,4,1610612760,OKC,1641717,Wallace,C. Wallace,0,0,0,,0,,,0,v,Wallace S.FOUL (P3.T4) (B.Forte),Foul,Shooting,1,0,495
+0022600003,716,PT05M25.00S,4,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,93,102,195,h,Harper Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,1,0,496
+0022600003,720,PT05M25.00S,4,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,SUB: Castle FOR Vassell,Substitution,,0,0,497
+0022600003,721,PT05M25.00S,4,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,SUB: Johnson FOR Fox,Substitution,,0,0,498
+0022600003,723,PT05M25.00S,4,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,SUB: Caruso FOR Jal. Williams,Substitution,,0,0,499
+0022600003,717,PT05M25.00S,4,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,94,102,196,h,Harper Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,500
+0022600003,724,PT05M06.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson P.FOUL (P2.T3) (J.Orr),Foul,Personal,1,0,501
+0022600003,727,PT05M06.00S,4,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Wembanyama FOR Kornet,Substitution,,0,0,502
+0022600003,728,PT05M06.00S,4,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,503
+0022600003,731,PT05M06.00S,4,1610612760,OKC,1641717,Wallace,C. Wallace,0,0,0,,0,,,0,v,SUB: Holmgren FOR Wallace,Substitution,,0,0,504
+0022600003,732,PT05M06.00S,4,1610612760,OKC,1631119,Williams,J. Williams,0,0,0,,0,,,0,v,SUB: Hartenstein FOR Jay. Williams,Substitution,,0,0,505
+0022600003,733,PT04M59.00S,4,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-142,31,15,Missed,1,,,0,v,MISS Gilgeous-Alexander 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,506
+0022600003,734,PT04M59.00S,4,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,Holmgren REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,507
+0022600003,735,PT04M55.00S,4,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,Made,1,94,104,198,v,Holmgren Tip Layup Shot (14 PTS),Made Shot,Tip Layup Shot,1,2,508
+0022600003,736,PT04M42.00S,4,1610612759,SAS,1642844,Harper,D. Harper,-4,101,10,Missed,1,,,0,h,MISS Harper 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,509
+0022600003,737,PT04M42.00S,4,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,Holmgren REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,510
+0022600003,738,PT04M28.00S,4,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,51,130,14,Missed,1,,,0,v,MISS Gilgeous-Alexander 14' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,511
+0022600003,739,PT04M28.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,512
+0022600003,740,PT04M18.00S,4,1610612759,SAS,1642264,Castle,S. Castle,-174,188,26,Made,1,97,104,201,h,Castle 26' 3PT Running Pull-Up Jump Shot (21 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,513
+0022600003,741,PT03M55.00S,4,1610612760,OKC,1642272,McCain,J. McCain,-93,239,26,Made,1,97,107,204,v,McCain 26' 3PT Jump Shot (20 PTS) (Hartenstein 3 AST),Made Shot,Jump Shot,1,3,514
+0022600003,743,PT03M36.00S,4,1610612759,SAS,1642264,Castle,S. Castle,135,221,26,Missed,1,,,0,h,MISS Castle 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,515
+0022600003,744,PT03M36.00S,4,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,Caruso REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,516
+0022600003,745,PT03M22.00S,4,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-120,-11,12,Made,1,97,109,206,v,Gilgeous-Alexander 12' Pullup Jump Shot (32 PTS),Made Shot,Pullup Jump shot,1,2,517
+0022600003,746,PT02M55.00S,4,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper Lost Ball Turnover (P2.T14),Turnover,Lost Ball,1,0,518
+0022600003,746,PT02M55.00S,4,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander STEAL (3 STL),,,1,0,519
+0022600003,748,PT02M50.00S,4,1610612760,OKC,1642272,McCain,J. McCain,-201,150,25,Missed,1,,,0,v,MISS McCain 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,520
+0022600003,749,PT02M50.00S,4,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,521
+0022600003,750,PT02M42.00S,4,1610612759,SAS,1642844,Harper,D. Harper,40,10,4,Missed,1,,,0,h,MISS Harper 4' Running Layup,Missed Shot,Running Layup Shot,1,2,522
+0022600003,750,PT02M42.00S,4,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,Holmgren BLOCK (4 BLK),,,1,2,523
+0022600003,751,PT02M42.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,524
+0022600003,753,PT02M36.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,50,90,10,Missed,1,,,0,h,MISS Johnson 10' Putback Layup,Missed Shot,Putback Layup Shot,1,2,525
+0022600003,753,PT02M36.00S,4,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein BLOCK (1 BLK),,,1,2,526
+0022600003,754,PT02M36.00S,4,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,527
+0022600003,756,PT02M22.00S,4,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle P.FOUL (P4.T4) (J.Orr),Foul,Personal,1,0,528
+0022600003,760,PT02M22.00S,4,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,SUB: Fox FOR Champagnie,Substitution,,0,0,529
+0022600003,761,PT02M22.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,SUB: Vassell FOR Johnson,Substitution,,0,0,530
+0022600003,763,PT02M22.00S,4,1610612760,OKC,1627936,Caruso,A. Caruso,0,0,0,,0,,,0,v,SUB: Jal. Williams FOR Caruso,Substitution,,0,0,531
+0022600003,764,PT02M11.00S,4,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,4,77,8,Made,1,97,111,208,v,Hartenstein 8' Floating Jump Shot (4 PTS) (McCain 2 AST),Made Shot,Floating Jump shot,1,2,532
+0022600003,766,PT01M58.00S,4,1610612759,SAS,1642264,Castle,S. Castle,-237,3,24,Missed,1,,,0,h,MISS Castle 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,533
+0022600003,767,PT01M58.00S,4,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,534
+0022600003,768,PT01M56.00S,4,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper P.FOUL (P5.PN) (J.Orr),Foul,Personal,1,0,535
+0022600003,770,PT01M56.00S,4,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,MISS Jal. Williams Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,536
+0022600003,771,PT01M56.00S,4,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Normal Rebound,1,0,537
+0022600003,772,PT01M56.00S,4,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,97,112,209,v,Jal. Williams Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,538
+0022600003,773,PT01M46.00S,4,1610612759,SAS,1642264,Castle,S. Castle,91,265,28,Made,1,100,112,212,h,Castle 28' 3PT Jump Shot (24 PTS) (Fox 7 AST),Made Shot,Jump Shot,1,3,539
+0022600003,775,PT01M20.00S,4,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-56,244,25,Missed,1,,,0,v,MISS Gilgeous-Alexander 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,540
+0022600003,776,PT01M20.00S,4,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,541
+0022600003,820,PT01M15.00S,4,1610612759,SAS,1642264,Castle,S. Castle,-13,30,3,Missed,1,,,0,h,MISS Castle 3' Running Layup,Missed Shot,Running Layup Shot,1,2,542
+0022600003,820,PT01M15.00S,4,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander BLOCK (3 BLK),,,1,2,543
+0022600003,822,PT01M15.00S,4,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Rebound,Rebound,Unknown,1,0,544
+0022600003,780,PT01M14.00S,4,0,,1610612760,,,0,0,0,,0,,,0,v,Thunder Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,545
+0022600003,781,PT01M14.00S,4,0,,0,,,0,0,0,,0,100,112,212,,Instant Replay4th Period (12:19 AM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,546
+0022600003,787,PT01M14.00S,4,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,SUB: Jones Garcia FOR Wembanyama,Substitution,,0,0,547
+0022600003,788,PT01M14.00S,4,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,SUB: Bryant FOR Harper,Substitution,,0,0,548
+0022600003,789,PT01M14.00S,4,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,SUB: Gillespie FOR Castle,Substitution,,0,0,549
+0022600003,790,PT01M14.00S,4,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,SUB: Reed Jr. FOR Fox,Substitution,,0,0,550
+0022600003,791,PT01M14.00S,4,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,SUB: Brown FOR Vassell,Substitution,,0,0,551
+0022600003,793,PT01M14.00S,4,1610612760,OKC,1642272,McCain,J. McCain,0,0,0,,0,,,0,v,SUB: Mitchell FOR McCain,Substitution,,0,0,552
+0022600003,794,PT00M57.00S,4,1610612760,OKC,1642349,Mitchell,A. Mitchell,-5,-10,1,Made,1,100,114,214,v,Mitchell 1' Driving Finger Roll Layup (4 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,553
+0022600003,795,PT00M47.00S,4,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,Jal. Williams Personal Take Foul (P4.PN) (J.Orr),Foul,Personal Take,1,0,554
+0022600003,797,PT00M47.00S,4,1610612759,SAS,1642357,Jones Garcia,D. Jones Garcia,0,0,0,,0,101,114,215,h,Jones Garcia Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,555
+0022600003,804,PT00M47.00S,4,1610612760,OKC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,SUB: Stirtz FOR Gilgeous-Alexander,Substitution,,0,0,556
+0022600003,805,PT00M47.00S,4,1610612760,OKC,1642349,Mitchell,A. Mitchell,0,0,0,,0,,,0,v,SUB: Barnhizer FOR Mitchell,Substitution,,0,0,557
+0022600003,806,PT00M47.00S,4,1610612760,OKC,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,SUB: Mara FOR Hartenstein,Substitution,,0,0,558
+0022600003,807,PT00M47.00S,4,1610612760,OKC,1631096,Holmgren,C. Holmgren,0,0,0,,0,,,0,v,SUB: K. Williams FOR Holmgren,Substitution,,0,0,559
+0022600003,808,PT00M47.00S,4,1610612760,OKC,1631114,Williams,J. Williams,0,0,0,,0,,,0,v,SUB: Jay. Williams FOR Jal. Williams,Substitution,,0,0,560
+0022600003,798,PT00M47.00S,4,1610612759,SAS,1642357,Jones Garcia,D. Jones Garcia,0,0,0,,0,102,114,216,h,Jones Garcia Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,561
+0022600003,809,PT00M23.80S,4,1610612760,OKC,1643530,Mara,A. Mara,21,13,2,Made,1,102,116,218,v,Mara 2' Turnaround Hook Shot (7 PTS),Made Shot,Turnaround Hook Shot,1,2,562
+0022600003,810,PT00M11.80S,4,1610612759,SAS,1642357,Jones Garcia,D. Jones Garcia,7,26,3,Missed,1,,,0,h,MISS Jones Garcia 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,563
+0022600003,811,PT00M11.80S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,1,0,564
+0022600003,813,PT00M07.20S,4,1610612759,SAS,1643551,Gillespie,J. Gillespie,-239,9,24,Missed,1,,,0,h,MISS Gillespie 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,565
+0022600003,814,PT00M07.20S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,1,0,566
+0022600003,816,PT00M02.00S,4,1610612759,SAS,1643551,Gillespie,J. Gillespie,-4,31,3,Made,1,104,116,220,h,Gillespie 3' Driving Finger Roll Layup (2 PTS) (Brown 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,567
+0022600003,818,PT00M00.00S,4,0,,0,,,0,0,0,,0,104,116,220,,End of 4th Period (12:24 AM EST),period,end,1,0,568

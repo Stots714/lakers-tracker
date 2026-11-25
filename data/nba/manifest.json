@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-22T20:22:51-08:00",
+ "updated": "2026-11-24T17:29:43-08:00",
  "season": "2026-27",
  "teams": [
   "LAL",
-  "UTA"
+  "SAS"
  ],
  "nba_api": "1.12.0",
  "league": {
@@ -24,51 +24,49 @@
   },
   "league team box scores": {
    "ok": true,
-   "team-games": 496
+   "team-games": 516
   },
   "league player games": {
    "ok": true,
-   "player lines": 5522
+   "player lines": 5772
   },
   "league results": {
    "ok": true,
-   "final games": 248,
+   "final games": 258,
    "pending": 0,
    "pending_games": [],
    "kept_games": [],
-   "line_notes": [
-    "BOS@GSW (2026-11-22): no player lines for BOS"
-   ]
+   "line_notes": []
   },
   "league quarter scores, inactive lists and game extras": {
    "ok": true,
-   "new games": 12
+   "new games": 15
   },
   "league team turnovers": {
    "ok": true,
-   "team-games": 496
+   "team-games": 516
   },
   "league rosters and moves": {
    "ok": true,
-   "moves": 0,
+   "moves": 2,
    "players": 525,
    "first_read": false
   },
   "injury report": {
    "ok": true,
-   "players listed": 146
+   "players listed": 87
   },
   "LAL games": {
    "ok": true,
-   "rows": 17
+   "rows": 18
   },
   "LAL player games": {
    "ok": true,
-   "rows": 191
+   "rows": 201
   },
   "LAL player games advanced": {
    "ok": true,
-   "rows": 191
+   "rows": 201
   },
   "LAL on/off": {
    "ok": true,
@@ -76,7 +74,7 @@
   },
   "LAL 5-man lineups": {
    "ok": true,
-   "rows": 171
+   "rows": 178
   },
   "LAL 2-man lineups": {
    "ok": true,
@@ -84,69 +82,68 @@
   },
   "LAL shots": {
    "ok": true,
-   "rows": 1439
+   "rows": 1520
   },
   "LAL shots against": {
    "ok": true,
-   "rows": 1460
+   "rows": 1549
   },
   "LAL hustle": {
    "ok": true,
    "rows": 18
   },
-  "UTA games": {
+  "SAS games": {
    "ok": true,
    "rows": 18
   },
-  "UTA player games": {
+  "SAS player games": {
    "ok": true,
-   "rows": 198
+   "rows": 203
   },
-  "UTA player games advanced": {
+  "SAS player games advanced": {
    "ok": true,
-   "rows": 198
+   "rows": 203
   },
-  "UTA on/off": {
+  "SAS on/off": {
    "ok": true,
-   "rows": 34
+   "rows": 32
   },
-  "UTA 5-man lineups": {
+  "SAS 5-man lineups": {
    "ok": true,
-   "rows": 207
+   "rows": 128
   },
-  "UTA 2-man lineups": {
+  "SAS 2-man lineups": {
    "ok": true,
-   "rows": 86
+   "rows": 85
   },
-  "UTA shots": {
+  "SAS shots": {
    "ok": true,
-   "rows": 1543
+   "rows": 1643
   },
-  "UTA shots against": {
+  "SAS shots against": {
    "ok": true,
-   "rows": 1578
+   "rows": 1603
   },
-  "UTA hustle": {
+  "SAS hustle": {
    "ok": true,
    "rows": 14
   },
   "matchups": {
    "ok": true,
-   "new games": 0,
-   "pending": 1
+   "new games": 13
   },
   "play-by-play": {
    "ok": true,
-   "new games": 1
+   "new games": 13
   }
  },
  "checks": [
   "Scores: 68 games in both files, 0 differ; 0 hand-checked games not found on NBA.com by date and teams.",
   "Lakers box scores: 10 team-games compared, 4 numbers differ [('2026-10-21', 'GSW', 'tov', '15', 16), ('2026-10-23', 'LAC', 'tov', '25', 26), ('2026-10-25', 'UTA', 'dreb', '31', 32), ('2026-10-25', 'UTA', 'tov', '19', 17)].",
-  "Player points add up to team points in 494 of 494 team-games.",
-  "Turnovers (players + team) match NBA.com's game totals in 493 of 496 team-games: [('2026-10-30', 'CHA'), ('2026-11-09', 'CHA'), ('2026-11-20', 'PHX')].",
+  "Player points add up to team points in 516 of 516 team-games.",
+  "Turnovers (players + team) match NBA.com's game totals in 512 of 516 team-games: [('2026-10-20', 'OKC'), ('2026-10-30', 'CHA'), ('2026-11-09', 'CHA'), ('2026-11-20', 'PHX')].",
   "Lakers quarter scores: 10 compared, 0 differ.",
-  "NBA Cup games: 37 played, average winning margin 12.6 points, against 13.0 in the other 211 games.",
+  "NBA Cup games: 37 played, average winning margin 12.6 points, against 13.0 in the other 221 games.",
   "Lakers scores checked against results.csv: 5 games, 0 mismatches ",
   "Oct 21 Doncic-Lendeborg rows (ABC7 reported Doncic 1 of 6 against Lendeborg):\n  familyNameOff | familyNameDef | matchupMinutes | partialPossessions | playerPoints | matchupFieldGoalsMade | matchupFieldGoalsAttempted\n  Dončić | Lendeborg | 3:03 | 18.5 | 9 | 1 | 5\n  Lendeborg | Dončić | 2:56 | 14.7 | 2 | 1 | 2"
  ],

@@ -1,0 +1,511 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600040,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (9:46 PM EST),period,start,1,0,1
+0022600040,4,PT12M00.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Jump Ball Wembanyama vs. Green: Tip to Castle,Jump Ball,,1,0,2
+0022600040,7,PT11M40.00S,1,1610612759,SAS,1642264,Castle,S. Castle,-233,10,0,Made,1,3,0,3,h,Castle 3PT Jump Shot (3 PTS) (Wembanyama 1 AST),Made Shot,Jump Shot,1,3,3
+0022600040,9,PT11M16.00S,1,1610612744,GSW,203110,Green,D. Green,40,264,27,Missed,1,,,0,v,MISS Green 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,4
+0022600040,10,PT11M16.00S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,5
+0022600040,11,PT11M07.00S,1,1610612759,SAS,1628368,Fox,D. Fox,-56,-8,6,Made,1,5,0,5,h,Fox 6' Running Pull-Up Jump Shot (2 PTS),Made Shot,Running Pull-Up Jump Shot,1,2,6
+0022600040,12,PT10M45.00S,1,1610612744,GSW,1641764,Podziemski,B. Podziemski,44,115,12,Missed,1,,,0,v,MISS Podziemski 12' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,7
+0022600040,13,PT10M45.00S,1,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,0,0,8
+0022600040,14,PT10M45.00S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,v,Green L.B.FOUL (P1.T1) (E.Dalen),Foul,Loose Ball,1,0,9
+0022600040,16,PT10M32.00S,1,1610612759,SAS,1628368,Fox,D. Fox,-8,13,2,Missed,1,,,0,h,MISS Fox 2' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,10
+0022600040,16,PT10M32.00S,1,1610612744,GSW,1629001,Melton,D. Melton,0,0,0,,0,,,0,v,Melton BLOCK (1 BLK),,,1,2,11
+0022600040,17,PT10M32.00S,1,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,0,0,12
+0022600040,20,PT10M30.00S,1,1610612759,SAS,1630170,Vassell,D. Vassell,132,-7,13,Made,1,7,0,7,h,Vassell 13' Jump Shot (2 PTS) (Castle 1 AST),Made Shot,Jump Shot,1,2,13
+0022600040,22,PT10M20.00S,1,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,171,201,26,Missed,1,,,0,v,MISS Lendeborg 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,14
+0022600040,23,PT10M20.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0022600040,24,PT10M08.00S,1,1610612759,SAS,1642264,Castle,S. Castle,-237,4,24,Made,1,10,0,10,h,Castle 24' 3PT Jump Shot (6 PTS) (Wembanyama 2 AST),Made Shot,Jump Shot,1,3,16
+0022600040,26,PT09M56.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama Violation:Kicked Ball (E.Dalen),Violation,Kicked Ball,0,0,17
+0022600040,27,PT09M49.00S,1,1610612744,GSW,1641764,Podziemski,B. Podziemski,163,208,26,Missed,1,,,0,v,MISS Podziemski 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,18
+0022600040,28,PT09M49.00S,1,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,Vassell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,19
+0022600040,29,PT09M33.00S,1,1610612759,SAS,1642844,Harper,D. Harper,23,-1,2,Made,1,12,0,12,h,Harper 2' Cutting Finger Roll Layup Shot (2 PTS) (Wembanyama 3 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,20
+0022600040,31,PT09M33.00S,1,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,21
+0022600040,32,PT09M21.00S,1,1610612744,GSW,203110,Green,D. Green,54,115,13,Missed,1,,,0,v,MISS Green 13' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,22
+0022600040,33,PT09M21.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,23
+0022600040,34,PT09M14.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,24
+0022600040,34,PT09M14.00S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,v,Green STEAL (1 STL),,,1,0,25
+0022600040,36,PT08M55.00S,1,1610612744,GSW,1629001,Melton,D. Melton,-138,222,26,Missed,1,,,0,v,MISS Melton 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,26
+0022600040,37,PT08M55.00S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,27
+0022600040,38,PT08M43.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,4,12,1,Made,1,14,0,14,h,Wembanyama 1' Alley Oop Layup (2 PTS) (Harper 1 AST),Made Shot,Alley Oop Layup shot,1,2,28
+0022600040,40,PT08M30.00S,1,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,29
+0022600040,40,PT08M30.00S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox STEAL (1 STL),,,1,0,30
+0022600040,42,PT08M25.00S,1,1610612759,SAS,1642844,Harper,D. Harper,242,-17,24,Missed,1,,,0,h,MISS Harper 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,31
+0022600040,43,PT08M25.00S,1,1610612744,GSW,1641764,Podziemski,B. Podziemski,0,0,0,,0,,,0,v,Podziemski REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,32
+0022600040,44,PT08M02.00S,1,1610612744,GSW,1629001,Melton,D. Melton,-3,99,10,Missed,1,,,0,v,MISS Melton 10' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,33
+0022600040,45,PT08M02.00S,1,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,Richard REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,34
+0022600040,46,PT07M55.00S,1,1610612744,GSW,1641764,Podziemski,B. Podziemski,137,214,25,Missed,1,,,0,v,MISS Podziemski 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,35
+0022600040,47,PT07M55.00S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,36
+0022600040,48,PT07M49.00S,1,1610612759,SAS,1642264,Castle,S. Castle,14,-3,1,Made,1,16,0,16,h,Castle 1' Running Layup (8 PTS) (Fox 1 AST),Made Shot,Running Layup Shot,1,2,37
+0022600040,50,PT07M36.00S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,v,Green Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,38
+0022600040,50,PT07M36.00S,1,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper STEAL (1 STL),,,1,0,39
+0022600040,52,PT07M31.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,1,-3,0,Made,1,18,0,18,h,Wembanyama Running Alley Oop Dunk Shot (4 PTS) (Castle 2 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,40
+0022600040,54,PT07M31.00S,1,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,Richard S.FOUL (P1.T2) (J.Williams),Foul,Shooting,1,0,41
+0022600040,57,PT07M31.00S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,SUB: Champagnie FOR Fox,Substitution,,0,0,42
+0022600040,60,PT07M31.00S,1,1610612744,GSW,1629001,Melton,D. Melton,0,0,0,,0,,,0,v,SUB: Cryer FOR Melton,Substitution,,0,0,43
+0022600040,61,PT07M31.00S,1,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,SUB: Horford FOR Lendeborg,Substitution,,0,0,44
+0022600040,62,PT07M31.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,MISS Wembanyama Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,45
+0022600040,63,PT07M31.00S,1,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,Richard REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,46
+0022600040,64,PT07M13.00S,1,1610612744,GSW,1643018,Cryer,L. Cryer,34,92,10,Missed,1,,,0,v,MISS Cryer 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,47
+0022600040,65,PT07M13.00S,1,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,48
+0022600040,66,PT07M04.00S,1,1610612759,SAS,1642264,Castle,S. Castle,-22,62,7,Missed,1,,,0,h,MISS Castle 7' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,49
+0022600040,67,PT07M04.00S,1,1610612744,GSW,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,50
+0022600040,68,PT06M48.00S,1,1610612744,GSW,1643018,Cryer,L. Cryer,-159,203,26,Missed,1,,,0,v,MISS Cryer 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,51
+0022600040,69,PT06M48.00S,1,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,52
+0022600040,70,PT06M42.00S,1,1610612759,SAS,1630170,Vassell,D. Vassell,-147,207,25,Missed,1,,,0,h,MISS Vassell 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,53
+0022600040,71,PT06M42.00S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,54
+0022600040,72,PT06M32.00S,1,1610612744,GSW,1642954,Richard,W. Richard,-66,169,18,Missed,1,,,0,v,MISS Richard 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,55
+0022600040,73,PT06M32.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,56
+0022600040,76,PT06M25.00S,1,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,SUB: Kornet FOR Wembanyama,Substitution,,0,0,57
+0022600040,80,PT06M25.00S,1,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,SUB: Santos FOR Richard,Substitution,,0,0,58
+0022600040,81,PT06M25.00S,1,1610612744,GSW,1641764,Podziemski,B. Podziemski,0,0,0,,0,,,0,v,SUB: Lendeborg FOR Podziemski,Substitution,,0,0,59
+0022600040,82,PT06M25.00S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,v,SUB: Niang FOR Green,Substitution,,0,0,60
+0022600040,83,PT06M13.00S,1,1610612759,SAS,1642264,Castle,S. Castle,67,36,8,Missed,1,,,0,h,MISS Castle 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,61
+0022600040,84,PT06M13.00S,1,1610612744,GSW,1630611,Santos,G. Santos,0,0,0,,0,,,0,v,Santos REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,62
+0022600040,85,PT05M53.00S,1,1610612744,GSW,1630611,Santos,G. Santos,-10,13,2,Made,1,18,2,20,v,Santos 2' Driving Layup (2 PTS) (Niang 1 AST),Made Shot,Driving Layup Shot,1,2,63
+0022600040,86,PT05M53.00S,1,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet S.FOUL (P1.T1) (J.Williams),Foul,Shooting,1,0,64
+0022600040,88,PT05M53.00S,1,1610612744,GSW,1630611,Santos,G. Santos,0,0,0,,0,,,0,v,MISS Santos Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,65
+0022600040,89,PT05M53.00S,1,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,66
+0022600040,91,PT05M41.00S,1,1610612759,SAS,1630577,Champagnie,J. Champagnie,-14,250,25,Made,1,21,2,23,h,Champagnie 25' 3PT Jump Shot (3 PTS) (Harper 2 AST),Made Shot,Jump Shot,1,3,67
+0022600040,93,PT05M27.00S,1,1610612744,GSW,1627777,Niang,G. Niang,-184,179,26,Missed,1,,,0,v,MISS Niang 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,68
+0022600040,94,PT05M27.00S,1,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Rebound,Rebound,Unknown,0,0,69
+0022600040,96,PT05M20.00S,1,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,Vassell P.FOUL (P1.T2) (E.Dalen),Foul,Personal,1,0,70
+0022600040,99,PT05M20.00S,1,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,SUB: Johnson FOR Vassell,Substitution,,0,0,71
+0022600040,100,PT05M07.00S,1,1610612744,GSW,1643018,Cryer,L. Cryer,-53,103,12,Missed,1,,,0,v,MISS Cryer 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,72
+0022600040,101,PT05M07.00S,1,1610612744,GSW,1643018,Cryer,L. Cryer,0,0,0,,0,,,0,v,Cryer REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,73
+0022600040,102,PT05M01.00S,1,1610612744,GSW,1643018,Cryer,L. Cryer,153,218,27,Made,1,21,5,26,v,Cryer 27' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,74
+0022600040,103,PT04M48.00S,1,1610612759,SAS,1642264,Castle,S. Castle,-92,36,10,Made,1,23,5,28,h,Castle 10' Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,2,75
+0022600040,104,PT04M40.00S,1,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,-133,11,13,Missed,1,,,0,v,MISS Lendeborg 13' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,76
+0022600040,105,PT04M40.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,77
+0022600040,107,PT04M22.00S,1,1610612759,SAS,1642264,Castle,S. Castle,237,-2,24,Made,1,26,5,31,h,Castle 24' 3PT Jump Shot (13 PTS) (Champagnie 1 AST),Made Shot,Jump Shot,1,3,78
+0022600040,109,PT04M02.00S,1,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg Bad Pass Turnover (P2.T3),Turnover,Bad Pass,1,0,79
+0022600040,109,PT04M02.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson STEAL (1 STL),,,1,0,80
+0022600040,111,PT03M58.00S,1,1610612744,GSW,1643018,Cryer,L. Cryer,0,0,0,,0,,,0,v,Cryer P.FOUL (P1.T3) (E.Scott),Foul,Personal,1,0,81
+0022600040,115,PT03M58.00S,1,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,SUB: Fox FOR Castle,Substitution,,0,0,82
+0022600040,116,PT03M58.00S,1,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,SUB: Barnes FOR Harper,Substitution,,0,0,83
+0022600040,118,PT03M58.00S,1,1610612744,GSW,201143,Horford,A. Horford,0,0,0,,0,,,0,v,SUB: Bassey FOR Horford,Substitution,,0,0,84
+0022600040,119,PT03M55.00S,1,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,Bassey P.FOUL (P1.T4) (E.Dalen),Foul,Personal,1,0,85
+0022600040,121,PT03M51.00S,1,1610612759,SAS,1630577,Champagnie,J. Champagnie,-119,224,25,Missed,1,,,0,h,MISS Champagnie 25' 3PT Jump Bank Shot,Missed Shot,Jump Bank Shot,1,3,86
+0022600040,122,PT03M51.00S,1,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,87
+0022600040,123,PT03M41.00S,1,1610612744,GSW,1630611,Santos,G. Santos,50,80,9,Missed,1,,,0,v,MISS Santos 9' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,88
+0022600040,124,PT03M41.00S,1,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,89
+0022600040,125,PT03M34.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,19,2,2,Missed,1,,,0,h,MISS Johnson 2' Running Layup,Missed Shot,Running Layup Shot,1,2,90
+0022600040,126,PT03M34.00S,1,1610612744,GSW,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,Niang REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,91
+0022600040,127,PT03M27.00S,1,1610612744,GSW,1643018,Cryer,L. Cryer,-100,245,26,Made,1,26,8,34,v,Cryer 26' 3PT Running Pull-Up Jump Shot (6 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,92
+0022600040,128,PT03M25.00S,1,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,93
+0022600040,130,PT03M25.00S,1,1610612744,GSW,1630611,Santos,G. Santos,0,0,0,,0,,,0,v,SUB: Richard FOR Santos,Substitution,,1,0,94
+0022600040,131,PT03M14.00S,1,1610612759,SAS,203084,Barnes,H. Barnes,14,1,1,Made,1,28,8,36,h,Barnes 1' Driving Finger Roll Layup (2 PTS) (Kornet 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,95
+0022600040,133,PT02M52.00S,1,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,Bassey 3 Second Violation Turnover (P1.T4),Turnover,3 Second Violation,1,0,96
+0022600040,135,PT02M52.00S,1,1610612744,GSW,1643018,Cryer,L. Cryer,0,0,0,,0,,,0,v,SUB: Melton FOR Cryer,Substitution,,0,0,97
+0022600040,136,PT02M44.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,13,-1,1,Made,1,30,8,38,h,Johnson 1' Cutting Finger Roll Layup Shot (2 PTS) (Barnes 1 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,98
+0022600040,138,PT02M29.00S,1,1610612744,GSW,1629646,Bassey,C. Bassey,5,9,1,Made,1,30,10,40,v,Bassey 1' Alley Oop Dunk (2 PTS) (Lendeborg 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,99
+0022600040,140,PT02M16.00S,1,1610612759,SAS,203084,Barnes,H. Barnes,240,4,24,Made,1,33,10,43,h,Barnes 24' 3PT Jump Shot (5 PTS) (Champagnie 2 AST),Made Shot,Jump Shot,1,3,100
+0022600040,142,PT02M03.00S,1,1610612744,GSW,1629001,Melton,D. Melton,-146,229,27,Missed,1,,,0,v,MISS Melton 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,101
+0022600040,143,PT02M03.00S,1,1610612759,SAS,203084,Barnes,H. Barnes,0,0,0,,0,,,0,h,Barnes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,102
+0022600040,144,PT01M53.00S,1,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg S.FOUL (P1.PN) (J.Williams),Foul,Shooting,1,0,103
+0022600040,146,PT01M53.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,34,10,44,h,Johnson Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,104
+0022600040,150,PT01M53.00S,1,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,SUB: Santos FOR Lendeborg,Substitution,,0,0,105
+0022600040,151,PT01M53.00S,1,1610612744,GSW,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,SUB: Podziemski FOR Niang,Substitution,,0,0,106
+0022600040,147,PT01M53.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,MISS Johnson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,107
+0022600040,152,PT01M53.00S,1,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,Bassey REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,108
+0022600040,153,PT01M33.00S,1,1610612744,GSW,1641764,Podziemski,B. Podziemski,-55,164,17,Missed,1,,,0,v,MISS Podziemski 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,109
+0022600040,154,PT01M33.00S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,110
+0022600040,155,PT01M22.00S,1,1610612759,SAS,203084,Barnes,H. Barnes,0,0,0,,0,,,0,h,Barnes Out of Bounds Lost Ball Turnover (P1.T2),Turnover,Out of Bounds Lost Ball Turnover,1,0,111
+0022600040,156,PT01M06.00S,1,1610612744,GSW,1629001,Melton,D. Melton,-31,44,5,Missed,1,,,0,v,MISS Melton 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,112
+0022600040,157,PT01M06.00S,1,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,113
+0022600040,158,PT00M56.90S,1,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,Richard P.FOUL (P2.PN) (E.Dalen),Foul,Personal,1,0,114
+0022600040,160,PT00M56.90S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,35,10,45,h,Fox Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,115
+0022600040,161,PT00M56.90S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,36,10,46,h,Fox Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,116
+0022600040,162,PT00M43.60S,1,1610612744,GSW,1630611,Santos,G. Santos,80,251,26,Missed,1,,,0,v,MISS Santos 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,117
+0022600040,163,PT00M43.60S,1,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Rebound,Rebound,Unknown,0,0,118
+0022600040,164,PT00M42.80S,1,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie L.B.FOUL (P1.T3) (E.Dalen),Foul,Loose Ball,1,0,119
+0022600040,166,PT00M36.90S,1,1610612744,GSW,1641764,Podziemski,B. Podziemski,-110,243,27,Made,1,36,13,49,v,Podziemski 27' 3PT Jump Shot (3 PTS) (Bassey 1 AST),Made Shot,Jump Shot,1,3,120
+0022600040,171,PT00M33.10S,1,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Timeout: Coach Challenge (Reg.1 Short 0),Timeout,Coach Challenge,0,0,121
+0022600040,172,PT00M33.10S,1,0,,0,,,0,0,0,,0,36,13,49,,Instant Replay1st Period (10:12 PM EST),Instant Replay,Coach Challenge Overturn Ruling,1,0,122
+0022600040,189,PT00M33.10S,1,1610612744,GSW,1630611,Santos,G. Santos,0,0,0,,0,,,0,v,SUB: Lendeborg FOR Santos,Substitution,,0,0,123
+0022600040,173,PT00M33.10S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,124
+0022600040,174,PT00M19.40S,1,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox S.FOUL (P1.PN) (E.Scott),Foul,Shooting,1,0,125
+0022600040,180,PT00M19.40S,1,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,SUB: Green FOR Richard,Substitution,,0,0,126
+0022600040,181,PT00M19.40S,1,1610612744,GSW,1629001,Melton,D. Melton,0,0,0,,0,,,0,v,SUB: Payton II FOR Melton,Substitution,,0,0,127
+0022600040,176,PT00M19.40S,1,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,MISS Lendeborg Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,128
+0022600040,193,PT00M19.40S,1,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Rebound,Rebound,Normal Rebound,0,0,129
+0022600040,177,PT00M19.40S,1,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,36,14,50,v,Lendeborg Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,130
+0022600040,182,PT00M00.50S,1,1610612759,SAS,1628368,Fox,D. Fox,187,166,25,Missed,1,,,0,h,MISS Fox 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,131
+0022600040,183,PT00M00.50S,1,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,132
+0022600040,184,PT00M00.00S,1,1610612759,SAS,1630577,Champagnie,J. Champagnie,27,12,3,Missed,1,,,0,h,MISS Champagnie 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,133
+0022600040,185,PT00M00.00S,1,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,134
+0022600040,186,PT00M00.00S,1,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,Made,1,38,14,52,h,Kornet Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,135
+0022600040,237,PT00M00.00S,1,0,,0,,,0,0,0,,0,38,14,52,,Instant Replay1st Period (10:15 PM EST),Instant Replay,Support Ruling,0,0,136
+0022600040,195,PT00M00.00S,1,0,,0,,,0,0,0,,0,38,14,52,,End of 1st Period (10:15 PM EST),period,end,1,0,137
+0022600040,206,PT12M00.00S,2,0,,0,,,0,0,0,,0,38,14,52,,Start of 2nd Period (10:19 PM EST),period,start,1,0,138
+0022600040,207,PT11M46.00S,2,1610612744,GSW,1641764,Podziemski,B. Podziemski,50,186,19,Missed,1,,,0,v,MISS Podziemski 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,139
+0022600040,208,PT11M46.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,140
+0022600040,209,PT11M28.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-20,127,13,Missed,1,,,0,h,MISS Wembanyama 13' Jump Shot,Missed Shot,Jump Shot,1,2,141
+0022600040,210,PT11M28.00S,2,1610612744,GSW,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,142
+0022600040,211,PT11M16.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama Violation:Kicked Ball (E.Dalen),Violation,Kicked Ball,0,0,143
+0022600040,212,PT11M14.00S,2,1610612759,SAS,1642868,Bryant,C. Bryant,0,0,0,,0,,,0,h,Bryant P.FOUL (P1.T1) (J.Williams),Foul,Personal,1,0,144
+0022600040,214,PT10M59.00S,2,1610612744,GSW,1627780,Payton II,G. Payton II,206,172,27,Missed,1,,,0,v,MISS Payton II 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,145
+0022600040,215,PT10M59.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,146
+0022600040,216,PT10M49.00S,2,1610612759,SAS,1642844,Harper,D. Harper,7,-1,1,Made,1,40,14,54,h,Harper 1' Driving Finger Roll Layup (4 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,147
+0022600040,217,PT10M36.00S,2,1610612744,GSW,203110,Green,D. Green,-14,15,2,Made,1,40,16,56,v,Green 2' Finger Roll Layup (2 PTS) (Cryer 1 AST),Made Shot,Finger Roll Layup Shot,1,2,148
+0022600040,219,PT10M11.00S,2,1610612744,GSW,1627780,Payton II,G. Payton II,0,0,0,,0,,,0,v,Payton II P.FOUL (P1.T1) (J.Williams),Foul,Personal,1,0,149
+0022600040,221,PT10M01.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-44,52,7,Missed,1,,,0,h,MISS Wembanyama 7' Turnaround Bank Shot,Missed Shot,Turnaround Bank shot,1,2,150
+0022600040,222,PT10M01.00S,2,1610612744,GSW,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,151
+0022600040,223,PT09M50.00S,2,1610612744,GSW,201143,Horford,A. Horford,-47,39,6,Missed,1,,,0,v,MISS Horford 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,152
+0022600040,224,PT09M50.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,153
+0022600040,225,PT09M43.00S,2,1610612759,SAS,1628368,Fox,D. Fox,227,118,26,Missed,1,,,0,h,MISS Fox 26' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,154
+0022600040,226,PT09M43.00S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,155
+0022600040,227,PT09M34.00S,2,1610612744,GSW,201143,Horford,A. Horford,205,166,26,Missed,1,,,0,v,MISS Horford 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,156
+0022600040,228,PT09M34.00S,2,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,0,0,157
+0022600040,231,PT09M32.00S,2,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,SUB: Castle FOR Fox,Substitution,,0,0,158
+0022600040,232,PT09M19.00S,2,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle Out of Bounds - Bad Pass Turnover Turnover (P1.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,159
+0022600040,233,PT09M19.00S,2,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,160
+0022600040,234,PT09M19.00S,2,0,,0,,,0,0,0,,0,40,16,56,,Instant Replay2nd Period (10:24 PM EST),Instant Replay,Coach Challenge Ruling Stands,1,0,161
+0022600040,235,PT08M57.00S,2,1610612744,GSW,1643018,Cryer,L. Cryer,-140,217,26,Made,1,40,19,59,v,Cryer 26' 3PT Step Back Jump Shot (9 PTS) (Green 1 AST),Made Shot,Step Back Jump shot,1,3,162
+0022600040,238,PT08M37.00S,2,1610612759,SAS,203084,Barnes,H. Barnes,-38,35,5,Missed,1,,,0,h,MISS Barnes 5' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,163
+0022600040,238,PT08M37.00S,2,1610612744,GSW,1641764,Podziemski,B. Podziemski,0,0,0,,0,,,0,v,Podziemski BLOCK (1 BLK),,,1,2,164
+0022600040,239,PT08M37.00S,2,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Rebound,Rebound,Unknown,0,0,165
+0022600040,243,PT08M37.00S,2,1610612759,SAS,203084,Barnes,H. Barnes,0,0,0,,0,,,0,h,SUB: Vassell FOR Barnes,Substitution,,0,0,166
+0022600040,244,PT08M25.00S,2,1610612744,GSW,1643018,Cryer,L. Cryer,11,266,27,Missed,1,,,0,v,MISS Cryer 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,167
+0022600040,245,PT08M25.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,168
+0022600040,246,PT08M21.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama Lost Ball Turnover (P2.T5),Turnover,Lost Ball,1,0,169
+0022600040,246,PT08M21.00S,2,1610612744,GSW,1643018,Cryer,L. Cryer,0,0,0,,0,,,0,v,Cryer STEAL (1 STL),,,1,0,170
+0022600040,248,PT08M15.00S,2,1610612744,GSW,1641764,Podziemski,B. Podziemski,30,71,8,Missed,1,,,0,v,MISS Podziemski 8' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,171
+0022600040,248,PT08M15.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama BLOCK (1 BLK),,,1,2,172
+0022600040,249,PT08M15.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,173
+0022600040,251,PT08M11.00S,2,1610612744,GSW,1627780,Payton II,G. Payton II,0,0,0,,0,,,0,v,Payton II P.FOUL (P2.T2) (J.Williams),Foul,Personal,1,0,174
+0022600040,255,PT08M11.00S,2,1610612744,GSW,201143,Horford,A. Horford,0,0,0,,0,,,0,v,SUB: Lendeborg FOR Horford,Substitution,,0,0,175
+0022600040,256,PT08M11.00S,2,1610612744,GSW,1627780,Payton II,G. Payton II,0,0,0,,0,,,0,v,SUB: Niang FOR Payton II,Substitution,,0,0,176
+0022600040,257,PT08M02.00S,2,1610612759,SAS,1642264,Castle,S. Castle,209,152,26,Missed,1,,,0,h,MISS Castle 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,177
+0022600040,258,PT08M02.00S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,178
+0022600040,259,PT07M55.00S,2,1610612744,GSW,1643018,Cryer,L. Cryer,176,201,27,Missed,1,,,0,v,MISS Cryer 27' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,179
+0022600040,260,PT07M55.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,180
+0022600040,261,PT07M45.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,61,252,26,Missed,1,,,0,h,MISS Wembanyama 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,181
+0022600040,262,PT07M45.00S,2,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,182
+0022600040,263,PT07M36.00S,2,1610612759,SAS,1642844,Harper,D. Harper,55,244,25,Missed,1,,,0,h,MISS Harper 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,183
+0022600040,264,PT07M36.00S,2,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,184
+0022600040,265,PT07M26.00S,2,1610612744,GSW,1627777,Niang,G. Niang,56,264,27,Made,1,40,22,62,v,Niang 27' 3PT Jump Shot (3 PTS) (Cryer 2 AST),Made Shot,Jump Shot,1,3,185
+0022600040,267,PT07M11.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,7,-3,1,Made,1,42,22,64,h,Wembanyama 1' Alley Oop Dunk (6 PTS) (Castle 3 AST),Made Shot,Alley Oop Dunk Shot,1,2,186
+0022600040,269,PT06M54.00S,2,1610612744,GSW,1627777,Niang,G. Niang,-104,24,11,Missed,1,,,0,v,MISS Niang 11' Hook Shot,Missed Shot,Hook Shot,1,2,187
+0022600040,270,PT06M54.00S,2,1610612759,SAS,1642868,Bryant,C. Bryant,0,0,0,,0,,,0,h,Bryant REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,188
+0022600040,271,PT06M47.00S,2,1610612759,SAS,1642844,Harper,D. Harper,235,-7,24,Made,1,45,22,67,h,Harper 24' 3PT Running Jump Shot (7 PTS) (Castle 4 AST),Made Shot,Running Jump Shot,1,3,189
+0022600040,273,PT06M47.00S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,v,Green FLAGRANT.FOUL.TYPE1 (P2.T3) (E.Dalen),Foul,Flagrant Type 1,1,0,190
+0022600040,275,PT06M47.00S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,v,Green Offensive Foul Turnover (P2.T5),Turnover,Offensive Foul Turnover,1,0,191
+0022600040,276,PT06M47.00S,2,0,,0,,,0,0,0,,0,46,22,68,,Instant Replay2nd Period (10:31 PM EST),Instant Replay,Overturn Ruling,0,0,192
+0022600040,277,PT06M47.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,46,22,68,h,Wembanyama Free Throw Flagrant 1 of 1 (7 PTS),Free Throw,Free Throw Flagrant 1 of 1,1,0,193
+0022600040,279,PT06M45.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,SUB: Kornet FOR Wembanyama,Substitution,,0,0,194
+0022600040,282,PT06M45.00S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,v,SUB: Bassey FOR Green,Substitution,,0,0,195
+0022600040,283,PT06M45.00S,2,1610612744,GSW,1643018,Cryer,L. Cryer,0,0,0,,0,,,0,v,SUB: Melton FOR Cryer,Substitution,,0,0,196
+0022600040,284,PT06M34.00S,2,1610612759,SAS,1642844,Harper,D. Harper,12,45,5,Missed,1,,,0,h,MISS Harper 5' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,197
+0022600040,285,PT06M34.00S,2,1610612744,GSW,1629001,Melton,D. Melton,0,0,0,,0,,,0,v,Melton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,198
+0022600040,286,PT06M21.00S,2,1610612759,SAS,1642868,Bryant,C. Bryant,0,0,0,,0,,,0,h,Bryant S.FOUL (P2.T2) (J.Williams),Foul,Shooting,1,0,199
+0022600040,288,PT06M21.00S,2,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,MISS Bassey Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,200
+0022600040,289,PT06M21.00S,2,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Rebound,Rebound,Normal Rebound,1,0,201
+0022600040,290,PT06M21.00S,2,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,46,23,69,v,Bassey Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,202
+0022600040,291,PT06M07.00S,2,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg S.FOUL (P2.T4) (E.Scott),Foul,Shooting,1,0,203
+0022600040,293,PT06M07.00S,2,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,47,23,70,h,Castle Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,204
+0022600040,296,PT06M07.00S,2,1610612744,GSW,1641764,Podziemski,B. Podziemski,0,0,0,,0,,,0,v,SUB: Richard FOR Podziemski,Substitution,,0,0,205
+0022600040,294,PT06M07.00S,2,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,48,23,71,h,Castle Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,206
+0022600040,297,PT05M51.00S,2,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,28,7,3,Missed,1,,,0,v,MISS Lendeborg 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,207
+0022600040,297,PT05M51.00S,2,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet BLOCK (1 BLK),,,1,2,208
+0022600040,298,PT05M51.00S,2,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,209
+0022600040,300,PT05M45.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,-207,144,25,Missed,1,,,0,h,MISS Vassell 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,210
+0022600040,301,PT05M45.00S,2,1610612744,GSW,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,Niang REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,211
+0022600040,302,PT05M24.00S,2,1610612744,GSW,1627777,Niang,G. Niang,-4,106,11,Made,1,48,25,73,v,Niang 11' Driving Floating Jump Shot (5 PTS) (Melton 1 AST),Made Shot,Driving Floating Jump Shot,1,2,212
+0022600040,303,PT05M07.00S,2,1610612759,SAS,1642264,Castle,S. Castle,-144,207,25,Made,1,51,25,76,h,Castle 25' 3PT Jump Shot (18 PTS) (Harper 3 AST),Made Shot,Jump Shot,1,3,213
+0022600040,306,PT04M54.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,Vassell P.FOUL (P2.T3) (E.Dalen),Foul,Personal,1,0,214
+0022600040,310,PT04M54.00S,2,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,SUB: Champagnie FOR Harper,Substitution,,0,0,215
+0022600040,311,PT04M54.00S,2,1610612759,SAS,1642868,Bryant,C. Bryant,0,0,0,,0,,,0,h,SUB: Johnson FOR Bryant,Substitution,,0,0,216
+0022600040,313,PT04M54.00S,2,1610612744,GSW,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,SUB: Santos FOR Niang,Substitution,,0,0,217
+0022600040,314,PT04M43.00S,2,1610612744,GSW,1630611,Santos,G. Santos,72,46,9,Missed,1,,,0,v,MISS Santos 9' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,218
+0022600040,315,PT04M43.00S,2,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,219
+0022600040,316,PT04M29.00S,2,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,Richard S.FOUL (P3.PN) (E.Dalen),Foul,Shooting,1,0,220
+0022600040,318,PT04M29.00S,2,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,52,25,77,h,Johnson Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,221
+0022600040,320,PT04M29.00S,2,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,222
+0022600040,319,PT04M29.00S,2,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,MISS Johnson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,223
+0022600040,321,PT04M29.00S,2,1610612744,GSW,1630611,Santos,G. Santos,0,0,0,,0,,,0,v,Santos REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,224
+0022600040,322,PT04M13.00S,2,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,48,80,9,Made,1,52,27,79,v,Lendeborg 9' Driving Floating Jump Shot (3 PTS),Made Shot,Driving Floating Jump Shot,1,2,225
+0022600040,323,PT03M47.00S,2,1610612759,SAS,1630577,Champagnie,J. Champagnie,28,7,3,Made,1,54,27,81,h,Champagnie 3' Driving Finger Roll Layup (5 PTS) (Vassell 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,226
+0022600040,325,PT03M38.00S,2,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,96,107,14,Missed,1,,,0,v,MISS Lendeborg 14' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,227
+0022600040,326,PT03M38.00S,2,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,228
+0022600040,327,PT03M25.00S,2,1610612759,SAS,1642264,Castle,S. Castle,39,7,4,Missed,1,,,0,h,MISS Castle 4' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,229
+0022600040,328,PT03M25.00S,2,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,230
+0022600040,329,PT03M16.00S,2,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,-6,103,10,Missed,1,,,0,v,MISS Lendeborg 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,231
+0022600040,330,PT03M16.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,Vassell REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,232
+0022600040,331,PT03M09.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,26,3,3,Made,1,56,27,83,h,Vassell 3' Running Finger Roll Layup (4 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,233
+0022600040,332,PT02M59.00S,2,1610612744,GSW,1629001,Melton,D. Melton,16,77,8,Missed,1,,,0,v,MISS Melton 8' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,234
+0022600040,333,PT02M59.00S,2,1610612744,GSW,1629001,Melton,D. Melton,0,0,0,,0,,,0,v,Melton REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,235
+0022600040,334,PT02M56.00S,2,1610612744,GSW,1629001,Melton,D. Melton,0,0,0,Missed,1,,,0,v,MISS Melton Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,236
+0022600040,335,PT02M56.00S,2,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,237
+0022600040,336,PT02M49.00S,2,1610612759,SAS,1630577,Champagnie,J. Champagnie,182,169,25,Missed,1,,,0,h,MISS Champagnie 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,238
+0022600040,337,PT02M49.00S,2,1610612744,GSW,1629001,Melton,D. Melton,0,0,0,,0,,,0,v,Melton REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,239
+0022600040,338,PT02M35.00S,2,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,-26,-1,3,Missed,1,,,0,v,MISS Lendeborg 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,240
+0022600040,339,PT02M35.00S,2,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,241
+0022600040,340,PT02M29.00S,2,1610612744,GSW,1630611,Santos,G. Santos,0,0,0,,0,,,0,v,Santos S.FOUL (P1.PN) (E.Scott),Foul,Shooting,1,0,242
+0022600040,342,PT02M29.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,MISS Vassell Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,243
+0022600040,343,PT02M29.00S,2,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Normal Rebound,1,0,244
+0022600040,347,PT02M29.00S,2,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,SUB: Wembanyama FOR Castle,Substitution,,0,0,245
+0022600040,348,PT02M29.00S,2,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Fox FOR Kornet,Substitution,,0,0,246
+0022600040,351,PT02M29.00S,2,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,SUB: Horford FOR Lendeborg,Substitution,,0,0,247
+0022600040,352,PT02M29.00S,2,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,SUB: Podziemski FOR Bassey,Substitution,,0,0,248
+0022600040,344,PT02M29.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,57,27,84,h,Vassell Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,249
+0022600040,353,PT02M19.00S,2,1610612744,GSW,1629001,Melton,D. Melton,-240,84,25,Made,1,57,30,87,v,Melton 25' 3PT Jump Shot (3 PTS) (Horford 1 AST),Made Shot,Jump Shot,1,3,250
+0022600040,355,PT02M06.00S,2,1610612759,SAS,1630577,Champagnie,J. Champagnie,237,-8,24,Missed,1,,,0,h,MISS Champagnie 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,251
+0022600040,356,PT02M06.00S,2,1610612744,GSW,1629001,Melton,D. Melton,0,0,0,,0,,,0,v,Melton REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,252
+0022600040,357,PT01M54.00S,2,1610612744,GSW,1629001,Melton,D. Melton,-161,220,27,Missed,1,,,0,v,MISS Melton 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,253
+0022600040,358,PT01M54.00S,2,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,0,0,254
+0022600040,360,PT01M37.00S,2,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,Richard Violation:Kicked Ball (E.Scott),Violation,Kicked Ball,0,0,255
+0022600040,361,PT01M24.00S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-96,129,16,Missed,1,,,0,h,MISS Wembanyama 16' Jump Shot,Missed Shot,Jump Shot,1,2,256
+0022600040,362,PT01M24.00S,2,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,257
+0022600040,363,PT01M19.00S,2,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,Fox Lost Ball Turnover (P2.T6),Turnover,Lost Ball,1,0,258
+0022600040,363,PT01M19.00S,2,1610612744,GSW,1629001,Melton,D. Melton,0,0,0,,0,,,0,v,Melton STEAL (1 STL),,,1,0,259
+0022600040,365,PT01M03.00S,2,1610612744,GSW,1630611,Santos,G. Santos,-241,-7,24,Made,1,57,33,90,v,Santos 24' 3PT Jump Shot (5 PTS) (Melton 2 AST),Made Shot,Jump Shot,1,3,260
+0022600040,367,PT00M48.70S,2,1610612759,SAS,1629640,Johnson,K. Johnson,240,4,24,Made,1,60,33,93,h,Johnson 24' 3PT Jump Shot (7 PTS) (Vassell 2 AST),Made Shot,Jump Shot,1,3,261
+0022600040,369,PT00M28.50S,2,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie P.FOUL (P2.T4) (E.Scott),Foul,Personal,1,0,262
+0022600040,372,PT00M28.50S,2,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,SUB: Cryer FOR Richard,Substitution,,0,0,263
+0022600040,373,PT00M15.30S,2,1610612744,GSW,1641764,Podziemski,B. Podziemski,-66,100,12,Missed,1,,,0,v,MISS Podziemski 12' Hook Shot,Missed Shot,Hook Shot,1,2,264
+0022600040,374,PT00M15.30S,2,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:0 Def:10),Rebound,Unknown,1,0,265
+0022600040,375,PT00M00.80S,2,1610612744,GSW,1629001,Melton,D. Melton,0,0,0,,0,,,0,v,Melton S.FOUL (P1.PN) (J.Williams),Foul,Shooting,1,0,266
+0022600040,378,PT00M00.80S,2,0,,0,,,0,0,0,,0,60,33,93,,Instant Replay2nd Period (10:51 PM EST),Instant Replay,Ruling Stands,0,0,267
+0022600040,377,PT00M00.80S,2,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,61,33,94,h,Fox Free Throw 1 of 3 (5 PTS),Free Throw,Free Throw 1 of 3,1,0,268
+0022600040,379,PT00M00.80S,2,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,62,33,95,h,Fox Free Throw 2 of 3 (6 PTS),Free Throw,Free Throw 2 of 3,1,0,269
+0022600040,382,PT00M00.80S,2,1610612744,GSW,1629001,Melton,D. Melton,0,0,0,,0,,,0,v,SUB: Bassey FOR Melton,Substitution,,0,0,270
+0022600040,380,PT00M00.80S,2,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,63,33,96,h,Fox Free Throw 3 of 3 (7 PTS),Free Throw,Free Throw 3 of 3,1,0,271
+0022600040,384,PT00M00.00S,2,0,,0,,,0,0,0,,0,,,0,v,WARRIORS Heave,Heave,Team Field Goal Attempt,0,0,272
+0022600040,385,PT00M00.00S,2,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Rebound,Rebound,Unknown,0,0,273
+0022600040,386,PT00M00.00S,2,0,,0,,,0,0,0,,0,63,33,96,,End of 2nd Period (10:52 PM EST),period,end,1,0,274
+0022600040,399,PT12M00.00S,3,0,,0,,,0,0,0,,0,63,33,96,,Start of 3rd Period (11:09 PM EST),period,start,1,0,275
+0022600040,400,PT11M42.00S,3,1610612744,GSW,1641764,Podziemski,B. Podziemski,-217,132,25,Made,1,63,36,99,v,Podziemski 25' 3PT Jump Shot (6 PTS) (Green 2 AST),Made Shot,Jump Shot,1,3,276
+0022600040,402,PT11M25.00S,3,1610612759,SAS,1642844,Harper,D. Harper,-9,16,2,Made,1,65,36,101,h,Harper 2' Driving Finger Roll Layup (9 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,277
+0022600040,403,PT11M03.00S,3,1610612744,GSW,1629001,Melton,D. Melton,-228,17,0,Made,1,65,39,104,v,Melton 3PT Step Back Jump Shot (6 PTS),Made Shot,Step Back Jump shot,1,3,278
+0022600040,404,PT10M47.00S,3,1610612759,SAS,1642264,Castle,S. Castle,239,65,25,Missed,1,,,0,h,MISS Castle 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,279
+0022600040,405,PT10M47.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,280
+0022600040,406,PT10M43.00S,3,1610612759,SAS,1628368,Fox,D. Fox,-26,23,3,Missed,1,,,0,h,MISS Fox 3' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,281
+0022600040,407,PT10M43.00S,3,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,0,0,282
+0022600040,408,PT10M42.00S,3,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,v,Green P.FOUL (P3.T1) (J.Williams),Foul,Personal,1,0,283
+0022600040,410,PT10M32.00S,3,1610612759,SAS,1642264,Castle,S. Castle,3,12,1,Made,1,67,39,106,h,Castle 1' Driving Dunk (20 PTS) (Harper 4 AST),Made Shot,Driving Dunk Shot,1,2,284
+0022600040,412,PT10M19.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,-26,17,3,Missed,1,,,0,v,MISS Lendeborg 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,285
+0022600040,412,PT10M19.00S,3,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle BLOCK (1 BLK),,,1,2,286
+0022600040,413,PT10M19.00S,3,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Rebound,Rebound,Unknown,0,0,287
+0022600040,416,PT10M12.00S,3,1610612744,GSW,1629001,Melton,D. Melton,-99,138,17,Made,1,67,41,108,v,Melton 17' Step Back Jump Shot (8 PTS) (Green 3 AST),Made Shot,Step Back Jump shot,1,2,288
+0022600040,417,PT09M57.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,150,110,19,Missed,1,,,0,h,MISS Wembanyama 19' Jump Shot,Missed Shot,Jump Shot,1,2,289
+0022600040,418,PT09M57.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,290
+0022600040,419,PT09M43.00S,3,1610612744,GSW,203110,Green,D. Green,23,127,13,Made,1,67,43,110,v,Green 13' Floating Jump Shot (4 PTS) (Melton 3 AST),Made Shot,Floating Jump shot,1,2,291
+0022600040,421,PT09M26.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,-6,15,2,Made,1,69,43,112,h,Vassell 2' Driving Finger Roll Layup (7 PTS) (Wembanyama 4 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,292
+0022600040,423,PT09M16.00S,3,1610612744,GSW,1629001,Melton,D. Melton,198,158,25,Missed,1,,,0,v,MISS Melton 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,293
+0022600040,424,PT09M16.00S,3,1610612744,GSW,1641764,Podziemski,B. Podziemski,0,0,0,,0,,,0,v,Podziemski REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,294
+0022600040,425,PT09M09.00S,3,1610612744,GSW,1641764,Podziemski,B. Podziemski,-227,3,0,Missed,1,,,0,v,MISS Podziemski 3PT Jump Shot,Missed Shot,Jump Shot,1,3,295
+0022600040,426,PT09M09.00S,3,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,296
+0022600040,427,PT09M00.00S,3,1610612759,SAS,1628368,Fox,D. Fox,240,1,24,Missed,1,,,0,h,MISS Fox 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,297
+0022600040,428,PT09M00.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,298
+0022600040,429,PT08M50.00S,3,1610612744,GSW,203110,Green,D. Green,-6,251,25,Missed,1,,,0,v,MISS Green 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,299
+0022600040,430,PT08M50.00S,3,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,Richard REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,300
+0022600040,431,PT08M42.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,-228,-16,0,Missed,1,,,0,v,MISS Lendeborg 3PT Jump Shot,Missed Shot,Jump Shot,1,3,301
+0022600040,432,PT08M42.00S,3,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,302
+0022600040,433,PT08M35.00S,3,1610612759,SAS,1642264,Castle,S. Castle,48,107,12,Made,1,71,43,114,h,Castle 12' Pullup Jump Shot (22 PTS),Made Shot,Pullup Jump shot,1,2,303
+0022600040,434,PT08M35.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg S.FOUL (P3.T2) (E.Dalen),Foul,Shooting,1,0,304
+0022600040,438,PT08M35.00S,3,1610612759,SAS,1628368,Fox,D. Fox,0,0,0,,0,,,0,h,SUB: Champagnie FOR Fox,Substitution,,0,0,305
+0022600040,436,PT08M35.00S,3,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,72,43,115,h,Castle Free Throw 1 of 1 (23 PTS),Free Throw,Free Throw 1 of 1,1,0,306
+0022600040,440,PT08M20.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,-84,118,14,Missed,1,,,0,v,MISS Lendeborg 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,307
+0022600040,441,PT08M20.00S,3,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,308
+0022600040,442,PT08M05.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-46,15,5,Made,1,74,43,117,h,Wembanyama 5' Hook Bank Shot (9 PTS),Made Shot,Hook Bank Shot,1,2,309
+0022600040,443,PT07M51.00S,3,1610612744,GSW,1642954,Richard,W. Richard,238,3,24,Missed,1,,,0,v,MISS Richard 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,310
+0022600040,444,PT07M51.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama REBOUND (Off:1 Def:11),Rebound,Unknown,1,0,311
+0022600040,445,PT07M37.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,-234,41,24,Missed,1,,,0,h,MISS Vassell 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,312
+0022600040,446,PT07M37.00S,3,1610612744,GSW,1641764,Podziemski,B. Podziemski,0,0,0,,0,,,0,v,Podziemski REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,313
+0022600040,447,PT07M29.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg Bad Pass Turnover (P3.T6),Turnover,Bad Pass,1,0,314
+0022600040,447,PT07M29.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama STEAL (1 STL),,,1,0,315
+0022600040,449,PT07M25.00S,3,1610612759,SAS,1642264,Castle,S. Castle,0,4,0,Made,1,76,43,119,h,Castle Running Alley Oop Dunk Shot (25 PTS) (Wembanyama 5 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,316
+0022600040,451,PT07M25.00S,3,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,317
+0022600040,456,PT07M25.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,SUB: Santos FOR Lendeborg,Substitution,,0,0,318
+0022600040,457,PT07M25.00S,3,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,SUB: Cryer FOR Richard,Substitution,,0,0,319
+0022600040,458,PT07M25.00S,3,1610612744,GSW,1629001,Melton,D. Melton,0,0,0,,0,,,0,v,SUB: Niang FOR Melton,Substitution,,0,0,320
+0022600040,459,PT07M25.00S,3,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,v,SUB: Bassey FOR Green,Substitution,,0,0,321
+0022600040,460,PT07M03.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama Violation:Kicked Ball (J.Williams),Violation,Kicked Ball,0,0,322
+0022600040,461,PT07M00.00S,3,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle S.FOUL (P1.T1) (J.Williams),Foul,Shooting,1,0,323
+0022600040,463,PT07M00.00S,3,1610612744,GSW,1641764,Podziemski,B. Podziemski,0,0,0,,0,76,44,120,v,Podziemski Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,324
+0022600040,464,PT07M00.00S,3,1610612744,GSW,1641764,Podziemski,B. Podziemski,0,0,0,,0,76,45,121,v,Podziemski Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,325
+0022600040,465,PT06M45.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-20,15,3,Made,1,78,45,123,h,Wembanyama 3' Alley Oop Layup (12 PTS) (Castle 5 AST),Made Shot,Alley Oop Layup shot,1,2,326
+0022600040,467,PT06M45.00S,3,1610612744,GSW,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,Niang S.FOUL (P1.T3) (J.Williams),Foul,Shooting,1,0,327
+0022600040,469,PT06M45.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,79,45,124,h,Wembanyama Free Throw 1 of 1 (12 PTS),Free Throw,Free Throw 1 of 1,1,0,328
+0022600040,470,PT06M23.00S,3,1610612744,GSW,1629646,Bassey,C. Bassey,-6,65,7,Missed,1,,,0,v,MISS Bassey 7' Hook Shot,Missed Shot,Hook Shot,1,2,329
+0022600040,471,PT06M23.00S,3,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,Bassey REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,330
+0022600040,472,PT06M18.00S,3,1610612744,GSW,1629646,Bassey,C. Bassey,6,0,1,Made,1,79,47,126,v,Bassey 1' Putback Dunk (5 PTS),Made Shot,Putback Dunk Shot,1,2,331
+0022600040,473,PT06M02.00S,3,1610612759,SAS,1642264,Castle,S. Castle,122,248,28,Made,1,82,47,129,h,Castle 28' 3PT Jump Shot (28 PTS) (Champagnie 3 AST),Made Shot,Jump Shot,1,3,332
+0022600040,475,PT05M47.00S,3,1610612744,GSW,1629646,Bassey,C. Bassey,-28,22,4,Missed,1,,,0,v,MISS Bassey 4' Layup,Missed Shot,Layup Shot,1,2,333
+0022600040,475,PT05M47.00S,3,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie BLOCK (1 BLK),,,1,2,334
+0022600040,476,PT05M47.00S,3,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Rebound,Rebound,Unknown,0,0,335
+0022600040,480,PT05M47.00S,3,1610612744,GSW,1641764,Podziemski,B. Podziemski,0,0,0,,0,,,0,v,SUB: Lendeborg FOR Podziemski,Substitution,,0,0,336
+0022600040,482,PT05M36.00S,3,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper P.FOUL (P1.T2) (J.Williams),Foul,Personal,1,0,337
+0022600040,484,PT05M27.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,-21,-5,2,Missed,1,,,0,v,MISS Lendeborg 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,338
+0022600040,484,PT05M27.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,Wembanyama BLOCK (2 BLK),,,1,2,339
+0022600040,485,PT05M27.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,340
+0022600040,487,PT05M27.00S,3,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Turnover: Shot Clock (T#7),Turnover,Shot Clock Turnover,1,0,341
+0022600040,488,PT05M02.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,-159,213,27,Missed,1,,,0,h,MISS Wembanyama 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,342
+0022600040,489,PT05M02.00S,3,1610612744,GSW,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,Niang REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,343
+0022600040,490,PT04M55.00S,3,1610612744,GSW,1643018,Cryer,L. Cryer,-233,-3,0,Missed,1,,,0,v,MISS Cryer 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,344
+0022600040,491,PT04M55.00S,3,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,345
+0022600040,492,PT04M47.00S,3,1610612759,SAS,1642264,Castle,S. Castle,0,10,1,Made,1,84,47,131,h,Castle 1' Running Alley Oop Dunk Shot (30 PTS) (Wembanyama 6 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,346
+0022600040,494,PT04M25.00S,3,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,Bassey OFF.Foul (P2) (E.Scott),Foul,Offensive,1,0,347
+0022600040,496,PT04M25.00S,3,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,Bassey Offensive Foul Turnover (P2.T8),Turnover,Offensive Foul Turnover,1,0,348
+0022600040,499,PT04M25.00S,3,1610612759,SAS,1641705,Wembanyama,V. Wembanyama,0,0,0,,0,,,0,h,SUB: Kornet FOR Wembanyama,Substitution,,0,0,349
+0022600040,500,PT04M25.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,SUB: Johnson FOR Vassell,Substitution,,0,0,350
+0022600040,503,PT04M25.00S,3,1610612744,GSW,1643018,Cryer,L. Cryer,0,0,0,,0,,,0,v,SUB: Ike FOR Cryer,Substitution,,0,0,351
+0022600040,504,PT04M25.00S,3,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,SUB: Richard FOR Bassey,Substitution,,0,0,352
+0022600040,505,PT04M07.00S,3,1610612759,SAS,1642844,Harper,D. Harper,53,28,6,Missed,1,,,0,h,MISS Harper 6' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,353
+0022600040,505,PT04M07.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg BLOCK (1 BLK),,,1,2,354
+0022600040,506,PT04M07.00S,3,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,Harper REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,355
+0022600040,508,PT04M02.00S,3,1610612759,SAS,1642264,Castle,S. Castle,56,272,28,Missed,1,,,0,h,MISS Castle 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,356
+0022600040,509,PT04M02.00S,3,1610612744,GSW,1643633,Ike,G. Ike,0,0,0,,0,,,0,v,Ike REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,357
+0022600040,510,PT03M42.00S,3,1610612744,GSW,1643633,Ike,G. Ike,240,6,24,Missed,1,,,0,v,MISS Ike 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,358
+0022600040,511,PT03M42.00S,3,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,359
+0022600040,512,PT03M25.00S,3,1610612759,SAS,1642264,Castle,S. Castle,-50,93,11,Made,1,86,47,133,h,Castle 11' Driving Floating Jump Shot (32 PTS),Made Shot,Driving Floating Jump Shot,1,2,360
+0022600040,513,PT03M14.00S,3,1610612744,GSW,1642954,Richard,W. Richard,132,222,26,Made,1,86,50,136,v,Richard 26' 3PT Jump Shot (3 PTS) (Ike 1 AST),Made Shot,Jump Shot,1,3,361
+0022600040,515,PT03M01.00S,3,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie Lost Ball Turnover (P1.T7),Turnover,Lost Ball,1,0,362
+0022600040,515,PT03M01.00S,3,1610612744,GSW,1643633,Ike,G. Ike,0,0,0,,0,,,0,v,Ike STEAL (1 STL),,,1,0,363
+0022600040,517,PT02M54.00S,3,1610612744,GSW,1643633,Ike,G. Ike,6,40,4,Missed,1,,,0,v,MISS Ike 4' Jump Shot,Missed Shot,Jump Shot,1,2,364
+0022600040,518,PT02M54.00S,3,1610612744,GSW,1643633,Ike,G. Ike,0,0,0,,0,,,0,v,Ike REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,365
+0022600040,519,PT02M51.00S,3,1610612744,GSW,1643633,Ike,G. Ike,0,0,0,Missed,1,,,0,v,MISS Ike Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,366
+0022600040,520,PT02M51.00S,3,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,Castle REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,367
+0022600040,521,PT02M44.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,-27,19,3,Made,1,88,50,138,h,Johnson 3' Running Finger Roll Layup (9 PTS) (Castle 6 AST),Made Shot,Running Finger Roll Layup Shot,1,2,368
+0022600040,522,PT02M31.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,-22,-6,2,Missed,1,,,0,v,MISS Lendeborg 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,369
+0022600040,523,PT02M31.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,Lendeborg REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,370
+0022600040,524,PT02M24.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,-10,9,1,Missed,1,,,0,v,MISS Lendeborg 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,371
+0022600040,524,PT02M24.00S,3,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet BLOCK (2 BLK),,,1,2,372
+0022600040,525,PT02M24.00S,3,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,Champagnie REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,373
+0022600040,527,PT02M17.00S,3,1610612759,SAS,1630577,Champagnie,J. Champagnie,-165,181,24,Missed,1,,,0,h,MISS Champagnie 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,374
+0022600040,528,PT02M17.00S,3,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,375
+0022600040,529,PT02M12.00S,3,1610612759,SAS,1630577,Champagnie,J. Champagnie,-133,173,22,Made,1,90,50,140,h,Champagnie 22' Driving Floating Jump Shot (7 PTS) (Johnson 1 AST),Made Shot,Driving Floating Jump Shot,1,2,376
+0022600040,531,PT02M00.00S,3,1610612744,GSW,1643633,Ike,G. Ike,16,104,11,Made,1,90,52,142,v,Ike 11' Jump Shot (2 PTS) (Niang 2 AST),Made Shot,Jump Shot,1,2,377
+0022600040,533,PT01M58.00S,3,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,378
+0022600040,538,PT01M58.00S,3,1610612759,SAS,1642844,Harper,D. Harper,0,0,0,,0,,,0,h,SUB: McLaughlin FOR Harper,Substitution,,0,0,379
+0022600040,539,PT01M58.00S,3,1610612759,SAS,1642264,Castle,S. Castle,0,0,0,,0,,,0,h,SUB: Barnes FOR Castle,Substitution,,0,0,380
+0022600040,542,PT01M58.00S,3,1610612744,GSW,1630611,Santos,G. Santos,0,0,0,,0,,,0,v,SUB: Cryer FOR Santos,Substitution,,0,0,381
+0022600040,543,PT01M58.00S,3,1610612744,GSW,1642865,Lendeborg,Y. Lendeborg,0,0,0,,0,,,0,v,SUB: Leons FOR Lendeborg,Substitution,,0,0,382
+0022600040,544,PT01M34.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,-1,269,27,Missed,1,,,0,h,MISS Johnson 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,383
+0022600040,545,PT01M34.00S,3,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,384
+0022600040,546,PT01M30.00S,3,1610612759,SAS,1628436,Kornet,L. Kornet,-11,23,3,Missed,1,,,0,h,MISS Kornet 3' Layup,Missed Shot,Layup Shot,1,2,385
+0022600040,546,PT01M30.00S,3,1610612744,GSW,1643633,Ike,G. Ike,0,0,0,,0,,,0,v,Ike BLOCK (1 BLK),,,1,2,386
+0022600040,547,PT01M30.00S,3,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,387
+0022600040,549,PT01M29.00S,3,1610612744,GSW,1642502,Leons,M. Leons,0,0,0,,0,,,0,v,Leons S.FOUL (P1.T4) (J.Williams),Foul,Shooting,1,0,388
+0022600040,551,PT01M29.00S,3,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,91,52,143,h,Kornet Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,389
+0022600040,552,PT01M29.00S,3,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,92,52,144,h,Kornet Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,390
+0022600040,553,PT01M18.00S,3,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,Richard Out of Bounds Lost Ball Turnover (P1.T9),Turnover,Out of Bounds Lost Ball Turnover,1,0,391
+0022600040,554,PT00M56.70S,3,1610612759,SAS,203084,Barnes,H. Barnes,239,19,24,Made,1,95,52,147,h,Barnes 24' 3PT Jump Shot (8 PTS) (Kornet 2 AST),Made Shot,Jump Shot,1,3,392
+0022600040,556,PT00M45.60S,3,1610612744,GSW,1643018,Cryer,L. Cryer,-13,112,11,Made,1,95,54,149,v,Cryer 11' Floating Jump Shot (11 PTS) (Ike 2 AST),Made Shot,Floating Jump shot,1,2,393
+0022600040,558,PT00M37.60S,3,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson Traveling Turnover (P1.T8),Turnover,Traveling,1,0,394
+0022600040,559,PT00M31.90S,3,1610612744,GSW,1643018,Cryer,L. Cryer,-9,255,26,Made,1,95,57,152,v,Cryer 26' 3PT Pullup Jump Shot (14 PTS) (Ike 3 AST),Made Shot,Pullup Jump shot,1,3,395
+0022600040,561,PT00M22.50S,3,1610612759,SAS,1629162,McLaughlin,J. McLaughlin,-86,25,9,Made,1,97,57,154,h,McLaughlin 9' Driving Floating Bank Jump Shot (2 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,396
+0022600040,562,PT00M01.00S,3,1610612744,GSW,1643633,Ike,G. Ike,-181,189,26,Made,1,97,60,157,v,Ike 26' 3PT Jump Shot (5 PTS) (Richard 1 AST),Made Shot,Jump Shot,1,3,397
+0022600040,564,PT00M00.00S,3,0,,0,,,0,0,0,,0,97,60,157,,End of 3rd Period (11:34 PM EST),period,end,1,0,398
+0022600040,573,PT12M00.00S,4,0,,0,,,0,0,0,,0,97,60,157,,Start of 4th Period (11:38 PM EST),period,start,1,0,399
+0022600040,574,PT11M55.00S,4,1610612759,SAS,1642868,Bryant,C. Bryant,-237,57,24,Missed,1,,,0,h,MISS Bryant 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,400
+0022600040,575,PT11M55.00S,4,1610612744,GSW,1627780,Payton II,G. Payton II,0,0,0,,0,,,0,v,Payton II REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,401
+0022600040,576,PT11M41.00S,4,1610612744,GSW,1627780,Payton II,G. Payton II,208,153,26,Missed,1,,,0,v,MISS Payton II 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,402
+0022600040,577,PT11M41.00S,4,1610612759,SAS,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,h,McLaughlin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,403
+0022600040,578,PT11M29.00S,4,1610612759,SAS,1628436,Kornet,L. Kornet,-1,28,3,Made,1,99,60,159,h,Kornet 3' Cutting Finger Roll Layup Shot (6 PTS) (McLaughlin 1 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,404
+0022600040,580,PT11M10.00S,4,1610612744,GSW,1630611,Santos,G. Santos,0,0,0,,0,,,0,v,Santos Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,405
+0022600040,580,PT11M10.00S,4,1610612759,SAS,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,h,McLaughlin STEAL (1 STL),,,1,0,406
+0022600040,582,PT11M05.00S,4,1610612759,SAS,1642868,Bryant,C. Bryant,-171,196,26,Missed,1,,,0,h,MISS Bryant 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,407
+0022600040,583,PT11M05.00S,4,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,Bassey REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,408
+0022600040,584,PT10M54.00S,4,1610612759,SAS,203084,Barnes,H. Barnes,0,0,0,,0,,,0,h,Barnes S.FOUL (P1.T1) (E.Dalen),Foul,Shooting,1,0,409
+0022600040,586,PT10M54.00S,4,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,99,61,160,v,Richard Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,410
+0022600040,589,PT10M54.00S,4,1610612759,SAS,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Reed Jr. FOR Kornet,Substitution,,0,0,411
+0022600040,587,PT10M54.00S,4,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,99,62,161,v,Richard Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,412
+0022600040,590,PT10M42.00S,4,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,Richard P.FOUL (P4.T1) (J.Williams),Foul,Personal,1,0,413
+0022600040,592,PT10M28.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Turnover: Shot Clock (T#9),Turnover,Shot Clock Turnover,1,0,414
+0022600040,593,PT10M18.00S,4,1610612744,GSW,1630611,Santos,G. Santos,159,202,26,Missed,1,,,0,v,MISS Santos 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,415
+0022600040,594,PT10M18.00S,4,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Rebound,Rebound,Unknown,1,0,416
+0022600040,595,PT10M17.00S,4,1610612759,SAS,1643542,Reed Jr.,T. Reed Jr.,0,0,0,,0,,,0,h,Reed Jr. L.B.FOUL (P1.T2) (J.Williams),Foul,Loose Ball,1,0,417
+0022600040,598,PT10M17.00S,4,1610612759,SAS,1630577,Champagnie,J. Champagnie,0,0,0,,0,,,0,h,SUB: Johnson FOR Champagnie,Substitution,,0,0,418
+0022600040,599,PT10M12.00S,4,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,Richard Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,419
+0022600040,599,PT10M12.00S,4,1610612759,SAS,1643542,Reed Jr.,T. Reed Jr.,0,0,0,,0,,,0,h,Reed Jr. STEAL (1 STL),,,1,0,420
+0022600040,601,PT10M01.00S,4,1610612759,SAS,203084,Barnes,H. Barnes,-232,4,0,Missed,1,,,0,h,MISS Barnes 3PT Jump Shot,Missed Shot,Jump Shot,1,3,421
+0022600040,602,PT10M01.00S,4,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,Richard REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,422
+0022600040,603,PT09M46.00S,4,1610612744,GSW,1642502,Leons,M. Leons,-80,238,25,Made,1,99,65,164,v,Leons 25' 3PT Jump Shot (3 PTS),Made Shot,Jump Shot,1,3,423
+0022600040,604,PT09M26.00S,4,1610612759,SAS,1642868,Bryant,C. Bryant,-14,15,2,Missed,1,,,0,h,MISS Bryant 2' Layup,Missed Shot,Layup Shot,1,2,424
+0022600040,604,PT09M26.00S,4,1610612744,GSW,1630611,Santos,G. Santos,0,0,0,,0,,,0,v,Santos BLOCK (1 BLK),,,1,2,425
+0022600040,605,PT09M26.00S,4,1610612759,SAS,1642868,Bryant,C. Bryant,0,0,0,,0,,,0,h,Bryant REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,426
+0022600040,607,PT09M20.00S,4,1610612759,SAS,203084,Barnes,H. Barnes,240,19,24,Made,1,102,65,167,h,Barnes 24' 3PT Jump Shot (11 PTS) (Johnson 2 AST),Made Shot,Jump Shot,1,3,427
+0022600040,609,PT08M58.00S,4,1610612744,GSW,1642954,Richard,W. Richard,-96,191,21,Made,1,102,67,169,v,Richard 21' Step Back Jump Shot (7 PTS) (Bassey 2 AST),Made Shot,Step Back Jump shot,1,2,428
+0022600040,614,PT08M36.00S,4,1610612744,GSW,1642954,Richard,W. Richard,0,0,0,,0,,,0,v,SUB: Ike FOR Richard,Substitution,,0,0,429
+0022600040,615,PT08M36.00S,4,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,SUB: Cryer FOR Bassey,Substitution,,0,0,430
+0022600040,616,PT08M34.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,236,-2,24,Missed,1,,,0,h,MISS Johnson 24' 3PT Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,3,431
+0022600040,617,PT08M34.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,1,0,432
+0022600040,618,PT08M34.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Turnover: Shot Clock (T#10),Turnover,Shot Clock Turnover,1,0,433
+0022600040,619,PT08M22.00S,4,1610612744,GSW,1643018,Cryer,L. Cryer,68,133,15,Missed,1,,,0,v,MISS Cryer 15' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,434
+0022600040,620,PT08M22.00S,4,1610612759,SAS,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,h,McLaughlin REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,435
+0022600040,621,PT08M12.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson Traveling Turnover (P2.T11),Turnover,Traveling,1,0,436
+0022600040,622,PT08M00.00S,4,1610612744,GSW,1627780,Payton II,G. Payton II,-13,-8,2,Made,1,102,69,171,v,Payton II 2' Cutting Finger Roll Layup Shot (2 PTS) (Cryer 3 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,437
+0022600040,624,PT07M45.00S,4,1610612759,SAS,1642868,Bryant,C. Bryant,-238,7,24,Made,1,105,69,174,h,Bryant 24' 3PT Jump Shot (3 PTS) (Reed Jr. 1 AST),Made Shot,Jump Shot,1,3,438
+0022600040,626,PT07M31.00S,4,1610612744,GSW,1643018,Cryer,L. Cryer,-182,168,25,Made,1,105,72,177,v,Cryer 25' 3PT Pullup Jump Shot (17 PTS),Made Shot,Pullup Jump shot,1,3,439
+0022600040,627,PT07M18.00S,4,1610612759,SAS,1642868,Bryant,C. Bryant,10,42,4,Missed,1,,,0,h,MISS Bryant 4' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,440
+0022600040,628,PT07M18.00S,4,1610612744,GSW,1627780,Payton II,G. Payton II,0,0,0,,0,,,0,v,Payton II REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,441
+0022600040,629,PT07M16.00S,4,1610612744,GSW,1627780,Payton II,G. Payton II,0,0,0,,0,,,0,v,Payton II Step Out of Bounds Turnover (P1.T12),Turnover,Step Out of Bounds Turnover,1,0,442
+0022600040,631,PT06M58.00S,4,1610612759,SAS,1642868,Bryant,C. Bryant,245,59,25,Made,1,108,72,180,h,Bryant 25' 3PT Jump Shot (6 PTS) (Johnson 3 AST),Made Shot,Jump Shot,1,3,443
+0022600040,633,PT06M47.00S,4,1610612744,GSW,1630611,Santos,G. Santos,30,11,3,Missed,1,,,0,v,MISS Santos 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,444
+0022600040,633,PT06M47.00S,4,1610612759,SAS,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,h,McLaughlin BLOCK (1 BLK),,,1,2,445
+0022600040,634,PT06M47.00S,4,1610612744,GSW,1630611,Santos,G. Santos,0,0,0,,0,,,0,v,Santos REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,446
+0022600040,635,PT06M42.00S,4,1610612744,GSW,1643018,Cryer,L. Cryer,-231,12,0,Made,1,108,75,183,v,Cryer 3PT Jump Shot (20 PTS) (Santos 1 AST),Made Shot,Jump Shot,1,3,447
+0022600040,636,PT06M19.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,-183,252,31,Made,1,111,75,186,h,Johnson 31' 3PT Jump Shot (12 PTS) (McLaughlin 2 AST),Made Shot,Jump Shot,1,3,448
+0022600040,638,PT06M05.00S,4,1610612744,GSW,1643018,Cryer,L. Cryer,-209,144,25,Missed,1,,,0,v,MISS Cryer 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,449
+0022600040,639,PT06M05.00S,4,1610612759,SAS,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,h,McLaughlin REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,450
+0022600040,640,PT05M56.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,-207,166,27,Missed,1,,,0,h,MISS Johnson 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,451
+0022600040,641,PT05M56.00S,4,1610612744,GSW,1630611,Santos,G. Santos,0,0,0,,0,,,0,v,Santos REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,452
+0022600040,642,PT05M41.00S,4,1610612744,GSW,1630611,Santos,G. Santos,1,18,2,Made,1,111,77,188,v,Santos 2' Driving Finger Roll Layup (7 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,453
+0022600040,643,PT05M31.00S,4,1610612759,SAS,1629162,McLaughlin,J. McLaughlin,-24,11,3,Made,1,113,77,190,h,McLaughlin 3' Driving Reverse Layup (4 PTS),Made Shot,Driving Reverse Layup Shot,1,2,454
+0022600040,644,PT05M31.00S,4,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,455
+0022600040,648,PT05M31.00S,4,1610612744,GSW,1630611,Santos,G. Santos,0,0,0,,0,,,0,v,SUB: Bassey FOR Santos,Substitution,,0,0,456
+0022600040,649,PT05M14.00S,4,1610612744,GSW,1629646,Bassey,C. Bassey,1,21,2,Made,1,113,79,192,v,Bassey 2' Hook Shot (7 PTS) (Cryer 4 AST),Made Shot,Hook Shot,1,2,457
+0022600040,651,PT04M57.00S,4,1610612759,SAS,1629162,McLaughlin,J. McLaughlin,112,245,27,Missed,1,,,0,h,MISS McLaughlin 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,458
+0022600040,652,PT04M57.00S,4,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Rebound,Rebound,Unknown,0,0,459
+0022600040,654,PT04M31.00S,4,1610612744,GSW,1643633,Ike,G. Ike,0,17,2,Missed,1,,,0,v,MISS Ike 2' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,460
+0022600040,655,PT04M31.00S,4,1610612759,SAS,1643542,Reed Jr.,T. Reed Jr.,0,0,0,,0,,,0,h,Reed Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,461
+0022600040,656,PT04M21.00S,4,1610612759,SAS,203084,Barnes,H. Barnes,14,21,3,Missed,1,,,0,h,MISS Barnes 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,462
+0022600040,657,PT04M21.00S,4,1610612759,SAS,1643542,Reed Jr.,T. Reed Jr.,0,0,0,,0,,,0,h,Reed Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,463
+0022600040,658,PT04M15.00S,4,1610612759,SAS,1643542,Reed Jr.,T. Reed Jr.,-14,13,2,Made,1,115,79,194,h,Reed Jr. 2' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,464
+0022600040,659,PT03M58.00S,4,1610612744,GSW,1642502,Leons,M. Leons,242,1,24,Missed,1,,,0,v,MISS Leons 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,465
+0022600040,660,PT03M58.00S,4,1610612759,SAS,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,h,McLaughlin REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,466
+0022600040,661,PT03M45.00S,4,1610612759,SAS,1642868,Bryant,C. Bryant,-236,3,24,Missed,1,,,0,h,MISS Bryant 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,467
+0022600040,662,PT03M45.00S,4,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,Bassey REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,468
+0022600040,663,PT03M36.00S,4,1610612744,GSW,1643633,Ike,G. Ike,0,0,0,,0,,,0,v,Ike OFF.Foul (P1) (E.Scott),Foul,Offensive,1,0,469
+0022600040,665,PT03M36.00S,4,1610612744,GSW,1643633,Ike,G. Ike,0,0,0,,0,,,0,v,Ike Offensive Foul Turnover (P1.T13),Turnover,Offensive Foul Turnover,1,0,470
+0022600040,666,PT03M36.00S,4,0,,1610612744,,,0,0,0,,0,,,0,v,Warriors Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,471
+0022600040,667,PT03M36.00S,4,0,,0,,,0,0,0,,0,115,79,194,,Instant Replay4th Period (11:53 PM EST),Instant Replay,Coach Challenge Ruling Stands,1,0,472
+0022600040,669,PT03M36.00S,4,1610612744,GSW,1627780,Payton II,G. Payton II,0,0,0,,0,,,0,v,SUB: Richard FOR Payton II,Substitution,,0,0,473
+0022600040,670,PT03M21.00S,4,1610612759,SAS,1642868,Bryant,C. Bryant,-7,15,2,Made,1,117,79,196,h,Bryant 2' Alley Oop Dunk (8 PTS) (Johnson 4 AST),Made Shot,Alley Oop Dunk Shot,1,2,474
+0022600040,672,PT03M10.00S,4,1610612744,GSW,1643018,Cryer,L. Cryer,15,8,2,Missed,1,,,0,v,MISS Cryer 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,475
+0022600040,673,PT03M10.00S,4,1610612759,SAS,1642868,Bryant,C. Bryant,0,0,0,,0,,,0,h,Bryant REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,476
+0022600040,674,PT03M03.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,5,15,2,Made,1,119,79,198,h,Johnson 2' Running Finger Roll Layup (14 PTS) (Bryant 1 AST),Made Shot,Running Finger Roll Layup Shot,1,2,477
+0022600040,676,PT02M44.00S,4,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,Bassey Bad Pass Turnover (P3.T14),Turnover,Bad Pass,1,0,478
+0022600040,676,PT02M44.00S,4,1610612759,SAS,1643542,Reed Jr.,T. Reed Jr.,0,0,0,,0,,,0,h,Reed Jr. STEAL (2 STL),,,1,0,479
+0022600040,678,PT02M39.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,-183,185,26,Missed,1,,,0,h,MISS Johnson 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,480
+0022600040,679,PT02M39.00S,4,1610612744,GSW,1643018,Cryer,L. Cryer,0,0,0,,0,,,0,v,Cryer REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,481
+0022600040,680,PT02M21.00S,4,1610612759,SAS,1642868,Bryant,C. Bryant,0,0,0,,0,,,0,h,Bryant S.FOUL (P3.T3) (E.Dalen),Foul,Shooting,1,0,482
+0022600040,682,PT02M21.00S,4,1610612744,GSW,1642502,Leons,M. Leons,0,0,0,,0,119,80,199,v,Leons Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,483
+0022600040,683,PT02M21.00S,4,1610612744,GSW,1642502,Leons,M. Leons,0,0,0,,0,119,81,200,v,Leons Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,484
+0022600040,684,PT02M08.00S,4,1610612759,SAS,1643542,Reed Jr.,T. Reed Jr.,6,101,10,Missed,1,,,0,h,MISS Reed Jr. 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,485
+0022600040,685,PT02M08.00S,4,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,Bassey REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,486
+0022600040,686,PT01M50.00S,4,1610612744,GSW,1629646,Bassey,C. Bassey,39,22,4,Made,1,119,83,202,v,Bassey 4' Hook Shot (9 PTS) (Cryer 5 AST),Made Shot,Hook Shot,1,2,487
+0022600040,688,PT01M29.00S,4,1610612759,SAS,1642868,Bryant,C. Bryant,41,269,27,Missed,1,,,0,h,MISS Bryant 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,488
+0022600040,689,PT01M29.00S,4,1610612759,SAS,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,h,McLaughlin REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,489
+0022600040,690,PT01M21.00S,4,1610612759,SAS,1642868,Bryant,C. Bryant,-6,9,1,Missed,1,,,0,h,MISS Bryant 1' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,490
+0022600040,691,PT01M21.00S,4,1610612759,SAS,1643542,Reed Jr.,T. Reed Jr.,0,0,0,,0,,,0,h,Reed Jr. REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,491
+0022600040,692,PT01M21.00S,4,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,Bassey S.FOUL (P3.T2) (E.Dalen),Foul,Shooting,1,0,492
+0022600040,694,PT01M21.00S,4,1610612759,SAS,1643542,Reed Jr.,T. Reed Jr.,0,0,0,,0,,,0,h,MISS Reed Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,493
+0022600040,695,PT01M21.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Normal Rebound,0,0,494
+0022600040,696,PT01M21.00S,4,1610612759,SAS,1643542,Reed Jr.,T. Reed Jr.,0,0,0,,0,,,0,h,MISS Reed Jr. Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,495
+0022600040,697,PT01M21.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,496
+0022600040,698,PT01M16.00S,4,1610612759,SAS,203084,Barnes,H. Barnes,237,29,24,Missed,1,,,0,h,MISS Barnes 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,497
+0022600040,699,PT01M16.00S,4,1610612744,GSW,1642502,Leons,M. Leons,0,0,0,,0,,,0,v,Leons REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,498
+0022600040,700,PT01M03.00S,4,1610612744,GSW,1629646,Bassey,C. Bassey,15,6,2,Made,1,119,85,204,v,Bassey 2' Driving Finger Roll Layup (11 PTS) (Cryer 6 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,499
+0022600040,701,PT00M45.90S,4,1610612759,SAS,1629640,Johnson,K. Johnson,-3,60,6,Made,1,121,85,206,h,Johnson 6' Floating Jump Shot (16 PTS) (Bryant 2 AST),Made Shot,Floating Jump shot,1,2,500
+0022600040,703,PT00M36.30S,4,1610612744,GSW,1643633,Ike,G. Ike,-9,243,24,Missed,1,,,0,v,MISS Ike 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,501
+0022600040,704,PT00M36.30S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,502
+0022600040,705,PT00M27.60S,4,1610612759,SAS,203084,Barnes,H. Barnes,240,27,24,Missed,1,,,0,h,MISS Barnes 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,503
+0022600040,706,PT00M27.60S,4,1610612759,SAS,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,h,McLaughlin REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,504
+0022600040,707,PT00M25.20S,4,1610612744,GSW,1629646,Bassey,C. Bassey,0,0,0,,0,,,0,v,Bassey S.FOUL (P4.PN) (E.Scott),Foul,Shooting,1,0,505
+0022600040,709,PT00M25.20S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,122,85,207,h,Johnson Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,1,0,506
+0022600040,710,PT00M25.20S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,123,85,208,h,Johnson Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,507
+0022600040,711,PT00M14.10S,4,1610612744,GSW,1643018,Cryer,L. Cryer,34,70,8,Missed,1,,,0,v,MISS Cryer 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,508
+0022600040,712,PT00M14.10S,4,1610612759,SAS,1643542,Reed Jr.,T. Reed Jr.,0,0,0,,0,,,0,h,Reed Jr. REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,509
+0022600040,714,PT00M00.00S,4,0,,0,,,0,0,0,,0,123,85,208,,End of 4th Period (12:03 AM EST),period,end,1,0,510
