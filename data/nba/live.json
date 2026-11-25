@@ -1,38 +1,38 @@
 {
- "updated": "2026-11-24T17:34:44-08:00",
+ "updated": "2026-11-24T17:41:47-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
    "game_id": "0022600052",
    "tip_utc": "2026-11-25T00:00:00Z",
    "status": 2,
-   "status_text": "Q3 6:07",
+   "status_text": "Q3 3:32",
    "period": 3,
-   "clock": "6:07",
+   "clock": "3:32",
    "home": {
     "team": "ORL",
-    "score": 47,
+    "score": 54,
     "periods": [
      22,
      14,
-     11,
+     18,
      0
     ],
     "stats": {
-     "fgm": 18,
-     "fga": 55,
-     "fg3m": 8,
-     "fg3a": 24,
+     "fgm": 21,
+     "fga": 59,
+     "fg3m": 9,
+     "fg3a": 26,
      "ftm": 3,
      "fta": 5,
      "oreb": 9,
-     "dreb": 21,
+     "dreb": 23,
      "tov": 14,
-     "pf": 14,
+     "pf": 15,
      "ast": 13,
      "stl": 6,
-     "blk": 3,
-     "pts_paint": 18,
+     "blk": 4,
+     "pts_paint": 20,
      "pts_second_chance": 7,
      "pts_fast_break": 7,
      "pts_off_tov": 15,
@@ -43,56 +43,56 @@
     "leaders": [
      {
       "name": "Desmond Bane",
-      "pts": 10,
+      "pts": 13,
       "reb": 0,
       "ast": 2,
-      "min": "18:13"
+      "min": "20:51"
+     },
+     {
+      "name": "Franz Wagner",
+      "pts": 10,
+      "reb": 7,
+      "ast": 4,
+      "min": "25:38"
      },
      {
       "name": "Tristan da Silva",
       "pts": 9,
       "reb": 0,
       "ast": 0,
-      "min": "16:46"
-     },
-     {
-      "name": "Jevon Carter",
-      "pts": 9,
-      "reb": 0,
-      "ast": 0,
-      "min": "11:54"
+      "min": "19:24"
      }
     ]
    },
    "away": {
     "team": "DET",
-    "score": 63,
+    "score": 67,
     "periods": [
      16,
      32,
-     15,
+     19,
      0
     ],
     "stats": {
-     "fgm": 26,
-     "fga": 51,
+     "fgm": 27,
+     "fga": 55,
      "fg3m": 8,
-     "fg3a": 22,
-     "ftm": 3,
-     "fta": 4,
-     "oreb": 3,
-     "dreb": 25,
+     "fg3a": 24,
+     "ftm": 5,
+     "fta": 6,
+     "oreb": 4,
+     "dreb": 26,
      "tov": 10,
      "pf": 11,
-     "ast": 19,
+     "ast": 20,
      "stl": 8,
      "blk": 5,
-     "pts_paint": 30,
+     "pts_paint": 32,
      "pts_second_chance": 4,
      "pts_fast_break": 17,
      "pts_off_tov": 14,
-     "pts_bench": 15,
-     "biggest_lead": 16,
+     "pts_bench": 17,
+     "biggest_lead": 18,
      "lead_changes": 6
     },
     "leaders": [
@@ -101,21 +101,21 @@
       "pts": 15,
       "reb": 4,
       "ast": 6,
-      "min": "23:30"
+      "min": "25:10"
      },
      {
       "name": "Kevin Huerter",
-      "pts": 11,
+      "pts": 13,
       "reb": 4,
       "ast": 4,
-      "min": "23:56"
+      "min": "25:36"
      },
      {
       "name": "Isaiah Joe",
       "pts": 10,
       "reb": 4,
       "ast": 0,
-      "min": "19:37"
+      "min": "20:35"
      }
     ]
    },
@@ -127,6 +127,10 @@
     {
      "t": 29.9,
      "m": -16
+    },
+    {
+     "t": 32.5,
+     "m": -13
     }
    ]
   },
@@ -134,66 +138,11 @@
    "game_id": "0022600053",
    "tip_utc": "2026-11-25T01:00:00Z",
    "status": 2,
-   "status_text": "Q1 3:00",
+   "status_text": "END Q1",
    "period": 1,
-   "clock": "3:00",
+   "clock": "0:00",
    "home": {
     "team": "WAS",
-    "score": 18,
-    "periods": [
-     18,
-     0,
-     0,
-     0
-    ],
-    "stats": {
-     "fgm": 8,
-     "fga": 17,
-     "fg3m": 1,
-     "fg3a": 4,
-     "ftm": 1,
-     "fta": 1,
-     "oreb": 2,
-     "dreb": 5,
-     "tov": 5,
-     "pf": 3,
-     "ast": 2,
-     "stl": 1,
-     "blk": 0,
-     "pts_paint": 6,
-     "pts_second_chance": 2,
-     "pts_fast_break": 2,
-     "pts_off_tov": 5,
-     "pts_bench": 0,
-     "biggest_lead": 2,
-     "lead_changes": 1
-    },
-    "leaders": [
-     {
-      "name": "Anthony Davis",
-      "pts": 7,
-      "reb": 3,
-      "ast": 0,
-      "min": "8:53"
-     },
-     {
-      "name": "Kyshawn George",
-      "pts": 4,
-      "reb": 2,
-      "ast": 1,
-      "min": "7:40"
-     },
-     {
-      "name": "AJ Dybantsa",
-      "pts": 4,
-      "reb": 2,
-      "ast": 1,
-      "min": "8:53"
-     }
-    ]
-   },
-   "away": {
-    "team": "BOS",
     "score": 28,
     "periods": [
      28,
@@ -202,20 +151,75 @@
      0
     ],
     "stats": {
-     "fgm": 11,
-     "fga": 18,
-     "fg3m": 4,
+     "fgm": 12,
+     "fga": 24,
+     "fg3m": 2,
      "fg3a": 7,
      "ftm": 2,
-     "fta": 3,
-     "oreb": 1,
-     "dreb": 5,
-     "tov": 2,
-     "pf": 3,
-     "ast": 10,
+     "fta": 2,
+     "oreb": 2,
+     "dreb": 8,
+     "tov": 5,
+     "pf": 5,
+     "ast": 6,
+     "stl": 3,
+     "blk": 1,
+     "pts_paint": 12,
+     "pts_second_chance": 2,
+     "pts_fast_break": 5,
+     "pts_off_tov": 7,
+     "pts_bench": 3,
+     "biggest_lead": 2,
+     "lead_changes": 1
+    },
+    "leaders": [
+     {
+      "name": "Anthony Davis",
+      "pts": 10,
+      "reb": 5,
+      "ast": 1,
+      "min": "12:00"
+     },
+     {
+      "name": "Kyshawn George",
+      "pts": 8,
+      "reb": 3,
+      "ast": 1,
+      "min": "9:59"
+     },
+     {
+      "name": "AJ Dybantsa",
+      "pts": 4,
+      "reb": 2,
+      "ast": 1,
+      "min": "9:41"
+     }
+    ]
+   },
+   "away": {
+    "team": "BOS",
+    "score": 34,
+    "periods": [
+     34,
+     0,
+     0,
+     0
+    ],
+    "stats": {
+     "fgm": 13,
+     "fga": 26,
+     "fg3m": 5,
+     "fg3a": 10,
+     "ftm": 3,
+     "fta": 4,
+     "oreb": 4,
+     "dreb": 8,
+     "tov": 4,
+     "pf": 4,
+     "ast": 11,
      "stl": 3,
      "blk": 0,
-     "pts_paint": 14,
+     "pts_paint": 16,
      "pts_second_chance": 3,
      "pts_fast_break": 4,
      "pts_off_tov": 12,
@@ -225,18 +229,18 @@
     },
     "leaders": [
      {
+      "name": "Jayson Tatum",
+      "pts": 15,
+      "reb": 1,
+      "ast": 5,
+      "min": "12:00"
+     },
+     {
       "name": "Neemias Queta",
       "pts": 13,
       "reb": 2,
       "ast": 0,
       "min": "6:58"
-     },
-     {
-      "name": "Jayson Tatum",
-      "pts": 9,
-      "reb": 1,
-      "ast": 5,
-      "min": "8:53"
      },
      {
       "name": "Paul George",
@@ -255,6 +259,10 @@
     {
      "t": 9.0,
      "m": -10
+    },
+    {
+     "t": 12.0,
+     "m": -6
     }
    ]
   },
