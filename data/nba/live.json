@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:28:22-08:00",
+ "updated": "2026-11-24T18:35:25-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
@@ -158,33 +158,33 @@
    "game_id": "0022600053",
    "tip_utc": "2026-11-25T01:00:00Z",
    "status": 2,
-   "status_text": "Q3 11:25",
+   "status_text": "Q3 7:51",
    "period": 3,
-   "clock": "11:25",
+   "clock": "7:51",
    "home": {
     "team": "WAS",
-    "score": 49,
+    "score": 65,
     "periods": [
      28,
      21,
-     0,
+     16,
      0
     ],
     "stats": {
-     "fgm": 18,
-     "fga": 48,
-     "fg3m": 6,
-     "fg3a": 20,
-     "ftm": 7,
-     "fta": 9,
+     "fgm": 24,
+     "fga": 55,
+     "fg3m": 8,
+     "fg3a": 22,
+     "ftm": 9,
+     "fta": 11,
      "oreb": 8,
-     "dreb": 15,
+     "dreb": 17,
      "tov": 12,
-     "pf": 9,
-     "ast": 10,
+     "pf": 11,
+     "ast": 15,
      "stl": 5,
      "blk": 1,
-     "pts_paint": 16,
+     "pts_paint": 24,
      "pts_second_chance": 4,
      "pts_fast_break": 7,
      "pts_off_tov": 9,
@@ -195,51 +195,51 @@
     "leaders": [
      {
       "name": "Kyshawn George",
-      "pts": 17,
+      "pts": 20,
       "reb": 5,
       "ast": 1,
-      "min": "20:05"
+      "min": "23:43"
      },
      {
       "name": "Anthony Davis",
-      "pts": 14,
-      "reb": 7,
+      "pts": 18,
+      "reb": 9,
       "ast": 1,
-      "min": "19:52"
+      "min": "23:30"
      },
      {
       "name": "AJ Dybantsa",
-      "pts": 10,
+      "pts": 12,
       "reb": 6,
-      "ast": 3,
-      "min": "19:58"
+      "ast": 5,
+      "min": "23:36"
      }
     ]
    },
    "away": {
     "team": "BOS",
-    "score": 80,
+    "score": 88,
     "periods": [
      34,
      46,
-     0,
+     8,
      0
     ],
     "stats": {
-     "fgm": 29,
-     "fga": 52,
-     "fg3m": 15,
-     "fg3a": 27,
-     "ftm": 7,
-     "fta": 8,
-     "oreb": 6,
-     "dreb": 19,
+     "fgm": 32,
+     "fga": 59,
+     "fg3m": 16,
+     "fg3a": 29,
+     "ftm": 8,
+     "fta": 10,
+     "oreb": 7,
+     "dreb": 20,
      "tov": 6,
-     "pf": 11,
-     "ast": 20,
+     "pf": 12,
+     "ast": 23,
      "stl": 8,
-     "blk": 3,
-     "pts_paint": 28,
+     "blk": 2,
+     "pts_paint": 32,
      "pts_second_chance": 8,
      "pts_fast_break": 10,
      "pts_off_tov": 23,
@@ -250,24 +250,24 @@
     "leaders": [
      {
       "name": "Jayson Tatum",
-      "pts": 28,
+      "pts": 29,
       "reb": 2,
-      "ast": 6,
-      "min": "18:13"
-     },
-     {
-      "name": "Neemias Queta",
-      "pts": 17,
-      "reb": 2,
-      "ast": 1,
-      "min": "12:13"
+      "ast": 7,
+      "min": "21:51"
      },
      {
       "name": "Paul George",
-      "pts": 16,
+      "pts": 21,
       "reb": 3,
       "ast": 7,
-      "min": "18:15"
+      "min": "21:53"
+     },
+     {
+      "name": "Neemias Queta",
+      "pts": 19,
+      "reb": 3,
+      "ast": 1,
+      "min": "15:51"
      }
     ]
    },
@@ -307,6 +307,10 @@
     {
      "t": 24.6,
      "m": -31
+    },
+    {
+     "t": 28.1,
+     "m": -23
     }
    ]
   },
