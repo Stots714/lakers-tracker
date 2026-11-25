@@ -6,6 +6,8 @@ name: Odds
 # Needs the repo secret ODDS_API_KEY (free plan). Without it the job notes that and changes nothing.
 # Writes only data/markets/, which the PC never touches, so its pushes and the PC's cannot collide.
 
+# Scheduled runs stand down while the 5-minute tick (tick.yml) is running, and take over again if it stops.
+
 on:
   schedule:
     - cron: '47 17 * * *'   # 09:47 Pacific in winter, 10:47 in summer
@@ -19,6 +21,7 @@ on:
 
 permissions:
   contents: write
+  actions: read     # to see whether the 5-minute tick is running
 
 concurrency:
   group: markets
@@ -31,13 +34,26 @@ jobs:
     env:
       KIND: ${{ inputs.kind || 'morning' }}
     steps:
+      - name: Stand down while the 5-minute tick does this job
+        id: guard
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          last=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/tick.yml/runs?per_page=1" --jq '.workflow_runs[0].created_at // empty' 2>/dev/null || true)
+          if [ -n "$last" ] && [ $(( $(date +%s) - $(date -d "$last" +%s) )) -lt 3600 ]; then
+            echo "The 5-minute tick last started at $last and does this job now: nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        if: steps.guard.outputs.skip != 'true'
       - name: Read the lines
+        if: steps.guard.outputs.skip != 'true'
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python3 tools/cloud/odds.py --kind "$KIND"
       - name: Publish
-        if: always()  # a refused read still publishes its reason, for the watchdog and the site
+        if: always() && steps.guard.outputs.skip != 'true'  # a refused read still publishes its reason, for the watchdog and the site
         run: |
           if [ ! -d data/markets ]; then echo "Nothing to publish."; exit 0; fi
           git add data/markets

@@ -147,10 +147,10 @@ def check_tick(runs, now):
     """The on-time starter: cron-job.org starts tick.yml every 5 minutes through GitHub's API."""
     if runs is None:
         return [(WARN, "5-minute tick", "could not ask GitHub for the tick's runs; not checked")]
-    if not runs:
-        return [(OK, "5-minute tick", "not set up yet")]
-    last = dt.datetime.fromisoformat(runs[0]["created_at"].replace("Z", "+00:00"))
-    gap = (now - last).total_seconds() / 60
+    started = [dt.datetime.fromisoformat(r["created_at"].replace("Z", "+00:00")) for r in runs]
+    if len(started) < 5 or started[0] - started[4] > dt.timedelta(hours=2):
+        return [(OK, "5-minute tick", f"not set up yet ({len(runs)} hand-started run(s) so far)" if runs else "not set up yet")]
+    gap = (now - started[0]).total_seconds() / 60
     if gap > TICK_MAX_GAP_MIN:
         return [(FAIL, "5-minute tick", f"last started {gap:.0f} minutes ago (limit {TICK_MAX_GAP_MIN}): check the cron-job.org "
                  "job's history; a 401 there means the GitHub token expired")]

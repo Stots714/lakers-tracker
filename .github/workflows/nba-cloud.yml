@@ -5,6 +5,8 @@ name: NBA data (PC-free)
 # Side-by-side phase: writes data/nba_cloud/ only, and compare.py checks it game by game against the PC's data/nba/.
 # The site keeps reading the PC's files until the two match.
 
+# Scheduled runs stand down while the 5-minute tick (tick.yml) is running, and take over again if it stops.
+
 on:
   schedule:
     - cron: '41 */3 * * *'   # every three hours (GitHub may start it late; on-time starts come later)
@@ -12,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  actions: read     # to see whether the 5-minute tick is running
 
 concurrency:
   group: nba-cloud
@@ -22,18 +25,32 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
+      - name: Stand down while the 5-minute tick does this job
+        id: guard
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          last=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/tick.yml/runs?per_page=1" --jq '.workflow_runs[0].created_at // empty' 2>/dev/null || true)
+          if [ -n "$last" ] && [ $(( $(date +%s) - $(date -d "$last" +%s) )) -lt 3600 ]; then
+            echo "The 5-minute tick last started at $last and does this job now: nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        if: steps.guard.outputs.skip != 'true'
       - name: Set up the injury-report reader (requests, pypdf, as on the PC)
+        if: steps.guard.outputs.skip != 'true'
         run: |
           python3 -m venv .venv
           .venv/bin/pip install --quiet --disable-pip-version-check -r tools/nba/requirements.txt
       - name: Read the NBA's public data files
+        if: steps.guard.outputs.skip != 'true'
         run: .venv/bin/python tools/cloud/nba_data.py --out data/nba_cloud
       - name: Compare with the PC's files
-        if: always()
+        if: always() && steps.guard.outputs.skip != 'true'
         run: .venv/bin/python tools/cloud/compare.py --cloud data/nba_cloud --pc data/nba
       - name: Publish
-        if: always()
+        if: always() && steps.guard.outputs.skip != 'true'
         run: |
           if [ ! -d data/nba_cloud ]; then echo "Nothing to publish."; exit 0; fi
           git add data/nba_cloud

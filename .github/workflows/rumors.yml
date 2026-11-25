@@ -3,6 +3,8 @@ name: Trade reports
 # Trade reports with a named source from Hoops Rumors' public feeds (tools/cloud/rumors.py): short records with
 # links to the original reporter, never article text. Writes only data/trades/, which the PC never touches.
 
+# Scheduled runs stand down while the 5-minute tick (tick.yml) is running, and take over again if it stops.
+
 on:
   schedule:
     - cron: '13 */2 * * *'   # the main feed, every two hours
@@ -16,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  actions: read     # to see whether the 5-minute tick is running
 
 concurrency:
   group: trades
@@ -28,12 +31,25 @@ jobs:
     env:
       ALL_TEAMS: ${{ github.event.schedule == '33 15 * * *' || inputs.all_teams == true }}
     steps:
+      - name: Stand down while the 5-minute tick does this job
+        id: guard
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          last=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/tick.yml/runs?per_page=1" --jq '.workflow_runs[0].created_at // empty' 2>/dev/null || true)
+          if [ -n "$last" ] && [ $(( $(date +%s) - $(date -d "$last" +%s) )) -lt 3600 ]; then
+            echo "The 5-minute tick last started at $last and does this job now: nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        if: steps.guard.outputs.skip != 'true'
       - name: Read the feeds
+        if: steps.guard.outputs.skip != 'true'
         run: |
           if [ "$ALL_TEAMS" = "true" ]; then python3 tools/cloud/rumors.py --all-teams; else python3 tools/cloud/rumors.py; fi
       - name: Publish
-        if: always()
+        if: always() && steps.guard.outputs.skip != 'true'
         run: |
           if [ ! -d data/trades ]; then echo "Nothing to publish."; exit 0; fi
           # Publish when there are new reports; the status alone goes up once a day (for the watchdog)

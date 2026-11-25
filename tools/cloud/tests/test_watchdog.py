@@ -125,13 +125,14 @@ class Watchdog(unittest.TestCase):
 
     def test_tick_not_set_up_and_running(self):
         self.assertEqual(levels(Repo(GOOD).run())["5-minute tick"], w.OK)
-        self.assertEqual(levels(Repo(GOOD).run(ticks=[self.tick(4), self.tick(9)]))["5-minute tick"], w.OK)
+        self.assertEqual(levels(Repo(GOOD).run(ticks=[self.tick(m) for m in (4, 9, 14, 19, 24)]))["5-minute tick"], w.OK)
+        self.assertEqual(levels(Repo(GOOD).run(ticks=[self.tick(600)]))["5-minute tick"], w.OK)   # one run by hand: not set up
 
     def test_tick_stopped_fails(self):
-        self.assertEqual(levels(Repo(GOOD).run(ticks=[self.tick(45)]))["5-minute tick"], w.FAIL)
+        self.assertEqual(levels(Repo(GOOD).run(ticks=[self.tick(m) for m in (45, 50, 55, 60, 65)]))["5-minute tick"], w.FAIL)
 
     def test_tick_failing_three_times_fails(self):
-        runs = [self.tick(1, None, "in_progress")] + [self.tick(m, "failure") for m in (6, 11, 16)]
+        runs = [self.tick(1, None, "in_progress")] + [self.tick(m, "failure") for m in (6, 11, 16)] + [self.tick(21)]
         self.assertEqual(levels(Repo(GOOD).run(ticks=runs))["5-minute tick"], w.FAIL)
         runs[2] = self.tick(11)
         self.assertEqual(levels(Repo(GOOD).run(ticks=runs))["5-minute tick"], w.OK)

@@ -1,8 +1,9 @@
 # GitHub jobs
 
-Jobs that run on GitHub's machines (`.github/workflows/`), not on the PC. Standard-library Python only: nothing is
-installed, so there is no package to trust or keep up to date. Each job runs on a fresh machine and gets only the
-permissions it needs. None can be started by a pull request, which keeps forks away from the secrets.
+Jobs that run on GitHub's machines (`.github/workflows/`), not on the PC. Most use standard-library Python only;
+the NBA data jobs install the same three pinned packages as the PC (requests, pypdf, nba_api without pandas). Each
+job runs on a fresh machine and gets only the permissions it needs. None can be started by a pull request, which
+keeps forks away from the secrets.
 
 | Job | When | What it does | Writes |
 |---|---|---|---|
@@ -10,8 +11,29 @@ permissions it needs. None can be started by a pull request, which keeps forks a
 | Watchdog | daily 11:23 Pacific (12:23 in summer) | Fails, so GitHub emails you, when yesterday's scores, a recent update or the live watcher's game-night updates did not publish, or today's odds read failed | nothing |
 | Odds | daily 09:47 Pacific, and before each group of tip-offs (started by the live watcher) | One consensus line per game from The Odds API | `data/markets/` |
 | Trade reports | main feed every 2 hours; all 30 team feeds daily at 07:33 Pacific | Trade reports with a named source from Hoops Rumors' feeds: date, team, players, status, reporter, link | `data/trades/` |
+| NBA data (PC-free) | every 3 hours, and by hand | The NBA's public data files (cdn.nba.com), then `compare.py` against the PC's files | `data/nba_cloud/` |
+| **Tick** | every 5 minutes, started by cron-job.org | Whatever is due: live scores, injury report, game data, betting lines, trade reports (`tick.py`) | see below |
 
-The NBA.com jobs stay on the PC: stats.nba.com does not answer most cloud addresses.
+GitHub's own schedule has started jobs 5 to 10 hours late, so the tick is started from outside, on time. While the
+tick runs, the scheduled runs of Odds, Trade reports and NBA data stand down (they check when the tick last
+started) and take over again if it stops. The Watchdog stays on GitHub's schedule and fails when the tick stops.
+
+`data/pipeline.json` says who writes what:
+- `data_writer`: `pc` (now) = the PC writes `data/nba/`, the tick writes `data/nba_cloud/` for the side-by-side
+  check; `cloud` = the tick writes `data/nba/` and the PC's tasks stand down (they read this file at each start).
+- `odds_pretip`: `pc` (now) = the PC's live watcher starts the pre-tip odds read; `tick` = the tick does.
+
+stats.nba.com does not answer GitHub's machines; the tick reads the same numbers from cdn.nba.com.
+
+## Setting up the 5-minute tick (once)
+
+1. A GitHub token that can only start jobs in this repo: fine-grained, repository `lakers-tracker` only,
+   permission **Actions: Read and write**, nothing else.
+2. A free cron-job.org account holding one job: `POST https://api.github.com/repos/Stots714/lakers-tracker/actions/workflows/tick.yml/dispatches`
+   every 5 minutes, headers `Authorization: Bearer <token>`, `Accept: application/vnd.github+json`,
+   `X-GitHub-Api-Version: 2026-03-10`, `Content-Type: application/json`, body `{"ref":"main"}`, failure emails on.
+   The token is kept at cron-job.org, never in this repo. If it expires, cron-job.org emails a failure (HTTP 401)
+   and the watchdog fails; make a new token and paste it into the job's Authorization header.
 
 ## Setting up the odds job (once)
 
