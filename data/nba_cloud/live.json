@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-25T02:14:42+00:00",
+ "updated": "2026-11-25T02:21:45+00:00",
  "board_date": "2026-11-24",
  "games": [
   {
    "game_id": "0022600052",
    "tip_utc": "2026-11-25T00:00:00Z",
-   "status": 2,
-   "status_text": "Q4 1:38",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "1:38",
+   "clock": "0:00",
    "home": {
     "team": "ORL",
     "score": 86,
@@ -20,15 +20,15 @@
     ],
     "stats": {
      "fgm": 34,
-     "fga": 80,
+     "fga": 83,
      "fg3m": 12,
-     "fg3a": 35,
+     "fg3a": 36,
      "ftm": 6,
      "fta": 8,
      "oreb": 10,
-     "dreb": 30,
+     "dreb": 31,
      "tov": 20,
-     "pf": 23,
+     "pf": 24,
      "ast": 22,
      "stl": 8,
      "blk": 4,
@@ -53,40 +53,40 @@
       "pts": 20,
       "reb": 9,
       "ast": 6,
-      "min": "37:18"
+      "min": "37:50"
      },
      {
       "name": "Tristan da Silva",
       "pts": 16,
       "reb": 3,
       "ast": 1,
-      "min": "32:43"
+      "min": "33:15"
      }
     ]
    },
    "away": {
     "team": "DET",
-    "score": 101,
+    "score": 104,
     "periods": [
      16,
      32,
      25,
-     28
+     31
     ],
     "stats": {
      "fgm": 39,
-     "fga": 78,
+     "fga": 79,
      "fg3m": 15,
-     "fg3a": 35,
-     "ftm": 8,
-     "fta": 12,
+     "fg3a": 36,
+     "ftm": 11,
+     "fta": 15,
      "oreb": 8,
-     "dreb": 31,
+     "dreb": 34,
      "tov": 16,
      "pf": 17,
      "ast": 27,
      "stl": 12,
-     "blk": 5,
+     "blk": 6,
      "pts_paint": 40,
      "pts_second_chance": 10,
      "pts_fast_break": 19,
@@ -101,21 +101,21 @@
       "pts": 21,
       "reb": 4,
       "ast": 0,
-      "min": "29:28"
+      "min": "30:00"
      },
      {
       "name": "Daniss Jenkins",
       "pts": 15,
       "reb": 5,
       "ast": 10,
-      "min": "33:17"
+      "min": "34:55"
      },
      {
       "name": "Kevin Huerter",
       "pts": 13,
-      "reb": 5,
+      "reb": 6,
       "ast": 5,
-      "min": "30:49"
+      "min": "32:27"
      }
     ]
    },
@@ -123,6 +123,10 @@
     {
      "t": 46.4,
      "m": -15
+    },
+    {
+     "t": 48.0,
+     "m": -18
     }
    ]
   },
