@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:21:19-08:00",
+ "updated": "2026-11-24T18:28:22-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
@@ -158,9 +158,9 @@
    "game_id": "0022600053",
    "tip_utc": "2026-11-25T01:00:00Z",
    "status": 2,
-   "status_text": "Half",
-   "period": 2,
-   "clock": "0:00",
+   "status_text": "Q3 11:25",
+   "period": 3,
+   "clock": "11:25",
    "home": {
     "team": "WAS",
     "score": 49,
@@ -172,13 +172,13 @@
     ],
     "stats": {
      "fgm": 18,
-     "fga": 47,
+     "fga": 48,
      "fg3m": 6,
      "fg3a": 20,
      "ftm": 7,
      "fta": 9,
      "oreb": 8,
-     "dreb": 14,
+     "dreb": 15,
      "tov": 12,
      "pf": 9,
      "ast": 10,
@@ -196,23 +196,23 @@
      {
       "name": "Kyshawn George",
       "pts": 17,
-      "reb": 4,
+      "reb": 5,
       "ast": 1,
-      "min": "19:34"
+      "min": "20:05"
      },
      {
       "name": "Anthony Davis",
       "pts": 14,
       "reb": 7,
       "ast": 1,
-      "min": "19:21"
+      "min": "19:52"
      },
      {
       "name": "AJ Dybantsa",
       "pts": 10,
       "reb": 6,
       "ast": 3,
-      "min": "19:27"
+      "min": "19:58"
      }
     ]
    },
@@ -227,13 +227,13 @@
     ],
     "stats": {
      "fgm": 29,
-     "fga": 51,
+     "fga": 52,
      "fg3m": 15,
-     "fg3a": 26,
+     "fg3a": 27,
      "ftm": 7,
      "fta": 8,
      "oreb": 6,
-     "dreb": 18,
+     "dreb": 19,
      "tov": 6,
      "pf": 11,
      "ast": 20,
@@ -253,21 +253,21 @@
       "pts": 28,
       "reb": 2,
       "ast": 6,
-      "min": "17:42"
+      "min": "18:13"
      },
      {
       "name": "Neemias Queta",
       "pts": 17,
       "reb": 2,
       "ast": 1,
-      "min": "11:42"
+      "min": "12:13"
      },
      {
       "name": "Paul George",
       "pts": 16,
       "reb": 3,
       "ast": 7,
-      "min": "17:44"
+      "min": "18:15"
      }
     ]
    },
@@ -302,6 +302,10 @@
     },
     {
      "t": 24.0,
+     "m": -31
+    },
+    {
+     "t": 24.6,
      "m": -31
     }
    ]
