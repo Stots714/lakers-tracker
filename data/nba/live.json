@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:01:10-08:00",
+ "updated": "2026-11-24T20:08:14-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
@@ -354,9 +354,9 @@
    "game_id": "0022600054",
    "tip_utc": "2026-11-25T03:00:00Z",
    "status": 2,
-   "status_text": "Q2 3:19",
+   "status_text": "Q2 1:13",
    "period": 2,
-   "clock": "3:19",
+   "clock": "1:13",
    "home": {
     "team": "DEN",
     "score": 39,
@@ -368,18 +368,18 @@
     ],
     "stats": {
      "fgm": 16,
-     "fga": 41,
+     "fga": 43,
      "fg3m": 6,
-     "fg3a": 19,
+     "fg3a": 21,
      "ftm": 1,
      "fta": 2,
      "oreb": 4,
      "dreb": 17,
-     "tov": 8,
-     "pf": 5,
-     "ast": 10,
+     "tov": 11,
+     "pf": 7,
+     "ast": 11,
      "stl": 3,
-     "blk": 2,
+     "blk": 3,
      "pts_paint": 16,
      "pts_second_chance": 8,
      "pts_fast_break": 2,
@@ -394,14 +394,14 @@
       "pts": 9,
       "reb": 4,
       "ast": 3,
-      "min": "12:43"
+      "min": "14:55"
      },
      {
       "name": "Cameron Johnson",
       "pts": 8,
       "reb": 2,
-      "ast": 1,
-      "min": "13:51"
+      "ast": 2,
+      "min": "16:03"
      },
      {
       "name": "Marvin Bagley III",
@@ -414,56 +414,56 @@
    },
    "away": {
     "team": "DAL",
-    "score": 43,
+    "score": 52,
     "periods": [
      24,
-     19,
+     28,
      0,
      0
     ],
     "stats": {
-     "fgm": 17,
-     "fga": 43,
+     "fgm": 21,
+     "fga": 49,
      "fg3m": 6,
-     "fg3a": 20,
-     "ftm": 3,
-     "fta": 6,
-     "oreb": 5,
-     "dreb": 19,
+     "fg3a": 21,
+     "ftm": 4,
+     "fta": 7,
+     "oreb": 7,
+     "dreb": 20,
      "tov": 7,
-     "pf": 3,
-     "ast": 11,
-     "stl": 7,
-     "blk": 2,
-     "pts_paint": 22,
-     "pts_second_chance": 4,
-     "pts_fast_break": 14,
-     "pts_off_tov": 10,
-     "pts_bench": 20,
-     "biggest_lead": 11,
+     "pf": 4,
+     "ast": 13,
+     "stl": 8,
+     "blk": 3,
+     "pts_paint": 30,
+     "pts_second_chance": 8,
+     "pts_fast_break": 17,
+     "pts_off_tov": 15,
+     "pts_bench": 26,
+     "biggest_lead": 13,
      "lead_changes": 3
     },
     "leaders": [
      {
       "name": "P.J. Washington",
-      "pts": 10,
-      "reb": 2,
+      "pts": 14,
+      "reb": 3,
       "ast": 0,
-      "min": "11:50"
+      "min": "14:02"
+     },
+     {
+      "name": "Cooper Flagg",
+      "pts": 9,
+      "reb": 3,
+      "ast": 6,
+      "min": "15:44"
      },
      {
       "name": "Caleb Martin",
       "pts": 8,
       "reb": 2,
-      "ast": 1,
-      "min": "11:33"
-     },
-     {
-      "name": "Cooper Flagg",
-      "pts": 6,
-      "reb": 3,
-      "ast": 5,
-      "min": "13:44"
+      "ast": 2,
+      "min": "13:45"
      }
     ]
    },
@@ -491,6 +491,10 @@
     {
      "t": 20.7,
      "m": -4
+    },
+    {
+     "t": 22.8,
+     "m": -13
     }
    ]
   }
