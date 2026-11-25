@@ -1,121 +1,121 @@
 {
- "updated": "2026-11-25T22:15:21+00:00",
+ "updated": "2026-11-25T22:50:18+00:00",
  "board_date": "2026-11-25",
  "games": [
   {
    "game_id": "0022600055",
    "tip_utc": "2026-11-25T22:00:00Z",
    "status": 2,
-   "status_text": "Q1 9:47",
-   "period": 1,
-   "clock": "9:47",
+   "status_text": "Q2 7:31",
+   "period": 2,
+   "clock": "7:31",
    "home": {
     "team": "PHI",
-    "score": 2,
+    "score": 45,
     "periods": [
-     2,
-     0,
+     29,
+     16,
      0,
      0
     ],
     "stats": {
-     "fgm": 1,
-     "fga": 4,
-     "fg3m": 0,
-     "fg3a": 0,
-     "ftm": 0,
-     "fta": 0,
-     "oreb": 0,
-     "dreb": 2,
-     "tov": 1,
-     "pf": 0,
-     "ast": 1,
-     "stl": 0,
+     "fgm": 17,
+     "fga": 36,
+     "fg3m": 6,
+     "fg3a": 11,
+     "ftm": 5,
+     "fta": 5,
+     "oreb": 6,
+     "dreb": 11,
+     "tov": 2,
+     "pf": 5,
+     "ast": 10,
+     "stl": 3,
      "blk": 0,
-     "pts_paint": 0,
-     "pts_second_chance": 0,
-     "pts_fast_break": 2,
-     "pts_off_tov": 0,
-     "pts_bench": 0,
-     "biggest_lead": 0,
-     "lead_changes": 0
+     "pts_paint": 18,
+     "pts_second_chance": 7,
+     "pts_fast_break": 5,
+     "pts_off_tov": 3,
+     "pts_bench": 9,
+     "biggest_lead": 6,
+     "lead_changes": 3
     },
     "leaders": [
      {
+      "name": "LeBron James",
+      "pts": 14,
+      "reb": 4,
+      "ast": 5,
+      "min": "13:40"
+     },
+     {
       "name": "Tyrese Maxey",
-      "pts": 2,
+      "pts": 13,
+      "reb": 3,
+      "ast": 1,
+      "min": "12:00"
+     },
+     {
+      "name": "Jabari Walker",
+      "pts": 7,
       "reb": 1,
       "ast": 0,
-      "min": "2:04"
-     },
-     {
-      "name": "Jaylen Brown",
-      "pts": 0,
-      "reb": 0,
-      "ast": 0,
-      "min": "2:04"
-     },
-     {
-      "name": "LeBron James",
-      "pts": 0,
-      "reb": 0,
-      "ast": 0,
-      "min": "2:04"
+      "min": "7:12"
      }
     ]
    },
    "away": {
     "team": "MIA",
-    "score": 6,
+    "score": 39,
     "periods": [
-     6,
-     0,
+     32,
+     7,
      0,
      0
     ],
     "stats": {
-     "fgm": 3,
-     "fga": 5,
-     "fg3m": 0,
-     "fg3a": 1,
-     "ftm": 0,
-     "fta": 0,
-     "oreb": 0,
-     "dreb": 3,
-     "tov": 0,
-     "pf": 0,
-     "ast": 2,
+     "fgm": 17,
+     "fga": 35,
+     "fg3m": 3,
+     "fg3a": 11,
+     "ftm": 2,
+     "fta": 4,
+     "oreb": 5,
+     "dreb": 13,
+     "tov": 4,
+     "pf": 7,
+     "ast": 11,
      "stl": 1,
-     "blk": 0,
-     "pts_paint": 6,
-     "pts_second_chance": 0,
-     "pts_fast_break": 4,
-     "pts_off_tov": 2,
-     "pts_bench": 0,
-     "biggest_lead": 6,
-     "lead_changes": 0
+     "blk": 1,
+     "pts_paint": 26,
+     "pts_second_chance": 8,
+     "pts_fast_break": 9,
+     "pts_off_tov": 4,
+     "pts_bench": 13,
+     "biggest_lead": 8,
+     "lead_changes": 3
     },
     "leaders": [
      {
       "name": "Giannis Antetokounmpo",
-      "pts": 4,
-      "reb": 1,
-      "ast": 0,
-      "min": "2:04"
+      "pts": 8,
+      "reb": 5,
+      "ast": 3,
+      "min": "9:42"
      },
      {
-      "name": "Pelle Larsson",
-      "pts": 2,
+      "name": "Davion Mitchell",
+      "pts": 7,
       "reb": 1,
-      "ast": 0,
-      "min": "2:04"
+      "ast": 2,
+      "min": "12:05"
      },
      {
-      "name": "Bam Adebayo",
-      "pts": 0,
-      "reb": 0,
-      "ast": 0,
-      "min": "2:04"
+      "name": "Andrew Wiggins",
+      "pts": 6,
+      "reb": 1,
+      "ast": 1,
+      "min": "7:41"
      }
     ]
    },
@@ -123,6 +123,10 @@
     {
      "t": 2.2,
      "m": -4
+    },
+    {
+     "t": 16.5,
+     "m": 6
     }
    ]
   },
