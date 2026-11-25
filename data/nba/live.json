@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:32:47-08:00",
+ "updated": "2026-11-24T21:39:49-08:00",
  "board_date": "2026-11-24",
  "games": [
   {
@@ -354,37 +354,37 @@
    "game_id": "0022600054",
    "tip_utc": "2026-11-25T03:00:00Z",
    "status": 2,
-   "status_text": "Q4 :24.2",
+   "status_text": "Q4 :00.0",
    "period": 4,
-   "clock": "0:24",
+   "clock": "0:00",
    "home": {
     "team": "DEN",
-    "score": 98,
+    "score": 101,
     "periods": [
      17,
      22,
      38,
-     21
+     24
     ],
     "stats": {
-     "fgm": 33,
-     "fga": 81,
+     "fgm": 34,
+     "fga": 84,
      "fg3m": 12,
      "fg3a": 39,
-     "ftm": 20,
-     "fta": 23,
-     "oreb": 10,
+     "ftm": 21,
+     "fta": 24,
+     "oreb": 11,
      "dreb": 29,
      "tov": 18,
      "pf": 18,
      "ast": 22,
-     "stl": 5,
+     "stl": 6,
      "blk": 7,
-     "pts_paint": 36,
+     "pts_paint": 38,
      "pts_second_chance": 20,
      "pts_fast_break": 7,
-     "pts_off_tov": 10,
-     "pts_bench": 27,
+     "pts_off_tov": 12,
+     "pts_bench": 30,
      "biggest_lead": 5,
      "lead_changes": 3
     },
@@ -423,14 +423,14 @@
     ],
     "stats": {
      "fgm": 48,
-     "fga": 98,
+     "fga": 99,
      "fg3m": 11,
-     "fg3a": 37,
+     "fg3a": 38,
      "ftm": 13,
      "fta": 20,
-     "oreb": 14,
-     "dreb": 33,
-     "tov": 11,
+     "oreb": 15,
+     "dreb": 34,
+     "tov": 13,
      "pf": 17,
      "ast": 31,
      "stl": 13,
@@ -539,6 +539,10 @@
     {
      "t": 47.6,
      "m": -22
+    },
+    {
+     "t": 48.0,
+     "m": -19
     }
    ]
   }
