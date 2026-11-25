@@ -15,11 +15,12 @@ PC's update, with the same columns:
 
 Safety, as on the PC: a final game is kept only when its box score agrees with itself (team points = final score =
 the quarters added up = the players' points added up, and not tied); otherwise it is held back and read again next
-run, and the game's earlier rows, if any, stay. Box scores from the last two days are read again for late stat
-corrections. Every file is written to a temporary file and swapped in.
+run, and the game's earlier rows, if any, stay. Box scores from the last seven days are read again for late stat
+corrections (the first side-by-side run found stats.nba.com carrying corrections that the older box scores here did
+not, e.g. points moved between two players). Every file is written to a temporary file and swapped in.
 
 During the side-by-side check this writes data/nba_cloud/ and compare.py checks it against the PC's data/nba/.
-  python tools/cloud/nba_data.py [--out data/nba_cloud] [--refresh-days 2] [--no-injuries]
+  python tools/cloud/nba_data.py [--out data/nba_cloud] [--refresh-days 7] [--no-injuries]
 """
 import argparse
 import csv
@@ -197,7 +198,7 @@ def write(path, rows, cols):
     os.replace(tmp, path)
 
 
-def run(out, refresh_days=2, injuries=True, opener=urllib.request.urlopen, sleep=time.sleep, now=None, log=print):
+def run(out, refresh_days=7, injuries=True, opener=urllib.request.urlopen, sleep=time.sleep, now=None, log=print):
     now = now or dt.datetime.now(dt.timezone.utc)
     today = now.astimezone(EASTERN).date()
     steps = {}
@@ -270,7 +271,7 @@ def run(out, refresh_days=2, injuries=True, opener=urllib.request.urlopen, sleep
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--out", default="data/nba_cloud")
-    ap.add_argument("--refresh-days", type=int, default=2)
+    ap.add_argument("--refresh-days", type=int, default=7)
     ap.add_argument("--no-injuries", action="store_true")
     a = ap.parse_args()
     return run(ROOT / a.out, a.refresh_days, not a.no_injuries)
