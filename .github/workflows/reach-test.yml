@@ -61,3 +61,34 @@ jobs:
             "https://www.hoopsrumors.com/los-angeles-lakers/feed" PLAIN
           check "Hoops Rumors: main feed" ok \
             "https://www.hoopsrumors.com/feed" PLAIN
+          # The NBA's public data files (cdn.nba.com) and injury report: what a PC-free version would read
+          check "cdn.nba.com: season schedule" ok \
+            "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json" CDN
+          check "cdn.nba.com: one game's box score" ok \
+            "https://cdn.nba.com/static/json/liveData/boxscore/boxscore_0022600280.json" CDN
+          cp body.tmp boxscore.json 2>/dev/null || true
+          check "cdn.nba.com: one game's play-by-play" ok \
+            "https://cdn.nba.com/static/json/liveData/playbyplay/playbyplay_0022600280.json" CDN
+          check "official.nba.com: injury report index" ok \
+            "https://official.nba.com/nba-injury-report/" CDN
+          check "ak-static.cms.nba.com: an injury report PDF" ok \
+            "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-22_03_15PM.pdf" CDN
+
+          # What the box score holds, for the fields the site uses
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY" || true
+          import json
+          try:
+              g = json.load(open("boxscore.json"))["game"]
+          except Exception as e:
+              print(f"\nBox score not readable: {type(e).__name__}"); raise SystemExit
+          t = g["homeTeam"]; st = t.get("statistics", {}); p = (t.get("players") or [{}])[0]
+          want = ["points", "fieldGoalsAttempted", "freeThrowsAttempted", "reboundsOffensive", "turnovers", "pointsInThePaint",
+                  "pointsSecondChance", "pointsFastBreak", "pointsFromTurnovers", "benchPoints", "leadChanges", "minutes"]
+          print("\n## Box score fields (game 0022600280)\n")
+          print("- team statistics present: " + ", ".join(k for k in want if k in st))
+          print("- team statistics missing: " + (", ".join(k for k in want if k not in st) or "none"))
+          print(f"- quarter scores: {len(t.get('periods') or [])} periods")
+          print(f"- players listed: {len(t.get('players') or [])}; inactive: {sum(1 for x in t.get('players') or [] if x.get('status') == 'INACTIVE')}")
+          print("- player statistics: " + ", ".join(sorted((p.get('statistics') or {}).keys())[:40]))
+          PY
+          grep -h "^- " "$GITHUB_STEP_SUMMARY" | sed 's/^/FIELDS /'
