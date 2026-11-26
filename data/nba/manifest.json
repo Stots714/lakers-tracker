@@ -1,11 +1,6 @@
 {
- "updated": "2026-11-24T22:02:58-08:00",
- "season": "2026-27",
- "teams": [
-  "LAL",
-  "SAS"
- ],
- "nba_api": "1.12.0",
+ "updated": "2026-11-26T14:09:34+00:00",
+ "source": "cdn.nba.com (GitHub job tools/cloud/nba_data.py)",
  "league": {
   "nba_results": "league_results.csv",
   "nba_box": "league_box.csv",
@@ -17,134 +12,29 @@
   "nba_rosters": "league_rosters.csv",
   "nba_moves": "roster_moves.csv"
  },
+ "season": "2026-27",
+ "teams": [
+  "LAL",
+  "SAS"
+ ],
+ "games": 1206,
+ "finals": 270,
+ "read_this_run": 9,
+ "held_back": [],
  "steps": {
-  "league schedule": {
+  "schedule": {
    "ok": true,
    "games": 1206
   },
-  "league team box scores": {
+  "box scores": {
    "ok": true,
-   "team-games": 522
-  },
-  "league player games": {
-   "ok": true,
-   "player lines": 5842
-  },
-  "league results": {
-   "ok": true,
-   "final games": 261,
-   "pending": 0,
-   "pending_games": [],
-   "kept_games": [],
-   "line_notes": []
-  },
-  "league quarter scores, inactive lists and game extras": {
-   "ok": true,
-   "new games": 8
-  },
-  "league team turnovers": {
-   "ok": true,
-   "team-games": 522
-  },
-  "league rosters and moves": {
-   "ok": true,
-   "moves": 0,
-   "skipped": "read less than 10 hours ago"
+   "read": 9,
+   "held_back": 0
   },
   "injury report": {
    "ok": true,
-   "players listed": 75
-  },
-  "LAL games": {
-   "ok": true,
-   "rows": 18
-  },
-  "LAL player games": {
-   "ok": true,
-   "rows": 201
-  },
-  "LAL player games advanced": {
-   "ok": true,
-   "rows": 201
-  },
-  "LAL on/off": {
-   "ok": true,
-   "rows": 38
-  },
-  "LAL 5-man lineups": {
-   "ok": true,
-   "rows": 178
-  },
-  "LAL 2-man lineups": {
-   "ok": true,
-   "rows": 121
-  },
-  "LAL shots": {
-   "ok": true,
-   "rows": 1520
-  },
-  "LAL shots against": {
-   "ok": true,
-   "rows": 1549
-  },
-  "LAL hustle": {
-   "ok": true,
-   "rows": 18
-  },
-  "SAS games": {
-   "ok": true,
-   "rows": 18
-  },
-  "SAS player games": {
-   "ok": true,
-   "rows": 203
-  },
-  "SAS player games advanced": {
-   "ok": true,
-   "rows": 203
-  },
-  "SAS on/off": {
-   "ok": true,
-   "rows": 32
-  },
-  "SAS 5-man lineups": {
-   "ok": true,
-   "rows": 128
-  },
-  "SAS 2-man lineups": {
-   "ok": true,
-   "rows": 85
-  },
-  "SAS shots": {
-   "ok": true,
-   "rows": 1643
-  },
-  "SAS shots against": {
-   "ok": true,
-   "rows": 1603
-  },
-  "SAS hustle": {
-   "ok": true,
-   "rows": 14
-  },
-  "matchups": {
-   "ok": true,
-   "new games": 0
-  },
-  "play-by-play": {
-   "ok": true,
-   "new games": 0
+   "report": "Nov 26, 9:00 AM ET",
+   "changed": true
   }
- },
- "checks": [
-  "Scores: 68 games in both files, 0 differ; 0 hand-checked games not found on NBA.com by date and teams.",
-  "Lakers box scores: 10 team-games compared, 4 numbers differ [('2026-10-21', 'GSW', 'tov', '15', 16), ('2026-10-23', 'LAC', 'tov', '25', 26), ('2026-10-25', 'UTA', 'dreb', '31', 32), ('2026-10-25', 'UTA', 'tov', '19', 17)].",
-  "Player points add up to team points in 522 of 522 team-games.",
-  "Turnovers (players + team) match NBA.com's game totals in 518 of 522 team-games: [('2026-10-20', 'OKC'), ('2026-10-30', 'CHA'), ('2026-11-09', 'CHA'), ('2026-11-20', 'PHX')].",
-  "Lakers quarter scores: 10 compared, 0 differ.",
-  "NBA Cup games: 40 played, average winning margin 12.9 points, against 13.0 in the other 221 games.",
-  "Lakers scores checked against results.csv: 5 games, 0 mismatches ",
-  "Oct 21 Doncic-Lendeborg rows (ABC7 reported Doncic 1 of 6 against Lendeborg):\n  familyNameOff | familyNameDef | matchupMinutes | partialPossessions | playerPoints | matchupFieldGoalsMade | matchupFieldGoalsAttempted\n  Dončić | Lendeborg | 3:03 | 18.5 | 9 | 1 | 5\n  Lendeborg | Dončić | 2:56 | 14.7 | 2 | 1 | 2"
- ],
- "source": "NBA.com stats via the nba_api Python package (github.com/swar/nba_api)"
+ }
 }
