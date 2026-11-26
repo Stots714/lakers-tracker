@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:25:20+00:00",
+ "updated": "2026-11-26T04:00:26+00:00",
  "board_date": "2026-11-25",
  "games": [
   {
@@ -866,116 +866,116 @@
    "game_id": "0022600061",
    "tip_utc": "2026-11-26T01:30:00Z",
    "status": 2,
-   "status_text": "Q3 2:11",
-   "period": 3,
-   "clock": "2:11",
+   "status_text": "Q4 :57.6",
+   "period": 4,
+   "clock": "0:58",
    "home": {
     "team": "HOU",
-    "score": 89,
+    "score": 112,
     "periods": [
      29,
      37,
-     23,
-     0
+     26,
+     20
     ],
     "stats": {
-     "fgm": 33,
-     "fga": 66,
-     "fg3m": 8,
-     "fg3a": 21,
-     "ftm": 15,
-     "fta": 28,
-     "oreb": 15,
-     "dreb": 19,
-     "tov": 5,
-     "pf": 15,
-     "ast": 21,
-     "stl": 4,
-     "blk": 6,
-     "pts_paint": 42,
-     "pts_second_chance": 23,
-     "pts_fast_break": 5,
-     "pts_off_tov": 13,
-     "pts_bench": 23,
+     "fgm": 42,
+     "fga": 87,
+     "fg3m": 12,
+     "fg3a": 35,
+     "ftm": 16,
+     "fta": 30,
+     "oreb": 19,
+     "dreb": 29,
+     "tov": 10,
+     "pf": 22,
+     "ast": 28,
+     "stl": 5,
+     "blk": 7,
+     "pts_paint": 50,
+     "pts_second_chance": 25,
+     "pts_fast_break": 8,
+     "pts_off_tov": 15,
+     "pts_bench": 29,
      "biggest_lead": 14,
      "lead_changes": 2
     },
     "leaders": [
      {
       "name": "Alperen Sengun",
-      "pts": 19,
-      "reb": 9,
-      "ast": 7,
-      "min": "20:57"
+      "pts": 23,
+      "reb": 11,
+      "ast": 11,
+      "min": "30:41"
      },
      {
       "name": "Kevin Durant",
       "pts": 18,
-      "reb": 7,
+      "reb": 9,
       "ast": 2,
-      "min": "26:06"
+      "min": "31:24"
      },
      {
-      "name": "Jabari Smith Jr.",
-      "pts": 12,
-      "reb": 3,
-      "ast": 1,
-      "min": "21:05"
+      "name": "Amen Thompson",
+      "pts": 18,
+      "reb": 9,
+      "ast": 3,
+      "min": "34:35"
      }
     ]
    },
    "away": {
     "team": "PHX",
-    "score": 75,
+    "score": 102,
     "periods": [
      33,
      23,
-     19,
-     0
+     25,
+     21
     ],
     "stats": {
-     "fgm": 28,
-     "fga": 64,
+     "fgm": 37,
+     "fga": 87,
      "fg3m": 5,
-     "fg3a": 23,
-     "ftm": 14,
-     "fta": 17,
-     "oreb": 9,
-     "dreb": 16,
-     "tov": 9,
-     "pf": 19,
-     "ast": 18,
-     "stl": 3,
+     "fg3a": 30,
+     "ftm": 23,
+     "fta": 28,
+     "oreb": 13,
+     "dreb": 25,
+     "tov": 11,
+     "pf": 23,
+     "ast": 24,
+     "stl": 6,
      "blk": 3,
-     "pts_paint": 36,
-     "pts_second_chance": 16,
-     "pts_fast_break": 15,
-     "pts_off_tov": 8,
-     "pts_bench": 27,
+     "pts_paint": 54,
+     "pts_second_chance": 18,
+     "pts_fast_break": 21,
+     "pts_off_tov": 17,
+     "pts_bench": 36,
      "biggest_lead": 7,
      "lead_changes": 2
     },
     "leaders": [
      {
       "name": "Devin Booker",
-      "pts": 17,
+      "pts": 25,
       "reb": 0,
       "ast": 5,
-      "min": "27:35"
+      "min": "35:04"
      },
      {
-      "name": "Dillon Brooks",
-      "pts": 12,
-      "reb": 3,
-      "ast": 3,
-      "min": "19:49"
+      "name": "Jalen Green",
+      "pts": 14,
+      "reb": 4,
+      "ast": 5,
+      "min": "33:42"
      },
      {
-      "name": "Jordan Goodwin",
-      "pts": 11,
-      "reb": 3,
-      "ast": 0,
-      "min": "14:21"
+      "name": "Oso Ighodaro",
+      "pts": 13,
+      "reb": 2,
+      "ast": 2,
+      "min": "19:36"
      }
     ]
    },
@@ -999,6 +999,10 @@
     {
      "t": 33.8,
      "m": 14
+    },
+    {
+     "t": 47.0,
+     "m": 10
     }
    ]
   },
@@ -1006,116 +1010,116 @@
    "game_id": "0022600062",
    "tip_utc": "2026-11-26T03:00:00Z",
    "status": 2,
-   "status_text": "Q1 5:22",
-   "period": 1,
-   "clock": "5:22",
+   "status_text": "Q2 2:43",
+   "period": 2,
+   "clock": "2:43",
    "home": {
     "team": "GSW",
-    "score": 23,
+    "score": 64,
     "periods": [
-     23,
-     0,
+     44,
+     20,
      0,
      0
     ],
     "stats": {
-     "fgm": 8,
-     "fga": 11,
-     "fg3m": 5,
-     "fg3a": 6,
-     "ftm": 2,
-     "fta": 2,
-     "oreb": 1,
-     "dreb": 5,
-     "tov": 4,
-     "pf": 3,
-     "ast": 7,
-     "stl": 2,
-     "blk": 0,
-     "pts_paint": 6,
-     "pts_second_chance": 0,
-     "pts_fast_break": 2,
-     "pts_off_tov": 7,
-     "pts_bench": 13,
-     "biggest_lead": 11,
+     "fgm": 22,
+     "fga": 38,
+     "fg3m": 13,
+     "fg3a": 23,
+     "ftm": 7,
+     "fta": 9,
+     "oreb": 5,
+     "dreb": 12,
+     "tov": 9,
+     "pf": 9,
+     "ast": 17,
+     "stl": 8,
+     "blk": 2,
+     "pts_paint": 16,
+     "pts_second_chance": 6,
+     "pts_fast_break": 7,
+     "pts_off_tov": 20,
+     "pts_bench": 28,
+     "biggest_lead": 29,
      "lead_changes": 2
     },
     "leaders": [
      {
+      "name": "De'Anthony Melton",
+      "pts": 18,
+      "reb": 2,
+      "ast": 5,
+      "min": "12:33"
+     },
+     {
       "name": "Gui Santos",
-      "pts": 8,
+      "pts": 12,
       "reb": 0,
       "ast": 0,
-      "min": "2:33"
+      "min": "7:24"
      },
      {
       "name": "Brandin Podziemski",
-      "pts": 5,
+      "pts": 8,
       "reb": 0,
-      "ast": 2,
-      "min": "6:38"
-     },
-     {
-      "name": "Georges Niang",
-      "pts": 5,
-      "reb": 0,
-      "ast": 0,
-      "min": "1:32"
+      "ast": 3,
+      "min": "13:14"
      }
     ]
    },
    "away": {
     "team": "SAC",
-    "score": 12,
+    "score": 42,
     "periods": [
-     12,
-     0,
+     19,
+     23,
      0,
      0
     ],
     "stats": {
-     "fgm": 5,
-     "fga": 10,
-     "fg3m": 0,
-     "fg3a": 4,
-     "ftm": 2,
-     "fta": 2,
-     "oreb": 0,
-     "dreb": 2,
-     "tov": 3,
-     "pf": 3,
-     "ast": 3,
-     "stl": 2,
-     "blk": 0,
-     "pts_paint": 8,
-     "pts_second_chance": 0,
-     "pts_fast_break": 4,
-     "pts_off_tov": 4,
-     "pts_bench": 0,
+     "fgm": 17,
+     "fga": 34,
+     "fg3m": 2,
+     "fg3a": 13,
+     "ftm": 6,
+     "fta": 7,
+     "oreb": 4,
+     "dreb": 10,
+     "tov": 13,
+     "pf": 9,
+     "ast": 11,
+     "stl": 4,
+     "blk": 1,
+     "pts_paint": 26,
+     "pts_second_chance": 4,
+     "pts_fast_break": 7,
+     "pts_off_tov": 10,
+     "pts_bench": 12,
      "biggest_lead": 3,
      "lead_changes": 2
     },
     "leaders": [
      {
       "name": "Keegan Murray",
-      "pts": 4,
-      "reb": 0,
+      "pts": 15,
+      "reb": 1,
       "ast": 1,
-      "min": "6:38"
+      "min": "18:25"
      },
      {
       "name": "Domantas Sabonis",
-      "pts": 4,
-      "reb": 1,
+      "pts": 10,
+      "reb": 3,
       "ast": 2,
-      "min": "6:38"
+      "min": "11:47"
      },
      {
-      "name": "Darius Acuff Jr.",
-      "pts": 4,
-      "reb": 0,
-      "ast": 0,
-      "min": "6:38"
+      "name": "Precious Achiuwa",
+      "pts": 7,
+      "reb": 3,
+      "ast": 2,
+      "min": "12:09"
      }
     ]
    },
@@ -1123,6 +1127,10 @@
     {
      "t": 6.6,
      "m": 11
+    },
+    {
+     "t": 21.3,
+     "m": 22
     }
    ]
   },
@@ -1130,116 +1138,116 @@
    "game_id": "0022600063",
    "tip_utc": "2026-11-26T03:00:00Z",
    "status": 2,
-   "status_text": "Q1 6:59",
-   "period": 1,
-   "clock": "6:59",
+   "status_text": "Q2 8:33",
+   "period": 2,
+   "clock": "8:33",
    "home": {
     "team": "POR",
-    "score": 14,
+    "score": 43,
     "periods": [
-     14,
-     0,
+     38,
+     5,
      0,
      0
     ],
     "stats": {
-     "fgm": 5,
-     "fga": 12,
-     "fg3m": 2,
-     "fg3a": 7,
-     "ftm": 2,
-     "fta": 2,
+     "fgm": 14,
+     "fga": 30,
+     "fg3m": 7,
+     "fg3a": 19,
+     "ftm": 8,
+     "fta": 9,
      "oreb": 3,
-     "dreb": 4,
-     "tov": 2,
-     "pf": 4,
-     "ast": 3,
-     "stl": 1,
+     "dreb": 12,
+     "tov": 3,
+     "pf": 9,
+     "ast": 9,
+     "stl": 2,
      "blk": 0,
-     "pts_paint": 6,
+     "pts_paint": 14,
      "pts_second_chance": 0,
-     "pts_fast_break": 5,
-     "pts_off_tov": 2,
-     "pts_bench": 0,
-     "biggest_lead": 2,
+     "pts_fast_break": 8,
+     "pts_off_tov": 4,
+     "pts_bench": 13,
+     "biggest_lead": 6,
      "lead_changes": 7
     },
     "leaders": [
      {
       "name": "Damian Lillard",
-      "pts": 10,
-      "reb": 0,
-      "ast": 1,
-      "min": "5:01"
+      "pts": 16,
+      "reb": 2,
+      "ast": 2,
+      "min": "10:46"
      },
      {
-      "name": "Sidy Cissoko",
-      "pts": 2,
+      "name": "Scoot Henderson",
+      "pts": 10,
       "reb": 1,
-      "ast": 1,
-      "min": "5:01"
+      "ast": 0,
+      "min": "8:12"
      },
      {
       "name": "Deni Avdija",
-      "pts": 2,
-      "reb": 1,
-      "ast": 1,
-      "min": "5:01"
+      "pts": 9,
+      "reb": 2,
+      "ast": 2,
+      "min": "9:03"
      }
     ]
    },
    "away": {
     "team": "SAS",
-    "score": 12,
+    "score": 40,
     "periods": [
-     12,
-     0,
+     35,
+     5,
      0,
      0
     ],
     "stats": {
-     "fgm": 4,
-     "fga": 9,
-     "fg3m": 1,
-     "fg3a": 4,
-     "ftm": 3,
-     "fta": 4,
-     "oreb": 1,
-     "dreb": 4,
-     "tov": 1,
-     "pf": 1,
-     "ast": 4,
+     "fgm": 13,
+     "fga": 31,
+     "fg3m": 2,
+     "fg3a": 12,
+     "ftm": 12,
+     "fta": 15,
+     "oreb": 6,
+     "dreb": 11,
+     "tov": 4,
+     "pf": 4,
+     "ast": 9,
      "stl": 2,
-     "blk": 0,
-     "pts_paint": 6,
-     "pts_second_chance": 0,
-     "pts_fast_break": 3,
+     "blk": 1,
+     "pts_paint": 20,
+     "pts_second_chance": 11,
+     "pts_fast_break": 5,
      "pts_off_tov": 3,
-     "pts_bench": 0,
+     "pts_bench": 7,
      "biggest_lead": 3,
      "lead_changes": 7
     },
     "leaders": [
      {
       "name": "Victor Wembanyama",
-      "pts": 7,
-      "reb": 2,
-      "ast": 0,
-      "min": "4:05"
-     },
-     {
-      "name": "Harrison Barnes",
-      "pts": 2,
-      "reb": 0,
-      "ast": 0,
-      "min": "4:05"
+      "pts": 12,
+      "reb": 5,
+      "ast": 1,
+      "min": "11:03"
      },
      {
       "name": "Stephon Castle",
-      "pts": 2,
-      "reb": 2,
-      "ast": 3,
-      "min": "5:01"
+      "pts": 8,
+      "reb": 4,
+      "ast": 4,
+      "min": "12:23"
+     },
+     {
+      "name": "Julian Champagnie",
+      "pts": 6,
+      "reb": 1,
+      "ast": 1,
+      "min": "10:18"
      }
     ]
    },
@@ -1247,6 +1255,10 @@
     {
      "t": 5.0,
      "m": 2
+    },
+    {
+     "t": 15.4,
+     "m": 3
     }
    ]
   }
