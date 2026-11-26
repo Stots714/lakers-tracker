@@ -1,121 +1,121 @@
 {
- "updated": "2026-11-25T23:50:21+00:00",
+ "updated": "2026-11-26T00:20:21+00:00",
  "board_date": "2026-11-25",
  "games": [
   {
    "game_id": "0022600055",
    "tip_utc": "2026-11-25T22:00:00Z",
    "status": 2,
-   "status_text": "Q3 2:44",
-   "period": 3,
-   "clock": "2:44",
+   "status_text": "Q4 4:22",
+   "period": 4,
+   "clock": "4:22",
    "home": {
     "team": "PHI",
-    "score": 85,
+    "score": 106,
     "periods": [
      29,
      33,
-     23,
-     0
+     28,
+     16
     ],
     "stats": {
-     "fgm": 32,
-     "fga": 62,
-     "fg3m": 11,
-     "fg3a": 23,
-     "ftm": 10,
-     "fta": 11,
-     "oreb": 7,
-     "dreb": 20,
-     "tov": 7,
-     "pf": 15,
-     "ast": 24,
-     "stl": 7,
-     "blk": 2,
-     "pts_paint": 32,
-     "pts_second_chance": 9,
-     "pts_fast_break": 11,
-     "pts_off_tov": 8,
-     "pts_bench": 14,
+     "fgm": 40,
+     "fga": 82,
+     "fg3m": 13,
+     "fg3a": 31,
+     "ftm": 13,
+     "fta": 15,
+     "oreb": 11,
+     "dreb": 28,
+     "tov": 9,
+     "pf": 19,
+     "ast": 28,
+     "stl": 8,
+     "blk": 4,
+     "pts_paint": 42,
+     "pts_second_chance": 11,
+     "pts_fast_break": 14,
+     "pts_off_tov": 11,
+     "pts_bench": 23,
      "biggest_lead": 16,
      "lead_changes": 3
     },
     "leaders": [
      {
       "name": "Tyrese Maxey",
-      "pts": 25,
-      "reb": 3,
-      "ast": 5,
-      "min": "26:18"
+      "pts": 27,
+      "reb": 4,
+      "ast": 6,
+      "min": "32:54"
      },
      {
       "name": "LeBron James",
-      "pts": 21,
-      "reb": 7,
-      "ast": 8,
-      "min": "25:13"
+      "pts": 25,
+      "reb": 9,
+      "ast": 11,
+      "min": "30:39"
      },
      {
       "name": "VJ Edgecombe",
-      "pts": 12,
-      "reb": 4,
+      "pts": 18,
+      "reb": 6,
       "ast": 5,
-      "min": "23:54"
+      "min": "31:32"
      }
     ]
    },
    "away": {
     "team": "MIA",
-    "score": 75,
+    "score": 95,
     "periods": [
      32,
      21,
-     22,
-     0
+     28,
+     14
     ],
     "stats": {
-     "fgm": 28,
-     "fga": 58,
-     "fg3m": 7,
-     "fg3a": 21,
-     "ftm": 12,
-     "fta": 19,
+     "fgm": 35,
+     "fga": 75,
+     "fg3m": 8,
+     "fg3a": 27,
+     "ftm": 17,
+     "fta": 25,
      "oreb": 8,
-     "dreb": 20,
-     "tov": 11,
-     "pf": 11,
-     "ast": 19,
+     "dreb": 28,
+     "tov": 12,
+     "pf": 14,
+     "ast": 22,
      "stl": 2,
-     "blk": 2,
-     "pts_paint": 40,
+     "blk": 3,
+     "pts_paint": 52,
      "pts_second_chance": 10,
-     "pts_fast_break": 10,
+     "pts_fast_break": 13,
      "pts_off_tov": 6,
-     "pts_bench": 16,
+     "pts_bench": 20,
      "biggest_lead": 8,
      "lead_changes": 3
     },
     "leaders": [
      {
       "name": "Giannis Antetokounmpo",
-      "pts": 25,
-      "reb": 8,
+      "pts": 32,
+      "reb": 11,
       "ast": 4,
-      "min": "26:03"
+      "min": "31:52"
      },
      {
       "name": "Davion Mitchell",
-      "pts": 16,
-      "reb": 1,
-      "ast": 7,
-      "min": "26:11"
+      "pts": 18,
+      "reb": 2,
+      "ast": 9,
+      "min": "35:41"
      },
      {
-      "name": "Klay Thompson",
-      "pts": 7,
-      "reb": 0,
-      "ast": 0,
-      "min": "25:03"
+      "name": "Bam Adebayo",
+      "pts": 12,
+      "reb": 8,
+      "ast": 3,
+      "min": "30:45"
      }
     ]
    },
@@ -135,37 +135,136 @@
     {
      "t": 33.3,
      "m": 10
+    },
+    {
+     "t": 43.6,
+     "m": 11
     }
    ]
   },
   {
    "game_id": "0022600056",
    "tip_utc": "2026-11-26T00:00:00Z",
-   "status": 1,
-   "status_text": "7:00 pm ET",
-   "period": 0,
-   "clock": "",
+   "status": 2,
+   "status_text": "Q1 6:56",
+   "period": 1,
+   "clock": "6:56",
    "home": {
     "team": "CHA",
-    "score": 0,
+    "score": 8,
     "periods": [
-     0,
+     8,
      0,
      0,
      0
+    ],
+    "stats": {
+     "fgm": 2,
+     "fga": 11,
+     "fg3m": 1,
+     "fg3a": 6,
+     "ftm": 3,
+     "fta": 3,
+     "oreb": 4,
+     "dreb": 4,
+     "tov": 1,
+     "pf": 3,
+     "ast": 2,
+     "stl": 1,
+     "blk": 1,
+     "pts_paint": 2,
+     "pts_second_chance": 3,
+     "pts_fast_break": 2,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 4,
+     "lead_changes": 1
+    },
+    "leaders": [
+     {
+      "name": "Sion James",
+      "pts": 3,
+      "reb": 1,
+      "ast": 0,
+      "min": "5:04"
+     },
+     {
+      "name": "Brandon Miller",
+      "pts": 3,
+      "reb": 1,
+      "ast": 0,
+      "min": "5:04"
+     },
+     {
+      "name": "Moussa Diabaté",
+      "pts": 2,
+      "reb": 1,
+      "ast": 0,
+      "min": "5:04"
+     }
     ]
    },
    "away": {
     "team": "CHI",
-    "score": 0,
+    "score": 4,
     "periods": [
-     0,
+     4,
      0,
      0,
      0
+    ],
+    "stats": {
+     "fgm": 2,
+     "fga": 7,
+     "fg3m": 0,
+     "fg3a": 2,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 1,
+     "dreb": 4,
+     "tov": 3,
+     "pf": 1,
+     "ast": 2,
+     "stl": 0,
+     "blk": 2,
+     "pts_paint": 4,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 2,
+     "lead_changes": 1
+    },
+    "leaders": [
+     {
+      "name": "Matas Buzelis",
+      "pts": 2,
+      "reb": 1,
+      "ast": 0,
+      "min": "5:04"
+     },
+     {
+      "name": "Josh Giddey",
+      "pts": 2,
+      "reb": 2,
+      "ast": 0,
+      "min": "5:04"
+     },
+     {
+      "name": "Isaac Okoro",
+      "pts": 0,
+      "reb": 1,
+      "ast": 0,
+      "min": "5:04"
+     }
     ]
    },
-   "history": []
+   "history": [
+    {
+     "t": 5.1,
+     "m": 4
+    }
+   ]
   },
   {
    "game_id": "0022600057",
