@@ -132,6 +132,37 @@ class NbaData(unittest.TestCase):
         self.assertEqual(m["held_back"][0]["why"], "BOS: players' points do not add up to the final score")
         self.assertEqual(len(nd.read(self.out / "league_box.csv")), 2)                  # the earlier, checked rows stay
 
+    def test_manifest_lists_the_league_files_the_site_loads(self):
+        (self.out / "roster_moves.csv").write_text("date,team,player\n", encoding="utf-8")       # the PC's last copy
+        (self.out / "manifest.json").write_text(json.dumps({"updated": "x", "teams": ["LAL", "SAS"], "season": "2026-27"}))
+        self.run_job(Opener(pages({"0022600001"}, {"0022600001": game("0022600001")})))
+        m = json.loads((self.out / "manifest.json").read_text())
+        self.assertEqual(sorted(m["league"]), ["nba_box", "nba_extras", "nba_inactive", "nba_moves", "nba_player_games",
+                                               "nba_quarters", "nba_results"])
+        self.assertEqual((m["teams"], m["season"]), (["LAL", "SAS"], "2026-27"))
+
+    def test_names_on_file_are_kept_and_inactive_lists_kept_when_the_box_score_has_none(self):
+        night = dt.datetime(2026, 10, 21, 9, 0, tzinfo=dt.timezone.utc)
+        op = Opener(pages({"0022600001"}, {"0022600001": game("0022600001")}))
+        nd.run(self.out, injuries=False, opener=op, sleep=lambda s: None, now=night, log=self.logs.append)
+        pg = nd.read(self.out / "league_player_games.csv")
+        pid, cdn_name = pg[0]["player_id"], pg[0]["player"]
+        for r in pg:   # the PC's spelling for this player, and a PC-only inactive list for the game
+            if r["player_id"] == pid:
+                r["player"] = "PC Spelling"
+        nd.write(self.out / "league_player_games.csv", pg, nd.COLS["league_player_games.csv"])
+        pc_inactive = [{"date": "2026-10-20", "team": "BOS", "player": "Bench Guy", "game_id": "0022600001", "person_id": "999"}]
+        nd.write(self.out / "league_inactive.csv", pc_inactive, nd.COLS["league_inactive.csv"])
+        no_list = game("0022600001")
+        no_list["game"]["homeTeam"]["players"] = [p for p in no_list["game"]["homeTeam"]["players"] if p.get("status") != "INACTIVE"]
+        op2 = Opener(pages({"0022600001"}, {"0022600001": no_list}))
+        nd.run(self.out, injuries=False, opener=op2, sleep=lambda s: None, now=night + dt.timedelta(hours=1), log=self.logs.append)
+        names = {r["player"] for r in nd.read(self.out / "league_player_games.csv") if r["player_id"] == pid}
+        self.assertEqual(names, {"PC Spelling"})
+        self.assertEqual([r["player"] for r in nd.read(self.out / "league_inactive.csv")], ["Bench Guy"])
+        nd.run(self.out, injuries=False, opener=op, sleep=lambda s: None, now=night + dt.timedelta(hours=2), log=self.logs.append)
+        self.assertEqual([r["player"] for r in nd.read(self.out / "league_inactive.csv")], ["Hurt Guy"])  # a list read replaces it
+
     def test_missing_box_score_is_held_back_without_failing(self):
         op = Opener(pages({"0022600001", "0022600002"}, {"0022600001": game("0022600001")}))
         self.assertEqual(self.run_job(op), 0)

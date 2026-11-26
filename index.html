@@ -732,7 +732,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
     </ul>
     <p><b>Not built in, shown as context:</b> the four factors, three-point luck, player stats and quarter splits. Absences adjust the projections only, shown next to the healthy projection, never the ratings themselves.</p>
     <p><b>Focus team.</b> Pick any team at the top and every section follows it: the title, the next game and spotlight, players, quarters and game-by-game four factors. Compare with picks a second team for the tiles, game log, scorecard and next meeting. The highlight color is the focus team's own color (teamcolorcodes.com; Clippers and Jazz from Design Your Way, the Jazz value approximate), lightened or darkened where needed so text on it stays readable.</p>
-    <p><b>Updating.</b> Scores, box scores, player lines, quarter scores and inactive lists for all 30 teams come from NBA.com through a script run on a PC (tools/nba in the repository); hand-checked files cover the Lakers until that data is on file, and NBA.com takes precedence wherever both exist. Season totals are summed from the game box scores once every game is on file. Everything on this page recalculates from those files.</p>
+    <p><b>Updating.</b> Scores, box scores, player lines, quarter scores and inactive lists for all 30 teams come from NBA.com’s public data files, read by a GitHub job every 5 minutes (tools/cloud in the repository); hand-checked files cover the Lakers until that data is on file, and NBA.com takes precedence wherever both exist. Season totals are summed from the game box scores once every game is on file. Everything on this page recalculates from those files.</p>
     <p><b>Raw margins</b> are each team's average point differential with no adjustment at all. Projections and the game log always use the adjusted rating.</p>
   </section>
 
@@ -1924,7 +1924,7 @@ function render() {
     const updEl = document.getElementById('lk-updated');
     updEl.textContent = lastPlayed ? 'Results through ' + dayFmt(new Date(lastPlayed + 'T00:00:00Z')) + (nbaGames ? ' (NBA.com data).' : '.') + (upd ? ' Data updated ' + when + '.' : '') + ' Recalculated in your browser from the data files.' : '';
     updEl.classList.toggle('lk-stale', ago !== null && ago > 30);
-    if (ago !== null && ago > 30) updEl.textContent = 'Data is ' + (ago >= 48 ? Math.floor(ago / 24) + ' days' : Math.round(ago) + ' hours') + ' old (last updated ' + when + '); the PC that refreshes it may be off. ' + updEl.textContent;
+    if (ago !== null && ago > 30) updEl.textContent = 'Data is ' + (ago >= 48 ? Math.floor(ago / 24) + ' days' : Math.round(ago) + ' hours') + ' old (last updated ' + when + '); the GitHub job that refreshes it may have stopped. ' + updEl.textContent;
   } else if (schd.status === 'error') {
     document.getElementById('lk-updated').textContent = 'The data files did not load. Reload to try again.';
   }
@@ -2231,7 +2231,7 @@ function render() {
     });
     const inj = dash.data('nba_injuries'), label = inj.status === 'ok' && inj.data.length ? inj.data[0].report : '';
     document.getElementById('lk-abs-note').textContent = 'Showing the ' + [...show].map((x) => names.get(x) || x).join(', the ') + '. ' + (rows.length ? '' : 'None on file. ')
-      + (label ? 'Newest NBA injury report: ' + label + '.' : 'The NBA injury report is not on file yet; it arrives with the PC’s next run.');
+      + (label ? 'Newest NBA injury report: ' + label + '.' : 'The NBA injury report is not on file yet; it arrives with the next data run.');
   }
   ['lk-played', 'lk-upcoming', 'lk-ff', 'lk-abs', 'lk-eff', 'lk-players', 'lk-lbox', 'lk-form'].forEach((id) => phoneLayout(document.getElementById(id)));
 }
@@ -3339,7 +3339,7 @@ function renderTrades() {
     cell(row, m.via === 'rosters' ? 'NBA.com rosters' : 'Box scores: first game for the new team', 'lk-left');
     mb.appendChild(row);
   });
-  document.getElementById('lk-trade-moves-note').textContent = (moves.length ? 'Each move is dated the day it first showed: on NBA.com’s rosters, which the PC reads every morning and after each night’s games, or in the box scores, the player’s first game for his new team. ' : 'No moves for the ' + fn + ' this season. ')
+  document.getElementById('lk-trade-moves-note').textContent = (moves.length ? 'Each move is dated the day it first showed: on NBA.com’s rosters (compared daily until Nov 24, 2026), or in the box scores, the player’s first game for his new team. ' : 'No moves for the ' + fn + ' this season. ')
     + (rostersKnown ? '' : 'The roster comparison, which also catches signings and waivers, starts with the PC’s next update.');
   // Details: trade dates
   const db = document.querySelector('#lk-trade-dates tbody'); db.replaceChildren();
@@ -3390,7 +3390,7 @@ const renderSources = () => {
     const d = document.createElement('span'); d.textContent = ' — ' + s.description;
     const u = document.createElement('span'); u.className = 'lk-src-date';
     u.dataset.src = s.id;
-    if (s.id === 'nba_injuries') u.textContent = injLabel ? ' Report of ' + injLabel + '.' : ' Not on file yet: arrives with the PC’s next run.';
+    if (s.id === 'nba_injuries') u.textContent = injLabel ? ' Report of ' + injLabel + '.' : ' Not on file yet: arrives with the next data run.';
     else if (s.id === 'trade_reports') {
       const tr = dash.data('trade_reports'), last = tr.status === 'ok' ? tr.data.map((r) => r.seen_at).filter(Boolean).sort().pop() : null;
       u.textContent = last ? ' Newest report found ' + fmt(last) + '.' : ' None on file yet.';

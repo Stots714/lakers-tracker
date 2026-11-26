@@ -19,9 +19,14 @@ tick runs, the scheduled runs of Odds, Trade reports and NBA data stand down (th
 started) and take over again if it stops. The Watchdog stays on GitHub's schedule and fails when the tick stops.
 
 `data/pipeline.json` says who writes what:
-- `data_writer`: `pc` (now) = the PC writes `data/nba/`, the tick writes `data/nba_cloud/` for the side-by-side
-  check; `cloud` = the tick writes `data/nba/` and the PC's tasks stand down (they read this file at each start).
-- `odds_pretip`: `pc` (now) = the PC's live watcher starts the pre-tip odds read; `tick` = the tick does.
+- `data_writer`: `cloud` (since Nov 26, 2026) = the tick writes `data/nba/` and the PC's tasks stand down (they
+  read this file at each start); `pc` = the PC writes `data/nba/` and the tick writes `data/nba_cloud/` for a
+  side-by-side check.
+- `odds_pretip`: `tick` (since Nov 25, 2026) = the tick starts the pre-tip odds read; `pc` = the PC's live watcher.
+
+Not carried over from the PC: NBA.com's daily roster comparison (signings and waivers before a player's first game)
+and the per-team files the site does not load (shots, lineups, on/off, hustle, play-by-play). stats.nba.com, their
+source, does not answer GitHub's machines.
 
 stats.nba.com does not answer GitHub's machines; the tick reads the same numbers from cdn.nba.com.
 

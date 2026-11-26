@@ -55,6 +55,11 @@ EXTRAS = {"turnoversTeam": "tov_team", "turnoversTotal": "tov_total", "reboundsT
           "pointsSecondChance": "pts_second_chance", "pointsFastBreak": "pts_fast_break", "pointsFromTurnovers": "pts_off_tov",
           "benchPoints": "pts_bench", "biggestLead": "biggest_lead", "leadChanges": "lead_changes", "timesTied": "times_tied",
           "biggestScoringRun": "biggest_run"}
+# The site loads the league files the manifest lists (index.html: Object.keys(manifest.league)), so the manifest
+# names them the way the PC's update_nba.py does. Roster files stay listed while the PC's last copies are on file.
+LEAGUE_FILES = {"nba_results": "league_results.csv", "nba_box": "league_box.csv", "nba_player_games": "league_player_games.csv",
+                "nba_quarters": "league_quarters.csv", "nba_inactive": "league_inactive.csv", "nba_extras": "league_extras.csv",
+                "nba_injuries": "injuries.csv", "nba_rosters": "league_rosters.csv", "nba_moves": "roster_moves.csv"}
 COLS = {
     "league_results.csv": ["date", "away", "home", "away_pts", "home_pts", "ot", "game_id", "cup", "neutral"],
     "league_box.csv": ["date", "team", "opp", "home_away"] + BOX + ["mp", "game_id", "tov_players", "tov_team"],
@@ -234,9 +239,26 @@ def run(out, refresh_days=7, injuries=True, opener=urllib.request.urlopen, sleep
             held.append({"game_id": g["game_id"], "date": g["date"], "why": why})
             continue
         fresh[g["game_id"]] = game_rows(game, g)
-    # Per-game files: the old rows of every game read again are replaced; games held back keep their old rows
+    # Keep the spelling already on file for each player: the page matches players by name, and cdn.nba.com writes
+    # "Cam Johnson" where stats.nba.com (the PC's files) wrote "Cameron Johnson"
+    known = {}
+    for r in old["league_player_games.csv"]:
+        if r.get("player_id"):
+            known.setdefault(r["player_id"], r["player"])
+    for r in old["league_inactive.csv"]:
+        if r.get("person_id"):
+            known.setdefault(r["person_id"], r["player"])
+    for gr in fresh.values():
+        for r in gr["league_player_games.csv"]:
+            r["player"] = known.get(r.get("player_id"), r["player"])
+        for r in gr["league_inactive.csv"]:
+            r["player"] = known.get(r.get("person_id"), r["player"])
+    # Per-game files: the old rows of every game read again are replaced; games held back keep their old rows, and a
+    # game whose box score has no inactive list keeps the list on file (the PC's files have lists cdn.nba.com lacks)
+    no_list = {gid for gid, gr in fresh.items() if not gr["league_inactive.csv"]}
     for f in PER_GAME:
-        rows = [r for r in old[f] if r["game_id"] not in fresh] + [r for gr in fresh.values() for r in gr[f]]
+        keep = no_list if f == "league_inactive.csv" else set()
+        rows = [r for r in old[f] if r["game_id"] not in fresh or r["game_id"] in keep] + [r for gr in fresh.values() for r in gr[f]]
         key = (lambda r: (r["date"], r["team"], r["player"])) if f == "league_player_games.csv" else (lambda r: (r["date"], r["game_id"], r.get("team", "")))
         write(out / f, sorted(rows, key=key), COLS[f])
     # Results: the schedule, with scores for games whose box score is on file
@@ -262,7 +284,13 @@ def run(out, refresh_days=7, injuries=True, opener=urllib.request.urlopen, sleep
         except Exception as e:
             steps["injury report"] = {"ok": False, "error": f"{type(e).__name__}: {str(e)[:160]}"}
     finals_on_file = sum(1 for r in res if r["home_pts"] != "")
+    try:
+        prev = json.loads((out / "manifest.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        prev = {}
     manifest = {"updated": now.isoformat(timespec="seconds"), "source": "cdn.nba.com (GitHub job tools/cloud/nba_data.py)",
+                "league": {k: f for k, f in LEAGUE_FILES.items() if (out / f).exists()},
+                "season": prev.get("season", "2026-27"), "teams": prev.get("teams", []),
                 "games": len(games), "finals": finals_on_file, "read_this_run": len(fresh), "held_back": held, "steps": steps}
     (out / "manifest.json.tmp").write_text(json.dumps(manifest, indent=1) + "\n", encoding="utf-8")
     os.replace(out / "manifest.json.tmp", out / "manifest.json")

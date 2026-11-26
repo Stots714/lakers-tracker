@@ -1,5 +1,5 @@
 {
  "about": "Who writes what. data_writer: 'pc' (the PC's tasks write data/nba/; the GitHub ticks write data/nba_cloud/ for the side-by-side check) or 'cloud' (the GitHub ticks write data/nba/ and the PC's tasks stand down). odds_pretip: who starts the pre-tip betting-line read, 'pc' (the live watcher) or 'tick'.",
- "data_writer": "pc",
+ "data_writer": "cloud",
  "odds_pretip": "tick"
 }
