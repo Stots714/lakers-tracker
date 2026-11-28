@@ -1,35 +1,130 @@
 {
- "updated": "2026-11-27T17:00:32+00:00",
+ "updated": "2026-11-28T00:15:21+00:00",
  "board_date": "2026-11-27",
  "games": [
   {
    "game_id": "0022600064",
    "tip_utc": "2026-11-28T00:00:00Z",
-   "status": 1,
-   "status_text": "7:00 pm ET",
-   "period": 0,
-   "clock": "",
+   "status": 2,
+   "status_text": "Q1 10:30",
+   "period": 1,
+   "clock": "10:30",
    "home": {
     "team": "NYK",
-    "score": 0,
+    "score": 3,
     "periods": [
-     0,
+     3,
      0,
      0,
      0
+    ],
+    "stats": {
+     "fgm": 1,
+     "fga": 2,
+     "fg3m": 1,
+     "fg3a": 2,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 1,
+     "pf": 0,
+     "ast": 1,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": [
+     {
+      "name": "Landry Shamet",
+      "pts": 3,
+      "reb": 0,
+      "ast": 0,
+      "min": "1:29"
+     },
+     {
+      "name": "Mikal Bridges",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "1:29"
+     },
+     {
+      "name": "Josh Hart",
+      "pts": 0,
+      "reb": 0,
+      "ast": 1,
+      "min": "1:29"
+     }
     ]
    },
    "away": {
     "team": "MIA",
-    "score": 0,
+    "score": 6,
     "periods": [
-     0,
+     6,
      0,
      0,
      0
+    ],
+    "stats": {
+     "fgm": 1,
+     "fga": 1,
+     "fg3m": 1,
+     "fg3a": 1,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 1,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 3,
+     "pts_bench": 0,
+     "biggest_lead": 3,
+     "lead_changes": 0
+    },
+    "leaders": [
+     {
+      "name": "Klay Thompson",
+      "pts": 3,
+      "reb": 0,
+      "ast": 0,
+      "min": "1:29"
+     },
+     {
+      "name": "Giannis Antetokounmpo",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "1:29"
+     },
+     {
+      "name": "Pelle Larsson",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "min": "1:29"
+     }
     ]
    },
-   "history": []
+   "history": [
+    {
+     "t": 1.5,
+     "m": -3
+    }
+   ]
   },
   {
    "game_id": "0022600065",
