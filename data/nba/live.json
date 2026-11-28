@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T05:05:18+00:00",
+ "updated": "2026-11-28T05:15:18+00:00",
  "board_date": "2026-11-27",
  "games": [
   {
@@ -1261,30 +1261,30 @@
   {
    "game_id": "0022600071",
    "tip_utc": "2026-11-28T02:30:00Z",
-   "status": 2,
-   "status_text": "Q4 :09.8",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "0:10",
+   "clock": "0:00",
    "home": {
     "team": "SAS",
-    "score": 96,
+    "score": 99,
     "periods": [
      14,
      24,
      30,
-     28
+     31
     ],
     "stats": {
      "fgm": 40,
      "fga": 86,
      "fg3m": 10,
      "fg3a": 29,
-     "ftm": 6,
-     "fta": 12,
+     "ftm": 9,
+     "fta": 16,
      "oreb": 13,
-     "dreb": 33,
+     "dreb": 34,
      "tov": 19,
-     "pf": 15,
+     "pf": 18,
      "ast": 23,
      "stl": 11,
      "blk": 4,
@@ -1302,52 +1302,52 @@
       "pts": 26,
       "reb": 4,
       "ast": 9,
-      "min": "35:37"
+      "min": "35:51"
      },
      {
       "name": "Victor Wembanyama",
-      "pts": 24,
-      "reb": 15,
+      "pts": 25,
+      "reb": 16,
       "ast": 2,
-      "min": "34:20"
+      "min": "34:34"
      },
      {
       "name": "Dylan Harper",
       "pts": 14,
       "reb": 4,
       "ast": 3,
-      "min": "24:05"
+      "min": "24:19"
      }
     ]
    },
    "away": {
     "team": "LAL",
-    "score": 93,
+    "score": 96,
     "periods": [
      27,
      27,
      14,
-     25
+     28
     ],
     "stats": {
      "fgm": 37,
      "fga": 86,
      "fg3m": 12,
      "fg3a": 42,
-     "ftm": 7,
-     "fta": 10,
+     "ftm": 10,
+     "fta": 14,
      "oreb": 11,
      "dreb": 32,
      "tov": 20,
-     "pf": 12,
+     "pf": 14,
      "ast": 19,
      "stl": 10,
      "blk": 5,
      "pts_paint": 36,
      "pts_second_chance": 16,
      "pts_fast_break": 5,
-     "pts_off_tov": 16,
-     "pts_bench": 23,
+     "pts_off_tov": 18,
+     "pts_bench": 24,
      "biggest_lead": 20,
      "lead_changes": 3
     },
@@ -1357,14 +1357,14 @@
       "pts": 31,
       "reb": 6,
       "ast": 8,
-      "min": "38:17"
+      "min": "38:31"
      },
      {
       "name": "Austin Reaves",
       "pts": 21,
       "reb": 8,
       "ast": 1,
-      "min": "35:55"
+      "min": "36:09"
      },
      {
       "name": "Collin Sexton",
@@ -1438,6 +1438,10 @@
     },
     {
      "t": 47.8,
+     "m": 3
+    },
+    {
+     "t": 48.0,
      "m": 3
     }
    ]
