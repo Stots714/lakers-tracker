@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T05:00:24+00:00",
+ "updated": "2026-11-28T05:05:18+00:00",
  "board_date": "2026-11-27",
  "games": [
   {
@@ -1262,9 +1262,9 @@
    "game_id": "0022600071",
    "tip_utc": "2026-11-28T02:30:00Z",
    "status": 2,
-   "status_text": "Q4 :36.2",
+   "status_text": "Q4 :09.8",
    "period": 4,
-   "clock": "0:36",
+   "clock": "0:10",
    "home": {
     "team": "SAS",
     "score": 96,
@@ -1283,7 +1283,7 @@
      "fta": 12,
      "oreb": 13,
      "dreb": 33,
-     "tov": 17,
+     "tov": 19,
      "pf": 15,
      "ast": 23,
      "stl": 11,
@@ -1302,51 +1302,51 @@
       "pts": 26,
       "reb": 4,
       "ast": 9,
-      "min": "35:15"
+      "min": "35:37"
      },
      {
       "name": "Victor Wembanyama",
       "pts": 24,
       "reb": 15,
       "ast": 2,
-      "min": "33:58"
+      "min": "34:20"
      },
      {
       "name": "Dylan Harper",
       "pts": 14,
       "reb": 4,
       "ast": 3,
-      "min": "23:43"
+      "min": "24:05"
      }
     ]
    },
    "away": {
     "team": "LAL",
-    "score": 90,
+    "score": 93,
     "periods": [
      27,
      27,
      14,
-     22
+     25
     ],
     "stats": {
-     "fgm": 36,
-     "fga": 85,
-     "fg3m": 11,
-     "fg3a": 41,
+     "fgm": 37,
+     "fga": 86,
+     "fg3m": 12,
+     "fg3a": 42,
      "ftm": 7,
      "fta": 10,
      "oreb": 11,
      "dreb": 32,
      "tov": 20,
-     "pf": 13,
-     "ast": 18,
+     "pf": 12,
+     "ast": 19,
      "stl": 10,
      "blk": 5,
      "pts_paint": 36,
      "pts_second_chance": 16,
      "pts_fast_break": 5,
-     "pts_off_tov": 13,
+     "pts_off_tov": 16,
      "pts_bench": 23,
      "biggest_lead": 20,
      "lead_changes": 3
@@ -1357,14 +1357,14 @@
       "pts": 31,
       "reb": 6,
       "ast": 8,
-      "min": "37:55"
+      "min": "38:17"
      },
      {
       "name": "Austin Reaves",
-      "pts": 18,
+      "pts": 21,
       "reb": 8,
       "ast": 1,
-      "min": "35:33"
+      "min": "35:55"
      },
      {
       "name": "Collin Sexton",
@@ -1435,6 +1435,10 @@
     {
      "t": 47.4,
      "m": 6
+    },
+    {
+     "t": 47.8,
+     "m": 3
     }
    ]
   },
@@ -1801,36 +1805,36 @@
   {
    "game_id": "0022600074",
    "tip_utc": "2026-11-28T02:30:00Z",
-   "status": 2,
-   "status_text": "Q4 1:05",
+   "status": 3,
+   "status_text": "Final",
    "period": 4,
-   "clock": "1:05",
+   "clock": "0:00",
    "home": {
     "team": "POR",
-    "score": 111,
+    "score": 116,
     "periods": [
      37,
      30,
      24,
-     20
+     25
     ],
     "stats": {
-     "fgm": 39,
-     "fga": 93,
+     "fgm": 41,
+     "fga": 96,
      "fg3m": 12,
-     "fg3a": 48,
-     "ftm": 21,
-     "fta": 22,
+     "fg3a": 49,
+     "ftm": 22,
+     "fta": 23,
      "oreb": 15,
      "dreb": 39,
      "tov": 11,
-     "pf": 19,
-     "ast": 25,
+     "pf": 20,
+     "ast": 26,
      "stl": 8,
      "blk": 6,
-     "pts_paint": 54,
+     "pts_paint": 58,
      "pts_second_chance": 23,
-     "pts_fast_break": 16,
+     "pts_fast_break": 18,
      "pts_off_tov": 19,
      "pts_bench": 44,
      "biggest_lead": 36,
@@ -1839,55 +1843,55 @@
     "leaders": [
      {
       "name": "Deni Avdija",
-      "pts": 21,
+      "pts": 26,
       "reb": 7,
       "ast": 7,
-      "min": "35:25"
+      "min": "36:33"
      },
      {
       "name": "Toumani Camara",
       "pts": 20,
       "reb": 8,
       "ast": 2,
-      "min": "31:19"
+      "min": "31:22"
      },
      {
       "name": "Scoot Henderson",
       "pts": 18,
       "reb": 6,
-      "ast": 6,
-      "min": "30:58"
+      "ast": 7,
+      "min": "31:01"
      }
     ]
    },
    "away": {
     "team": "GSW",
-    "score": 90,
+    "score": 94,
     "periods": [
      11,
      33,
      34,
-     12
+     16
     ],
     "stats": {
-     "fgm": 31,
-     "fga": 85,
+     "fgm": 32,
+     "fga": 88,
      "fg3m": 14,
-     "fg3a": 40,
-     "ftm": 14,
-     "fta": 22,
-     "oreb": 11,
-     "dreb": 33,
+     "fg3a": 42,
+     "ftm": 16,
+     "fta": 24,
+     "oreb": 12,
+     "dreb": 34,
      "tov": 17,
-     "pf": 21,
-     "ast": 22,
+     "pf": 22,
+     "ast": 23,
      "stl": 8,
      "blk": 6,
      "pts_paint": 30,
-     "pts_second_chance": 12,
+     "pts_second_chance": 14,
      "pts_fast_break": 16,
      "pts_off_tov": 14,
-     "pts_bench": 24,
+     "pts_bench": 28,
      "biggest_lead": 0,
      "lead_changes": 0
     },
@@ -1975,6 +1979,10 @@
     {
      "t": 46.9,
      "m": 21
+    },
+    {
+     "t": 48.0,
+     "m": 22
     }
    ]
   }
