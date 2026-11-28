@@ -1,35 +1,163 @@
 {
- "updated": "2026-11-28T00:15:21+00:00",
+ "updated": "2026-11-28T00:25:20+00:00",
  "board_date": "2026-11-27",
  "games": [
   {
    "game_id": "0022600064",
    "tip_utc": "2026-11-28T00:00:00Z",
    "status": 2,
-   "status_text": "Q1 10:30",
+   "status_text": "Q1 5:22",
    "period": 1,
-   "clock": "10:30",
+   "clock": "5:22",
    "home": {
     "team": "NYK",
-    "score": 3,
+    "score": 11,
     "periods": [
-     3,
+     11,
      0,
      0,
      0
     ],
     "stats": {
-     "fgm": 1,
-     "fga": 2,
+     "fgm": 5,
+     "fga": 11,
      "fg3m": 1,
-     "fg3a": 2,
+     "fg3a": 4,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 5,
+     "tov": 3,
+     "pf": 2,
+     "ast": 3,
+     "stl": 1,
+     "blk": 0,
+     "pts_paint": 6,
+     "pts_second_chance": 0,
+     "pts_fast_break": 2,
+     "pts_off_tov": 2,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": [
+     {
+      "name": "Landry Shamet",
+      "pts": 5,
+      "reb": 1,
+      "ast": 0,
+      "min": "6:38"
+     },
+     {
+      "name": "Mikal Bridges",
+      "pts": 2,
+      "reb": 1,
+      "ast": 0,
+      "min": "6:38"
+     },
+     {
+      "name": "Karl-Anthony Towns",
+      "pts": 2,
+      "reb": 2,
+      "ast": 0,
+      "min": "6:38"
+     }
+    ]
+   },
+   "away": {
+    "team": "MIA",
+    "score": 15,
+    "periods": [
+     15,
+     0,
+     0,
+     0
+    ],
+    "stats": {
+     "fgm": 6,
+     "fga": 14,
+     "fg3m": 3,
+     "fg3a": 6,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 2,
+     "dreb": 5,
+     "tov": 1,
+     "pf": 1,
+     "ast": 5,
+     "stl": 2,
+     "blk": 0,
+     "pts_paint": 6,
+     "pts_second_chance": 2,
+     "pts_fast_break": 3,
+     "pts_off_tov": 5,
+     "pts_bench": 0,
+     "biggest_lead": 8,
+     "lead_changes": 0
+    },
+    "leaders": [
+     {
+      "name": "Bam Adebayo",
+      "pts": 7,
+      "reb": 1,
+      "ast": 0,
+      "min": "6:38"
+     },
+     {
+      "name": "Klay Thompson",
+      "pts": 6,
+      "reb": 0,
+      "ast": 2,
+      "min": "6:38"
+     },
+     {
+      "name": "Giannis Antetokounmpo",
+      "pts": 2,
+      "reb": 5,
+      "ast": 1,
+      "min": "6:38"
+     }
+    ]
+   },
+   "history": [
+    {
+     "t": 1.5,
+     "m": -3
+    },
+    {
+     "t": 6.6,
+     "m": -4
+    }
+   ]
+  },
+  {
+   "game_id": "0022600065",
+   "tip_utc": "2026-11-28T00:30:00Z",
+   "status": 1,
+   "status_text": "pregame",
+   "period": 0,
+   "clock": "0:00",
+   "home": {
+    "team": "DET",
+    "score": 0,
+    "periods": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
      "ftm": 0,
      "fta": 0,
      "oreb": 0,
      "dreb": 0,
-     "tov": 1,
+     "tov": 0,
      "pf": 0,
-     "ast": 1,
+     "ast": 0,
      "stl": 0,
      "blk": 0,
      "pts_paint": 0,
@@ -40,108 +168,7 @@
      "biggest_lead": 0,
      "lead_changes": 0
     },
-    "leaders": [
-     {
-      "name": "Landry Shamet",
-      "pts": 3,
-      "reb": 0,
-      "ast": 0,
-      "min": "1:29"
-     },
-     {
-      "name": "Mikal Bridges",
-      "pts": 0,
-      "reb": 0,
-      "ast": 0,
-      "min": "1:29"
-     },
-     {
-      "name": "Josh Hart",
-      "pts": 0,
-      "reb": 0,
-      "ast": 1,
-      "min": "1:29"
-     }
-    ]
-   },
-   "away": {
-    "team": "MIA",
-    "score": 6,
-    "periods": [
-     6,
-     0,
-     0,
-     0
-    ],
-    "stats": {
-     "fgm": 1,
-     "fga": 1,
-     "fg3m": 1,
-     "fg3a": 1,
-     "ftm": 0,
-     "fta": 0,
-     "oreb": 0,
-     "dreb": 0,
-     "tov": 0,
-     "pf": 0,
-     "ast": 1,
-     "stl": 0,
-     "blk": 0,
-     "pts_paint": 0,
-     "pts_second_chance": 0,
-     "pts_fast_break": 0,
-     "pts_off_tov": 3,
-     "pts_bench": 0,
-     "biggest_lead": 3,
-     "lead_changes": 0
-    },
-    "leaders": [
-     {
-      "name": "Klay Thompson",
-      "pts": 3,
-      "reb": 0,
-      "ast": 0,
-      "min": "1:29"
-     },
-     {
-      "name": "Giannis Antetokounmpo",
-      "pts": 0,
-      "reb": 0,
-      "ast": 0,
-      "min": "1:29"
-     },
-     {
-      "name": "Pelle Larsson",
-      "pts": 0,
-      "reb": 0,
-      "ast": 0,
-      "min": "1:29"
-     }
-    ]
-   },
-   "history": [
-    {
-     "t": 1.5,
-     "m": -3
-    }
-   ]
-  },
-  {
-   "game_id": "0022600065",
-   "tip_utc": "2026-11-28T00:30:00Z",
-   "status": 1,
-   "status_text": "7:30 pm ET",
-   "period": 0,
-   "clock": "",
-   "home": {
-    "team": "DET",
-    "score": 0,
-    "periods": [
-     0,
-     0,
-     0,
-     0
-    ]
+    "leaders": []
    },
    "away": {
     "team": "MIL",
@@ -151,7 +178,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "history": []
   },
@@ -159,9 +209,9 @@
    "game_id": "0022600066",
    "tip_utc": "2026-11-28T00:30:00Z",
    "status": 1,
-   "status_text": "7:30 pm ET",
+   "status_text": "pregame",
    "period": 0,
-   "clock": "",
+   "clock": "0:00",
    "home": {
     "team": "IND",
     "score": 0,
@@ -170,7 +220,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "away": {
     "team": "PHI",
@@ -180,7 +253,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "history": []
   },
@@ -188,9 +284,9 @@
    "game_id": "0022600067",
    "tip_utc": "2026-11-28T00:30:00Z",
    "status": 1,
-   "status_text": "7:30 pm ET",
+   "status_text": "pregame",
    "period": 0,
-   "clock": "",
+   "clock": "0:00",
    "home": {
     "team": "TOR",
     "score": 0,
@@ -199,7 +295,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "away": {
     "team": "BKN",
@@ -209,7 +328,30 @@
      0,
      0,
      0
-    ]
+    ],
+    "stats": {
+     "fgm": 0,
+     "fga": 0,
+     "fg3m": 0,
+     "fg3a": 0,
+     "ftm": 0,
+     "fta": 0,
+     "oreb": 0,
+     "dreb": 0,
+     "tov": 0,
+     "pf": 0,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "pts_paint": 0,
+     "pts_second_chance": 0,
+     "pts_fast_break": 0,
+     "pts_off_tov": 0,
+     "pts_bench": 0,
+     "biggest_lead": 0,
+     "lead_changes": 0
+    },
+    "leaders": []
    },
    "history": []
   },
