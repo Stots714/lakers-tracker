@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T04:50:19+00:00",
+ "updated": "2026-11-28T05:10:20+00:00",
  "source": "cdn.nba.com (GitHub job tools/cloud/nba_data.py)",
  "league": {
   "nba_results": "league_results.csv",
@@ -18,8 +18,8 @@
   "SAS"
  ],
  "games": 1206,
- "finals": 278,
- "read_this_run": 8,
+ "finals": 280,
+ "read_this_run": 10,
  "held_back": [],
  "steps": {
   "schedule": {
@@ -28,12 +28,12 @@
   },
   "box scores": {
    "ok": true,
-   "read": 8,
+   "read": 10,
    "held_back": 0
   },
   "injury report": {
    "ok": true,
-   "report": "Nov 27, 11:45 PM ET",
+   "report": "Nov 28, 12:00 AM ET",
    "changed": true
   }
  }
